@@ -74,6 +74,21 @@ function initTables(db: Database.Database) {
       created_at TEXT
     );
 
+    CREATE TABLE IF NOT EXISTS comments (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      post_id INTEGER NOT NULL,
+      author_name TEXT NOT NULL,
+      author_email TEXT NOT NULL,
+      author_avatar TEXT,
+      content TEXT NOT NULL,
+      is_approved INTEGER DEFAULT 0,
+      created_at TEXT,
+      FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_comments_post ON comments(post_id);
+    CREATE INDEX IF NOT EXISTS idx_comments_approved ON comments(is_approved);
+
     CREATE INDEX IF NOT EXISTS idx_posts_slug ON posts(slug);
     CREATE INDEX IF NOT EXISTS idx_posts_old_slug ON posts(old_slug);
     CREATE INDEX IF NOT EXISTS idx_posts_category ON posts(category_slug);
@@ -381,6 +396,7 @@ export function getStats(): DashboardStats {
   const viewsRow = db.prepare('SELECT SUM(views) as total FROM posts').get() as { total: number };
   const catCountRow = db.prepare('SELECT COUNT(*) as count FROM categories').get() as { count: number };
   const redirectCountRow = db.prepare('SELECT COUNT(*) as count FROM redirects').get() as { count: number };
+  const pendingCommentsRow = db.prepare('SELECT COUNT(*) as count FROM comments WHERE is_approved = 0').get() as { count: number };
 
   const recentRows = db.prepare('SELECT * FROM posts ORDER BY id DESC LIMIT 6').all();
   const breakdownRows = db.prepare(`
@@ -398,6 +414,7 @@ export function getStats(): DashboardStats {
     totalViews: viewsRow?.total || 0,
     totalCategories: catCountRow?.count || 0,
     totalRedirects: redirectCountRow?.count || 0,
+    pendingCommentsCount: pendingCommentsRow?.count || 0,
     recentPosts: recentRows.map(formatPostRow),
     categoryBreakdown: breakdownRows,
   };
@@ -924,5 +941,82 @@ export function getSeoAuditReport() {
     issues: issues.slice(0, 100), // top 100 issues
   };
 }
+
+// ==================== COMMENTS ====================
+
+export function getCommentsByPostId(postId: number, approvedOnly: boolean = true) {
+  const db = getDb();
+  let query = 'SELECT * FROM comments WHERE post_id = ?';
+  if (approvedOnly) {
+    query += ' AND is_approved = 1';
+  }
+  query += ' ORDER BY id DESC';
+  return db.prepare(query).all(postId) as any[];
+}
+
+export function createComment(data: {
+  postId: number;
+  authorName: string;
+  authorEmail: string;
+  authorAvatar?: string;
+  content: string;
+  isApproved?: number;
+}) {
+  const db = getDb();
+  const stmt = db.prepare(`
+    INSERT INTO comments (post_id, author_name, author_email, author_avatar, content, is_approved, created_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?)
+  `);
+  const now = new Date().toISOString();
+  const res = stmt.run(
+    data.postId,
+    data.authorName,
+    data.authorEmail,
+    data.authorAvatar || '',
+    data.content,
+    data.isApproved !== undefined ? data.isApproved : 0,
+    now
+  );
+  return {
+    id: Number(res.lastInsertRowid),
+    ...data,
+    created_at: now,
+  };
+}
+
+export function getAllComments(filter: 'all' | 'pending' | 'approved' = 'all') {
+  const db = getDb();
+  let query = `
+    SELECT c.*, p.title as post_title, p.slug as post_slug
+    FROM comments c
+    LEFT JOIN posts p ON c.post_id = p.id
+  `;
+  if (filter === 'pending') {
+    query += ' WHERE c.is_approved = 0';
+  } else if (filter === 'approved') {
+    query += ' WHERE c.is_approved = 1';
+  }
+  query += ' ORDER BY c.id DESC';
+  return db.prepare(query).all() as any[];
+}
+
+export function getPendingCommentsCount(): number {
+  const db = getDb();
+  const row = db.prepare('SELECT COUNT(*) as c FROM comments WHERE is_approved = 0').get() as any;
+  return row?.c || 0;
+}
+
+export function updateCommentStatus(id: number, isApproved: number): boolean {
+  const db = getDb();
+  const res = db.prepare('UPDATE comments SET is_approved = ? WHERE id = ?').run(isApproved, id);
+  return res.changes > 0;
+}
+
+export function deleteComment(id: number): boolean {
+  const db = getDb();
+  const res = db.prepare('DELETE FROM comments WHERE id = ?').run(id);
+  return res.changes > 0;
+}
+
 
 

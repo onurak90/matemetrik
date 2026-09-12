@@ -10,6 +10,7 @@ import {
 import { getPostBySlug, getRelatedPosts, incrementViews, getSettings } from '@/lib/db';
 import { formatDate, estimateReadingTime } from '@/lib/utils';
 import PostCard from '@/components/blog/PostCard';
+import CommentSection from '@/components/blog/CommentSection';
 
 interface PostPageProps {
   params: { slug: string };
@@ -283,6 +284,9 @@ export default async function BlogPostPage({ params }: PostPageProps) {
             </Link>
           </div>
         </div>
+
+        {/* Comment Section with Gmail Connect */}
+        <CommentSection postId={post.id} postTitle={post.title} />
 
         {/* Related Posts */}
         {relatedPosts.length > 0 && (

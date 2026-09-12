@@ -40,6 +40,7 @@ export interface DashboardStats {
   totalViews: number;
   totalCategories: number;
   totalRedirects: number;
+  pendingCommentsCount?: number;
   recentPosts: Post[];
   categoryBreakdown: { name: string; count: number; slug: string }[];
 }
@@ -49,4 +50,17 @@ export interface SiteSettings {
   site_description: string;
   site_author: string;
   site_url?: string;
+}
+
+export interface Comment {
+  id: number;
+  post_id: number;
+  post_title?: string;
+  post_slug?: string;
+  author_name: string;
+  author_email: string;
+  author_avatar?: string;
+  content: string;
+  is_approved: number;
+  created_at: string;
 }

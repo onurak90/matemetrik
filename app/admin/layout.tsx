@@ -7,7 +7,7 @@ import {
   LayoutDashboard, FileText, PlusCircle, FolderTree,
   Image, ArrowLeftRight, Settings, ExternalLink,
   Menu, X, ShieldCheck, BarChart3, Megaphone, Sparkles,
-  Share2, LogOut, HardDrive
+  Share2, LogOut, HardDrive, MessageSquare
 } from 'lucide-react';
 
 export default function AdminLayout({
@@ -17,6 +17,16 @@ export default function AdminLayout({
 }) {
   const pathname = usePathname();
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [pendingCommentsCount, setPendingCommentsCount] = useState<number>(0);
+
+  React.useEffect(() => {
+    fetch('/api/comments?filter=pending')
+      .then((res) => res.json())
+      .then((data) => {
+        if (Array.isArray(data)) setPendingCommentsCount(data.length);
+      })
+      .catch(() => {});
+  }, [pathname]);
 
   const handleLogout = async () => {
     try {
@@ -32,6 +42,7 @@ export default function AdminLayout({
     { name: 'Sosyal Medya Stüdyosu 📱', href: '/admin/social', icon: Share2 },
     { name: 'Tüm Yazılar', href: '/admin/posts', icon: FileText, exact: true },
     { name: 'Yeni Yazı Ekle', href: '/admin/posts/new', icon: PlusCircle },
+    { name: 'Yorumlar 💬', href: '/admin/comments', icon: MessageSquare, badge: pendingCommentsCount },
     { name: 'Raporlar & Analitik', href: '/admin/reports', icon: BarChart3 },
     { name: 'Kategoriler', href: '/admin/categories', icon: FolderTree },
     { name: 'Medya Kütüphanesi', href: '/admin/media', icon: Image },
@@ -117,7 +128,12 @@ export default function AdminLayout({
                 <item.icon
                   className={`w-4 h-4 ${active ? 'text-indigo-400' : 'text-slate-400'}`}
                 />
-                {item.name}
+                <span className="flex-1 truncate">{item.name}</span>
+                {Boolean(item.badge && item.badge > 0) && (
+                  <span className="px-2 py-0.5 rounded-full bg-rose-500 text-white text-[10px] font-extrabold animate-pulse">
+                    {item.badge}
+                  </span>
+                )}
               </Link>
             );
           })}
