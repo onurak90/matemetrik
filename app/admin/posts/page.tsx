@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   Search, Filter, Plus, Edit, Trash2, ExternalLink,
-  Eye, Calendar, ChevronLeft, ChevronRight, AlertCircle
+  Eye, Calendar, ChevronLeft, ChevronRight, AlertCircle, Sparkles
 } from 'lucide-react';
 import { Post, Category } from '@/lib/types';
 import { formatDate } from '@/lib/utils';
@@ -90,13 +90,22 @@ export default function AdminPostsPage() {
             Toplam <strong className="text-slate-800">{total}</strong> blog yazısı mevcut
           </p>
         </div>
-        <Link
-          href="/admin/posts/new"
-          className="inline-flex items-center gap-2 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-sm font-semibold transition-colors shadow-sm"
-        >
-          <Plus className="w-4 h-4" />
-          Yeni Yazı Ekle
-        </Link>
+        <div className="flex items-center gap-2">
+          <Link
+            href="/admin/ai-writer"
+            className="inline-flex items-center gap-2 px-4 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 hover:opacity-90 text-white rounded-xl text-sm font-semibold transition-all shadow-md shadow-indigo-600/20"
+          >
+            <Sparkles className="w-4 h-4" />
+            AI ile Yazı Üret ⚡
+          </Link>
+          <Link
+            href="/admin/posts/new"
+            className="inline-flex items-center gap-2 px-4 py-2.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl text-sm font-semibold transition-colors shadow-sm"
+          >
+            <Plus className="w-4 h-4" />
+            Manuel Yazı Ekle
+          </Link>
+        </div>
       </div>
 
       {/* Filter and Search Bar */}
@@ -162,13 +171,24 @@ export default function AdminPostsPage() {
                 {posts.map((post) => (
                   <tr key={post.id} className="hover:bg-slate-50/80 transition-colors">
                     <td className="py-3.5 px-4 max-w-md">
-                      <div className="font-semibold text-slate-900 line-clamp-1">
-                        <Link
-                          href={`/admin/posts/${post.id}`}
-                          className="hover:text-indigo-600 transition-colors"
-                        >
-                          {post.title}
-                        </Link>
+                      <div className="flex items-center gap-2">
+                        {post.is_published === 0 ? (
+                          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-200 shrink-0">
+                            Taslak
+                          </span>
+                        ) : (
+                          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 shrink-0">
+                            Yayında
+                          </span>
+                        )}
+                        <div className="font-semibold text-slate-900 line-clamp-1">
+                          <Link
+                            href={`/admin/posts/${post.id}`}
+                            className="hover:text-indigo-600 transition-colors"
+                          >
+                            {post.title}
+                          </Link>
+                        </div>
                       </div>
                       <div className="text-xs text-slate-400 font-mono mt-0.5 truncate">
                         /post/{post.slug}
