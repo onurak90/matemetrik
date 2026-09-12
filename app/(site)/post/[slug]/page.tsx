@@ -7,10 +7,13 @@ import {
   BookOpen, CheckCircle, Tag, ChevronRight,
   Sparkles, ExternalLink, AlertCircle
 } from 'lucide-react';
-import { getPostBySlug, getRelatedPosts, incrementViews, getSettings } from '@/lib/db';
+import { getPostBySlug, getRelatedPosts, getPrevNextPosts, incrementViews, getSettings } from '@/lib/db';
 import { formatDate, estimateReadingTime } from '@/lib/utils';
 import PostCard from '@/components/blog/PostCard';
 import CommentSection from '@/components/blog/CommentSection';
+import TableOfContents from '@/components/blog/TableOfContents';
+import ReadingProgressBar from '@/components/blog/ReadingProgressBar';
+import PrevNextNav from '@/components/blog/PrevNextNav';
 
 interface PostPageProps {
   params: { slug: string };
@@ -76,7 +79,9 @@ export default async function BlogPostPage({ params }: PostPageProps) {
   const adsEnabled = settings.ads_enabled === '1';
 
   const relatedPosts = getRelatedPosts(post.category_slug, post.slug, 3);
+  const prevNext = getPrevNextPosts(post.id, post.category_slug);
   const readingTime = estimateReadingTime(post.content);
+  const wordCount = post.content.replace(/<[^>]*>/g, ' ').split(/\s+/).filter(Boolean).length;
 
   // Schema.org BlogPosting
   const jsonLd = {
@@ -86,14 +91,23 @@ export default async function BlogPostPage({ params }: PostPageProps) {
     description: post.excerpt,
     datePublished: post.created_at,
     dateModified: post.updated_at,
+    inLanguage: 'tr-TR',
+    wordCount: wordCount,
+    articleSection: post.category,
+    keywords: post.tags && post.tags.length > 0 ? post.tags.join(', ') : undefined,
     author: {
       '@type': 'Person',
       name: post.author || 'Cavenaghi',
+      url: 'https://www.matemetrik.com/hakkimizda',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Matemetrik',
       url: 'https://www.matemetrik.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.matemetrik.com/icon.svg',
+      },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
@@ -130,6 +144,9 @@ export default async function BlogPostPage({ params }: PostPageProps) {
 
   return (
     <div className="py-10 pb-24">
+      {/* Scroll Reading Progress Bar */}
+      <ReadingProgressBar />
+
       {/* Schema.org scripts */}
       <script
         type="application/ld+json"
@@ -161,42 +178,48 @@ export default async function BlogPostPage({ params }: PostPageProps) {
 
         {/* Post Header */}
         <header className="space-y-4">
-          <Link
-            href={`/kategori/${post.category_slug}`}
-            className="inline-block text-xs font-bold px-3.5 py-1.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200/60 hover:bg-indigo-100 transition-colors"
-          >
-            {post.category}
-          </Link>
+          <div className="flex flex-wrap items-center gap-2">
+            <Link
+              href={`/kategori/${post.category_slug}`}
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-bold border border-indigo-100 hover:bg-indigo-100 transition-colors"
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              {post.category}
+            </Link>
 
-          <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
+            <span className="text-xs text-slate-400">&bull;</span>
+
+            <span className="text-xs text-slate-500 flex items-center gap-1">
+              <Clock className="w-3.5 h-3.5" />
+              {readingTime} okuma
+            </span>
+          </div>
+
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight">
             {post.title}
           </h1>
 
-          {/* Author and Metadata Bar */}
-          <div className="flex flex-wrap items-center justify-between gap-4 pt-2 pb-6 border-b border-slate-200 text-xs sm:text-sm text-slate-600">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-600 to-purple-600 text-white font-bold flex items-center justify-center text-sm shadow-md">
-                OA
+          {/* Author & Meta row */}
+          <div className="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-slate-100 text-xs text-slate-500">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-xs">
+                C
               </div>
               <div>
-                <div className="font-bold text-slate-900">{post.author}</div>
-                <div className="text-xs text-slate-400">Eğitimci & Matematikçi</div>
+                <div className="font-bold text-slate-900">{post.author || 'Cavenaghi'}</div>
+                <div className="text-[11px] text-slate-400">
+                  {formatDate(post.created_at)}
+                </div>
               </div>
             </div>
 
-            <div className="flex items-center gap-4 text-xs text-slate-500">
-              <span className="flex items-center gap-1.5">
-                <Calendar className="w-4 h-4 text-slate-400" />
+            <div className="flex items-center gap-4 text-xs">
+              <span className="flex items-center gap-1">
+                <Calendar className="w-3.5 h-3.5 text-slate-400" />
                 {formatDate(post.created_at)}
               </span>
-              <span>&bull;</span>
-              <span className="flex items-center gap-1.5">
-                <Clock className="w-4 h-4 text-slate-400" />
-                {readingTime}
-              </span>
-              <span>&bull;</span>
-              <span className="flex items-center gap-1.5">
-                <Eye className="w-4 h-4 text-slate-400" />
+              <span className="flex items-center gap-1">
+                <Eye className="w-3.5 h-3.5 text-slate-400" />
                 {post.views} görüntülenme
               </span>
             </div>
@@ -216,6 +239,9 @@ export default async function BlogPostPage({ params }: PostPageProps) {
 
         {/* Post Rich Content */}
         <article className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/80 shadow-sm">
+          {/* Smart Table of Contents (SERP Jump-Links) */}
+          <TableOfContents />
+
           <div
             className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-headings:text-slate-900 prose-p:leading-relaxed prose-p:text-slate-700 prose-img:rounded-2xl prose-img:shadow-md prose-img:mx-auto prose-table:border prose-table:border-slate-200"
             dangerouslySetInnerHTML={{ __html: post.content }}
@@ -312,6 +338,9 @@ export default async function BlogPostPage({ params }: PostPageProps) {
             </Link>
           </div>
         </div>
+
+        {/* Previous & Next Post Navigation (Internal SEO Silo) */}
+        <PrevNextNav prev={prevNext.prev} next={prevNext.next} />
 
         {/* Yazı Sonu / Benzer Yazılar Öncesi Reklam Slotu */}
         {adsEnabled && settings.ad_sidebar_code && (

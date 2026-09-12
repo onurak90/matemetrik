@@ -40,8 +40,43 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   const allCategories = getCategories();
   const categoryName = cat ? cat.name : params.slug;
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Ana Sayfa',
+        item: 'https://www.matemetrik.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: categoryName,
+        item: `https://www.matemetrik.com/kategori/${params.slug}`,
+      },
+    ],
+  };
+
+  const collectionJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `${categoryName} - Ders Notları ve Çözümler`,
+    description: cat?.description || `${categoryName} kategorisine ait MEB çözümleri ve matematik ders materyalleri.`,
+    url: `https://www.matemetrik.com/kategori/${params.slug}`,
+  };
+
   return (
     <div className="py-12 pb-24 space-y-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-slate-500">

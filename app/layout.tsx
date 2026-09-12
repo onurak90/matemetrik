@@ -90,9 +90,38 @@ export default function RootLayout({
   const settings = getSettings();
   const adsEnabled = settings.ads_enabled === '1';
 
+  const websiteJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: settings.site_name || 'Matemetrik',
+    url: 'https://www.matemetrik.com',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: 'https://www.matemetrik.com/?q={search_term_string}',
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
   return (
     <html lang="tr">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Matemetrik RSS Feed"
+          href="/rss.xml"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
         {adsEnabled && settings.ad_header_code && renderAdSenseHead(settings.ad_header_code)}
       </head>
       <body className="antialiased bg-slate-50 text-slate-900 min-h-screen selection:bg-indigo-500 selection:text-white">

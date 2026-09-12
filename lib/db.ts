@@ -219,6 +219,47 @@ export function getRelatedPosts(categorySlug: string, currentSlug: string, limit
   return rows.map(formatPostRow);
 }
 
+export function getPrevNextPosts(currentId: number, categorySlug?: string): { prev: Post | null; next: Post | null } {
+  const db = getDb();
+  let prevRow: any = null;
+  let nextRow: any = null;
+
+  if (categorySlug) {
+    prevRow = db.prepare(`
+      SELECT * FROM posts 
+      WHERE category_slug = ? AND id < ? AND is_published = 1 
+      ORDER BY id DESC LIMIT 1
+    `).get(categorySlug, currentId);
+
+    nextRow = db.prepare(`
+      SELECT * FROM posts 
+      WHERE category_slug = ? AND id > ? AND is_published = 1 
+      ORDER BY id ASC LIMIT 1
+    `).get(categorySlug, currentId);
+  }
+
+  if (!prevRow) {
+    prevRow = db.prepare(`
+      SELECT * FROM posts 
+      WHERE id < ? AND is_published = 1 
+      ORDER BY id DESC LIMIT 1
+    `).get(currentId);
+  }
+
+  if (!nextRow) {
+    nextRow = db.prepare(`
+      SELECT * FROM posts 
+      WHERE id > ? AND is_published = 1 
+      ORDER BY id ASC LIMIT 1
+    `).get(currentId);
+  }
+
+  return {
+    prev: prevRow ? formatPostRow(prevRow) : null,
+    next: nextRow ? formatPostRow(nextRow) : null,
+  };
+}
+
 export function createPost(post: {
   title: string;
   slug: string;
