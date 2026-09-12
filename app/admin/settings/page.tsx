@@ -3,11 +3,26 @@
 import React, { useState, useEffect } from 'react';
 import { Save, CheckCircle, Settings, Globe, Shield } from 'lucide-react';
 
+interface SiteSettings {
+  site_name: string;
+  site_description: string;
+  site_author: string;
+  gsc_verification?: string;
+  bing_verification?: string;
+  contact_phone?: string;
+  cta_top_text?: string;
+  [key: string]: string | undefined;
+}
+
 export default function AdminSettingsPage() {
-  const [settings, setSettings] = useState({
+  const [settings, setSettings] = useState<SiteSettings>({
     site_name: 'Matemetrik',
     site_description: 'Matematik, MEB ders kitabı cevapları, eğitim rehberliği ve öğretmen araçları platformu',
     site_author: 'Onur AK',
+    gsc_verification: '',
+    bing_verification: '',
+    contact_phone: '',
+    cta_top_text: '',
   });
   const [isSaving, setIsSaving] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -96,6 +111,73 @@ export default function AdminSettingsPage() {
             onChange={(e) => setSettings({ ...settings, site_author: e.target.value })}
             className="w-full p-3 text-sm border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
+        </div>
+
+        {/* Google & Bing Verification */}
+        <div className="pt-4 border-t border-slate-100 space-y-4">
+          <h3 className="font-bold text-sm text-slate-800 flex items-center gap-2">
+            <Globe className="w-4 h-4 text-indigo-600" />
+            Arama Motoru Doğrulama Kodları
+          </h3>
+
+          <div>
+            <label className="block text-xs font-semibold text-slate-600 mb-1">
+              Google Search Console Doğrulama Kodu (HTML Tag)
+            </label>
+            <input
+              type="text"
+              placeholder="google-site-verification=abc123xyz..."
+              value={settings.gsc_verification || ''}
+              onChange={(e) => setSettings({ ...settings, gsc_verification: e.target.value })}
+              className="w-full p-3 text-xs font-mono border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            />
+          </div>
+
+          <div>
+            <label className="block text-xs font-semibold text-slate-600 mb-1">
+              Bing Webmaster Doğrulama Kodu
+            </label>
+            <input
+              type="text"
+              placeholder="msvalidate.01=..."
+              value={settings.bing_verification || ''}
+              onChange={(e) => setSettings({ ...settings, bing_verification: e.target.value })}
+              className="w-full p-3 text-xs font-mono border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            />
+          </div>
+        </div>
+
+        {/* Contact & CTA Settings */}
+        <div className="pt-4 border-t border-slate-100 space-y-4">
+          <h3 className="font-bold text-sm text-slate-800 flex items-center gap-2">
+            <Shield className="w-4 h-4 text-indigo-600" />
+            İletişim &amp; Üst Banner CTA
+          </h3>
+
+          <div>
+            <label className="block text-xs font-semibold text-slate-600 mb-1">
+              Sticky WhatsApp / İletişim Numarası
+            </label>
+            <input
+              type="text"
+              placeholder="+90 555 000 00 00"
+              value={settings.contact_phone || ''}
+              onChange={(e) => setSettings({ ...settings, contact_phone: e.target.value })}
+              className="w-full p-3 text-xs border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            />
+          </div>
+
+          <div>
+            <label className="block text-xs font-semibold text-slate-600 mb-1">
+              Üst Bildirim Banner Metni (CTA)
+            </label>
+            <input
+              type="text"
+              value={settings.cta_top_text || ''}
+              onChange={(e) => setSettings({ ...settings, cta_top_text: e.target.value })}
+              className="w-full p-3 text-xs border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            />
+          </div>
         </div>
 
         <button

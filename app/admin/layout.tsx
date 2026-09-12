@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import {
   LayoutDashboard, FileText, PlusCircle, FolderTree,
   Image, ArrowLeftRight, Settings, ExternalLink,
-  Menu, X, Sparkles, ShieldCheck
+  Menu, X, ShieldCheck, BarChart3, Megaphone
 } from 'lucide-react';
 
 export default function AdminLayout({
@@ -21,8 +21,10 @@ export default function AdminLayout({
     { name: 'Dashboard', href: '/admin', icon: LayoutDashboard, exact: true },
     { name: 'Tüm Yazılar', href: '/admin/posts', icon: FileText, exact: true },
     { name: 'Yeni Yazı Ekle', href: '/admin/posts/new', icon: PlusCircle },
+    { name: 'Raporlar & Analitik', href: '/admin/reports', icon: BarChart3 },
     { name: 'Kategoriler', href: '/admin/categories', icon: FolderTree },
     { name: 'Medya Kütüphanesi', href: '/admin/media', icon: Image },
+    { name: 'Reklam Yönetimi', href: '/admin/ads', icon: Megaphone },
     { name: 'SEO & 301 Yönlendirme', href: '/admin/seo', icon: ArrowLeftRight },
     { name: 'Ayarlar', href: '/admin/settings', icon: Settings },
   ];

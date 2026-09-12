@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/footer/Footer';
+import StickyContactCta from '@/components/ui/StickyContactCta';
 
 export default function SiteLayout({
   children,
@@ -14,6 +15,7 @@ export default function SiteLayout({
         {children}
       </main>
       <Footer />
+      <StickyContactCta />
     </div>
   );
 }

@@ -392,6 +392,56 @@ export function getStats(): DashboardStats {
   };
 }
 
+export function getTopPosts(limit = 10): Post[] {
+  const db = getDb();
+  const rows = db.prepare(`
+    SELECT * FROM posts 
+    WHERE is_published = 1 
+    ORDER BY views DESC, id DESC 
+    LIMIT ?
+  `).all(limit);
+  return rows.map(formatPostRow);
+}
+
+export function getReports() {
+  const db = getDb();
+  const totalPostsRow = db.prepare('SELECT COUNT(*) as count FROM posts').get() as { count: number };
+  const totalViewsRow = db.prepare('SELECT SUM(views) as total FROM posts').get() as { total: number };
+  const avgViews = totalPostsRow.count > 0 ? Math.round((totalViewsRow.total || 0) / totalPostsRow.count) : 0;
+
+  const topPosts = getTopPosts(15);
+  const categoriesStats = db.prepare(`
+    SELECT c.name, c.slug, COUNT(p.id) as post_count, COALESCE(SUM(p.views), 0) as total_views
+    FROM categories c
+    LEFT JOIN posts p ON p.category_slug = c.slug AND p.is_published = 1
+    GROUP BY c.id
+    ORDER BY total_views DESC, post_count DESC
+  `).all();
+
+  // SEO Health Checks
+  const missingImages = db.prepare(`
+    SELECT id, title, slug, category, views FROM posts 
+    WHERE (featured_image IS NULL OR featured_image = '') AND is_published = 1
+    LIMIT 20
+  `).all().map(formatPostRow);
+
+  const shortExcerpts = db.prepare(`
+    SELECT id, title, slug, category, views FROM posts 
+    WHERE (excerpt IS NULL OR LENGTH(excerpt) < 50) AND is_published = 1
+    LIMIT 20
+  `).all().map(formatPostRow);
+
+  return {
+    totalPosts: totalPostsRow.count,
+    totalViews: totalViewsRow.total || 0,
+    avgViews,
+    topPosts,
+    categoriesStats,
+    missingImages,
+    shortExcerpts,
+  };
+}
+
 export function getSettings(): Record<string, string> {
   const db = getDb();
   const rows = db.prepare('SELECT * FROM settings').all() as { key: string; value: string }[];
@@ -399,6 +449,18 @@ export function getSettings(): Record<string, string> {
     site_name: 'Matemetrik',
     site_description: 'Matematik, MEB ders kitabı cevapları, eğitim rehberliği ve öğretmen araçları platformu',
     site_author: 'Onur AK',
+    site_url: 'https://www.matemetrik.com',
+    gsc_verification: '',
+    bing_verification: '',
+    ads_enabled: '0',
+    ad_header_code: '',
+    ad_in_article_code: '',
+    ad_sidebar_code: '',
+    ad_footer_code: '',
+    cta_top_enabled: '1',
+    cta_top_text: '🎉 2025-2026 MEB Müfredatına Uygun Yazılı Soruları & Karne Görüşü Robotu Yayında!',
+    cta_top_link: '/karne-gorusu-ureticisi',
+    contact_phone: '+90 555 000 00 00',
   };
   rows.forEach((r) => {
     settings[r.key] = r.value;

@@ -92,7 +92,7 @@ export default function AdminSeoPage() {
       </div>
 
       {/* Overview Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
         <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-center gap-4">
           <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
             <CheckCircle className="w-6 h-6" />
@@ -133,6 +133,49 @@ export default function AdminSeoPage() {
               /robots.txt <ExternalLink className="w-3.5 h-3.5" />
             </Link>
           </div>
+        </div>
+
+        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-center gap-4">
+          <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center">
+            <Search className="w-6 h-6" />
+          </div>
+          <div>
+            <div className="text-xs font-semibold text-slate-500 uppercase">Search Console</div>
+            <a
+              href="https://search.google.com/search-console?resource_id=https%3A%2F%2Fwww.matemetrik.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-bold text-blue-600 hover:underline flex items-center gap-1 mt-1"
+            >
+              Konsola Git <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Google Search Console Direct Connect Banner */}
+      <div className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white p-6 rounded-2xl shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="space-y-1">
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-blue-500/20 text-blue-300 text-xs font-semibold border border-blue-400/30">
+            <Search className="w-3.5 h-3.5" /> Google Search Console Entegrasyonu
+          </div>
+          <h2 className="text-lg font-bold text-white">
+            Google İndeksleme ve Site Haritası Bildirimi
+          </h2>
+          <p className="text-xs text-blue-200 max-w-2xl leading-relaxed">
+            Siteniz 492 adet temiz URL ile hazır. Google Search Console &gt; Site Haritaları bölümüne giderek <strong>https://www.matemetrik.com/sitemap.xml</strong> adresini eklemeniz yeterlidir.
+          </p>
+        </div>
+
+        <div className="flex items-center gap-2 shrink-0">
+          <a
+            href="https://search.google.com/search-console"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 bg-white text-blue-900 font-bold text-xs rounded-xl hover:bg-blue-50 transition-colors shadow-md flex items-center gap-1.5"
+          >
+            Search Console&apos;u Aç <ExternalLink className="w-3.5 h-3.5" />
+          </a>
         </div>
       </div>
 

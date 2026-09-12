@@ -8,6 +8,7 @@ import {
   CheckCircle, Globe, Image as ImageIcon, Sparkles
 } from 'lucide-react';
 import WpEditor from '@/components/admin/WpEditor';
+import SeoScoreAudit from '@/components/admin/SeoScoreAudit';
 import { Category } from '@/lib/types';
 import { slugify } from '@/lib/utils';
 
@@ -202,6 +203,15 @@ export default function NewPostPage() {
               </p>
             </div>
           </div>
+
+          {/* Live SEO Score Audit Widget */}
+          <SeoScoreAudit
+            title={title}
+            slug={slug}
+            excerpt={excerpt}
+            content={content}
+            featuredImage={featuredImage}
+          />
 
           {/* WordPress Rich Text Editor */}
           <div className="space-y-2">

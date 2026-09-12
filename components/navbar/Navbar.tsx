@@ -9,6 +9,8 @@ import {
   Compass, ArrowRight, Shield
 } from 'lucide-react';
 
+import TopCtaBanner from './TopCtaBanner';
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -59,6 +61,7 @@ export default function Navbar() {
           : 'bg-white border-b border-slate-100'
       }`}
     >
+      <TopCtaBanner />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
@@ -174,10 +177,24 @@ export default function Navbar() {
             </div>
 
             <Link
+              href="/kategori/kitap-ozet"
+              className="px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
+            >
+              Kitap Özetleri
+            </Link>
+
+            <Link
               href="/kategori/matematik-blog"
               className="px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
             >
-              Blog & Makaleler
+              Blog &amp; Makaleler
+            </Link>
+
+            <Link
+              href="/vaka-calismalari"
+              className="px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
+            >
+              Vaka Çalışmaları
             </Link>
 
             <Link
@@ -298,10 +315,24 @@ export default function Navbar() {
           </Link>
 
           <Link
+            href="/kategori/kitap-ozet"
+            className="block py-2 font-semibold text-slate-900 border-b border-slate-100"
+          >
+            Kitap Özetleri
+          </Link>
+
+          <Link
             href="/kategori/matematik-blog"
             className="block py-2 font-semibold text-slate-900 border-b border-slate-100"
           >
-            Blog & Makaleler
+            Blog &amp; Makaleler
+          </Link>
+
+          <Link
+            href="/vaka-calismalari"
+            className="block py-2 font-semibold text-slate-900 border-b border-slate-100"
+          >
+            Vaka Çalışmaları
           </Link>
 
           <Link

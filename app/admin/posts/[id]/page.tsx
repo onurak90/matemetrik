@@ -8,6 +8,7 @@ import {
   Trash2, Globe, Image as ImageIcon, AlertCircle
 } from 'lucide-react';
 import WpEditor from '@/components/admin/WpEditor';
+import SeoScoreAudit from '@/components/admin/SeoScoreAudit';
 import { Post, Category } from '@/lib/types';
 import { slugify } from '@/lib/utils';
 
@@ -269,6 +270,15 @@ export default function EditPostPage({ params }: { params: { id: string } }) {
               )}
             </div>
           </div>
+
+          {/* Live SEO Score Audit Widget */}
+          <SeoScoreAudit
+            title={title}
+            slug={slug}
+            excerpt={excerpt}
+            content={content}
+            featuredImage={featuredImage}
+          />
 
           {/* WordPress Rich Text Editor */}
           <div className="space-y-2">

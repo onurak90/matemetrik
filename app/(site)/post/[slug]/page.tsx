@@ -7,7 +7,7 @@ import {
   BookOpen, CheckCircle, Tag, ChevronRight,
   Sparkles, ExternalLink
 } from 'lucide-react';
-import { getPostBySlug, getRelatedPosts, incrementViews } from '@/lib/db';
+import { getPostBySlug, getRelatedPosts, incrementViews, getSettings } from '@/lib/db';
 import { formatDate, estimateReadingTime } from '@/lib/utils';
 import PostCard from '@/components/blog/PostCard';
 
@@ -70,6 +70,9 @@ export default async function BlogPostPage({ params }: PostPageProps) {
 
   // Increment view counter
   incrementViews(post.id);
+
+  const settings = getSettings();
+  const adsEnabled = settings.ads_enabled === '1';
 
   const relatedPosts = getRelatedPosts(post.category_slug, post.slug, 3);
   const readingTime = estimateReadingTime(post.content);
@@ -216,6 +219,16 @@ export default async function BlogPostPage({ params }: PostPageProps) {
             className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-headings:text-slate-900 prose-p:leading-relaxed prose-p:text-slate-700 prose-img:rounded-2xl prose-img:shadow-md prose-img:mx-auto prose-table:border prose-table:border-slate-200"
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
+
+          {/* In-Article Ad Slot */}
+          {adsEnabled && settings.ad_in_article_code && (
+            <div className="my-8 py-4 border-y border-slate-100 text-center">
+              <div
+                id="ad-in-article-container"
+                dangerouslySetInnerHTML={{ __html: settings.ad_in_article_code }}
+              />
+            </div>
+          )}
 
           {/* Tags */}
           {post.tags && post.tags.length > 0 && (

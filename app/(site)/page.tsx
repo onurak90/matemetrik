@@ -5,8 +5,10 @@ import {
   FileText, Award, ArrowRight, CheckCircle2,
   TrendingUp, Compass, ArrowUpRight
 } from 'lucide-react';
-import { getPosts, getCategories } from '@/lib/db';
+import { getPosts, getCategories, getTopPosts } from '@/lib/db';
 import PostCard from '@/components/blog/PostCard';
+import PostSlider from '@/components/home/PostSlider';
+import FaqSection from '@/components/home/FaqSection';
 
 export const revalidate = 60; // ISR cache for blazing fast performance
 
@@ -28,9 +30,7 @@ export default function HomePage({
   });
 
   const categories = getCategories();
-
-  // Top featured posts for hero showcase
-  const featuredPosts = posts.slice(0, 3);
+  const sliderPosts = getTopPosts(6);
 
   const gradeCards = [
     { title: '1. Sınıf', slug: '1-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500' },
@@ -200,6 +200,20 @@ export default function HomePage({
         </div>
       </section>
 
+      {/* Featured / Latest Posts Slider */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
+            <Sparkles className="w-5 h-5 text-indigo-600" />
+            Öne Çıkan ve En Çok Okunan Yazılar
+          </h2>
+          <span className="text-xs text-slate-500 hidden sm:inline">
+            Otomatik kayan güncel içerikler
+          </span>
+        </div>
+        <PostSlider posts={sliderPosts} />
+      </section>
+
       {/* Blog Posts Grid Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         {/* Section Header with Category Tabs */}
@@ -231,6 +245,7 @@ export default function HomePage({
             {[
               { name: '10. Sınıf', slug: '10-sinif' },
               { name: '9. Sınıf', slug: '9-sinif' },
+              { name: 'Kitap Özetleri', slug: 'kitap-ozet' },
               { name: 'Matematik Blog', slug: 'matematik-blog' },
               { name: 'MEB Cevapları', slug: 'meb-ders-kitabi-cevaplari' },
               { name: 'Rehberlik', slug: 'egitim-rehberligi' },
@@ -298,6 +313,11 @@ export default function HomePage({
           </div>
         )}
       </section>
+
+      {/* Sıkça Sorulan Sorular (FAQ Section with Schema.org) */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
+        <FaqSection />
+      </div>
     </div>
   );
 }
