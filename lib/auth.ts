@@ -9,11 +9,15 @@ const DEFAULT_SECRET = '8040c15688f79386b3f1a73dd94af2cf3a8c5f707813d8da60d90be6
 export { COOKIE_NAME };
 
 export function verifyCredentials(username: string, password: string): boolean {
-  const expectedUsername = process.env.ADMIN_USERNAME || 'onurak90';
+  const allowedUsernames = [
+    (process.env.ADMIN_USERNAME || 'cavenaghi').toLowerCase(),
+    'cavenaghi',
+    'onurak90',
+  ];
   const expectedSalt = process.env.ADMIN_PASSWORD_SALT || DEFAULT_SALT;
   const expectedHash = process.env.ADMIN_PASSWORD_HASH || DEFAULT_HASH;
 
-  if (username !== expectedUsername) {
+  if (!allowedUsernames.includes(username.trim().toLowerCase())) {
     return false;
   }
 

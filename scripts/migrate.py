@@ -143,7 +143,7 @@ def parse_post_html(html, original_url):
         date_published = d_el.get_text().strip() if d_el else time.strftime('%Y-%m-%dT%H:%M:%SZ')
         
     date_modified = ld_info.get('dateModified', date_published)
-    author = 'Onur AK'
+    author = 'Cavenaghi'
     if isinstance(ld_info.get('author'), dict) and ld_info.get('author').get('name'):
         author = ld_info.get('author').get('name')
         
@@ -343,7 +343,7 @@ def main():
 
     cur.execute("INSERT OR REPLACE INTO settings (key, value) VALUES ('site_name', 'Matemetrik')")
     cur.execute("INSERT OR REPLACE INTO settings (key, value) VALUES ('site_description', 'Matematik, MEB ders kitabı cevapları, eğitim rehberliği ve öğretmen araçları platformu')")
-    cur.execute("INSERT OR REPLACE INTO settings (key, value) VALUES ('site_author', 'Onur AK')")
+    cur.execute("INSERT OR REPLACE INTO settings (key, value) VALUES ('site_author', 'Cavenaghi')")
     conn.commit()
 
     sitemap_url = 'https://www.matemetrik.com/blog-posts-sitemap.xml'

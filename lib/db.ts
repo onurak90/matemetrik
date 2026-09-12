@@ -476,7 +476,7 @@ export function getSettings(): Record<string, string> {
   const settings: Record<string, string> = {
     site_name: 'Matemetrik',
     site_description: 'Matematik, MEB ders kitabı cevapları, eğitim rehberliği ve öğretmen araçları platformu',
-    site_author: 'Onur AK',
+    site_author: 'Cavenaghi',
     site_url: 'https://www.matemetrik.com',
     gsc_verification: '',
     bing_verification: '',

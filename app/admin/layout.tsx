@@ -158,10 +158,10 @@ export default function AdminLayout({
           <div className="flex items-center justify-between gap-2 px-2 pt-2 border-t border-slate-800/80">
             <div className="flex items-center gap-2.5 min-w-0">
               <div className="w-8 h-8 rounded-full bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center font-bold text-xs text-indigo-300 shrink-0">
-                OA
+                C
               </div>
               <div className="flex-1 min-w-0">
-                <div className="text-xs font-semibold text-white truncate">Onur AK</div>
+                <div className="text-xs font-semibold text-white truncate">Cavenaghi</div>
                 <div className="text-[10px] text-slate-400 truncate">Yönetici</div>
               </div>
             </div>

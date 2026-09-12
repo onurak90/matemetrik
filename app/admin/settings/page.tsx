@@ -18,7 +18,7 @@ export default function AdminSettingsPage() {
   const [settings, setSettings] = useState<SiteSettings>({
     site_name: 'Matemetrik',
     site_description: 'Matematik, MEB ders kitabı cevapları, eğitim rehberliği ve öğretmen araçları platformu',
-    site_author: 'Onur AK',
+    site_author: 'Cavenaghi',
     gsc_verification: '',
     bing_verification: '',
     contact_phone: '',

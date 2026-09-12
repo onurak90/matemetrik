@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
       type: 'article',
       publishedTime: post.created_at,
       modifiedTime: post.updated_at,
-      authors: [post.author || 'Onur AK'],
+      authors: [post.author || 'Cavenaghi'],
       tags: post.tags,
       images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }],
     },
@@ -88,7 +88,7 @@ export default async function BlogPostPage({ params }: PostPageProps) {
     dateModified: post.updated_at,
     author: {
       '@type': 'Person',
-      name: post.author || 'Onur AK',
+      name: post.author || 'Cavenaghi',
     },
     publisher: {
       '@type': 'Organization',
@@ -255,12 +255,12 @@ export default async function BlogPostPage({ params }: PostPageProps) {
         {/* Yazar Bilgisi (E-E-A-T) */}
         <div className="p-6 bg-white rounded-3xl border border-slate-200/80 shadow-sm flex flex-col sm:flex-row items-center sm:items-start gap-4">
           <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-indigo-600 to-violet-600 flex items-center justify-center text-white font-bold text-xl flex-shrink-0 shadow-md">
-            OA
+            C
           </div>
           <div className="space-y-1.5 text-center sm:text-left flex-1">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
               <h4 className="font-bold text-slate-900 text-sm">
-                {post.author || 'Onur AK'}
+                {post.author || 'Cavenaghi'}
               </h4>
               <span className="text-[11px] text-indigo-600 font-semibold bg-indigo-50 px-2.5 py-0.5 rounded-full border border-indigo-100 self-center sm:self-auto">
                 Matematik Eğitimcisi &amp; İçerik Editörü
