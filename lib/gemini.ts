@@ -30,10 +30,10 @@ interface GeneratedArticleResult {
 }
 
 const CANDIDATE_MODELS = [
-  'gemini-3.6-flash',
-  'gemini-3.5-flash',
-  'gemini-flash-latest',
   'gemini-3.5-flash-lite',
+  'gemini-3.5-flash',
+  'gemini-3.6-flash',
+  'gemini-flash-latest',
 ];
 
 export function getGeminiApiKey(): string {
@@ -64,16 +64,21 @@ async function callGeminiApi(prompt: string, expectJson: boolean = true): Promis
         };
       }
 
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 16000);
+
       const res = await fetch(url, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
+        signal: controller.signal,
       });
+      clearTimeout(timeout);
 
       const data = await res.json();
       if (!res.ok || data.error) {
         lastError = new Error(data.error?.message || `HTTP ${res.status}`);
-        // If unavailable or rate limited, try next model
+        // If unavailable or rate limited, try next model immediately
         continue;
       }
 
@@ -87,9 +92,25 @@ async function callGeminiApi(prompt: string, expectJson: boolean = true): Promis
         try {
           return JSON.parse(rawText);
         } catch {
-          // If JSON wrapped in markdown code fence
-          const clean = rawText.replace(/```json\n?|\n?```/g, '').trim();
-          return JSON.parse(clean);
+          const clean = rawText
+            .replace(/^```[a-z]*\s*/i, '')
+            .replace(/\s*```$/i, '')
+            .trim();
+          try {
+            return JSON.parse(clean);
+          } catch {
+            const firstBrace = clean.indexOf('{');
+            const lastBrace = clean.lastIndexOf('}');
+            if (firstBrace !== -1 && lastBrace > firstBrace) {
+              return JSON.parse(clean.substring(firstBrace, lastBrace + 1));
+            }
+            const firstBracket = clean.indexOf('[');
+            const lastBracket = clean.lastIndexOf(']');
+            if (firstBracket !== -1 && lastBracket > firstBracket) {
+              return JSON.parse(clean.substring(firstBracket, lastBracket + 1));
+            }
+            throw new Error('Geçersiz JSON formatı');
+          }
         }
       }
 
