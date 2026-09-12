@@ -68,6 +68,7 @@ function initTables(db: Database.Database) {
     CREATE INDEX IF NOT EXISTS idx_posts_old_slug ON posts(old_slug);
     CREATE INDEX IF NOT EXISTS idx_posts_category ON posts(category_slug);
     CREATE INDEX IF NOT EXISTS idx_posts_published ON posts(is_published);
+    CREATE INDEX IF NOT EXISTS idx_posts_title ON posts(title);
   `);
 }
 
@@ -473,3 +474,153 @@ export function updateSetting(key: string, value: string): void {
   const db = getDb();
   db.prepare('INSERT OR REPLACE INTO settings (key, value) VALUES (?, ?)').run(key, value);
 }
+
+export interface LiveSearchResult {
+  posts: Array<{
+    id: number;
+    title: string;
+    slug: string;
+    excerpt: string;
+    featured_image: string;
+    category: string;
+    category_slug: string;
+    views: number;
+    created_at: string;
+  }>;
+  categories: Array<{
+    name: string;
+    slug: string;
+    post_count: number;
+  }>;
+  tools: Array<{
+    title: string;
+    slug: string;
+    description: string;
+    badge: string;
+  }>;
+  totalCount: number;
+}
+
+export function searchPostsLive(query: string, limit = 6): LiveSearchResult {
+  const db = getDb();
+  const trimmed = (query || '').trim();
+  if (!trimmed || trimmed.length < 2) {
+    return { posts: [], categories: [], tools: [], totalCount: 0 };
+  }
+
+  // Generate smart Turkish and ASCII character variants for seamless search
+  const patternsSet = new Set<string>();
+  const base = trimmed.toLowerCase();
+  patternsSet.add(base);
+  patternsSet.add(base.replace(/i/g, 'ı'));
+  patternsSet.add(base.replace(/ı/g, 'i'));
+  patternsSet.add(base.replace(/[cgiosu]/g, (m) => ({ c: 'ç', g: 'ğ', i: 'ı', o: 'ö', s: 'ş', u: 'ü' }[m] || m)));
+  patternsSet.add(base.replace(/[cgiou]/g, (m) => ({ c: 'ç', g: 'ğ', i: 'ı', o: 'ö', u: 'ü' }[m] || m)));
+  patternsSet.add(base.replace(/[çğıöşü]/g, (m) => ({ ç: 'c', ğ: 'g', ı: 'i', ö: 'o', ş: 's', ü: 'u' }[m] || m)));
+
+  const patterns = Array.from(patternsSet);
+  const sqlPostConditions = patterns.map(() => '(title LIKE ? OR tags LIKE ? OR excerpt LIKE ?)').join(' OR ');
+  const sqlPostParams: string[] = [];
+  patterns.forEach((p) => {
+    const term = `%${p}%`;
+    sqlPostParams.push(term, term, term);
+  });
+
+  const sqlCategoryConditions = patterns.map(() => '(name LIKE ? OR description LIKE ?)').join(' OR ');
+  const sqlCategoryParams: string[] = [];
+  patterns.forEach((p) => {
+    const term = `%${p}%`;
+    sqlCategoryParams.push(term, term);
+  });
+
+  // 1. Matching Posts (Prioritize Title matches first, then tags/excerpt)
+  const primaryTerm = `%${trimmed}%`;
+  const rows = db.prepare(`
+    SELECT id, title, slug, excerpt, featured_image, category, category_slug, views, created_at
+    FROM posts
+    WHERE is_published = 1 AND (${sqlPostConditions})
+    ORDER BY 
+      CASE 
+        WHEN title LIKE ? THEN 1
+        WHEN tags LIKE ? THEN 2
+        ELSE 3 
+      END,
+      views DESC,
+      created_at DESC
+    LIMIT ?
+  `).all(...sqlPostParams, primaryTerm, primaryTerm, limit) as any[];
+
+  // Total count of matching posts
+  const countRow = db.prepare(`
+    SELECT COUNT(*) as count 
+    FROM posts 
+    WHERE is_published = 1 AND (${sqlPostConditions})
+  `).get(...sqlPostParams) as { count: number };
+
+  // 2. Matching Categories
+  const categoryRows = db.prepare(`
+    SELECT name, slug, 
+      (SELECT COUNT(*) FROM posts WHERE (category_slug = categories.slug OR category = categories.name) AND is_published = 1) as post_count
+    FROM categories
+    WHERE ${sqlCategoryConditions}
+    ORDER BY post_count DESC
+    LIMIT 3
+  `).all(...sqlCategoryParams) as any[];
+
+  // 3. Matching Tools
+  const SITE_TOOLS = [
+    {
+      title: 'Karne Görüşü Üreticisi',
+      slug: '/karne-gorusu-ureticisi',
+      description: 'Pedagojik ve özgün e-Okul karne görüşleri üretin',
+      badge: 'Robot & Araç',
+      keywords: ['karne', 'gorus', 'görüş', 'ogretmen', 'öğretmen', 'robot', 'not', 'degerlendirme', 'değerlendirme', 'karne görüşü', 'eokul', 'e-okul'],
+    },
+    {
+      title: 'Sınav Hazırlama Robotu',
+      slug: '/sinav-hazirlama-robotu',
+      description: 'MEB standartlarında çift sütunlu yazılı sınav kağıdı ve cevap anahtarı',
+      badge: 'MEB Formatı',
+      keywords: ['sinav', 'sınav', 'hazirlama', 'hazırlama', 'yazili', 'yazılı', 'test', 'soru', 'optik', 'kagit', 'kağıt', 'cevap anahtari', 'cevap anahtarı', 'robot'],
+    },
+    {
+      title: 'Kitap Özetleri Arşivi',
+      slug: '/kategori/kitap-ozet',
+      description: 'Dünya ve Türk edebiyatından derinlemesine kitap tahlilleri',
+      badge: 'Edebiyat',
+      keywords: ['kitap', 'ozet', 'özet', 'tahlil', 'roman', 'hikaye', 'yazar', 'edebiyat'],
+    },
+    {
+      title: 'Vaka Çalışmaları',
+      slug: '/vaka-calismalari',
+      description: 'Matemetrik başarı hikayeleri ve matematik başarı stratejileri',
+      badge: 'Başarı Rehberi',
+      keywords: ['vaka', 'calisma', 'çalışma', 'basari', 'başarı', 'ornek', 'örnek', 'lgs', 'yks', 'ayt'],
+    },
+  ];
+
+  const lower = trimmed.toLowerCase();
+  const lowerPatterns = patterns.map((p) => p.toLowerCase());
+  const matchingTools = SITE_TOOLS.filter((tool) =>
+    lowerPatterns.some((pat) => tool.title.toLowerCase().includes(pat)) ||
+    tool.keywords.some((kw) => lowerPatterns.some((pat) => kw.includes(pat) || pat.includes(kw)))
+  ).map(({ title, slug, description, badge }) => ({ title, slug, description, badge }));
+
+  return {
+    posts: rows.map(r => ({
+      id: r.id,
+      title: r.title,
+      slug: r.slug,
+      excerpt: r.excerpt ? (r.excerpt.slice(0, 95) + '...') : '',
+      featured_image: r.featured_image || '',
+      category: r.category || 'Genel',
+      category_slug: r.category_slug || 'genel',
+      views: r.views || 0,
+      created_at: r.created_at || '',
+    })),
+    categories: categoryRows,
+    tools: matchingTools,
+    totalCount: countRow ? countRow.count : 0,
+  };
+}
+

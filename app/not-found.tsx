@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Search, Home, BookOpen, Sparkles, ArrowRight } from 'lucide-react';
+import LiveSearchBox from '@/components/search/LiveSearchBox';
 
 export default function NotFound() {
   return (
@@ -25,21 +26,10 @@ export default function NotFound() {
           </p>
         </div>
 
-        {/* Quick Search */}
-        <form action="/" method="GET" className="relative max-w-md mx-auto">
-          <input
-            type="text"
-            name="q"
-            placeholder="Ders kitabı, sınıf veya konu ara..."
-            className="w-full pl-4 pr-24 py-3 bg-slate-800/90 border border-slate-700 text-white rounded-2xl text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder:text-slate-500"
-          />
-          <button
-            type="submit"
-            className="absolute right-1.5 top-1/2 -translate-y-1/2 px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl transition-colors"
-          >
-            Ara
-          </button>
-        </form>
+        {/* Quick Live Search */}
+        <div className="relative max-w-md mx-auto">
+          <LiveSearchBox variant="compact" />
+        </div>
 
         {/* Action Buttons */}
         <div className="flex flex-wrap items-center justify-center gap-3 pt-4">

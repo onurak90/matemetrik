@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 
 import TopCtaBanner from './TopCtaBanner';
+import LiveSearchBox from '@/components/search/LiveSearchBox';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -236,31 +237,13 @@ export default function Navbar() {
         {/* Live Search Bar Dropdown */}
         {searchOpen && (
           <div className="py-4 border-t border-slate-100 animate-fadeIn">
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                if (searchQuery.trim()) {
-                  window.location.href = `/?q=${encodeURIComponent(searchQuery.trim())}`;
-                }
-              }}
-              className="relative max-w-2xl mx-auto"
-            >
-              <Search className="w-5 h-5 text-indigo-600 absolute left-4 top-1/2 -translate-y-1/2" />
-              <input
-                type="text"
-                placeholder="468+ blog yazısı, konu anlatımı veya MEB cevaplarında ara..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+            <div className="relative max-w-2xl mx-auto">
+              <LiveSearchBox
+                variant="navbar"
                 autoFocus
-                className="w-full pl-12 pr-24 py-3 text-sm bg-slate-50 border border-slate-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:bg-white shadow-inner transition-all"
+                onSelectResult={() => setSearchOpen(false)}
               />
-              <button
-                type="submit"
-                className="absolute right-2 top-1/2 -translate-y-1/2 px-4 py-1.5 bg-indigo-600 text-white text-xs font-semibold rounded-xl hover:bg-indigo-700 transition-colors"
-              >
-                Ara
-              </button>
-            </form>
+            </div>
           </div>
         )}
       </div>
@@ -268,8 +251,18 @@ export default function Navbar() {
       {/* Mobile Drawer */}
       {isOpen && (
         <div className="lg:hidden bg-white border-b border-slate-200 px-6 py-6 space-y-4 max-h-[80vh] overflow-y-auto">
+          {/* Mobile Live Search */}
+          <div className="pb-3 border-b border-slate-100">
+            <LiveSearchBox
+              variant="navbar"
+              placeholder="Sitede anında ara..."
+              onSelectResult={() => setIsOpen(false)}
+            />
+          </div>
+
           <Link
             href="/"
+            onClick={() => setIsOpen(false)}
             className="block py-2 font-semibold text-slate-900 border-b border-slate-100"
           >
             Ana Sayfa

@@ -3,6 +3,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { Search, Sparkles, Compass, Zap } from 'lucide-react';
+import LiveSearchBox from '@/components/search/LiveSearchBox';
 
 interface DynamicMathHeroProps {
   searchQuery?: string;
@@ -243,29 +244,10 @@ export default function DynamicMathHero({ searchQuery }: DynamicMathHeroProps) {
           ))}
         </div>
 
-        {/* Search Box */}
-        <form
-          action="/"
-          method="GET"
-          className="relative max-w-2xl mx-auto shadow-2xl shadow-indigo-950/70 group"
-        >
-          <div className="relative flex items-center">
-            <Search className="w-5 h-5 text-indigo-500 absolute left-4 pointer-events-none group-focus-within:text-indigo-600 transition-colors" />
-            <input
-              type="text"
-              name="q"
-              defaultValue={searchQuery || ''}
-              placeholder="Örn: 10. sınıf ders kitabı çözümleri, pi sayısı, karne görüşü..."
-              className="w-full pl-12 pr-28 py-4 bg-white text-slate-900 rounded-2xl text-sm sm:text-base font-medium shadow-xl focus:outline-none focus:ring-4 focus:ring-indigo-500/40 transition-all placeholder:text-slate-400"
-            />
-            <button
-              type="submit"
-              className="absolute right-2 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white text-xs sm:text-sm font-bold rounded-xl transition-all shadow-md shadow-indigo-600/30 flex items-center gap-1"
-            >
-              <span>Ara</span>
-            </button>
-          </div>
-        </form>
+        {/* Live Search Box */}
+        <div className="relative max-w-2xl mx-auto shadow-2xl shadow-indigo-950/70">
+          <LiveSearchBox variant="hero" defaultValue={searchQuery} />
+        </div>
 
         {/* Quick Popular Keywords */}
         <div className="flex flex-wrap items-center justify-center gap-2 pt-2 text-xs">
