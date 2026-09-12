@@ -18,62 +18,32 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
-              Matemetrik; 1. sınıftan 12. sınıfa kadar tüm kademeler için MEB ders kitabı cevapları, matematik konu anlatımları, öğretmen karne görüşü robotu ve sınav hazırlık araçları sunan Türkiye’nin öncü eğitim platformudur.
+              Matemetrik; 1. sınıftan 12. sınıfa kadar tüm kademeler için matematik konu anlatımları, yeni nesil soru çözümleri, öğretmen karne görüşü robotu ve sınav hazırlık araçları sunan Türkiye’nin öncü eğitim platformudur.
             </p>
-            <div className="pt-2">
-              <Link
-                href="/admin"
-                className="inline-flex items-center gap-2 text-xs font-semibold text-indigo-400 hover:text-indigo-300"
-              >
-                <Shield className="w-3.5 h-3.5" />
-                Yönetim Paneli Girişi (/admin) &rarr;
-              </Link>
-            </div>
           </div>
 
-          {/* Col 2: Hızlı Kademeler */}
-          <div>
+          {/* Col 2: Sınıflar (1'den 12'ye kadar) */}
+          <div className="lg:col-span-1">
             <h3 className="text-white font-bold text-xs uppercase tracking-wider mb-4">
-              Kademeler
+              Sınıflar
             </h3>
-            <ul className="space-y-2.5 text-xs">
-              <li>
-                <Link href="/kategori/1-sinif" className="hover:text-white transition-colors">
-                  1. Sınıf Matematik
+            <div className="grid grid-cols-2 gap-x-2 gap-y-2 text-xs">
+              {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((grade) => (
+                <Link
+                  key={grade}
+                  href={`/kategori/${grade}-sinif`}
+                  className="hover:text-white hover:underline transition-colors"
+                >
+                  {grade}. Sınıf
                 </Link>
-              </li>
-              <li>
-                <Link href="/kategori/2-sinif" className="hover:text-white transition-colors">
-                  2. Sınıf Matematik
-                </Link>
-              </li>
-              <li>
-                <Link href="/kategori/9-sinif" className="hover:text-white transition-colors">
-                  9. Sınıf Matematik
-                </Link>
-              </li>
-              <li>
-                <Link href="/kategori/10-sinif" className="hover:text-white transition-colors">
-                  10. Sınıf Matematik
-                </Link>
-              </li>
-              <li>
-                <Link href="/kategori/11-sinif" className="hover:text-white transition-colors">
-                  11. Sınıf Matematik
-                </Link>
-              </li>
-              <li>
-                <Link href="/kategori/12-sinif" className="hover:text-white transition-colors">
-                  12. Sınıf AYT Matematik
-                </Link>
-              </li>
-            </ul>
+              ))}
+            </div>
           </div>
 
           {/* Col 3: Popüler Kategoriler & Araçlar */}
           <div>
             <h3 className="text-white font-bold text-xs uppercase tracking-wider mb-4">
-              Araçlar & Çözümler
+              Araçlar &amp; Çözümler
             </h3>
             <ul className="space-y-2.5 text-xs">
               <li>
@@ -87,8 +57,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/kategori/meb-ders-kitabi-cevaplari" className="hover:text-white transition-colors">
-                  MEB Ders Kitabı Çözümleri
+                <Link href="/kategori/kitap-ozet" className="hover:text-white transition-colors">
+                  Kitap Özetleri
                 </Link>
               </li>
               <li>
@@ -97,13 +67,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/kategori/kitap-ozet" className="hover:text-white transition-colors">
-                  Kitap Özetleri
+                <Link href="/kategori/egitim-rehberligi" className="hover:text-white transition-colors">
+                  Eğitim &amp; Sınav Rehberliği
                 </Link>
               </li>
               <li>
-                <Link href="/kategori/egitim-rehberligi" className="hover:text-white transition-colors">
-                  Eğitim & Sınav Rehberliği
+                <Link href="/vaka-calismalari" className="hover:text-white transition-colors">
+                  Vaka Çalışmaları
                 </Link>
               </li>
             </ul>
@@ -147,10 +117,10 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
-            &copy; {new Date().getFullYear()} Matemetrik.com &bull; Tüm Hakları Saklıdır.
+            2020 - {new Date().getFullYear()} matemetrik.com &bull; Tüm Hakları Saklıdır.
           </div>
           <div className="flex items-center gap-1 text-slate-400">
-            Next.js 14 & Tailwind CSS ile yüksek performans ve SEO için optimize edildi.
+            Matematik &amp; Eğitim Portalı
           </div>
         </div>
       </div>

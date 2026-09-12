@@ -47,8 +47,8 @@ export function getGeminiApiKey(): string {
   return 'AQ.Ab8RN6KcT_ST0wgHMOZx5Y2wWDvQFIr2troUzVes2YaQ3_wFLA';
 }
 
-async function callGeminiApi(prompt: string, expectJson: boolean = true): Promise<any> {
-  const apiKey = getGeminiApiKey();
+export async function callGeminiApi(prompt: string, expectJson: boolean = true, customApiKey?: string): Promise<any> {
+  const apiKey = customApiKey || getGeminiApiKey();
   let lastError: any = null;
 
   for (const model of CANDIDATE_MODELS) {

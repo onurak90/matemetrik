@@ -462,7 +462,9 @@ export function getSettings(): Record<string, string> {
     cta_top_text: '🎉 2025-2026 MEB Müfredatına Uygun Yazılı Soruları & Karne Görüşü Robotu Yayında!',
     cta_top_link: '/karne-gorusu-ureticisi',
     contact_phone: '+90 555 000 00 00',
-    gemini_api_key: 'AQ.Ab8RN6KcT_ST0wgHMOZx5Y2wWDvQFIr2troUzVes2YaQ3_wFLA',
+    gemini_api_key: process.env.GEMINI_API_KEY || 'AQ.Ab8RN6KcT_ST0wgHMOZx5Y2wWDvQFIr2troUzVes2YaQ3_wFLA',
+    openai_api_key: process.env.OPENAI_API_KEY || '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',
+    ai_provider: 'gemini',
   };
   rows.forEach((r) => {
     settings[r.key] = r.value;

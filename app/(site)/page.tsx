@@ -31,7 +31,8 @@ export default function HomePage({
   });
 
   const categories = getCategories();
-  const sliderPosts = getTopPosts(6);
+  // Fetch latest posts for slider (Son Yazılar)
+  const { posts: sliderPosts } = getPosts({ page: 1, limit: 6, publishedOnly: true });
 
   const gradeCards = [
     { title: '1. Sınıf', slug: '1-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500' },
@@ -146,15 +147,15 @@ export default function HomePage({
         </div>
       </section>
 
-      {/* Featured / Latest Posts Slider */}
+      {/* Latest Posts Slider */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-indigo-600" />
-            Öne Çıkan ve En Çok Okunan Yazılar
+            Son Yazılar
           </h2>
           <span className="text-xs text-slate-500 hidden sm:inline">
-            Otomatik kayan güncel içerikler
+            En son eklenen güncel ders çözümleri ve makaleler
           </span>
         </div>
         <PostSlider posts={sliderPosts} />
@@ -193,8 +194,8 @@ export default function HomePage({
               { name: '9. Sınıf', slug: '9-sinif' },
               { name: 'Kitap Özetleri', slug: 'kitap-ozet' },
               { name: 'Matematik Blog', slug: 'matematik-blog' },
-              { name: 'MEB Cevapları', slug: 'meb-ders-kitabi-cevaplari' },
               { name: 'Rehberlik', slug: 'egitim-rehberligi' },
+              { name: 'YKS & Sınavlar', slug: 'yks' },
             ].map((cat) => (
               <Link
                 key={cat.slug}

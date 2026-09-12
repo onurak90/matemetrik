@@ -19,6 +19,49 @@ export default function AdminPostsPage() {
   const [selectedCategory, setSelectedCategory] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [deletingId, setDeletingId] = useState<number | null>(null);
+  const [selectedIds, setSelectedIds] = useState<number[]>([]);
+  const [bulkLoading, setBulkLoading] = useState(false);
+
+  const toggleSelectOne = (id: number) => {
+    setSelectedIds((prev) =>
+      prev.includes(id) ? prev.filter((i) => i !== id) : [...prev, id]
+    );
+  };
+
+  const toggleSelectAll = () => {
+    if (selectedIds.length === posts.length) {
+      setSelectedIds([]);
+    } else {
+      setSelectedIds(posts.map((p) => p.id));
+    }
+  };
+
+  const handleBulkAction = async (action: 'publish' | 'draft' | 'delete') => {
+    if (selectedIds.length === 0) return;
+    if (action === 'delete') {
+      if (!confirm(`Seçilen ${selectedIds.length} yazıyı kalıcı olarak silmek istediğinizden emin misiniz?`)) {
+        return;
+      }
+    }
+    setBulkLoading(true);
+    try {
+      const res = await fetch('/api/posts/bulk', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ids: selectedIds, action }),
+      });
+      if (res.ok) {
+        setSelectedIds([]);
+        fetchPosts();
+      } else {
+        alert('Toplu işlem gerçekleştirilemedi.');
+      }
+    } catch {
+      alert('Bir hata oluştu.');
+    } finally {
+      setBulkLoading(false);
+    }
+  };
 
   const fetchPosts = async () => {
     setIsLoading(true);
@@ -143,6 +186,49 @@ export default function AdminPostsPage() {
         </div>
       </div>
 
+      {/* Bulk Actions Toolbar */}
+      {selectedIds.length > 0 && (
+        <div className="bg-indigo-900 text-white px-5 py-3 rounded-2xl shadow-xl flex flex-wrap items-center justify-between gap-3 animate-in fade-in slide-in-from-top-2">
+          <div className="flex items-center gap-3">
+            <span className="w-2 h-2 rounded-full bg-indigo-400 animate-pulse" />
+            <span className="text-xs sm:text-sm font-bold">
+              {selectedIds.length} yazı seçildi
+            </span>
+            <button
+              onClick={() => setSelectedIds([])}
+              className="text-xs text-indigo-300 hover:text-white underline ml-1"
+            >
+              Seçimi Temizle
+            </button>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <button
+              disabled={bulkLoading}
+              onClick={() => handleBulkAction('publish')}
+              className="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 disabled:opacity-50 text-white rounded-xl text-xs font-bold transition-colors shadow-sm flex items-center gap-1.5"
+            >
+              <span>✓ Yayına Al</span>
+            </button>
+            <button
+              disabled={bulkLoading}
+              onClick={() => handleBulkAction('draft')}
+              className="px-3 py-1.5 bg-amber-600 hover:bg-amber-500 disabled:opacity-50 text-white rounded-xl text-xs font-bold transition-colors shadow-sm flex items-center gap-1.5"
+            >
+              <span>⏸ Taslağa Çevir</span>
+            </button>
+            <button
+              disabled={bulkLoading}
+              onClick={() => handleBulkAction('delete')}
+              className="px-3 py-1.5 bg-rose-600 hover:bg-rose-500 disabled:opacity-50 text-white rounded-xl text-xs font-bold transition-colors shadow-sm flex items-center gap-1.5"
+            >
+              <Trash2 className="w-3.5 h-3.5" />
+              <span>Sil</span>
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* Posts Table */}
       <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
         {isLoading ? (
@@ -160,7 +246,16 @@ export default function AdminPostsPage() {
             <table className="w-full text-left text-sm text-slate-600">
               <thead className="bg-slate-50 border-b border-slate-200 text-xs font-semibold text-slate-500 uppercase tracking-wider">
                 <tr>
-                  <th className="py-3.5 px-4">Başlık & URL</th>
+                  <th className="py-3.5 px-4 w-10 text-center">
+                    <input
+                      type="checkbox"
+                      checked={posts.length > 0 && selectedIds.length === posts.length}
+                      onChange={toggleSelectAll}
+                      className="w-4 h-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500 cursor-pointer"
+                      title="Tümünü Seç"
+                    />
+                  </th>
+                  <th className="py-3.5 px-4">Başlık &amp; URL</th>
                   <th className="py-3.5 px-4">Kategori</th>
                   <th className="py-3.5 px-4 text-center">Görüntülenme</th>
                   <th className="py-3.5 px-4">Tarih</th>
@@ -168,9 +263,24 @@ export default function AdminPostsPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
-                {posts.map((post) => (
-                  <tr key={post.id} className="hover:bg-slate-50/80 transition-colors">
-                    <td className="py-3.5 px-4 max-w-md">
+                {posts.map((post) => {
+                  const isSelected = selectedIds.includes(post.id);
+                  return (
+                    <tr
+                      key={post.id}
+                      className={`transition-colors ${
+                        isSelected ? 'bg-indigo-50/60' : 'hover:bg-slate-50/80'
+                      }`}
+                    >
+                      <td className="py-3.5 px-4 text-center">
+                        <input
+                          type="checkbox"
+                          checked={isSelected}
+                          onChange={() => toggleSelectOne(post.id)}
+                          className="w-4 h-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500 cursor-pointer"
+                        />
+                      </td>
+                      <td className="py-3.5 px-4 max-w-md">
                       <div className="flex items-center gap-2">
                         {post.is_published === 0 ? (
                           <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-200 shrink-0">
@@ -244,7 +354,8 @@ export default function AdminPostsPage() {
                       </div>
                     </td>
                   </tr>
-                ))}
+                );
+              })}
               </tbody>
             </table>
           </div>

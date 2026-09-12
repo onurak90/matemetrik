@@ -6,7 +6,8 @@ import { usePathname } from 'next/navigation';
 import {
   LayoutDashboard, FileText, PlusCircle, FolderTree,
   Image, ArrowLeftRight, Settings, ExternalLink,
-  Menu, X, ShieldCheck, BarChart3, Megaphone, Sparkles
+  Menu, X, ShieldCheck, BarChart3, Megaphone, Sparkles,
+  Share2, LogOut
 } from 'lucide-react';
 
 export default function AdminLayout({
@@ -17,9 +18,18 @@ export default function AdminLayout({
   const pathname = usePathname();
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
+  const handleLogout = async () => {
+    try {
+      await fetch('/api/auth/logout', { method: 'POST' });
+    } finally {
+      window.location.href = '/yonetim';
+    }
+  };
+
   const navigation = [
     { name: 'Dashboard', href: '/admin', icon: LayoutDashboard, exact: true },
     { name: 'AI Blog Stüdyosu ⚡', href: '/admin/ai-writer', icon: Sparkles },
+    { name: 'Sosyal Medya Stüdyosu 📱', href: '/admin/social', icon: Share2 },
     { name: 'Tüm Yazılar', href: '/admin/posts', icon: FileText, exact: true },
     { name: 'Yeni Yazı Ekle', href: '/admin/posts/new', icon: PlusCircle },
     { name: 'Raporlar & Analitik', href: '/admin/reports', icon: BarChart3 },
@@ -128,14 +138,24 @@ export default function AdminLayout({
             </span>
           </Link>
 
-          <div className="flex items-center gap-3 px-2 pt-2 border-t border-slate-800/80">
-            <div className="w-8 h-8 rounded-full bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center font-bold text-xs text-indigo-300">
-              OA
+          <div className="flex items-center justify-between gap-2 px-2 pt-2 border-t border-slate-800/80">
+            <div className="flex items-center gap-2.5 min-w-0">
+              <div className="w-8 h-8 rounded-full bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center font-bold text-xs text-indigo-300 shrink-0">
+                OA
+              </div>
+              <div className="flex-1 min-w-0">
+                <div className="text-xs font-semibold text-white truncate">Onur AK</div>
+                <div className="text-[10px] text-slate-400 truncate">Yönetici</div>
+              </div>
             </div>
-            <div className="flex-1 min-w-0">
-              <div className="text-xs font-semibold text-white truncate">Onur AK</div>
-              <div className="text-[10px] text-slate-400 truncate">Yönetici</div>
-            </div>
+            <button
+              type="button"
+              onClick={handleLogout}
+              className="p-1.5 text-slate-400 hover:text-rose-400 rounded-lg hover:bg-slate-800 transition-colors"
+              title="Güvenli Çıkış Yap"
+            >
+              <LogOut className="w-4 h-4" />
+            </button>
           </div>
         </div>
       </aside>
@@ -157,15 +177,25 @@ export default function AdminLayout({
             </div>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5">
             <Link
               href="/"
               target="_blank"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-xl transition-colors"
             >
               <ExternalLink className="w-3.5 h-3.5" />
               Siteyi Ziyaret Et
             </Link>
+
+            <button
+              type="button"
+              onClick={handleLogout}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-rose-600 bg-rose-50 hover:bg-rose-100 border border-rose-200 rounded-xl transition-colors"
+              title="Oturumu Kapat"
+            >
+              <LogOut className="w-3.5 h-3.5" />
+              <span>Çıkış Yap</span>
+            </button>
           </div>
         </header>
 

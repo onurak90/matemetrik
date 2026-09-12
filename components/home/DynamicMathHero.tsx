@@ -9,16 +9,18 @@ interface DynamicMathHeroProps {
   searchQuery?: string;
 }
 
-// Mathematical formulas and symbols orbiting in space
-const ORBITING_FORMULAS = [
-  { text: 'e^(iπ) + 1 = 0', label: 'Euler Özdeşliği', speed: 38, radius: 'min(460px, 46vw)', angle: 0 },
-  { text: '∫ e^(-x²)dx = √π/2', label: 'Gauss İntegrali', speed: 44, radius: 'min(380px, 38vw)', angle: 45 },
-  { text: 'a² + b² = c²', label: 'Pisagor Teoremi', speed: 32, radius: 'min(310px, 31vw)', angle: 120 },
-  { text: 'Δ = b² - 4ac', label: 'Diskriminant', speed: 48, radius: 'min(440px, 44vw)', angle: 190 },
-  { text: '∑ 1/n² = π²/6', label: 'Basel Problemi', speed: 40, radius: 'min(360px, 36vw)', angle: 240 },
-  { text: 'sin²θ + cos²θ = 1', label: 'Trigonometri', speed: 35, radius: 'min(290px, 29vw)', angle: 290 },
-  { text: 'lim (sin x)/x = 1', label: 'Özel Limit', speed: 42, radius: 'min(420px, 42vw)', angle: 150 },
-  { text: 'φ = (1+√5)/2', label: 'Altın Oran', speed: 36, radius: 'min(340px, 34vw)', angle: 80 },
+// Pure mathematical symbols orbiting in 3D space (no formulas)
+const ORBITING_MATH_SYMBOLS = [
+  { symbol: 'π', speed: 32, radius: 'min(460px, 46vw)', color: '#818cf8', size: 'text-2xl' },
+  { symbol: '∑', speed: 40, radius: 'min(390px, 39vw)', color: '#c084fc', size: 'text-2xl' },
+  { symbol: '∫', speed: 36, radius: 'min(330px, 33vw)', color: '#38bdf8', size: 'text-3xl' },
+  { symbol: '∞', speed: 44, radius: 'min(440px, 44vw)', color: '#a855f7', size: 'text-2xl' },
+  { symbol: '√x', speed: 34, radius: 'min(280px, 28vw)', color: '#60a5fa', size: 'text-xl' },
+  { symbol: 'Δ', speed: 42, radius: 'min(360px, 36vw)', color: '#f472b6', size: 'text-xl' },
+  { symbol: 'θ', speed: 38, radius: 'min(310px, 31vw)', color: '#4ade80', size: 'text-xl' },
+  { symbol: 'φ', speed: 46, radius: 'min(420px, 42vw)', color: '#fbbf24', size: 'text-2xl' },
+  { symbol: 'Ω', speed: 35, radius: 'min(350px, 35vw)', color: '#38bdf8', size: 'text-xl' },
+  { symbol: '∇', speed: 41, radius: 'min(400px, 40vw)', color: '#c084fc', size: 'text-xl' },
 ];
 
 const ROTATING_WORDS = [
@@ -180,7 +182,7 @@ export default function DynamicMathHero({ searchQuery }: DynamicMathHeroProps) {
           transition: 'transform 0.2s ease-out',
         }}
       >
-        {ORBITING_FORMULAS.map((item, idx) => {
+        {ORBITING_MATH_SYMBOLS.map((item, idx) => {
           return (
             <div
               key={idx}
@@ -189,18 +191,18 @@ export default function DynamicMathHero({ searchQuery }: DynamicMathHeroProps) {
                 width: item.radius,
                 height: item.radius,
                 animation: `spinOrbit ${item.speed}s linear infinite`,
-                animationDelay: `-${idx * 5}s`,
+                animationDelay: `-${idx * 4}s`,
               }}
             >
               <div
-                className="absolute top-0 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full bg-slate-900/80 backdrop-blur-md border border-indigo-500/30 text-indigo-200 text-xs font-mono shadow-lg shadow-indigo-950/50 flex items-center gap-1.5 hover:border-indigo-400 hover:text-white transition-colors"
+                className="absolute top-0 left-1/2 -translate-x-1/2 w-10 h-10 rounded-2xl bg-slate-900/85 backdrop-blur-md border border-indigo-500/30 shadow-xl shadow-indigo-950/60 flex items-center justify-center font-serif font-black hover:border-indigo-400 hover:scale-125 transition-all"
                 style={{
                   animation: `counterSpin ${item.speed}s linear infinite`,
-                  animationDelay: `-${idx * 5}s`,
+                  animationDelay: `-${idx * 4}s`,
+                  color: item.color,
                 }}
               >
-                <span className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse" />
-                <span className="font-bold tracking-tight">{item.text}</span>
+                <span className={item.size}>{item.symbol}</span>
               </div>
             </div>
           );
@@ -232,14 +234,14 @@ export default function DynamicMathHero({ searchQuery }: DynamicMathHeroProps) {
           1. sınıftan 12. sınıfa MEB ders kitabı çözümleri, yeni nesil soru kalıpları, karne görüşü üreticisi ve online sınav hazırlama araçları.
         </p>
 
-        {/* Live Mathematical Formula Ticker (Visible on Mobile & Tablet) */}
+        {/* Live Mathematical Symbol Ticker (Visible on Mobile & Tablet) */}
         <div className="flex flex-wrap items-center justify-center gap-2 pt-1 md:hidden">
-          {['f(x) = ax + b', 'sin²θ + cos²θ = 1', 'a² + b² = c²', 'Δ = b² - 4ac'].map((formula, idx) => (
+          {['π', '∑', '∫', '∞', '√x', 'Δ', 'θ', 'φ', 'Ω', '∇'].map((symbol, idx) => (
             <span
               key={idx}
-              className="px-2.5 py-1 rounded-lg bg-indigo-950/60 border border-indigo-800/60 text-indigo-300 text-[11px] font-mono shadow-sm"
+              className="w-8 h-8 rounded-xl bg-indigo-950/80 border border-indigo-800/60 text-indigo-300 font-serif font-black flex items-center justify-center text-base shadow-sm"
             >
-              {formula}
+              {symbol}
             </span>
           ))}
         </div>
