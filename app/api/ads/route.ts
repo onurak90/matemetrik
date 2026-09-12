@@ -10,6 +10,7 @@ export async function GET() {
       ad_in_article_code: settings.ad_in_article_code || '',
       ad_sidebar_code: settings.ad_sidebar_code || '',
       ad_footer_code: settings.ad_footer_code || '',
+      ads_txt: settings.ads_txt || '',
     });
   } catch (error: any) {
     return NextResponse.json({ error: error.message }, { status: 500 });
@@ -25,6 +26,7 @@ export async function POST(request: NextRequest) {
       'ad_in_article_code',
       'ad_sidebar_code',
       'ad_footer_code',
+      'ads_txt',
     ];
 
     for (const key of allowedKeys) {

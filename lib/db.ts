@@ -485,6 +485,7 @@ export function getSettings(): Record<string, string> {
     ad_in_article_code: '',
     ad_sidebar_code: '',
     ad_footer_code: '',
+    ads_txt: '# Google AdSense ads.txt - Matemetrik\n# Reklam kimliğinizi (pub-xxxxxxxxxxxxxxxx) aşağıdaki formata göre ekleyebilirsiniz:\n# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0\n',
     cta_top_enabled: '1',
     cta_top_text: '🎉 2025-2026 MEB Müfredatına Uygun Yazılı Soruları & Karne Görüşü Robotu Yayında!',
     cta_top_link: '/karne-gorusu-ureticisi',

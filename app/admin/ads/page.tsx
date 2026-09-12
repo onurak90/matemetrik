@@ -12,6 +12,7 @@ export default function AdminAdsPage() {
   const [adInArticleCode, setAdInArticleCode] = useState('');
   const [adSidebarCode, setAdSidebarCode] = useState('');
   const [adFooterCode, setAdFooterCode] = useState('');
+  const [adsTxt, setAdsTxt] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [isSaving, setIsSaving] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -25,6 +26,7 @@ export default function AdminAdsPage() {
         setAdInArticleCode(data.ad_in_article_code || '');
         setAdSidebarCode(data.ad_sidebar_code || '');
         setAdFooterCode(data.ad_footer_code || '');
+        setAdsTxt(data.ads_txt || '');
       })
       .catch(console.error)
       .finally(() => setIsLoading(false));
@@ -43,6 +45,7 @@ export default function AdminAdsPage() {
           ad_in_article_code: adInArticleCode,
           ad_sidebar_code: adSidebarCode,
           ad_footer_code: adFooterCode,
+          ads_txt: adsTxt,
         }),
       });
 
@@ -168,6 +171,34 @@ export default function AdminAdsPage() {
             value={adFooterCode}
             onChange={(e) => setAdFooterCode(e.target.value)}
             placeholder="<script>/* Footer Scripts */</script>"
+            className="w-full p-3 font-mono text-xs text-slate-900 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          />
+        </div>
+
+        {/* ads.txt Editor */}
+        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+          <div className="flex items-center justify-between">
+            <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
+              <ShieldCheck className="w-4 h-4 text-emerald-600" />
+              ads.txt Dosyası Yönetimi (Google AdSense Zorunlu)
+            </label>
+            <a
+              href="/ads.txt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[11px] text-indigo-600 font-bold hover:underline"
+            >
+              Dosyayı Görüntüle (/ads.txt) &rarr;
+            </a>
+          </div>
+          <p className="text-xs text-slate-500">
+            Google AdSense hesabınız onaylandığında size verilen yayıncı kimliği satırını buraya yapıştırın. Örnek: <code className="bg-slate-100 px-1 py-0.5 rounded text-[11px] font-mono text-slate-800">google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0</code>
+          </p>
+          <textarea
+            rows={4}
+            value={adsTxt}
+            onChange={(e) => setAdsTxt(e.target.value)}
+            placeholder="google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0"
             className="w-full p-3 font-mono text-xs text-slate-900 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
         </div>

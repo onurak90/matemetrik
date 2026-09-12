@@ -86,6 +86,11 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 text-xs">
               <li>
+                <Link href="/iletisim" className="hover:text-white transition-colors text-indigo-400 font-semibold">
+                  İletişim (matemetrik@gmail.com)
+                </Link>
+              </li>
+              <li>
                 <Link href="/hakkimizda" className="hover:text-white transition-colors">
                   Hakkımızda
                 </Link>
@@ -97,7 +102,17 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/gizlilik-politikasi" className="hover:text-white transition-colors">
-                  Gizlilik Politikası
+                  Gizlilik Politikası (KVKK)
+                </Link>
+              </li>
+              <li>
+                <Link href="/cerez-politikasi" className="hover:text-white transition-colors">
+                  Çerez Politikası
+                </Link>
+              </li>
+              <li>
+                <Link href="/ads.txt" className="hover:text-white transition-colors">
+                  ads.txt
                 </Link>
               </li>
               <li>
@@ -114,13 +129,18 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Disclaimer for AdSense / Copyright Protection */}
+        <div className="mt-8 pt-6 border-t border-slate-800/80 text-[11px] text-slate-500 leading-relaxed text-center sm:text-left">
+          <strong>Yasal Uyarı &amp; Sorumluluk Reddi:</strong> Matemetrik.com, öğrencilere ve öğretmenlere destek olmak amacıyla kurulmuş bağımsız bir eğitim portalıdır. Millî Eğitim Bakanlığı (MEB) veya Talim Terbiye Kurulu ile doğrudan resmi/kurumsal bir bağı bulunmamaktadır. Sitede yer alan ders çözümleri ve rehberlik içerikleri eğitimde fırsat eşitliği ve ev ödevi kontrolü amacıyla hazırlanmıştır.
+        </div>
+
         {/* Bottom bar */}
-        <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <div className="mt-6 pt-6 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
             2020 - {new Date().getFullYear()} matemetrik.com &bull; Tüm Hakları Saklıdır.
           </div>
           <div className="flex items-center gap-1 text-slate-400">
-            Matematik &amp; Eğitim Portalı
+            Matematik &amp; Eğitim Portalı &bull; İletişim: matemetrik@gmail.com
           </div>
         </div>
       </div>

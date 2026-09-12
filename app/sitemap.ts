@@ -30,19 +30,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/hakkimizda`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.5,
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/iletisim`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
     },
     {
       url: `${baseUrl}/kullanim-sartlari`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.3,
+      priority: 0.4,
     },
     {
       url: `${baseUrl}/gizlilik-politikasi`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.3,
+      priority: 0.4,
+    },
+    {
+      url: `${baseUrl}/cerez-politikasi`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.4,
     },
   ];
 

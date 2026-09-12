@@ -59,6 +59,29 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
+function renderAdSenseHead(rawCode: string) {
+  if (!rawCode) return null;
+  const srcMatch = rawCode.match(/src=["']([^"']+)["']/i);
+  if (srcMatch) {
+    return (
+      <script
+        async
+        src={srcMatch[1]}
+        crossOrigin="anonymous"
+      />
+    );
+  }
+  const cleanInline = rawCode.replace(/<\/?script[^>]*>/gi, '').trim();
+  if (cleanInline) {
+    return (
+      <script
+        dangerouslySetInnerHTML={{ __html: cleanInline }}
+      />
+    );
+  }
+  return null;
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -69,6 +92,9 @@ export default function RootLayout({
 
   return (
     <html lang="tr">
+      <head>
+        {adsEnabled && settings.ad_header_code && renderAdSenseHead(settings.ad_header_code)}
+      </head>
       <body className="antialiased bg-slate-50 text-slate-900 min-h-screen selection:bg-indigo-500 selection:text-white">
         {adsEnabled && settings.ad_header_code && (
           <div

@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import {
   Calendar, Clock, Eye, Share2, ArrowLeft,
   BookOpen, CheckCircle, Tag, ChevronRight,
-  Sparkles, ExternalLink
+  Sparkles, ExternalLink, AlertCircle
 } from 'lucide-react';
 import { getPostBySlug, getRelatedPosts, incrementViews, getSettings } from '@/lib/db';
 import { formatDate, estimateReadingTime } from '@/lib/utils';
@@ -252,6 +252,34 @@ export default async function BlogPostPage({ params }: PostPageProps) {
           )}
         </article>
 
+        {/* Yazar Bilgisi (E-E-A-T) */}
+        <div className="p-6 bg-white rounded-3xl border border-slate-200/80 shadow-sm flex flex-col sm:flex-row items-center sm:items-start gap-4">
+          <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-indigo-600 to-violet-600 flex items-center justify-center text-white font-bold text-xl flex-shrink-0 shadow-md">
+            OA
+          </div>
+          <div className="space-y-1.5 text-center sm:text-left flex-1">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+              <h4 className="font-bold text-slate-900 text-sm">
+                {post.author || 'Onur AK'}
+              </h4>
+              <span className="text-[11px] text-indigo-600 font-semibold bg-indigo-50 px-2.5 py-0.5 rounded-full border border-indigo-100 self-center sm:self-auto">
+                Matematik Eğitimcisi &amp; İçerik Editörü
+              </span>
+            </div>
+            <p className="text-xs text-slate-600 leading-relaxed">
+              Milli Eğitim Bakanlığı (MEB) müfredatına uygun matematik ders kitabı çözümleri, pedagojik rehberlik ve yeni nesil soru kalıpları üzerine içerikler üretmektedir.
+            </p>
+          </div>
+        </div>
+
+        {/* MEB Sorumluluk Reddi (Telif & Güvenilirlik) */}
+        <div className="p-4 rounded-2xl bg-amber-50/70 border border-amber-200/70 text-[11px] text-amber-900 leading-relaxed flex items-start gap-2.5">
+          <AlertCircle className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
+          <div>
+            <strong>Yasal Uyarı &amp; Sorumluluk Reddi:</strong> Bu sayfada yer alan çözümler ve konu anlatımları öğrencilerin ev ödevlerini kontrol etmeleri ve öğrenme süreçlerini pekiştirmeleri amacıyla hazırlanmıştır. Matemetrik bağımsız bir eğitim platformudur; Millî Eğitim Bakanlığı ile doğrudan resmi bir bağı bulunmamaktadır.
+          </div>
+        </div>
+
         {/* Social Share & Back */}
         <div className="p-6 bg-slate-100/70 rounded-2xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-xs font-semibold text-slate-700 flex items-center gap-2">
@@ -284,6 +312,16 @@ export default async function BlogPostPage({ params }: PostPageProps) {
             </Link>
           </div>
         </div>
+
+        {/* Yazı Sonu / Benzer Yazılar Öncesi Reklam Slotu */}
+        {adsEnabled && settings.ad_sidebar_code && (
+          <div className="my-4 py-4 text-center border-y border-slate-200">
+            <div
+              id="ad-bottom-container"
+              dangerouslySetInnerHTML={{ __html: settings.ad_sidebar_code }}
+            />
+          </div>
+        )}
 
         {/* Comment Section with Gmail Connect */}
         <CommentSection postId={post.id} postTitle={post.title} />

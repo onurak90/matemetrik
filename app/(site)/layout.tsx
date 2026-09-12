@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/footer/Footer';
 import ContentProtection from '@/components/security/ContentProtection';
+import CookieConsent from '@/components/common/CookieConsent';
 
 export default function SiteLayout({
   children,
@@ -19,7 +20,9 @@ export default function SiteLayout({
       </main>
       <div className="print:hidden">
         <Footer />
+        <CookieConsent />
       </div>
     </div>
   );
 }
+
