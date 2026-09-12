@@ -9,6 +9,7 @@ import { getPosts, getCategories, getTopPosts } from '@/lib/db';
 import PostCard from '@/components/blog/PostCard';
 import PostSlider from '@/components/home/PostSlider';
 import FaqSection from '@/components/home/FaqSection';
+import DynamicMathHero from '@/components/home/DynamicMathHero';
 
 export const revalidate = 60; // ISR cache for blazing fast performance
 
@@ -49,63 +50,8 @@ export default function HomePage({
 
   return (
     <div className="space-y-16 pb-20">
-      {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-slate-900 via-indigo-950 to-slate-900 text-white pt-16 pb-24 sm:pt-20 sm:pb-32">
-        <div className="absolute inset-0 bg-[radial-gradient(#6366f1_1px,transparent_1px)] [background-size:24px_24px] opacity-20 pointer-events-none" />
-        
-        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 text-center space-y-8">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 text-xs font-semibold backdrop-blur-md">
-            <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
-            Yeni Nesil Matematik & Eğitim Portalı
-          </div>
-
-          <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-tight max-w-4xl mx-auto">
-            Matematiği Keşfet, Anla ve <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-400">Hedefine Ulaş.</span>
-          </h1>
-
-          <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            1. sınıftan 12. sınıfa MEB ders kitabı çözümleri, yeni nesil soru kalıpları, karne görüşü üreticisi ve online sınav hazırlama araçları.
-          </p>
-
-          {/* Search Box */}
-          <form
-            action="/"
-            method="GET"
-            className="relative max-w-2xl mx-auto shadow-2xl shadow-indigo-950/50"
-          >
-            <div className="relative flex items-center">
-              <Search className="w-5 h-5 text-indigo-500 absolute left-4 pointer-events-none" />
-              <input
-                type="text"
-                name="q"
-                defaultValue={searchQuery || ''}
-                placeholder="Örn: 10. sınıf ders kitabı çözümleri, pi sayısı, karne görüşü..."
-                className="w-full pl-12 pr-28 py-4 bg-white text-slate-900 rounded-2xl text-sm sm:text-base font-medium shadow-lg focus:outline-none focus:ring-4 focus:ring-indigo-500/30 transition-all placeholder:text-slate-400"
-              />
-              <button
-                type="submit"
-                className="absolute right-2 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white text-xs sm:text-sm font-bold rounded-xl transition-all shadow-md shadow-indigo-600/30"
-              >
-                Ara
-              </button>
-            </div>
-          </form>
-
-          {/* Quick Keywords */}
-          <div className="flex flex-wrap items-center justify-center gap-2 pt-2 text-xs">
-            <span className="text-slate-400 font-medium">Popüler:</span>
-            {['10. Sınıf', '9. Sınıf', 'Pi Sayısı', 'Karne Görüşü', 'MEB Çözümleri', '2027 AYT'].map((keyword) => (
-              <Link
-                key={keyword}
-                href={`/?q=${encodeURIComponent(keyword)}`}
-                className="px-3 py-1 rounded-lg bg-slate-800/80 hover:bg-indigo-950 hover:text-indigo-300 text-slate-300 border border-slate-700 transition-colors"
-              >
-                {keyword}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Dynamic 3D Math Hero Section */}
+      <DynamicMathHero searchQuery={searchQuery} />
 
       {/* Grade Level Cards (1. Sınıf - 12. Sınıf) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 sm:-mt-20 relative z-10">
