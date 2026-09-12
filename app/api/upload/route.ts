@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import path from 'path';
 import fs from 'fs';
+import sharp from 'sharp';
 
 export async function POST(request: NextRequest) {
   try {
@@ -19,14 +20,17 @@ export async function POST(request: NextRequest) {
       fs.mkdirSync(uploadsDir, { recursive: true });
     }
 
-    // sanitize filename
+    // sanitize filename and force .webp
     const origName = file.name || 'image.jpg';
     const ext = path.extname(origName) || '.jpg';
     const base = path.basename(origName, ext).replace(/[^a-zA-Z0-9_-]/g, '_');
-    const filename = `${base}_${Date.now()}${ext}`;
+    const filename = `${base}_${Date.now()}.webp`;
     const filePath = path.join(uploadsDir, filename);
 
-    fs.writeFileSync(filePath, buffer);
+    // Convert to webp with high efficiency
+    await sharp(buffer)
+      .webp({ quality: 85, effort: 6 })
+      .toFile(filePath);
 
     const url = `/uploads/${filename}`;
     return NextResponse.json({ url, filename });

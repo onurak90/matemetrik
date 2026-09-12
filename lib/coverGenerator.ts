@@ -60,7 +60,7 @@ export async function generateCoverImage({
   }
 
   const cleanSlug = slug.replace(/[^a-z0-9-]/gi, '-').toLowerCase();
-  const filename = `cover-${cleanSlug}.png`;
+  const filename = `cover-${cleanSlug}.webp`;
   const filePath = path.join(uploadsDir, filename);
 
   const lines = wrapText(title, 32, 3);
@@ -167,7 +167,7 @@ export async function generateCoverImage({
 </svg>
 `;
 
-  await sharp(Buffer.from(svg)).png({ quality: 90, compressionLevel: 8 }).toFile(filePath);
+  await sharp(Buffer.from(svg)).webp({ quality: 85, effort: 6 }).toFile(filePath);
 
   return `/uploads/${filename}`;
 }

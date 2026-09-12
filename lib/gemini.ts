@@ -407,7 +407,7 @@ Sadece ve sadece aşağıdaki geçerli JSON nesnesini döndür:
     });
   } catch (imgErr) {
     console.error('Kapak görseli oluşturma hatası:', imgErr);
-    coverImageUrl = '/uploads/test-cover.png';
+    coverImageUrl = '/uploads/test-cover.webp';
   }
 
   // Calculate SEO score

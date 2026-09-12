@@ -46,7 +46,7 @@ export default function AdminLayout({
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 flex">
+    <div className="min-h-screen bg-slate-50 flex admin-mode">
       {/* Mobile sidebar overlay */}
       {sidebarOpen && (
         <div
