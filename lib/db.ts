@@ -4,10 +4,32 @@ import fs from 'fs';
 import { Post, Category, Redirect, DashboardStats } from './types';
 
 const DB_DIR = path.join(process.cwd(), 'data');
-const DB_PATH = path.join(DB_DIR, 'matemetrik.db');
+const ORIGINAL_DB_PATH = path.join(DB_DIR, 'matemetrik.db');
+const DB_PATH = ORIGINAL_DB_PATH;
 
 if (!fs.existsSync(DB_DIR)) {
-  fs.mkdirSync(DB_DIR, { recursive: true });
+  try {
+    fs.mkdirSync(DB_DIR, { recursive: true });
+  } catch {}
+}
+
+function getResolvedDbPath(): string {
+  // When running inside Vercel serverless environment, filesystem outside /tmp is read-only
+  if (process.env.VERCEL) {
+    const tmpDbPath = '/tmp/matemetrik.db';
+    if (!fs.existsSync(tmpDbPath)) {
+      try {
+        if (fs.existsSync(ORIGINAL_DB_PATH)) {
+          fs.copyFileSync(ORIGINAL_DB_PATH, tmpDbPath);
+          console.log('[Vercel] Database successfully copied to /tmp/matemetrik.db');
+        }
+      } catch (err) {
+        console.error('[Vercel] Error copying DB to /tmp:', err);
+      }
+    }
+    return fs.existsSync(tmpDbPath) ? tmpDbPath : ORIGINAL_DB_PATH;
+  }
+  return ORIGINAL_DB_PATH;
 }
 
 // Singleton connection
@@ -15,9 +37,14 @@ let dbInstance: Database.Database | null = null;
 
 export function getDb(): Database.Database {
   if (!dbInstance) {
-    dbInstance = new Database(DB_PATH);
-    dbInstance.pragma('journal_mode = WAL');
-    dbInstance.pragma('synchronous = NORMAL');
+    const targetPath = getResolvedDbPath();
+    dbInstance = new Database(targetPath);
+    try {
+      dbInstance.pragma('journal_mode = WAL');
+      dbInstance.pragma('synchronous = NORMAL');
+    } catch (e) {
+      // WAL fallback
+    }
     initTables(dbInstance);
   }
   return dbInstance;

@@ -3,6 +3,12 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  experimental: {
+    serverComponentsExternalPackages: ['better-sqlite3'],
+    outputFileTracingIncludes: {
+      '/**': ['./data/**/*'],
+    },
+  },
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
