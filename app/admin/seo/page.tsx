@@ -4,17 +4,57 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   ArrowLeftRight, Plus, Trash2, Search, ExternalLink,
-  CheckCircle, AlertTriangle, ShieldCheck, Globe
+  CheckCircle, AlertTriangle, ShieldCheck, Globe,
+  Activity, Send, Eye, Smartphone, Monitor, AlertCircle, Edit
 } from 'lucide-react';
 import { Redirect } from '@/lib/types';
 
+interface SeoIssue {
+  postId: number;
+  title: string;
+  slug: string;
+  category: string;
+  views: number;
+  severity: 'critical' | 'warning' | 'info';
+  issue: string;
+  recommendation: string;
+}
+
+interface SeoAuditReport {
+  totalPostsAudited: number;
+  overallHealthScore: number;
+  criticalCount: number;
+  warningCount: number;
+  infoCount: number;
+  totalIssues: number;
+  issues: SeoIssue[];
+}
+
 export default function AdminSeoPage() {
+  const [activeTab, setActiveTab] = useState<'audit' | 'redirects' | 'ping' | 'serp'>('audit');
+
+  // Redirects state
   const [redirects, setRedirects] = useState<Redirect[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoadingRedirects, setIsLoadingRedirects] = useState(true);
   const [search, setSearch] = useState('');
   const [sourcePath, setSourcePath] = useState('');
   const [targetPath, setTargetPath] = useState('');
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmittingRedirect, setIsSubmittingRedirect] = useState(false);
+
+  // SEO Audit state
+  const [auditReport, setAuditReport] = useState<SeoAuditReport | null>(null);
+  const [isLoadingAudit, setIsLoadingAudit] = useState(true);
+  const [auditFilter, setAuditFilter] = useState<'all' | 'critical' | 'warning' | 'info'>('all');
+
+  // Ping state
+  const [isPinging, setIsPinging] = useState(false);
+  const [pingResult, setPingResult] = useState<any>(null);
+
+  // SERP simulator state
+  const [serpTitle, setSerpTitle] = useState('10. Sınıf Matematik Konu Anlatımı ve MEB Çözümleri');
+  const [serpDescription, setSerpDescription] = useState('10. sınıf matematik ders kitabı çözümleri, fonksiyonlar, polinomlar ve sınavlara hazırlık için ücretsiz PDF ders notları.');
+  const [serpSlug, setSerpSlug] = useState('10-sinif-matematik-konu-anlatimi-meb-cozumleri');
+  const [serpDevice, setSerpDevice] = useState<'desktop' | 'mobile'>('desktop');
 
   const fetchRedirects = async () => {
     try {
@@ -24,12 +64,28 @@ export default function AdminSeoPage() {
     } catch (err) {
       console.error(err);
     } finally {
-      setIsLoading(false);
+      setIsLoadingRedirects(false);
+    }
+  };
+
+  const fetchAudit = async () => {
+    setIsLoadingAudit(true);
+    try {
+      const res = await fetch('/api/seo/audit');
+      if (res.ok) {
+        const data = await res.json();
+        setAuditReport(data);
+      }
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setIsLoadingAudit(false);
     }
   };
 
   useEffect(() => {
     fetchRedirects();
+    fetchAudit();
   }, []);
 
   const handleAddRedirect = async (e: React.FormEvent) => {
@@ -37,7 +93,7 @@ export default function AdminSeoPage() {
     if (!sourcePath.trim() || !targetPath.trim()) return;
 
     try {
-      setIsSubmitting(true);
+      setIsSubmittingRedirect(true);
       const res = await fetch('/api/redirects', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -55,22 +111,36 @@ export default function AdminSeoPage() {
       } else {
         alert('Yönlendirme eklenemedi');
       }
-    } catch (err) {
+    } catch {
       alert('Hata oluştu');
     } finally {
-      setIsSubmitting(false);
+      setIsSubmittingRedirect(false);
     }
   };
 
-  const handleDelete = async (id: number) => {
+  const handleDeleteRedirect = async (id: number) => {
     if (!confirm('Bu yönlendirmeyi silmek istediğinizden emin misiniz?')) return;
     try {
       const res = await fetch(`/api/redirects/${id}`, { method: 'DELETE' });
       if (res.ok) {
         setRedirects((prev) => prev.filter((r) => r.id !== id));
       }
-    } catch (err) {
+    } catch {
       alert('Hata oluştu');
+    }
+  };
+
+  const handlePingSearchEngines = async () => {
+    setIsPinging(true);
+    setPingResult(null);
+    try {
+      const res = await fetch('/api/seo/ping', { method: 'POST' });
+      const data = await res.json();
+      setPingResult(data);
+    } catch {
+      alert('Ping isteği başarısız oldu');
+    } finally {
+      setIsPinging(false);
     }
   };
 
@@ -80,207 +150,526 @@ export default function AdminSeoPage() {
       r.target_path.toLowerCase().includes(search.toLowerCase())
   );
 
+  const filteredIssues = (auditReport?.issues || []).filter((item) => {
+    if (auditFilter === 'all') return true;
+    return item.severity === auditFilter;
+  });
+
   return (
     <div className="space-y-8">
+      {/* Header */}
       <div>
         <h1 className="text-2xl font-bold text-slate-900 tracking-tight">
-          SEO & 301 Kalıcı Yönlendirmeler
+          SEO &amp; Arama Motoru Optimizasyon Merkezi
         </h1>
         <p className="text-sm text-slate-500 mt-1">
-          Google sıralamalarını kaybetmemek için eski Wix URL'leri yeni Next.js URL'lerine kalıcı olarak yönlendirilir.
+          Google sıralamalarını zirveye taşımak için site çapı SEO denetimi, 301 kalıcı yönlendirmeler ve anlık site haritası bildirimi.
         </p>
       </div>
 
-      {/* Overview Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
-        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-center gap-4">
-          <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
-            <CheckCircle className="w-6 h-6" />
-          </div>
-          <div>
-            <div className="text-xs font-semibold text-slate-500 uppercase">Aktif 301 Kuralı</div>
-            <div className="text-2xl font-bold text-slate-900 mt-0.5">{redirects.length}</div>
-          </div>
-        </div>
-
-        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-center gap-4">
-          <div className="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
-            <Globe className="w-6 h-6" />
-          </div>
-          <div>
-            <div className="text-xs font-semibold text-slate-500 uppercase">Dinamik Sitemap</div>
-            <Link
-              href="/sitemap.xml"
-              target="_blank"
-              className="text-sm font-semibold text-indigo-600 hover:underline flex items-center gap-1 mt-1"
-            >
-              /sitemap.xml <ExternalLink className="w-3.5 h-3.5" />
-            </Link>
-          </div>
-        </div>
-
-        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-center gap-4">
-          <div className="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center">
-            <ShieldCheck className="w-6 h-6" />
-          </div>
-          <div>
-            <div className="text-xs font-semibold text-slate-500 uppercase">Robots Dosyası</div>
-            <Link
-              href="/robots.txt"
-              target="_blank"
-              className="text-sm font-semibold text-amber-600 hover:underline flex items-center gap-1 mt-1"
-            >
-              /robots.txt <ExternalLink className="w-3.5 h-3.5" />
-            </Link>
-          </div>
-        </div>
-
-        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-center gap-4">
-          <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center">
-            <Search className="w-6 h-6" />
-          </div>
-          <div>
-            <div className="text-xs font-semibold text-slate-500 uppercase">Search Console</div>
-            <a
-              href="https://search.google.com/search-console?resource_id=https%3A%2F%2Fwww.matemetrik.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs font-bold text-blue-600 hover:underline flex items-center gap-1 mt-1"
-            >
-              Konsola Git <ExternalLink className="w-3.5 h-3.5" />
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Google Search Console Direct Connect Banner */}
-      <div className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white p-6 rounded-2xl shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div className="space-y-1">
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-blue-500/20 text-blue-300 text-xs font-semibold border border-blue-400/30">
-            <Search className="w-3.5 h-3.5" /> Google Search Console Entegrasyonu
-          </div>
-          <h2 className="text-lg font-bold text-white">
-            Google İndeksleme ve Site Haritası Bildirimi
-          </h2>
-          <p className="text-xs text-blue-200 max-w-2xl leading-relaxed">
-            Siteniz 492 adet temiz URL ile hazır. Google Search Console &gt; Site Haritaları bölümüne giderek <strong>https://www.matemetrik.com/sitemap.xml</strong> adresini eklemeniz yeterlidir.
-          </p>
-        </div>
-
-        <div className="flex items-center gap-2 shrink-0">
-          <a
-            href="https://search.google.com/search-console"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 bg-white text-blue-900 font-bold text-xs rounded-xl hover:bg-blue-50 transition-colors shadow-md flex items-center gap-1.5"
-          >
-            Search Console&apos;u Aç <ExternalLink className="w-3.5 h-3.5" />
-          </a>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* Add Redirect Form */}
-        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm h-fit space-y-4">
-          <h2 className="font-bold text-slate-900 text-base flex items-center gap-2">
-            <Plus className="w-4 h-4 text-indigo-600" />
-            Yeni Yönlendirme Ekle
-          </h2>
-
-          <form onSubmit={handleAddRedirect} className="space-y-4">
-            <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1">
-                Eski / Kaynak Yol (Source)
-              </label>
-              <input
-                type="text"
-                placeholder="/post/eski-baslik-wix"
-                value={sourcePath}
-                onChange={(e) => setSourcePath(e.target.value)}
-                required
-                className="w-full p-2.5 text-xs font-mono border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              />
-            </div>
-
-            <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1">
-                Yeni Hedef Yol (Target)
-              </label>
-              <input
-                type="text"
-                placeholder="/post/yeni-seo-uyumlu-baslik"
-                value={targetPath}
-                onChange={(e) => setTargetPath(e.target.value)}
-                required
-                className="w-full p-2.5 text-xs font-mono border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              />
-            </div>
-
-            <button
-              type="submit"
-              disabled={isSubmitting}
-              className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-sm font-semibold transition-colors disabled:opacity-50"
-            >
-              {isSubmitting ? 'Ekleniyor...' : '301 Kuralını Kaydet'}
-            </button>
-          </form>
-        </div>
-
-        {/* Redirects Table */}
-        <div className="lg:col-span-2 bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col">
-          <div className="p-4 border-b border-slate-100 flex items-center justify-between">
-            <div className="relative flex-1 max-w-sm">
-              <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
-              <input
-                type="text"
-                placeholder="Yönlendirme ara..."
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                className="w-full pl-9 pr-3 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              />
-            </div>
-            <span className="text-xs text-slate-400">
-              {filteredRedirects.length} kayıt
+      {/* Tabs */}
+      <div className="flex flex-wrap gap-2 border-b border-slate-200 pb-2">
+        <button
+          onClick={() => setActiveTab('audit')}
+          className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+            activeTab === 'audit'
+              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
+              : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
+          }`}
+        >
+          <Activity className="w-4 h-4" />
+          Site Çapı SEO Sağlık Denetimi
+          {auditReport && (
+            <span className="ml-1 px-1.5 py-0.5 rounded-full bg-white/20 text-[10px]">
+              %{auditReport.overallHealthScore}
             </span>
+          )}
+        </button>
+
+        <button
+          onClick={() => setActiveTab('redirects')}
+          className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+            activeTab === 'redirects'
+              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
+              : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
+          }`}
+        >
+          <ArrowLeftRight className="w-4 h-4" />
+          301 Kalıcı Yönlendirmeler ({redirects.length})
+        </button>
+
+        <button
+          onClick={() => setActiveTab('ping')}
+          className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+            activeTab === 'ping'
+              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
+              : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
+          }`}
+        >
+          <Send className="w-4 h-4" />
+          Arama Motorlarına Bildir (Ping)
+        </button>
+
+        <button
+          onClick={() => setActiveTab('serp')}
+          className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+            activeTab === 'serp'
+              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
+              : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
+          }`}
+        >
+          <Eye className="w-4 h-4" />
+          Google SERP Simülatörü
+        </button>
+      </div>
+
+      {/* TAB 1: SEO AUDIT */}
+      {activeTab === 'audit' && (
+        <div className="space-y-6">
+          {/* Health Score Overview */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
+            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
+              <div className="text-xs font-semibold text-slate-500 uppercase">Genel SEO Skoru</div>
+              <div className="flex items-baseline gap-2 mt-1">
+                <span className="text-3xl font-extrabold text-indigo-600">
+                  %{auditReport ? auditReport.overallHealthScore : '...'}
+                </span>
+                <span className="text-xs text-slate-500">/ 100</span>
+              </div>
+              <div className="w-full bg-slate-100 rounded-full h-2 mt-3 overflow-hidden">
+                <div
+                  className={`h-2 rounded-full transition-all ${
+                    (auditReport?.overallHealthScore || 0) >= 80
+                      ? 'bg-emerald-500'
+                      : (auditReport?.overallHealthScore || 0) >= 60
+                      ? 'bg-amber-500'
+                      : 'bg-rose-500'
+                  }`}
+                  style={{ width: `${auditReport?.overallHealthScore || 0}%` }}
+                />
+              </div>
+            </div>
+
+            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
+              <div className="text-xs font-semibold text-slate-500 uppercase">Taranan Yazı</div>
+              <div className="text-3xl font-extrabold text-slate-900 mt-1">
+                {auditReport ? auditReport.totalPostsAudited : '...'}
+              </div>
+              <div className="text-xs text-slate-400 mt-2">Tüm veritabanı denetlendi</div>
+            </div>
+
+            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
+              <div className="text-xs font-semibold text-rose-600 uppercase">Kritik Eksikler</div>
+              <div className="text-3xl font-extrabold text-rose-600 mt-1">
+                {auditReport ? auditReport.criticalCount : '...'}
+              </div>
+              <div className="text-xs text-rose-500 mt-2">Boş veya eksik meta açıklamalar</div>
+            </div>
+
+            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
+              <div className="text-xs font-semibold text-amber-600 uppercase">Geliştirilebilir</div>
+              <div className="text-3xl font-extrabold text-amber-600 mt-1">
+                {auditReport ? auditReport.warningCount : '...'}
+              </div>
+              <div className="text-xs text-amber-600 mt-2">İç link &amp; görsel önerileri</div>
+            </div>
           </div>
 
-          <div className="max-h-[600px] overflow-y-auto divide-y divide-slate-100">
-            {isLoading ? (
-              <div className="p-12 text-center text-slate-400">Yükleniyor...</div>
-            ) : filteredRedirects.length === 0 ? (
-              <div className="p-12 text-center text-slate-400">Yönlendirme bulunamadı.</div>
-            ) : (
-              filteredRedirects.map((r) => (
-                <div
-                  key={r.id}
-                  className="p-3.5 hover:bg-slate-50 transition-colors flex items-center justify-between gap-4 text-xs font-mono"
+          {/* Audit Issues List */}
+          <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col">
+            <div className="p-5 border-b border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div>
+                <h2 className="font-bold text-slate-900 text-base">
+                  SEO İyileştirme Önerileri ve Hatalar
+                </h2>
+                <p className="text-xs text-slate-500 mt-0.5">
+                  Her yazıyı tek tıkla düzenleyerek Google'da üst sıralara tırmanabilirsiniz.
+                </p>
+              </div>
+
+              {/* Filter Pills */}
+              <div className="flex items-center gap-1.5 text-xs">
+                <button
+                  onClick={() => setAuditFilter('all')}
+                  className={`px-3 py-1 rounded-lg font-medium transition-colors ${
+                    auditFilter === 'all'
+                      ? 'bg-slate-900 text-white'
+                      : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                  }`}
                 >
-                  <div className="min-w-0 flex-1 space-y-1">
-                    <div className="text-rose-600 truncate flex items-center gap-1.5">
-                      <span className="px-1.5 py-0.5 bg-rose-50 rounded text-[10px] font-bold border border-rose-200">
-                        {r.status_code}
-                      </span>
-                      <span className="truncate">{r.source_path}</span>
+                  Tümü ({auditReport?.issues.length || 0})
+                </button>
+                <button
+                  onClick={() => setAuditFilter('critical')}
+                  className={`px-3 py-1 rounded-lg font-medium transition-colors ${
+                    auditFilter === 'critical'
+                      ? 'bg-rose-600 text-white'
+                      : 'bg-rose-50 text-rose-700 hover:bg-rose-100'
+                  }`}
+                >
+                  Kritik ({auditReport?.criticalCount || 0})
+                </button>
+                <button
+                  onClick={() => setAuditFilter('warning')}
+                  className={`px-3 py-1 rounded-lg font-medium transition-colors ${
+                    auditFilter === 'warning'
+                      ? 'bg-amber-600 text-white'
+                      : 'bg-amber-50 text-amber-700 hover:bg-amber-100'
+                  }`}
+                >
+                  Uyarı ({auditReport?.warningCount || 0})
+                </button>
+              </div>
+            </div>
+
+            <div className="divide-y divide-slate-100 max-h-[500px] overflow-y-auto">
+              {isLoadingAudit ? (
+                <div className="p-12 text-center text-slate-400 text-xs">SEO denetimi yapılıyor...</div>
+              ) : filteredIssues.length === 0 ? (
+                <div className="p-12 text-center text-emerald-600 text-xs font-semibold">
+                  🎉 Tebrikler! Seçilen kategoride hiçbir SEO kusuru bulunamadı.
+                </div>
+              ) : (
+                filteredIssues.map((item, idx) => (
+                  <div
+                    key={`${item.postId}-${idx}`}
+                    className="p-4 hover:bg-slate-50 transition-colors flex items-center justify-between gap-4"
+                  >
+                    <div className="min-w-0 flex-1 space-y-1">
+                      <div className="flex items-center gap-2">
+                        {item.severity === 'critical' && (
+                          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-50 text-rose-700 border border-rose-200">
+                            🚨 Kritik Eksik
+                          </span>
+                        )}
+                        {item.severity === 'warning' && (
+                          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-50 text-amber-700 border border-amber-200">
+                            ⚠️ Uyarı
+                          </span>
+                        )}
+                        {item.severity === 'info' && (
+                          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-50 text-blue-700 border border-blue-200">
+                            ℹ️ İpucu
+                          </span>
+                        )}
+                        <span className="text-xs font-bold text-slate-800">
+                          {item.issue}
+                        </span>
+                      </div>
+
+                      <div className="text-xs font-medium text-slate-900 truncate">
+                        {item.title}
+                      </div>
+
+                      <p className="text-[11px] text-slate-500">
+                        {item.recommendation}
+                      </p>
                     </div>
-                    <div className="text-emerald-700 truncate pl-6">
-                      &rarr; {r.target_path}
+
+                    <div className="flex items-center gap-2 shrink-0">
+                      <Link
+                        href={`/admin/posts/${item.postId}`}
+                        className="inline-flex items-center gap-1 px-3 py-1.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-semibold text-xs rounded-lg transition-colors"
+                      >
+                        <Edit className="w-3.5 h-3.5" /> Düzenle
+                      </Link>
                     </div>
                   </div>
-
-                  <button
-                    type="button"
-                    onClick={() => handleDelete(r.id)}
-                    className="p-1.5 text-slate-400 hover:text-rose-600 rounded-lg hover:bg-rose-50 transition-colors"
-                    title="Kuralı Sil"
-                  >
-                    <Trash2 className="w-4 h-4" />
-                  </button>
-                </div>
-              ))
-            )}
+                ))
+              )}
+            </div>
           </div>
         </div>
-      </div>
+      )}
+
+      {/* TAB 2: REDIRECTS (Existing 301 manager) */}
+      {activeTab === 'redirects' && (
+        <div className="space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Add Form */}
+            <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm h-fit space-y-4">
+              <h2 className="font-bold text-slate-900 text-base flex items-center gap-2">
+                <Plus className="w-4 h-4 text-indigo-600" />
+                Yeni 301 Yönlendirme Ekle
+              </h2>
+              <form onSubmit={handleAddRedirect} className="space-y-4">
+                <div>
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">
+                    Eski / Kaynak Yol (Source)
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="/post/eski-baslik-wix"
+                    value={sourcePath}
+                    onChange={(e) => setSourcePath(e.target.value)}
+                    required
+                    className="w-full p-2.5 text-xs font-mono border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">
+                    Yeni Hedef Yol (Target)
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="/post/yeni-seo-uyumlu-baslik"
+                    value={targetPath}
+                    onChange={(e) => setTargetPath(e.target.value)}
+                    required
+                    className="w-full p-2.5 text-xs font-mono border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  disabled={isSubmittingRedirect}
+                  className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-sm font-semibold transition-colors disabled:opacity-50"
+                >
+                  {isSubmittingRedirect ? 'Ekleniyor...' : '301 Kuralını Kaydet'}
+                </button>
+              </form>
+            </div>
+
+            {/* List */}
+            <div className="lg:col-span-2 bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col">
+              <div className="p-4 border-b border-slate-100 flex items-center justify-between">
+                <div className="relative flex-1 max-w-sm">
+                  <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="text"
+                    placeholder="Yönlendirme ara..."
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
+                    className="w-full pl-9 pr-3 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  />
+                </div>
+                <span className="text-xs text-slate-400">
+                  {filteredRedirects.length} kayıt
+                </span>
+              </div>
+
+              <div className="max-h-[500px] overflow-y-auto divide-y divide-slate-100">
+                {isLoadingRedirects ? (
+                  <div className="p-12 text-center text-slate-400">Yükleniyor...</div>
+                ) : filteredRedirects.length === 0 ? (
+                  <div className="p-12 text-center text-slate-400">Yönlendirme bulunamadı.</div>
+                ) : (
+                  filteredRedirects.map((r) => (
+                    <div
+                      key={r.id}
+                      className="p-3.5 hover:bg-slate-50 transition-colors flex items-center justify-between gap-4 text-xs font-mono"
+                    >
+                      <div className="min-w-0 flex-1 space-y-1">
+                        <div className="text-rose-600 truncate flex items-center gap-1.5">
+                          <span className="px-1.5 py-0.5 bg-rose-50 rounded text-[10px] font-bold border border-rose-200">
+                            {r.status_code}
+                          </span>
+                          <span className="truncate">{r.source_path}</span>
+                        </div>
+                        <div className="text-emerald-700 truncate pl-6">
+                          &rarr; {r.target_path}
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => handleDeleteRedirect(r.id)}
+                        className="p-1.5 text-slate-400 hover:text-rose-600 rounded-lg hover:bg-rose-50 transition-colors"
+                        title="Kuralı Sil"
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </button>
+                    </div>
+                  ))
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* TAB 3: PING SEARCH ENGINES */}
+      {activeTab === 'ping' && (
+        <div className="space-y-6 max-w-3xl">
+          <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+            <div className="space-y-2">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200">
+                <Send className="w-3.5 h-3.5" /> Anlık İndeksleme Sinyali
+              </div>
+              <h2 className="text-lg font-bold text-slate-900">
+                Arama Motorlarına Site Haritasını Gönder (Ping)
+              </h2>
+              <p className="text-xs text-slate-500 leading-relaxed">
+                Yeni blog yazısı eklediğinizde veya önemli değişiklikler yaptığınızda, Google Bot ve Bing örümceklerine sitenizin güncellendiğini resmi API protokolüyle bildirir.
+              </p>
+            </div>
+
+            <div className="p-4 bg-slate-50 rounded-xl border border-slate-200/80 text-xs space-y-2">
+              <div className="flex justify-between text-slate-600">
+                <span>Bildirilecek Harita:</span>
+                <a
+                  href="/sitemap.xml"
+                  target="_blank"
+                  className="font-mono text-indigo-600 font-semibold hover:underline flex items-center gap-1"
+                >
+                  https://www.matemetrik.com/sitemap.xml <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
+              <div className="flex justify-between text-slate-600">
+                <span>Hedef Arama Motorları:</span>
+                <span className="font-medium text-slate-900">Google Bot, Bing &amp; Yahoo</span>
+              </div>
+            </div>
+
+            {pingResult && (
+              <div className="p-4 bg-emerald-50 rounded-xl border border-emerald-200 text-xs space-y-2">
+                <div className="font-bold text-emerald-800 flex items-center gap-1.5">
+                  <CheckCircle className="w-4 h-4" /> Bildirim Tamamlandı ({pingResult.timestamp.slice(11, 19)})
+                </div>
+                <div className="space-y-1">
+                  {pingResult.results?.map((res: any, i: number) => (
+                    <div key={i} className="flex items-center justify-between text-[11px] text-emerald-700">
+                      <span>{res.name}</span>
+                      <span className="font-semibold">{res.message}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <button
+              onClick={handlePingSearchEngines}
+              disabled={isPinging}
+              className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm rounded-xl transition-all shadow-md shadow-blue-600/20 flex items-center justify-center gap-2 disabled:opacity-50"
+            >
+              <Send className={`w-4 h-4 ${isPinging ? 'animate-spin' : ''}`} />
+              {isPinging ? 'Arama Motorları Uyarılıyor...' : 'Site Haritasını Google ve Bing\'e Gönder'}
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* TAB 4: GOOGLE SERP SIMULATOR */}
+      {activeTab === 'serp' && (
+        <div className="space-y-6 max-w-4xl">
+          <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+            <div>
+              <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2">
+                <Eye className="w-5 h-5 text-indigo-600" />
+                Google Arama Sonuçları Simülatörü (SERP Preview)
+              </h2>
+              <p className="text-xs text-slate-500 mt-0.5">
+                Başlık ve meta açıklamanızın Google masaüstü ve mobil sonuçlarında nasıl görüneceğini canlı test edin.
+              </p>
+            </div>
+
+            {/* Form Inputs */}
+            <div className="space-y-4">
+              <div>
+                <div className="flex justify-between text-xs font-semibold text-slate-700 mb-1">
+                  <span>SEO Başlığı ({serpTitle.length} karakter - İdeal: 45-60)</span>
+                  <span className={serpTitle.length > 60 ? 'text-rose-600 font-bold' : 'text-emerald-600'}>
+                    {serpTitle.length > 60 ? '⚠️ Uzun (Kırpılabilir)' : '✓ İdeal'}
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  value={serpTitle}
+                  onChange={(e) => setSerpTitle(e.target.value)}
+                  className="w-full p-2.5 text-xs border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                />
+              </div>
+
+              <div>
+                <div className="flex justify-between text-xs font-semibold text-slate-700 mb-1">
+                  <span>Meta Açıklama ({serpDescription.length} karakter - İdeal: 120-155)</span>
+                  <span className={serpDescription.length > 155 ? 'text-rose-600 font-bold' : 'text-emerald-600'}>
+                    {serpDescription.length > 155 ? '⚠️ Uzun' : serpDescription.length < 100 ? '⚠️ Kısa' : '✓ İdeal'}
+                  </span>
+                </div>
+                <textarea
+                  rows={2}
+                  value={serpDescription}
+                  onChange={(e) => setSerpDescription(e.target.value)}
+                  className="w-full p-2.5 text-xs border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none"
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs font-semibold text-slate-700 mb-1">
+                  URL Slug
+                </label>
+                <div className="flex items-center text-xs text-slate-500 bg-slate-50 border border-slate-200 rounded-xl px-3 py-2">
+                  <span>https://www.matemetrik.com/post/</span>
+                  <input
+                    type="text"
+                    value={serpSlug}
+                    onChange={(e) => setSerpSlug(e.target.value)}
+                    className="flex-1 bg-transparent font-mono outline-none text-slate-800 ml-1"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Device Switcher */}
+            <div className="flex items-center gap-3 pt-2">
+              <span className="text-xs font-semibold text-slate-500">Görünüm Modu:</span>
+              <button
+                onClick={() => setSerpDevice('desktop')}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
+                  serpDevice === 'desktop'
+                    ? 'bg-slate-900 text-white'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                }`}
+              >
+                <Monitor className="w-3.5 h-3.5" /> Masaüstü
+              </button>
+              <button
+                onClick={() => setSerpDevice('mobile')}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
+                  serpDevice === 'mobile'
+                    ? 'bg-slate-900 text-white'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                }`}
+              >
+                <Smartphone className="w-3.5 h-3.5" /> Mobil
+              </button>
+            </div>
+
+            {/* Google Result Preview Box */}
+            <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+              <div className="text-[11px] uppercase tracking-wider font-bold text-slate-400">
+                Canlı Google Arama Önizlemesi ({serpDevice === 'desktop' ? 'Masaüstü' : 'Mobil'})
+              </div>
+
+              <div
+                className={`bg-white p-5 rounded-xl border border-slate-200 shadow-sm font-sans space-y-1 ${
+                  serpDevice === 'mobile' ? 'max-w-sm rounded-2xl border-2 border-slate-300' : 'max-w-xl'
+                }`}
+              >
+                {/* Google URL Line */}
+                <div className="flex items-center gap-2 text-xs text-slate-700">
+                  <div className="w-4 h-4 rounded-full bg-indigo-600 flex items-center justify-center text-white text-[9px] font-bold">
+                    π
+                  </div>
+                  <div className="truncate">
+                    <span className="text-slate-900 font-medium">matemetrik.com</span>
+                    <span className="text-slate-500 font-normal"> › post › {serpSlug}</span>
+                  </div>
+                </div>
+
+                {/* Google Title */}
+                <div className="text-[#1a0dab] hover:underline cursor-pointer font-medium text-lg leading-snug truncate pt-0.5">
+                  {serpTitle || 'Başlık Yazınız...'}
+                </div>
+
+                {/* Google Description */}
+                <p className="text-[#4d5156] text-xs leading-relaxed line-clamp-2">
+                  {serpDescription || 'Meta açıklama giriniz...'}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

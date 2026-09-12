@@ -7,7 +7,7 @@ import {
   LayoutDashboard, FileText, PlusCircle, FolderTree,
   Image, ArrowLeftRight, Settings, ExternalLink,
   Menu, X, ShieldCheck, BarChart3, Megaphone, Sparkles,
-  Share2, LogOut
+  Share2, LogOut, HardDrive
 } from 'lucide-react';
 
 export default function AdminLayout({
@@ -37,6 +37,7 @@ export default function AdminLayout({
     { name: 'Medya Kütüphanesi', href: '/admin/media', icon: Image },
     { name: 'Reklam Yönetimi', href: '/admin/ads', icon: Megaphone },
     { name: 'SEO & 301 Yönlendirme', href: '/admin/seo', icon: ArrowLeftRight },
+    { name: 'Sistem & Yedekleme 💾', href: '/admin/system', icon: HardDrive },
     { name: 'Ayarlar', href: '/admin/settings', icon: Settings },
   ];
 

@@ -64,6 +64,16 @@ function initTables(db: Database.Database) {
       value TEXT
     );
 
+    CREATE TABLE IF NOT EXISTS admin_notes (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      title TEXT NOT NULL,
+      content TEXT,
+      priority TEXT DEFAULT 'normal',
+      is_completed INTEGER DEFAULT 0,
+      due_date TEXT,
+      created_at TEXT
+    );
+
     CREATE INDEX IF NOT EXISTS idx_posts_slug ON posts(slug);
     CREATE INDEX IF NOT EXISTS idx_posts_old_slug ON posts(old_slug);
     CREATE INDEX IF NOT EXISTS idx_posts_category ON posts(category_slug);
@@ -625,4 +635,294 @@ export function searchPostsLive(query: string, limit = 6): LiveSearchResult {
     totalCount: countRow ? countRow.count : 0,
   };
 }
+
+// ==================== ADMIN NOTES ====================
+
+export interface AdminNote {
+  id: number;
+  title: string;
+  content: string;
+  priority: 'urgent' | 'high' | 'normal';
+  is_completed: number;
+  due_date: string;
+  created_at: string;
+}
+
+export function getAdminNotes(): AdminNote[] {
+  const db = getDb();
+  return db
+    .prepare("SELECT * FROM admin_notes ORDER BY is_completed ASC, CASE priority WHEN 'urgent' THEN 1 WHEN 'high' THEN 2 ELSE 3 END ASC, id DESC")
+    .all() as AdminNote[];
+}
+
+export function createAdminNote(note: {
+  title: string;
+  content?: string;
+  priority?: 'urgent' | 'high' | 'normal';
+  due_date?: string;
+}): AdminNote {
+  const db = getDb();
+  const stmt = db.prepare(`
+    INSERT INTO admin_notes (title, content, priority, is_completed, due_date, created_at)
+    VALUES (?, ?, ?, 0, ?, ?)
+  `);
+  const now = new Date().toISOString();
+  const info = stmt.run(
+    note.title,
+    note.content || '',
+    note.priority || 'normal',
+    note.due_date || '',
+    now
+  );
+  return {
+    id: Number(info.lastInsertRowid),
+    title: note.title,
+    content: note.content || '',
+    priority: note.priority || 'normal',
+    is_completed: 0,
+    due_date: note.due_date || '',
+    created_at: now,
+  };
+}
+
+export function toggleAdminNote(id: number, is_completed: boolean): boolean {
+  const db = getDb();
+  const stmt = db.prepare('UPDATE admin_notes SET is_completed = ? WHERE id = ?');
+  const info = stmt.run(is_completed ? 1 : 0, id);
+  return info.changes > 0;
+}
+
+export function deleteAdminNote(id: number): boolean {
+  const db = getDb();
+  const stmt = db.prepare('DELETE FROM admin_notes WHERE id = ?');
+  const info = stmt.run(id);
+  return info.changes > 0;
+}
+
+// ==================== SYSTEM & STORAGE METRICS ====================
+
+export function getSystemMetrics() {
+  const db = getDb();
+  const uploadsDir = path.join(process.cwd(), 'public', 'uploads');
+
+  let dbSize = 0;
+  let walSize = 0;
+  try {
+    if (fs.existsSync(DB_PATH)) {
+      dbSize = fs.statSync(DB_PATH).size;
+    }
+    const walPath = `${DB_PATH}-wal`;
+    if (fs.existsSync(walPath)) {
+      walSize = fs.statSync(walPath).size;
+    }
+  } catch {}
+
+  let totalUploads = 0;
+  let uploadsSize = 0;
+  try {
+    if (fs.existsSync(uploadsDir)) {
+      const files = fs.readdirSync(uploadsDir);
+      totalUploads = files.filter(f => !f.startsWith('.')).length;
+      for (const f of files) {
+        if (!f.startsWith('.')) {
+          uploadsSize += fs.statSync(path.join(uploadsDir, f)).size;
+        }
+      }
+    }
+  } catch {}
+
+  const postCount = (db.prepare('SELECT count(*) as c FROM posts').get() as any)?.c || 0;
+  const publishedCount = (db.prepare('SELECT count(*) as c FROM posts WHERE is_published = 1').get() as any)?.c || 0;
+  const draftCount = (db.prepare('SELECT count(*) as c FROM posts WHERE is_published = 0').get() as any)?.c || 0;
+  const totalViews = (db.prepare('SELECT sum(views) as v FROM posts').get() as any)?.v || 0;
+  const catCount = (db.prepare('SELECT count(*) as c FROM categories').get() as any)?.c || 0;
+  const redCount = (db.prepare('SELECT count(*) as c FROM redirects').get() as any)?.c || 0;
+
+  const mem = process.memoryUsage();
+
+  return {
+    dbSize,
+    walSize,
+    totalDbBytes: dbSize + walSize,
+    uploadsCount: totalUploads,
+    uploadsBytes: uploadsSize,
+    totalDiskBytes: dbSize + walSize + uploadsSize,
+    postCount,
+    publishedCount,
+    draftCount,
+    totalViews,
+    categoryCount: catCount,
+    redirectCount: redCount,
+    memory: {
+      heapUsed: mem.heapUsed,
+      heapTotal: mem.heapTotal,
+      rss: mem.rss,
+    },
+    nodeVersion: process.version,
+    uptime: Math.floor(process.uptime()),
+  };
+}
+
+export function vacuumDatabase() {
+  const db = getDb();
+  let sizeBefore = 0;
+  try {
+    sizeBefore = fs.statSync(DB_PATH).size;
+    const walPath = `${DB_PATH}-wal`;
+    if (fs.existsSync(walPath)) sizeBefore += fs.statSync(walPath).size;
+  } catch {}
+
+  db.exec('VACUUM;');
+  db.pragma('wal_checkpoint(TRUNCATE)');
+
+  let sizeAfter = 0;
+  try {
+    sizeAfter = fs.statSync(DB_PATH).size;
+    const walPath = `${DB_PATH}-wal`;
+    if (fs.existsSync(walPath)) sizeAfter += fs.statSync(walPath).size;
+  } catch {}
+
+  return {
+    sizeBefore,
+    sizeAfter,
+    freedBytes: Math.max(0, sizeBefore - sizeAfter),
+  };
+}
+
+// ==================== SEO AUDIT REPORT ====================
+
+export interface SeoIssue {
+  postId: number;
+  title: string;
+  slug: string;
+  category: string;
+  views: number;
+  severity: 'critical' | 'warning' | 'info';
+  issue: string;
+  recommendation: string;
+}
+
+export function getSeoAuditReport() {
+  const db = getDb();
+  const posts = db.prepare(`
+    SELECT id, title, slug, excerpt, content, featured_image, category, views, is_published
+    FROM posts
+    ORDER BY views DESC, id DESC
+  `).all() as any[];
+
+  const issues: SeoIssue[] = [];
+  let totalScoreSum = 0;
+
+  for (const p of posts) {
+    let postDeductions = 0;
+    const wordCount = (p.content || '').replace(/<[^>]+>/g, ' ').trim().split(/\s+/).length;
+    const excerptLen = (p.excerpt || '').trim().length;
+    const hasImage = Boolean(p.featured_image && p.featured_image.trim());
+    const hasInternalLink = (p.content || '').includes('/kategori') || (p.content || '').includes('/post') || (p.content || '').includes('matemetrik.com');
+    const hasH2 = (p.content || '').includes('<h2');
+
+    if (!p.excerpt || excerptLen < 60) {
+      postDeductions += 20;
+      issues.push({
+        postId: p.id,
+        title: p.title,
+        slug: p.slug,
+        category: p.category,
+        views: p.views || 0,
+        severity: 'critical',
+        issue: 'Meta Açıklaması Eksik veya Çok Kısa',
+        recommendation: 'Google aramalarında tıklama oranını artırmak için 120-155 karakterlik açıklama ekleyin.',
+      });
+    }
+
+    if (!hasImage) {
+      postDeductions += 15;
+      issues.push({
+        postId: p.id,
+        title: p.title,
+        slug: p.slug,
+        category: p.category,
+        views: p.views || 0,
+        severity: 'warning',
+        issue: 'Öne Çıkan Görsel Yok',
+        recommendation: 'Sosyal medya ve Google Discover paylaşımları için WebP formatında kapak görseli belirleyin.',
+      });
+    }
+
+    if (p.title.length < 30 || p.title.length > 70) {
+      postDeductions += 10;
+      issues.push({
+        postId: p.id,
+        title: p.title,
+        slug: p.slug,
+        category: p.category,
+        views: p.views || 0,
+        severity: 'info',
+        issue: `Başlık Uzunluğu İdeal Değil (${p.title.length} karakter)`,
+        recommendation: 'Google sonuçlarında tam görünmesi için 35-65 karakter aralığı önerilir.',
+      });
+    }
+
+    if (wordCount < 250) {
+      postDeductions += 20;
+      issues.push({
+        postId: p.id,
+        title: p.title,
+        slug: p.slug,
+        category: p.category,
+        views: p.views || 0,
+        severity: 'warning',
+        issue: `İnce İçerik - Thin Content (${wordCount} kelime)`,
+        recommendation: 'Google sıralaması için içeriği en az 400-600 kelimeye zenginleştirin.',
+      });
+    }
+
+    if (!hasInternalLink) {
+      postDeductions += 15;
+      issues.push({
+        postId: p.id,
+        title: p.title,
+        slug: p.slug,
+        category: p.category,
+        views: p.views || 0,
+        severity: 'warning',
+        issue: 'Site İçi Bağlantı (İç Link) Yok',
+        recommendation: 'Kullanıcıları sitede tutmak için ilgili sınıf kategorilerine veya araçlara link verin.',
+      });
+    }
+
+    if (!hasH2) {
+      postDeductions += 10;
+      issues.push({
+        postId: p.id,
+        title: p.title,
+        slug: p.slug,
+        category: p.category,
+        views: p.views || 0,
+        severity: 'info',
+        issue: 'H2 Alt Başlık Yapısı Eksik',
+        recommendation: 'Okunabilirliği ve taranabilirliği artırmak için içeriği H2 başlıklarına bölün.',
+      });
+    }
+
+    const postScore = Math.max(20, 100 - postDeductions);
+    totalScoreSum += postScore;
+  }
+
+  const averageHealthScore = posts.length > 0 ? Math.round(totalScoreSum / posts.length) : 100;
+  const criticalCount = issues.filter(i => i.severity === 'critical').length;
+  const warningCount = issues.filter(i => i.severity === 'warning').length;
+  const infoCount = issues.filter(i => i.severity === 'info').length;
+
+  return {
+    totalPostsAudited: posts.length,
+    overallHealthScore: averageHealthScore,
+    criticalCount,
+    warningCount,
+    infoCount,
+    totalIssues: issues.length,
+    issues: issues.slice(0, 100), // top 100 issues
+  };
+}
+
 

@@ -2,10 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import {
   FileText, Eye, FolderTree, ArrowLeftRight,
-  Plus, Edit, ExternalLink, TrendingUp, CheckCircle, Clock
+  Plus, Edit, ExternalLink, TrendingUp, CheckCircle, Clock,
+  Sparkles, Share2, HardDrive, Download, Send, Activity
 } from 'lucide-react';
 import { getStats } from '@/lib/db';
 import { formatDate } from '@/lib/utils';
+import AdminNotesWidget from '@/components/admin/AdminNotesWidget';
 
 export const revalidate = 0; // always dynamic for admin
 
@@ -21,10 +23,10 @@ export default function AdminDashboardPage() {
             Hoş Geldiniz 👋
           </h1>
           <p className="text-indigo-200 text-sm mt-1 max-w-xl">
-            Wix altyapısından Next.js 14 altyapısına başarıyla taşındı. Tüm blog yazılarınız, kategorileriniz ve SEO yönlendirmeleriniz hazır.
+            Matemetrik yönetim merkezi. SEO analizi, sosyal medya üreticisi, yapay zeka blog motoru ve sistem bakımı hazır.
           </p>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 flex-wrap">
           <Link
             href="/admin/posts/new"
             className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-indigo-900 hover:bg-indigo-50 font-semibold text-sm rounded-xl transition-all shadow-md"
@@ -32,7 +34,71 @@ export default function AdminDashboardPage() {
             <Plus className="w-4 h-4" />
             Yeni Yazı Yaz
           </Link>
+          <a
+            href="/api/system/backup"
+            download
+            className="inline-flex items-center gap-2 px-4 py-2.5 bg-indigo-700/60 hover:bg-indigo-700 text-white font-semibold text-xs rounded-xl transition-all border border-indigo-500/40"
+            title="1-Tıkla Veritabanı Yedeğini İndir"
+          >
+            <Download className="w-4 h-4" />
+            Yedek İndir
+          </a>
         </div>
+      </div>
+
+      {/* Quick Action Shortcuts */}
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <Link
+          href="/admin/ai-writer"
+          className="p-3.5 bg-white rounded-xl border border-slate-200 hover:border-indigo-300 hover:shadow-sm transition-all flex items-center gap-3 group"
+        >
+          <div className="w-9 h-9 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-colors shrink-0">
+            <Sparkles className="w-4 h-4" />
+          </div>
+          <div className="min-w-0">
+            <div className="text-xs font-bold text-slate-800 truncate">AI Makale Motoru</div>
+            <div className="text-[10px] text-slate-400">Trendlerden Yazı Üret</div>
+          </div>
+        </Link>
+
+        <Link
+          href="/admin/social"
+          className="p-3.5 bg-white rounded-xl border border-slate-200 hover:border-indigo-300 hover:shadow-sm transition-all flex items-center gap-3 group"
+        >
+          <div className="w-9 h-9 rounded-lg bg-pink-50 text-pink-600 flex items-center justify-center group-hover:bg-pink-600 group-hover:text-white transition-colors shrink-0">
+            <Share2 className="w-4 h-4" />
+          </div>
+          <div className="min-w-0">
+            <div className="text-xs font-bold text-slate-800 truncate">Sosyal Medya</div>
+            <div className="text-[10px] text-slate-400">Instagram &amp; Twitter</div>
+          </div>
+        </Link>
+
+        <Link
+          href="/admin/seo"
+          className="p-3.5 bg-white rounded-xl border border-slate-200 hover:border-indigo-300 hover:shadow-sm transition-all flex items-center gap-3 group"
+        >
+          <div className="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center group-hover:bg-emerald-600 group-hover:text-white transition-colors shrink-0">
+            <Activity className="w-4 h-4" />
+          </div>
+          <div className="min-w-0">
+            <div className="text-xs font-bold text-slate-800 truncate">SEO Denetimi</div>
+            <div className="text-[10px] text-slate-400">Sağlık Skoru &amp; Ping</div>
+          </div>
+        </Link>
+
+        <Link
+          href="/admin/system"
+          className="p-3.5 bg-white rounded-xl border border-slate-200 hover:border-indigo-300 hover:shadow-sm transition-all flex items-center gap-3 group"
+        >
+          <div className="w-9 h-9 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors shrink-0">
+            <HardDrive className="w-4 h-4" />
+          </div>
+          <div className="min-w-0">
+            <div className="text-xs font-bold text-slate-800 truncate">Sistem &amp; Yedek</div>
+            <div className="text-[10px] text-slate-400">SQLite &amp; Disk Bakımı</div>
+          </div>
+        </Link>
       </div>
 
       {/* Metric Cards */}
@@ -175,8 +241,11 @@ export default function AdminDashboardPage() {
           </div>
         </div>
 
-        {/* Categories Breakdown (1 col) */}
+        {/* Right column: Admin Notes & Categories */}
         <div className="space-y-6">
+          {/* Admin Notes & Tasks */}
+          <AdminNotesWidget />
+
           <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
             <div className="flex items-center justify-between mb-4">
               <h2 className="font-bold text-slate-900 text-base">Kategori Dağılımı</h2>

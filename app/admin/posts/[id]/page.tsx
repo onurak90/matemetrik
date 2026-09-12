@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import WpEditor from '@/components/admin/WpEditor';
 import SeoScoreAudit from '@/components/admin/SeoScoreAudit';
+import AiQuickAssist from '@/components/admin/AiQuickAssist';
 import { Post, Category } from '@/lib/types';
 import { slugify } from '@/lib/utils';
 
@@ -278,6 +279,14 @@ export default function EditPostPage({ params }: { params: { id: string } }) {
             excerpt={excerpt}
             content={content}
             featuredImage={featuredImage}
+          />
+
+          {/* AI Quick Assistant Toolbar */}
+          <AiQuickAssist
+            title={title}
+            content={content}
+            onApplyMeta={(newMeta) => setExcerpt(newMeta)}
+            onAppendContent={(extraHtml) => setContent((prev) => prev + '\n' + extraHtml)}
           />
 
           {/* WordPress Rich Text Editor */}
