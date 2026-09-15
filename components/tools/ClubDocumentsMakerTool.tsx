@@ -6,6 +6,10 @@ import {
   School, User, Award, Shield, ChevronRight, RefreshCw,
   Layers, Download, HelpCircle, Check, Eye
 } from 'lucide-react';
+import {
+  Document, Packer, Paragraph, TextRun, HeadingLevel,
+  Table, TableRow, TableCell, WidthType, AlignmentType, BorderStyle
+} from 'docx';
 
 interface FaaliyetRow {
   aylar: string;
@@ -118,6 +122,8 @@ export default function ClubDocumentsMakerTool() {
   };
 
   // Helper to replace placeholders like "2022/2023", "Gazi İlkokulu", "..............."
+  const [wordLoading, setWordLoading] = useState(false);
+
   const cleanDocText = (text: string) => {
     return text
       .replace(/20\d\d[\/-]20\d\d/g, academicYear)
@@ -127,6 +133,220 @@ export default function ClubDocumentsMakerTool() {
       .replace(/Gazi İlkokulu-Ortaokulu/g, schoolName)
       .replace(/Vatan İlkokulu-Ortaokulu/g, schoolName)
       .replace(/Çukurköy İlkokulu-Ortaokulu/g, schoolName);
+  };
+
+  const handleExportWord = async () => {
+    if (!currentClub) return;
+    try {
+      setWordLoading(true);
+
+      const children: any[] = [];
+
+      // Header
+      children.push(
+        new Paragraph({
+          text: `T.C. ${cityDistrict.toUpperCase()}`,
+          alignment: AlignmentType.CENTER,
+          children: [new TextRun({ text: `T.C. ${cityDistrict.toUpperCase()}`, bold: true, size: 22 })],
+        }),
+        new Paragraph({
+          text: schoolName.toUpperCase(),
+          alignment: AlignmentType.CENTER,
+          children: [new TextRun({ text: schoolName.toUpperCase(), bold: true, size: 24 })],
+        }),
+        new Paragraph({
+          text: `${academicYear} EĞİTİM ÖĞRETİM YILI ${currentClub.name.toUpperCase()} SOSYAL KULÜP EVRAKLARI`,
+          alignment: AlignmentType.CENTER,
+          spacing: { after: 250 },
+          children: [
+            new TextRun({
+              text: `${academicYear} EĞİTİM ÖĞRETİM YILI ${currentClub.name.toUpperCase()} SOSYAL KULÜP EVRAKLARI`,
+              bold: true,
+              size: 26,
+            }),
+          ],
+        }),
+        new Paragraph({
+          spacing: { after: 200 },
+          children: [
+            new TextRun({
+              text: `Danışman Öğretmenler: ${advisorTeacher1}${advisorTeacher2 ? `, ${advisorTeacher2}` : ''} | Okul Müdürü: ${principalName} | Tarih: ${meetingDate1}`,
+              italics: true,
+              size: 20,
+            }),
+          ],
+        })
+      );
+
+      // Section 1: TÜZÜK
+      children.push(
+        new Paragraph({
+          text: '1. KULÜP İÇ TÜZÜĞÜ',
+          heading: HeadingLevel.HEADING_1,
+          spacing: { before: 300, after: 150 },
+        })
+      );
+      (currentClub.tuzukParas || []).forEach((p) => {
+        children.push(new Paragraph({ text: cleanDocText(p), spacing: { after: 80 } }));
+      });
+
+      // Section 2: 1. DÖNEM TOPLANTI TUTANAĞI
+      children.push(
+        new Paragraph({
+          text: '2. 1. DÖNEM GENEL KURUL TOPLANTI TUTANAĞI VE KARARLARI',
+          heading: HeadingLevel.HEADING_1,
+          spacing: { before: 400, after: 150 },
+        })
+      );
+      (currentClub.toplantiParas || []).forEach((p) => {
+        children.push(new Paragraph({ text: cleanDocText(p), spacing: { after: 80 } }));
+      });
+
+      // Section 3: YILLIK ÇALIŞMA PLANI
+      children.push(
+        new Paragraph({
+          text: '3. 2026-2027 YILLIK ÇALIŞMA PLANI',
+          heading: HeadingLevel.HEADING_1,
+          spacing: { before: 400, after: 150 },
+        })
+      );
+      (currentClub.planParas || []).forEach((p) => {
+        children.push(new Paragraph({ text: cleanDocText(p), spacing: { after: 80 } }));
+      });
+
+      // Section 4: GÖREVLİ ÖĞRENCİ LİSTESİ
+      children.push(
+        new Paragraph({
+          text: '4. SEÇİLEN KURULLAR VE GÖREVLİ ÖĞRENCİ LİSTESİ',
+          heading: HeadingLevel.HEADING_1,
+          spacing: { before: 400, after: 150 },
+        })
+      );
+      const studentRows = [
+        ['Kulüp Başkanı', studentPresident],
+        ['Kulüp Başkan Yardımcısı', studentVicePresident],
+        ['Kulüp Sekreteri (Yazman)', studentSecretary],
+        ['Kulüp Saymanı', studentTreasurer],
+        ['Pano Düzenleme Komisyonu', 'Asil ve Yedek Kulüp Öğrencileri'],
+        ['Yazı İnceleme Komisyonu', 'Asil ve Yedek Kulüp Öğrencileri'],
+      ];
+      children.push(
+        new Table({
+          width: { size: 100, type: WidthType.PERCENTAGE },
+          rows: [
+            new TableRow({
+              children: [
+                new TableCell({
+                  children: [new Paragraph({ children: [new TextRun({ text: 'GÖREV / ORGAN', bold: true })] })],
+                }),
+                new TableCell({
+                  children: [
+                    new Paragraph({ children: [new TextRun({ text: 'ÖĞRENCİ ADI SOYADI - SINIFI', bold: true })] }),
+                  ],
+                }),
+              ],
+            }),
+            ...studentRows.map(
+              ([role, name]) =>
+                new TableRow({
+                  children: [new TableCell({ children: [new Paragraph(role)] }), new TableCell({ children: [new Paragraph(name)] })],
+                })
+            ),
+          ],
+        })
+      );
+
+      // Section 5: FAALİYET RAPORU
+      children.push(
+        new Paragraph({
+          text: '5. YIL SONU FAALİYET RAPORU',
+          heading: HeadingLevel.HEADING_1,
+          spacing: { before: 400, after: 150 },
+        })
+      );
+      const faalRows =
+        currentClub.faaliyetTable && currentClub.faaliyetTable.length > 0
+          ? currentClub.faaliyetTable
+          : [
+              { aylar: 'EYLÜL - EKİM', faaliyetler: 'Kulübün kurulması, genel kurul toplantısı, görev dağılımı ve yıllık planın idareye sunulması.' },
+              { aylar: 'KASIM - ARALIK', faaliyetler: 'Belirli günler ve haftalar panosu, toplum hizmeti çalışmalarının başlatılması.' },
+              { aylar: 'OCAK - ŞUBAT', faaliyetler: '1. Dönem faaliyetlerinin değerlendirilmesi, 2. dönem etkinlik planlaması.' },
+              { aylar: 'MART - NİSAN', faaliyetler: 'Kulüp projelerinin uygulanması, okul içi yarışma ve seminerlerin yapılması.' },
+              { aylar: 'MAYIS - HAZİRAN', faaliyetler: 'Yıl sonu faaliyet raporunun hazırlanması, Sosyal Etkinlik Modülü veri girişleri ve dosyanın idareye teslimi.' },
+            ];
+
+      children.push(
+        new Table({
+          width: { size: 100, type: WidthType.PERCENTAGE },
+          rows: [
+            new TableRow({
+              children: [
+                new TableCell({
+                  children: [new Paragraph({ children: [new TextRun({ text: 'AYLAR', bold: true })] })],
+                }),
+                new TableCell({
+                  children: [
+                    new Paragraph({ children: [new TextRun({ text: 'GERÇEKLEŞTİRİLEN FAALİYETLER', bold: true })] }),
+                  ],
+                }),
+              ],
+            }),
+            ...faalRows.map(
+              (fr) =>
+                new TableRow({
+                  children: [
+                    new TableCell({ children: [new Paragraph(fr.aylar)] }),
+                    new TableCell({ children: [new Paragraph(cleanDocText(fr.faaliyetler))] }),
+                  ],
+                })
+            ),
+          ],
+        })
+      );
+
+      // Section 6: VELİ İZİN BELGESİ & ONAY
+      children.push(
+        new Paragraph({
+          text: '6. EK-5 SOSYAL ETKİNLİK VELİ İZİN BELGESİ',
+          heading: HeadingLevel.HEADING_1,
+          spacing: { before: 400, after: 150 },
+        }),
+        new Paragraph({
+          text: `Velisi bulunduğum ............ sınıfı .......... nolu ........................................ isimli öğrencinin ${academicYear} eğitim öğretim yılında ${schoolName} ${currentClub.name} kapsamında yürütülecek sosyal etkinlik, yarışma, gezi ve toplum hizmeti faaliyetlerine katılmasına izin veriyorum.`,
+          spacing: { after: 200 },
+        }),
+        new Paragraph({
+          text: 'Veli Adı Soyadı: .....................................................   İmza: .........................',
+          spacing: { after: 300 },
+        }),
+        new Paragraph({
+          text: `Danışman Öğretmen: ${advisorTeacher1} (İmza)                    UYGUNDUR - ${principalName} (Okul Müdürü İmza/Mühür)`,
+          spacing: { before: 300 },
+        })
+      );
+
+      const doc = new Document({
+        sections: [
+          {
+            properties: {},
+            children,
+          },
+        ],
+      });
+
+      const blob = await Packer.toBlob(doc);
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      const cleanFileName = `${currentClub.name.replace(/\s+/g, '_')}_Evraklari_2026_2027.docx`;
+      a.download = cleanFileName;
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      console.error('Word oluşturma hatası:', err);
+    } finally {
+      setWordLoading(false);
+    }
   };
 
   return (
@@ -142,11 +362,20 @@ export default function ClubDocumentsMakerTool() {
               Sosyal Kulüp Evrakları ve Toplantı Tutanakları
             </h2>
             <p className="text-slate-500 text-sm mt-1">
-              Kulübünüzü seçin, bilgilerinizi girin; 2026-2027 yılı tüm resmi kulüp dosyasını tek tıkla PDF olarak alın.
+              Kulübünüzü seçin, bilgilerinizi girin; 2026-2027 yılı tüm resmi kulüp dosyasını tek tıkla Word (.docx) veya PDF olarak alın.
             </p>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex flex-wrap items-center gap-2.5">
+            <button
+              type="button"
+              onClick={handleExportWord}
+              disabled={!currentClub || loading || wordLoading}
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 active:scale-95 text-white text-sm font-bold shadow-md shadow-blue-600/20 transition-all disabled:opacity-50"
+            >
+              {wordLoading ? <RefreshCw className="w-4 h-4 animate-spin" /> : <FileText className="w-4 h-4" />}
+              Word (.docx) İndir
+            </button>
             <button
               type="button"
               onClick={handlePrint}

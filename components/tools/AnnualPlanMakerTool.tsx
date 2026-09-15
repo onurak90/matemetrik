@@ -582,66 +582,83 @@ export default function AnnualPlanMakerTool() {
       {/* ============================================================== */}
       {/* PRINT-ONLY OFFICIAL MEB DOCUMENT LAYOUT (A4 Landscape)         */}
       {/* ============================================================== */}
-      <div className="hidden print:block font-sans text-black bg-white p-4 leading-normal print-area">
+      {/* ============================================================== */}
+      {/* PRINT-ONLY OFFICIAL MEB DOCUMENT LAYOUT (A4 Landscape)         */}
+      {/* ============================================================== */}
+      <div className="hidden print:block font-sans text-black bg-white p-0 m-0 leading-tight print-area">
         <style dangerouslySetInnerHTML={{ __html: `
           @media print {
             @page {
               size: A4 landscape;
-              margin: 10mm 8mm 10mm 8mm;
+              margin: 6mm 6mm 6mm 6mm;
             }
-            body {
-              font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-              color: #000;
-              background: #fff;
-              -webkit-print-color-adjust: exact;
-              print-color-adjust: exact;
+            *, *::before, *::after {
+              box-sizing: border-box !important;
             }
-            .no-print {
+            html, body {
+              margin: 0 !important;
+              padding: 0 !important;
+              background: #fff !important;
+              color: #000 !important;
+              -webkit-print-color-adjust: exact !important;
+              print-color-adjust: exact !important;
+              font-family: Arial, Helvetica, sans-serif !important;
+            }
+            .no-print, header, footer, nav, aside {
               display: none !important;
             }
+            .print-area {
+              display: block !important;
+              width: 100% !important;
+              margin: 0 !important;
+              padding: 0 !important;
+            }
             .print-table {
-              width: 100%;
-              border-collapse: collapse;
-              font-size: 8.5pt;
-              line-height: 1.25;
+              width: 100% !important;
+              border-collapse: collapse !important;
+              font-size: 6.8pt !important;
+              line-height: 1.12 !important;
+              margin-top: 2px !important;
             }
             .print-table th, .print-table td {
-              border: 1px solid #333;
-              padding: 4px 6px;
-              vertical-align: top;
+              border: 0.5pt solid #222 !important;
+              padding: 2px 3px !important;
+              vertical-align: top !important;
+              word-break: break-word !important;
             }
             .print-table thead {
-              display: table-header-group;
+              display: table-header-group !important;
               background-color: #f1f5f9 !important;
             }
             .print-table tr {
-              page-break-inside: avoid;
+              page-break-inside: auto !important;
+              break-inside: auto !important;
             }
-            .page-break {
-              page-break-after: always;
+            .print-sig-block {
+              page-break-inside: avoid !important;
+              break-inside: avoid !important;
+              margin-top: 4px !important;
             }
           }
         `}} />
 
-        {/* Official Header */}
-        <div className="text-center mb-3 border-b-2 border-black pb-2">
-          <div className="text-xs font-bold uppercase tracking-wider">
-            T.C. {cityDistrict.toUpperCase()}
+        {/* Compact Official Header */}
+        <div className="text-center mb-1 pb-1 border-b border-black">
+          <div className="text-[7.5pt] font-bold uppercase tracking-wider">
+            T.C. {cityDistrict.toUpperCase()} &bull; {schoolName.toUpperCase()}
           </div>
-          <div className="text-sm font-extrabold uppercase mt-0.5">
-            {schoolName.toUpperCase()}
-          </div>
-          <div className="text-xs font-black uppercase mt-1 text-slate-900">
-            {academicYear} EĞİTİM ÖĞRETİM YILI {selectedGrade}. SINIF {selectedSubject.toUpperCase()} DERSİ YILLIK PLANI
+          <div className="text-[8.5pt] font-black uppercase mt-0.5 text-black">
+            {academicYear} EĞİTİM VE ÖĞRETİM YILI {selectedGrade}. SINIF {selectedSubject.toUpperCase()} DERSİ TASLAK ÇERÇEVE YILLIK PLANI
           </div>
         </div>
 
-        {/* Meta Info Bar */}
-        <div className="grid grid-cols-4 gap-2 text-[8.5pt] border border-black p-2 mb-3 bg-slate-50 font-medium">
-          <div><span className="font-bold">Dersi Okutan Öğretmen:</span> {teacherName}</div>
-          <div><span className="font-bold">Sınıf / Şube:</span> {classBranch}</div>
-          <div><span className="font-bold">Haftalık Ders Saati:</span> {weeklyHours} Saat</div>
-          <div><span className="font-bold">Onay Tarihi:</span> {approvalDate}</div>
+        {/* Compact Meta Info Bar */}
+        <div className="flex justify-between items-center text-[7pt] border border-black px-2 py-0.5 mb-1 bg-slate-50 font-medium">
+          <div><span className="font-bold">Öğretmen:</span> {teacherName}</div>
+          <div><span className="font-bold">Sınıf/Şube:</span> {classBranch}</div>
+          <div><span className="font-bold">Haftalık Saat:</span> {weeklyHours} Saat</div>
+          <div><span className="font-bold">Okul Müdürü:</span> {principalName}</div>
+          <div><span className="font-bold">Tarih:</span> {approvalDate}</div>
         </div>
 
         {/* Main Plan Table */}
@@ -649,12 +666,12 @@ export default function AnnualPlanMakerTool() {
           <table className="print-table">
             <thead>
               <tr className="font-bold text-center bg-slate-100">
-                <th style={{ width: '6%' }}>AY</th>
-                <th style={{ width: '10%' }}>HAFTA / TARİH</th>
-                <th style={{ width: '4%' }}>SAAT</th>
-                <th style={{ width: '14%' }}>ÜNİTE / TEMA</th>
-                <th style={{ width: '18%' }}>KONU (İÇERİK)</th>
-                <th style={{ width: '28%' }}>ÖĞRENME ÇIKTILARI (KAZANIMLAR)</th>
+                <th style={{ width: '5%' }}>AY</th>
+                <th style={{ width: '9%' }}>HAFTA / TARİH</th>
+                <th style={{ width: '3%' }}>SAAT</th>
+                <th style={{ width: '13%' }}>ÜNİTE / TEMA</th>
+                <th style={{ width: '16%' }}>KONU (İÇERİK)</th>
+                <th style={{ width: '34%' }}>ÖĞRENME ÇIKTILARI (KAZANIMLAR)</th>
                 <th style={{ width: '10%' }}>ÖLÇME-DEĞERL.</th>
                 <th style={{ width: '10%' }}>BELİRLİ GÜNLER</th>
               </tr>
@@ -668,32 +685,33 @@ export default function AnnualPlanMakerTool() {
                   <td className="font-semibold">{w.unit}</td>
                   <td>{w.topic}</td>
                   <td className="text-justify">{w.outcomes}</td>
-                  <td className="text-[7.5pt]">{w.assessment || '-'}</td>
-                  <td className="text-[7.5pt] text-center font-medium">{w.specialDays || '-'}</td>
+                  <td className="text-[6.5pt]">{w.assessment || '-'}</td>
+                  <td className="text-[6.5pt] text-center font-medium">{w.specialDays || '-'}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         )}
 
-        {/* Legal basis note */}
-        <div className="mt-3 text-[7.5pt] text-slate-800 leading-tight border-t border-slate-400 pt-1">
-          <span className="font-bold">Dayanak:</span> {currentPlan?.legalBasis}
-        </div>
-
-        {/* Signatures */}
-        <div className="grid grid-cols-2 mt-6 pt-4 text-center text-xs">
-          <div>
-            <div className="font-bold">{teacherName}</div>
-            <div className="text-[10pt] text-slate-700">Ders Öğretmeni</div>
-            <div className="mt-8 text-slate-400">İmza</div>
+        {/* Legal basis & Signatures Block */}
+        <div className="print-sig-block">
+          <div className="mt-1 text-[6.5pt] text-slate-800 leading-tight border-t border-slate-400 pt-0.5">
+            <span className="font-bold">Dayanak:</span> {currentPlan?.legalBasis}
           </div>
-          <div>
-            <div className="font-bold">UYGUNDUR</div>
-            <div className="text-[10pt] text-slate-700">{approvalDate}</div>
-            <div className="font-bold mt-1">{principalName}</div>
-            <div className="text-[10pt] text-slate-700">Okul Müdürü</div>
-            <div className="mt-5 text-slate-400">İmza / Mühür</div>
+
+          <div className="grid grid-cols-2 mt-3 text-center text-[7.5pt]">
+            <div>
+              <div className="font-bold">{teacherName}</div>
+              <div className="text-[7pt] text-slate-700">Ders Öğretmeni</div>
+              <div className="mt-4 text-slate-400">İmza</div>
+            </div>
+            <div>
+              <div className="font-bold">UYGUNDUR</div>
+              <div className="text-[6.5pt] text-slate-700">{approvalDate}</div>
+              <div className="font-bold mt-0.5">{principalName}</div>
+              <div className="text-[7pt] text-slate-700">Okul Müdürü</div>
+              <div className="mt-2 text-slate-400">İmza / Mühür</div>
+            </div>
           </div>
         </div>
       </div>

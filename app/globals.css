@@ -3,21 +3,112 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8fafc;
+  --foreground: #0f172a;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html.dark {
+  --background: #090d16;
+  --foreground: #f1f5f9;
+  color-scheme: dark;
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background-color: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* ========================================================= */
+/* GLOBAL DARK MODE OVERRIDES FOR CONSISTENT STYLING        */
+/* ========================================================= */
+
+html.dark body {
+  background-color: #0b0f19 !important;
+  color: #f1f5f9 !important;
+}
+
+/* Background surfaces */
+html.dark .bg-white {
+  background-color: #111827 !important;
+  color: #f1f5f9;
+}
+
+html.dark .bg-slate-50,
+html.dark .bg-slate-50\/50,
+html.dark .bg-slate-50\/60,
+html.dark .bg-slate-50\/70,
+html.dark .bg-slate-50\/80 {
+  background-color: #0f172a !important;
+}
+
+html.dark .bg-slate-100,
+html.dark .bg-slate-100\/90 {
+  background-color: #1e293b !important;
+}
+
+/* Border colors */
+html.dark .border-slate-100,
+html.dark .border-slate-200,
+html.dark .border-slate-200\/70,
+html.dark .border-slate-200\/80 {
+  border-color: #1e293b !important;
+}
+
+/* Text colors */
+html.dark .text-slate-900,
+html.dark .text-slate-800 {
+  color: #f8fafc !important;
+}
+
+html.dark .text-slate-700,
+html.dark .text-slate-600 {
+  color: #cbd5e1 !important;
+}
+
+html.dark .text-slate-500,
+html.dark .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+/* Forms & Inputs in Dark Mode */
+html.dark input:not([type="checkbox"]):not([type="radio"]),
+html.dark textarea,
+html.dark select {
+  background-color: #1f2937 !important;
+  color: #f8fafc !important;
+  border-color: #374151 !important;
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+  color: #64748b !important;
+}
+
+/* Shadows in Dark Mode */
+html.dark .shadow-sm,
+html.dark .shadow-md,
+html.dark .shadow-lg,
+html.dark .shadow-xl {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Header & navigation in dark mode */
+html.dark header {
+  background-color: rgba(17, 24, 39, 0.95) !important;
+  border-color: #1e293b !important;
+}
+
+html.dark .group-hover\:visible {
+  background-color: #111827 !important;
+  border-color: #1e293b !important;
+}
+
+/* Table rows */
+html.dark tr.hover\:bg-indigo-50\/40:hover,
+html.dark tr:hover {
+  background-color: rgba(79, 70, 229, 0.12) !important;
 }
 
 @layer utilities {
