@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {
   Search, BookOpen, Sparkles, GraduationCap,
   FileText, Award, ArrowRight, CheckCircle2,
-  TrendingUp, Compass, ArrowUpRight
+  TrendingUp, Compass, ArrowUpRight, Calendar, Users
 } from 'lucide-react';
 import { getPosts, getCategories, getTopPosts } from '@/lib/db';
 import PostCard from '@/components/blog/PostCard';
@@ -141,6 +141,52 @@ export default function HomePage({
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-purple-950 font-bold text-xs rounded-xl hover:bg-purple-50 transition-colors shadow-md"
               >
                 Sınav Kağıdı Oluştur &rarr;
+              </Link>
+            </div>
+          </div>
+
+          {/* Yıllık Plan Hazırlama Tool */}
+          <div className="relative overflow-hidden bg-gradient-to-br from-emerald-900 to-slate-900 rounded-3xl p-8 text-white flex flex-col justify-between shadow-lg shadow-emerald-950/20 group">
+            <div className="space-y-4">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-semibold border border-emerald-400/30">
+                <Calendar className="w-3.5 h-3.5" /> Maarif Modeli &amp; LGS Uyumlu
+              </div>
+              <h3 className="text-2xl font-bold tracking-tight">
+                Yıllık Plan Hazırlama Robotu
+              </h3>
+              <p className="text-slate-300 text-sm leading-relaxed">
+                1&apos;den 8&apos;e tüm sınıf ve branşlarda MEB çerçeve yıllık planları. Okul ve öğretmen bilgilerinizi girin, haftalık kazanım ve farklılaştırma tablolarınızı Excel ve yatay A4 PDF formatında anında indirin.
+              </p>
+            </div>
+            <div className="pt-6">
+              <Link
+                href="/yillik-plan-hazirlama"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-emerald-950 font-bold text-xs rounded-xl hover:bg-emerald-50 transition-colors shadow-md"
+              >
+                Yıllık Plan Hazırla &rarr;
+              </Link>
+            </div>
+          </div>
+
+          {/* Kulüp Evrakları & Toplantı Tutanakları Tool */}
+          <div className="relative overflow-hidden bg-gradient-to-br from-blue-900 to-slate-900 rounded-3xl p-8 text-white flex flex-col justify-between shadow-lg shadow-blue-950/20 group">
+            <div className="space-y-4">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-semibold border border-blue-400/30">
+                <Users className="w-3.5 h-3.5" /> MEB Sosyal Etkinlikler Yönetmeliği
+              </div>
+              <h3 className="text-2xl font-bold tracking-tight">
+                Kulüp Toplantı Tutanakları Robotu
+              </h3>
+              <p className="text-slate-300 text-sm leading-relaxed">
+                20 resmi kulüp için İç Tüzük, 1. Dönem Genel Kurul Tutanağı, Yıllık Çalışma Planı, Görevli Öğrenci Listesi, Faaliyet Raporu ve Ek-5 Veli İzin Belgesi. Tek tıkla Word (.docx) ve PDF olarak alın.
+              </p>
+            </div>
+            <div className="pt-6">
+              <Link
+                href="/kulup-toplanti-tutanaklari"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-blue-950 font-bold text-xs rounded-xl hover:bg-blue-50 transition-colors shadow-md"
+              >
+                Kulüp Evraklarını Al &rarr;
               </Link>
             </div>
           </div>
