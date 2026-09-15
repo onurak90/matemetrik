@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import {
   BookOpen, Search, Menu, X, ChevronDown,
   GraduationCap, Sparkles, Award, FileText,
-  Compass, ArrowRight, Shield
+  Compass, ArrowRight, Shield, Calendar, Users
 } from 'lucide-react';
 
 import TopCtaBanner from './TopCtaBanner';
@@ -141,12 +141,52 @@ export default function Navbar() {
                 <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
               </button>
 
-              <div className="absolute top-full left-0 w-64 bg-white rounded-2xl shadow-xl border border-slate-200 p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0">
+              <div className="absolute top-full left-0 w-72 bg-white rounded-2xl shadow-xl border border-slate-200 p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0">
+                <Link
+                  href="/yillik-plan-hazirlama"
+                  className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-indigo-50 transition-colors group/item"
+                >
+                  <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0">
+                    <Calendar className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-slate-800 group-hover/item:text-indigo-600 flex items-center gap-1.5">
+                      Yıllık Plan Hazırlama
+                      <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-extrabold border border-emerald-200">
+                        2026-2027
+                      </span>
+                    </div>
+                    <div className="text-[11px] text-slate-500 line-clamp-1">
+                      Maarif Modeli Excel &amp; PDF çıktısı
+                    </div>
+                  </div>
+                </Link>
+
+                <Link
+                  href="/kulup-toplanti-tutanaklari"
+                  className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-indigo-50 transition-colors group/item"
+                >
+                  <div className="w-8 h-8 rounded-lg bg-indigo-100 text-indigo-600 flex items-center justify-center shrink-0">
+                    <Users className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-slate-800 group-hover/item:text-indigo-600 flex items-center gap-1.5">
+                      Kulüp Toplantı Tutanakları
+                      <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 font-extrabold border border-indigo-200">
+                        20 Kulüp
+                      </span>
+                    </div>
+                    <div className="text-[11px] text-slate-500 line-clamp-1">
+                      Tüzük, tutanak ve planları PDF indir
+                    </div>
+                  </div>
+                </Link>
+
                 <Link
                   href="/karne-gorusu-ureticisi"
                   className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-indigo-50 transition-colors group/item"
                 >
-                  <div className="w-8 h-8 rounded-lg bg-indigo-100 text-indigo-600 flex items-center justify-center shrink-0">
+                  <div className="w-8 h-8 rounded-lg bg-purple-100 text-purple-600 flex items-center justify-center shrink-0">
                     <Sparkles className="w-4 h-4" />
                   </div>
                   <div>
@@ -154,7 +194,7 @@ export default function Navbar() {
                       Karne Görüşü Üretici
                     </div>
                     <div className="text-[11px] text-slate-500 line-clamp-1">
-                      Yapay zeka destekli pedagojik karne görüşleri
+                      Yapay zeka destekli pedagojik görüşler
                     </div>
                   </div>
                 </Link>
@@ -288,6 +328,14 @@ export default function Navbar() {
             <div className="text-xs font-bold text-indigo-600 uppercase tracking-wider">
               Öğretmen Araçları
             </div>
+            <Link href="/yillik-plan-hazirlama" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
+              <span>Yıllık Plan Hazırlama</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-bold border border-emerald-200">2026-2027</span>
+            </Link>
+            <Link href="/kulup-toplanti-tutanaklari" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
+              <span>Kulüp Toplantı Tutanakları</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 font-bold border border-indigo-200">20 Kulüp</span>
+            </Link>
             <Link href="/karne-gorusu-ureticisi" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600">
               Karne Görüşü Üreticisi
             </Link>

@@ -47,7 +47,17 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link href="/karne-gorusu-ureticisi" className="hover:text-white transition-colors flex items-center gap-1.5 text-indigo-400">
+                <Link href="/yillik-plan-hazirlama" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-semibold">
+                  <Sparkles className="w-3 h-3" /> Yıllık Plan Hazırlama (2026-2027)
+                </Link>
+              </li>
+              <li>
+                <Link href="/kulup-toplanti-tutanaklari" className="hover:text-white transition-colors flex items-center gap-1.5 text-indigo-400 font-semibold">
+                  <Sparkles className="w-3 h-3" /> Kulüp Toplantı Tutanakları
+                </Link>
+              </li>
+              <li>
+                <Link href="/karne-gorusu-ureticisi" className="hover:text-white transition-colors flex items-center gap-1.5 text-purple-400">
                   <Sparkles className="w-3 h-3" /> Karne Görüşü Üreticisi
                 </Link>
               </li>
