@@ -2,8 +2,31 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { getSettings } from '@/lib/db';
 
+function cleanVerificationToken(val?: string): string | undefined {
+  if (!val || !val.trim()) return undefined;
+  const trimmed = val.trim();
+  const match = trimmed.match(/content=["']([^"']+)["']/i);
+  if (match) return match[1].trim();
+  return trimmed;
+}
+
+function extractGaId(raw?: string): string | null {
+  if (!raw || !raw.trim()) return null;
+  const match = raw.match(/G-[A-Za-z0-9]+/i);
+  return match ? match[0].toUpperCase() : null;
+}
+
 export async function generateMetadata(): Promise<Metadata> {
   const settings = getSettings();
+  const googleVer = cleanVerificationToken(settings.gsc_verification);
+  const yandexVer = cleanVerificationToken(settings.yandex_verification);
+  const bingVer = cleanVerificationToken(settings.bing_verification);
+  const pinterestVer = cleanVerificationToken(settings.pinterest_verification);
+
+  const otherMeta: Record<string, string> = {};
+  if (bingVer) otherMeta['msvalidate.01'] = bingVer;
+  if (pinterestVer) otherMeta['p:domain_verify'] = pinterestVer;
+
   return {
     metadataBase: new URL('https://www.matemetrik.com'),
     title: {
@@ -20,16 +43,18 @@ export async function generateMetadata(): Promise<Metadata> {
       '9. sınıf matematik',
       'karne görüşü üreticisi',
       'sınav hazırlama robotu',
+      'yıllık plan hazırlama',
+      'kulüp evrakları',
       'yks matematik',
       'lgs matematik',
     ],
     authors: [{ name: settings.site_author || 'Cavenaghi', url: 'https://www.matemetrik.com' }],
     creator: settings.site_name || 'Matemetrik',
-    verification: settings.gsc_verification
-      ? {
-          google: settings.gsc_verification,
-        }
-      : undefined,
+    verification: {
+      ...(googleVer ? { google: googleVer } : {}),
+      ...(yandexVer ? { yandex: yandexVer } : {}),
+      ...(Object.keys(otherMeta).length > 0 ? { other: otherMeta } : {}),
+    },
     openGraph: {
       type: 'website',
       locale: 'tr_TR',
@@ -89,6 +114,7 @@ export default function RootLayout({
 }) {
   const settings = getSettings();
   const adsEnabled = settings.ads_enabled === '1';
+  const gaId = extractGaId(settings.google_analytics_id);
 
   const websiteJsonLd = {
     '@context': 'https://schema.org',
@@ -136,6 +162,40 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
+
+        {/* Google Analytics 4 (gtag.js) Integration */}
+        {gaId && (
+          <>
+            <script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+            />
+            <script
+              id="google-analytics-init"
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${gaId}', {
+                    page_path: window.location.pathname,
+                    send_page_view: true
+                  });
+                `,
+              }}
+            />
+          </>
+        )}
+
+        {/* Custom Head Tags */}
+        {settings.custom_head_tags && (
+          <script
+            type="text/plain"
+            id="custom-head-tags-container"
+            dangerouslySetInnerHTML={{ __html: settings.custom_head_tags }}
+          />
+        )}
+
         {adsEnabled && settings.ad_header_code && renderAdSenseHead(settings.ad_header_code)}
       </head>
       <body className="antialiased bg-slate-50 dark:bg-[#0b0f19] text-slate-900 dark:text-slate-100 min-h-screen selection:bg-indigo-500 selection:text-white transition-colors duration-200">

@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/footer/Footer';
-import ContentProtection from '@/components/security/ContentProtection';
 import CookieConsent from '@/components/common/CookieConsent';
+import AnalyticsTracker from '@/components/common/AnalyticsTracker';
 
 export default function SiteLayout({
   children,
@@ -11,7 +11,7 @@ export default function SiteLayout({
 }) {
   return (
     <div className="flex flex-col min-h-screen">
-      <ContentProtection />
+      <AnalyticsTracker />
       <div className="print:hidden">
         <Navbar />
       </div>
@@ -25,4 +25,3 @@ export default function SiteLayout({
     </div>
   );
 }
-

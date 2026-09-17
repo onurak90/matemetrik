@@ -121,6 +121,26 @@ function initTables(db: Database.Database) {
     CREATE INDEX IF NOT EXISTS idx_posts_category ON posts(category_slug);
     CREATE INDEX IF NOT EXISTS idx_posts_published ON posts(is_published);
     CREATE INDEX IF NOT EXISTS idx_posts_title ON posts(title);
+
+    CREATE TABLE IF NOT EXISTS page_hits (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      path TEXT NOT NULL,
+      title TEXT,
+      entity_type TEXT DEFAULT 'page',
+      post_id INTEGER,
+      source TEXT DEFAULT 'direct',
+      referrer TEXT,
+      device TEXT DEFAULT 'desktop',
+      ip_hash TEXT,
+      user_agent TEXT,
+      created_at TEXT NOT NULL
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_page_hits_created_at ON page_hits(created_at);
+    CREATE INDEX IF NOT EXISTS idx_page_hits_path ON page_hits(path);
+    CREATE INDEX IF NOT EXISTS idx_page_hits_source ON page_hits(source);
+    CREATE INDEX IF NOT EXISTS idx_page_hits_post_id ON page_hits(post_id);
+    CREATE INDEX IF NOT EXISTS idx_page_hits_entity_type ON page_hits(entity_type);
   `);
 }
 
@@ -538,6 +558,310 @@ export function getReports() {
   };
 }
 
+export interface PageHitInput {
+  path: string;
+  title?: string;
+  referrer?: string;
+  userAgent?: string;
+  ip?: string;
+}
+
+export function recordPageHit(input: PageHitInput) {
+  try {
+    const db = getDb();
+    const rawPath = (input.path || '/').split('?')[0];
+
+    // Ignore internal system and admin routes
+    if (
+      rawPath.startsWith('/admin') ||
+      rawPath.startsWith('/yonetim') ||
+      rawPath.startsWith('/api') ||
+      rawPath.startsWith('/_next') ||
+      rawPath.includes('.ico') ||
+      rawPath.includes('.png') ||
+      rawPath.includes('.svg') ||
+      rawPath.includes('.webp') ||
+      rawPath.includes('.txt') ||
+      rawPath.includes('.xml')
+    ) {
+      return;
+    }
+
+    const ref = (input.referrer || '').toLowerCase();
+    let source = 'direct';
+
+    if (ref.includes('google.')) {
+      source = 'google';
+    } else if (ref.includes('bing.')) {
+      source = 'bing';
+    } else if (ref.includes('yandex.')) {
+      source = 'yandex';
+    } else if (ref.includes('yahoo.')) {
+      source = 'yahoo';
+    } else if (ref.includes('instagram.com')) {
+      source = 'instagram';
+    } else if (ref.includes('twitter.com') || ref.includes('t.co') || ref.includes('x.com')) {
+      source = 'twitter';
+    } else if (ref.includes('facebook.com') || ref.includes('fb.com')) {
+      source = 'facebook';
+    } else if (ref.includes('tiktok.com')) {
+      source = 'tiktok';
+    } else if (ref.includes('youtube.com') || ref.includes('youtu.be')) {
+      source = 'youtube';
+    } else if (ref.includes('pinterest.com')) {
+      source = 'pinterest';
+    } else if (ref.includes('linkedin.com')) {
+      source = 'linkedin';
+    } else if (ref && !ref.includes('matemetrik.com') && !ref.includes('localhost')) {
+      source = 'referral';
+    } else {
+      source = 'direct';
+    }
+
+    const ua = (input.userAgent || '').toLowerCase();
+    let device = 'desktop';
+    if (/mobile|android|iphone|ipod|blackberry|opera mini|iemobile|wpdesktop/i.test(ua)) {
+      device = 'mobile';
+    } else if (/ipad|tablet/i.test(ua)) {
+      device = 'tablet';
+    }
+
+    let ipHash = '';
+    if (input.ip) {
+      let hash = 0;
+      for (let i = 0; i < input.ip.length; i++) {
+        hash = (hash << 5) - hash + input.ip.charCodeAt(i);
+        hash |= 0;
+      }
+      ipHash = 'u_' + Math.abs(hash).toString(36);
+    }
+
+    let entityType = 'page';
+    let postId: number | null = null;
+    let title = input.title || '';
+
+    if (rawPath.startsWith('/blog/')) {
+      entityType = 'blog';
+      const slug = rawPath.replace('/blog/', '').replace(/\/$/, '');
+      const post = db.prepare('SELECT id, title FROM posts WHERE slug = ?').get(slug) as { id: number; title: string } | undefined;
+      if (post) {
+        postId = post.id;
+        if (!title) title = post.title;
+        db.prepare('UPDATE posts SET views = views + 1 WHERE id = ?').run(post.id);
+      }
+    } else if (rawPath.startsWith('/soru-hazirlama')) {
+      entityType = 'tool';
+      if (!title) title = 'Soru Hazırlama Robotu';
+    } else if (rawPath.startsWith('/yillik-plan-hazirlama')) {
+      entityType = 'tool';
+      if (!title) title = 'Yıllık Plan Hazırlama Robotu';
+    } else if (rawPath.startsWith('/kulup-toplanti-tutanaklari')) {
+      entityType = 'tool';
+      if (!title) title = 'Kulüp Toplantı Tutanakları';
+    } else if (rawPath.startsWith('/karne-gorusu-ureticisi')) {
+      entityType = 'tool';
+      if (!title) title = 'Karne Görüşü Üreticisi';
+    } else if (rawPath === '/') {
+      if (!title) title = 'Ana Sayfa';
+    }
+
+    const now = new Date().toISOString();
+    db.prepare(`
+      INSERT INTO page_hits (path, title, entity_type, post_id, source, referrer, device, ip_hash, user_agent, created_at)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `).run(rawPath, title, entityType, postId, source, input.referrer || '', device, ipHash, input.userAgent || '', now);
+  } catch (err) {
+    console.error('recordPageHit error:', err);
+  }
+}
+
+export function getAdvancedAnalytics(range: string = '30days') {
+  const db = getDb();
+
+  let dateCondition = '1=1';
+  if (range === 'today') {
+    dateCondition = "created_at >= datetime('now', '-1 day')";
+  } else if (range === '7days') {
+    dateCondition = "created_at >= datetime('now', '-7 days')";
+  } else if (range === '30days') {
+    dateCondition = "created_at >= datetime('now', '-30 days')";
+  } else if (range === '180days') {
+    dateCondition = "created_at >= datetime('now', '-180 days')";
+  } else if (range === '365days') {
+    dateCondition = "created_at >= datetime('now', '-365 days')";
+  }
+
+  const totalHitsRow = db.prepare(`SELECT COUNT(*) as c FROM page_hits WHERE ${dateCondition}`).get() as { c: number };
+  const uniqueVisitorsRow = db.prepare(`SELECT COUNT(DISTINCT ip_hash) as c FROM page_hits WHERE ${dateCondition} AND ip_hash != ''`).get() as { c: number };
+  const blogHitsRow = db.prepare(`SELECT COUNT(*) as c FROM page_hits WHERE ${dateCondition} AND entity_type = 'blog'`).get() as { c: number };
+  const toolHitsRow = db.prepare(`SELECT COUNT(*) as c FROM page_hits WHERE ${dateCondition} AND entity_type = 'tool'`).get() as { c: number };
+  const pageHitsRow = db.prepare(`SELECT COUNT(*) as c FROM page_hits WHERE ${dateCondition} AND entity_type = 'page'`).get() as { c: number };
+  const totalPostsRow = db.prepare('SELECT COUNT(*) as count FROM posts WHERE is_published = 1').get() as { count: number };
+
+  const totalHits = totalHitsRow?.c || 0;
+  const uniqueVisitors = Math.max(uniqueVisitorsRow?.c || 0, totalHits > 0 ? 1 : 0);
+
+  // Sources breakdown
+  const sourceRows = db.prepare(`
+    SELECT source, COUNT(*) as count 
+    FROM page_hits 
+    WHERE ${dateCondition} 
+    GROUP BY source 
+    ORDER BY count DESC
+  `).all() as { source: string; count: number }[];
+
+  const SOURCE_LABELS: Record<string, string> = {
+    google: 'Google Arama',
+    bing: 'Bing Arama',
+    yandex: 'Yandex Arama',
+    yahoo: 'Yahoo',
+    direct: 'Doğrudan (Direct)',
+    instagram: 'Instagram',
+    twitter: 'X (Twitter)',
+    facebook: 'Facebook',
+    tiktok: 'TikTok',
+    youtube: 'YouTube',
+    linkedin: 'LinkedIn',
+    pinterest: 'Pinterest',
+    referral: 'Harici Siteler',
+  };
+
+  const sources = sourceRows.map((r) => ({
+    source: r.source,
+    label: SOURCE_LABELS[r.source] || r.source,
+    count: r.count,
+    percentage: totalHits > 0 ? Math.round((r.count / totalHits) * 100) : 0,
+  }));
+
+  // Devices breakdown
+  const deviceRows = db.prepare(`
+    SELECT device, COUNT(*) as count 
+    FROM page_hits 
+    WHERE ${dateCondition} 
+    GROUP BY device 
+    ORDER BY count DESC
+  `).all() as { device: string; count: number }[];
+
+  const DEVICE_LABELS: Record<string, string> = {
+    desktop: 'Masaüstü (Desktop)',
+    mobile: 'Mobil (Telefon)',
+    tablet: 'Tablet',
+  };
+
+  const devices = deviceRows.map((r) => ({
+    device: r.device,
+    label: DEVICE_LABELS[r.device] || r.device,
+    count: r.count,
+    percentage: totalHits > 0 ? Math.round((r.count / totalHits) * 100) : 0,
+  }));
+
+  // Top Blog Posts in this period
+  const topBlogRows = db.prepare(`
+    SELECT 
+      p.id, p.title, p.slug, p.category, 
+      COUNT(h.id) as views,
+      (
+        SELECT h2.source 
+        FROM page_hits h2 
+        WHERE h2.post_id = p.id AND ${dateCondition.replace(/created_at/g, 'h2.created_at')}
+        GROUP BY h2.source 
+        ORDER BY COUNT(*) DESC 
+        LIMIT 1
+      ) as topSource
+    FROM page_hits h
+    JOIN posts p ON h.post_id = p.id
+    WHERE ${dateCondition.replace(/created_at/g, 'h.created_at')}
+    GROUP BY p.id
+    ORDER BY views DESC
+    LIMIT 30
+  `).all() as any[];
+
+  let topBlogPosts = topBlogRows;
+  if (topBlogPosts.length === 0) {
+    topBlogPosts = db.prepare(`
+      SELECT id, title, slug, category, views, 'Doğrudan' as topSource
+      FROM posts
+      WHERE is_published = 1
+      ORDER BY views DESC, id DESC
+      LIMIT 15
+    `).all() as any[];
+  }
+
+  // Top Tools & Pages in this period
+  const topPageRows = db.prepare(`
+    SELECT 
+      path, title, entity_type,
+      COUNT(id) as views,
+      (
+        SELECT h2.source 
+        FROM page_hits h2 
+        WHERE h2.path = page_hits.path AND ${dateCondition.replace(/created_at/g, 'h2.created_at')}
+        GROUP BY h2.source 
+        ORDER BY COUNT(*) DESC 
+        LIMIT 1
+      ) as topSource
+    FROM page_hits
+    WHERE ${dateCondition} AND (entity_type != 'blog' OR post_id IS NULL)
+    GROUP BY path
+    ORDER BY views DESC
+    LIMIT 20
+  `).all() as any[];
+
+  let topPagesAndTools = topPageRows;
+  if (topPagesAndTools.length === 0) {
+    topPagesAndTools = [
+      { path: '/', title: 'Ana Sayfa', entity_type: 'page', views: 0, topSource: 'direct' },
+      { path: '/soru-hazirlama', title: 'Soru Hazırlama Robotu', entity_type: 'tool', views: 0, topSource: 'direct' },
+      { path: '/yillik-plan-hazirlama', title: 'Yıllık Plan Hazırlama Robotu', entity_type: 'tool', views: 0, topSource: 'direct' },
+      { path: '/kulup-toplanti-tutanaklari', title: 'Kulüp Toplantı Tutanakları', entity_type: 'tool', views: 0, topSource: 'direct' },
+      { path: '/karne-gorusu-ureticisi', title: 'Karne Görüşü Üreticisi', entity_type: 'tool', views: 0, topSource: 'direct' },
+    ];
+  }
+
+  // Timeline (Grouped by Day)
+  const timelineRows = db.prepare(`
+    SELECT SUBSTR(created_at, 1, 10) as date, COUNT(*) as hits
+    FROM page_hits
+    WHERE ${dateCondition}
+    GROUP BY SUBSTR(created_at, 1, 10)
+    ORDER BY date ASC
+  `).all() as { date: string; hits: number }[];
+
+  // Recent 20 Hits
+  const recentHits = db.prepare(`
+    SELECT id, path, title, source, device, created_at
+    FROM page_hits
+    ORDER BY id DESC
+    LIMIT 20
+  `).all() as any[];
+
+  // Categories Stats
+  const categoriesStats = db.prepare(`
+    SELECT c.name, c.slug, COUNT(p.id) as post_count, COALESCE(SUM(p.views), 0) as total_views
+    FROM categories c
+    LEFT JOIN posts p ON p.category_slug = c.slug AND p.is_published = 1
+    GROUP BY c.id
+    ORDER BY total_views DESC, post_count DESC
+  `).all();
+
+  return {
+    timeRange: range,
+    totalHits,
+    uniqueVisitors,
+    blogHits: blogHitsRow?.c || 0,
+    toolHits: toolHitsRow?.c || 0,
+    pageHits: pageHitsRow?.c || 0,
+    totalPostsCount: totalPostsRow?.count || 0,
+    sources,
+    devices,
+    topBlogPosts,
+    topPagesAndTools,
+    timeline: timelineRows,
+    recentHits,
+    categoriesStats,
+  };
+}
+
 export function getSettings(): Record<string, string> {
   const db = getDb();
   const rows = db.prepare('SELECT * FROM settings').all() as { key: string; value: string }[];
@@ -548,6 +872,10 @@ export function getSettings(): Record<string, string> {
     site_url: 'https://www.matemetrik.com',
     gsc_verification: '',
     bing_verification: '',
+    yandex_verification: '',
+    pinterest_verification: '',
+    google_analytics_id: '',
+    custom_head_tags: '',
     ads_enabled: '0',
     ad_header_code: '',
     ad_in_article_code: '',

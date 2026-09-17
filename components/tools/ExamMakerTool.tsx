@@ -24,6 +24,7 @@ const DEFAULT_REMINDERS = {
 export default function ExamMakerTool() {
   const [questions, setQuestions] = useState<QuestionItem[]>([]);
   const [columnCount, setColumnCount] = useState<'1' | '2'>('2');
+  const [density, setDensity] = useState<'compact' | 'standard' | 'spacious'>('standard');
   const [globalLineCount, setGlobalLineCount] = useState<number>(5);
   const [zoomScale, setZoomScale] = useState<number>(1);
   const [hasErrorBlink, setHasErrorBlink] = useState(false);
@@ -134,29 +135,73 @@ export default function ExamMakerTool() {
   };
 
   // Organize questions into pages (A4 pagination simulation)
-  // Standard A4 can comfortably fit approx 4-6 questions per page in double column, 3-4 in single column
+  // Double column: questions paired side-by-side share the same vertical row height
   const getPaginatedPages = () => {
     if (questions.length === 0) return [];
 
     const pages: QuestionItem[][] = [];
-    const maxWeightPerPage = columnCount === '2' ? 24 : 14;
+    const isDouble = columnCount === '2';
+
+    // Usable vertical pixel heights for A4:
+    // Page 1 has header (~150px), subsequent pages have no header.
+    const page1MaxHeight = density === 'compact' ? 880 : density === 'spacious' ? 790 : 835;
+    const subsequentMaxHeight = density === 'compact' ? 980 : density === 'spacious' ? 890 : 935;
+
+    const getQuestionHeight = (q: QuestionItem): number => {
+      const basePadding = 32; // badge, padding & border
+      const approxImgHeight = density === 'compact' ? 115 : density === 'spacious' ? 175 : 140;
+      const lineHeight = density === 'compact' ? 20 : density === 'spacious' ? 26 : 24;
+      const answerSpace = (q.lineCount || 0) * lineHeight;
+      return basePadding + approxImgHeight + answerSpace;
+    };
 
     let currentPage: QuestionItem[] = [];
-    let currentWeight = 0;
+    let currentHeight = 0;
+    let isFirstPage = true;
 
-    questions.forEach((q) => {
-      // Weight approximated by line count + base height
-      const qWeight = 2 + (q.lineCount > 0 ? q.lineCount * 0.4 : 0);
+    if (isDouble) {
+      // In 2-column mode, questions are grouped in pairs (row-by-row).
+      // Each row height is max(q1.height, q2.height)
+      let i = 0;
+      while (i < questions.length) {
+        const q1 = questions[i];
+        const q2 = i + 1 < questions.length ? questions[i + 1] : null;
 
-      if (currentWeight + qWeight > maxWeightPerPage && currentPage.length > 0) {
-        pages.push(currentPage);
-        currentPage = [q];
-        currentWeight = qWeight;
-      } else {
-        currentPage.push(q);
-        currentWeight += qWeight;
+        const q1H = getQuestionHeight(q1);
+        const q2H = q2 ? getQuestionHeight(q2) : q1H;
+        const rowH = Math.max(q1H, q2H) + 12; // 12px row gap
+
+        const maxLimit = isFirstPage ? page1MaxHeight : subsequentMaxHeight;
+
+        if (currentHeight + rowH > maxLimit && currentPage.length > 0) {
+          pages.push(currentPage);
+          currentPage = q2 ? [q1, q2] : [q1];
+          currentHeight = rowH;
+          isFirstPage = false;
+        } else {
+          currentPage.push(q1);
+          if (q2) currentPage.push(q2);
+          currentHeight += rowH;
+        }
+        i += 2;
       }
-    });
+    } else {
+      // 1-column mode: questions are stacked vertically
+      for (const q of questions) {
+        const qH = getQuestionHeight(q) + 12; // 12px gap
+        const maxLimit = isFirstPage ? page1MaxHeight : subsequentMaxHeight;
+
+        if (currentHeight + qH > maxLimit && currentPage.length > 0) {
+          pages.push(currentPage);
+          currentPage = [q];
+          currentHeight = qH;
+          isFirstPage = false;
+        } else {
+          currentPage.push(q);
+          currentHeight += qH;
+        }
+      }
+    }
 
     if (currentPage.length > 0) {
       pages.push(currentPage);
@@ -282,6 +327,22 @@ export default function ExamMakerTool() {
             >
               <option value="2">📄 Çift Sütun (Yan Yana MEB Formatı)</option>
               <option value="1">📃 Tek Sütun (Geniş / Alt Alta)</option>
+            </select>
+          </div>
+
+          {/* Page Density Layout */}
+          <div className="space-y-1.5">
+            <label className="block font-bold text-slate-700 uppercase tracking-wider text-[11px]">
+              📐 Sayfa Yoğunluğu
+            </label>
+            <select
+              value={density}
+              onChange={(e) => setDensity(e.target.value as 'compact' | 'standard' | 'spacious')}
+              className="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            >
+              <option value="compact">📏 Sıkı (Çok Soru Sığdır / Kompakt)</option>
+              <option value="standard">📐 Standart (MEB Dengeli Düzen)</option>
+              <option value="spacious">📖 Ferah (Geniş Çözüm Alanı)</option>
             </select>
           </div>
 
@@ -531,7 +592,11 @@ export default function ExamMakerTool() {
                             <img
                               src={q.image}
                               alt={`Soru ${questionNumber}`}
-                              className="max-w-full max-h-[220px] object-contain"
+                              style={{
+                                maxHeight:
+                                  density === 'compact' ? '175px' : density === 'spacious' ? '250px' : '210px',
+                              }}
+                              className="max-w-full object-contain"
                             />
                           </div>
 
@@ -539,7 +604,9 @@ export default function ExamMakerTool() {
                           {q.lineCount > 0 && (
                             <div
                               className="w-full"
-                              style={{ height: `${q.lineCount * 24}px` }}
+                              style={{
+                                height: `${q.lineCount * (density === 'compact' ? 20 : density === 'spacious' ? 26 : 24)}px`,
+                              }}
                             />
                           )}
 

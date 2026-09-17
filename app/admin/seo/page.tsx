@@ -31,7 +31,7 @@ interface SeoAuditReport {
 }
 
 export default function AdminSeoPage() {
-  const [activeTab, setActiveTab] = useState<'audit' | 'redirects' | 'ping' | 'serp'>('audit');
+  const [activeTab, setActiveTab] = useState<'audit' | 'redirects' | 'ping' | 'serp' | 'verification'>('audit');
 
   // Redirects state
   const [redirects, setRedirects] = useState<Redirect[]>([]);
@@ -220,6 +220,18 @@ export default function AdminSeoPage() {
         >
           <Eye className="w-4 h-4" />
           Google SERP Simülatörü
+        </button>
+
+        <button
+          onClick={() => setActiveTab('verification')}
+          className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+            activeTab === 'verification'
+              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
+              : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
+          }`}
+        >
+          <ShieldCheck className="w-4 h-4" />
+          Arama Motorları ve Doğrulama Rehberi
         </button>
       </div>
 
@@ -666,6 +678,124 @@ export default function AdminSeoPage() {
                   {serpDescription || 'Meta açıklama giriniz...'}
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* TAB 5: SEARCH ENGINE VERIFICATION & INTEGRATION GUIDE */}
+      {activeTab === 'verification' && (
+        <div className="space-y-6">
+          <div className="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-sm space-y-6">
+            <div>
+              <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2">
+                <ShieldCheck className="w-5 h-5 text-indigo-600" />
+                Arama Motorları ve Doğrulama Adımları
+              </h2>
+              <p className="text-xs text-slate-500 mt-1">
+                Google, Bing, Yandex ve Google Analytics entegrasyonlarınızı tamamlayarak sitenizi arama motorlarında zirveye taşıyın.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Google Search Console */}
+              <div className="p-5 rounded-2xl border border-blue-100 bg-blue-50/40 space-y-3">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2 font-bold text-blue-900 text-sm">
+                    <Globe className="w-4 h-4 text-blue-600" />
+                    Google Search Console
+                  </div>
+                  <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-200/60 text-blue-800">
+                    Öncelik: Kritik
+                  </span>
+                </div>
+                <p className="text-xs text-slate-600 leading-relaxed">
+                  Google'da organik sıralama almak ve içeriklerin hızlıca dizine eklenmesi için birincil araçtır.
+                </p>
+                <div className="text-[11px] text-slate-700 space-y-1.5 pt-1">
+                  <div>1. <strong>search.google.com/search-console</strong> adresine gidin.</div>
+                  <div>2. "URL ön eki" seçeneğine <code>https://www.matemetrik.com</code> yazın.</div>
+                  <div>3. "HTML Etiketi" yöntemini seçip kodu kopyalayın.</div>
+                  <div>4. <Link href="/admin/settings" className="text-indigo-600 font-bold underline">Site Ayarları</Link> sayfasındaki Google Search Console alanına yapıştırın.</div>
+                  <div>5. "Site Haritaları" sekmesinden <code>sitemap.xml</code> adresini gönderin.</div>
+                </div>
+              </div>
+
+              {/* Google Analytics 4 */}
+              <div className="p-5 rounded-2xl border border-amber-100 bg-amber-50/40 space-y-3">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2 font-bold text-amber-900 text-sm">
+                    <Activity className="w-4 h-4 text-amber-600" />
+                    Google Analytics 4 (GA4)
+                  </div>
+                  <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-200/60 text-amber-800">
+                    Ziyaretçi Takibi
+                  </span>
+                </div>
+                <p className="text-xs text-slate-600 leading-relaxed">
+                  Sitenizi ziyaret eden kullanıcıların hangi şehirlerden, hangi cihazlarla ve hangi sayfalara geldiğini anlık izleyin.
+                </p>
+                <div className="text-[11px] text-slate-700 space-y-1.5 pt-1">
+                  <div>1. <strong>analytics.google.com</strong> adresine gidin.</div>
+                  <div>2. Yönetici &gt; Veri Akışları &gt; Web Akışınızı seçin.</div>
+                  <div>3. <strong>G-XXXXXXXXXX</strong> formatındaki Ölçüm Kimliğini kopyalayın.</div>
+                  <div>4. <Link href="/admin/settings" className="text-indigo-600 font-bold underline">Site Ayarları</Link> sayfasındaki Google Analytics alanına kaydedin.</div>
+                </div>
+              </div>
+
+              {/* Bing Webmaster Tools */}
+              <div className="p-5 rounded-2xl border border-teal-100 bg-teal-50/40 space-y-3">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2 font-bold text-teal-900 text-sm">
+                    <Globe className="w-4 h-4 text-teal-600" />
+                    Bing Webmaster &amp; IndexNow
+                  </div>
+                  <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-teal-200/60 text-teal-800">
+                    Bing &amp; Yahoo
+                  </span>
+                </div>
+                <p className="text-xs text-slate-600 leading-relaxed">
+                  Bing, Yahoo ve DuckDuckGo gibi arama motorlarında indekslenmeyi ve IndexNow anlık bildirimlerini sağlar.
+                </p>
+                <div className="text-[11px] text-slate-700 space-y-1.5 pt-1">
+                  <div>1. <strong>bing.com/webmasters</strong> adresine giriş yapın.</div>
+                  <div>2. İster Google Search Console'dan tek tıkla içe aktarın, isterseniz HTML Meta etiketini alın.</div>
+                  <div>3. Doğrulama kodunu Site Ayarları &gt; Bing alanına ekleyin.</div>
+                </div>
+              </div>
+
+              {/* Yandex Webmaster */}
+              <div className="p-5 rounded-2xl border border-rose-100 bg-rose-50/40 space-y-3">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2 font-bold text-rose-900 text-sm">
+                    <Globe className="w-4 h-4 text-rose-600" />
+                    Yandex Webmaster
+                  </div>
+                  <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-200/60 text-rose-800">
+                    Yandex Arama
+                  </span>
+                </div>
+                <p className="text-xs text-slate-600 leading-relaxed">
+                  Yandex arama motoru üzerinden gelen eğitim ve matematik aramalarını yakalamanızı sağlar.
+                </p>
+                <div className="text-[11px] text-slate-700 space-y-1.5 pt-1">
+                  <div>1. <strong>webmaster.yandex.com</strong> adresine siteyi ekleyin.</div>
+                  <div>2. Meta tag doğrulama kodunu kopyalayın.</div>
+                  <div>3. Site Ayarları &gt; Yandex alanına yapıştırıp kaydedin.</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span className="text-xs text-slate-500">
+                Doğrulama kodlarını hemen girmek için Site Ayarları sayfasına geçebilirsiniz:
+              </span>
+              <Link
+                href="/admin/settings"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold rounded-xl shadow-sm transition-colors"
+              >
+                Site Ayarlarına Git &rarr;
+              </Link>
             </div>
           </div>
         </div>
