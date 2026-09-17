@@ -26,6 +26,7 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/blog/:slug*', destination: '/post/:slug*', permanent: true },
       { source: '/all-news', destination: '/', permanent: true },
       { source: '/all-news/categories/:slug*', destination: '/kategori/:slug*', permanent: true },
       { source: '/sinav-haz%C4%B1ilama-robotu', destination: '/sinav-hazirlama-robotu', permanent: true },

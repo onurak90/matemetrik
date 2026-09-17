@@ -99,7 +99,7 @@ export default function AdminReportsPage() {
       `"${(p.title || '').replace(/"/g, '""')}"`,
       p.views,
       p.topSource || 'Doğrudan',
-      `https://www.matemetrik.com/blog/${p.slug}`,
+      `https://www.matemetrik.com/post/${p.slug}`,
     ]);
 
     const pageRows = (data.topPagesAndTools || []).map((t) => [
@@ -500,7 +500,7 @@ export default function AdminReportsPage() {
                             </td>
                             <td className="py-3.5 px-4 text-right">
                               <Link
-                                href={`/blog/${p.slug}`}
+                                href={`/post/${p.slug}`}
                                 target="_blank"
                                 className="inline-flex items-center gap-1 text-indigo-600 hover:text-indigo-800 font-semibold"
                               >

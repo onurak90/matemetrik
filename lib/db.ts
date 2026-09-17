@@ -640,9 +640,9 @@ export function recordPageHit(input: PageHitInput) {
     let postId: number | null = null;
     let title = input.title || '';
 
-    if (rawPath.startsWith('/blog/')) {
+    if (rawPath.startsWith('/post/') || rawPath.startsWith('/blog/')) {
       entityType = 'blog';
-      const slug = rawPath.replace('/blog/', '').replace(/\/$/, '');
+      const slug = rawPath.replace(/^\/(blog|post)\//, '').replace(/\/$/, '');
       const post = db.prepare('SELECT id, title FROM posts WHERE slug = ?').get(slug) as { id: number; title: string } | undefined;
       if (post) {
         postId = post.id;
