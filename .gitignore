@@ -35,3 +35,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env*
+scratch/
+*.pyc
+__pycache__/
+*.pdf
