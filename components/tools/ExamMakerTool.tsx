@@ -144,8 +144,8 @@ export default function ExamMakerTool() {
 
     // Usable vertical pixel heights for A4:
     // Page 1 has header (~150px), subsequent pages have no header.
-    const page1MaxHeight = density === 'compact' ? 810 : density === 'spacious' ? 720 : 760;
-    const subsequentMaxHeight = density === 'compact' ? 910 : density === 'spacious' ? 820 : 860;
+    const page1MaxHeight = density === 'compact' ? 730 : density === 'spacious' ? 630 : 680;
+    const subsequentMaxHeight = density === 'compact' ? 820 : density === 'spacious' ? 720 : 770;
 
     const getQuestionHeight = (q: QuestionItem): number => {
       const basePadding = 32; // badge, padding & border
@@ -232,30 +232,41 @@ export default function ExamMakerTool() {
         @media print {
           @page {
             size: A4 portrait;
-            margin: 0;
+            margin: 0 !important;
           }
           html, body {
             background: #ffffff !important;
             padding: 0 !important;
             margin: 0 !important;
             width: 210mm !important;
+            height: auto !important;
             -webkit-print-color-adjust: exact !important;
             print-color-adjust: exact !important;
           }
           .ekran-gizle {
             display: none !important;
           }
+          .a4-print-container {
+            gap: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+            display: block !important;
+            width: 210mm !important;
+          }
           .a4-print-sayfa {
             box-sizing: border-box !important;
             width: 210mm !important;
-            height: 295mm !important;
-            max-height: 295mm !important;
-            min-height: 0 !important;
+            max-width: 210mm !important;
+            height: 296mm !important;
+            max-height: 296mm !important;
+            min-height: 296mm !important;
             padding: 10mm 12mm 10mm 12mm !important;
-            margin: 0 auto !important;
+            margin: 0 !important;
             box-shadow: none !important;
             border: none !important;
             border-radius: 0 !important;
+            page-break-before: auto !important;
             page-break-after: always !important;
             break-after: page !important;
             page-break-inside: avoid !important;
@@ -263,10 +274,13 @@ export default function ExamMakerTool() {
             transform: none !important;
             overflow: hidden !important;
             position: relative !important;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: space-between !important;
           }
           .a4-print-sayfa:last-child {
-            page-break-after: auto !important;
-            break-after: auto !important;
+            page-break-after: avoid !important;
+            break-after: avoid !important;
           }
         }
       `}</style>
@@ -432,7 +446,7 @@ export default function ExamMakerTool() {
       </div>
 
       {/* A4 PREVIEW WORKSPACE WRAPPER (Responsive with Touch Scrolling) */}
-      <div className="w-full overflow-x-auto pb-8 flex flex-col items-center">
+      <div className="w-full overflow-x-auto pb-8 flex flex-col items-center print:p-0 print:m-0 print:overflow-visible print:block">
         {questions.length === 0 ? (
           /* Empty State Welcome Screen */
           <div className="ekran-gizle w-full max-w-2xl mx-auto bg-white rounded-3xl border border-slate-200 p-8 sm:p-14 text-center shadow-sm space-y-4">
@@ -459,7 +473,7 @@ export default function ExamMakerTool() {
         ) : (
           /* Rendered A4 Pages */
           <div
-            className="flex flex-col items-center gap-8 origin-top transition-transform duration-200"
+            className="a4-print-container flex flex-col items-center gap-8 origin-top transition-transform duration-200 print:gap-0 print:m-0 print:p-0 print:block"
             style={{
               transform: `scale(${zoomScale})`,
               marginBottom: zoomScale < 1 ? `-${(1 - zoomScale) * 1100}px` : undefined,
@@ -473,10 +487,10 @@ export default function ExamMakerTool() {
               return (
                 <div
                   key={pageIndex}
-                  className="a4-print-sayfa bg-white text-slate-900 rounded shadow-xl border border-slate-200 flex flex-col relative overflow-hidden pb-6 print:pb-5"
+                  className="a4-print-sayfa bg-white text-slate-900 rounded shadow-xl border border-slate-200 flex flex-col relative overflow-hidden"
                   style={{
                     width: '210mm',
-                    minHeight: '295mm',
+                    minHeight: '296mm',
                     padding: '10mm 12mm 10mm 12mm',
                     boxSizing: 'border-box',
                   }}
@@ -639,49 +653,55 @@ export default function ExamMakerTool() {
                     })}
                   </div>
 
-                  {/* Exam Footer (Printed on Last Page) */}
-                  {isLastPage && (
-                    <div className="mt-auto border-t-2 border-slate-900 pt-2 mb-2 print:mb-1 flex items-center justify-between text-xs font-bold text-slate-900">
-                      <div
-                        contentEditable
-                        suppressContentEditableWarning
-                        onBlur={(e) => setPointsNote(e.currentTarget.innerText.trim())}
-                        className="cursor-text"
-                      >
-                        {pointsNote}
-                      </div>
-
-                      <div
-                        contentEditable
-                        suppressContentEditableWarning
-                        onBlur={(e) => setGoodLuckNote(e.currentTarget.innerText.trim())}
-                        className="italic text-center flex-1 cursor-text"
-                      >
-                        {goodLuckNote}
-                      </div>
-
-                      <div className="text-right">
-                        <span
+                  {/* Integrated In-Flow Page Footer (Eliminates page overflow / orphan blank pages) */}
+                  <div className="mt-auto pt-2 border-t border-slate-300 print:border-slate-400">
+                    {isLastPage && (
+                      <div className="pb-1.5 mb-1.5 border-b border-slate-200 flex items-center justify-between text-xs font-bold text-slate-900">
+                        <div
                           contentEditable
                           suppressContentEditableWarning
-                          onBlur={(e) => setTeacherName(e.currentTarget.innerText.trim())}
-                          className={`px-1.5 py-0.5 rounded cursor-text ${
-                            isDefaultOrEmpty(teacherName, DEFAULT_REMINDERS.teacherName)
-                              ? `bg-amber-50 border border-dashed border-amber-500 text-amber-900 ${
-                                  hasErrorBlink ? 'alan-hata' : ''
-                                }`
-                              : 'bg-transparent border-transparent'
-                          }`}
+                          onBlur={(e) => setPointsNote(e.currentTarget.innerText.trim())}
+                          className="cursor-text"
                         >
-                          {teacherName}
-                        </span>
-                      </div>
-                    </div>
-                  )}
+                          {pointsNote}
+                        </div>
 
-                  {/* Page Number */}
-                  <div className="absolute bottom-2 left-0 right-0 text-center text-[10px] text-slate-400 font-bold print:bottom-1.5 print:text-slate-600 pointer-events-none">
-                    Sayfa {pageNumber}
+                        <div
+                          contentEditable
+                          suppressContentEditableWarning
+                          onBlur={(e) => setGoodLuckNote(e.currentTarget.innerText.trim())}
+                          className="italic text-center flex-1 cursor-text"
+                        >
+                          {goodLuckNote}
+                        </div>
+
+                        <div className="text-right">
+                          <span
+                            contentEditable
+                            suppressContentEditableWarning
+                            onBlur={(e) => setTeacherName(e.currentTarget.innerText.trim())}
+                            className={`px-1.5 py-0.5 rounded cursor-text ${
+                              isDefaultOrEmpty(teacherName, DEFAULT_REMINDERS.teacherName)
+                                ? `bg-amber-50 border border-dashed border-amber-500 text-amber-900 ${
+                                    hasErrorBlink ? 'alan-hata' : ''
+                                  }`
+                                : 'bg-transparent border-transparent'
+                            }`}
+                          >
+                            {teacherName}
+                          </span>
+                        </div>
+                      </div>
+                    )}
+
+                    <div className="flex items-center justify-between text-[10px] text-slate-500 font-medium">
+                      <span className="truncate max-w-[120mm]">
+                        {schoolName && !isDefaultOrEmpty(schoolName, DEFAULT_REMINDERS.schoolName) ? schoolName : ''}
+                      </span>
+                      <span className="font-bold text-slate-600 print:text-slate-800">
+                        Sayfa {pageNumber} / {paginatedPages.length}
+                      </span>
+                    </div>
                   </div>
                 </div>
               );

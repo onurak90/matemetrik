@@ -67,8 +67,23 @@ export default function AnnualPlanMakerTool() {
   const [activeTab, setActiveTab] = useState<'editor' | 'preview'>('editor');
   const [downloadSuccess, setDownloadSuccess] = useState(false);
 
-  // Load catalog on mount
+  // Load query params & catalog on mount
   useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const gradeParam = params.get('grade') || params.get('sinif');
+      const subjectParam = params.get('subject') || params.get('ders');
+      if (gradeParam) {
+        const parsedGrade = parseInt(gradeParam, 10);
+        if (!isNaN(parsedGrade) && parsedGrade >= 1 && parsedGrade <= 12) {
+          setSelectedGrade(parsedGrade);
+        }
+      }
+      if (subjectParam) {
+        setSelectedSubject(subjectParam);
+      }
+    }
+
     async function fetchCatalog() {
       try {
         setLoadingCatalog(true);
@@ -96,8 +111,17 @@ export default function AnnualPlanMakerTool() {
 
   // When grade changes, ensure valid subject
   useEffect(() => {
-    if (availableSubjects.length > 0 && !availableSubjects.includes(selectedSubject)) {
-      setSelectedSubject(availableSubjects[0]);
+    if (availableSubjects.length > 0) {
+      const matched = availableSubjects.find(
+        (s) => s.toLowerCase() === selectedSubject.toLowerCase()
+      );
+      if (matched) {
+        if (matched !== selectedSubject) {
+          setSelectedSubject(matched);
+        }
+      } else {
+        setSelectedSubject(availableSubjects[0]);
+      }
     }
   }, [selectedGrade, availableSubjects, selectedSubject]);
 
@@ -313,24 +337,36 @@ export default function AnnualPlanMakerTool() {
         {/* Step 1: Grade & Course Selectors */}
         <div className="mt-6 space-y-6">
           <div>
-            <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
-              1. Sınıf Seviyesi Seçin
-            </label>
-            <div className="grid grid-cols-4 sm:grid-cols-8 gap-2">
-              {[1, 2, 3, 4, 5, 6, 7, 8].map((g) => (
-                <button
-                  key={g}
-                  type="button"
-                  onClick={() => setSelectedGrade(g)}
-                  className={`py-3 px-2 rounded-xl text-center font-bold text-sm transition-all ${
-                    selectedGrade === g
-                      ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20 scale-105'
-                      : 'bg-slate-50 hover:bg-slate-100 text-slate-700 border border-slate-200/80'
-                  }`}
-                >
-                  {g}. Sınıf
-                </button>
-              ))}
+            <div className="flex items-center justify-between mb-2">
+              <label className="block text-xs font-bold uppercase tracking-wider text-slate-500">
+                1. Sınıf Seviyesi Seçin
+              </label>
+              <span className="text-[11px] text-slate-400 font-medium hidden sm:inline">
+                İlkokul (1-4) • Ortaokul (5-8) • Lise (9-12)
+              </span>
+            </div>
+            <div className="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-12 gap-2">
+              {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((g) => {
+                const isHighSchool = g >= 9;
+                const isMiddleSchool = g >= 5 && g <= 8;
+                return (
+                  <button
+                    key={g}
+                    type="button"
+                    onClick={() => setSelectedGrade(g)}
+                    className={`py-2.5 px-2 rounded-xl text-center transition-all ${
+                      selectedGrade === g
+                        ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20 scale-105 ring-2 ring-indigo-500 ring-offset-2'
+                        : 'bg-slate-50 hover:bg-slate-100 text-slate-700 border border-slate-200/80 hover:border-slate-300'
+                    }`}
+                  >
+                    <div className="font-black text-sm">{g}. Sınıf</div>
+                    <div className={`text-[10px] mt-0.5 font-medium ${selectedGrade === g ? 'text-indigo-100' : 'text-slate-400'}`}>
+                      {isHighSchool ? 'Lise' : isMiddleSchool ? 'Ortaokul' : 'İlkokul'}
+                    </div>
+                  </button>
+                );
+              })}
             </div>
           </div>
 

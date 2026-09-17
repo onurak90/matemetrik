@@ -129,7 +129,7 @@ export default function SinavHazirlamaPage() {
   };
 
   return (
-    <div className="py-8 sm:py-12 pb-24 space-y-12">
+    <div className="py-8 sm:py-12 pb-24 space-y-12 print:p-0 print:m-0 print:space-y-0 print:w-full">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppSchema) }}
@@ -143,7 +143,7 @@ export default function SinavHazirlamaPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 print:p-0 print:m-0 print:max-w-none print:w-full print:space-y-0">
         {/* Breadcrumbs (Hidden in Print) */}
         <nav className="ekran-gizle flex items-center gap-1.5 text-xs text-slate-500">
           <Link href="/" className="hover:text-indigo-600 transition-colors">
