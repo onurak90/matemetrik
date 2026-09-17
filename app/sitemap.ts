@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { getPosts, getCategories } from '@/lib/db';
+import { getDb, getCategories } from '@/lib/db';
 
 export const revalidate = 3600; // revalidate hourly
 
@@ -79,21 +79,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // 3. All Blog Posts (all 468+)
-  const { posts } = getPosts({ limit: 1000, publishedOnly: true });
+  // 3. All Blog Posts & MEB Answer Pages (All 4,000+ posts)
+  const db = getDb();
+  const posts = db
+    .prepare(`
+      SELECT slug, updated_at, created_at 
+      FROM posts 
+      WHERE is_published = 1 
+      ORDER BY id DESC
+    `)
+    .all() as Array<{
+      slug: string;
+      updated_at: string | null;
+      created_at: string | null;
+    }>;
+
   const postRoutes: MetadataRoute.Sitemap = posts.map((post) => {
     let lastMod = new Date();
     try {
-      if (post.updated_at) {
-        lastMod = new Date(post.updated_at);
+      const dateStr = post.updated_at || post.created_at;
+      if (dateStr) {
+        lastMod = new Date(dateStr);
       }
     } catch {}
 
+    const isMasterBook = post.slug.includes('-ders-kitabi-cevaplari') && !post.slug.includes('-sayfa-');
     return {
       url: `${baseUrl}/post/${post.slug}`,
       lastModified: lastMod,
-      changeFrequency: 'weekly',
-      priority: 0.8,
+      changeFrequency: isMasterBook ? 'daily' : 'weekly',
+      priority: isMasterBook ? 0.9 : 0.7,
     };
   });
 

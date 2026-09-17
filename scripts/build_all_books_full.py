@@ -17,6 +17,28 @@ DB_PATH = "data/matemetrik.db"
 NOW_ISO = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
 BOOKS = [
+    # 6. Sınıf
+    {
+        "id": "matematik-6-1",
+        "file": "kitaplar/matematik6-1.pdf",
+        "grade": "6. Sınıf",
+        "category_slug": "6-sinif",
+        "subject": "Matematik (1. Kitap)",
+        "master_slug": "2026-2027-meb-matematik-ders-kitabi-cevaplari-6-sinif-1-kitap",
+        "master_title": "2026-2027 MEB Matematik Ders Kitabı Cevapları (6. Sınıf 1. Kitap)",
+        "master_excerpt": "2026-2027 MEB 6. Sınıf Matematik 1. Kitap tüm tema, etkinlik, sıra sizde ve konu değerlendirme sorularının sayfa sayfa adım adım ayrıntılı çözümleri.",
+    },
+    # 7. Sınıf
+    {
+        "id": "matematik-7-1",
+        "file": "kitaplar/matematik7-1.pdf",
+        "grade": "7. Sınıf",
+        "category_slug": "7-sinif",
+        "subject": "Matematik (1. Kitap)",
+        "master_slug": "2026-2027-meb-matematik-ders-kitabi-cevaplari-7-sinif-1-kitap",
+        "master_title": "2026-2027 MEB Matematik Ders Kitabı Cevapları (7. Sınıf 1. Kitap)",
+        "master_excerpt": "2026-2027 MEB 7. Sınıf Matematik 1. Kitap tüm tema, etkinlik, düşün-tartış-açıkla ve konu değerlendirme sorularının sayfa sayfa adım adım ayrıntılı çözümleri.",
+    },
     # 9. Sınıf
     {
         "id": "fizik-9",
@@ -773,7 +795,7 @@ def process_book(book, conn):
 
         content = build_post_html(p, book, prev_p, next_p)
         excerpt = f"2026-2027 MEB {book['grade']} {book['subject']} Sayfa {p['page']} {p['type']} soru metinleri ve adım adım çözümleri."
-        featured_image = f"/uploads/cover-{p['slug']}.webp"
+        featured_image = f"/uploads/cover-book-{book['id']}.webp"
         tags = json.dumps([
             f"{book['grade'].lower()} {book['subject'].lower()} sayfa {p['page']} cevapları",
             f"meb {book['subject'].lower()} {book['grade'].lower()} çözümleri",
@@ -802,7 +824,7 @@ def process_book(book, conn):
 
     # Update Master Book Hub
     master_content = build_master_html(book, extracted_pages)
-    master_featured_image = f"/uploads/cover-{book['master_slug']}.webp"
+    master_featured_image = f"/uploads/cover-book-{book['id']}.webp"
     master_tags = json.dumps([
         f"2026-2027 meb {book['subject'].lower()} ders kitabı cevapları",
         f"{book['grade'].lower()} {book['subject'].lower()} meb çözümleri",

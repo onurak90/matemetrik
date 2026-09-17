@@ -81,6 +81,12 @@ export async function generateMetadata(): Promise<Metadata> {
       ],
       apple: '/apple-touch-icon.png',
     },
+    alternates: {
+      canonical: 'https://www.matemetrik.com',
+      types: {
+        'application/rss+xml': 'https://www.matemetrik.com/rss.xml',
+      },
+    },
   };
 }
 

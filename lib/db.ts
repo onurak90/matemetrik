@@ -240,11 +240,14 @@ export function getMebBookMasterPosts(): Post[] {
       AND slug != '9-sinif-matematik-ders-kitabi-cevaplari'
     ORDER BY 
       CASE 
-        WHEN category_slug = '9-sinif' THEN 1
-        WHEN category_slug = '10-sinif' THEN 2
-        WHEN category_slug = '11-sinif' THEN 3
-        WHEN category_slug = '12-sinif' THEN 4
-        ELSE 5
+        WHEN category_slug = '6-sinif' THEN 1
+        WHEN category_slug = '7-sinif' THEN 2
+        WHEN category_slug = '8-sinif' THEN 3
+        WHEN category_slug = '9-sinif' THEN 4
+        WHEN category_slug = '10-sinif' THEN 5
+        WHEN category_slug = '11-sinif' THEN 6
+        WHEN category_slug = '12-sinif' THEN 7
+        ELSE 8
       END,
       id ASC
   `).all();

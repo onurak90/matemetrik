@@ -128,12 +128,14 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
                 </p>
               </div>
               <div className="px-4 py-2 rounded-xl bg-white/10 border border-white/10 text-xs font-bold text-indigo-200 shrink-0 self-start sm:self-center">
-                19 Kitap &bull; 3.500+ Sayfa Çözümü
+                21 Kitap &bull; 3.700+ Sayfa Çözümü
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
               {[
+                { slug: '6-sinif', name: '6. Sınıf', count: 'Matematik' },
+                { slug: '7-sinif', name: '7. Sınıf', count: 'Matematik' },
                 { slug: '9-sinif', name: '9. Sınıf', count: '7 Ders' },
                 { slug: '10-sinif', name: '10. Sınıf', count: '6 Ders' },
                 { slug: '11-sinif', name: '11. Sınıf', count: '6 Ders' },

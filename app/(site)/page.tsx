@@ -132,8 +132,10 @@ export default function HomePage({
               </Link>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
               {[
+                { slug: '6-sinif', name: '6. Sınıf', count: 'Matematik' },
+                { slug: '7-sinif', name: '7. Sınıf', count: 'Matematik' },
                 { slug: '9-sinif', name: '9. Sınıf', count: '7 Ders' },
                 { slug: '10-sinif', name: '10. Sınıf', count: '6 Ders' },
                 { slug: '11-sinif', name: '11. Sınıf', count: '6 Ders' },
