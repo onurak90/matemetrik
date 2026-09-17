@@ -173,7 +173,7 @@ export default function Navbar() {
                     <div className="text-xs font-bold text-slate-800 group-hover/item:text-indigo-600 flex items-center gap-1.5">
                       Kulüp Toplantı Tutanakları
                       <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 font-extrabold border border-indigo-200">
-                        20 Kulüp
+                        38 Kulüp
                       </span>
                     </div>
                     <div className="text-[11px] text-slate-500 line-clamp-1">
@@ -334,7 +334,7 @@ export default function Navbar() {
             </Link>
             <Link href="/kulup-toplanti-tutanaklari" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
               <span>Kulüp Toplantı Tutanakları</span>
-              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 font-bold border border-indigo-200">20 Kulüp</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 font-bold border border-indigo-200">38 Kulüp</span>
             </Link>
             <Link href="/karne-gorusu-ureticisi" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600">
               Karne Görüşü Üreticisi

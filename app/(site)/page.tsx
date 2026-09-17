@@ -178,7 +178,7 @@ export default function HomePage({
                 Kulüp Toplantı Tutanakları Robotu
               </h3>
               <p className="text-slate-300 text-sm leading-relaxed">
-                20 resmi kulüp için İç Tüzük, 1. Dönem Genel Kurul Tutanağı, Yıllık Çalışma Planı, Görevli Öğrenci Listesi, Faaliyet Raporu ve Ek-5 Veli İzin Belgesi. Tek tıkla Word (.docx) ve PDF olarak alın.
+                38 resmi kulüp için İç Tüzük, 1. Dönem Genel Kurul Tutanağı, Yıllık Çalışma Planı, Görevli Öğrenci Listesi, Faaliyet Raporu ve Ek-5 Veli İzin Belgesi. Tek tıkla Word (.docx) ve PDF olarak alın.
               </p>
             </div>
             <div className="pt-6">

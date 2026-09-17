@@ -11,16 +11,20 @@ import ClubDocumentsMakerTool from '@/components/tools/ClubDocumentsMakerTool';
 export const metadata: Metadata = {
   title: '2026-2027 Kulüp Toplantı Tutanakları & Sosyal Kulüp Evrakları | PDF İndir',
   description:
-    'MEB Sosyal Etkinlikler Yönetmeliğine %100 uygun 2026-2027 kulüp evrakları hazırlama robotu. Kızılay, Afete Hazırlık, Çevre, Bilişim, Zeka Oyunları, MUN ve 20 farklı kulüp için iç tüzük, toplantı tutanakları, yıllık çalışma planı ve faaliyet raporunu tek tıkla PDF olarak oluşturun ve indirin.',
+    'MEB Sosyal Etkinlikler Yönetmeliğine %100 uygun 2026-2027 kulüp evrakları hazırlama robotu. Kızılay, Yeşilay, Satranç, Müzik, Tiyatro, Bilişim, Zeka Oyunları, MUN ve 38 farklı kulüp için iç tüzük, toplantı tutanakları, yıllık çalışma planı ve faaliyet raporunu tek tıkla PDF veya Word olarak oluşturun ve indirin.',
   keywords: [
     'kulüp toplantı tutanakları',
     'sosyal kulüp evrakları indir',
     'meb kulüp yıllık planı',
     'kızılay kulübü evrakları',
+    'yeşilay kulübü evrakları',
+    'satranç kulübü evrakları',
+    'müzik kulübü evrakları',
     'afete hazırlık kulübü evrakları',
     'zeka oyunları kulübü evrakları',
     'çevre koruma kulübü evrakları',
     'bilişim kulübü evrakları',
+    'tiyatro kulübü evrakları',
     'mun kulübü evrakları',
     'kulüp tüzüğü indir',
     'sosyal etkinlik veli izin belgesi',
@@ -33,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '2026-2027 Kulüp Toplantı Tutanakları & Sosyal Kulüp Evrakları Hazırlama',
     description:
-      'Öğretmenler için 2026-2027 MEB sosyal kulüp evrakları hazırlama robotu. 20 branşta tüzük, tutanak, yıllık plan ve faaliyet raporunu tek tıkla resmi PDF olarak indirin.',
+      'Öğretmenler için 2026-2027 MEB sosyal kulüp evrakları hazırlama robotu. 38 branşta tüzük, tutanak, yıllık plan ve faaliyet raporunu tek tıkla resmi PDF veya Word olarak indirin.',
     url: 'https://www.matemetrik.com/kulup-toplanti-tutanaklari',
     type: 'website',
     images: [
@@ -49,7 +53,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: '2026-2027 Kulüp Toplantı Tutanakları | MEB Sosyal Kulüp Evrakları',
     description:
-      '20 farklı sosyal kulüp için toplantı tutanakları, iç tüzük ve yıllık planları tek tıkla PDF olarak indirin.',
+      '38 farklı sosyal kulüp için toplantı tutanakları, iç tüzük ve yıllık planları tek tıkla PDF veya Word olarak indirin.',
     images: ['https://www.matemetrik.com/og.jpg'],
   },
 };
@@ -63,12 +67,12 @@ const clubFaqs = [
   {
     question: 'Hangi kulüplerin evrakları sistemde yer almaktadır?',
     answer:
-      'Sistemimizde öğretmenlerimizin en çok görev aldığı 20 farklı kulüp mevcuttur: Kızılay, Afete Hazırlık, Çevre Koruma, Hayvanları Sevme ve Koruma, Halk Oyunları, Görsel Sanatlar, Gezi Tanıtma ve Turizm, Geri Dönüşüm ve Sıfır Atık, eTwinning, Drama, Çocuk Hakları, Demokrasi İnsan Hakları ve Yurttaşlık, Değerler, Bilişim ve İnternet, Bilinçli Tüketici, Bilim-Fen ve Teknoloji, Kütüphanecilik, Zeka Oyunları, MUN (Model Birleşmiş Milletler) ve Kişisel Verileri Koruma Kulübü.',
+      'Sistemimizde öğretmenlerimizin en çok görev aldığı 38 farklı kulüp mevcuttur: Kızılay, Yeşilay, Afete Hazırlık, Çevre Koruma, Hayvanları Sevme ve Koruma, Halk Oyunları, Görsel Sanatlar, Gezi Tanıtma ve Turizm, Geri Dönüşüm ve Sıfır Atık, eTwinning, Drama, Çocuk Hakları, Demokrasi İnsan Hakları ve Yurttaşlık, Değerler, Bilişim ve İnternet, Bilinçli Tüketici, Bilim-Fen ve Teknoloji, Kütüphanecilik, Zeka Oyunları, Model Birleşmiş Milletler (MUN), Kişisel Verileri Koruma, Engellilerle Dayanışma, Müzik, Kültür ve Edebiyat, Uzay ve Havacılık, Girişimcilik, Enerji Verimliliği, Satranç, İzcilik, İş Sağlığı ve Güvenliği, Meslek Tanıtma, Tiyatro, Medya ve İletişim, Yabancı Diller, Su Elçileri, STEM Eğitimi, Sosyal Dayanışma ve Yardımlaşma, Sağlık, Temizlik ve Beslenme Kulübü.',
   },
   {
     question: 'Bir kulübün tüm evraklarını tek bir PDF dosyası olarak alabilir miyim?',
     answer:
-      'Evet. "Tüm Evrakları PDF İndir / Yazdır" butonuna bastığınızda Kulüp İç Tüzüğü, 1. Dönem Toplantı Tutanağı, Yıllık Çalışma Planı, Kurul ve Öğrenci Listesi, Yıl Sonu Faaliyet Raporu ve Ek-5 Veli İzin Belgesi her biri ayrı bir A4 sayfasına denk gelecek şekilde sıralı ve imzaya hazır olarak tek seferde basılır.',
+      'Evet. "Tüm Evrakları PDF İndir / Yazdır" butonuna bastığınızda Kulüp İç Tüzüğü, 1. Dönem Toplantı Tutanağı, Yıllık Çalışma Planı, Kurul ve Öğrenci Listesi, Yıl Sonu Faaliyet Raporu ve Ek-5 Veli İzin Belgesi her biri ayrı bir A4 sayfasına denk gelecek şekilde sıralı ve imzaya hazır olarak tek seferde basılır. Dilerseniz Word (.docx) olarak da indirebilirsiniz.',
   },
   {
     question: 'Sosyal Etkinlik Modülü (e-Okul) veri girişlerinde kullanılabilir mi?',
@@ -92,7 +96,7 @@ export default function KulupToplantiTutanaklariPage() {
     operatingSystem: 'All',
     browserRequirements: 'Requires JavaScript. Requires HTML5.',
     description:
-      'MEB Sosyal Etkinlikler Yönetmeliğine %100 uygun 2026-2027 kulüp evrakları hazırlama robotu. 20 farklı kulüp için tüzük, toplantı tutanağı ve yıllık plan PDF indir.',
+      'MEB Sosyal Etkinlikler Yönetmeliğine %100 uygun 2026-2027 kulüp evrakları hazırlama robotu. 38 farklı kulüp için tüzük, toplantı tutanağı ve yıllık plan Word ve PDF indir.',
     offers: {
       '@type': 'Offer',
       price: '0',
@@ -197,7 +201,7 @@ export default function KulupToplantiTutanaklariPage() {
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 max-w-3xl leading-relaxed">
-              Öğretmenlerimiz için 20 farklı sosyal kulübün <strong>İç Tüzüğü</strong>, <strong>Genel Kurul Toplantı Tutanakları</strong>, <strong>Yıllık Çalışma Planı</strong>, <strong>Görevli Öğrenci Listesi</strong>, <strong>Faaliyet Raporu</strong> ve <strong>Ek-5 Veli İzin Belgeleri</strong> tek ekranda. Bilgilerinizi girin, resmi antetli kulüp dosyanızı saniyeler içinde PDF olarak indirin.
+              Öğretmenlerimiz için 38 farklı sosyal kulübün <strong>İç Tüzüğü</strong>, <strong>Genel Kurul Toplantı Tutanakları</strong>, <strong>Yıllık Çalışma Planı</strong>, <strong>Görevli Öğrenci Listesi</strong>, <strong>Faaliyet Raporu</strong> ve <strong>Ek-5 Veli İzin Belgeleri</strong> tek ekranda. Bilgilerinizi girin, resmi antetli kulüp dosyanızı saniyeler içinde Word (.docx) veya PDF olarak indirin.
             </p>
 
             {/* Feature Pills */}
@@ -207,7 +211,7 @@ export default function KulupToplantiTutanaklariPage() {
                   <Shield className="w-4 h-4" />
                 </div>
                 <div className="text-xs">
-                  <div className="font-bold text-slate-800">20 Farklı Kulüp</div>
+                  <div className="font-bold text-slate-800">38 Farklı Kulüp</div>
                   <div className="text-slate-500">Tüm branşlar hazır</div>
                 </div>
               </div>

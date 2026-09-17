@@ -298,7 +298,7 @@ export default function YillikPlanHazirlamaPage() {
                   Sosyal Kulüp Toplantı Tutanakları ve Evraklarını da Hazırlamak İster misiniz?
                 </div>
                 <div className="text-xs text-slate-600">
-                  Kızılay, Afete Hazırlık, Çevre, Bilişim ve 20 farklı kulübün tüm yıllık evraklarını tek tıkla PDF olarak indirin.
+                  Kızılay, Yeşilay, Satranç, Bilişim ve 38 farklı kulübün tüm yıllık evraklarını tek tıkla Word veya PDF olarak indirin.
                 </div>
               </div>
               <Link
