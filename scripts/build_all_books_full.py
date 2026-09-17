@@ -201,6 +201,50 @@ KEYWORDS = [
     'performans görevi', 'konuya başlarken', 'exercise', 'activity', 'review'
 ]
 
+JUNK_TEXT_PATTERNS = [
+    r'ders\s+kitapları\s+dizisi', r'yayınları\s+no', r'kısmen\s+de\s+olsa',
+    r'alınıp\s+yayımlanamaz', r'hiçbir\s+surette', r'hiç\s+bir\s+surette',
+    r'çoklu\s+ortam\s+tasarımcısı', r'program\s+geliştirme\s+uzmanı',
+    r'ölçme\s+ve\s+değerlendirme\s+uzmanı', r'rehberlik\s+uzmanı',
+    r'dil\s+uzmanı', r'görsel\s+tasarımcı', r'baskı\s+matbaa',
+    r'ticaret\s+ünvanı', r'isbn\s+978-', r'kurulca\s+bu\s+kitabın',
+    r'matbaanın\s+adı'
+]
+
+def is_junk_page(raw_text, pno, total_pages, subject):
+    tl = raw_text.lower()
+    
+    # Check künye / publishing patterns anywhere
+    for pat in JUNK_TEXT_PATTERNS:
+        if re.search(pat, tl):
+            return True
+            
+    # Front matter: in non-English books, units never start before pno 11
+    if 'İngilizce' not in subject and pno < 11:
+        return True
+    if 'İngilizce' in subject and pno < 8:
+        return True
+        
+    if pno < 15:
+        front_pats = [r'içindekiler', r'kitabın\s+tanıtımı', r'organizasyon\s+şeması',
+                      r'istiklal\s+marşı', r'korkma,\s+sönmez', r'ey\s+türk\s+gençliği',
+                      r'gençliğe\s+hitabe', r'laboratuvar\s+güvenlik\s+ve\s+uyarı',
+                      r'sembollerin\s+açıklaması', r'değerli\s+öğretmenler\s+ve\s+sevgili',
+                      r'\bcontents\b', r'\bglossary\b']
+        for fp in front_pats:
+            if re.search(fp, tl):
+                return True
+                
+    # Check back matter in the last 15 pages
+    if pno > total_pages - 15:
+        first_few = ' '.join([l.strip() for l in raw_text.splitlines() if l.strip()][:5]).lower()
+        if any(w in first_few for w in ['kaynakça', 'sözlük', 'indeks', 'cevap anahtarı', 'görsel kaynakça', 'glossary', 'references']):
+            return True
+        if len(re.findall(r'\(19\d\d\)|\(20\d\d\)', tl)) >= 2 and any(w in tl for w in ['kaynakça', 'references']):
+            return True
+
+    return False
+
 def clean_text(text):
     text = re.sub(r'[\ufffd\.\_\-]{3,}', ' ', text)
     text = re.sub(r'\s+', ' ', text)
@@ -293,8 +337,19 @@ def extract_questions_from_page(doc, pno, subject):
             if len(meaningful_lines) > 4:
                 questions.append(clean_text(' '.join(meaningful_lines[4:8])))
 
-    # Limit to at most 4 questions per single page for readability
-    return questions[:4]
+    # Filter out any questions containing künye, publishing metadata or citations
+    clean_q = []
+    for q in questions[:4]:
+        ql = q.lower()
+        if any(re.search(pat, ql) for pat in JUNK_TEXT_PATTERNS):
+            continue
+        if re.search(r'\b(prof\.|doç\.|dr\.\s*öğrt\.|editörler|tel:\s*\(0000\))', ql):
+            continue
+        if re.search(r'\(19\d{2}\)|\(20\d{2}\)|nobel\s+yayın|basın\s+yayın', ql):
+            continue
+        clean_q.append(q)
+
+    return clean_q
 
 def generate_step_by_step_solution(q_text, subject, pno, q_num):
     clean_q = q_text[:300]
@@ -551,6 +606,10 @@ def process_book(book, conn):
         raw_text = doc[pno].get_text()
         text_lower = raw_text.lower()
 
+        # Check if page is front or back matter
+        if is_junk_page(raw_text, pno, total_pages, book["subject"]):
+            continue
+
         # Check if page contains question / exercise markers
         has_marker = any(kw in text_lower for kw in KEYWORDS)
         has_questions = bool(re.search(r'(soru\s*\d+|\b[1-9]\.\s+[a-züğışöçA-ZÜĞİŞÖÇ])', text_lower))
@@ -590,6 +649,16 @@ def process_book(book, conn):
 
     extracted_pages.sort(key=lambda x: x["page"])
     print(f"Found {len(extracted_pages)} valid question pages for {book['subject']}!")
+
+    # Purge any obsolete or junk pages that were previously saved for this book
+    valid_slugs = set(p['slug'] for p in extracted_pages)
+    cursor.execute("SELECT slug FROM posts WHERE category_slug = ? AND slug LIKE ?", 
+                   (book['category_slug'], f"{book['category_slug']}-{book['id']}-sayfa-%"))
+    existing_rows = cursor.fetchall()
+    obsolete_slugs = [r[0] for r in existing_rows if r[0] not in valid_slugs]
+    if obsolete_slugs:
+        cursor.executemany("DELETE FROM posts WHERE slug = ?", [(s,) for s in obsolete_slugs])
+        print(f"Purged {len(obsolete_slugs)} obsolete/junk page posts for {book['subject']}.")
 
     # Insert / Update individual page posts
     for i, p in enumerate(extracted_pages):
@@ -662,6 +731,22 @@ def main():
     for b in BOOKS:
         process_book(b, conn)
     cursor = conn.cursor()
+    # Global safety purge for any remaining posts with junk metadata in questions
+    cursor.execute("""
+        DELETE FROM posts 
+        WHERE (slug LIKE '%-sayfa-%' OR slug LIKE '%sayfa-%')
+          AND (
+            content LIKE '%DERS KİTAPLARI DİZİSİ%' 
+            OR content LIKE '%kısmen de olsa hiç%' 
+            OR content LIKE '%Çoklu Ortam Tasarımcısı%'
+            OR content LIKE '%Program Geliştirme Uzmanı%'
+            OR content LIKE '%Baskı Matbaanın Adı%'
+          )
+    """)
+    purged_count = cursor.rowcount
+    if purged_count > 0:
+        print(f"Global safety purge: deleted {purged_count} lingering junk posts.")
+    conn.commit()
     cursor.execute("PRAGMA wal_checkpoint(TRUNCATE);")
     conn.close()
     print("\nALL BOOKS COMPLETED AND COMMITTED SUCCESSFULLY!")
