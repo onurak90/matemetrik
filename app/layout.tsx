@@ -163,6 +163,13 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
 
+        {/* Search Engine Verification Tags (Google, Yandex, Bing, Pinterest) */}
+        <meta name="google-site-verification" content="googleed824f4935091493" />
+        <meta name="google-site-verification" content="googleed824f4935091493.html" />
+        <meta name="yandex-verification" content="373defaa588b50cd" />
+        <meta name="msvalidate.01" content="D9C02A88877A9191E490E1CFC17C3608" />
+        <meta name="p:domain_verify" content="723bd1e107f9e043c372c3337ef846ef" />
+
         {/* Google Analytics 4 (gtag.js) Integration */}
         {gaId && (
           <>
