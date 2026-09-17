@@ -124,12 +124,49 @@ export default function Navbar() {
               </div>
             </div>
 
-            <Link
-              href="/kategori/meb-ders-kitabi-cevaplari"
-              className="px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
-            >
-              MEB Cevapları
-            </Link>
+            {/* MEB Çözümleri Dropdown */}
+            <div className="relative group">
+              <button
+                type="button"
+                className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
+              >
+                MEB Çözümleri
+                <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
+              </button>
+
+              <div className="absolute top-full left-0 w-72 bg-white rounded-2xl shadow-xl border border-slate-200 p-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-1">
+                <Link
+                  href="/kategori/meb-ders-kitabi-cevaplari"
+                  className="flex items-center justify-between p-2.5 rounded-xl hover:bg-indigo-50 text-xs font-bold text-indigo-900 transition-colors"
+                >
+                  <span>📚 Tüm Ders Kitabı Çözümleri</span>
+                  <span>&rarr;</span>
+                </Link>
+                <div className="pt-2 border-t border-slate-100 space-y-1">
+                  <Link
+                    href="/kategori/9-sinif"
+                    className="flex items-center justify-between px-3 py-2 rounded-lg text-xs font-semibold text-slate-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
+                  >
+                    <span>9. Sınıf MEB Çözümleri</span>
+                    <span className="text-[10px] px-1.5 py-0.5 rounded bg-indigo-100 text-indigo-700 font-bold">2026-2027</span>
+                  </Link>
+                  <Link
+                    href="/kategori/10-sinif"
+                    className="flex items-center justify-between px-3 py-2 rounded-lg text-xs font-semibold text-slate-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
+                  >
+                    <span>10. Sınıf MEB Çözümleri</span>
+                    <span className="text-[10px] px-1.5 py-0.5 rounded bg-indigo-100 text-indigo-700 font-bold">Güncel</span>
+                  </Link>
+                  <Link
+                    href="/kategori/11-sinif"
+                    className="flex items-center justify-between px-3 py-2 rounded-lg text-xs font-semibold text-slate-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
+                  >
+                    <span>11. Sınıf MEB Çözümleri</span>
+                    <span className="text-[10px] px-1.5 py-0.5 rounded bg-indigo-100 text-indigo-700 font-bold">Güncel</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
 
             {/* Öğretmen Araçları Dropdown */}
             <div className="relative group">
@@ -305,9 +342,14 @@ export default function Navbar() {
           </Link>
 
           <div className="py-2 border-b border-slate-100 space-y-2">
-            <div className="text-xs font-bold text-indigo-600 uppercase tracking-wider">
-              Sınıflar & Seviyeler
-            </div>
+            <Link
+              href="/kategori/meb-ders-kitabi-cevaplari"
+              onClick={() => setIsOpen(false)}
+              className="flex items-center justify-between py-1 text-sm font-bold text-indigo-700 hover:text-indigo-900"
+            >
+              <span>📚 MEB Ders Kitabı Çözümleri</span>
+              <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-extrabold">2026-2027</span>
+            </Link>
             <div className="grid grid-cols-2 gap-2 text-sm text-slate-700">
               <Link href="/kategori/1-sinif" className="p-1 hover:text-indigo-600">1. Sınıf</Link>
               <Link href="/kategori/2-sinif" className="p-1 hover:text-indigo-600">2. Sınıf</Link>
@@ -317,10 +359,10 @@ export default function Navbar() {
               <Link href="/kategori/6-sinif" className="p-1 hover:text-indigo-600">6. Sınıf</Link>
               <Link href="/kategori/7-sinif" className="p-1 hover:text-indigo-600">7. Sınıf</Link>
               <Link href="/kategori/8-sinif" className="p-1 hover:text-indigo-600">8. Sınıf</Link>
-              <Link href="/kategori/9-sinif" className="p-1 hover:text-indigo-600">9. Sınıf</Link>
-              <Link href="/kategori/10-sinif" className="p-1 hover:text-indigo-600">10. Sınıf</Link>
-              <Link href="/kategori/11-sinif" className="p-1 hover:text-indigo-600">11. Sınıf</Link>
-              <Link href="/kategori/12-sinif" className="p-1 hover:text-indigo-600">12. Sınıf</Link>
+              <Link href="/kategori/9-sinif" className="p-1 hover:text-indigo-600">9. Sınıf MEB</Link>
+              <Link href="/kategori/10-sinif" className="p-1 hover:text-indigo-600">10. Sınıf MEB</Link>
+              <Link href="/kategori/11-sinif" className="p-1 hover:text-indigo-600">11. Sınıf MEB</Link>
+              <Link href="/kategori/12-sinif" className="p-1 hover:text-indigo-600">12. Sınıf MEB</Link>
             </div>
           </div>
 

@@ -5,7 +5,7 @@ import {
   FileText, Award, ArrowRight, CheckCircle2,
   TrendingUp, Compass, ArrowUpRight, Calendar, Users
 } from 'lucide-react';
-import { getPosts, getCategories, getTopPosts } from '@/lib/db';
+import { getPosts, getCategories, getTopPosts, getMebBookMasterPosts } from '@/lib/db';
 import PostCard from '@/components/blog/PostCard';
 import PostSlider from '@/components/home/PostSlider';
 import FaqSection from '@/components/home/FaqSection';
@@ -28,11 +28,19 @@ export default function HomePage({
     search: searchQuery,
     category: categoryFilter,
     publishedOnly: true,
+    excludePageSolutions: !searchQuery,
   });
 
   const categories = getCategories();
-  // Fetch latest posts for slider (Son Yazılar)
-  const { posts: sliderPosts } = getPosts({ page: 1, limit: 6, publishedOnly: true });
+  // Fetch latest posts for slider (Son Yazılar) excluding individual page solutions
+  const { posts: sliderPosts } = getPosts({ 
+    page: 1, 
+    limit: 6, 
+    publishedOnly: true, 
+    excludePageSolutions: true 
+  });
+
+  const mebBooks = getMebBookMasterPosts();
 
   const gradeCards = [
     { title: '1. Sınıf', slug: '1-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500' },
@@ -95,6 +103,102 @@ export default function HomePage({
           </div>
         </div>
       </section>
+
+      {/* 2026-2027 MEB Ders Kitabı Cevapları Showcase Section */}
+      {mebBooks.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-6 sm:p-8 text-white shadow-xl border border-indigo-900/50">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-6 border-b border-white/10">
+              <div>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-wider bg-indigo-500/30 text-indigo-200 border border-indigo-400/30">
+                    2026 - 2027 GÜNCEL
+                  </span>
+                  <span className="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
+                    MEB DERS KİTAPLARI
+                  </span>
+                </div>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight">
+                  MEB Ders Kitabı Cevapları (Tüm Sınıf ve Dersler)
+                </h2>
+                <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl">
+                  Milli Eğitim Bakanlığı ders kitaplarında yer alan tüm ünite, alıştırma, sıra sizde ve ölçme değerlendirme sorularının sayfa sayfa adım adım doğrulanmış çözümleri.
+                </p>
+              </div>
+              <Link
+                href="/kategori/meb-ders-kitabi-cevaplari"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white text-indigo-950 text-xs font-bold hover:bg-indigo-50 transition-colors shrink-0 shadow-sm"
+              >
+                Tüm Kitapları İncele &rarr;
+              </Link>
+            </div>
+
+            <div className="space-y-8">
+              {[
+                { slug: '9-sinif', name: '9. Sınıf Ders Kitapları' },
+                { slug: '10-sinif', name: '10. Sınıf Ders Kitapları' },
+                { slug: '11-sinif', name: '11. Sınıf Ders Kitapları' },
+              ].map((g) => {
+                const groupBooks = mebBooks.filter((b) => b.category_slug === g.slug);
+                if (groupBooks.length === 0) return null;
+
+                return (
+                  <div key={g.slug} className="space-y-3">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <span className="w-2.5 h-2.5 rounded-full bg-indigo-400"></span>
+                        <h3 className="text-base sm:text-lg font-bold text-white tracking-wide">
+                          {g.name}
+                        </h3>
+                        <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-white/10 text-indigo-200">
+                          {groupBooks.length} Kitap
+                        </span>
+                      </div>
+                      <Link
+                        href={`/kategori/${g.slug}`}
+                        className="text-xs text-indigo-300 hover:text-white transition-colors"
+                      >
+                        Tüm {g.name.split(' ')[0]} İçerikleri &rarr;
+                      </Link>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                      {groupBooks.map((book) => (
+                        <Link
+                          key={book.id}
+                          href={`/post/${book.slug}`}
+                          className="group p-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-indigo-400/50 transition-all flex flex-col justify-between"
+                        >
+                          <div>
+                            <div className="flex items-center justify-between gap-2 mb-2">
+                              <span className="px-2 py-0.5 rounded-md text-[10px] font-black tracking-wider bg-indigo-500/30 text-indigo-200 border border-indigo-400/20 uppercase">
+                                {book.category || 'MEB'}
+                              </span>
+                              <span className="text-[10px] text-slate-400 font-medium">
+                                {book.views} Görüntülenme
+                              </span>
+                            </div>
+                            <h4 className="font-bold text-sm text-white group-hover:text-indigo-300 transition-colors line-clamp-2 leading-snug">
+                              {book.title}
+                            </h4>
+                            <p className="text-[11px] text-slate-400 mt-1.5 line-clamp-2 leading-relaxed">
+                              {book.excerpt}
+                            </p>
+                          </div>
+                          <div className="mt-3 pt-2.5 border-t border-white/10 flex items-center justify-between text-xs font-bold text-indigo-300 group-hover:translate-x-0.5 transition-transform">
+                            <span className="text-[11px]">Kitap Çözümlerine Git</span>
+                            <span>&rarr;</span>
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Interactive Tools Showcase Banner */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -177,6 +177,7 @@ export function getPosts(options: {
   category?: string;
   search?: string;
   publishedOnly?: boolean;
+  excludePageSolutions?: boolean;
 } = {}): { posts: Post[]; total: number; totalPages: number } {
   const db = getDb();
   const page = Math.max(1, options.page || 1);
@@ -188,6 +189,10 @@ export function getPosts(options: {
 
   if (options.publishedOnly !== false) {
     conditions.push('is_published = 1');
+  }
+
+  if (options.excludePageSolutions) {
+    conditions.push("slug NOT LIKE '%-sayfa-%' AND slug NOT LIKE '%sayfa-%'");
   }
 
   if (options.category) {
@@ -218,6 +223,32 @@ export function getPosts(options: {
     total,
     totalPages: Math.ceil(total / limit),
   };
+}
+
+export function getMebBookMasterPosts(): Post[] {
+  const db = getDb();
+  const rows = db.prepare(`
+    SELECT * FROM posts 
+    WHERE is_published = 1 
+      AND (
+        slug LIKE '%-ders-kitabi-cevaplari%' 
+        OR slug LIKE '%-meb-%-cevaplari%'
+        OR title LIKE '%Ders Kitabı Cevapları%'
+      )
+      AND slug NOT LIKE '%-sayfa-%'
+      AND slug NOT LIKE '%sayfa-%'
+      AND slug != '9-sinif-matematik-ders-kitabi-cevaplari'
+    ORDER BY 
+      CASE 
+        WHEN category_slug = '9-sinif' THEN 1
+        WHEN category_slug = '10-sinif' THEN 2
+        WHEN category_slug = '11-sinif' THEN 3
+        WHEN category_slug = '12-sinif' THEN 4
+        ELSE 5
+      END,
+      id ASC
+  `).all();
+  return rows.map(formatPostRow);
 }
 
 export function getPostBySlug(slugOrOldSlug: string): { post: Post | null; isOldSlug: boolean } {
