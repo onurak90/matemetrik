@@ -2,8 +2,8 @@ import React from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { FolderTree, ChevronRight, BookOpen } from 'lucide-react';
-import { getCategoryBySlug, getPosts, getCategories } from '@/lib/db';
+import { FolderTree, ChevronRight, BookOpen, ArrowRight } from 'lucide-react';
+import { getCategoryBySlug, getPosts, getCategories, getMebBookMasterPosts } from '@/lib/db';
 import PostCard from '@/components/blog/PostCard';
 
 interface CategoryPageProps {
@@ -39,6 +39,8 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
 
   const allCategories = getCategories();
   const categoryName = cat ? cat.name : params.slug;
+  const isMebCategory = params.slug === 'meb-ders-kitabi-cevaplari';
+  const mebBooks = isMebCategory ? getMebBookMasterPosts() : [];
 
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -92,7 +94,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           <div className="max-w-3xl space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-bold border border-indigo-100">
               <FolderTree className="w-3.5 h-3.5" />
-              Kategori &bull; {total} Yazı
+              Kategori &bull; {isMebCategory ? `${mebBooks.length} Kitap &bull; 3.500+ Sayfa Çözümü` : `${total} Yazı`}
             </div>
 
             <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
@@ -105,16 +107,125 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           </div>
         </div>
 
+        {/* 2026-2027 MEB Ders Kitabı Cevapları Showcase Section */}
+        {isMebCategory && mebBooks.length > 0 && (
+          <div className="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-6 sm:p-8 text-white shadow-xl border border-indigo-900/50">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-6 border-b border-white/10">
+              <div>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-wider bg-indigo-500/30 text-indigo-200 border border-indigo-400/30">
+                    2026 - 2027 GÜNCEL
+                  </span>
+                  <span className="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
+                    MEB DERS KİTAPLARI
+                  </span>
+                </div>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight">
+                  Tüm Sınıf ve Ders Kitapları
+                </h2>
+                <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl">
+                  Aşağıdaki listeden sınıfınızı ve dersinizi seçerek alıştırmalar, sıra sizde ve ölçme değerlendirme sayfalarının adım adım çözümlerine ulaşabilirsiniz.
+                </p>
+              </div>
+              <div className="px-4 py-2 rounded-xl bg-white/10 border border-white/10 text-xs font-bold text-indigo-200 shrink-0 self-start sm:self-center">
+                19 Kitap &bull; 3.500+ Sayfa Çözümü
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+              {[
+                { slug: '9-sinif', name: '9. Sınıf', count: '7 Ders' },
+                { slug: '10-sinif', name: '10. Sınıf', count: '6 Ders' },
+                { slug: '11-sinif', name: '11. Sınıf', count: '6 Ders' },
+              ].map((g) => {
+                const groupBooks = mebBooks.filter((b) => b.category_slug === g.slug);
+                if (groupBooks.length === 0) return null;
+
+                return (
+                  <div key={g.slug} className="bg-white/5 rounded-2xl p-4 sm:p-5 border border-white/10 space-y-3 flex flex-col justify-between">
+                    <div>
+                      <div className="flex items-center justify-between pb-2.5 mb-2.5 border-b border-white/10">
+                        <div className="flex items-center gap-2">
+                          <span className="w-2.5 h-2.5 rounded-full bg-indigo-400"></span>
+                          <h3 className="text-sm sm:text-base font-bold text-white tracking-wide">
+                            {g.name} Kitapları
+                          </h3>
+                        </div>
+                        <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-400/20">
+                          {g.count}
+                        </span>
+                      </div>
+
+                      <div className="space-y-2">
+                        {groupBooks.map((book) => {
+                          let shortName = book.title
+                            .replace(/^2026-2027\s*MEB\s*/i, '')
+                            .replace(/\s*Ders Kitabı Cevapları\s*/i, '')
+                            .replace(/\s*Çalışma Kitabı Cevapları\s*/i, '')
+                            .trim();
+                          
+                          if (book.title.includes('9. Sınıf 1. Kitap') || (book.category_slug === '9-sinif' && shortName.startsWith('Matematik') && !book.title.includes('2. Kitap'))) {
+                            shortName = '9. Sınıf Matematik (1. Kitap)';
+                          } else if (book.title.includes('9. Sınıf 2. Kitap')) {
+                            shortName = '9. Sınıf Matematik (2. Kitap)';
+                          } else if (book.title.includes('Temel Matematik')) {
+                            shortName = '11. Sınıf Temel Matematik';
+                          } else {
+                            const m = shortName.match(/^(.*?)\s*\((.*?)\)$/);
+                            if (m) {
+                              shortName = `${m[2]} ${m[1]}`;
+                            }
+                          }
+
+                          return (
+                            <Link
+                              key={book.id}
+                              href={`/post/${book.slug}`}
+                              className="flex items-center justify-between px-3.5 py-2 rounded-xl bg-white/5 hover:bg-indigo-600 border border-white/10 hover:border-indigo-400 text-xs sm:text-sm font-medium text-slate-200 hover:text-white transition-all group shadow-sm"
+                            >
+                              <span className="truncate">{shortName}</span>
+                              <ArrowRight className="w-3.5 h-3.5 text-indigo-400 group-hover:text-white group-hover:translate-x-0.5 transition-transform shrink-0 ml-2" />
+                            </Link>
+                          );
+                        })}
+                      </div>
+                    </div>
+
+                    <div className="pt-2">
+                      <Link
+                        href={`/kategori/${g.slug}`}
+                        className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-300 hover:text-white transition-colors"
+                      >
+                        Tüm {g.name} Çözümleri &rarr;
+                      </Link>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
         {/* Posts Grid */}
-        {posts.length === 0 ? (
+        {posts.length > 0 && (
+          <div className="space-y-6">
+            {isMebCategory && (
+              <div className="flex items-center gap-3 pt-4">
+                <h3 className="text-lg font-bold text-slate-900">Diğer İlgili İçerikler ve Çözümler</h3>
+                <div className="h-px bg-slate-200 flex-1" />
+              </div>
+            )}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+              {posts.map((post) => (
+                <PostCard key={post.id} post={post} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {!isMebCategory && posts.length === 0 && (
           <div className="p-16 bg-white rounded-3xl border border-slate-200 text-center text-slate-500">
             Bu kategoride henüz yazı bulunmamaktadır.
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {posts.map((post) => (
-              <PostCard key={post.id} post={post} />
-            ))}
           </div>
         )}
 
