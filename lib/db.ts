@@ -874,7 +874,7 @@ export function getSettings(): Record<string, string> {
     bing_verification: '',
     yandex_verification: '',
     pinterest_verification: '',
-    google_analytics_id: '',
+    google_analytics_id: 'G-RP0J3L0TKJ',
     custom_head_tags: '',
     ads_enabled: '0',
     ad_header_code: '',
