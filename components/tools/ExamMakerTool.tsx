@@ -144,8 +144,8 @@ export default function ExamMakerTool() {
 
     // Usable vertical pixel heights for A4:
     // Page 1 has header (~150px), subsequent pages have no header.
-    const page1MaxHeight = density === 'compact' ? 880 : density === 'spacious' ? 790 : 835;
-    const subsequentMaxHeight = density === 'compact' ? 980 : density === 'spacious' ? 890 : 935;
+    const page1MaxHeight = density === 'compact' ? 810 : density === 'spacious' ? 720 : 760;
+    const subsequentMaxHeight = density === 'compact' ? 910 : density === 'spacious' ? 820 : 860;
 
     const getQuestionHeight = (q: QuestionItem): number => {
       const basePadding = 32; // badge, padding & border
@@ -234,10 +234,11 @@ export default function ExamMakerTool() {
             size: A4 portrait;
             margin: 0;
           }
-          body {
+          html, body {
             background: #ffffff !important;
             padding: 0 !important;
             margin: 0 !important;
+            width: 210mm !important;
             -webkit-print-color-adjust: exact !important;
             print-color-adjust: exact !important;
           }
@@ -245,20 +246,27 @@ export default function ExamMakerTool() {
             display: none !important;
           }
           .a4-print-sayfa {
+            box-sizing: border-box !important;
             width: 210mm !important;
-            min-height: 297mm !important;
-            height: 297mm !important;
-            padding: 12mm !important;
-            margin: 0 !important;
+            height: 295mm !important;
+            max-height: 295mm !important;
+            min-height: 0 !important;
+            padding: 10mm 12mm 10mm 12mm !important;
+            margin: 0 auto !important;
             box-shadow: none !important;
+            border: none !important;
             border-radius: 0 !important;
             page-break-after: always !important;
+            break-after: page !important;
             page-break-inside: avoid !important;
+            break-inside: avoid !important;
             transform: none !important;
             overflow: hidden !important;
+            position: relative !important;
           }
           .a4-print-sayfa:last-child {
-            page-break-after: avoid !important;
+            page-break-after: auto !important;
+            break-after: auto !important;
           }
         }
       `}</style>
@@ -465,11 +473,12 @@ export default function ExamMakerTool() {
               return (
                 <div
                   key={pageIndex}
-                  className="a4-print-sayfa bg-white text-slate-900 rounded shadow-xl border border-slate-200 flex flex-col relative overflow-hidden"
+                  className="a4-print-sayfa bg-white text-slate-900 rounded shadow-xl border border-slate-200 flex flex-col relative overflow-hidden pb-6 print:pb-5"
                   style={{
                     width: '210mm',
-                    minHeight: '297mm',
-                    padding: '12mm',
+                    minHeight: '295mm',
+                    padding: '10mm 12mm 10mm 12mm',
+                    boxSizing: 'border-box',
                   }}
                 >
                   {/* Official Exam Header (Printed on First Page) */}
@@ -632,7 +641,7 @@ export default function ExamMakerTool() {
 
                   {/* Exam Footer (Printed on Last Page) */}
                   {isLastPage && (
-                    <div className="mt-auto border-t-2 border-slate-900 pt-2 flex items-center justify-between text-xs font-bold text-slate-900">
+                    <div className="mt-auto border-t-2 border-slate-900 pt-2 mb-2 print:mb-1 flex items-center justify-between text-xs font-bold text-slate-900">
                       <div
                         contentEditable
                         suppressContentEditableWarning
@@ -671,7 +680,7 @@ export default function ExamMakerTool() {
                   )}
 
                   {/* Page Number */}
-                  <div className="absolute bottom-2 left-0 right-0 text-center text-[10px] text-slate-400 font-bold">
+                  <div className="absolute bottom-2 left-0 right-0 text-center text-[10px] text-slate-400 font-bold print:bottom-1.5 print:text-slate-600 pointer-events-none">
                     Sayfa {pageNumber}
                   </div>
                 </div>

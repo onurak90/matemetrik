@@ -62,17 +62,18 @@ export default function HomePage({
       {/* Dynamic 3D Math Hero Section */}
       <DynamicMathHero searchQuery={searchQuery} />
 
-      {/* Grade Level Cards (1. Sınıf - 12. Sınıf) */}
+      {/* Compact Grade Level Navigation (1. Sınıf - 12. Sınıf) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 sm:-mt-20 relative z-10">
-        <div className="bg-white rounded-3xl p-6 sm:p-8 shadow-xl shadow-slate-900/5 border border-slate-200/80">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6">
-            <div>
-              <h2 className="text-xl font-bold text-slate-900">
+        <div className="bg-white rounded-2xl p-4 sm:p-5 shadow-xl shadow-slate-900/5 border border-slate-200/80">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3 pb-2.5 border-b border-slate-100">
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-indigo-600"></span>
+              <h2 className="text-sm sm:text-base font-bold text-slate-900">
                 Sınıf Seviyesine Göre İçerikler
               </h2>
-              <p className="text-xs text-slate-500 mt-0.5">
-                Kendi sınıf düzeyinizdeki MEB müfredatına ve soru çözümlerine doğrudan erişin
-              </p>
+              <span className="text-[11px] text-slate-500 hidden md:inline">
+                &bull; MEB müfredatı ve çözümler
+              </span>
             </div>
             <Link
               href="/kategori/meb-ders-kitabi-cevaplari"
@@ -82,22 +83,20 @@ export default function HomePage({
             </Link>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 gap-1.5 sm:gap-2">
             {gradeCards.map((grade) => (
               <Link
                 key={grade.slug}
                 href={`/kategori/${grade.slug}`}
-                className="group p-4 rounded-2xl bg-slate-50 hover:bg-indigo-50/50 border border-slate-200/70 hover:border-indigo-300 transition-all text-center flex flex-col items-center justify-center space-y-1.5"
+                className="group flex items-center justify-center gap-1.5 py-2 px-1.5 rounded-xl bg-slate-50 hover:bg-indigo-600 border border-slate-200/80 hover:border-indigo-600 transition-all text-center"
+                title={`${grade.title} (${grade.level})`}
               >
-                <div className={`w-10 h-10 rounded-xl bg-gradient-to-tr ${grade.color} text-white font-black text-sm flex items-center justify-center shadow-md group-hover:scale-110 transition-transform`}>
+                <span className={`w-5 h-5 rounded-md bg-gradient-to-tr ${grade.color} text-white font-black text-[10px] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform`}>
                   {grade.title.split('.')[0]}
-                </div>
-                <div className="font-bold text-sm text-slate-900 group-hover:text-indigo-600 transition-colors">
+                </span>
+                <span className="font-bold text-xs text-slate-800 group-hover:text-white transition-colors truncate">
                   {grade.title}
-                </div>
-                <div className="text-[10px] text-slate-500 font-medium">
-                  {grade.level}
-                </div>
+                </span>
               </Link>
             ))}
           </div>
