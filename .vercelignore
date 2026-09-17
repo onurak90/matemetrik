@@ -1,0 +1,18 @@
+# Large asset folders not needed in serverless runtime
+kitaplar/
+yeniklub/
+*.pdf
+*.docx
+*.zip
+*.tar.gz
+
+# Python scripts and scratch
+scripts/
+scratch/
+*.py
+*.pyc
+__pycache__/
+
+# Git and OS
+.git
+.DS_Store

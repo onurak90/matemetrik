@@ -133,64 +133,72 @@ export default function HomePage({
               </Link>
             </div>
 
-            <div className="space-y-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
               {[
-                { slug: '9-sinif', name: '9. Sınıf Ders Kitapları' },
-                { slug: '10-sinif', name: '10. Sınıf Ders Kitapları' },
-                { slug: '11-sinif', name: '11. Sınıf Ders Kitapları' },
+                { slug: '9-sinif', name: '9. Sınıf', count: '7 Ders' },
+                { slug: '10-sinif', name: '10. Sınıf', count: '6 Ders' },
+                { slug: '11-sinif', name: '11. Sınıf', count: '6 Ders' },
               ].map((g) => {
                 const groupBooks = mebBooks.filter((b) => b.category_slug === g.slug);
                 if (groupBooks.length === 0) return null;
 
                 return (
-                  <div key={g.slug} className="space-y-3">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <span className="w-2.5 h-2.5 rounded-full bg-indigo-400"></span>
-                        <h3 className="text-base sm:text-lg font-bold text-white tracking-wide">
-                          {g.name}
-                        </h3>
-                        <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-white/10 text-indigo-200">
-                          {groupBooks.length} Kitap
+                  <div key={g.slug} className="bg-white/5 rounded-2xl p-4 sm:p-5 border border-white/10 space-y-3 flex flex-col justify-between">
+                    <div>
+                      <div className="flex items-center justify-between pb-2.5 mb-2.5 border-b border-white/10">
+                        <div className="flex items-center gap-2">
+                          <span className="w-2.5 h-2.5 rounded-full bg-indigo-400"></span>
+                          <h3 className="text-sm sm:text-base font-bold text-white tracking-wide">
+                            {g.name} Kitapları
+                          </h3>
+                        </div>
+                        <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-400/20">
+                          {g.count}
                         </span>
                       </div>
-                      <Link
-                        href={`/kategori/${g.slug}`}
-                        className="text-xs text-indigo-300 hover:text-white transition-colors"
-                      >
-                        Tüm {g.name.split(' ')[0]} İçerikleri &rarr;
-                      </Link>
+
+                      <div className="space-y-2">
+                        {groupBooks.map((book) => {
+                          let shortName = book.title
+                            .replace(/^2026-2027\s*MEB\s*/i, '')
+                            .replace(/\s*Ders Kitabı Cevapları\s*/i, '')
+                            .replace(/\s*Çalışma Kitabı Cevapları\s*/i, '')
+                            .trim();
+                          
+                          if (book.title.includes('9. Sınıf 1. Kitap') || (book.category_slug === '9-sinif' && shortName.startsWith('Matematik') && !book.title.includes('2. Kitap'))) {
+                            shortName = '9. Sınıf Matematik (1. Kitap)';
+                          } else if (book.title.includes('9. Sınıf 2. Kitap')) {
+                            shortName = '9. Sınıf Matematik (2. Kitap)';
+                          } else if (book.title.includes('Temel Matematik')) {
+                            shortName = '11. Sınıf Temel Matematik';
+                          } else {
+                            const m = shortName.match(/^(.*?)\s*\((.*?)\)$/);
+                            if (m) {
+                              shortName = `${m[2]} ${m[1]}`;
+                            }
+                          }
+
+                          return (
+                            <Link
+                              key={book.id}
+                              href={`/post/${book.slug}`}
+                              className="flex items-center justify-between px-3.5 py-2 rounded-xl bg-white/5 hover:bg-indigo-600 border border-white/10 hover:border-indigo-400 text-xs sm:text-sm font-medium text-slate-200 hover:text-white transition-all group shadow-sm"
+                            >
+                              <span className="truncate">{shortName}</span>
+                              <ArrowRight className="w-3.5 h-3.5 text-indigo-400 group-hover:text-white group-hover:translate-x-0.5 transition-transform shrink-0 ml-2" />
+                            </Link>
+                          );
+                        })}
+                      </div>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                      {groupBooks.map((book) => (
-                        <Link
-                          key={book.id}
-                          href={`/post/${book.slug}`}
-                          className="group p-4 rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-indigo-400/50 transition-all flex flex-col justify-between"
-                        >
-                          <div>
-                            <div className="flex items-center justify-between gap-2 mb-2">
-                              <span className="px-2 py-0.5 rounded-md text-[10px] font-black tracking-wider bg-indigo-500/30 text-indigo-200 border border-indigo-400/20 uppercase">
-                                {book.category || 'MEB'}
-                              </span>
-                              <span className="text-[10px] text-slate-400 font-medium">
-                                {book.views} Görüntülenme
-                              </span>
-                            </div>
-                            <h4 className="font-bold text-sm text-white group-hover:text-indigo-300 transition-colors line-clamp-2 leading-snug">
-                              {book.title}
-                            </h4>
-                            <p className="text-[11px] text-slate-400 mt-1.5 line-clamp-2 leading-relaxed">
-                              {book.excerpt}
-                            </p>
-                          </div>
-                          <div className="mt-3 pt-2.5 border-t border-white/10 flex items-center justify-between text-xs font-bold text-indigo-300 group-hover:translate-x-0.5 transition-transform">
-                            <span className="text-[11px]">Kitap Çözümlerine Git</span>
-                            <span>&rarr;</span>
-                          </div>
-                        </Link>
-                      ))}
+                    <div className="pt-2">
+                      <Link
+                        href={`/kategori/${g.slug}`}
+                        className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-300 hover:text-white transition-colors"
+                      >
+                        Tüm {g.name} Çözümleri &rarr;
+                      </Link>
                     </div>
                   </div>
                 );
