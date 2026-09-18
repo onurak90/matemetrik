@@ -126,14 +126,15 @@ export default function ExamMakerTool() {
     const pages: QuestionItem[][] = [];
     const isDouble = columnCount === '2';
 
-    // Usable vertical pixel heights for A4:
-    // Page 1 has header (~110px), subsequent pages have no header.
+    // Usable vertical pixel heights for A4 (at standard 96 DPI, 282mm usable = ~1065px):
+    // Page 1 has official exam header (~85px) + footer (~40px), so ~880px usable for questions.
+    // Subsequent pages have no header, so ~980px usable for questions.
     const page1MaxHeight = 880;
     const subsequentMaxHeight = 980;
 
     const getQuestionHeight = (q: QuestionItem): number => {
-      const baseHeight = 175; // badge, image container (max-h 140px), padding
-      const linesHeight = (q.lineCount || 0) * 20; // exactly 20px per dashed line
+      const baseHeight = 150; // question badge, image (max-h 130px), padding
+      const linesHeight = (q.lineCount || 0) * 20; // 20px per blank spacing unit
       return baseHeight + linesHeight;
     };
 
@@ -170,7 +171,7 @@ export default function ExamMakerTool() {
     } else {
       // 1-column mode: questions are stacked vertically
       for (const q of questions) {
-        const qH = getQuestionHeight(q) + 12; // 12px gap
+        const qH = getQuestionHeight(q) + 12;
         const maxLimit = isFirstPage ? page1MaxHeight : subsequentMaxHeight;
 
         if (currentHeight + qH > maxLimit && currentPage.length > 0) {
@@ -195,18 +196,15 @@ export default function ExamMakerTool() {
   const paginatedPages = getPaginatedPages();
 
   return (
-    <div className="space-y-8">
-      {/* Print styles and custom animations */}
-      <style jsx global>{`
-        @keyframes shakeError {
-          0%, 100% { transform: translateX(0); }
-          20%, 60% { transform: translateX(-5px); }
-          40%, 80% { transform: translateX(5px); }
+    <div className="space-y-6">
+      {/* Dynamic Print Stylesheet to guarantee EXACT 1:1 page printing without blank pages */}
+      <style>{`
+        @keyframes subtlePulse {
+          0%, 100% { border-color: #f59e0b; background-color: #fef3c7; }
+          50% { border-color: #e11d48; background-color: #ffe4e6; }
         }
-
         .alan-hata {
-          animation: shakeError 0.4s ease-in-out !important;
-          background-color: #fff1f2 !important;
+          animation: subtlePulse 0.5s ease-in-out 3;
           border-color: #e11d48 !important;
           color: #be123c !important;
         }
@@ -214,7 +212,7 @@ export default function ExamMakerTool() {
         @media print {
           @page {
             size: A4 portrait;
-            margin: 8mm 10mm 8mm 10mm !important;
+            margin: 0 !important;
           }
           html, body {
             background: #ffffff !important;
@@ -238,12 +236,12 @@ export default function ExamMakerTool() {
           }
           .a4-print-sayfa {
             box-sizing: border-box !important;
-            width: 100% !important;
-            max-width: 100% !important;
-            height: 280mm !important;
-            max-height: 280mm !important;
-            min-height: 280mm !important;
-            padding: 2mm 2mm 2mm 2mm !important;
+            width: 210mm !important;
+            max-width: 210mm !important;
+            height: 296mm !important;
+            max-height: 296mm !important;
+            min-height: 296mm !important;
+            padding: 8mm 10mm 6mm 10mm !important;
             margin: 0 auto !important;
             box-shadow: none !important;
             border: none !important;
@@ -345,10 +343,10 @@ export default function ExamMakerTool() {
               className="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               <option value="0">⚪ Boşluk Yok (Yalnızca Soru Görselleri)</option>
-              <option value="3">📝 3 Satır Çizgili Boşluk (Kısa Çözüm)</option>
-              <option value="5">📝 5 Satır Çizgili Boşluk (Standart MEB)</option>
-              <option value="7">📝 7 Satır Çizgili Boşluk (Geniş Alan)</option>
-              <option value="10">📝 10 Satır Çizgili Boşluk (Ayrıntılı İşlem)</option>
+              <option value="3">📐 Küçük Boşluk (Kısa Cevaplar)</option>
+              <option value="5">📐 Standart Cevap Boşluğu (MEB Formatı)</option>
+              <option value="7">📐 Geniş Boşluk (İşlem Alanı)</option>
+              <option value="10">📐 Maksimum Boşluk (Ayrıntılı Çözüm)</option>
             </select>
           </div>
 
@@ -537,41 +535,37 @@ export default function ExamMakerTool() {
                               <img
                                 src={q.image}
                                 alt={`Soru ${questionNumber}`}
-                                style={{ maxHeight: '140px' }}
+                                style={{ maxHeight: '130px' }}
                                 className="max-w-full object-contain"
                               />
                             </div>
                           </div>
 
-                          {/* Ruled Answer Spacing Area (Visible dotted lines for student writing) */}
+                          {/* Clean Blank Answer Spacing Area (No lines, clean whitespace for student writing) */}
                           {q.lineCount > 0 && (
-                            <div className="w-full mt-2 pt-1">
-                              {Array.from({ length: q.lineCount }).map((_, lineIdx) => (
-                                <div
-                                  key={lineIdx}
-                                  className="w-full border-b border-dashed border-slate-300 print:border-slate-400 h-5"
-                                />
-                              ))}
-                            </div>
+                            <div
+                              className="w-full select-none pointer-events-none"
+                              style={{ height: `${q.lineCount * 20}px` }}
+                            />
                           )}
 
                           {/* Per-Question Line Setting (Hidden in Print) */}
                           <div className="ekran-gizle mt-2 pt-1 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500">
-                            <span>Cevap Alanı:</span>
+                            <span>Cevap Boşluğu:</span>
                             <select
                               value={q.lineCount}
                               onChange={(e) => handleQuestionLineChange(q.id, Number(e.target.value))}
-                              className="bg-slate-50 border border-slate-200 rounded px-1.5 py-0.5 text-[10px] text-slate-700"
+                              className="bg-slate-50 border border-slate-200 rounded px-1.5 py-0.5 text-[10px] text-slate-700 font-medium"
                             >
                               <option value="0">Boşluk Yok</option>
-                              <option value="2">2 Satır</option>
-                              <option value="3">3 Satır</option>
-                              <option value="4">4 Satır</option>
-                              <option value="5">5 Satır</option>
-                              <option value="6">6 Satır</option>
-                              <option value="8">8 Satır</option>
-                              <option value="10">10 Satır</option>
-                              <option value="12">12 Satır</option>
+                              <option value="2">2 Birim Boşluk</option>
+                              <option value="3">3 Birim Boşluk</option>
+                              <option value="4">4 Birim Boşluk</option>
+                              <option value="5">5 Birim Boşluk</option>
+                              <option value="6">6 Birim Boşluk</option>
+                              <option value="8">8 Birim Boşluk</option>
+                              <option value="10">10 Birim Boşluk</option>
+                              <option value="12">12 Birim Boşluk</option>
                             </select>
                           </div>
                         </div>

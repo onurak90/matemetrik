@@ -186,35 +186,85 @@ def main():
         }
     ]
 
-    def render_button(sess):
-        theme_classes = {
-            'emerald': 'from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white shadow-emerald-700/25',
-            'teal': 'from-teal-600 to-cyan-700 hover:from-teal-500 hover:to-cyan-600 text-white shadow-teal-700/25',
-            'indigo': 'from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white shadow-indigo-700/25',
-            'blue': 'from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white shadow-blue-700/25',
-            'cyan': 'from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white shadow-cyan-700/25',
-            'amber': 'from-amber-600 to-orange-600 hover:from-amber-500 hover:to-orange-500 text-white shadow-amber-700/25',
-            'slate': 'from-slate-700 to-slate-800 hover:from-slate-600 hover:to-slate-700 text-white shadow-slate-900/20'
+    theme_styles = {
+        'emerald': {
+            'bg': 'linear-gradient(135deg, #059669 0%, #0d9488 100%)',
+            'shadow': '0 4px 14px rgba(5, 150, 105, 0.35)',
+            'border': 'rgba(255, 255, 255, 0.25)',
+            'badge_bg': '#d1fae5',
+            'badge_text': '#065f46',
+            'badge_border': '#a7f3d0'
+        },
+        'teal': {
+            'bg': 'linear-gradient(135deg, #0d9488 0%, #0284c7 100%)',
+            'shadow': '0 4px 14px rgba(13, 148, 136, 0.35)',
+            'border': 'rgba(255, 255, 255, 0.25)',
+            'badge_bg': '#ccfbf1',
+            'badge_text': '#115e59',
+            'badge_border': '#99f6e4'
+        },
+        'indigo': {
+            'bg': 'linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%)',
+            'shadow': '0 4px 14px rgba(79, 70, 229, 0.35)',
+            'border': 'rgba(255, 255, 255, 0.25)',
+            'badge_bg': '#e0e7ff',
+            'badge_text': '#3730a3',
+            'badge_border': '#c7d2fe'
+        },
+        'blue': {
+            'bg': 'linear-gradient(135deg, #2563eb 0%, #4f46e5 100%)',
+            'shadow': '0 4px 14px rgba(37, 99, 235, 0.35)',
+            'border': 'rgba(255, 255, 255, 0.25)',
+            'badge_bg': '#dbeafe',
+            'badge_text': '#1e40af',
+            'badge_border': '#bfdbfe'
+        },
+        'cyan': {
+            'bg': 'linear-gradient(135deg, #0284c7 0%, #2563eb 100%)',
+            'shadow': '0 4px 14px rgba(2, 132, 199, 0.35)',
+            'border': 'rgba(255, 255, 255, 0.25)',
+            'badge_bg': '#cffafe',
+            'badge_text': '#155e75',
+            'badge_border': '#a5f3fc'
+        },
+        'amber': {
+            'bg': 'linear-gradient(135deg, #d97706 0%, #ea580c 100%)',
+            'shadow': '0 4px 14px rgba(217, 119, 6, 0.35)',
+            'border': 'rgba(255, 255, 255, 0.25)',
+            'badge_bg': '#fef3c7',
+            'badge_text': '#92400e',
+            'badge_border': '#fde68a'
+        },
+        'slate': {
+            'bg': 'linear-gradient(135deg, #1e293b 0%, #334155 100%)',
+            'shadow': '0 4px 14px rgba(15, 23, 42, 0.35)',
+            'border': 'rgba(255, 255, 255, 0.2)',
+            'badge_bg': '#f1f5f9',
+            'badge_text': '#334155',
+            'badge_border': '#cbd5e1'
         }
-        btn_cls = theme_classes.get(sess.get('theme', 'slate'), theme_classes['slate'])
+    }
+
+    def render_button(sess):
+        thm = theme_styles.get(sess.get('theme', 'slate'), theme_styles['slate'])
         return f'''
         <a
           href="{sess['url']}"
           target="_blank"
           rel="noopener noreferrer"
-          class="group/btn flex items-center justify-between p-3 sm:p-3.5 rounded-2xl bg-gradient-to-r {btn_cls} font-bold text-xs sm:text-sm shadow-md hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 border border-white/10"
+          style="display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; margin-bottom: 8px; border-radius: 14px; background: {thm['bg']}; color: #ffffff !important; text-decoration: none !important; font-weight: 700; font-size: 13.5px; box-shadow: {thm['shadow']}; border: 1px solid {thm['border']}; transition: transform 0.15s ease;"
         >
-          <div class="flex items-center gap-2.5 min-w-0 pr-2">
-            <span class="w-8 h-8 rounded-xl bg-white/20 flex items-center justify-center text-white shrink-0 group-hover/btn:rotate-6 transition-transform">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+          <div style="display: flex; align-items: center; gap: 10px; min-width: 0;">
+            <span style="width: 32px; height: 32px; border-radius: 10px; background: rgba(255, 255, 255, 0.22); display: flex; align-items: center; justify-content: center; color: #ffffff; flex-shrink: 0;">
+              <svg style="width: 17px; height: 17px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
               </svg>
             </span>
-            <span class="truncate">{sess['name']}</span>
+            <span style="color: #ffffff !important; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{sess['name']}</span>
           </div>
-          <span class="px-2.5 py-1 rounded-lg bg-white/20 text-[11px] font-black uppercase tracking-wider text-white border border-white/25 shrink-0 flex items-center gap-1">
-            <span>PDF</span>
-            <span class="text-[10px] opacity-80">&rarr;</span>
+          <span style="padding: 4px 10px; border-radius: 8px; background: rgba(255, 255, 255, 0.25); font-size: 11px; font-weight: 900; color: #ffffff !important; text-transform: uppercase; letter-spacing: 0.5px; border: 1px solid rgba(255, 255, 255, 0.35); flex-shrink: 0; display: flex; align-items: center; gap: 4px;">
+            <span style="color: #ffffff !important;">PDF</span>
+            <span style="font-size: 10px; color: #ffffff !important;">&rarr;</span>
           </span>
         </a>
         '''
@@ -222,25 +272,25 @@ def main():
     cards_html = []
     for item in years_data:
         buttons = ''.join([render_button(s) for s in item['sessions']])
-        badge_bg = 'bg-emerald-100 text-emerald-800 border-emerald-200' if item['color'] == 'emerald' else ('bg-indigo-100 text-indigo-800 border-indigo-200' if item['color'] == 'indigo' else 'bg-slate-100 text-slate-700 border-slate-200')
+        thm = theme_styles.get(item.get('color', 'slate'), theme_styles['slate'])
         card = f'''
-      <div class="p-5 sm:p-6 rounded-3xl bg-gradient-to-b from-white to-slate-50/80 border border-slate-200/90 shadow-sm hover:shadow-xl hover:border-teal-400/80 transition-all duration-300 flex flex-col justify-between space-y-4 group">
-        <div class="space-y-2">
-          <div class="flex items-center justify-between pb-2 border-b border-slate-100">
-            <div class="flex items-center gap-2">
-              <span class="w-3 h-3 rounded-full bg-teal-500 group-hover:scale-125 transition-transform"></span>
-              <span class="text-xl font-black text-slate-900 group-hover:text-teal-700 transition-colors">{item['year']} YDS Soruları</span>
+      <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; margin-bottom: 12px;">
+        <div style="margin-bottom: 14px;">
+          <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 10px; border-bottom: 1px solid #f1f5f9; margin-bottom: 8px;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span style="width: 10px; height: 10px; border-radius: 50%; background: #0d9488;"></span>
+              <span style="font-size: 18px; font-weight: 900; color: #0f172a;">{item['year']} YDS Soruları</span>
             </div>
-            <span class="text-[11px] px-2.5 py-0.5 rounded-full font-bold border {badge_bg}">
+            <span style="font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 20px; background: {thm['badge_bg']}; color: {thm['badge_text']}; border: 1px solid {thm['badge_border']};">
               {item['badge']}
             </span>
           </div>
-          <p class="text-xs text-slate-500 leading-relaxed">
+          <p style="font-size: 12px; color: #64748b; line-height: 1.5; margin: 0;">
             {item['desc']}
           </p>
         </div>
 
-        <div class="flex flex-col gap-2.5 pt-1">
+        <div style="display: flex; flex-direction: column; gap: 6px;">
           {buttons}
         </div>
       </div>
@@ -248,49 +298,49 @@ def main():
         cards_html.append(card)
 
     years_grid = f'''
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-8 not-prose">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 24px 0;" class="not-prose">
     {''.join(cards_html)}
     </div>
     '''
 
     other_exams_html = '''
-    <div class="my-10 p-6 sm:p-8 rounded-3xl bg-slate-900 text-white shadow-xl not-prose space-y-4">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-4">
+    <div style="margin: 32px 0; padding: 24px; border-radius: 24px; background: #0f172a; color: #ffffff; box-shadow: 0 10px 25px rgba(15, 23, 42, 0.25);" class="not-prose">
+      <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 14px; margin-bottom: 16px;">
         <div>
-          <span class="text-[11px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-teal-500/20 text-teal-300 border border-teal-400/30">
+          <span style="font-size: 11px; font-weight: 900; text-transform: uppercase; letter-spacing: 0.5px; padding: 3px 10px; border-radius: 20px; background: rgba(20, 184, 166, 0.2); color: #2dd4bf; border: 1px solid rgba(20, 184, 166, 0.4);">
             ÖSYM DİĞER AKADEMİK &amp; DİL SINAVLARI
           </span>
-          <h3 class="text-xl font-black text-white mt-1">
+          <h3 style="font-size: 19px; font-weight: 900; color: #ffffff; margin: 6px 0 0 0;">
             İlgili Diğer Çıkmış Sınav Soru Kitapçıkları
           </h3>
         </div>
-        <span class="text-xs text-slate-400">ÖSYM Resmî Arşiv Bağlantıları</span>
+        <span style="font-size: 12px; color: #94a3b8;">ÖSYM Resmî Arşiv Bağlantıları</span>
       </div>
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-2">
-        <a href="https://www.osym.gov.tr" target="_blank" rel="noopener noreferrer" class="p-3 rounded-2xl bg-white/5 hover:bg-teal-600 border border-white/10 hover:border-teal-400 text-center transition-all group">
-          <div class="text-xs font-black text-white">YÖKDİL</div>
-          <div class="text-[11px] text-slate-400 group-hover:text-teal-100">Çıkmış Sorular &rarr;</div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px;">
+        <a href="https://www.osym.gov.tr" target="_blank" rel="noopener noreferrer" style="display: block; padding: 12px; border-radius: 14px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); text-align: center; text-decoration: none !important; color: #ffffff !important;">
+          <div style="font-size: 13px; font-weight: 900; color: #ffffff !important;">YÖKDİL</div>
+          <div style="font-size: 11px; color: #2dd4bf; margin-top: 3px;">Çıkmış Sorular &rarr;</div>
         </a>
-        <a href="/kategori/ales" class="p-3 rounded-2xl bg-white/5 hover:bg-violet-600 border border-white/10 hover:border-violet-400 text-center transition-all group">
-          <div class="text-xs font-black text-white">ALES</div>
-          <div class="text-[11px] text-slate-400 group-hover:text-violet-100">Sayısal &amp; Sözel &rarr;</div>
+        <a href="/kategori/ales" style="display: block; padding: 12px; border-radius: 14px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); text-align: center; text-decoration: none !important; color: #ffffff !important;">
+          <div style="font-size: 13px; font-weight: 900; color: #ffffff !important;">ALES</div>
+          <div style="font-size: 11px; color: #a78bfa; margin-top: 3px;">Sayısal &amp; Sözel &rarr;</div>
         </a>
-        <a href="https://www.osym.gov.tr" target="_blank" rel="noopener noreferrer" class="p-3 rounded-2xl bg-white/5 hover:bg-blue-600 border border-white/10 hover:border-blue-400 text-center transition-all group">
-          <div class="text-xs font-black text-white">KPDS / ÜDS</div>
-          <div class="text-[11px] text-slate-400 group-hover:text-blue-100">Eski Arşiv &rarr;</div>
+        <a href="https://www.osym.gov.tr" target="_blank" rel="noopener noreferrer" style="display: block; padding: 12px; border-radius: 14px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); text-align: center; text-decoration: none !important; color: #ffffff !important;">
+          <div style="font-size: 13px; font-weight: 900; color: #ffffff !important;">KPDS / ÜDS</div>
+          <div style="font-size: 11px; color: #60a5fa; margin-top: 3px;">Eski Arşiv &rarr;</div>
         </a>
-        <a href="https://www.osym.gov.tr" target="_blank" rel="noopener noreferrer" class="p-3 rounded-2xl bg-white/5 hover:bg-emerald-600 border border-white/10 hover:border-emerald-400 text-center transition-all group">
-          <div class="text-xs font-black text-white">DGS</div>
-          <div class="text-[11px] text-slate-400 group-hover:text-emerald-100">Çıkmış Sorular &rarr;</div>
+        <a href="https://www.osym.gov.tr" target="_blank" rel="noopener noreferrer" style="display: block; padding: 12px; border-radius: 14px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); text-align: center; text-decoration: none !important; color: #ffffff !important;">
+          <div style="font-size: 13px; font-weight: 900; color: #ffffff !important;">DGS</div>
+          <div style="font-size: 11px; color: #34d399; margin-top: 3px;">Çıkmış Sorular &rarr;</div>
         </a>
-        <a href="https://www.osym.gov.tr" target="_blank" rel="noopener noreferrer" class="p-3 rounded-2xl bg-white/5 hover:bg-rose-600 border border-white/10 hover:border-rose-400 text-center transition-all group">
-          <div class="text-xs font-black text-white">TUS / DUS</div>
-          <div class="text-[11px] text-slate-400 group-hover:text-rose-100">Tıp &amp; Diş &rarr;</div>
+        <a href="https://www.osym.gov.tr" target="_blank" rel="noopener noreferrer" style="display: block; padding: 12px; border-radius: 14px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); text-align: center; text-decoration: none !important; color: #ffffff !important;">
+          <div style="font-size: 13px; font-weight: 900; color: #ffffff !important;">TUS / DUS</div>
+          <div style="font-size: 11px; color: #fb7185; margin-top: 3px;">Tıp &amp; Diş &rarr;</div>
         </a>
-        <a href="/sinav-hazirlama-robotu" class="p-3 rounded-2xl bg-teal-500/20 hover:bg-teal-600 border border-teal-400/30 text-center transition-all group">
-          <div class="text-xs font-black text-teal-300 group-hover:text-white">Sınav Robotu</div>
-          <div class="text-[11px] text-teal-200/70 group-hover:text-white">Yazılı Hazırla &rarr;</div>
+        <a href="/sinav-hazirlama-robotu" style="display: block; padding: 12px; border-radius: 14px; background: rgba(13, 148, 136, 0.25); border: 1px solid rgba(20, 184, 166, 0.5); text-align: center; text-decoration: none !important; color: #ffffff !important;">
+          <div style="font-size: 13px; font-weight: 900; color: #2dd4bf !important;">Sınav Robotu</div>
+          <div style="font-size: 11px; color: #ccfbf1; margin-top: 3px;">Yazılı Hazırla &rarr;</div>
         </a>
       </div>
     </div>
@@ -434,22 +484,22 @@ def main():
     {disclaimer_html}
 
     <!-- HIGHLIGHT ALERT CARD -->
-    <div class="p-6 sm:p-8 my-8 rounded-3xl bg-gradient-to-br from-teal-900 via-slate-900 to-indigo-950 text-white shadow-xl not-prose">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-        <div class="space-y-2 max-w-2xl">
-          <span class="inline-block px-3 py-1 rounded-full bg-teal-500/30 text-teal-200 text-xs font-black uppercase tracking-wider border border-teal-400/30">
+    <div style="padding: 24px; margin: 32px 0; border-radius: 24px; background: linear-gradient(135deg, #042f2e 0%, #0f172a 50%, #1e1b4b 100%); color: #ffffff; box-shadow: 0 10px 25px rgba(0,0,0,0.2);" class="not-prose">
+      <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px;">
+        <div style="max-width: 650px;">
+          <span style="display: inline-block; padding: 4px 12px; border-radius: 20px; background: rgba(20, 184, 166, 0.3); color: #5eead4; font-size: 11px; font-weight: 900; text-transform: uppercase; letter-spacing: 0.5px; border: 1px solid rgba(20, 184, 166, 0.4); margin-bottom: 8px;">
             ÖSYM Resmî Doküman Havuzu
           </span>
-          <h3 class="text-xl sm:text-2xl font-black text-white">
+          <h3 style="font-size: 22px; font-weight: 900; color: #ffffff; margin: 0 0 8px 0;">
             Tüm Yılların YDS Çıkmış Soru Kitapçıkları (Orijinal PDF)
           </h3>
-          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+          <p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin: 0;">
             Aşağıdaki listeden dilediğiniz yılı ve sınav oturumunu seçerek doğrudan ÖSYM sunucularındaki orijinal PDF soru kitapçığını tek tıkla görüntüleyebilir ve indirebilirsiniz.
           </p>
         </div>
-        <div class="px-5 py-3 rounded-2xl bg-white/10 border border-white/15 text-center shrink-0 self-start sm:self-center">
-          <div class="text-xs text-teal-300 font-bold uppercase">Sınav Sayısı</div>
-          <div class="text-2xl font-black text-white">27+ Kitapçık</div>
+        <div style="padding: 12px 20px; border-radius: 16px; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.15); text-align: center;">
+          <div style="font-size: 11px; color: #2dd4bf; font-weight: 800; text-transform: uppercase;">Sınav Sayısı</div>
+          <div style="font-size: 24px; font-weight: 900; color: #ffffff;">27+ Kitapçık</div>
         </div>
       </div>
     </div>
