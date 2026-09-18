@@ -1,9 +1,9 @@
 'use client';
 
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import {
   Camera, Printer, Trash2, Columns, LayoutGrid, Sparkles,
-  AlertTriangle, Check, ZoomIn, ZoomOut, Maximize2, RotateCcw,
+  AlertTriangle, Check, RotateCcw,
   FileText, HelpCircle, ChevronDown, MoveDown, Info
 } from 'lucide-react';
 
@@ -24,9 +24,7 @@ const DEFAULT_REMINDERS = {
 export default function ExamMakerTool() {
   const [questions, setQuestions] = useState<QuestionItem[]>([]);
   const [columnCount, setColumnCount] = useState<'1' | '2'>('2');
-  const [density, setDensity] = useState<'compact' | 'standard' | 'spacious'>('standard');
   const [globalLineCount, setGlobalLineCount] = useState<number>(5);
-  const [zoomScale, setZoomScale] = useState<number>(1);
   const [hasErrorBlink, setHasErrorBlink] = useState(false);
 
   // Editable Header & Footer Values
@@ -39,20 +37,6 @@ export default function ExamMakerTool() {
   const [goodLuckNote, setGoodLuckNote] = useState('Sınavda başarılar dilerim. 😊');
 
   const fileInputRef = useRef<HTMLInputElement>(null);
-
-  // Responsive scale on mobile on initial load
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 640) {
-        setZoomScale(0.48); // Fit A4 nicely on mobile screens
-      } else if (window.innerWidth < 1024) {
-        setZoomScale(0.75); // Fit on tablet
-      } else {
-        setZoomScale(1);
-      }
-    };
-    handleResize();
-  }, []);
 
   // Handle Photo Upload
   const handlePhotoSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -143,16 +127,14 @@ export default function ExamMakerTool() {
     const isDouble = columnCount === '2';
 
     // Usable vertical pixel heights for A4:
-    // Page 1 has header (~160px), subsequent pages have no header.
-    const page1MaxHeight = density === 'compact' ? 530 : density === 'spacious' ? 440 : 490;
-    const subsequentMaxHeight = density === 'compact' ? 640 : density === 'spacious' ? 550 : 600;
+    // Page 1 has header (~110px), subsequent pages have no header.
+    const page1MaxHeight = 880;
+    const subsequentMaxHeight = 980;
 
     const getQuestionHeight = (q: QuestionItem): number => {
-      const basePadding = 42; // badge, padding, border & margin
-      const approxImgHeight = density === 'compact' ? 145 : density === 'spacious' ? 195 : 170;
-      const lineHeight = density === 'compact' ? 20 : density === 'spacious' ? 26 : 24;
-      const answerSpace = (q.lineCount || 0) * lineHeight;
-      return basePadding + approxImgHeight + answerSpace;
+      const baseHeight = 175; // badge, image container (max-h 140px), padding
+      const linesHeight = (q.lineCount || 0) * 20; // exactly 20px per dashed line
+      return baseHeight + linesHeight;
     };
 
     let currentPage: QuestionItem[] = [];
@@ -161,7 +143,7 @@ export default function ExamMakerTool() {
 
     if (isDouble) {
       // In 2-column mode, questions are grouped in pairs (row-by-row).
-      // Each row height is max(q1.height, q2.height)
+      // Each row height is max(q1.height, q2.height) + gap
       let i = 0;
       while (i < questions.length) {
         const q1 = questions[i];
@@ -232,10 +214,11 @@ export default function ExamMakerTool() {
         @media print {
           @page {
             size: A4 portrait;
-            margin: 6mm 8mm 6mm 8mm !important;
+            margin: 8mm 10mm 8mm 10mm !important;
           }
           html, body {
             background: #ffffff !important;
+            color: #000000 !important;
             padding: 0 !important;
             margin: 0 !important;
             width: 100% !important;
@@ -247,36 +230,35 @@ export default function ExamMakerTool() {
             display: none !important;
           }
           .a4-print-container {
-            gap: 0 !important;
+            display: block !important;
+            width: 100% !important;
             margin: 0 !important;
             padding: 0 !important;
             transform: none !important;
-            display: block !important;
-            width: 100% !important;
           }
           .a4-print-sayfa {
             box-sizing: border-box !important;
             width: 100% !important;
-            max-width: 194mm !important;
-            height: 278mm !important;
-            max-height: 278mm !important;
-            min-height: 278mm !important;
-            padding: 4mm 4mm 2mm 4mm !important;
+            max-width: 100% !important;
+            height: 280mm !important;
+            max-height: 280mm !important;
+            min-height: 280mm !important;
+            padding: 2mm 2mm 2mm 2mm !important;
             margin: 0 auto !important;
             box-shadow: none !important;
             border: none !important;
             border-radius: 0 !important;
-            page-break-before: auto !important;
-            page-break-after: always !important;
-            break-after: page !important;
-            page-break-inside: avoid !important;
-            break-inside: avoid !important;
-            transform: none !important;
             overflow: hidden !important;
             position: relative !important;
             display: flex !important;
             flex-direction: column !important;
             justify-content: space-between !important;
+            break-inside: avoid !important;
+            page-break-inside: avoid !important;
+          }
+          .a4-print-sayfa:not(:last-child) {
+            page-break-after: always !important;
+            break-after: page !important;
           }
           .a4-print-sayfa:last-child {
             page-break-after: avoid !important;
@@ -336,7 +318,7 @@ export default function ExamMakerTool() {
         </div>
 
         {/* Setting Controls */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
           {/* Column Layout */}
           <div className="space-y-1.5">
             <label className="block font-bold text-slate-700 uppercase tracking-wider text-[11px]">
@@ -352,74 +334,22 @@ export default function ExamMakerTool() {
             </select>
           </div>
 
-          {/* Page Density Layout */}
-          <div className="space-y-1.5">
-            <label className="block font-bold text-slate-700 uppercase tracking-wider text-[11px]">
-              📐 Sayfa Yoğunluğu
-            </label>
-            <select
-              value={density}
-              onChange={(e) => setDensity(e.target.value as 'compact' | 'standard' | 'spacious')}
-              className="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-            >
-              <option value="compact">📏 Sıkı (Çok Soru Sığdır / Kompakt)</option>
-              <option value="standard">📐 Standart (MEB Dengeli Düzen)</option>
-              <option value="spacious">📖 Ferah (Geniş Çözüm Alanı)</option>
-            </select>
-          </div>
-
           {/* Quick Line Spacing */}
           <div className="space-y-1.5">
             <label className="block font-bold text-slate-700 uppercase tracking-wider text-[11px]">
-              ⚡ Hızlı Cevap Boşluğu
+              ⚡ Soru Altı Cevap Boşluğu (Tümüne Uygula)
             </label>
             <select
               value={globalLineCount}
               onChange={(e) => handleGlobalLineChange(Number(e.target.value))}
               className="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
-              <option value="0">⚪ Boşluk Yok (Yalnızca Soru)</option>
-              <option value="3">🕒 3 Satırlık Boşluk (~72px)</option>
-              <option value="5">🕒 5 Satırlık Boşluk (~120px)</option>
-              <option value="7">🕒 7 Satırlık Boşluk (~168px)</option>
-              <option value="10">🕒 10 Satırlık Boşluk (~240px)</option>
+              <option value="0">⚪ Boşluk Yok (Yalnızca Soru Görselleri)</option>
+              <option value="3">📝 3 Satır Çizgili Boşluk (Kısa Çözüm)</option>
+              <option value="5">📝 5 Satır Çizgili Boşluk (Standart MEB)</option>
+              <option value="7">📝 7 Satır Çizgili Boşluk (Geniş Alan)</option>
+              <option value="10">📝 10 Satır Çizgili Boşluk (Ayrıntılı İşlem)</option>
             </select>
-          </div>
-
-          {/* Mobile Zoom Scale */}
-          <div className="space-y-1.5">
-            <label className="block font-bold text-slate-700 uppercase tracking-wider text-[11px]">
-              🔍 Önizleme Ölçeği
-            </label>
-            <div className="flex items-center gap-1.5">
-              <button
-                type="button"
-                onClick={() => setZoomScale((prev) => Math.max(0.4, Number((prev - 0.1).toFixed(2))))}
-                className="p-2 bg-slate-100 hover:bg-slate-200 rounded-lg text-slate-700 font-bold"
-                title="Küçült"
-              >
-                <ZoomOut className="w-3.5 h-3.5" />
-              </button>
-              <span className="flex-1 text-center font-mono font-bold bg-slate-50 py-2 border border-slate-200 rounded-lg">
-                %{Math.round(zoomScale * 100)}
-              </span>
-              <button
-                type="button"
-                onClick={() => setZoomScale((prev) => Math.min(1.2, Number((prev + 0.1).toFixed(2))))}
-                className="p-2 bg-slate-100 hover:bg-slate-200 rounded-lg text-slate-700 font-bold"
-                title="Büyüt"
-              >
-                <ZoomIn className="w-3.5 h-3.5" />
-              </button>
-              <button
-                type="button"
-                onClick={() => setZoomScale(1)}
-                className="p-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-600 rounded-lg text-[11px] font-bold"
-                title="%100 Gerçek Boyut"
-              >
-                1:1
-              </button>
-            </div>
           </div>
 
           {/* Info Status */}
@@ -440,12 +370,12 @@ export default function ExamMakerTool() {
         <div className="flex items-center gap-2 p-3 bg-amber-50/80 border border-amber-200/80 rounded-2xl text-amber-900 text-xs">
           <Info className="w-4 h-4 text-amber-600 shrink-0" />
           <span>
-            <strong>Öğretmen İpucu:</strong> Sarı çerçeveli alanlara (Okul Adı, Öğretmen İsmi vb.) doğrudan tıklayıp klavyenizden düzenleyebilirsiniz. Yazdırma çıktısında çerçeveler tamamen kaybolur.
+            <strong>Öğretmen İpucu:</strong> Okul Adı ve Öğretmen İsmi gibi sarı çerçeveli alanlara tıklayıp doğrudan düzenleyebilirsiniz. Her sorunun altındaki satır sayısını dilediğiniz gibi ayrı ayrı da değiştirebilirsiniz.
           </span>
         </div>
       </div>
 
-      {/* A4 PREVIEW WORKSPACE WRAPPER (Responsive with Touch Scrolling) */}
+      {/* A4 PREVIEW WORKSPACE WRAPPER */}
       <div className="w-full overflow-x-auto pb-8 flex flex-col items-center print:p-0 print:m-0 print:overflow-visible print:block">
         {questions.length === 0 ? (
           /* Empty State Welcome Screen */
@@ -459,26 +389,20 @@ export default function ExamMakerTool() {
             <p className="text-xs sm:text-sm text-slate-500 max-w-md mx-auto leading-relaxed">
               Soru fotoğraflarınızı bilgisayardan veya telefonunuzdan yükleyin; çift sütunlu MEB ortak sınav kağıdınız otomatik dizilsin.
             </p>
-            <div className="pt-3">
+            <div className="pt-2">
               <button
                 type="button"
                 onClick={() => fileInputRef.current?.click()}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl font-bold text-sm shadow-md shadow-indigo-600/20 transition-all"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm rounded-2xl shadow-lg shadow-indigo-600/20 transition-all"
               >
                 <Camera className="w-4 h-4" />
-                Soru Fotoğraflarını Seçin
+                Soru Fotoğrafı Seç
               </button>
             </div>
           </div>
         ) : (
           /* Rendered A4 Pages */
-          <div
-            className="a4-print-container flex flex-col items-center gap-8 origin-top transition-transform duration-200 print:gap-0 print:m-0 print:p-0 print:block"
-            style={{
-              transform: `scale(${zoomScale})`,
-              marginBottom: zoomScale < 1 ? `-${(1 - zoomScale) * 1100}px` : undefined,
-            }}
-          >
+          <div className="a4-print-container flex flex-col items-center gap-8 w-full max-w-[210mm] mx-auto print:gap-0 print:m-0 print:p-0 print:block">
             {paginatedPages.map((pageQuestions, pageIndex) => {
               const isFirstPage = pageIndex === 0;
               const isLastPage = pageIndex === paginatedPages.length - 1;
@@ -487,17 +411,14 @@ export default function ExamMakerTool() {
               return (
                 <div
                   key={pageIndex}
-                  className="a4-print-sayfa bg-white text-slate-900 rounded shadow-xl border border-slate-200 flex flex-col relative overflow-hidden"
+                  className="a4-print-sayfa bg-white text-slate-900 rounded shadow-xl border border-slate-200 flex flex-col relative overflow-hidden w-full min-h-[297mm] p-[10mm_12mm]"
                   style={{
-                    width: '210mm',
-                    minHeight: '296mm',
-                    padding: '10mm 12mm 10mm 12mm',
                     boxSizing: 'border-box',
                   }}
                 >
                   {/* Official Exam Header (Printed on First Page) */}
                   {isFirstPage && (
-                    <div className="border-2 border-slate-900 p-2.5 mb-4 flex items-center justify-between gap-3 text-slate-900 min-h-[68px]">
+                    <div className="shrink-0 border-2 border-slate-900 p-2.5 mb-3 flex items-center justify-between gap-3 text-slate-900 min-h-[64px]">
                       {/* Left Header */}
                       <div className="flex-1 text-[11px] leading-relaxed">
                         <div>
@@ -591,46 +512,47 @@ export default function ExamMakerTool() {
                       return (
                         <div
                           key={q.id}
-                          className="border border-slate-200 rounded-lg p-2.5 bg-white flex flex-col relative group print:border-none print:p-1"
+                          className="border border-slate-200 rounded-lg p-2.5 bg-white flex flex-col justify-between relative group print:border-none print:p-1"
                         >
-                          {/* Question Number Badge */}
-                          <div className="flex items-center justify-between mb-1.5">
-                            <span className="font-extrabold text-xs text-blue-700 bg-blue-50 px-2 py-0.5 rounded print:bg-transparent print:text-black print:p-0 print:text-sm">
-                              Soru {questionNumber}
-                            </span>
+                          <div>
+                            {/* Question Number Badge */}
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="font-extrabold text-xs text-blue-700 bg-blue-50 px-2 py-0.5 rounded print:bg-transparent print:text-black print:p-0 print:text-sm">
+                                Soru {questionNumber}
+                              </span>
 
-                            {/* Question delete button on screen */}
-                            <button
-                              type="button"
-                              onClick={() => handleDeleteQuestion(q.id)}
-                              className="ekran-gizle opacity-0 group-hover:opacity-100 p-1 text-slate-400 hover:text-rose-600 transition-opacity"
-                              title="Bu Soruyu Sil"
-                            >
-                              <Trash2 className="w-3.5 h-3.5" />
-                            </button>
+                              {/* Question delete button on screen */}
+                              <button
+                                type="button"
+                                onClick={() => handleDeleteQuestion(q.id)}
+                                className="ekran-gizle opacity-0 group-hover:opacity-100 p-1 text-slate-400 hover:text-rose-600 transition-opacity"
+                                title="Bu Soruyu Sil"
+                              >
+                                <Trash2 className="w-3.5 h-3.5" />
+                              </button>
+                            </div>
+
+                            {/* Question Image */}
+                            <div className="flex items-center justify-center">
+                              <img
+                                src={q.image}
+                                alt={`Soru ${questionNumber}`}
+                                style={{ maxHeight: '140px' }}
+                                className="max-w-full object-contain"
+                              />
+                            </div>
                           </div>
 
-                          {/* Question Image */}
-                          <div className="flex items-center justify-center">
-                            <img
-                              src={q.image}
-                              alt={`Soru ${questionNumber}`}
-                              style={{
-                                maxHeight:
-                                  density === 'compact' ? '135px' : density === 'spacious' ? '185px' : '160px',
-                              }}
-                              className="max-w-full object-contain"
-                            />
-                          </div>
-
-                          {/* Answer Spacing Area */}
+                          {/* Ruled Answer Spacing Area (Visible dotted lines for student writing) */}
                           {q.lineCount > 0 && (
-                            <div
-                              className="w-full"
-                              style={{
-                                height: `${q.lineCount * (density === 'compact' ? 20 : density === 'spacious' ? 26 : 24)}px`,
-                              }}
-                            />
+                            <div className="w-full mt-2 pt-1">
+                              {Array.from({ length: q.lineCount }).map((_, lineIdx) => (
+                                <div
+                                  key={lineIdx}
+                                  className="w-full border-b border-dashed border-slate-300 print:border-slate-400 h-5"
+                                />
+                              ))}
+                            </div>
                           )}
 
                           {/* Per-Question Line Setting (Hidden in Print) */}
@@ -642,10 +564,14 @@ export default function ExamMakerTool() {
                               className="bg-slate-50 border border-slate-200 rounded px-1.5 py-0.5 text-[10px] text-slate-700"
                             >
                               <option value="0">Boşluk Yok</option>
+                              <option value="2">2 Satır</option>
                               <option value="3">3 Satır</option>
+                              <option value="4">4 Satır</option>
                               <option value="5">5 Satır</option>
-                              <option value="7">7 Satır</option>
+                              <option value="6">6 Satır</option>
+                              <option value="8">8 Satır</option>
                               <option value="10">10 Satır</option>
+                              <option value="12">12 Satır</option>
                             </select>
                           </div>
                         </div>
