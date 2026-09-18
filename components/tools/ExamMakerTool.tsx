@@ -143,13 +143,13 @@ export default function ExamMakerTool() {
     const isDouble = columnCount === '2';
 
     // Usable vertical pixel heights for A4:
-    // Page 1 has header (~150px), subsequent pages have no header.
-    const page1MaxHeight = density === 'compact' ? 730 : density === 'spacious' ? 630 : 680;
-    const subsequentMaxHeight = density === 'compact' ? 820 : density === 'spacious' ? 720 : 770;
+    // Page 1 has header (~160px), subsequent pages have no header.
+    const page1MaxHeight = density === 'compact' ? 530 : density === 'spacious' ? 440 : 490;
+    const subsequentMaxHeight = density === 'compact' ? 640 : density === 'spacious' ? 550 : 600;
 
     const getQuestionHeight = (q: QuestionItem): number => {
-      const basePadding = 32; // badge, padding & border
-      const approxImgHeight = density === 'compact' ? 115 : density === 'spacious' ? 175 : 140;
+      const basePadding = 42; // badge, padding, border & margin
+      const approxImgHeight = density === 'compact' ? 145 : density === 'spacious' ? 195 : 170;
       const lineHeight = density === 'compact' ? 20 : density === 'spacious' ? 26 : 24;
       const answerSpace = (q.lineCount || 0) * lineHeight;
       return basePadding + approxImgHeight + answerSpace;
@@ -232,13 +232,13 @@ export default function ExamMakerTool() {
         @media print {
           @page {
             size: A4 portrait;
-            margin: 0 !important;
+            margin: 6mm 8mm 6mm 8mm !important;
           }
           html, body {
             background: #ffffff !important;
             padding: 0 !important;
             margin: 0 !important;
-            width: 210mm !important;
+            width: 100% !important;
             height: auto !important;
             -webkit-print-color-adjust: exact !important;
             print-color-adjust: exact !important;
@@ -252,17 +252,17 @@ export default function ExamMakerTool() {
             padding: 0 !important;
             transform: none !important;
             display: block !important;
-            width: 210mm !important;
+            width: 100% !important;
           }
           .a4-print-sayfa {
             box-sizing: border-box !important;
-            width: 210mm !important;
-            max-width: 210mm !important;
-            height: 296mm !important;
-            max-height: 296mm !important;
-            min-height: 296mm !important;
-            padding: 10mm 12mm 10mm 12mm !important;
-            margin: 0 !important;
+            width: 100% !important;
+            max-width: 194mm !important;
+            height: 278mm !important;
+            max-height: 278mm !important;
+            min-height: 278mm !important;
+            padding: 4mm 4mm 2mm 4mm !important;
+            margin: 0 auto !important;
             box-shadow: none !important;
             border: none !important;
             border-radius: 0 !important;
@@ -579,7 +579,7 @@ export default function ExamMakerTool() {
 
                   {/* Question Grid */}
                   <div
-                    className={`grid gap-3 flex-1 align-content-start ${
+                    className={`grid gap-3 flex-1 align-content-start overflow-hidden min-h-0 print:gap-2 ${
                       columnCount === '2' ? 'grid-cols-2' : 'grid-cols-1'
                     }`}
                   >
@@ -617,7 +617,7 @@ export default function ExamMakerTool() {
                               alt={`Soru ${questionNumber}`}
                               style={{
                                 maxHeight:
-                                  density === 'compact' ? '175px' : density === 'spacious' ? '250px' : '210px',
+                                  density === 'compact' ? '135px' : density === 'spacious' ? '185px' : '160px',
                               }}
                               className="max-w-full object-contain"
                             />
@@ -654,7 +654,7 @@ export default function ExamMakerTool() {
                   </div>
 
                   {/* Integrated In-Flow Page Footer (Eliminates page overflow / orphan blank pages) */}
-                  <div className="mt-auto pt-2 border-t border-slate-300 print:border-slate-400">
+                  <div className="shrink-0 mt-auto pt-1.5 border-t border-slate-300 print:border-slate-400 print:pt-1">
                     {isLastPage && (
                       <div className="pb-1.5 mb-1.5 border-b border-slate-200 flex items-center justify-between text-xs font-bold text-slate-900">
                         <div

@@ -43,18 +43,20 @@ export default function HomePage({
   const mebBooks = getMebBookMasterPosts();
 
   const gradeCards = [
-    { title: '1. Sınıf', slug: '1-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500' },
-    { title: '2. Sınıf', slug: '2-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500' },
-    { title: '3. Sınıf', slug: '3-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500' },
-    { title: '4. Sınıf', slug: '4-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500' },
-    { title: '5. Sınıf', slug: '5-sinif', level: 'Ortaokul', color: 'from-blue-500 to-cyan-600' },
-    { title: '6. Sınıf', slug: '6-sinif', level: 'Ortaokul', color: 'from-blue-500 to-cyan-600' },
-    { title: '7. Sınıf', slug: '7-sinif', level: 'Ortaokul', color: 'from-blue-500 to-cyan-600' },
-    { title: '8. Sınıf', slug: '8-sinif', level: 'Ortaokul & LGS', color: 'from-blue-600 to-indigo-600' },
-    { title: '9. Sınıf', slug: '9-sinif', level: 'Lise', color: 'from-indigo-600 to-purple-600' },
-    { title: '10. Sınıf', slug: '10-sinif', level: 'Lise', color: 'from-indigo-600 to-purple-600' },
-    { title: '11. Sınıf', slug: '11-sinif', level: 'Lise', color: 'from-indigo-600 to-purple-600' },
-    { title: '12. Sınıf', slug: '12-sinif', level: 'AYT & YKS', color: 'from-purple-600 to-pink-600' },
+    { title: '1. Sınıf', slug: '1-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500', badge: '1' },
+    { title: '2. Sınıf', slug: '2-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500', badge: '2' },
+    { title: '3. Sınıf', slug: '3-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500', badge: '3' },
+    { title: '4. Sınıf', slug: '4-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500', badge: '4' },
+    { title: '5. Sınıf', slug: '5-sinif', level: 'Ortaokul', color: 'from-blue-500 to-cyan-600', badge: '5' },
+    { title: '6. Sınıf', slug: '6-sinif', level: 'Ortaokul', color: 'from-blue-500 to-cyan-600', badge: '6' },
+    { title: '7. Sınıf', slug: '7-sinif', level: 'Ortaokul', color: 'from-blue-500 to-cyan-600', badge: '7' },
+    { title: '8. Sınıf', slug: '8-sinif', level: 'Ortaokul & LGS', color: 'from-blue-600 to-indigo-600', badge: '8' },
+    { title: '9. Sınıf', slug: '9-sinif', level: 'Lise', color: 'from-indigo-600 to-purple-600', badge: '9' },
+    { title: '10. Sınıf', slug: '10-sinif', level: 'Lise', color: 'from-indigo-600 to-purple-600', badge: '10' },
+    { title: '11. Sınıf', slug: '11-sinif', level: 'Lise', color: 'from-indigo-600 to-purple-600', badge: '11' },
+    { title: '12. Sınıf', slug: '12-sinif', level: 'AYT & YKS', color: 'from-purple-600 to-pink-600', badge: '12' },
+    { title: 'ALES', slug: 'ales', level: 'ÖSYM Sınavı', color: 'from-violet-600 to-indigo-700', badge: 'AL' },
+    { title: 'YDS', slug: 'yds', level: 'ÖSYM Sınavı', color: 'from-emerald-600 to-teal-700', badge: 'YD' },
   ];
 
   return (
@@ -62,17 +64,17 @@ export default function HomePage({
       {/* Dynamic 3D Math Hero Section */}
       <DynamicMathHero searchQuery={searchQuery} />
 
-      {/* Compact Grade Level Navigation (1. Sınıf - 12. Sınıf) */}
+      {/* Compact Grade Level Navigation (1. Sınıf - 12. Sınıf, ALES & YDS) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 sm:-mt-20 relative z-10">
         <div className="bg-white rounded-2xl p-4 sm:p-5 shadow-xl shadow-slate-900/5 border border-slate-200/80">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3 pb-2.5 border-b border-slate-100">
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-indigo-600"></span>
               <h2 className="text-sm sm:text-base font-bold text-slate-900">
-                Sınıf Seviyesine Göre İçerikler
+                Sınıf Seviyeleri ve Sınavlar
               </h2>
               <span className="text-[11px] text-slate-500 hidden md:inline">
-                &bull; MEB müfredatı ve çözümler
+                &bull; MEB müfredatı, ALES &amp; YDS çözümleri
               </span>
             </div>
             <Link
@@ -83,16 +85,16 @@ export default function HomePage({
             </Link>
           </div>
 
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 gap-1.5 sm:gap-2">
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 lg:grid-cols-14 gap-1.5 sm:gap-2">
             {gradeCards.map((grade) => (
               <Link
                 key={grade.slug}
                 href={`/kategori/${grade.slug}`}
-                className="group flex items-center justify-center gap-1.5 py-2 px-1.5 rounded-xl bg-slate-50 hover:bg-indigo-600 border border-slate-200/80 hover:border-indigo-600 transition-all text-center"
+                className="group flex items-center justify-center gap-1.5 py-2 px-1 rounded-xl bg-slate-50 hover:bg-indigo-600 border border-slate-200/80 hover:border-indigo-600 transition-all text-center"
                 title={`${grade.title} (${grade.level})`}
               >
-                <span className={`w-5 h-5 rounded-md bg-gradient-to-tr ${grade.color} text-white font-black text-[10px] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform`}>
-                  {grade.title.split('.')[0]}
+                <span className={`w-5 h-5 rounded-md bg-gradient-to-tr ${grade.color} text-white font-black text-[9px] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform`}>
+                  {grade.badge}
                 </span>
                 <span className="font-bold text-xs text-slate-800 group-hover:text-white transition-colors truncate">
                   {grade.title}

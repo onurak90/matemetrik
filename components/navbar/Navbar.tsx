@@ -53,6 +53,11 @@ export default function Navbar() {
       { name: '11. Sınıf', href: '/kategori/11-sinif' },
       { name: '12. Sınıf', href: '/kategori/12-sinif' },
     ]},
+    { label: 'Sınavlar', items: [
+      { name: 'ALES', href: '/kategori/ales' },
+      { name: 'YDS', href: '/kategori/yds' },
+      { name: 'YKS & Sınav', href: '/kategori/yks' },
+    ]},
   ];
 
   return (
@@ -68,15 +73,15 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-700 to-purple-700 flex items-center justify-center text-white font-black text-xl shadow-md shadow-indigo-600/20 group-hover:scale-105 transition-transform">
-              &pi;
+            <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center text-white shadow-lg shadow-indigo-500/25 group-hover:scale-105 transition-transform duration-300">
+              <span className="font-black text-xl">M</span>
             </div>
-            <div>
-              <span className="font-extrabold text-xl sm:text-2xl text-slate-900 tracking-tight block leading-none">
-                matemetrik<span className="text-indigo-600">.com</span>
+            <div className="flex flex-col">
+              <span className="text-xl sm:text-2xl font-black tracking-tight text-slate-900 group-hover:text-indigo-600 transition-colors">
+                matemetrik<span className="text-indigo-600">.</span>
               </span>
-              <span className="text-[10px] uppercase font-bold tracking-widest text-slate-400 block mt-1">
-                Matematik & Eğitim Portalı
+              <span className="text-[10px] -mt-1 font-semibold text-slate-500 uppercase tracking-widest">
+                Akıllı Eğitim
               </span>
             </div>
           </Link>
@@ -86,7 +91,9 @@ export default function Navbar() {
             <Link
               href="/"
               className={`px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
-                pathname === '/' ? 'text-indigo-600 bg-indigo-50/60' : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
+                pathname === '/'
+                  ? 'text-indigo-600 bg-indigo-50'
+                  : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
               }`}
             >
               Ana Sayfa
@@ -98,12 +105,12 @@ export default function Navbar() {
                 type="button"
                 className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
               >
-                Sınıflar
+                Sınıflar &amp; Sınavlar
                 <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
               </button>
 
-              <div className="absolute top-full left-0 w-80 bg-white rounded-2xl shadow-xl border border-slate-200 p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0">
-                <div className="grid grid-cols-3 gap-3">
+              <div className="absolute top-full left-0 w-[440px] bg-white rounded-2xl shadow-xl border border-slate-200 p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0">
+                <div className="grid grid-cols-4 gap-3">
                   {grades.map((group) => (
                     <div key={group.label} className="space-y-1.5">
                       <div className="text-[11px] font-bold text-indigo-600 uppercase tracking-wider px-2">
@@ -363,6 +370,8 @@ export default function Navbar() {
               <Link href="/kategori/10-sinif" className="p-1 hover:text-indigo-600">10. Sınıf MEB</Link>
               <Link href="/kategori/11-sinif" className="p-1 hover:text-indigo-600">11. Sınıf MEB</Link>
               <Link href="/kategori/12-sinif" className="p-1 hover:text-indigo-600">12. Sınıf MEB</Link>
+              <Link href="/kategori/ales" className="p-1 font-bold text-violet-700 hover:text-violet-900">ALES Hazırlık</Link>
+              <Link href="/kategori/yds" className="p-1 font-bold text-teal-700 hover:text-teal-900">YDS Çıkmış Sorular</Link>
             </div>
           </div>
 

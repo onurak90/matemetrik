@@ -208,6 +208,106 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           </div>
         )}
 
+        {/* ALES Özel Showcase Bölümü */}
+        {params.slug === 'ales' && (
+          <div className="bg-gradient-to-br from-slate-900 via-violet-950 to-slate-900 rounded-3xl p-6 sm:p-8 text-white shadow-xl border border-violet-900/50 space-y-6">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-white/10">
+              <div>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-wider bg-violet-500/30 text-violet-200 border border-violet-400/30">
+                    ÖSYM AKADEMİK SINAV
+                  </span>
+                  <span className="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-400/30">
+                    LİSANSÜSTÜ &amp; DOKTORA
+                  </span>
+                </div>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight">
+                  ALES Sınav Formatı ve Hazırlık Rehberi
+                </h2>
+                <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl">
+                  Yüksek lisans, doktora ve akademik personel kadrolarına başvuracak adaylar için matematik, sayısal mantık ve sözel çıkmış soru analizleri.
+                </p>
+              </div>
+              <div className="px-4 py-2 rounded-xl bg-white/10 border border-white/10 text-xs font-bold text-violet-200 shrink-0 self-start sm:self-center">
+                100 Soru &bull; 150 Dakika
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-1">
+                <div className="text-xs font-bold text-violet-300">Sayısal Bölüm</div>
+                <div className="text-lg font-black text-white">50 Soru</div>
+                <p className="text-[11px] text-slate-300">Temel matematik, cebir, problemler, geometri ve grafik yorumlama.</p>
+              </div>
+              <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-1">
+                <div className="text-xs font-bold text-violet-300">Sayısal Mantık</div>
+                <div className="text-lg font-black text-white">12 - 16 Soru</div>
+                <p className="text-[11px] text-slate-300">Akıl yürütme, şifreleme, tablo okuma, dizi ve örüntü soruları.</p>
+              </div>
+              <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-1">
+                <div className="text-xs font-bold text-violet-300">Sözel Bölüm</div>
+                <div className="text-lg font-black text-white">50 Soru</div>
+                <p className="text-[11px] text-slate-300">Sözcükte/cümlede anlam, paragraf analizi ve sözel mantık.</p>
+              </div>
+              <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-1">
+                <div className="text-xs font-bold text-violet-300">Puan Türleri</div>
+                <div className="text-lg font-black text-white">SAY / SÖZ / EA</div>
+                <p className="text-[11px] text-slate-300">5 yıl geçerli ÖSYM lisansüstü ve kadro giriş puanları.</p>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* YDS Özel Showcase Bölümü */}
+        {params.slug === 'yds' && (
+          <div className="bg-gradient-to-br from-slate-900 via-teal-950 to-slate-900 rounded-3xl p-6 sm:p-8 text-white shadow-xl border border-teal-900/50 space-y-6">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-white/10">
+              <div>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-wider bg-teal-500/30 text-teal-200 border border-teal-400/30">
+                    ÖSYM YABANCI DİL SINAVI
+                  </span>
+                  <span className="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
+                    YDS &amp; e-YDS
+                  </span>
+                </div>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight">
+                  YDS Çıkmış Sorular, Soru Tipleri ve Taktikler
+                </h2>
+                <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl">
+                  Akademik kariyer, TUS, DUS ve doçentlik başvuruları için tüm yılların YDS çıkmış soruları, kelime listeleri ve çözüm yöntemleri.
+                </p>
+              </div>
+              <div className="px-4 py-2 rounded-xl bg-white/10 border border-white/10 text-xs font-bold text-teal-200 shrink-0 self-start sm:self-center">
+                80 Soru &bull; 180 Dakika
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-1">
+                <div className="text-xs font-bold text-teal-300">Vocabulary &amp; Grammar</div>
+                <div className="text-lg font-black text-white">26 Soru</div>
+                <p className="text-[11px] text-slate-300">Kelime bilgisi, edatlar, bağlaçlar ve iki adet Cloze Test metni.</p>
+              </div>
+              <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-1">
+                <div className="text-xs font-bold text-teal-300">Cümle Tamamlama &amp; Çeviri</div>
+                <div className="text-lg font-black text-white">16 Soru</div>
+                <p className="text-[11px] text-slate-300">Mantıksal tamamlama ve İngilizce-Türkçe karşılıklı çeviriler.</p>
+              </div>
+              <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-1">
+                <div className="text-xs font-bold text-teal-300">Paragraf Okuma-Anlama</div>
+                <div className="text-lg font-black text-white">20 Soru</div>
+                <p className="text-[11px] text-slate-300">5 farklı akademik metin üzerinden detaylı kavrama soruları.</p>
+              </div>
+              <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-1">
+                <div className="text-xs font-bold text-teal-300">Diyalog, Anlamca Yakın &amp; Akış</div>
+                <div className="text-lg font-black text-white">18 Soru</div>
+                <p className="text-[11px] text-slate-300">Restatement, durumsal ifade ve anlam bütünlüğünü bozan cümle.</p>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Posts Grid */}
         {posts.length > 0 && (
           <div className="space-y-6">

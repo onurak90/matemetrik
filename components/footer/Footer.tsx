@@ -22,10 +22,10 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Col 2: Sınıflar (1'den 12'ye kadar) */}
+          {/* Col 2: Sınıflar & Sınavlar */}
           <div className="lg:col-span-1">
             <h3 className="text-white font-bold text-xs uppercase tracking-wider mb-4">
-              Sınıflar
+              Sınıflar &amp; Sınavlar
             </h3>
             <div className="grid grid-cols-2 gap-x-2 gap-y-2 text-xs">
               {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((grade) => (
@@ -37,6 +37,18 @@ export default function Footer() {
                   {grade}. Sınıf
                 </Link>
               ))}
+              <Link
+                href="/kategori/ales"
+                className="hover:text-white hover:underline transition-colors font-semibold text-violet-400"
+              >
+                ALES
+              </Link>
+              <Link
+                href="/kategori/yds"
+                className="hover:text-white hover:underline transition-colors font-semibold text-teal-400"
+              >
+                YDS
+              </Link>
             </div>
           </div>
 
