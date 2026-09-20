@@ -277,10 +277,14 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="/vaka-calismalari"
-              className="px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
+              href="/konu-anlatimlari"
+              className={`px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
+                pathname === '/konu-anlatimlari' || pathname?.startsWith('/konu-anlatimlari')
+                  ? 'text-indigo-600 bg-indigo-50'
+                  : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
+              }`}
             >
-              Vaka Çalışmaları
+              Konu Anlatımları
             </Link>
 
             <Link
@@ -410,10 +414,12 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/vaka-calismalari"
-            className="block py-2 font-semibold text-slate-900 border-b border-slate-100"
+            href="/konu-anlatimlari"
+            onClick={() => setIsOpen(false)}
+            className="block py-2 font-semibold text-indigo-700 hover:text-indigo-900 border-b border-slate-100 flex items-center justify-between"
           >
-            Vaka Çalışmaları
+            <span>📖 Konu Anlatımları</span>
+            <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-extrabold">1-12. Sınıf</span>
           </Link>
 
           <Link
