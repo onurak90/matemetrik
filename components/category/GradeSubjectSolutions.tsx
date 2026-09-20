@@ -223,31 +223,53 @@ export const GRADE_SUBJECTS_MAP: Record<string, SubjectItem[]> = {
       description: 'Doğal sayılar, çarpanlar ve katlar, açılar, oran ve kesirler sayfa sayfa çözümleri.'
     },
     {
-      key: 'fen-bilimleri',
-      name: 'Fen Bilimleri',
-      bookTitle: '6. Sınıf Fen Bilimleri MEB Kitabı',
+      key: 'fen-1',
+      name: 'Fen Bilimleri (1. Kitap)',
+      bookTitle: '6. Sınıf Fen Bilimleri 1. Kitap',
       icon: '🔬',
       color: 'from-emerald-600 to-teal-600',
-      badge: 'MEB Yayınları',
-      bookSlug: '2026-2027-meb-6-sinif-fen-bilimleri-ders-kitabi-cevaplari',
+      badge: '169 Sayfa Çözüm',
+      bookSlug: '2026-2027-meb-fen-bilimleri-ders-kitabi-cevaplari-6-sinif-1-kitap',
       filterQuery: 'fen',
-      description: 'Güneş sistemi, dolaşım ve solunum sistemleri, kuvvet ve sabit süratli hareket.'
+      description: 'Güneş sistemi, tutulmalar, vücut sistemleri, bileşke kuvvet ve sabit süratli hareket.'
     },
     {
-      key: 'turkce',
-      name: 'Türkçe',
-      bookTitle: '6. Sınıf Türkçe MEB Kitabı',
+      key: 'fen-2',
+      name: 'Fen Bilimleri (2. Kitap)',
+      bookTitle: '6. Sınıf Fen Bilimleri 2. Kitap',
+      icon: '🔬',
+      color: 'from-emerald-600 to-teal-600',
+      badge: '111 Sayfa Çözüm',
+      bookSlug: '2026-2027-meb-fen-bilimleri-ders-kitabi-cevaplari-6-sinif-2-kitap',
+      filterQuery: 'fen',
+      description: 'Genleşme-büzülme, yoğunluk, elektriğin iletimi, direnç ve denetleyici sistemler.'
+    },
+    {
+      key: 'turkce-1',
+      name: 'Türkçe (1. Kitap)',
+      bookTitle: '6. Sınıf Türkçe MEB 1. Kitap',
       icon: '📖',
       color: 'from-rose-600 to-pink-600',
-      badge: 'MEB Yayınları',
-      bookSlug: '2026-2027-meb-6-sinif-turkce-ders-kitabi-cevaplari',
+      badge: '131 Sayfa Çözüm',
+      bookSlug: '2026-2027-meb-turkce-ders-kitabi-cevaplari-6-sinif-1-kitap',
       filterQuery: 'turkce',
-      description: 'İsimler, sıfatlar, zamirler, tamlamalar ve tema sonu değerlendirme çözümleri.'
+      description: 'Dilimizin Zenginliği, Millî Mücadele ve Doğa-Evren temaları tüm metin ve etkinlik çözümleri.'
+    },
+    {
+      key: 'turkce-2',
+      name: 'Türkçe (2. Kitap)',
+      bookTitle: '6. Sınıf Türkçe MEB 2. Kitap',
+      icon: '📖',
+      color: 'from-rose-600 to-pink-600',
+      badge: '125 Sayfa Çözüm',
+      bookSlug: '2026-2027-meb-turkce-ders-kitabi-cevaplari-6-sinif-2-kitap',
+      filterQuery: 'turkce',
+      description: 'İletişim, Bilim ve Teknoloji, Sanat temaları etkinlikleri ve dil bilgisi sayfa çözümleri.'
     }
   ],
   '7-sinif': [
     {
-      key: 'matematik',
+      key: 'matematik-1',
       name: 'Matematik (1. Kitap)',
       bookTitle: '7. Sınıf Matematik MEB 1. Kitap',
       icon: '📐',
@@ -255,7 +277,18 @@ export const GRADE_SUBJECTS_MAP: Record<string, SubjectItem[]> = {
       badge: '88 Sayfa Çözüm',
       bookSlug: '2026-2027-meb-matematik-ders-kitabi-cevaplari-7-sinif-1-kitap',
       filterQuery: 'matematik',
-      description: 'Tam sayılarla işlemler, rasyonel sayılar, cebirsel ifadeler ve denklemler.'
+      description: 'Tam sayılarla işlemler, rasyonel sayılar, cebirsel ifadeler ve birinci dereceden denklemler.'
+    },
+    {
+      key: 'matematik-2',
+      name: 'Matematik (2. Kitap)',
+      bookTitle: '7. Sınıf Matematik MEB 2. Kitap',
+      icon: '📐',
+      color: 'from-blue-600 to-indigo-600',
+      badge: '182 Sayfa Çözüm',
+      bookSlug: '2026-2027-meb-matematik-ders-kitabi-cevaplari-7-sinif-2-kitap',
+      filterQuery: 'matematik',
+      description: 'Oran-orantı, yüzdeler, doğrular ve açılar, çokgenler, çember-daire ve veri analizi çözümleri.'
     },
     {
       key: 'fen-bilimleri',
@@ -269,15 +302,26 @@ export const GRADE_SUBJECTS_MAP: Record<string, SubjectItem[]> = {
       description: 'Uzay araştırmaları, hücre, mitoz-mayoz bölünme, kuvvet-iş-enerji dönüşümleri.'
     },
     {
-      key: 'turkce',
-      name: 'Türkçe',
-      bookTitle: '7. Sınıf Türkçe MEB Kitabı',
+      key: 'turkce-1',
+      name: 'Türkçe (1. Kitap)',
+      bookTitle: '7. Sınıf Türkçe MEB 1. Kitap',
       icon: '📖',
       color: 'from-rose-600 to-pink-600',
-      badge: 'MEB Yayınları',
-      bookSlug: '2026-2027-meb-7-sinif-turkce-ders-kitabi-cevaplari',
+      badge: '148 Sayfa Çözüm',
+      bookSlug: '2026-2027-meb-turkce-ders-kitabi-cevaplari-7-sinif-1-kitap',
       filterQuery: 'turkce',
-      description: 'Fiillerde anlam, kipler, ek fiil, zarflar ve metin anlama çalışmaları.'
+      description: 'Hayat Boyu Gelişim, Millî Kültürümüz ve Doğa temaları metin analizi, etkinlik ve dil bilgisi.'
+    },
+    {
+      key: 'turkce-2',
+      name: 'Türkçe (2. Kitap)',
+      bookTitle: '7. Sınıf Türkçe MEB 2. Kitap',
+      icon: '📖',
+      color: 'from-rose-600 to-pink-600',
+      badge: '143 Sayfa Çözüm',
+      bookSlug: '2026-2027-meb-turkce-ders-kitabi-cevaplari-7-sinif-2-kitap',
+      filterQuery: 'turkce',
+      description: 'Bilim ve Gelecek, Erdemler, Zaman ve Mekan temaları tüm sayfa alıştırmaları ve çözümleri.'
     }
   ],
   '8-sinif': [
