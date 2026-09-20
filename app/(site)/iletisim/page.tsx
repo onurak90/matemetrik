@@ -6,7 +6,7 @@ import ContactEmailBox from '@/components/common/ContactEmailBox';
 export const metadata: Metadata = {
   title: 'İletişim | Matemetrik - Matematik ve Eğitim Portalı',
   description:
-    'Matemetrik ekibiyle iletişime geçin. Matematik ders kitabı çözümleri, soru ve önerileriniz veya telif hakları için matemetrik@gmail.com adresinden bize ulaşabilirsiniz.',
+    'Matemetrik ekibiyle iletişime geçin. Matematik ders kitabı çözümleri, soru ve önerileriniz veya telif hakları için matemetrikcom@gmail.com adresinden bize ulaşabilirsiniz.',
   alternates: {
     canonical: 'https://www.matemetrik.com/iletisim',
   },
@@ -28,7 +28,7 @@ export default function IletisimPage() {
     mainEntity: {
       '@type': 'EducationalOrganization',
       name: 'Matemetrik',
-      email: 'matemetrik@gmail.com',
+      email: 'matemetrikcom@gmail.com',
       url: 'https://www.matemetrik.com',
     },
   };
@@ -95,7 +95,7 @@ export default function IletisimPage() {
             🕒 E-postalarınız editör ekibimiz tarafından titizlikle incelenir ve en geç <strong>24-48 saat</strong> içerisinde yanıtlanır.
           </p>
           <p className="text-[11px] text-slate-500">
-            Resmi E-Posta: <span className="font-mono text-indigo-600 font-bold">matemetrik@gmail.com</span>
+            Resmi E-Posta: <span className="font-mono text-indigo-600 font-bold">matemetrikcom@gmail.com</span>
           </p>
         </div>
       </div>

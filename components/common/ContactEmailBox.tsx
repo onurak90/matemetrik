@@ -5,7 +5,7 @@ import { Mail, Copy, Check, ExternalLink } from 'lucide-react';
 
 export default function ContactEmailBox() {
   const [copied, setCopied] = useState(false);
-  const email = 'matemetrik@gmail.com';
+  const email = 'matemetrikcom@gmail.com';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);

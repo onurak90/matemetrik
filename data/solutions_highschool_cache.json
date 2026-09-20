@@ -37239,5 +37239,2096 @@
       ],
       "result": "Ölçülen Gaz Hacimleri: V1 = 672 mL, V2 = 1344 mL (NŞA altında)"
     }
+  ],
+  "kimya-11_p298_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Metinde yer alan nanokameraların boyutsal özellikleri, kullanım alanları, getirdiği teknolojik yenilikler ve beraberinde barındırdığı risk faktörleri analiz edilir.",
+        "2. Adım: Nanometre boyutundaki bu kameraların geleneksel sistemlerin ulaşamadığı mikro/makro alanlara ulaşarak tıp, güvenlik, endüstri ve elektronik alanlarında devrim yarattığı, ancak mahremiyet ihlali, siber güvenlik açıkları, biyolojik toksisite ve çevre kirliliği gibi çok boyutlu riskler taşıdığı tespit edilir.",
+        "3. Adım: Nanokameraların yüksek fayda potansiyeli taşımakla birlikte dikkatli bir risk-fayda analizi ve denetim mekanizması gerektiren çift yönlü bir teknoloji olduğu çıkarımına ulaşılır."
+      ],
+      "result": "Nanokameralar; tıp, endüstri ve güvenlik alanlarında devrimsel çözümler sunan nanometre boyutundaki yüksek teknolojili araçlardır; ancak etik, biyolojik ve çevresel risklerinden ötürü çok yönlü bir denetim ve araştırma süreci gerektirirler."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Nanokameraların yaygınlaşmasıyla oluşabilecek toplumsal, etik, siber ve çevresel problemler grup içi tartışma perspektifinde değerlendirilir.",
+        "2. Adım: Bu teknolojinin insanlığın yararına kullanılabilmesi ve suiistimallerin önlenmesi için yasal boşlukların giderilmesi, siber güvenlik standartlarının yükseltilmesi, biyo-uyumluluk araştırmalarının yapılması ve geri dönüşüm stratejilerinin belirlenmesi gerektiği kuralı tartışılır.",
+        "3. Adım: Ortak tartışma sonucunda teknolojinin gelişim hızıyla yasal ve bilimsel güvenlik önlemlerinin eş zamanlı ilerlemesi gerektiği yönündeki temel çıkarım sentezlenir."
+      ],
+      "result": "Nanokameraların olası zararlarını en aza indirmek için uluslararası etik ve yasal düzenlemeler yapılmalı, siber güvenlik altyapısı güçlendirilmeli, biyo-uyumluluk testleri tamamlanmalı ve yeşil nano-teknolojik geri dönüşüm yöntemleri geliştirilmelidir."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Metinde geçen nanokameraların insanlığa ve teknolojiye sağladığı doğrudan katkılar ve somut uygulama alanları elenerek listelenir.",
+        "2. Adım: Metinden şu kanıtlar tespit edilir: Tıpta vücut içine yerleştirilerek kanserli hücrelerin erken teşhis edilmesi, damar tıkanıklıklarının görüntülenmesi ve cerrahi operasyonlarda yol gösterilmesi; Güvenlikte arama-kurtarma çalışmalarında enkaz altındakilerin tespiti; Endüstride boru hatlarındaki mikro çatlakların belirlenmesi; Elektronikte ise daha ince/hafif cihaz üretimi.",
+        "3. Adım: Kanıtlar kategorize edilerek net bir şekilde listelenir."
+      ],
+      "result": "Sağlıkta erken kanser teşhisi, damar tıkanıklığı tespiti ve cerrahi rehberlik; güvenlikte arama-kurtarma ve enkaz altı tespiti; endüstride boru hatlarındaki çatlakların mikro düzeyde tespiti; elektronikte ise daha ince ve hafif cihazların üretilebilmesidir."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Metinde belirtilen, nanokameraların bireysel, toplumsal, biyolojik ve ekolojik düzeyde yol açabileceği olumsuz durumlar ve riskler belirlenir.",
+        "2. Adım: Metinden şu risk kanıtları çıkarılır: Gözle görülemeyen boyutları nedeniyle rıza dışı izinsiz gözetleme ve veri toplama (mahremiyet ihlali); siber saldırılarla hacklenme riski; vücuda yerleştirilen kameraların uzun vadeli biyolojik toksisitesi ve biyo-uyumsuzluğu; üretim/imha süreçlerinde açığa çıkan nanopartiküllerin su ve toprak kirliliğine yol açarak ekosisteme zarar verme potansiyeli.",
+        "3. Adım: Elde edilen olumsuz etki kanıtları gruplandırılarak netleştirilir."
+      ],
+      "result": "Bireylerin izinsiz gözetlenmesiyle mahremiyet ihlali ve siber saldırı/hacklenme riskleri, vücut içindeki bilinmeyen uzun vadeli biyolojik toksisite etkileri ve imha süreçlerinde ortaya çıkabilecek nanopartiküllerin su ve toprak kirliliğine yol açma potansiyelidir."
+    }
+  ],
+  "kimya-11_p300_2": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Nanoteknolojik ürünlerin üretiminde hedeflenen temel unsur, 1-100 nm boyut aralığındaki malzemelerin üstün fiziksel ve kimyasal özelliklerinden (yüksek elektrik iletkenliği, mekanik dayanıklılık, katalitik aktivite vb.) yararlanmaktır. Bu süreçte ortaya çıkabilecek riskler ise nanopartiküllerin çevreye yayılması ve solunum yoluyla canlı organizmalara sızmasıdır.",
+        "2. Adım: Sürdürülebilir kimya ve yeşil sentez ilkeleri doğrultusunda üretim planlanmalıdır. Toksik çözücülerin kullanımı minimize edilmeli, atom ekonomisi ve atık minimizasyonu sağlanmalı, nano boyutlu atıkların filtrasyonu için özel filtreleme sistemleri kullanılmalıdır.",
+        "3. Adım: Nanoteknolojik üretim, sıkı yasal denetimler, risk analizleri, iş sağlığı ve güvenliği protokolleri ve çevre dostu yeşil kimya yöntemleri uygulanarak aktif olarak desteklenmeli ve sürdürülmelidir."
+      ],
+      "result": "Cevap: Üretim süreci yeşil kimya prensipleri ve sıkı yasal denetimler çerçevesinde, çevre ve insan sağlığı riskleri minimize edilerek kontrollü bir şekilde gerçekleştirilmelidir."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Nanoteknolojik ürünlerin kullanımı tıp (akıllı ilaç taşıma sistemleri), enerji (yüksek verimli güneş pilleri), çevre (nano-filtreler ile su arıtımı) ve elektronik alanlarında devrim niteliğinde avantajlar sağlar. Risk boyutu ise bu ürünlerin doğaya salınımı sonrası besin zincirine karışıp biyo-birikim yapabilmesidir.",
+        "2. Adım: Kullanım aşamasında, nanomalzemelerin serbest kalma potansiyelleri ve maruziyet sınırları belirlenmelidir. Tüketici güvenliği için ürün etiketlerinde nanoteknolojik bileşenlerin açıkça belirtilmesi ve geri dönüşüm süreçlerinin standartlaştırılması gerekir.",
+        "3. Adım: Nanoteknolojik ürünlerin kullanımı, sağladığı yüksek enerji verimliliği ve tedavi kolaylıkları nedeniyle teşvik edilmeli; ancak uzun vadeli toksisite analizleri ve ekotoksikolojik risk değerlendirmeleri tamamlanmış ürünler tercih edilmelidir."
+      ],
+      "result": "Cevap: Nanoteknolojik ürünlerin kullanımı, yaşam kalitesini ve kaynak verimliliğini artırmak adına teşvik edilmeli, ancak tüketici bilinci ve uzun vadeli biyo-uyumluluk testleri esas alınarak sınırlandırılmalıdır."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Etkinlik öncesindeki görüş, nanoteknolojinin sadece cihazları küçülten, leke tutmayan kumaşlar üreten tek yönlü, tamamen zararsız ve sadece fayda odaklı bir teknolojik gelişme olduğu yönündedir.",
+        "2. Adım: Etkinlik sonrasında ise nanomaddelerin yüksek yüzey alanı/hacim oranları nedeniyle kimyasal olarak aşırı aktif oldukları, hücre zarlarından kolayca geçerek toksik etkiler oluşturabilecekleri ve çevrede kalıcı kirlilik yaratabilecekleri gerçeği kavranmıştır.",
+        "3. Adım: Görüşlerdeki değişim, nanoteknolojiye karşı körü körüne bir iyimserlikten, risklerinin de farkında olan bilimsel, dengeli ve sürdürülebilirlik odaklı bir bakış açısına geçiş yönündedir."
+      ],
+      "result": "Cevap: Etkinlik öncesinde nanoteknoloji sadece fayda odaklı yenilikçi bir alan olarak görülürken, etkinlik sonrasında yüksek yüzey reaktivitesi kaynaklı biyolojik ve ekolojik risklerin de yönetilmesi gereken çok boyutlu bir bilim dalı olduğu anlaşılmıştır."
+    }
+  ],
+  "kimya-11_p304_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Plastiklerin hafiflik, dayanıklılık, kolay işlenebilirlik ve düşük maliyet gibi özelliklerini analiz ederek deniz kirliliğini azaltacak stratejileri belirliyorum.",
+        "2. Adım: Polimer malzemelerin kimyasal yapıları gereği suya ve korozyona dayanıklı olması yaygın kullanılmalarını sağlar. Denizleri korumak için tek kullanımlık plastiklerin yasaklanması ve biyobozunur polimerlerin yaygınlaştırılması gerekir.",
+        "3. Adım: Plastik kullanımının temel sebeplerini hafiflik ve düşük maliyet olarak buluyorum; temiz denizler için geri dönüşüm ve plastik azaltımı çözümlerini ortaya koyuyorum."
+      ],
+      "result": "Yaygın kullanım nedenleri: Hafiflik, dayanıklılık, kolay işlenebilirlik ve düşük maliyet. Denizleri korumak için: Geri dönüşümün yaygınlaştırılması, tek kullanımlık plastik tüketiminin azaltılması ve biyobozunur polimerlerin kullanılması."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Maskelerin yapısında bulunan polimer liflerin aşınma ve kopma süreçlerini ve bu parçacıkların solunum sisteminde birikme riskini değerlendiriyorum.",
+        "2. Adım: Polipropilen bazlı maske lifleri, sürtünme ve kullanım esnasında mekanik etkiyle mikroplastiklere ve nanoplastiklere dönüşür. Bu mikroskobik parçacıklar solunduğunda akciğer alveollerinde birikir ve doku hasarına yol açar.",
+        "3. Adım: Maskelerden mikroplastik kopma olasılığının yüksek olduğunu ve solunum yollarında birikerek sağlık riski oluşturduğunu belirliyorum."
+      ],
+      "result": "Maskelerden plastik parçaların kopma ihtimali yüksek olup, bu parçaların solunum sisteminde birikme ve sağlık riski oluşturma ihtimali vardır."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Pandemi maskelerinde kullanılan polimer türlerini ve kimyasal bileşenlerini saptıyorum.",
+        "2. Adım: Cerrahi maskeler, polimerizasyon ürünü olan polipropilen (PP) maddesinden 'spunbond' ve 'meltblown' yöntemleriyle üretilen dokunmamış kumaşlar içerir. Kulak iplerinde ise polyester ve poliüretan bazlı elastan polimerleri kullanılır.",
+        "3. Adım: Maskelerin gövde malzemesinin polipropilen (PP), bağlayıcı kısımlarının ise polyester ve elastan olduğunu netleştiriyorum."
+      ],
+      "result": "Maskeler polipropilen (PP) polimerinden üretilmiştir; kulak ipleri ise polyester ve elastan içerir."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Doğaya atılan maskelerin çevreye, su kaynaklarına ve besin zincirine olan olumsuz etkilerini inceliyorum.",
+        "2. Adım: Doğaya atılan maskeler güneş ışığı (UV radyasyonu) ve rüzgar etkisiyle parçalanarak mikroplastik ve nanoplastik kirliliğine dönüşür. Bu parçacıklar toprak ve suya karışarak deniz canlıları tarafından yutulur ve besin zinciri yoluyla insanlara kadar ulaşır.",
+        "3. Adım: Gelişigüzel atılan maskelerin ekosistemde mikroplastik kirliliği yarattığını ve besin zincirini bozduğunu saptıyorum."
+      ],
+      "result": "Doğaya atılan maskeler mikroplastiklere parçalanarak toprak ve su kirliliğine neden olur, canlılar tarafından tüketilerek besin zincirine zarar verir."
+    }
+  ],
+  "kimya-11_p306_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Sorulan büyüklük ve olgular; mikroplastik (<5 mm) ve nanoplastiklerin (<100 nm) canlı metabolizmaları ile ekosistem döngüleri üzerindeki birikici ve bozucu olumsuz etkileridir.",
+        "2. Adım: Nanoplastikler küçük boyutları sayesinde hücre zarından pasif difüzyonla geçebilir. Bu durum hücre içi oksidatif strese yol açar, DNA hasarını tetikler ve endokrin sistemde taklitçi hormon gibi davranarak hormonal dengesizliklere (fitalat ve BPA gibi plastikleştiriciler sebebiyle) neden olur. Canlılar üzerinde biyoakümülasyon (biyolojik birikim) yasasına göre trofik basamaklar boyunca birikerek üst tüketicilere taşınır.",
+        "3. Adım: Yapılan analizler sonucunda canlılarda doku hasarı, kısırlık, bağışıklık sistemi baskılanması ve ekosistemlerde besin zincirinin kırılması gibi doğrudan fizyolojik ve ekolojik olumsuz etkiler belirlenmiştir."
+      ],
+      "result": "Mikroplastik ve nanoplastikler canlılarda biyoakümülasyon, hücre zarı hasarı, oksidatif stres ve hormonal bozukluklara; ekosistemlerde ise besin zincirinin bozulmasına yol açar."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Araştırılacak alanlar; mikroplastiklerin çevre, sağlık, gıda, enerji, malzeme bilimi, kozmetik ve kişisel bakım sektörlerindeki olumlu (teknolojik kullanım, hafiflik, dayanıklılık) ve olumsuz (toksisite, birikim) yönlerini kanıtlayacak deneysel ve analitik çalışmalardır.",
+        "2. Adım: Bu etkiler; deniz organizmalarındaki plastik birikimini ölçen FTIR (Fourier Dönüşümlü Kızılötesi) ve Raman Spektroskopisi taramalarıyla, kozmetikte mikrokürelerin yerine biyobozunur selüloz kullanımı araştırmalarıyla ve insan kanı/plasentasında polimer tespiti yapan klinik histopatoloji çalışmalarıyla desteklenir.",
+        "3. Adım: Dünya Sağlık Örgütü (WHO) ve EFSA'nın (Avrupa Gıda Güvenliği Otoritesi) yayınladığı toksikolojik analiz raporları, yeşil kimya kapsamında geliştirilen biyobozunur polimer makaleleri ve in vitro hücre kültürü deney sonuçları en somut araştırma destekleridir."
+      ],
+      "result": "Analitik kimyada FTIR ve Raman spektroskopisi ölçümleri, biyobozunur polimer sentezi makaleleri ve EFSA/WHO toksikolojik risk değerlendirme raporları ile desteklenebilir."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Sorulan durum; etkinlik öncesinde plastiklerin doğadaki davranışları, kimyasal kararlılıkları ve polimer yapılarının bozunma süreçleri hakkındaki mevcut ön bilgilerin tespit edilmesidir.",
+        "2. Adım: Polimerler, yüksek molekül kütleli ve kovalent bağlarla bağlı monomer zincirlerinden oluşur. Bu güçlü kovalent bağlar nedeniyle doğada kolayca parçalanmazlar; ancak güneş ışığı (UV radyasyonu), rüzgar ve dalga aşındırması gibi fiziksel etkilerle daha küçük polimer parçacıklarına yani mikro ve nanoplastiklere dönüşürler.",
+        "3. Adım: Plastik atıkların doğada tamamen yok olmadığı, sadece mikro boyutlara kadar ufalayarak çevrede kalıcı kirlilik yarattığı bilinmektedir."
+      ],
+      "result": "Plastiklerin doğada biyolojik olarak ayrışmadığı, sadece fiziksel ve kimyasal dış etkilerle mikro/nano boyutlara ufalanarak kalıcı kirlilik oluşturduğu bilinmektedir."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Belirlenecek eylemler; mikroplastik üretimini ve bunların çevreye deşarjını en aza indirmek için bireysel olarak uygulanabilecek pratik ve bilimsel yöntemlerdir.",
+        "2. Adım: Sentetik tekstil ürünlerinin (polyester, akrilik, naylon) yıkanması sırasında milyonlarca mikro elyaf suya karışır. Bunu önlemek için doğal elyaflı (pamuk, keten, yün) giysiler tercih edilmeli, tek kullanımlık plastik (PET, polistiren) tüketimi azaltılmalı ve mikroküre içeren kozmetik/kişisel bakım ürünleri (peeling jelleri, diş macunları) boykot edilmelidir.",
+        "3. Adım: Sentetik giysiler yerine doğal lifli tekstil ürünleri kullanmak, plastik matara tercih etmek ve mikro tanecikli kozmetik ürünleri tüketmemek bireysel olarak atılacak en etkili adımlardır."
+      ],
+      "result": "Tek kullanımlık plastiklerin boykot edilmesi, sentetik tekstil yerine doğal lifli kıyafetlerin tercih edilmesi ve mikroküre içeren kozmetik ürünlerin kullanılmaması."
+    }
+  ],
+  "kimya-11_p311_3": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Sürdürülebilirlik temasında yer alan 'Yeşil Hidrojen Enerjisi', 'Nanoteknoloji' ve 'Mikroplastikler' konularına ait bilgi ve beceri hedeflerini listeliyorum.",
+        "2. Adım: Karanlık fermantasyon yoluyla evsel atıklardan hidrojen gazı üretimini C6H12O6 + 2H2O -> 2CH3COOH + 2CO2 + 4H2 kimyasal reaksiyon denklemi üzerinden analiz ediyorum. Sıcaklık ve pH gibi faktörlerin H2 gazı miktarını doğrudan etkilediğini, nanoteknolojik ürünlerin yüzey alanı/hacim oranının (3/r) artmasıyla kazandığı yeni kimyasal özellikleri ve mikroplastiklerin (<5 mm) ekosistemdeki biyoakümülasyon etkilerini bilimsel olarak yazıyorum.",
+        "3. Adım: Bu bilimsel verileri ve deneysel çıkarımları kullanarak formun ilgili boşluklarını dolduruyorum."
+      ],
+      "result": "Cevap: Formdaki tüm konu alanları bilimsel gerekçeleriyle dolduruldu."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Formda yer alan 9 farklı kazanım ve beceri kutucuğunu tek tek tespit ediyorum.",
+        "2. Adım: Yeşil hidrojen üretimindeki değişkenleri belirleme, nanoteknolojinin etik ve sürdürülebilirlik boyutunu (örneğin gümüş nanopartiküllerinin antibakteriyel etkisi ve çevreye sızma riski) sorgulama ve mikroplastiklerin gıda zincirine etkisini analiz etme becerilerimin her birini tam olarak edindiğimi tespit ediyorum.",
+        "3. Adım: Edindiğim her bir bilgi ve becerinin yanındaki boş kutucuğa '✓' sembolünü koyuyorum."
+      ],
+      "result": "Cevap: 9 adet beceri kutucuğunun tamamı '✓' şeklinde işaretlendi."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Yeşil hidrojen enerjisi üretimi, nanomalzemelerin potansiyel riskleri ve mikroplastiklerin çevreye zararları konularında edinilen tüm kazanımları son kez gözden geçiriyorum.",
+        "2. Adım: Konulara ait teorik formülleri, deneysel basamakları ve ekolojik etkileri kavradığım için sonraki aşamaya geçmeye hazır olduğumu ekiyorum.",
+        "3. Adım: Herhangi bir eksik konu kalmadığından, doğrudan bir sonraki aşama olan '3. Tema Ölçme ve Değerlendirme Soruları'na geçiş yapıyorum."
+      ],
+      "result": "Cevap: 3. Tema Ölçme ve Değerlendirme Soruları'na geçildi."
+    }
+  ],
+  "kimya-11_p312_3": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Sorudaki metinden toplam soru sayısını tespit etmeyi hedefliyoruz.",
+        "2. Adım: Metinde yer alan 'farklı soru çeşitlerinden toplam 42 soru verilmiştir' ifadesinden toplam soru sayısını doğrudan okuyoruz.",
+        "3. Adım: Toplam soru sayısının 42 adet olduğunu belirliyoruz."
+      ],
+      "result": "Toplam soru sayısı: 42"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Dallanmış ağacın ilk kutucuğundaki 'Yeşil hidrojen yenilenebilir enerji kaynaklarından elde edilir' ifadesini değerlendiriyoruz. Yeşil hidrojen, rüzgâr ve güneş gibi yenilenebilir enerji kaynakları kullanılarak suyun elektrolizi ile elde edildiğinden bu ifade doğrudur ve 'D' yolunu seçiyoruz.",
+        "2. Adım: Karşımıza çıkan 'Karanlık fermantasyon yönteminde fotosentetik bakteriler kullanılır' ifadesini değerlendiriyoruz. Karanlık fermantasyonda ışık kullanılmaz ve fotosentetik bakteriler yerine anaerobik bakteriler görev alır. Bu nedenle ifade yanlıştır ve 'Y' yolunu takip ediyoruz.",
+        "3. Adım: Sonraki adımda yer alan 'Nanoteknoloji, maddenin atomik, moleküler vb. seviyede kontrolüdür' ifadesini değerlendiriyoruz. Bu ifade nanoteknolojinin temel tanımı olup doğrudur ve 'D' yönünde ilerliyoruz."
+      ],
+      "result": "Çıkış Noktası: 11. çıkış"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Soru 3'teki 16 farklı çıkış için verilen 'D' ve 'Y' harflerinden oluşan karar dizilimlerini sırasıyla inceliyoruz.",
+        "2. Adım: Bir önceki soruda bulduğumuz 'D' -> 'Y' -> 'D' -> 'D' adımlarının dallanma ağacındaki rotasını sayısal çıkışlarla eşleştiriyoruz.",
+        "3. Adım: Yapılan yönlendirmeler sonucunda ulaşılan doğru çıkış numarasının 11 olduğunu saptıyoruz."
+      ],
+      "result": "Cevap: 11. çıkış"
+    }
+  ],
+  "kimya-11_p317_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Nanoteknolojik gıda ambalajlarının potansiyel faydaları ve olası zararları belirlenecektir.",
+        "2. Adım: Nanoteknolojik ambalajlar, gıdanın bozulmasını önlemek için gaz geçişini sınırlar, antimikrobiyal koruma sağlar ve gıdanın raf ömrünü uzatır. Ancak ambalaj malzemesinde kullanılan nanoparçacıkların (örneğin gümüş veya titanyum dioksit) gıdaya sızarak vücuda alınması ve hücre düzeyinde toksik (zehirleyici) etkiler oluşturması en büyük risktir.",
+        "3. Adım: Fayda ve zararlar karşılaştırıldığında, ekonomik ve koruyucu faydalar yüksek olsa da sağlık üzerindeki belirsizlikler ve göç (migrasyon) riski ciddi bir zarar potansiyeli taşır."
+      ],
+      "result": "Faydaları: Gıdanın raf ömrünü uzatması, mekanik dayanıklılığı artırması ve antimikrobiyal koruma sağlaması. Zararları: Nanoparçacıkların gıdaya sızması (migrasyon) ve insan vücudunda toksik birikim yapma riski."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Gıda sektöründeki nanoteknolojik ürünlerin etik ve sağlık yönlerini değerlendirmek için sorulması gereken sorular belirlenecektir.",
+        "2. Adım: Değerlendirme yapabilmek için ürünün güvenirliği, şeffaflığı ve çevreye olan etkileri sorgulanmalıdır. Bu doğrultuda; tüketicinin bilgilendirilip bilgilendirilmediği, uzun vadeli sağlık çalışmalarının varlığı ve nanoparçacıkların biyolojik birikimi gibi kritik parametrelere odaklanılır.",
+        "3. Adım: Etik ve sağlık standartlarını ortaya çıkaracak en temel ve mantıklı sorular formüle edilir."
+      ],
+      "result": "Sorulması gereken sorular: 1) Nanoparçacıkların insan sağlığı üzerindeki uzun vadeli biyotoksikolojik etkileri test edilmiş midir? 2) Gıda etiketlerinde nano içerik bilgisi tüketicilerle şeffafça paylaşılmakta mıdır? 3) Üretim ve atık sürecinde çevreye ve ekosisteme verilen zararlar kontrol altında mıdır?"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Nanoteknolojik ürünlerin gıda ve günlük yaşamda kullanılmasına yönelik bilimsel bir karar ve bunun gerekçesi ortaya konacaktır.",
+        "2. Adım: Tamamen reddetmek teknolojik gelişmeleri ve gıda güvenliği çözümlerini engeller; tamamen serbest bırakmak ise sağlık riskleri barındırır. Bu nedenle, uluslararası standartlara ve sıkı denetim mekanizmalarına bağlı, 'kontrollü ve sınırlandırılmış kullanım' en rasyonel karardır.",
+        "3. Adım: Alınan karar gerekçelendirilerek net bir biçimde ifade edilir."
+      ],
+      "result": "Karar: Kontrollü ve sıkı denetimli kullanım. Gerekçe: Gıda israfını önleme ve koruyuculuk gibi yüksek faydalarından yararlanırken, insan sağlığına ve çevreye yönelik olası kronik toksisite risklerini engellemek için bağımsız bilimsel kurullar tarafından denetlenmesi şarttır."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Akıllı ilaç sistemlerinin (nanoteknolojik ilaç taşıyıcıları) tıbbi avantajları ve potansiyel sağlık riskleri karşılaştırılacaktır.",
+        "2. Adım: Akıllı ilaçlar, sadece hedefteki hastalıklı veya tümörlü hücrelere etki ederek sağlıklı hücrelerin zarar görmesini engeller ve yan etkileri minimuma indirir. Risk olarak ise nanotaşıyıcıların vücuttan kolayca atılamayarak karaciğer veya böbrekte birikmesi ve bağışıklık sistemini aşırı tetikleme olasılığı bulunur.",
+        "3. Adım: Tıbbi avantaj (hedefe yönelik tedavi, düşük toksisite) ile sağlık riski (biyotoksik birikim, bağışıklık tepkisi) dengelenerek sunulur."
+      ],
+      "result": "Avantajları: Sadece hedef hücreye etki ederek yan etkileri en aza indirmesi ve tedavi başarısını artırması. Riskleri: Vücutta birikerek organ yetmezliğine yol açabilmesi ve bağışıklık reaksiyonlarını tetikleme ihtimali."
+    }
+  ],
+  "kimya-11_p322_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilen durum gıdaların raf ömrünün uzatılmasının israf üzerindeki etkisidir.",
+        "2. Adım: Gıda koruyucuları (antimikrobiyaller ve antioksidanlar) gıdanın bozulma reaksiyonlarını yavaşlatır. Bu kimyasal koruma sayesinde marketlerdeki ürünlerin son kullanma tarihleri uzar ve satılamadan atılan gıda miktarı azalır.",
+        "3. Adım: Gıdaların raf ömrünün uzaması israfı doğrudan azaltan olumlu bir ekonomik sonuçtur."
+      ],
+      "result": "Olumlu etki (Avantaj)"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Verilen durum ilaçlardaki kontrollü salım sistemlerinin tedavi üzerindeki etkisidir.",
+        "2. Adım: Kontrollü salım teknolojileri (mikro ve nanokapsüller) etken maddenin vücutta yavaş ve düzenli bir şekilde çözünmesini sağlar. Bu sayede hastanın sürekli ilaç almasına gerek kalmaz ve kandaki etken madde derişimi optimum düzeyde sabit kalır.",
+        "3. Adım: Kontrollü salım sistemleri tedavi başarısını doğrudan artıran tıbbi bir avantajdır."
+      ],
+      "result": "Olumlu etki (Avantaj)"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Verilen durum yeni kimyasal teknolojilerin uzun vadeli etkilerinin araştırılma ihtiyacıdır.",
+        "2. Adım: Yapay kimyasalların ve nanomateryallerin biyolojik sistemlerdeki birikim ve kronik toksisite gibi olası zararları kısa sürede anlaşılamaz. Bu nedenle güvenlik sınırlarının tam olarak çizilebilmesi için çok sayıda klinik ve toksikolojik çalışma yapılması zorunludur.",
+        "3. Adım: Uzun vadeli etkilerin bilinmemesi daha fazla bilimsel araştırma gerektiren bir risk veya sınırlılıktır."
+      ],
+      "result": "Risk ve Belirsizlik (Dezavantaj)"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Verilen durum ilaç formülasyonunun kolaylaştırılmasının üretim süresine olan etkisidir.",
+        "2. Adım: Formülasyon süreçlerinde uygun kimyasal çözücü ve dolgu maddelerinin seçilmesi, etken maddelerin işlenmesini hızlandırır. Bu durum fabrikasyon aşamalarını optimize ederek birim zamanda üretilen ilaç miktarını artırır.",
+        "3. Adım: Üretim süresinin kısalması endüstriyel açıdan zaman ve maliyet tasarrufu sağlayan olumlu bir sonuçtur."
+      ],
+      "result": "Olumlu etki (Avantaj)"
+    }
+  ],
+  "kimya-11_p323_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilen önermede grafen bazlı kaplamaların üretim riskleri belirsiz olduğundan bu risklerin yok sayılması gerektiği iddia edilmektedir.",
+        "2. Adım: Sürdürülebilirlik ve yeşil kimya ilkelerine göre, yeni bir teknolojinin veya nanomaddenin riskleri tam olarak bilinmiyorsa ihtiyat ilkesi uygulanır. Risklerin yok sayılması çevre ve insan sağlığı için büyük tehlikeler doğurur.",
+        "3. Adım: Risklerin belirsiz olması durumunda bunların yok sayılması bilimsel ve etik açıdan kesinlikle yanlıştır."
+      ],
+      "result": "Cevap: Yanlış yaklaşım"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Verilen önermede nano gübrelerin risk taşıması nedeniyle üretiminin ve kullanımının tamamen durdurulması gerektiği savunulmaktadır.",
+        "2. Adım: Nanoteknolojide ve sürdürülebilir tarımda amaç, yararlı teknolojileri tamamen reddetmek değil; risk değerlendirmesi yaparak, kontrollü ve güvenli kullanım sınırlarını çizerek fayda-risk dengesini optimize etmektir.",
+        "3. Adım: Teknolojinin risklerden dolayı tamamen yasaklanması gerektiği fikri bilimsel gelişmeyi engellediği için yanlıştır."
+      ],
+      "result": "Cevap: Yanlış yaklaşım"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Verilen önermede nanosensörlerin gıda güvenliğini artırırken ortaya çıkarabileceği veri gizliliği ve etik sorunların dikkate alınarak tartışılması gerektiği belirtilmektedir.",
+        "2. Adım: Teknolojik gelişmelerin toplum yararına kullanılırken getirdiği etik, hukuki ve sosyal sorunların (ELSA) analiz edilmesi ve tartışılması, sürdürülebilir teknoloji yönetiminin en temel kuralıdır.",
+        "3. Adım: Hem teknolojik faydayı gözeten hem de etik sınırları tartışmaya açan bu yaklaşım tamamen doğrudur."
+      ],
+      "result": "Cevap: Doğru yaklaşım"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Verilen önermede nano kaplama tekstil ürünlerinin taşıdığı sağlık risklerine rağmen popülerlik ve moda uğruna tercih edilmesinin normalleştirilmesi tartışılmaktadır.",
+        "2. Adım: Sürdürülebilirlik ve insan sağlığı ilkeleri gereğince, hiçbir ticari veya estetik kaygı (moda eğilimi), insan sağlığına yönelik risklerin önüne geçemez ve bu riskleri meşrulaştıramaz.",
+        "3. Adım: Sağlık risklerini görmezden gelerek sadece trendlere odaklanan bu yaklaşım sürdürülebilirlik açısından yanlıştır."
+      ],
+      "result": "Cevap: Yanlış yaklaşım"
+    }
+  ],
+  "kimya-11_p325_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilen eylem 'Atıkları depolama sahasına gömmek' olup, bu yöntemin sürdürülebilirlik ve yeşil kimya ilkeleri açısından doğruluğu ve çevresel etkisi analiz edilecektir.",
+        "2. Adım: Atıkların toprağa gömülmesi, kimyasal maddelerin toprağa ve yer altı sularına sızmasına yol açar. Bu durum döngüsel ekonomiye katkı sağlamaz, kaynak israfına neden olur ve yeşil kimyanın 'Atıkların Önlenmesi' ilkesine aykırıdır.",
+        "3. Adım: Atıkları depolama sahasına gömmek sürdürülebilir bir yöntem değildir, çevre kirliliğini ve ekolojik ayak izini artırır."
+      ],
+      "result": "Sürdürülebilir değildir (Olumsuz çevresel etki)"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Verilen eylem 'Üretim atıklarını geri dönüştürmek' olup, bu uygulamanın sürdürülebilirlik ilkelerine katkısı değerlendirilecektir.",
+        "2. Adım: Geri dönüşüm, birincil hammadde ihtiyacını ve enerji tüketimini azaltır. Bu eylem yeşil kimyanın 'Atıkların Önlenmesi' ve 'Ekonomik Tasarım' ilkeleri ile doğrudan örtüşür.",
+        "3. Adım: Üretim atıklarının geri dönüştürülmesi sürdürülebilirliği destekleyen, kaynak verimliliği sağlayan olumlu bir uygulamadır."
+      ],
+      "result": "Sürdürülebilirdir (Atıkların önlenmesi ve geri kazanımı)"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Verilen eylem 'Nanoplastik katkı kullanmamak' olup, çevre kirliliğini önleme ve yeşil kimya prensipleri çerçevesinde incelenecektir.",
+        "2. Adım: Nanoplastikler, doğada çok zor bozunan ve besin zincirine katılarak ekosisteme ciddi zararlar veren mikro kirleticilerdir. Bu katkıların hiç kullanılmaması, yeşil kimyanın 'Kirliliğin Kaynağında Önlenmesi' ve 'Güvenli Kimyasalların Tasarımı' ilkelerine tam uyum sağlar.",
+        "3. Adım: Nanoplastik katkı kullanmamak, kirliliği baştan önleyen en yüksek düzeyde sürdürülebilir yaklaşımdır."
+      ],
+      "result": "En yüksek düzeyde sürdürülebilirdir (Kaynakta kirliliğin önlenmesi)"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Verilen eylem 'Nanoplastik katkı miktarını düşürmek' olup, bu yöntemin çevresel etkileri ve sürdürülebilirlik derecesi belirlenecektir.",
+        "2. Adım: Katkı miktarını düşürmek, çevreye salınacak potansiyel zararlı kimyasal yükünü azaltır. Yeşil kimyanın 'Atık miktarının azaltılması' ilkesine hizmet eder ancak tamamen sıfırlamadığı için geçici bir iyileştirme adımıdır.",
+        "3. Adım: Bu eylem, alternatif malzeme bulunamadığı durumlarda sürdürülebilirliğe katkı sağlayan ve zararı minimize eden olumlu bir adımdır."
+      ],
+      "result": "Sürdürülebilirliği artıran kısmi bir çözümdür (Zararın minimize edilmesi)"
+    }
+  ],
+  "biyoloji-11_p16_2": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Tabloda verilen insan (hayvanlar âlemi) ve bitki (bitkiler âlemi) örneklerindeki uyaran, reseptör (uyaranı alma), değerlendirme merkezi (yorumla) ve efektör (tepki) bileşenlerini analiz ederek etki-tepki mekanizmalarını karşılaştırıyoruz.",
+        "2. Adım: İnsandaki tepki mekanizmasında uyaran fizikseldir (sıcaklık), deri altındaki duyu reseptörleriyle alınır, merkezî sinir sisteminde (omurilik refleks yayı) çok hızlı değerlendirilir ve çizgili kasların kasılmasıyla el hızla çekilir. Bitkide ise uyaran kimyasaldır (kireç), bitki hücresi reseptörlerince algılanır, kök ucunda kimyasal/hormonal (oksin hormonu dağılımı) olarak değerlendirilir ve asimetrik büyüme ile kök kireçten uzaklaşır.",
+        "3. Adım: Her iki canlı grubunun da çevreye uyum sağlamak (adaptasyon) ve iç dengeyi (homeostasi) korumak için uyaranlara karşı tepki geliştirdiğini, ancak hayvanların bu tepkiyi sinir sistemiyle çok hızlı, bitkilerin ise hormonal ve hücresel değişimlerle daha yavaş gerçekleştirdiğini tespit ediyoruz."
+      ],
+      "result": "Cevap: Canlıların tamamı çevrelerindeki değişimlere tepki vererek homeostasiyi korur; fakat hayvanlar bu tepkiyi özelleşmiş sinirsel ve kasal yapılarla hızlı bir refleks şeklinde gerçekleştirirken, bitkiler sinir sistemleri olmadığından hücresel düzeyde hormonal salgılar ve turgor basıncı değişimleriyle daha yavaş gerçekleştirir."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Güneşgülü bitkisinin turgor basıncı değişimine dayalı nasti (ırganım) hareketi ile denizşakayığının kas ve ilkel sinir hücrelerine dayalı refleks hareketini karşılaştırarak ortak amaç ve farklı mekanizmaları belirliyoruz.",
+        "2. Adım: Güneşgülü bitkisinde dokunma uyaranı hücre zarlarındaki iyon geçişlerini tetikler, yaprağın alt ve üst hücreleri arasındaki turgor basıncı farkından dolayı yapraklar böceğin üzerine kapanır. Denizşakayığında ise dokunma uyaranı duyusal hücreleri uyarır, ağsı sinir sistemi ile kas hücrelerine iletilir ve kasılma hareketiyle gövde küçülerek tentaküller içeri çekilir.",
+        "3. Adım: Bitkiler ve hayvanlar âlemindeki bu farklı mekanizmaların, canlıların gelişmişlik düzeylerine, dokusal yapılarına ve beslenme/korunma ihtiyaçlarına göre özelleştiği genellemesine ulaşıyoruz."
+      ],
+      "result": "Cevap: Farklı canlılar, çevresel uyaranlara (ışık, sıcaklık, dokunma) kendi yapısal ve fizyolojik gelişmişlik düzeylerine uygun, farklı mekanizmalarla tepki verirler. Bitkiler sinir sisteminden yoksun oldukları için tepkilerini turgor basıncı değişimleri (nasti) ve büyüme hormonları (tropizma) gibi hücresel ve kimyasal yollarla yavaşça gerçekleştirirken; hayvanlar özelleşmiş sinirsel ağlar ve kas dokuları sayesinde uyaranları çok daha hızlı algılayıp aktif hareketlerle (refleks/kaçma) cevap vererek hayatta kalma ve çevreye uyum sağlama şanslarını en üst düzeye çıkarırlar."
+    }
+  ],
+  "biyoloji-11_p19_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Soruda verilen iki örneğin (insanın sese tepkisi ve bitkinin ışığa yönelmesi) ortak basamakları olan 'uyaranın alınması', 'işlenmesi' ve 'tepkinin ortaya çıkışı' aşamaları karşılaştırılacaktır. İnsanda uyaran yüksek ses, bitkide ise tek yönlü gelen ışıktır.",
+        "2. Adım: Basamakların karşılaştırılması gerçekleştirilir: 1) Uyaranın Alınması: İnsanda duyu reseptörleri (fiziksel/mekanik kulak reseptörleri) ile alınırken, bitkide kimyasal pigmentler (fotoreseptörler) ile alınır. 2) İşlenme: İnsanda sinir sistemi (merkezî sinir sistemi) aracılığıyla elektriksel ve kimyasal olarak çok hızlı işlenirken, bitkide hormonal sistem (oksin hormonu) ile kimyasal olarak ve daha yavaş işlenir. 3) Tepkinin Ortaya Çıkışı: İnsanda kas sisteminin çalışmasıyla mekanik bir hareket (irkilme, kulak kapatma) şeklinde anlık gerçekleşirken, bitkide hücre uzaması ve asimetrik büyüme (fototropizma) şeklinde kalıcı ve yavaş bir büyüme hareketi olarak gerçekleşir.",
+        "3. Adım: İki sistemin ortak ve farklı yönleri sentezlenerek her iki canlıda da çevreye uyum sağlamaya yönelik tepki mekanizmasının işleyiş şekli netleştirilir."
+      ],
+      "result": "İnsanda tepki sinir sistemi kontrolünde kas hareketiyle çok hızlı ve anlık gerçekleşirken, bitkide hormonal kontrol altında asimetrik büyüme ve hücre uzamasıyla daha yavaş ve kalıcı (yönelim) olarak gerçekleşir."
+    }
+  ],
+  "biyoloji-11_p22_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Etkinliğin amacını, süresini ve rapor hazırlama yönergesini analiz et.",
+        "2. Adım: Deney raporunun bitkisel hormonların (etilen, absisik asit) bitkiler üzerindeki fizyolojik etkilerini içermesi gerektiğini saptat.",
+        "3. Adım: Etkinliğin analitik dereceli puanlama anahtarına göre değerlendirilecek olan deney raporunun taslağını oluştur."
+      ],
+      "result": "Etkinlik yönergesine uygun olarak etilen ve absisik asit hormonlarının etkilerini açıklayan bir deney raporu hazırlanmalıdır."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Gözlem materyali olan çürük/sağlam elma torbasını, susuz saksı bitkisini ve soğuk saksı bitkisini gruplandır.",
+        "2. Adım: Bu materyallerin sırasıyla etilen salgısı, kuraklık stresi (absisik asit etkisi) ve soğuk stresiyle ilişkili fizyolojik durumları temsil ettiğini belirle.",
+        "3. Adım: Bu stres koşullarının ve hormonların bitki anatomisi ile fizyolojisi üzerindeki değişimlerini kaydet."
+      ],
+      "result": "Bitkilerin stres koşullarına (kuraklık, soğuk) ve etilen hormonuna verdiği fizyolojik tepkiler gözlemlenerek kaydedilir."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Çürük elmanın çevreye salgıladığı hormonu tespit et. Çürük elma, gaz halinde salgılanan etilen hormonu üretir.",
+        "2. Adım: Etilen hormonunun yayılım özelliklerini belirle. Gaz halinde olduğu için kapalı torba içerisinde hızla yayılarak diğer elmalara ulaşır.",
+        "3. Adım: Etilenin diğer elmalar üzerindeki etkisini açıkla. Bu hormon hücre çeperini yıkan enzimleri ve nişastanın şekere dönüşümünü tetikleyerek komşu meyvelerin olgunlaşmasını ve çürümesini hızlandırır."
+      ],
+      "result": "Torbadaki diğer sağlam elmalar etilen hormonunun etkisiyle hızla olgunlaşır ve çürür."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Susuz ortamda kalmış bitkinin fizyolojik durumunu belirle. Kuraklık stresi altındaki bitkide absisik asit (ABA) salgısı artar ve terlemeyi önlemek için stomalar kapatılır.",
+        "2. Adım: Topraktaki toksik maddelerin (ağır metal, deterjan) bitki köklerine etkisini analiz et. Bu toksik maddeler kök tüy hücrelerinin zarlarına zarar vererek su ve mineral emilimini tamamen bozar.",
+        "3. Adım: Çift yönlü stresin (susuzluk ve toksisite) bitki gelişimine nihai etkisini hesapla. Bitki metabolizması durma noktasına gelir, klorofil sentezi engellenir ve hücreler ölür."
+      ],
+      "result": "Bitkinin büyümesi ve gelişimi tamamen durur, yapraklarında şiddetli kloroz (sararma) ve solma meydana gelerek bitki ölür."
+    }
+  ],
+  "biyoloji-11_p24_2": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilenler; çilek üzerindeki aken adı verilen noktaların oksin hormonu üretmesi, akenleri alınan çileğin gelişimini tamamlayamaması ve bu çileğe dışarıdan oksin uygulandığında büyümenin normale dönmesidir. Sorulan; oksin hormonunun meyve gelişimi üzerindeki doğrudan etkisidir.",
+        "2. Adım: Bilimsel kurala göre, bitkisel hormonlar hedef dokularda spesifik reseptörlere bağlanarak hücresel yanıtları başlatır. Çilekte aken dokusu tarafından sentezlenen doğal oksin hormonu, meyve etli dokusundaki hücrelerin bölünmesini ve hacimsel olarak genişlemesini uyarır. Akenler uzaklaştırıldığında hormon kaynağı kesildiği için büyüme durur; ancak dışarıdan sentetik/doğal oksin püskürtüldüğünde hormonun eksikliği giderilir ve büyüme süreci kaldığı yerden devam eder.",
+        "3. Adım: Oksin hormonu meyve dokusunun büyümesini ve gelişimini doğrudan uyarır ve kontrol eder."
+      ],
+      "result": "Cevap: Oksin hormonu meyve gelişimini ve büyümesini doğrudan uyarır."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Verilenler; oksin bulunmayan ve oksin bulunan iki farklı ortamda hücrelerin boyutsal durumlarıdır. Sorulan; oksin hormonunun hücre uzaması ve büyümesi üzerindeki hücresel düzeydeki etkisidir.",
+        "2. Adım: Hücre uzaması (asit büyüme teorisi) kuralına göre, oksin hormonu hücre zarı üzerindeki proton (H+) pompalarını aktive eder. Hücre çeperine pompalanan protonlar çeperin pH derecesini düşürür, bu durum çeperi gevşeten enzimlerin çalışmasını sağlar. Gevşeyen çeper turgor basıncının etkisiyle gerilir ve hücre boyca uzar. Görselde de görüldüğü üzere oksin bulunmayan ortamda hücreler kısa kalırken, oksin bulunan ortamdaki hücrelerin boyu belirgin şekilde uzamıştır.",
+        "3. Adım: Oksin hormonu hücre çeperini gevşeterek hücrelerin boyca uzamasını ve dolayısıyla büyümesini sağlar."
+      ],
+      "result": "Cevap: Oksin hormonu hücrelerin boyca uzamasını uyararak büyümeyi sağlar."
+    }
+  ],
+  "biyoloji-11_p27_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Bitkilerde uyarılara karşı verilen hormonal ve fiziksel tepkilerin temel mekanizmalarını ve kontrol noktalarını belirle.",
+        "2. Adım: Bitkisel hormonların (oksin, sitokinin, giberellin, etilen, absisik asit) ve hareket mekanizmalarının (tropizma ve nasti) uyarılara karşı tepkideki rollerini açıkla.",
+        "3. Adım: Bitkilerde tepki kontrolünün, bitkinin çevresel değişimlere uyum sağlamasını ve hayatta kalmasını optimize eden hormonal düzenlemelerle gerçekleştiği sonucuna ulaş."
+      ],
+      "result": "Cevap: Bitkisel hormonlar ve hareket mekanizmaları (tropizma ve nasti) sayesinde bitkilerin çevresel uyarılara koordineli tepki vermesi sağlanır."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Bitkisel hormonların (Oksin, Sitokinin, Giberellin, Etilen, Absisik Asit) fizyolojik görevlerini analiz et.",
+        "2. Adım: Tablodaki her bir görevi, ilgili hormona ait spesifik özelliklerle eşleştir:\n- Hücre bölünmesi: Sitokinin\n- Hücre uzaması: Oksin, Giberellin\n- Çimlenme: Giberellin\n- Gövdede uzama: Giberellin, Oksin\n- Yaşlanma: Etilen\n- Çiçek, yaprak ve meyve oluşumu: Oksin, Giberellin\n- Çiçek açma: Giberellin\n- Meyve olgunlaşması: Etilen\n- Yan dal oluşumu: Sitokinin\n- Tomurcuklarda kış uykusu: Absisik Asit\n- Yaprak dökümü: Etilen, Absisik Asit\n- Işığa yönelme: Oksin\n- İri ve çekirdeksiz meyve oluşumu: Giberellin\n- Yaşlanmanın gecikmesi: Sitokinin",
+        "3. Adım: Hormonların görev dağılımını netleştirerek tabloyu tamamla."
+      ],
+      "result": "Cevap: Oksin (Hücre uzaması, Gövdede uzama, Çiçek, yaprak ve meyve oluşumu, Işığa yönelme); Sitokinin (Hücre bölünmesi, Yan dal oluşumu, Yaşlanmanın gecikmesi); Giberellin (Hücre uzaması, Çimlenme, Gövdede uzama, Çiçek açma, İri ve çekirdeksiz meyve oluşumu); Etilen (Yaşlanma, Meyve olgunlaşması, Yaprak dökümü); Absisik Asit (Tomurcuklarda kış uykusu, Yaprak dökümü)"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Kese kâğıdında bekletilen yeşil muzların açıkta bırakılanlara göre daha hızlı olgunlaşmasına etki eden hormonu belirle.",
+        "2. Adım: Meyve olgunlaşmasından sorumlu olan etilen hormonunun gaz hâlinde salgılandığını ve kese kâğıdı gibi kapalı ortamlarda birikerek konsantrasyonunun arttığını, bu durumun olgunlaşma sürecini otokatalitik olarak hızlandırdığını açıkla.",
+        "3. Adım: Kese kâğıdının etilen gazını hapsederek muzların daha hızlı olgunlaşmasını sağladığı sonucuna ulaş."
+      ],
+      "result": "Cevap: Olgunlaşan muzların salgıladığı gaz hâlindeki etilen hormonunun kese kâğıdı içinde birikerek ortamdaki etilen derişimini artırması ve olgunlaşma sürecini hızlandırmasıdır."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Giberellin ve absisik asit (ABA) hormonlarının tohumun çimlenmesi ve büyümesi üzerindeki etkilerini belirle.",
+        "2. Adım: Giberellinin tohumun uyku hâlinden (dormansi) çıkmasını, amilaz sentezini uyararak çimlenmeyi başlatmasını; buna karşın absisik asidin tohumun uyku hâlinde kalmasını (dormansiyi) sağlayarak çimlenmeyi engellediğini açıkla.",
+        "3. Adım: Bu iki hormonun tohum çimlenmesi sürecinde birbirine antagonist (zıt) yönde etki ettiğini netleştir."
+      ],
+      "result": "Cevap: Giberellin tohumun uyku hâlinden çıkıp çimlenmesini uyarırken, absisik asit tohumun uyku hâlinde (dormansi) kalmasını sağlayarak çimlenmeyi engeller."
+    }
+  ],
+  "biyoloji-11_p33_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilen metinde, tropizma (yönelim) ve nasti (ırganım) hareketlerine dair kavramların yer aldığı bir yapılandırılmış grid sisteminin çözülmesi istenmektedir.",
+        "2. Adım: Tropizma hareketleri oksin hormonu asimetrisiyle gerçekleşen ve uyaranın yönüne bağlı hareketlerdir; nasti hareketleri ise turgor basıncı değişimleriyle gerçekleşen ve uyaranın yönüne bağlı olmayan hareketlerdir.",
+        "3. Adım: Bu temel kurallara göre griddeki kavramlar sınıflandırılarak takip eden sorular çözülecektir."
+      ],
+      "result": "Tropizma ve nasti hareketlerinin temel mekanizmalarının analizi"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Soruda bitki köklerinin su ve kimyasal maddeler gibi uyaranlara doğru (pozitif yönlü) yaptığı hareketlerin bilimsel adları sorulmaktadır.",
+        "2. Adım: Bitki köklerinin suya doğru büyüme yönelimi göstermesine pozitif hidrotropizma, gübre ve mineral gibi yararlı kimyasal maddelere doğru yönelmesine ise pozitif kemotropizma denir.",
+        "3. Adım: Sonuç olarak bu hareketler pozitif hidrotropizma ve pozitif kemotropizmadır."
+      ],
+      "result": "Pozitif hidrotropizma ve Pozitif kemotropizma"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Bitkilerde yönelim (tropizma) hareketlerinin başlamasını tetikleyen çevresel faktörlerin (uyaranların) belirlenmesi istenmektedir.",
+        "2. Adım: Tropizma hareketleri uyaranın cinsine göre adlandırılır. Bunlar: ışık (fototropizma), yer çekimi (gravitropizma/geotropizma), su (hidrotropizma), dokunma (tigmotropizma) ve kimyasal maddelerdir (kemotropizma).",
+        "3. Adım: Tropizmaya neden olan uyaranlar ışık, yer çekimi, su, dokunma ve kimyasal maddeler olarak gruplandırılır."
+      ],
+      "result": "Işık, yer çekimi, su, dokunma ve kimyasal maddeler"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Bitkisel hareketlerden uyaranın yönüne bağlı olarak (uyarana doğru veya uyarandan uzağa) gerçekleşen hareket türünün tespit edilmesi istenmektedir.",
+        "2. Adım: Bitkilerde uyaranın yönüne bağlı olarak gerçekleşen hareketlere tropizma (yönelim) hareketleri denir. Nasti hareketlerinde ise tepki uyaranın yönünden bağımsızdır.",
+        "3. Adım: Uyaranın yönüne bağlı olarak gerçekleşen hareket grubu tropizma hareketleridir."
+      ],
+      "result": "Tropizma (Yönelim) hareketleri"
+    }
+  ],
+  "biyoloji-11_p30_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Bitkilerdeki tepki mekanizmaları ve hareket çeşitleri verileri üzerinden bilimsel isimleri içeren bir sınıflandırma şeması (kavram haritası) oluşturulması istenmektedir.",
+        "2. Adım: Bitki hareketleri, uyarının yönüne bağlı olup olmamasına göre iki ana gruba ayrılır: 1. Tropizma (Yönelim) Hareketleri (Fototropizma, Jeotropizma, Hidrotropizma, Haptotropizma, Kemotropizma, Travmatotropizma) ve 2. Nasti (Irganım) Hareketleri (Fotonasti, Termonasti, Sismonasti, Niktinasti).",
+        "3. Adım: Bitki hareketleri hiyerarşik olarak iki ana gruba (Tropizma ve Nasti) ayrılır ve uyaran türlerine göre alt dallara ayrıştırılarak kavram haritası tamamlanır."
+      ],
+      "result": "Bitki Hareketleri: I. Tropizma (Yönelim): Fototropizma, Jeotropizma, Haptotropizma, Hidrotropizma, Kemotropizma, Travmatotropizma. II. Nasti (Irganım): Fotonasti, Termonasti, Sismonasti."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Karekodda sunulan 'Bitkilerde Tepki Mekanizmaları Videosu' içeriğinin analiz edilerek bitkilerin temel hareket mekanizmalarının belirlenmesi istenmektedir.",
+        "2. Adım: Bitkisel hareketlerde uyarının yönüne bağlı asimetrik büyüme hormonu (oksin) dağılımıyla gerçekleşen tepkiler 'Yönelme' (Tropizma) olarak; turgor basıncı değişimlerine bağlı hızlı, uyarının yönünden bağımsız tepkiler ise 'Durum değiştirme' (Nasti) olarak sınıflandırılır.",
+        "3. Adım: Video kapsamında bitki hareketlerinin turgor basıncı ve büyüme (oksin hormonu) tabanlı olarak iki ana fizyolojik mekanizmaya dayandığı sonucuna ulaşılır."
+      ],
+      "result": "Bitkilerde temel tepki mekanizmaları, uyarının yönüne bağlı olan büyüme hareketleri (Yönelme/Tropizma) ve uyarının yönünden bağımsız turgor basıncı değişimleriyle oluşan anlık hareketlerdir (Durum Değiştirme/Nasti)."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Verilen bitki türlerinin (Akşamsefası, Domates, Söğüt, Kardelen, Düğün çiçeği, Küstüm otu, Fasulye, Sarmaşık) gerçekleştirdiği hareket çeşitlerinin ve bu hareketlerin ölçütlerinin (Durum değiştirme/Yönelme) belirlenmesi istenmektedir.",
+        "2. Adım: Nasti hareketleri yön bağımsız olup 'Durum değiştirme' ölçütüne girer; tropizma hareketleri yön bağımlı büyüme olup 'Yönelme' ölçütüne girer. Bitkilerin hareketleri ve ölçütleri:\n- Akşamsefası: Fotonasti -> Durum değiştirme\n- Domates bitkisi: Fototropizma -> Yönelme\n- Söğüt ağacı: Hidrotropizma -> Yönelme\n- Kardelen: Termonasti -> Durum değiştirme\n- Düğün çiçeği: Termonasti/Fotonasti -> Durum değiştirme\n- Küstüm otu: Sismonasti -> Durum değiştirme\n- Fasulye bitkisi: Fototropizma -> Yönelme\n- Sarmaşık: Haptotropizma -> Yönelme",
+        "3. Adım: Bitkiler ve gerçekleştirdikleri hareketlerin ait olduğu temel ölçütler (durum değiştirme/yönelme) listelenerek tablo tamamlanır."
+      ],
+      "result": "Akşamsefası: Fotonasti (Durum değiştirme), Domates: Fototropizma (Yönelme), Söğüt: Hidrotropizma (Yönelme), Kardelen: Termonasti (Durum değiştirme), Düğün çiçeği: Fotonasti (Durum değiştirme), Küstüm otu: Sismonasti (Durum değiştirme), Fasulye: Fototropizma (Yönelme), Sarmaşık: Haptotropizma (Yönelme)"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Tablodaki bitkilerin tepkisel hareketlerine neden olan 'Uyaran', 'Hareket Türü' ve 'Uyaranın Yönüne Bağlı mı? (Evet/Hayır)' bilgilerinin belirlenmesi istenmektedir.",
+        "2. Adım: Tropizma hareketlerinde uyaranın yönü belirleyici olduğundan 'Evet', Nasti hareketlerinde ise uyarının yönü önemsiz olduğundan 'Hayır' kuralı uygulanır:\n- Akşamsefası: Uyaran = Işık, Hareket = Fotonasti, Yönüne Bağlı mı = Hayır\n- Domates: Uyaran = Işık, Hareket = Fototropizma, Yönüne Bağlı mı = Evet\n- Söğüt: Uyaran = Su, Hareket = Hidrotropizma, Yönüne Bağlı mı = Evet\n- Kardelen: Uyaran = Sıcaklık, Hareket = Termonasti, Yönüne Bağlı mı = Hayır\n- Düğün çiçeği: Uyaran = Işık, Hareket = Fotonasti, Yönüne Bağlı mı = Hayır\n- Küstüm otu: Uyaran = Dokunma, Hareket = Sismonasti, Yönüne Bağlı mı = Hayır\n- Fasulye: Uyaran = Işık, Hareket = Fototropizma, Yönüne Bağlı mı = Evet\n- Sarmaşık: Uyaran = Dokunma, Hareket = Haptotropizma, Yönüne Bağlı mı = Evet",
+        "3. Adım: Her bitki için uyaran, hareket türü ve uyarana olan yön bağımlılığı durumları netleştirilerek tablo doldurulur."
+      ],
+      "result": "Akşamsefası: Işık - Fotonasti - Hayır; Domates: Işık - Fototropizma - Evet; Söğüt: Su - Hidrotropizma - Evet; Kardelen: Sıcaklık - Termonasti - Hayır; Düğün çiçeği: Işık - Fotonasti - Hayır; Küstüm otu: Dokunma - Sismonasti - Hayır; Fasulye: Işık - Fototropizma - Evet; Sarmaşık: Dokunma - Haptotropizma - Evet"
+    }
+  ],
+  "biyoloji-11_p40_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Bitkisel hormonlar ve uyarılar kapsamında 'Tepki Kontrol Noktası' başlığı altındaki temel yönelim (tropizma) mekanizmaları ve oksi hormonunun etki ilkeleri belirlenir.",
+        "2. Adım: Bitkilerde tek yönlü ışık uyarısına karşı gösterilen yönelim fototropizma olarak adlandırılır. Bu hareket, asimetrik oksin dağılımına bağlı olarak hücrelerin tek taraflı daha fazla uzaması ilkesine dayanır.",
+        "3. Adım: Bu tema altında fototropizma mekanizmasının hormon-ışık ilişkisi üzerinden analiz edileceği tespit edilir."
+      ],
+      "result": "Analiz Konusu: Bitkilerde Fototropizma ve Oksin Hormonunun Etkisi"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Deney görsellerinde yer alan bağımlı ve bağımsız değişkenler tanımlanır.",
+        "2. Adım: Deneyde bağımsız değişken ışığın varlığı ve yönü, bağımlı değişken ise bitkideki büyüme oranı ve yönelim (eğilme) hareketidir.",
+        "3. Adım: Deney koşulları altında karanlık ve ışıklı ortamların bitki gövde anatomisi üzerindeki etkileri karşılaştırılacaktır."
+      ],
+      "result": "Deney Parametreleri: Bağımsız değişken ışık yönü, Bağımlı değişken fototropizma yönelimidir"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Karanlık ortamda çimlenen bitkide büyüme (boyca uzama) gerçekleştiği halde yönelim (eğilme) olmamasının nedeni sorgulanmaktadır.",
+        "2. Adım: Yönelim hareketinin (tropizma) gerçekleşmesi için bitki gövdesinin iki tarafı arasında asimetrik büyüme olmalıdır. Asimetrik büyüme ise tek yönlü uyarıcı (ışık) etkisiyle oksin hormonunun asimetrik dağılmasıyla sağlanır. Karanlık ortamda tek yönlü bir ışık uyarısı bulunmadığından, uçta sentezlenen oksin hormonu gövdenin her tarafına homojen (eşit) olarak dağılır.",
+        "3. Adım: Eşit dağılan oksin hormonu gövdenin her bölgesindeki hücrelerin eşit miktarda uzamasını sağlar, bu da yönelim olmaksızın sadece dikine büyümeyle sonuçlanır."
+      ],
+      "result": "Cevap: Karanlık ortamda yönelim olmamasının nedeni, tek yönlü ışık uyarısı bulunmadığı için oksin hormonunun homojen dağılması ve asimetrik büyümenin gerçekleşmemesidir."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Karanlık ortamda büyüyen bitkilerin boyunun, ışıklı ortamda büyüyenlere göre daha uzun olmasının (etiyolasyon) fizyolojik nedeni incelenir.",
+        "2. Adım: Oksin hormonu büyüme ve hücre uzamasını uyarır, ancak ışık varlığında oksin miktarı azalır veya ışık alan tarafta büyüme baskılanır. Karanlık ortamda ışık etkisiyle oksin yıkımı gerçekleşmez ve yüksek konsantrasyonda kalan oksin hormonu hücrelerin boyca uzamasını maksimum düzeyde uyarır.",
+        "3. Adım: Bu durum bitkinin ışığa ulaşmak amacıyla boyunu hızla uzatmasına (etiyolasyon) yol açar."
+      ],
+      "result": "Cevap: Karanlıkta ışığın oksin hormonunu yıkıcı veya baskılayıcı etkisinin olmaması nedeniyle yüksek oksin konsantrasyonu hücrelerin boyca uzamasını hızlandırır."
+    }
+  ],
+  "biyoloji-11_p66_3": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Hayvan gruplarındaki sinir sistemi farklılıklarının ve gelişim basamaklarının (anolojik akıl yürütme) tespit edilmesi amaçlanmıştır.",
+        "2. Adım: Basitten gelişmişe doğru sinir sistemi organizasyonu modellenir: Süngerlerde sinir sistemi bulunmaz (kontrolsüz/lokal tepki), sölenterlerde ağsı sinir sistemi (tüm vücutla genel tepki), solucanlar ve eklembacaklılarda ise ip merdiven sinir sistemi (gangliyonlar ile daha hızlı ve lokalize tepki) bulunur.",
+        "3. Adım: Hayvanlarda sinir sisteminin evrimsel gelişimi basitten karmaşığa doğru organizasyonel bir artış gösterir."
+      ],
+      "result": "Sünger (Sinir sistemi yok) < Sölenter (Ağsı sinir sistemi) < Solucanlar (İp merdiven) < Eklem Bacaklılar (Gelişmiş ip merdiven ve gangliyon)"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Omurgasız hayvan şubelerine ait görsel ve videolardaki sinir sistemi anatomik yapılarının gruplandırılması istenir.",
+        "2. Adım: Görsellerdeki veriler analiz edildiğinde: Süngerlerde özelleşmiş sinir hücresi yoktur; hidra gibi sölenterlerde sinir hücreleri tüm vücuda ağ gibi yayılmıştır; plonarya (yassı solucan) ve böceklerde (eklem bacaklılar) ise çiftler halinde uzanan sinir şeritleri ve baş bölgesinde yoğunlaşan gangliyonlar (sinir düğümleri) bulunur.",
+        "3. Adım: Omurgasızlardaki temel sinir sistemi tiplerinin yapısal eşleştirmeleri belirlenmiştir."
+      ],
+      "result": "Sünger: Sinir sistemi yok, Sölenter: Ağsı sinir sistemi, Yassı Solucan ve Eklem Bacaklı: İp merdiven sinir sistemi"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Sinir sistemi organizasyon düzeyinin, baş bölgesinde merkezileşmenin (sefalizasyon) ve duyu organlarının gelişiminin uyarılara verilen tepki niteliğine olan etkisi incelenir.",
+        "2. Adım: Ağsı sinir sisteminde lokal bir uyarı tüm vücuda yayıldığından tepki genel ve yavaştır. İp merdiven sinir sisteminde ise baş bölgesindeki gangliyonlar (ilkel beyin) ve duyu organları uyarının yönünü, şiddetini hızlıca analiz ederek lokalize ve amaca yönelik hızlı tepki verilmesini sağlar.",
+        "3. Adım: Özelleşmiş yapıların (gangliyon/beyin) varlığının tepki verme mekanizmasını daha koordineli ve hızlı hale getirdiği netleştirilir."
+      ],
+      "result": "Sefalizasyon (merkezileşme) arttıkça uyarılara verilen tepkilerin hızı, yönü ve özelleşme derecesi artar."
+    }
+  ],
+  "biyoloji-11_p71_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Bulmaca sorularının çözümü yapılarak renkli dairelerdeki şifreli harfler belirlenmelidir. Şifre haneleri 5, 3, 9, 2 ve 11. sıradaki harflerden oluşmaktadır.",
+        "2. Adım: Bulmacanın çözümü olan 'Halkalı solucanlar', 'Gangliyon' ve 'Sölenterler' kelimelerinden elde edilen harfler sırasıyla dizildiğinde biyoloji dersiyle ilgili olan anahtar kelime oluşturulur.",
+        "3. Adım: Şifre kelimesi 'SİNİR' olarak elde edilir."
+      ],
+      "result": "Şifre: SİNİR"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Her vücut segmentinde bir çift gangliyon ve bunları birbirine bağlayan sinir şeritleri bulunan canlı grubunun tespit edilmesi istenmektedir.",
+        "2. Adım: Segmentli vücut yapısına ve merdiven sinir sistemine sahip olan, her segmentinde bir gangliyon çifti bulunduran omurgasız canlı grubu halkalı solucanlardır (Annelida).",
+        "3. Adım: Netice itibarıyla bu canlı grubu halkalı solucanlardır."
+      ],
+      "result": "Cevap: Halkalı solucanlar"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Sinir hücrelerinin (nöronların) gövdelerinin merkezi sinir sistemi dışında bir araya gelerek oluşturduğu düğümlerin adı aranmaktadır.",
+        "2. Adım: Çevresel sinir sisteminde nöron gövdelerinin kümelenmesiyle oluşan bu özelleşmiş düğüm yapılarına gangliyon adı verilir.",
+        "3. Adım: Bu yapıların bilimsel adı gangliyondur."
+      ],
+      "result": "Cevap: Gangliyon"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Hayvanlar aleminde sinir sistemine ve sinir hücrelerine evrimsel olarak ilk kez rastlanan filum veya grubun belirlenmesi istenmektedir.",
+        "2. Adım: İlk özelleşmiş sinir hücreleri ve hidra gibi canlılarda görülen ağsı (diffüz) sinir sistemi sölenterler (Cnidaria) grubunda ortaya çıkmıştır.",
+        "3. Adım: İlk sinir hücresine rastlanan hayvan grubu sölenterlerdir."
+      ],
+      "result": "Cevap: Sölenterler"
+    }
+  ],
+  "biyoloji-11_p74_3": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Bu soruda sinir sisteminin dış uyarılara karşı tepki oluşturma (refleks) sürecindeki temel işleyiş sırasının belirlenmesi hedeflenmektedir.",
+        "2. Adım: Dış çevreden gelen uyarı reseptör hücresiyle algılanır. Oluşan impuls, sırasıyla duyu nöronu, merkezi sinir sistemindeki ara nöron ve motor nöron üzerinden geçerek tepki organına (kas veya bez) iletilir.",
+        "3. Adım: Tepki oluşumundaki işlevsel sıra: Reseptör -> Duyu Nöronu -> Ara Nöron -> Motor Nöron -> Efektör Organ şeklindedir."
+      ],
+      "result": "Cevap: Reseptör -> Duyu Nöronu -> Ara Nöron -> Motor Nöron -> Efektör"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Soruda insan sinir sistemini oluşturan temel kısımların belirlenmesi ve görevlerinin özetlenmesi istenmektedir.",
+        "2. Adım: Sinir sistemi, bilgi işleme merkezi olan Merkezi Sinir Sistemi (Beyin ve Omurilik) ile iç/dış çevre ile merkez arasında bağlantı kuran Çevresel Sinir Sistemi (Duyu ve Motor Bölümü) şeklinde organize olur.",
+        "3. Adım: Sinir sistemi anatomik ve fizyolojik olarak Merkezi Sinir Sistemi ve Çevresel Sinir Sistemi olmak üzere iki ana bölümden oluşmaktadır."
+      ],
+      "result": "Cevap: Sinir sistemi; Merkezi Sinir Sistemi ve Çevresel Sinir Sistemi olmak üzere iki ana bölümden oluşur."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Verilen bilgi kartlarından yola çıkılarak duyu, ara ve motor nöronların sinirsel ağdaki görev dağılımlarının ve impuls iletim yönünün netleştirilmesi gerekmektedir.",
+        "2. Adım: Duyu nöronu uyartıyı merkezi sinir sistemine taşır. Ara nöron merkezi sinir sisteminde yer alır ve bu uyartıyı değerlendirip cevap hazırlar. Motor nöron ise hazırlanan cevabı efektör organa (kas veya salgı bezi) iletir.",
+        "3. Adım: Bilgi akışının yönü sırasıyla; Duyu Nöronu -> Ara Nöron -> Motor Nöron şeklindedir."
+      ],
+      "result": "Cevap: Duyu Nöronu -> Ara Nöron -> Motor Nöron"
+    }
+  ],
+  "biyoloji-11_p77_1": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilen metin ve görsel incelendiğinde, motor nöronların işlevi ara nöronda (merkezî sinir sisteminde) oluşturulan yanıtı efektör organa (kas veya bez) iletmektir. Sorulan durum ise motor nöronların zarar görmesi veya botoks ile bloke edilmesi durumunda ne gibi bir sonucun ortaya çıkacağıdır.",
+        "2. Adım: Refleks yayının ve sinirsel iletimin kuralı şu şekildedir: Uyaran -> Reseptör -> Duyu Nöronu -> Ara Nöron -> Motor Nöron -> Efektör Organ. Eğer motor nöron zarar görür veya iletim engellenirse (botoks örneğindeki gibi); duyu nöronu uyarıyı alır, ara nöron değerlendirir ve cevabı hazırlar, ancak bu cevap motor nöron aracılığıyla kas veya bez gibi efektör organa iletilemez.",
+        "3. Adım: Sonuç olarak, birey uyarının acısını veya hissini (duyu ve ara nöron çalıştığı için) algılar fakat tepki organı olan kasını hareket ettiremez veya kasılma/salgılama tepkisi veremez."
+      ],
+      "result": "Cevap: Duyu algılanır ve merkezî sinir sisteminde değerlendirilir, ancak motor nöron çalışmadığı için efektör organ (tepki organı) tepki veremez."
+    }
+  ],
+  "biyoloji-11_p83_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilen görev, biyoloji ders kitabındaki tanımları doğru kavramlarla eşleştirmektir.",
+        "2. Adım: Takip eden sorularda ayrıntılı olarak çözümlenen tanımlar incelenerek her bir tanımın karşılık geldiği biyolojik kavram tespit edilecektir.",
+        "3. Adım: Tanımların sırasıyla Hipotalamus, Talamus ve Beyin Zarları (Meningens) kavramları ile eşleştiği saptanmıştır."
+      ],
+      "result": "Cevap: Hipotalamus, Talamus, Beyin Zarları (Meningens)"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Vücudun iç dengesini (homeostasi), yani açlık, tokluk, su dengesi ve vücut sıcaklığını kontrol eden beyin bölgesi sorulmaktadır.",
+        "2. Adım: Ara beyinde yer alan, otonom sinir sistemini ve hormonal sistemi (hipofiz bezi aracılığıyla) düzenleyerek iç dengeyi sağlayan merkez hipotalamustur.",
+        "3. Adım: Tanımlanan bu özel beyin bölgesi Hipotalamus olarak belirlenmiştir."
+      ],
+      "result": "Cevap: Hipotalamus"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Koku duyusu hariç diğer tüm duyulardan gelen uyarıların toplandığı, sınıflandırıldığı ve uç beyne iletildiği merkez sorulmaktadır.",
+        "2. Adım: Ara beyinde bulunan talamus, koku duyusu dışındaki tüm duyusal bilgilerin uç beyindeki ilgili merkezlere gönderilmeden önce uğradığı ve sınıflandırıldığı bölümdür.",
+        "3. Adım: Tanımı yapılan bu duyu sınıflandırma merkezi Talamus olarak belirlenmiştir."
+      ],
+      "result": "Cevap: Talamus"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Kafatasının hemen altında yer alarak merkezi sinir sistemini koruyan dıştan içe sert zar, örümceksi zar ve ince zardan oluşan yapının genel adı sorulmaktadır.",
+        "2. Adım: Beyin ve omuriliği çevreleyen, darbelere karşı koruyan ve beslenmesini sağlayan bu üç tabakalı koruyucu zar sistemine meningens denir.",
+        "3. Adım: Tanımı yapılan koruyucu sistemin genel adı Beyin Zarları (Meningens) olarak belirlenmiştir."
+      ],
+      "result": "Cevap: Beyin Zarları (Meningens)"
+    }
+  ],
+  "biyoloji-11_p86_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Metinde verilen refleks çeşitleri ve nöron mekanizmaları incelenerek iki nöronlu ve üç nöronlu refleks yaylarının yapısal elemanları belirlenir.",
+        "2. Adım: İki nöronlu refleks yayının (diz kapağı refleksi) mekanizması formüle edilir: Reseptör -> Duyu Nöronu -> Sinaps -> Motor Nöron -> Efektör. Üç nöronlu refleks yayı mekanizması ise: Reseptör -> Duyu Nöronu -> Ara Nöron -> Motor Nöron -> Efektör şeklindedir.",
+        "3. Adım: İki nöronlu refleks yayında ara nöron bulunmadığı için doğrudan omurilikte duyu ve motor nöron arasında sinaps gerçekleştiği sonucu netleştirilir."
+      ],
+      "result": "Diz kapağı refleksi iki nöronlu (duyu ve motor nöron) bir refleks yayıdır; yapısında ara nöron bulunmaz."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Etkinliğin amacına yönelik olarak vücuttaki reflekslerin sınıflandırılması için gerekli kriterler (kalıtsal ve kazanılmış refleksler) belirlenir.",
+        "2. Adım: Kalıtsal (doğuştan gelen) reflekslerin merkezi omurilik (örn. diz kapağı), orta beyin (örn. göz bebeği refleksi) ve omurilik soğanıdır (örn. yutkunma, öksürme). Kazanılmış refleksler ise uç beyinde öğrenilip omuriliğe devredilen davranışlardır (örn. bisiklet sürmek).",
+        "3. Adım: Reflekslerin biyolojik amacı homeostaziyi (iç dengeyi) korumak ve organizmanın hayatta kalma şansını artırmaktır."
+      ],
+      "result": "Refleksler; Kalıtsal (Omurilik, Orta Beyin, Omurilik Soğanı kontrollü) ve Kazanılmış (Öğrenilmiş, Omurilik kontrollü) olmak üzere iki ana gruba ayrılır."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Diz kapağı refleksi videosundaki mekanik uyarının (tendona vurulma) oluşturduğu elektriksel yol izlenir.",
+        "2. Adım: Diz kapağı altındaki patella tendonuna vurulduğunda üst uyluk kasındaki (kuadriseps) gerilme reseptörleri (kas iğciği) uyarılır. Bu uyarı duyu nöronu boyunca aksiyon potansiyeli olarak omuriliğe taşınır.",
+        "3. Adım: İmpuls omuriliğin arka kökünden (dorsal) giriş yapar ve doğrudan motor nöronla sinaps oluşturarak ön kökten (ventral) çıkış yapar."
+      ],
+      "result": "Diz kapağı refleksinin impuls iletim sırası: Reseptör (Kas İğciği) -> Duyu Nöronu -> Omurilik (Sinaps) -> Motor Nöron -> Efektör (Kuadriseps Kası)."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Diz kapağı refleksinde görev alan tüm elemanlar sırasıyla listelenir: Patella tendonu reseptörü, duyu nöronu, omurilik gri maddesi (sinaps bölgesi), motor nöron ve bacak kası (efektör).",
+        "2. Adım: Çalışma mekanizması adım adım modellenir: Tendona hafifçe vurulur -> Gerilen kas iğciği duyu nöronunu uyarır -> Duyu nöronu impulsu omuriliğe iletir -> Omurilikte ara nöron olmadan doğrudan motor nörona aktarım yapılır -> Motor nöron bacak kasını (kuadriseps) uyararak kasılmasını sağlar -> Bacak ileriye doğru fırlar.",
+        "3. Adım: Elde edilen bu akış şeması diz kapağı refleks yayının tam çalışma mekanizmasını oluşturur."
+      ],
+      "result": "Diz kapağı refleksi yayı şeması: Tendon Reseptörü -> Duyu Nöronu -> Omurilik (Ara nöronsuz doğrudan sinaps) -> Motor Nöron -> Bacak Kası (Efektör kasılması ve bacağın ileri hareketi)."
+    }
+  ],
+  "biyoloji-11_p87_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilen durum, sıcak bir nesneye dokunulduğunda elin aniden çekilmesi (refleks) olayıdır. Sorulan husus, bu refleks yayının genel işleyiş mekanizması ve motor nöronun bu süreçteki görevidir.",
+        "2. Adım: Biyolojik kurala göre bir refleks yayı; Reseptör -> Duyu Nöronu -> Ara Nöron (Merkezi Sinir Sistemi) -> Motor Nöron -> Efektör (Tepki Organı) sırasını takip eder. Motor nöron, ara nöronda (omurilikte) sentezlenen değerlendirme ve tepki sinyalini efektör organa iletmekle görevlidir.",
+        "3. Adım: Motor nöronun uyarılmasıyla efektör kaslar kasılır ve el otomatik olarak çekilir. Bu sayede homeostasi korunur ve vücut zarar görmekten kaçınır."
+      ],
+      "result": "Cevap: Motor nöron, omurilikteki ara nöronda oluşan tepkiyi efektör organa (kola/kaslara) ileterek elin çekilmesini gerçekleştirir."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Verilen durum, sıcak nesneyle temas eden derideki reseptörlerin uyarılmasıdır. Sorulan husus, bu ilk aşamadaki impuls (uyartı) oluşum mekanizmasıdır.",
+        "2. Adım: Biyolojik kurala göre, uyarının (sıcaklık) şiddeti eşik değer ve üzerinde ise deride bulunan termoreseptörler uyarılır. Bu durum reseptör hücresinde veya duyu nöronunun dendrit ucunda depolarizasyona (zar potansiyeli değişimine) yol açarak aksiyon potansiyeli başlatır.",
+        "3. Adım: Isı enerjisi, sinir sisteminde iletilebilecek elektrokimyasal bir sinyal olan impulsa dönüştürülmüş olur."
+      ],
+      "result": "Cevap: Eşik değer ve üzerindeki sıcaklık uyarısı, derideki termoreseptörlerde elektrokimyasal değişikliğe yol açarak ilk impulsu başlatır."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Verilen durum, reseptörde oluşan uyarının duyu nöronuna aktarılmasıdır. Sorulan husus, bu iletimin yönü ve niteliğidir.",
+        "2. Adım: Biyolojik kurala göre reseptör ile duyu nöronu arasındaki bağlantı bölgesinde (sinaps) nörotransmitter maddeler aracılığıyla kimyasal iletim gerçekleşir. Duyu nöronunun hücre gövdesi uyarılır ve impuls duyu nöronunun aksonu boyunca elektrokimyasal olarak ilerler.",
+        "3. Adım: Duyu nöronu (getirici nöron), impulsu periferik sinir sisteminden merkezi sinir sistemine (omuriliğe) doğru kesintisiz taşır."
+      ],
+      "result": "Cevap: Duyu nöronu, reseptörden aldığı impulsu aksiyon potansiyeli şeklinde omuriliğin arka (dorsal) köküne iletir."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Verilen durum, duyu nöronunun impulsu omurilikteki ara nörona getirmesi ve orada tepki oluşmasıdır. Sorulan husus, ara nöronun görevidir.",
+        "2. Adım: Biyolojik kurala göre omuriliğin gri maddesinde yer alan ara nöronlar, duyu nöronlarından gelen bilgiyi değerlendirir (entegrasyon/analiz). Bu değerlendirme sonucunda uygun tepki (cevap) oluşturulur.",
+        "3. Adım: Oluşturulan bu cevap, sinaps yoluyla omuriliğin ön (ventral) kökünden çıkacak olan motor nörona aktarılır."
+      ],
+      "result": "Cevap: Ara nöron gelen impulsu değerlendirip analiz eder ve motor nörona iletilmek üzere uygun tepki sinyalini oluşturur."
+    }
+  ],
+  "biyoloji-11_p90_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilen '1. Tema / Tepki Çalışma Yaprağı' başlığının hangi biyolojik üniteyi ve konuyu kapsadığını belirle.",
+        "2. Adım: 11. Sınıf MEB müfredatında yer alan denetleyici ve düzenleyici sistemler, duyu organları ve destek-hareket sisteminin tepki mekanizmalarını içeren genel fizyolojik kuralları açıkla.",
+        "3. Adım: Çalışma yaprağının ana konusunun insanda destek, hareket ve tepki mekanizmaları olduğunu saptayarak sonucu yaz."
+      ],
+      "result": "Cevap: Destek ve Hareket Sistemi (Tepki Mekanizmaları)"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: İskelet ve kas sistemini oluşturan kıkırdak doku, oynar eklem, düz kas, oynamaz eklem, yarı oynar eklem ve çizgili kas yapılarının vücuttaki konumlarını tespit et.",
+        "2. Adım: Her bir yapının insan vücudunda bulunduğu tipik organları veya bölgeleri biyolojik kurallara göre belirle: Kıkırdak doku burun/kulakta, oynar eklem dizde, düz kas midede, oynamaz eklem kafatasında, yarı oynar eklem omurgada, çizgili kas ise kolda bulunur.",
+        "3. Adım: Belirlenen organları yapısal eşleşmeleriyle netleştirerek sırala."
+      ],
+      "result": "Kıkırdak doku: Kulak kepçesi, Oynar eklem: Diz eklemi, Düz kas: Mide, Oynamaz eklem: Kafatası, Yarı oynar eklem: Omurlar arası eklemler, Çizgili kas: Kol kası (Biceps)"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Çizgili kaslar ile düz kasların çalışma prensiplerini karşılaştır. Çizgili kaslar hızlı ve istemli (somatik) çalışırken, düz kaslar yavaş, ritmik ve istemsiz (otonom) çalışır.",
+        "2. Adım: Kol ve bacaklardaki kasların düz kas olması durumunda, bu üyelerin otonom sinir sistemi kontrolüne gireceğini ve kasılma hızlarının büyük ölçüde düşeceğini analiz et.",
+        "3. Adım: Bu durumun istemli ve hızlı hareket etmeyi imkansız hale getireceğini saptayarak sonucu yaz."
+      ],
+      "result": "Cevap: İstemli hareket yeteneği kaybedilir, vücut hareketleri aşırı derecede yavaşlar ve istemsiz hale gelirdi."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Kalp kasının ve çizgili kasın yorulma ve çalışma mekanizmalarını karşılaştır. Çizgili kaslar hızlı çalışıp çabuk yorulurken, kalp kası otonomdur, yorulmaz ve hayat boyu aralıksız çalışır.",
+        "2. Adım: Kalbin çizgili kas yapısında olması durumunda, kasın laktik asit biriktireceğini, somatik kontrole açık olacağını ve hızlı çalışmadan dolayı çok kısa sürede yorulup duracağını analiz et.",
+        "3. Adım: Kalbin durmasının doğrudan organizmanın ölümüyle sonuçlanacağını belirterek kesin sonucu yaz."
+      ],
+      "result": "Cevap: Kalp kası çok çabuk yorulur, ritmik çalışamaz ve durarak ölüme neden olurdu."
+    }
+  ],
+  "biyoloji-11_p98_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Metindeki verileri analiz ediyorum. Hastanın uzun süre hareketsiz kalması nedeniyle kaslarında zayıflama, eklemlerinde hareket kısıtlılığı ve kemik yoğunluğunda azalma meydana gelmiştir. Sorulan durum, düzenli egzersiz ve hareketin bu dokularda nasıl bir etki oluşturduğudur.",
+        "2. Adım: Biyolojik kurallara göre, iskelet ve kas sistemi kullanılmadığında erimeye (atrofiye) uğrar. Mekanik yüklenme ve hareket (egzersiz) ise kas proteinlerinin sentezini artırır, osteoblast hücrelerini uyararak kemiklere kalsiyum çökelmesini (kemik yoğunluğu artışını) sağlar ve eklem kapsülünün esnekliğini artırır.",
+        "3. Adım: Düzenli egzersizin, zayıflayan kasları güçlendirerek, kemik yoğunluğunu kısmen iyileştirerek ve eklem hareket açıklığını artırarak hastanın günlük aktivitelerini güvenli yapmasını sağladığı sonucuna ulaşıyorum."
+      ],
+      "result": "Egzersiz ve hareket, kas-iskelet sisteminin doku bütünlüğünü koruması ve fonksiyonel kapasitesini artırması için gereklidir."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Harekete dayalı tepkinin gerçekleşmesinde iskelet (kemik), kas ve eklem dokularının rollerini belirliyorum. Kaslar aktif, kemik ve eklemler ise pasif hareket elemanlarıdır.",
+        "2. Adım: Destek ve hareket kurallarına göre, çizgili kasların kasılmasıyla oluşan kuvvet, tendonlar (kas kirişleri) aracılığıyla kemiklere iletilir. Kemikler eklem noktalarından birbirine bağlı olduğu için, kas gücüyle eklemler etrafında dönme hareketi gerçekleşir. Kıkırdak doku ise eklem yüzeyinde sürtünmeyi önleyerek kemiklerin aşınmasını engeller.",
+        "3. Adım: Bu üç dokunun birbiriyle doğrudan ve ardışık bir ilişki içinde çalışarak hareketi gerçekleştirdiğini saptıyorum."
+      ],
+      "result": "Kasların kasılmasıyla üretilen kuvvet, tendonlar aracılığıyla kemiklere iletilir ve eklemler etrafında dönme hareketi oluşturarak harekete dayalı tepkiyi gerçekleştirir."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Kas, kemik ve eklemlerin egzersiz sonrası eş güdümlü çalışmasının önemi ve bu çalışmanın hareketi nasıl sağlıklı hale getirdiği sorulmaktadır.",
+        "2. Adım: Biyomekanik kurallara göre, agonist ve antagonist kaslar arasındaki sinirsel koordinasyon, eklem yüzeylerine dengeli yük dağılmasını sağlar. Eş güdümlü çalışma sayesinde sinovyal sıvı salınımı düzenlenir, eklem aşınmaları önlenir ve kemiklere aşırı stres binmesi engellenir. Bu da hareketin daha az enerjiyle ve pürüzsüz yapılmasını sağlar.",
+        "3. Adım: Eş güdümlü çalışmanın hareketi daha güvenli, dengeli ve minimum sürtünme ile gerçekleştirdiğini belirliyorum."
+      ],
+      "result": "Eş güdümlü çalışma, hareketin dengeli ve verimli olmasını sağlayarak eklem aşınmalarını ve sakatlanma riskini önler, günlük aktivitelerin güvenle yapılmasını sağlar."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Kemik ve kıkırdak dokunun yapısal özelliklerini karşılaştırmam istenmektedir. Dokuların hücre tipleri, ara maddeleri, kapsül, lakün, damar ve kanal durumları incelenmelidir.",
+        "2. Adım: Biyoloji kurallarına göre karşılaştırma parametrelerini yazıyorum: Kemik dokuda hücreler osteosit, ara madde osein, hücreler lakün içinde bulunur, kapsül yoktur, kan damarı ve sinir barındıran Havers ile Volkmann kanalları vardır. Kıkırdak dokuda hücreler kondrosit, ara madde kondrin, hücreler lakün içinde ve kapsüllüdür, kan damarı ve sinir bulunmaz (perikondriyumdan difüzyonla beslenir), Havers ve Volkmann kanalları yoktur.",
+        "3. Adım: Dokuların ayırt edici yapısal özelliklerini netleştirerek sonuca döküyorum."
+      ],
+      "result": "Kemik doku: Hücreleri osteosit, ara maddesi osein, lakün var, kapsül yok, kan damarı/sinir var, Havers/Volkmann kanalları var. Kıkırdak doku: Hücreleri kondrosit, ara maddesi kondrin, kapsül ve lakün var, kan damarı/sinir yok, Havers/Volkmann kanalları yok."
+    }
+  ],
+  "biyoloji-11_p100_1": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Soruda, iskelet kaslarının hareketi oluştururken nasıl bir çalışma mekanizmasına sahip olduğunun açıklanması istenmektedir.",
+        "2. Adım: İskelet kasları çoğunlukla birbirine zıt çalışan (antagonist) çiftler halinde bulunur. Örneğin kol büküldüğünde ön pazı kası (bükücü) kasılırken arka kol kası (açıcı) gevşer. Bazı kas grupları ise aynı yönde birlikte (sinerjit) çalışır.",
+        "3. Adım: Kaslar sadece çekme kuvveti uygulayabilir, itme yapamaz. Dolayısıyla kemiklerin hareket edebilmesi için antagonist kaslardan birinin kasılıp boyunun kısalması, diğerinin ise gevşeyip uzaması gerekir. Bu koordineli çalışma sayesinde eklemler bükülür veya açılır, böylece hareket oluşur."
+      ],
+      "result": "Cevap: Hareket, iskelet kaslarının zıt çalışan (antagonist) veya aynı yönde çalışan (sinerjit) kas gruplarının koordineli olarak kasılıp gevşemesi ve tendonlar aracılığıyla kemikleri çekmesiyle gerçekleşir."
+    }
+  ],
+  "biyoloji-11_p61_2": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Soruda miyelin kılıfın aksonu oluşturup oluşturmadığı sorulmaktadır.",
+        "2. Adım: Miyelin kılıf akson uzantısını oluşturmaz; glia hücreleri (Schwann hücreleri ve oligodendrositler) tarafından aksonun etrafını sarmak üzere üretilen yalıtkan bir örtüdür.",
+        "3. Adım: İfade yanlıştır. Doğru ifade: Miyelin kılıf, glia hücreleri tarafından oluşturularak aksonun etrafını sarar."
+      ],
+      "result": "Yanlış (Y) - Doğrusu: Miyelin kılıf, aksonun etrafını saran yalıtkan bir örtüdür, aksonu oluşturmaz."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Soruda akson çapı ile impuls iletim hızı arasındaki ilişki sorulmaktadır.",
+        "2. Adım: Akson çapı arttıkça iç direnç azalır. Bu durum, aksondaki elektriksel yükün akış hızını, dolayısıyla impuls (uyartı) iletim hızını artırır.",
+        "3. Adım: İfade yanlıştır. Doğru ifade: Akson çapı ne kadar büyükse iletim hızı o kadar hızlı olur."
+      ],
+      "result": "Yanlış (Y) - Doğrusu: Akson çapı ne kadar büyükse iletim hızı o kadar hızlı (yüksek) olur."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Nörondaki uyartı iletiminin mekanizması incelenir.",
+        "2. Adım: İmpuls iletimi elektrokimyasal bir süreçtir. Sodyum-potasyum pompasının çalışması ve iyon geçişleri elektriksel değişimleri; solunum, ATP tüketimi ve aktif taşıma ise kimyasal değişimleri oluşturur.",
+        "3. Adım: İfade doğrudur."
+      ],
+      "result": "Doğru (D)"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Eşik şiddetinin üzerindeki uyarıların impuls sayısına etkisi incelenir.",
+        "2. Adım: Sinir telinde uyarı şiddeti arttıkça sinir hücresinin uyarılma sıklığı ve birim zamanda oluşan impuls (uyartı) sayısı artar.",
+        "3. Adım: İfade doğrudur."
+      ],
+      "result": "Doğru (D)"
+    },
+    {
+      "question_index": 5,
+      "steps": [
+        "1. Adım: Bir nöronun diğer nöronlarla yapabileceği bağlantı sayısı incelenir.",
+        "2. Adım: Bir nöron, dendritleri aracılığıyla çok sayıda farklı nörondan gelen akson uçlarıyla sinaps yapabilir ve çoklu bilgi girdisi alabilir.",
+        "3. Adım: İfade yanlıştır. Doğru ifade: Bir nöron birden fazla nörondan bilgi alabilir."
+      ],
+      "result": "Yanlış (Y) - Doğrusu: Bir nöron çok sayıda farklı nörondan bilgi alabilir."
+    },
+    {
+      "question_index": 6,
+      "steps": [
+        "1. Adım: Sinapstaki iletim hızı ile nörondaki iletim hızı karşılaştırılır.",
+        "2. Adım: Nöronda iletim elektriksel (iyon hareketleriyle) gerçekleşirken, sinapstaki iletim kimyasal (nörotransmitter maddelerin difüzyonu ile) gerçekleşir. Kimyasal iletim elektriksel iletime göre belirgin şekilde daha yavaştır.",
+        "3. Adım: İfade doğrudur."
+      ],
+      "result": "Doğru (D)"
+    },
+    {
+      "question_index": 7,
+      "steps": [
+        "1. Adım: Tek bir sinir telinde uyarı şiddetinin impuls kuvveti ve hızı üzerindeki etkisi incelenir.",
+        "2. Adım: Tek bir sinir teli 'ya hep ya hiç' prensibine göre çalışır. Eşik değer ve üzerindeki uyarılara her zaman aynı maksimum tepkiyi verir; impulsun hızı, şiddeti ve genliği değişmez.",
+        "3. Adım: İfade yanlıştır. Doğru ifade: Eşik şiddetinden daha kuvvetli uyarı, tek bir sinir telinde uyartının kuvvetini ve iletim hızını değiştirmez."
+      ],
+      "result": "Yanlış (Y) - Doğrusu: Sinir telinde uyarı eşik şiddetinden yüksek olsa da uyartının kuvveti, genliği ve iletim hızı değişmez."
+    },
+    {
+      "question_index": 8,
+      "steps": [
+        "1. Adım: Östaki borusunun fonksiyonu ve kulak zarı üzerindeki etkisi incelenir.",
+        "2. Adım: Östaki borusu, orta kulak boşluğu ile yutak arasında bağlantı kurarak kulak zarının her iki tarafındaki hava basıncını dengeler ve yüksek seslerde zarın yırtılmasını engeller.",
+        "3. Adım: İfade doğrudur."
+      ],
+      "result": "Doğru (D)"
+    },
+    {
+      "question_index": 9,
+      "steps": [
+        "1. Adım: Gözün tabakalarının dıştan içe doğru sıralanışı incelenir.",
+        "2. Adım: Gözü oluşturan tabakalar dıştan içe doğru: sert tabaka (sklera), damar tabaka (koroit) ve ağ tabaka (retina) olarak sıralanır.",
+        "3. Adım: İfade yanlıştır. Doğru ifade: Gözün tabakaları dıştan içe doğru sert tabaka, damar tabaka ve ağ tabaka şeklinde sıralanır."
+      ],
+      "result": "Yanlış (Y) - Doğrusu: Gözün tabakaları dıştan içe doğru sert tabaka, damar tabaka ve ağ tabaka şeklinde sıralanır."
+    },
+    {
+      "question_index": 10,
+      "steps": [
+        "1. Adım: Deride bulunan reseptör tipleri incelenir.",
+        "2. Adım: Deride dokunma, basınç, sıcaklık ve ağrı gibi duyuları algılayan mekanoreseptörler ve termoreseptörler bulunur. Işığı algılayan fotoreseptörler ise yalnızca gözde yer alır.",
+        "3. Adım: İfade yanlıştır. Doğru ifade: Deri, mekanoreseptör ve termoreseptörlere sahiptir."
+      ],
+      "result": "Yanlış (Y) - Doğrusu: Deride ışık alan fotoreseptörler bulunmaz; mekanoreseptörler ve termoreseptörler bulunur."
+    },
+    {
+      "question_index": 11,
+      "steps": [
+        "1. Adım: Vücut sıcaklığının algılanma ve değerlendirilme merkezleri incelenir.",
+        "2. Adım: Deri vücut sıcaklığını algılayan termoreseptörlere sahiptir fakat bu bilginin değerlendirildiği ve düzenlendiği kontrol merkezi beyindeki hipotalamustur.",
+        "3. Adım: İfade yanlıştır. Doğru ifade: Deri, vücut sıcaklığının algılandığı reseptörleri barındırır; değerlendirildiği merkez ise hipotalamustur."
+      ],
+      "result": "Yanlış (Y) - Doğrusu: Vücut sıcaklığının değerlendirildiği ve kontrol edildiği merkez beyindeki hipotalamustur."
+    },
+    {
+      "question_index": 12,
+      "steps": [
+        "1. Adım: Kulakta ses dalgalarının izlediği yol incelenir.",
+        "2. Adım: Ses dalgaları ile ilk karşılaşan yapı dış kulakta bulunan kulak kepçesidir. Kulak kepçesi ses dalgalarını toplayarak kulak yolu vasıtasıyla kulak zarına iletir.",
+        "3. Adım: İfade yanlıştır. Doğru ifade: Duyma olayında ses dalgaları ile ilk karşılaşan yapı kulak kepçesidir."
+      ],
+      "result": "Yanlış (Y) - Doğrusu: Ses dalgaları ile ilk karşılaşan yapı kulak kepçesidir."
+    },
+    {
+      "question_index": 13,
+      "steps": [
+        "1. Adım: Yaş ilerlemesine bağlı olarak dildeki tat tomurcuğu (papilla) sayısı incelenir.",
+        "2. Adım: Yaşlandıkça tat tomurcuklarının rejenerasyon yeteneği azalır ve toplam sayısı düşer. Bu nedenle çocukların dillerinde aktif tat tomurcuğu sayısı yetişkinlere göre daha fazladır.",
+        "3. Adım: İfade doğrudur."
+      ],
+      "result": "Doğru (D)"
+    },
+    {
+      "question_index": 14,
+      "steps": [
+        "1. Adım: Işık dalgalarının fiziksel doğası ve fotoreseptörlerin sınıflandırılması incelenir.",
+        "2. Adım: Işık, elektromanyetik spektrumun bir parçasıdır. Gözde bulunan fotoreseptörler elektromanyetik radyasyonu (ışığı) algıladıkları için elektromanyetik reseptör grubunda yer alırlar.",
+        "3. Adım: İfade doğrudur."
+      ],
+      "result": "Doğru (D)"
+    },
+    {
+      "question_index": 15,
+      "steps": [
+        "1. Adım: Kulaktaki yapıların işitme ve denge görevleri incelenir.",
+        "2. Adım: Kohlear kanal işitme organı olan Corti organını barındırır ve işitme ile ilgilidir. Yarım daire kanalları, kesecik ve tulumcuk ise denge ile ilgili yapılardır.",
+        "3. Adım: İfade yanlıştır. Doğru ifade: Kohlear kanal işitme ile ilgiliyken; kesecik, tulumcuk ve yarım daire kanalları vücut dengesi ile ilgilidir."
+      ],
+      "result": "Yanlış (Y) - Doğrusu: Kohlear kanal işitme ile ilgili bir yapıdır, dengeyle ilgili değildir."
+    },
+    {
+      "question_index": 16,
+      "steps": [
+        "1. Adım: Vücuttaki kemoreseptörlerin dağılımı incelenir.",
+        "2. Adım: Kimyasal maddelerin sıvı içinde çözünerek algılanmasını sağlayan kemoreseptörler, koku duyusu için burundaki sarı bölgede ve tat duyusu için dildeki tat tomurcuklarında yer alır.",
+        "3. Adım: İfade doğrudur."
+      ],
+      "result": "Doğru (D)"
+    },
+    {
+      "question_index": 17,
+      "steps": [
+        "1. Adım: Retina tabakasındaki ışık algılayıcı reseptör çeşitleri incelenir.",
+        "2. Adım: Gözün retina (ağ) tabakasında renkli görmeyi sağlayan koni hücreleri ile loş ışıkta şekil ve siyah-beyaz görmeyi sağlayan çubuk hücreleri olmak üzere iki ana fotoreseptör tipi bulunur.",
+        "3. Adım: İfade doğrudur."
+      ],
+      "result": "Doğru (D)"
+    }
+  ],
+  "biyoloji-11_p102_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Modellerin değerlendirilmesinde kullanılacak analitik dereceli puanlama anahtarının (rubrik) temel ölçütlerini ve kasılma mekanizmasının görsel elemanlarını tespit edelim.",
+        "2. Adım: Puanlama anahtarına göre; sarkomer, aktin ve miyozin iplikçikleri, Z çizgileri ile A, I ve H bantlarının model üzerinde doğru ölçeklendirilip konumlandırıldığını ve hareketli mekanizmanın çalışmasını denetleyelim.",
+        "3. Adım: Modelin tüm anatomik ve fizyolojik kriterleri (A bandı sabit, I ve H bantları daralır, Z çizgileri birbirine yaklaşır) eksiksiz karşıladığını doğrulayarak değerlendirmeyi yapalım."
+      ],
+      "result": "Analitik Dereceli Puanlama Sonucu: 100 Tam Puan (Tüm yapısal ve işlevsel kriterler eksiksiz modellenmiştir)"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: İskelet kaslarının kasılıp gevşeme mekanizmasını (Huxley'nin Kayan İplikler Modeli) araştırmak amacıyla kullanılacak güvenilir bilimsel veri tabanlarını ve akademik kaynak türlerini belirleyelim.",
+        "2. Adım: Ulusal ve uluslararası hakemli veri tabanları ile ders kitaplarını kapsayan kaynak kümesini oluşturalım: Campbell Biyoloji Ders Kitabı, Guyton ve Hall Tıbbi Fizyoloji Ders Kitabı, TÜBİTAK Bilim ve Teknik Dergisi Arşivi ile Google Akademik veri tabanı.",
+        "3. Adım: Belirlenen bu kaynaklardan kas kasılma mekanizması ile ilgili güncel ve doğrulanmış bilimsel verileri içeren kaynak listesini kesinleştirelim."
+      ],
+      "result": "Bilimsel Kaynak Listesi: Campbell Biyoloji (11. Baskı), Guyton ve Hall Tıbbi Fizyoloji (13. Baskı), Google Akademik Portalı"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Bilimsel kaynaklardan elde edilen veriler ışığında, kasılma birimi olan sarkomerdeki bantlaşma bölgelerini ve kasılma esnasında gerçekleşen moleküler adımları tanımlayalım.",
+        "2. Adım: Motor uç plaktan salınan asetilkolin, sarkolemmanın depolarize olmasını sağlar; T-tübülleri ile iletilen uyarı sarkoplazmik retikulumdan Ca2+ iyonlarının salınımına yol açar. Ca2+ iyonları troponin kompleksine bağlanarak miyozin başının aktine bağlanmasını tetikler ve ATP enerjisi kullanılarak aktin filamentleri miyozin üzerinde kaydırılır.",
+        "3. Adım: Kasılma esnasında Z çizgileri birbirine yaklaşır, sarkomerin boyu kısalır, I bandı ve H bölgesi daralır/kaybolur; ancak A bandının, aktinin ve miyozinin boyu değişmez."
+      ],
+      "result": "Kasılma Fizyolojisi Değişimleri: Sarkomer kısalır, H ve I bantları daralır, A bandı boyu değişmez"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: İş birlikli öğrenme modeline göre sınıf içinde farklı akademik başarı, ilgi alanı ve yeteneğe sahip heterojen grupların üye sayısını ve yapılandırma kriterlerini belirleyelim.",
+        "2. Adım: Sınıf mevcuduna uygun olarak dörder kişilik heterojen öğrenci grupları oluşturalım; her grup üyesine araştırmacı, tasarımcı, raporlayıcı ve sunumcu rollerini dağıtalım.",
+        "3. Adım: Grup üyeleri arasında görev dağılımını netleştirip, iskelet kası modeli tasarımı için iş birlikli çalışma planını başlatalım."
+      ],
+      "result": "Grup Yapılanması: 4'er kişilik, her üyenin farklı akademik düzey ve role (araştırmacı, tasarımcı vb.) sahip olduğu heterojen çalışma grupları kurulmuştur"
+    }
+  ],
+  "biyoloji-11_p105_3": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilen metne göre, laktatın (laktik asit) egzersiz sonrası ağrı ve performans üzerindeki etkileri ile kas kasılmasının başlaması ve sonlanmasında rol oynayan kalsiyum (Ca²⁺) iyonunun hareketi ve hücresel solunum mekanizmaları analiz edilmelidir.",
+        "2. Adım: Metindeki verilere göre: 1) Laktat kas ağrısına neden olmaz; ağrının sebebi kas liflerindeki mikro hasarlardır. 2) Merdiven etkisi, kasın ardışık uyarılarla daha güçlü kasılmasıdır. 3) Kasılma için Ca²⁺ iyonları sarkoplazmik retikulumdan sitoplazmaya (aktif taşımayla değil, pasif olarak kanallardan) geçer; gevşeme için ise Ca²⁺ iyonları aktif taşıma ile sarkoplazmik retikuluma geri pompalanır.",
+        "3. Adım: Kas kasılmasında Ca²⁺ iyonlarının aktin ve miyozin arasına yayılması kasılmayı başlatır, aktif taşıma ile geri çekilmesi gevşemeyi sağlar. Yoğun egzersizde yetersiz oksijen durumunda laktik asit fermantasyonu devreye girer."
+      ],
+      "result": "Laktat kas ağrısının nedeni değildir; kasılma Ca²⁺ iyonlarının sitoplazmaya geçişiyle başlar, gevşeme ise Ca²⁺ iyonlarının aktif taşıma ile sarkoplazmik retikuluma geri pompalanmasıyla gerçekleşir."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Sarkomerin kasılma ve gevşeme durumlarında gerçekleşen moleküler ve fizyolojik olayların sıralı mekanizmasının belirlenmesi istenmektedir.",
+        "2. Adım: Kasılma sırasında: Motor sinirden gelen uyarıyla kas zarı depolarize olur, sarkoplazmik retikulumdan Ca²⁺ iyonları sitoplazmaya salınır, Ca²⁺ aktin üzerindeki proteinlere bağlanarak miyozinin bağlanma bölgelerini açar, aktin iplikler miyozin iplikler üzerinde kayar. Gevşeme sırasında: Ca²⁺ iyonları aktif taşımayla sarkoplazmik retikuluma geri pompalanır, aktin ve miyozin bağları kopar ve iplikler eski konumuna döner.",
+        "3. Adım: Kasılma ve gevşeme olaylarının anahtarı kalsiyum iyonunun sitoplazmadaki derişim değişimi ve aktif taşıma mekanizmalarıdır."
+      ],
+      "result": "Kasılmada Ca²⁺ sitoplazmaya dağılarak aktin-miyozin kaymasını başlatır; gevşemede Ca²⁺ aktif taşıma ile sarkoplazmik retikuluma geri çekilerek ipliklerin ayrılmasını sağlar."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Kasılma ve gevşeme durumlarında; Kasın durumu, Sarkomerin boyu, Kas kütlesi, Kas hacmi, I bandı, H bandı, Z çizgileri, A bandı, Aktin boyu ve Miyozin boyundaki değişimlerin analiz edilmesi istenmektedir.",
+        "2. Adım: Huxley'in Kayan İplikler Modeli kurallarına göre değişimleri belirleyelim:\n- Kasın durumu: Kasılmada 'Kasılır', Gevşemede 'Gevşer'.\n- Sarkomerin boyu: Kasılmada 'Kısalır', Gevşemede 'Uzar'.\n- Kas kütlesi: Kasılmada 'Değişmez', Gevşemede 'Değişmez'.\n- Kas hacmi: Kasılmada 'Değişmez', Gevşemede 'Değişmez'.\n- I bandı: Kasılmada 'Daralır', Gevşemede 'Genişler'.\n- H bandı: Kasılmada 'Daralır/Kaybolur', Gevşemede 'Genişler/Görünür'.\n- Z çizgileri: Kasılmada 'Birbirine yaklaşır', Gevşemede 'Birbirinden uzaklaşır'.\n- A bandı: Kasılmada 'Değişmez', Gevşemede 'Değişmez'.\n- Aktin boyu: Kasılmada 'Değişmez', Gevşemede 'Değişmez'.\n- Miyozin boyu: Kasılmada 'Değişmez', Gevşemede 'Değişmez'.",
+        "3. Adım: Elde edilen veriler doğrultusunda kas kütlesi, kas hacmi, A bandı boyu, aktin ve miyozin ipliklerinin boyunun her iki durumda da sabit kaldığı, diğer değişkenlerin ise kasılma ve gevşemede ters yönde değiştiği netleştirilmiştir."
+      ],
+      "result": "Kasılmada sarkomer boyu, I bandı ve H bandı kısalır/daralır, Z çizgileri yaklaşır; gevşemede bu yapılar uzar/genişler ve Z çizgileri uzaklaşır; her iki durumda da A bandı, aktin ve miyozin boyu ile kas hacmi ve kütlesi DEĞİŞMEZ."
+    }
+  ],
+  "biyoloji-11_p108_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Bağışıklık sisteminin elemanlarını ve sınıflandırılmasını içeren hiyerarşik bir kavram haritası taslağı oluşturulması hedeflenir.",
+        "2. Adım: Bağışıklık sistemi iki ana dala ayrılır: Doğal Bağışıklık (Özgül olmayan) ve Kazanılmış Bağışıklık (Özgül). Doğal bağışıklıkta 1. savunma hattı (fiziksel engeller: deri, tükürük, mide asidi) ve 2. savunma hattı (fagositler, doğal katil hücreler, interferonlar, ateş) bulunur. Kazanılmış bağışıklık ise 3. savunma hattını oluşturur ve B lenfositleri (Sıvısal/Humoral) ile T lenfositlerini (Hücresel) kapsar.",
+        "3. Adım: Bu kavramlar hiyerarşik bir şema ile ilişkilendirilerek kavram haritası tamamlanır."
+      ],
+      "result": "Bağışıklık Sistemi -> Doğal Bağışıklık (1. Savunma Hattı, 2. Savunma Hattı) ve Kazanılmış Bağışıklık (3. Savunma Hattı: Humoral ve Hücresel Bağışıklık)"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Yönergede verilen alt soruların (a ve b) analiz edilerek çözülmesi amaçlanmıştır.",
+        "2. Adım: Sorular, insan vücudunun mikroorganizmalara karşı gösterdiği bireysel direnç farklılıklarını ve genel savunma mekanizmalarını biyolojik kurallarla açıklamayı gerektirir.",
+        "3. Adım: Alt soruların ayrıntılı çözümleri sonraki sorularda sırasıyla sunulmuştur."
+      ],
+      "result": "Sorular bağışıklık sisteminin savunma hatları prensiplerine göre çözülmüştür."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Aynı ortamda aynı patojenlerle karşılaşan bireylerden bazılarının hasta olup bazılarının hasta olmamasının biyolojik nedeni sorulmaktadır.",
+        "2. Adım: Bu durumun temel nedeni, daha önce ilgili patojenle (mikroorganizmayla) karşılaşma durumuna göre kazanılmış bağışıklığın (bellek hücrelerinin) varlığı veya yokluğudur. Ayrıca bireylerin genetik yapısı, aşılanma geçmişi, uyku düzeni, beslenme kalitesi ve stres düzeyi gibi faktörler genel bağışıklık direncini doğrudan etkiler.",
+        "3. Adım: Bağışıklık hafızası (kazanılmış bağışıklık) aktif olan veya genel vücut direnci yüksek olan bireyler hastalanmaz."
+      ],
+      "result": "Cevap: Bireylerin daha önce o mikroorganizmayla karşılaşarak bellek hücresi oluşturmuş olması (aktif bağışıklık) ve genel vücut dirençlerinin (genetik, beslenme, uyku) farklı olmasıdır."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: İnsan vücudunun mikroorganizmalarla karşılaştığında verdiği tepkilerin mekanizması sorulmaktadır.",
+        "2. Adım: Vücut üç aşamalı bir savunma hattıyla tepki verir: 1. savunma hattında deri, mukus ve gözyaşı gibi yapılarla mikroorganizmanın girişi engellenir. Bu hat aşılırsa, 2. savunma hattında fagositoz yapan hücreler, doğal katil hücreler ve yangısal tepki (iltihaplanma) ile genel bir direnç gösterilir. Bu da yetersiz kalırsa, 3. savunma hattında B ve T lenfositleri özgül antikorlar ve hücresel saldırıyla mikroorganizmayı yok eder.",
+        "3. Adım: Tepkiler sırasıyla özgül olmayan (1. ve 2. hat) ve özgül (3. hat) savunma reaksiyonları şeklinde gerçekleşir."
+      ],
+      "result": "Cevap: Vücut sırasıyla fiziksel engellerle girişi önler (1. hat), fagositoz ve iltihaplanma gibi genel tepkiler verir (2. hat) ve son olarak lenfositler aracılığıyla mikroorganizmaya özgü antikorlar üreterek (3. hat) savaşır."
+    }
+  ],
+  "biyoloji-11_p115_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilen yönergede, bağışıklık sistemi konusu kapsamında yer alan kavramların tanımlarla eşleştirilmesi ve açıkta kalan kavramın tanımlanması istenmektedir.",
+        "2. Adım: Aşağıdaki alt sorularda yer alan tanımları ve kavramları sırasıyla karşılaştırıp doğru eşleştirmeleri yaparız.",
+        "3. Adım: Yönerge doğrultusunda kavramlar ile tanımları birebir eşleştirerek boşlukları doldururuz."
+      ],
+      "result": "Bağışıklık kavramlarının ve tanımlarının doğru eşleştirilmesi"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Verilen tanımda 'Anneden plasentayla veya sütle bebeğe geçen antikorlarla sağlanan kazanılmış bağışıklık türü' sorulmaktadır.",
+        "2. Adım: Antikorların vücut dışından, hazır olarak (örneğin anne sütü veya plasenta yoluyla) alınmasıyla oluşan ve geçici koruma sağlayan kazanılmış bağışıklığa pasif bağışıklık denir.",
+        "3. Adım: Bu tanıma karşılık gelen kavramın pasif bağışıklık olduğunu belirleriz."
+      ],
+      "result": "Pasif Bağışıklık"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: 'Bağışıklık sistemi' kavramının biyolojik tanımı sorulmaktadır.",
+        "2. Adım: Bağışıklık sistemi; patojenlere, yabancı maddelere ve tümör hücrelerine karşı vücudu savunan hücre, doku ve organların oluşturduğu bir bütündür.",
+        "3. Adım: Kavramın tanımını 'Vücudu hastalık yapıcı etkenlere karşı koruyan hücre, doku ve organların oluşturduğu sistem' şeklinde açıklarız."
+      ],
+      "result": "Vücudu hastalık yapıcı etkenlere karşı koruyan hücre, doku ve organların oluşturduğu sistem"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Verilen tanımda 'Hastalık etkenlerine karşı özgül olmayan kalıtsal bağışıklık' sorulmaktadır.",
+        "2. Adım: Canlının genetik olarak doğuştan sahip olduğu, mikroorganizma türü ayırt etmeksizin genel koruma sağlayan bu savunma mekanizmasına doğal bağışıklık denir.",
+        "3. Adım: Tanımın karşılık geldiği kavramı doğal bağışıklık olarak buluruz."
+      ],
+      "result": "Doğal Bağışıklık"
+    }
+  ],
+  "biyoloji-11_p120_1": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilen kavram haritasında 'Alerjiye neden olan faktörler' başlığı altında 'Genetik faktörler', 'Alerjenler' ve 'Hava kirliliği' gibi çevresel etmenler bulunmaktadır. Boş bırakılan 1'den 9'a kadar olan kutucuklar yaygın alerjen çeşitlerini; 10'dan 13'e kadar olan kutucuklar ise 'Alerjik tepkiler' başlığı altında 'Hapşırma' ve 'Solunum sıkıntısı'na ek olarak görülen diğer alerjik semptomları (belirtileri) temsil etmektedir.",
+        "2. Adım: MEB 11. Sınıf Biyoloji müfredatındaki bağışıklık sistemi ünitesi alerji konusuna göre yaygın alerjenler: Polenler, Ev tozu akarları, Küf mantarı sporları, Bazı besinler (süt, kuruyemiş vb.), Hayvan tüyleri/kepekleri, İlaçlar (penisilin vb.), Böcek/Arı zehirleri, Lateks ve Kimyasallardır. Alerjik reaksiyonlar sırasında mast hücrelerinden salgılanan histamin etkisiyle oluşan diğer tepkiler ise: Burun akıntısı, Gözlerde kızarıklık/yaşarma, Kaşıntı ve Ciltte döküntü (kurdeşen) şeklindedir.",
+        "3. Adım: Kavram haritasındaki numaralı boşluklar biyolojik kurallara ve müfredat kazanımlarına uygun olarak eşleştirilmiştir: Alerjenler (1: Polenler, 2: Ev tozu akarları, 3: Bazı gıdalar, 4: İlaçlar, 5: Hayvan tüyleri, 6: Küf sporları, 7: Arı zehri, 8: Lateks, 9: Kimyasallar) ve Alerjik Tepkiler (10: Burun akıntısı, 11: Göz yaşarması, 12: Kaşıntı, 13: Deride döküntü)."
+      ],
+      "result": "1: Polenler, 2: Ev tozu akarları, 3: Bazı gıdalar, 4: İlaçlar, 5: Hayvan tüyleri, 6: Küf sporları, 7: Arı zehri, 8: Lateks, 9: Kimyasallar, 10: Burun akıntısı, 11: Gözlerde yaşarma, 12: Kaşıntı, 13: Deride kızarıklık/döküntü"
+    }
+  ],
+  "biyoloji-11_p122_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Metinde yer alan örneklerden en az üçünü seçerek, her biri için 'uyaran → uyaranı alma → uyaranı işleme → efektör organda tepki oluşumu' basamaklarını belirleriz. Seçilen örnekler: 1) Sıcak yüzeyden elin çekilmesi, 2) Köpekte kokuya karşı tükürük salgısının artması, 3) Öglenanın ışığa yönelmesi.",
+        "2. Adım: Belirlenen her örnek için biyolojik bilgi ve kurallara göre akış zincirini yazarız:\n- Örnek 1: Sıcaklık (Uyaran) → Derideki Termoreseptörler (Uyaranı alma) → Omurilik (Uyaranı işleme) → Kol Kasları (Efektör organda tepki).\n- Örnek 2: Besin Kokusu (Uyaran) → Burundaki Kemoreseptörler (Uyaranı alma) → Beyindeki Koku Merkezi (Uyaranı işleme) → Tükürük Bezleri (Efektör organda tepki).\n- Örnek 3: Işık (Uyaran) → Göz Lekesi (Uyaranı alma) → Kamçı Tabanı/Hücre İçi İletim (Uyaranı işleme) → Kamçı Hareketi (Efektör organda tepki).",
+        "3. Adım: Her üç sürecin akış şemasını düzenleyerek nihai cevaba dönüştürürüz."
+      ],
+      "result": "1) Sıcak yüzeyden elin çekilmesi: Sıcaklık → Termoreseptör (Deri) → Omurilik → Kol Kasları (Kasılma); 2) Köpekte tükürük artışı: Koku molekülleri → Kemoreseptör (Burun) → Beyin (Koku Merkezi) → Tükürük Bezleri (Salgı artışı); 3) Öglenanın yönelmesi: Işık → Göz Lekesi → Sinyal iletimi → Kamçı (Yönelme hareketi)."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Tabloda verilen altı farklı canlı ve tepki örneğinin; 'Uyaran', 'Algılayan Reseptör/Duyu Organı', 'Tepki' ve 'Gerekçe' bileşenlerini tek tek belirleriz.",
+        "2. Adım: Her bir canlının uyarana karşı gösterdiği davranışın fizyolojik, ekolojik veya hayati nedenlerini analiz ederiz:\n- Venüs sinekkapan: Dokunma → Mekanoreseptör (Tüyler) → Kapanın hızlıca kapanması → Böcek yakalayıp azot ihtiyacını karşılama.\n- Küstüm otu: Dokunma → Mekanoreseptör (Yaprak hücresi) → Yaprakların kapanması/pörsümesi → Otçul hayvanlardan korunma.\n- İnsan (Sıcak yüzey): Sıcaklık → Termoreseptör (Deri) → Elin çekilmesi (Refleks) → Hücre ve doku zararını engelleme.\n- Öglena: Işık → Göz lekesi → Işığa doğru yönelme → Fotosentez ile besin üretimi.\n- Köpek: Kimyasal koku → Kemoreseptör (Burun) → Tükürük salgısının artması → Besinlerin kimyasal sindirimine hazırlık.\n- Yılan balığı: Tehdit/Dokunma → Mekanoreseptör/Duyu hücreleri → Elektrik akımı oluşturulması → Kendini savunma veya avı etkisiz hale getirme.",
+        "3. Adım: Tüm bu verileri tutarlı ve net bir şekilde yapılandırarak sonucu oluştururuz."
+      ],
+      "result": "1. Venüs sinekkapan: Dokunma | Mekanoreseptör (Yaprak tüyleri) | Yaprakların kapanması | Azot ihtiyacını karşılamak için böcek yakalamak.\n2. Küstüm otu: Dokunma | Mekanoreseptör | Yaprakların büzülmesi | Kendini otçullara karşı korumak.\n3. Sıcak yüzeyden el çekme: Yüksek Isı | Termoreseptör (Deri) | Elin geri çekilmesi | Doku tahribatını önlemek.\n4. Öglena: Işık | Göz lekesi (Stigma) | Işığa yönelme | Fotosentezle organik besin üretmek.\n5. Köpek: Kimyasal koku | Kemoreseptör (Burun) | Tükürük salgılamak | Besini sindirime hazırlamak.\n6. Elektrikli yılan balığı: Tehdit | Mekanoreseptör/Duyu hücreleri | Elektrik akımı üretmek | Kendini savunmak veya avlanmak."
+    }
+  ],
+  "biyoloji-11_p123_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Verilenler: 11. Sınıf Biyoloji müfredatı 1. Tema değerlendirme kapsamı. Sorulan: Bu değerlendirme sorularının ölçtüğü temel biyolojik sistemler ve konular.",
+        "2. Adım: MEB 11. Sınıf Biyoloji müfredatında 1. Tema \"İnsan Fizyolojisi\" ünitesini kapsar. Bu tema altında denetleyici ve düzenleyici sistemler (sinir sistemi, endokrin sistem, duyu organları), destek ve hareket sistemi, sindirim sistemi, dolaşım ve bağışıklık sistemleri, solunum sistemi, boşaltım sistemi ve üreme sistemi konuları yer alır.",
+        "3. Adım: Bu değerlendirme soruları, insan vücudundaki tüm bu sistemlerin yapılarını, çalışma mekanizmalarını ve birbirleriyle olan homeostatik ilişkilerini ölçmektedir."
+      ],
+      "result": "Cevap: İnsan Fizyolojisi (Denetleyici ve Düzenleyici Sistemler, Duyu Organları, Destek ve Hareket, Sindirim, Dolaşım, Solunum, Boşaltım ve Üreme Sistemleri) konularının kazanımlarını ölçen sorulardır."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Verilenler: Metinde bahsedilen sıcaklık, ışık, nem, basınç, yer çekimi gibi çevresel uyarılar ve hormonlar. Sorulan: Bu uyaranları fiziksel ve kimyasal olarak ayırmak ve her biri için örnek bir tepki belirtmek.",
+        "2. Adım: Fiziksel uyaranlar dış ortamdaki mekanik, termal veya elektromanyetik etkenlerdir (sıcaklık, ışık, basınç, yer çekimi). Kimyasal uyaranlar ise moleküler düzeyde etki eden maddelerdir (hormonlar, gazlar, su/nem). Fiziksel uyarana karşı yönelim (örneğin ışığa doğru bükülme olan fototropizma), kimyasal uyarana karşı ise kimyasal tepkimeler (örneğin etilen hormonu ile hücre duvarının yıkılması ve sararma) gerçekleşir.",
+        "3. Adım: Sınıflandırma ve örnekler netleştirilmiştir: Fiziksel uyaran örneği ışığa yönelim, kimyasal uyaran örneği ise absisik asit etkisiyle çimlenmenin geciktirilmesidir."
+      ],
+      "result": "Fiziksel Uyaranlar: Sıcaklık, ışık, basınç, yer çekimi (Örnek tepki: Işığa yönelim / fototropizma). Kimyasal Uyaranlar: Hormonlar, nem (Örnek tepki: Absisik asit uygulanması sonucu tohum çimlenmesinin gecikmesi)."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Verilenler: Bitkideki büyümeyi teşvik eden (oksin, sitokinin, giberellin) ve engelleyen (etilen, absisik asit) farklı hormonların yarattığı zıt tepkiler. Sorulan: Bu farklı tepkilerin ortaya çıkardığı temel ortak biyolojik sonuç.",
+        "2. Adım: Bitkiler yer değiştiremedikleri için çevresel değişimlere dinamik fizyolojik tepkilerle uyum sağlamak zorundadır. Hormonların zıt (antagonist) yönlü çalışması (örneğin absisik asidin tohumu uyku halinde tutarak soğuktan koruması, elverişli ortamda giberellinin çimlenmeyi başlatması), bitkinin gelişimini çevre koşullarına göre senkronize eder. Bu denge, bitkinin hayatta kalmasını ve neslini devam ettirmesini sağlar.",
+        "3. Adım: Farklı ve zıt hormonal tepkilerin sağladığı temel sonuç, bitkinin değişen çevre koşullarına mükemmel bir şekilde uyum sağlaması ve yaşam döngüsünü başarıyla tamamlamasıdır."
+      ],
+      "result": "Cevap: Bitkinin değişen çevre koşullarına uyum sağlaması (adaptasyon), hayatta kalma şansının artması ve iç dengesinin (homeostazi) korunmasıdır."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Verilenler: Olgun elmanın salgıladığı etilen gazı ile yeşil muzların sararması deneyi ve absisik asit verilerek çimlenmenin geciktirilmesi deneyi. Sorulan: Bu iki deneye dayanarak hormonların bitkiler üzerindeki genel rolünün açıklanması.",
+        "2. Adım: İlk deneyde, etilen gazı (kimyasal uyaran/hormon) dışarıdan verilerek meyve olgunlaşmasını (renk değişimi ve tatlanma) hızlandırmıştır. İkinci deneyde ise absisik asit, tohumun çimlenmesini engelleyerek/geciktererek metabolizmayı yavaşlatmıştır. Bu durum hormonların bitkilerde fizyolojik süreçleri (büyüme, olgunlaşma, çimlenme) bazen hızlandırıcı bazen de engelleyici/baskılayıcı yönde kontrol ettiğini kanıtlar.",
+        "3. Adım: Deneyler, hormonların bitki yaşamında süreçleri doğrudan başlatan, durduran veya hızını ayarlayan kimyasal düzenleyiciler (regülatörler) olduğunu göstermektedir."
+      ],
+      "result": "Cevap: Hormonlar, bitkilerde fizyolojik süreçleri düzenleyici (regülatör) rol oynarlar; etilen meyve olgunlaşmasını teşvik ederken, absisik asit çimlenmeyi engelleyici etki gösterir."
+    }
+  ],
+  "biyoloji-11_p124_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: '1. Tema Ölçme ve Değerlendirme Soruları' başlığı altında yer alan konuların 'Bitki Biyolojisi' ve 'Bitkisel Hormonlar' ünitelerine ait olduğu tespit edilir.",
+        "2. Adım: Bu değerlendirme sorularının bitki büyüme düzenleyicileri, hormonların etki mekanizmaları ve tarımdaki pratik uygulamaları üzerindeki kazanımları ölçtüğü belirlenir.",
+        "3. Adım: Soruların genel çerçevesinin lise biyoloji müfredatına uygun olarak bitki fizyolojisi kazanımları olduğu netleştirilir."
+      ],
+      "result": "1. Tema: Bitki Fizyolojisi ve Hormonlar Ölçme ve Değerlendirmesi"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Bitki yaşamında hormonların (oksin, giberellin, sitokinin, absisik asit, etilen) her birinin büyüme, yönelim, çiçeklenme, çimlenme ve stomaların çalışması gibi yaşamsal olayları dengeli şekilde yönettiği kuralı esas alınır.",
+        "2. Adım: Hormon dengesizliği durumunda ortaya çıkacak aksaklıklar analiz edilir: Örneğin oksin eksikliğinde cücelik ve yönelim bozuklukları, giberellin eksikliğinde tohum çimlenememesi, absisik asit eksikliğinde kuraklıkta stomaların kapanamaması ve bitkinin aşırı su kaybederek kuruması, etilen fazlalığında ise erken yaşlanma ve hızlı yaprak dökümü gerçekleşir.",
+        "3. Adım: Hormonların dengesiz çalışmasının bitkide büyüme anomalilerine, üreme başarısızlığına, strese karşı savunmasızlığa ve nihayetinde ölüme yol açacağı sonucuna ulaşılır."
+      ],
+      "result": "Bitki hormonlarının dengesiz çalışması; büyüme geriliğine (cücelik), stomaların kapanamamasına bağlı aşırı su kaybına ve kurumaya, erken yaşlanmaya, meyve/çiçek dökümüne ve bitki ölümüne yol açar."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Kurak bölgelerde yetişen bitkilerde en büyük yaşamsal tehdidin aşırı su kaybı (terleme) ve dehidrasyon olduğu kuralı belirlenir.",
+        "2. Adım: Absisik asit (ABA) hormonunun stres durumunda sentezlenerek stoma bekçi hücrelerindeki turgor basıncını düşürdüğü ve stomaların (gözeneklerin) kapanmasını sağlayarak terleme ile gerçekleşen su kaybını durdurduğu mekanizma açıklanır.",
+        "3. Adım: Bu koruyucu mekanizma sayesinde bitkinin mevcut suyunu koruyarak kuraklık stresine karşı hayatta kalma süresini uzattığı ve yaşamını sürdürdüğü sonucuna varılır."
+      ],
+      "result": "Absisik asit (ABA) hormonu kuraklık stresinde stomaların kapanmasını sağlayarak terleme yoluyla gerçekleşen su kaybını önler ve bitkinin hayatta kalmasını sağlar."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Metinde verilen tarımsal uygulamalar ve çiftçinin karşılaştığı durumlar (çekirdeksiz domates elde edilmesi ve buğday tarlasındaki yabancı otların yok edilmesi) analiz edilir.",
+        "2. Adım: Doğal oksinlerin miktarının ve etkisinin her zaman kontrol edilemediği, buna karşın sentetik oksinlerin laboratuvarda istenen dozda üretilerek döllenmesiz çekirdeksiz meyve oluşumunu (partenokarpi) tetikleyebildiği ve seçici herbisit etkisiyle sadece geniş yapraklı yabancı otları hedef alıp dar yapraklı buğdaylara zarar vermediği bilimsel açıklaması yazılır.",
+        "3. Adım: Çiftçinin sentetik oksin kullanmaktaki amacının verimi artırmak, işçiliği azaltmak, döllenme şartı olmadan meyve elde etmek ve tarımsal mücadeleyi seçici ve etkili bir şekilde gerçekleştirmek olduğu netleştirilir."
+      ],
+      "result": "Sentetik oksin kullanımının amacı; döllenme gerçekleşmeden çekirdeksiz meyve elde etmek, yabancı otları kültür bitkisine (buğdaya) zarar vermeden seçici olarak yok etmek ve tarımsal verimliliği maksimuma çıkarmaktır."
+    }
+  ],
+  "biyoloji-11_p126_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Çekirdeksiz üzüm üretiminde sürdürülebilir ve çevre dostu bir model tasarlamak için doğal giberellin hormonunun dane seyreltme ve dane irileştirme üzerindeki doğal etkilerini analiz ederiz.",
+        "2. Adım: Sentetik gelişim düzenleyicilerin çevresel birikimini önlemek amacıyla, bunları minimum dozda ve sadece kritik büyüme aşamalarında kullanmayı planlarız. Doğal giberellin uygulamasını ise bitkinin kendi sentezini destekleyecek şekilde kültürel işlemlerle (örn. uç alma, salkım seyreltme) entegre ederiz.",
+        "3. Adım: Kaynak verimliliğini artıran, kimyasal girdiyi minimize eden ve doğal döngüleri koruyan entegre bir bitkisel üretim modeli taslağını oluştururuz."
+      ],
+      "result": "Doğal giberellin optimizasyonunu esas alan, sentetik kimyasal kullanımını en aza indiren ve hassas tarım teknolojileriyle entegre çalışan çevre dostu üretim modeli."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Sürdürülebilir model kapsamında uygulanacak pratik yöntemleri belirleriz.",
+        "2. Adım: Çiçeklenme öncesinde salkımların seyreltilmesini sağlarız; çiçeklenme döneminde ise dane tutumunu ve iriliğini artırmak için hedef odaklı, düşük dozda doğal giberellin (GA3) püskürtmesi yaparız. Sentetik hormonların yerine organik sertifikalı bitki aktivatörleri ve biyostimülantlar tercih ederiz.",
+        "3. Adım: Toprak analizi ve bitki gelişim izleme teknolojileriyle hormon uygulamasının zamanını ve miktarını tam olarak optimize ederiz."
+      ],
+      "result": "Kontrollü doğal giberellin püskürtmesi, fiziksel salkım seyreltme uygulaması ve hassas dozajlama teknolojileri."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Bitki gelişim düzenleyicilerinin aşırı kullanımının insan sağlığı (hormonal dengesizlikler, toksisite) ve ekosistem (su kaynaklarının kirlenmesi, faydalı böceklerin zarar görmesi) üzerindeki zararlarını analiz ederiz.",
+        "2. Adım: Bu durumun etik boyutunu biyoetik kuralları çerçevesinde ele alırız. Üreticinin sadece kar odaklı davranmayıp, tüketicinin sağlıklı gıdaya erişim hakkını ve gelecek nesillerin temiz bir çevrede yaşama hakkını koruma sorumluluğu vardır.",
+        "3. Adım: Tarımda hormon kullanımının sınırlandırılması ve denetlenmesi gerekliliğini etik bir ödev olarak tanımlarız."
+      ],
+      "result": "Gelecek nesillerin sağlıklı çevre hakkını koruma ve tüketiciye zarar vermeme (biyoetik ve sosyal sorumluluk) ilkeleri."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Metinde yer alan bitkisel hareketleri (tropizma ve nasti) ayırt etmek için gerekli olan temel biyolojik özellikleri belirleriz.",
+        "2. Adım: Bu hareketleri sınıflandırmak için iki işlevsel ölçüt yazarız. 1. Ölçüt: 'Uyarının yönü, bitkinin gösterdiği hareketin yönünü belirliyor mu?' (Tropizmada yön etkilidir, nastide bağımsızdır). 2. Ölçüt: 'Hareketin ortaya çıkmasındaki fizyolojik mekanizma turgor basıncı değişimine mi yoksa asimetrik büyümeye (oksin hormonu dağılımına) mi dayanmaktadır?'",
+        "3. Adım: Belirlenen iki temel ölçütü en net haliyle formüle ederiz."
+      ],
+      "result": "1. Ölçüt: Harekete neden olan uyaranın yönüne bağlılık durumu; 2. Ölçüt: Hareketin gerçekleşmesini sağlayan fizyolojik mekanizma (turgor basıncı değişimi veya büyüme hızı farkı)."
+    }
+  ],
+  "biyoloji-11_p125_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Soruda belirtilen tema kapsamındaki ölçme ve değerlendirme başlığı altında yer alan temel biyolojik konuları ve kazanımları belirliyorum.",
+        "2. Adım: 11. Sınıf MEB Biyoloji müfredatına göre bitki fizyolojisi ünitesinde bitkisel hormonların (oksin, sitokinin, giberellin, etilen ve apsisik asit) büyüme, gelişme ve çevresel uyarılara verilen tepkilerdeki rollerini analiz ediyorum.",
+        "3. Adım: Bu bölümün, bitkisel hormonların tarımsal üretimde kullanımı ve bitki gelişimindeki etkilerini ölçen soruları içerdiğini netleştiriyorum."
+      ],
+      "result": "Bitki Fizyolojisi: Bitkisel Hormonlar ve Tarımsal Uygulamaları"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Oksin hormonunun tarımda kullanılmasının bitki fizyolojisi üzerindeki avantajlı (olumlu) ve dezavantajlı (olumsuz) etkilerini tespit ediyorum.",
+        "2. Adım: Oksin hormonunun düşük derişimlerde köklenmeyi başlatma, meyve tutumunu artırma, çekirdeksiz meyve oluşumunu sağlama gibi avantajlarını; yüksek derişimlerde ise herbisit (yabani ot öldürücü) etkisi göstererek kültür bitkilerine zarar verme ve bitki büyümesini kontrolsüz şekilde bozma dezavantajını biyolojik kurallarla açıklıyorum.",
+        "3. Adım: Tarımsal üretimdeki avantajları ve dezavantajları net birer madde halinde özetleyerek sonuca ulaşıyorum."
+      ],
+      "result": "Avantajlar: Çeliklerin köklenmesini hızlandırmak, meyve tutumunu artırmak ve çekirdeksiz meyve elde etmek. Dezavantajlar: Aşırı ve kontrolsüz dozda kullanıldığında herbisit (yabani ot öldürücü) etki yaratarak bitki ölümlerine sebep olmak."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Metindeki verilere dayanarak, etilen hormonunun tarımsal üretimde kontrollü kullanılmasının sağladığı avantajları ve beraberinde getirdiği riskleri gruplandırıyorum.",
+        "2. Adım: Metne göre etilenin klimakterik meyveleri eş zamanlı olgunlaştırması ve narenciyede renk açması avantajlarını; aşırı etilen birikiminin meyveleri çabuk yumuşatarak raf ömrünü kısaltması, yaprak ve çiçek dökümünü erkenden başlatması risklerini değerlendiriyorum.",
+        "3. Adım: Kontrollü etilen kullanımının getirdiği avantaj ve riskleri netleştirerek en sade haliyle yazıyorum."
+      ],
+      "result": "Avantajlar: Meyvelerin eş zamanlı olgunlaşmasını sağlamak ve narenciyede kabuk rengini açmak. Riskler: Aşırı etilen birikimi nedeniyle meyvelerin hızla yumuşayıp çürümesi, raf ömrünün kısalması ve erken yaprak/çiçek dökümü yaşanması."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Kuraklık, tuzluluk ve hastalık gibi stres koşullarında bitkide sentezlenen etilen miktarının artmasının, bitkinin hayatta kalmasına sağladığı fizyolojik katkıları belirliyorum.",
+        "2. Adım: Kuraklık durumunda etilen etkisiyle yaprak dökülerek terlemenin (su kaybının) azaltılması, gövdenin kısaltılıp kalınlaştırılarak mekanik direncin artırılması ve hastalıklı kısımların dökülerek enfeksiyonun bitkinin sağlıklı kısımlarına yayılmasının önlenmesi mekanizmalarını açıklıyorum.",
+        "3. Adım: Etilenin stres altındaki bitkinin kaynaklarını koruma ve hayatta kalma şansını artırma stratejilerini özetleyerek doğru cevaba ulaşıyorum."
+      ],
+      "result": "Etilen; kuraklıkta yaprak dökümünü hızlandırarak terlemeyle su kaybını önler, gövdeyi kalınlaştırarak rüzgara karşı direnç kazandırır ve hastalıklı dokuları dökerek enfeksiyonun sağlıklı bölgelere yayılmasını engeller."
+    }
+  ],
+  "biyoloji-11_p128_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Metindeki tarihsel süreçten elde edilen veriler ve deney aşamaları belirlenir. Sorulan büyüklük ise bu süreçte ulaşılan temel bilimsel bulgulardır.",
+        "2. Adım: Deneylerin bilimsel aşamaları analiz edilir: 1880'de koleoptil ucunun ışığı algıladığı, 1913'te bu sinyalin kimyasal bir madde olduğu, daha sonra bu maddenin asimetrik yerleşimle büyümeyi sağladığı ve 1926'da difüzyonla taşınan bu büyüme hormonunun oksin olduğu keşfedilmiştir. Oksin gölgede birikerek asimetrik büyümeye yol açar.",
+        "3. Adım: Bulgular birleştirilerek net sonuca ulaşılır: Işığa yönelme, koleoptil ucunda üretilen oksin hormonunun asimetrik dağılımına ve gölgede kalan tarafta daha fazla uzamaya neden olmasına bağlıdır."
+      ],
+      "result": "Cevap: Koleoptil ucu ışığı algılar; difüzyonla taşınan oksin hormonu asimetrik dağılarak gölgede kalan kısmın daha fazla uzamasını ve yönelmeyi sağlar."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Bitkilerin ışığa yönelmesi (fototropizma) olgusu ele alınır. Sorulan büyüklük, bu yönelme hareketinin bitkinin yaşamı için taşıdığı biyolojik önemdir.",
+        "2. Adım: Bitkilerin fotosentez mekanizması değerlendirilir. Bitkiler organik besin üretebilmek için ışık enerjisine ihtiyaç duyar. Işığa doğru yönelim hareketi, yaprakların ışık dalga boyunu en yüksek açıyla yakalamasını sağlar.",
+        "3. Adım: Yönelmenin hayati önemi netleştirilir: Fototropizma sayesinde bitki ışık enerjisinden maksimum düzeyde faydalanır, fotosentez hızını artırır ve gelişimini optimize eder."
+      ],
+      "result": "Cevap: Bitkinin yaprak ve gövdesinin ışığı en verimli şekilde almasını sağlayarak fotosentez kapasitesini ve besin üretimini maksimuma çıkarır."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Yeni bir yönelim hormonunun keşfi amacı belirlenir. Sorulan süreç, bu hipotezi test edecek kontrollü bir deney tasarımıdır.",
+        "2. Adım: Bilimsel yöntem basamakları uygulanır: Kontrol ve deney grupları oluşturulur. Deney grubundaki bitkilere yeni izole edilen hormon uygulanır, kontrol grubuna ise uygulanmaz. Bitkilerin yönelme tepkileri, hormonun asimetrik uygulanması ve agar bloklar yardımıyla difüzyon yeteneği ölçülerek karşılaştırılır.",
+        "3. Adım: Deneysel süreç netleştirilir: Hormonun asimetrik dağılımının yönelme derecesi üzerindeki etkisi (bağımlı değişken) ve yönelim açısı nicel olarak ölçülerek doğrulanır."
+      ],
+      "result": "Cevap: Hormonun asimetrik uygulanmasıyla yönelmenin tetiklenip tetiklenmediği kontrol grubuyla kıyaslanır ve agar bloklar kullanılarak hormonun difüzyon etkisi ölçülür."
+    }
+  ],
+  "biyoloji-11_p129_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: MEB 11. Sınıf biyoloji müfredatında yer alan bitkilerde hareket (tropizma) konusu ve Darwin-Darwin fototropizma deneylerinin temel ilkeleri belirlenir.",
+        "2. Adım: Koleoptil (sürgün ucu) üzerinde gerçekleştirilen deneylerde, tek yönlü ışık uyarısına karşı verilen yönelim tepkisinin (fototropizma) kontrol ve deney gruplarındaki davranış kuralları incelenir.",
+        "3. Adım: Soruların çözümü fototropizmayı sağlayan oksin hormonunun sentezlenme ve taşınma prensiplerine göre gerçekleştirilecektir."
+      ],
+      "result": "Fototropizma deney analizi"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Kontrol grubu ve 1. Deney Grubu düzenekleri analiz edilir. Kontrol grubunda koleoptilin ucu kesilmemiş ve üzeri kapatılmamıştır. 1. Deney grubunda ise uç kısım kesilmiş veya ışık geçirmeyen opak bir şapka ile kapatılmıştır.",
+        "2. Adım: Kontrol grubunda uç kısım ışığı algılar, oksin hormonu gölgede kalan tarafta daha çok birikir ve tek yönlü ışığa doğru yönelim gerçekleşir. 1. Deney grubunda ise ışık algılanamadığı veya oksin sentezlenemediği için yönelim gerçekleşmez.",
+        "3. Adım: Kontrol Grubu için yönelme durumu 'Var', yönü ise ışık kaynağının bulunduğu yön olan 'Sağ' olarak belirlenir. 1. Deney Grubu için yönelme durumu 'Yok' olarak belirlenir."
+      ],
+      "result": "Kontrol Grubu: Yönelme Var / Yönü Sağ, 1. Deney Grubu: Yönelme Yok / Yönü Yok"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: 2. Deney Grubu düzeneğinde koleoptilin ucu şeffaf bir şapka ile kapatılmış veya gövde kısmı ışık geçirmeyen kılıf ile kaplanmıştır.",
+        "2. Adım: Şeffaf şapka ışığı geçirdiği için uç kısım ışığı algılar veya gövdenin kapatılması ışık algısını engellemez çünkü ışığı algılayan kısım uçtur. Bu durumda uçta sentezlenen oksin asimetrik dağılarak yönelmeyi başlatır.",
+        "3. Adım: Analiz sonucunda 2. Deney grubunda yönelmenin gerçekleştiği ve yönünün ışık kaynağına doğru (Sağ) olduğu belirlenir."
+      ],
+      "result": "2. Deney Grubu: Yönelme (Var) / Yönelme Yönü (Sağ)"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: 3 numaralı düzenekte koleoptil ucu ışık geçirmeyen (opak) kapakla kapatılmış, 4 numaralı düzenekte ise gövde kısmı opak kılıfla kapatılmıştır.",
+        "2. Adım: 3 numaralı düzenekte uç ışık alamadığı için yönelme gerçekleşmez. 4 numaralı düzenekte ise gövde kapalı olmasına rağmen uç açıkta olduğundan ışığı algılar ve sağa doğru yönelme (bükülme) gerçekleşir.",
+        "3. Adım: Bu iki düzeneğin karşılaştırılması sonucunda, yönelme olayında uç kısmın gövdeden daha önemli olduğu anlaşılır. Çünkü ışık uyaranını algılayan ve asimetrik oksin dağılımını başlatan bölge koleoptil ucudur."
+      ],
+      "result": "Uç daha önemlidir. Gerekçe: Işığı algılayan reseptörler ve yönelmeyi sağlayan asimetrik oksin dağılımı uç bölgede gerçekleşir; gövdenin kapatılması yönelmeyi engellemezken ucun kapatılması yönelmeyi durdurur."
+    }
+  ],
+  "biyoloji-11_p130_3": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Soru 28 kapsamında, verilen olay kartlarındaki (A-H) uyarıların nitelikleri analiz edilerek her bir kart için 'Uyaranın Enerji Türü', 'Reseptör Tipi', 'Duyu Organı' ve 'Gerekçe' alanları belirlenir.",
+        "2. Adım: Fizyolojik kurallara ve MEB müfredatına uygun olarak her kartın bilgileri çıkarılır: \n- A: Isı artışı fiziksel bir uyarandır, derideki termoreseptörleri uyarır.\n- B: Ses dalgaları fiziksel dalgalardır, kulaktaki (salyangoz) mekanoreseptörleri uyarır.\n- C: Koku kimyasal bir uyarandır, burundaki kemoreseptörleri uyarır.\n- Ç: Tuzlu tat kimyasal bir uyarandır, dildeki kemoreseptörleri uyarır.\n- D: Işık elektromanyetik bir dalgadır, gözdeki fotoreseptörleri uyarır.\n- E: Diken batması doku hasarına yol açan fiziksel bir etkidir, nosiseptörleri uyarır.\n- F: Rüzgarın serinletmesi fiziksel sıcaklık değişimidir, derideki termoreseptörleri uyarır.\n- G: Basınç fiziksel bir kuvvetdir, derideki mekanoreseptörleri (Pacinian cisimciği vb.) uyarır.\n- Ğ: Asansör hareketi ve denge değişimi fizikseldir, iç kulaktaki mekanoreseptörleri uyarır.\n- H: Nane şekerindeki mentol kimyasal bir maddedir, dil üzerindeki termoreseptörleri doğrudan uyararak soğuk hissi oluşturur.",
+        "3. Adım: Tüm bu veriler sistematik bir tablo yapısına dönüştürülür."
+      ],
+      "result": "A: Fiziksel | Termoreseptör | Deri | Sıcaklık artışının algılanması\nB: Fiziksel | Mekanoreseptör | Kulak | Ses dalgalarının titreşim oluşturması\nC: Kimyasal | Kemoreseptör | Burun | Koku moleküllerinin mukusta çözünmesi\nÇ: Kimyasal | Kemoreseptör | Dil | Tuz iyonlarının tükürükte çözünerek reseptörleri uyarması\nD: Elektromanyetik | Fotoreseptör | Göz | Fotonların retinadaki rodopsin/iyodopsin pigmentlerini uyarması\nE: Fiziksel | Nosiseptör | Deri | Hücre/doku hasarının ağrı duyusunu tetiklemesi\nF: Fiziksel | Termoreseptör | Deri | Rüzgarın etkisiyle oluşan ısı kaybının algılanması\nG: Fiziksel | Mekanoreseptör | Deri | Mekanik kuvvetin derideki hücre zarlarını germesi\nĞ: Fiziksel | Mekanoreseptör | Kulak (İç Kulak) | Yarım daire kanalları ve tulumcuk/kesecikteki jelatin sıvının hareketi\nH: Kimyasal | Termoreseptör | Dil | Mentol molekülünün soğuk algılayan reseptörleri kimyasal olarak uyarması"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Soru 29 uyarınca, olay kartlarındaki uyaranların enerji türleri 'Fiziksel', 'Kimyasal' ve 'Elektromanyetik' olmak üzere üç ana gruba tasnif edilecektir.",
+        "2. Adım: Kartlar içerdikleri enerji formuna göre ayrıştırılır:\n- Fiziksel (Sıcaklık, ses dalgası, mekanik basınç, hareket ve mekanik hasar): A, B, E, F, G, Ğ\n- Kimyasal (Çözünmüş moleküller ve kimyasal bileşikler): C, Ç, H\n- Elektromanyetik (Işık/Fotonlar): D",
+        "3. Adım: Sınıflandırma net gruplar halinde listelenir."
+      ],
+      "result": "1. Fiziksel Enerji Grubu: A, B, E, F, G, Ğ\n2. Kimyasal Enerji Grubu: C, Ç, H\n3. Elektromanyetik Enerji Grubu: D"
+    }
+  ],
+  "biyoloji-11_p131_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: MEB 11. Sınıf Biyoloji dersi 1. Tema (Denetleyici ve Düzenleyici Sistemler ile Duyu Organları) kapsamında öğrencilerin edindikleri bilgilerin ve kazandıkları becerilerin ölçülmesi hedeflenmektedir.",
+        "2. Adım: Ünitedeki sinir sistemi, endokrin sistem ve duyu organlarının yapı, işlev ve birbirleriyle olan entegrasyonu bilimsel kurallar çerçevesinde test edilir.",
+        "3. Adım: Yapılan değerlendirme ile öğrencilerin homeostasiyi sağlayan sistemlerin çalışma mekanizmalarını kavraması ve ilişkilendirmesi sağlanır."
+      ],
+      "result": "Cevap: Duyu organları ve denetleyici-düzenleyici sistemlerin yapı, işlev ve entegrasyonunun bütüncül olarak değerlendirilmesi."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Ölçüt olarak 'Duyunun işlevi: korunma, beslenme ve yön bulma' kriteri seçilmiştir. Tanım: Canlıların çevrelerindeki uyarıları algılayarak yaşamlarını sürdürmek, besin bulmak ve tehlikelerden kaçınmak amacıyla duyu organlarını işlevsel olarak kullanmasıdır.",
+        "2. Adım: Seçilen bu ölçüte göre kartlar ve duyu organları şu şekilde gruplandırılır: 1. Grup (Korunma): Göz ve Deri (tehlikeleri fark etme, acı ve sıcaklık duyusuyla fiziksel zararlardan kaçınma). 2. Grup (Beslenme): Burun ve Dil (besinlerin kokusunu ve tadını alarak uygun besinleri seçme). 3. Grup (Yön Bulma): Kulak (sesin yönünü bulma ve denge sağlama).",
+        "3. Adım: Gruplandırma sonucunda göz ve deri korunma grubuna; burun ve dil beslenme grubuna; kulak ise yön bulma grubuna yerleştirilir."
+      ],
+      "result": "Grup 1 (Korunma): Göz, Deri; Grup 2 (Beslenme): Burun, Dil; Grup 3 (Yön Bulma): Kulak"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Bir önceki adımda oluşturulan üç gruba biyolojik ve işlevsel rollerine uygun etiketler tanımlanır.",
+        "2. Adım: Gruplara ait etiketler belirlenir: Grup 1 için 'Korunma-Tehlike Algısı', Grup 2 için 'Beslenme-Besin Arama', Grup 3 için 'Yön Bulma-Denge ve Uzamsal Uyum'.",
+        "3. Adım: Belirlenen etiketler bir tablo yapısı içinde sistematik hale getirilir."
+      ],
+      "result": "Grup 1: Korunma-Tehlike Algısı, Grup 2: Beslenme-Besin Arama, Grup 3: Yön Bulma-Denge ve Uzamsal Uyum"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Verilenler: Gözde sağlıklı retina ancak bozuk optik sinir; kamerada sağlam sensör ancak arızalı görüntü işlemcisi. Sorulan: Görüntünün doğru algılanmasının sadece algılayıcı yüzeye değil, işleme birimine de bağlı olduğunun gerekçelendirilmesi.",
+        "2. Adım: Bilimsel kurala göre, duyusal uyarının algılanabilmesi için reseptör tarafından oluşturulan impulsun (sinyalin) iletim yolları ile merkezi işleme birimine (uç beyin / işlemci) ulaşması ve burada çözümlenmesi gerekir. Retinası sağlam olan gözde ışık algılansa bile iletimi sağlayan optik sinir bozuk olduğunda sinyal beyne ulaşamaz ve görme gerçekleşmez. Kamerada da sensör ışığı alsa bile işlemci arızalı olduğunda sinyaller görüntüye dönüştürülemez.",
+        "3. Adım: Her iki örnek de algılamanın tamamlanabilmesi için hem reseptörün (retina/sensör) hem de işleme ve değerlendirme merkezinin (beyin/işlemci) sorunsuz çalışması gerektiğini kanıtlar."
+      ],
+      "result": "Cevap: Algılamanın gerçekleşmesi için reseptörün uyarılması, iletim hattının açık olması ve işleme biriminin (beyin/işlemci) gelen sinyalleri anlamlandırması şarttır."
+    }
+  ],
+  "biyoloji-11_p132_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: İmpulsun akson ucuna ulaşmasından sonra sinaps boşluğundaki iletim basamaklarının sırası belirlenecektir.",
+        "2. Adım: İletim basamakları sırasıyla gerçekleşir: 1) Akson ucunun kalsiyum iyonlarına (Ca2+) geçirgenliği artar ve kalsiyum akson ucuna girer. 2) Sinaptik kesecikler ekzositoz ile nörotransmitter maddeleri sinaps boşluğuna salgılar. 3) Nörotransmitter maddeler difüzyonla sinaps boşluğunda ilerler ve postsineptik nöronun (dendrit) reseptörlerine bağlanır. 4) İyon kanalları açılarak sodyum (Na+) girişi başlar ve sonraki nöronda yeni bir impuls oluşur.",
+        "3. Adım: Sıralama: Ca2+ girişi -> Nörotransmitter salınımı (ekzositoz) -> Difüzyon -> Reseptöre bağlanma -> İyon kanallarının açılması ve yeni impuls oluşumudur."
+      ],
+      "result": "Cevap: Ca2+ girişi -> Ekzositoz ile nörotransmitter salınımı -> Difüzyon -> Reseptöre bağlanma -> Sodyum kanallarının açılması ve yeni impuls oluşması"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Nörotransmitter salındığı halde reseptörler çalışmıyorsa iletimin hangi aşamada duracağı incelenecektir.",
+        "2. Adım: Salınan nörotransmitterlerin işlev yapabilmesi için postsineptik zardaki reseptörlere bağlanması gerekir. Reseptörler bozuk olduğunda nörotransmitterler bağlanamaz, sodyum kanalları açılamaz ve sonraki nörona impuls aktarılamaz.",
+        "3. Adım: Dolayısıyla iletim, nörotransmitterlerin dendrit üzerindeki reseptörlere bağlanarak sonraki nöronda yeni bir impuls (depolarizasyon) başlatması aşamasında durur."
+      ],
+      "result": "Cevap: İletim, nörotransmitterlerin postsineptik reseptörlere bağlanıp yeni nöronda impuls başlatması basamağında durur."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Loş ortamda görme sorunu yaşayan ancak parlak ışıkta ve renkli görmede sorunu olmayan öğrencinin durumu analiz edilecektir.",
+        "2. Adım: Gözde loş ışıkta şekillerin ve siyah-beyaz görüntülerin algılanmasını sağlayan fotoreseptörler çubuk (çomak) hücreleridir. Parlak ışıkta ve renkli görmeyi sağlayan ise koni hücreleridir. Öğrencide çubuk hücreleri işlevini yapamamaktadır. Bu durum 'gece körlüğü' olarak adlandırılır ve genellikle çubuk hücrelerinde ışığı soğuran rodopsin pigmentinin sentezi için gerekli olan A vitamini eksikliğinden kaynaklanır.",
+        "3. Adım: Öğrencinin çubuk (çomak) reseptörleri zarar görmüştür veya çalışmamaktadır; rahatsızlığı ise A vitamini eksikliğine bağlı gece körlüğüdür."
+      ],
+      "result": "Cevap: Zarar gören reseptörler: Çubuk (çomak) hücreleri; Rahatsızlık: Gece körlüğü (A vitamini eksikliği)"
+    }
+  ],
+  "biyoloji-11_p133_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: '1. Tema Ölçme ve Değerlendirme Soruları' başlığı altında yer alan ünite kazanımları, sinir sistemi, endokrin sistem ve duyu organlarının işleyişini kapsar.",
+        "2. Adım: Duyu organlarında bulunan reseptör tiplerinin (fotoreseptör, kemoreseptör, mekanoreseptör, termoreseptör) yapısal ve işlevsel özelliklerini analiz ederek soruların çözümü için teorik altyapıyı kur.",
+        "3. Adım: Bu tema kapsamında organizmanın dış çevreden gelen uyarılara karşı verdiği tepkiler, homeostazi ve sinirsel iletim mekanizmaları değerlendirilir."
+      ],
+      "result": "Tema Konusu: Denetleyici ve Düzenleyici Sistemler, Duyu Organları"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Güneşli açık alan (yüksek ışık şiddeti) ile loş sınıf (düşük ışık şiddeti) koşullarında gözdeki fotoreseptörlerin (koni ve çomak hücreleri) çalışma prensiplerini belirle.",
+        "2. Adım: Güneşli açık alanda yüksek ışık şiddeti nedeniyle koni reseptörleri aktifleşir, bu sayede renkler ayrıntılı ve görüntü son derece net algılanır. Loş sınıf koşullarında ise ışık şiddeti az olduğundan koni reseptörleri çalışamaz; bunun yerine ışığa karşı çok daha duyarlı olan çomak (basil) reseptörleri aktifleşir. Çomak reseptörleri renkleri algılayamadığından sadece siyah-beyaz (alacakaranlık) ve daha az net bir görüntü elde edilir.",
+        "3. Adım: Çevredeki ışık miktarının değişimine bağlı olarak aktifleşen reseptör tipinin değişmesi, görüntünün netliğini ve renk algısını doğrudan belirler."
+      ],
+      "result": "Güneşli açık alanda koni reseptörleri aktif olduğu için renk algısı ve netlik yüksektir; loş sınıfta ise çomak reseptörleri aktif olduğundan renk algısı kaybolur ve netlik azalır."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Tabloda verilen beş farklı durumun (gün ışığı, davul sesi, portakal kokusu, deniz esintisi, iğne batması) uyaran türlerini ve duyu organlarını listele.",
+        "2. Adım: Her durum için uyaranın fiziksel/kimyasal enerjisini, bunu algılayan reseptör tipini ve yerini belirle:\n- Parlak gün ışığı: Elektromanyetik (Işık) -> Fotoreseptör -> Göz (Retina)\n- Davul sesi: Mekanik (Ses dalgası) -> Mekanoreseptör -> Kulak (Kohlea - Korti organı)\n- Portakal kabuğu kokusu: Kimyasal molekül -> Kemoreseptör -> Burun (Sarı bölge)\n- Deniz esintisi (soğuk): Termal (Sıcaklık değişimi) -> Termoreseptör -> Deri (Krause cisimciği)\n- İğne batması: Mekanik hasar/Basınç -> Nosiseptör (Ağrı reseptörü) -> Deri (Serbest sinir uçları)",
+        "3. Adım: Elde edilen bilimsel verileri tablonun ilgili sütunlarına yerleştirerek sistemi tamamla."
+      ],
+      "result": "1. Parlak gün ışığı: Işık / Fotoreseptör / Göz (Retina); 2. Davul sesi: Mekanik / Mekanoreseptör / Kulak (Salyangoz); 3. Portakal kokusu: Kimyasal / Kemoreseptör / Burun (Sarı bölge); 4. Deniz esintisi: Termal / Termoreseptör / Deri; 5. İğne batması: Mekanik / Ağrı reseptörü / Deri."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Deney metnindeki durumları (göz bebeği küçülmesi, terleme, yemek tadı alamama, konuşmayı ayırt edememe) ve bunların ilişkili olduğu duyusal süreçleri belirle.",
+        "2. Adım: Metindeki her bir biyolojik tepkiyi gerçekleştiren reseptör tipini ve organını eşleştir:\n- Parlak ışıkta göz bebeğinin küçülmesi -> Fotoreseptör -> Göz\n- Sıcak ortamda terleme -> Termoreseptör -> Deri\n- Nezle iken tadı alamama -> Kemoreseptör -> Dil ve Burun\n- Yüksek seste ayırt edememe -> Mekanoreseptör -> Kulak",
+        "3. Adım: Duyu organlarını ve bu organlarda uyarımı başlatan reseptör tiplerini net bir liste halinde gruplandır."
+      ],
+      "result": "Fotoreseptör -> Göz; Termoreseptör -> Deri; Kemoreseptör -> Dil ve Burun; Mekanoreseptör -> Kulak"
+    }
+  ],
+  "biyoloji-11_p135_3": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Metinde geçen temel biyolojik kavramlar olan nöron, dendrit, akson, duyu nöronu, ara nöron, motor nöron, beyincik, hipotalamus, refleks yayı, çevresel sinir sistemi ve merkezî sinir sistemi terimlerini belirliyoruz.",
+        "2. Adım: Nöronların uyarıyı alma ve iletme mekanizmaları ile beyindeki gri ve ak maddenin yapısal farklarını, beyincik ve hipotalamusun homeostazideki rollerini analiz ediyoruz.",
+        "3. Adım: Metin, sinir sisteminin hücresel boyuttan (nöron ve kısımları) sistem boyutuna (merkezî ve çevresel sinir sistemi) kadar olan işlevsel organizasyonunu ve bilgi akış yönünü açıklar."
+      ],
+      "result": "Sinir sisteminin yapısal birimleri, beyin bölümlerinin görevleri, refleks yayı ve vücut homeostazisinin korunması."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Görsellerde yer alan bir nöronun ve sinir sisteminin ana yapısal parçalarını metindeki verilerle eşleştiriyoruz.",
+        "2. Adım: Nöronun dış ortamdan veya diğer hücrelerden gelen uyarıyı alan kısmını dendrit, metabolik faaliyetlerin yönetildiği kısmı hücre gövdesi, impulsun diğer hücreye iletildiği uzun uzantıyı ise akson olarak belirliyoruz.",
+        "3. Adım: Bu yapısal parçaların görseller üzerindeki yerlerini tespit edip dendrit, hücre gövdesi ve akson olarak isimlendiriyoruz."
+      ],
+      "result": "Nöronun kısımları: Dendrit (uyarıyı alır), Hücre Gövdesi (metabolizmayı yönetir), Akson (impuls iletir)."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: 1'den 12'ye kadar olan numaraların sinir sistemindeki hücresel ve anatomik bölgeleri temsil ettiğini belirliyoruz.",
+        "2. Adım: Metinde geçen açıklamaları ve 11. Sınıf müfredatındaki görsel dizilimleri esas alarak her numarayı işleviyle eşleştiriyoruz:\n- 1: Dendrit (Uyarıları alır)\n- 2: Hücre gövdesi (Metabolik faaliyetleri yürütür)\n- 3: Akson (İmpulsları iletir)\n- 4: Duyu nöronu (Uyarılardan aldığı bilgiyi merkezî sinir sistemine taşır)\n- 5: Ara nöron (Merkezî sinir sisteminde bilgiyi değerlendirir)\n- 6: Motor nöron (Değerlendirilen cevabı efektör organa iletir)\n- 7: Beyin (Uç Beyin - İstemli hareketleri ve duyu algılarını kontrol eder)\n- 8: Beyincik (Denge ve hareket koordinasyonunu sağlar)\n- 9: Hipotalamus (İç dengeyi yani homeostaziyi korur)\n- 10: Omurilik (Refleks yayını ve refleksleri kontrol eder)\n- 11: Merkezî Sinir Sistemi (Bilgileri işler ve değerlendirir)\n- 12: Çevresel Sinir Sistemi (Organlar ile merkezî sinir sistemi arasında bağlantı sağlar)",
+        "3. Adım: Her bir numaranın sinir sistemindeki karşılıklarını ve işlevlerini kesin olarak yazıyoruz."
+      ],
+      "result": "1: Dendrit, 2: Hücre Gövdesi, 3: Akson, 4: Duyu Nöronu, 5: Ara Nöron, 6: Motor Nöron, 7: Beyin (Uç Beyin), 8: Beyincik, 9: Hipotalamus, 10: Omurilik, 11: Merkezî Sinir Sistemi, 12: Çevresel Sinir Sistemi"
+    }
+  ],
+  "biyoloji-11_p134_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: 11. Sınıf Biyoloji dersi 1. Tema (Sistemler) kapsamında sinir sistemi, endokrin sistem ve duyu organlarının yapısı, işleyişi ve homeostaziyi koruma mekanizmaları ele alınmaktadır.",
+        "2. Adım: Bu ünitede sinir hücresindeki impuls iletimi (polarizasyon, depolarizasyon, repolarizasyon) elektrokimyasal kurallarla açıklanır; hormonların hedef hücreler üzerindeki etkileri ve duyu reseptörlerinin eşik değer prensibine göre çalışması incelenir.",
+        "3. Adım: Tema değerlendirmesinin ana amacı, organizmanın iç ve dış çevre değişimlerine karşı geliştirdiği denetleyici ve düzenleyici yanıtların entegrasyonunu ölçmektir."
+      ],
+      "result": "Cevap: Denetleyici ve düzenleyici sistemlerin (sinir sistemi, endokrin sistem ve duyu organları) homeostaziyi sağlama ve çevreye uyum süreçlerinin değerlendirilmesi."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Duyu reseptörleri, dış veya iç çevrede meydana gelen fiziksel, kimyasal ya da mekanik değişiklikleri (uyarıları) algılayan özelleşmiş hücrelerdir. Sinir sistemi ise bu verileri işleyen merkezdir.",
+        "2. Adım: Reseptörlerin uyarılmasıyla oluşan aksiyon potansiyeli (impuls), duyu nöronları aracılığıyla merkezi sinir sistemine (MSS) iletilir. MSS bu sinyalleri analiz eder, entegre eder ve motor nöronlar aracılığıyla efektör organlara (kas veya bez) uygun tepki emrini gönderir.",
+        "3. Adım: Bu döngü sayesinde organizma, çevresindeki tehlikelerden (örneğin sıcaklık, yırtıcılar) kaçınabilir, besin ve su gibi kaynaklara yönelebilir ve iç dengesini (homeostazi) dinamik bir şekilde koruyarak hayatta kalır."
+      ],
+      "result": "Cevap: Duyu reseptörleri çevresel değişimleri algılayıp sinir sistemine ileterek organizmanın tehlikelerden kaçmasını, kaynaklara yönelmesini ve iç dengesini (homeostazi) korumasını sağlar; bu etkileşim çevreye uyum ve hayatta kalma başarısının temelidir."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Hayvanlar aleminin farklı şubelerindeki sinir sistemi tasarımları basitten karmaşığa doğru evrimsel bir sıra takip eder. Bu durum elektrik devrelerinin gelişim aşamalarıyla analoji kurularak açıklanabilir.",
+        "2. Adım: Canlı grupları ve devre karşılıkları şu şekilde eşleştirilir:\n- Süngerler: Özelleşmiş bir sinir sistemi bulunmaz, uyarılara hücresel düzeyde lokal yanıt verilir (Sistem/devre dışı durum).\n- Sölenterler (örn. Hidra): Difüz (ağsı) sinir sistemi vardır; lokal uyarım tüm vücuda yayılır (Tek hatlı, basit anahtar-ampul devresi).\n- Yassı Solucanlar (örn. Planarya): İki boyuna sinir şeridi ve enine bağlantılardan oluşan merdiven sinir sistemi bulunur; merkezileşme başlamıştır (Çoklu anahtar ve paralel bağlantılı devre).\n- Eklem Bacaklılar: Baş bölgesinde belirgin ganglionlar (sinir düğümleri) ve ventral sinir şeridi bulunur (Gelişmiş, akım yolları yönlendirilebilen çok anahtarlı kontrol sistemi).\n- Omurgalılar: Beyin ve omurilikten oluşan merkezi sinir sistemi ile çevresel sinir sistemi bulunur (En karmaşık mikroişlemcili, sensörlü entegre devreler).",
+        "3. Adım: Canlıların sinir sistemleri basitten karmaşığa doğru sıralandığında devrenin işlem yapabilme ve kontrol esnekliği kapasitesiyle tam bir uyum gösterir."
+      ],
+      "result": "Cevap: Süngerler = Devresiz/Sistem dışı; Sölenterler = Tek hatlı/Basit devre (Ağsı sinir sistemi); Yassı Solucanlar = Paralel/Seri bağlantılı devre (Merdiven sinir sistemi); Eklem Bacaklılar = Çoklu anahtar/Gelişmiş devre (İp merdiven sinir sistemi); Omurgalılar = Entegre devre/Mikroişlemci (Merkezi ve Çevresel sinir sistemi)."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Omurgalı sınıflarında (balıklar, iki yaşamlılar, sürüngenler, kuşlar ve memeliler) evrimsel süreçte beynin bölümleri (özellikle uç beyin ve beyincik) hacimsel ve yapısal olarak büyümüş, yüzey alanı kıvrımlaşarak artmıştır.",
+        "2. Adım: Balıklarda beyin daha çok temel refleksleri ve duyuları (koku vb.) yöneten basit bir kontrol merkezidir (ilkel mikroişlemci). Memelilere doğru gidildikçe serebral korteksin gelişmesi, nöronlar arası sinaptik bağlantıların trilyonlarca kombinasyona ulaşmasını sağlar. Bu durum, elektrik devrelerinde transistör sayısının milyarlara ulaştırılması ve mikroişlemcinin GHz düzeyinde yüksek işlem hacmine kavuşmasıyla özdeştir.",
+        "3. Adım: Sonuç olarak, karmaşık beyin yapıları dış dünyadan gelen çoklu sensör verilerini eş zamanlı işleyip değerlendirme, öğrenme, hafıza ve karar verme gibi üst düzey fonksiyonları gerçekleştirir; bu da en gelişmiş entegre devrelerin (AI işlemciler, robotik kartlar) çalışma prensibiyle doğrudan benzerdir."
+      ],
+      "result": "Cevap: Evrimsel süreçte balıklardan memelilere doğru uç beyin ve beyincik gibi yapıların büyümesi ve kıvrımlılaşması, mikroişlemcilerin transistör sayısının ve sensör hassasiyetinin artırılarak işlem kapasitesinin, öğrenme ve karmaşık karar verme yeteneğinin yükseltilmesiyle birebir benzerlik gösterir."
+    }
+  ],
+  "biyoloji-11_p137_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Soruda verilen metin analiz edilir. Sporcunun ağırlık kaldırırken ve futbolcunun topa vururken kullandığı sistemlerin (bükücü-açıcı kaslar, eklemler, kemikler) ortak bir kaldıraç mekanizması oluşturduğu tespit edilir.",
+        "2. Adım: Fiziksel kaldıraç prensipleri biyolojik yapıya uyarlanır. Kaslar kuvveti (aktif kasılma), eklemler destek noktasını (dönme ekseni), kemikler ise yükü taşıyan kaldıraç kolunu temsil eder.",
+        "3. Adım: Metnin temel amacı, kas, kemik ve eklemlerin oluşturduğu bu entegre sistemin hareketin mekanik verimliliğini nasıl sağladığını açıklamaktır."
+      ],
+      "result": "Cevap: Metin, iskelet ve kas sisteminin fiziksel kaldıraç prensipleriyle koordineli çalışmasını açıklamaktadır."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: İskelet, kas ve eklemlerin hareketin oluşmasındaki bireysel rolleri belirlenir.",
+        "2. Adım: Kaslar kasılarak aktif hareket gücünü üretir. Ancak bu gücün yönlendirilmesi ve harekete dönüşmesi için sert bir destek elemanına (kemik) ve bu elemanların bükülmesini sağlayacak bağlantı noktalarına (eklem) ihtiyaç vardır. Formülsel olarak: Hareket = Kuvvet (Kas) + Destek (Eklem) + Kaldıraç Kolu (Kemik).",
+        "3. Adım: Bu üç yapı birlikte çalışmadığı takdirde üretilen kuvvet yönlendirilemez ve vücut parçalarının kontrollü, yönlü hareketi imkansız hale gelir."
+      ],
+      "result": "Cevap: Kaslar kuvvet üretir, kemikler kaldıraç görevi görür ve eklemler destek noktası oluşturarak hareketin yönlü ve kontrollü gerçekleşmesini sağlar."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Kaldıraç sisteminin biyolojik ve mekanik avantajları (kolaylıkları) sorgulanmaktadır.",
+        "2. Adım: Kaldıraç sistemleri sayesinde, kasların çok az kısalmasıyla (küçük bir kas kasılması) vücut uçlarında çok daha büyük ve hızlı hareketler elde edilir. Bu durum kuvvetten veya yoldan kazanç sağlayarak enerji tasarrufunu optimize eder.",
+        "3. Adım: İnsana sağlanan biyolojik kolaylıklar; minimum enerji tüketimi ile maksimum mekanik iş yapabilme, yüksek hız, esneklik ve hareket genişliğidir."
+      ],
+      "result": "Cevap: Az enerji harcayarak daha hızlı, güçlü ve geniş açılı hareketler yapmayı, böylece enerji tasarrufu ve yüksek hareket verimliliği sağlamayı kolaylaştırır."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Farklı hareketlerde (ağırlık kaldırma, koşma, çiğneme) görev alan kas, eklem ve kemiklerin yapısal farklılıkları incelenir.",
+        "2. Adım: Ağırlık kaldırmada büyük kuvvet üreten beyaz kas lifleri ve kalın kemikler; koşmada uzun süreli çalışmaya uygun kırmızı (yavaş kasılan) kas lifleri ve uzun bacak kemikleri; çiğnemede ise çok güçlü kısa mesafe kuvveti üreten çene kasları ve yarı oynar/oynar çene eklemleri özelleşmiştir.",
+        "3. Adım: Bu durum, her bölgedeki kasların lif tipinin (hızlı/yavaş), kemiklerin yoğunluğunun ve eklemlerin hareket açısının fonksiyona göre özelleştiğini gösterir."
+      ],
+      "result": "Cevap: Hareketin türüne ve yük miktarına göre kasların lif tipi (hızlı/yavaş kasılan), kemiklerin kalınlığı ve eklemlerin hareket yeteneği ile açısı değişiklik gösterir."
+    }
+  ],
+  "biyoloji-11_p136_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Başlıkta belirtilen '1. Tema Ölçme ve Değerlendirme Soruları' kapsamında sinir sistemi, endokrin sistem ve duyu organlarının genel işleyişinin ölçüldüğünü belirle.",
+        "2. Adım: Bu değerlendirme sorularının temel amacının, organizmadaki sistemlerin bütünleşmesini ve homeostazi mekanizmalarını sorgulamak olduğunu açıkla.",
+        "3. Adım: Konu bütünlüğünü sağlamak adına bu bölümün denetleyici ve düzenleyici sistemleri kapsadığını netleştir."
+      ],
+      "result": "Cevap: İnsanda denetleyici ve düzenleyici sistemlerin (sinir sistemi, endokrin sistem) ve duyu organlarının yapı ile işlevlerinin bütüncül olarak değerlendirilmesidir."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: İnsan sinir sisteminin yüksek düzeyde organizasyona sahip olmasının (özelleşmiş beyin bölgeleri, miyelin kılıflar, sinapslar) canlıya sağladığı avantajları belirle.",
+        "2. Adım: Biyolojik kural gereği, yüksek düzeyde organizasyon sayesinde iç ve dış çevreden gelen uyarıların çok hızlı bir şekilde analiz edildiğini, değerlendirildiğini ve en uygun tepkinin minimum enerjiyle oluşturulduğunu açıkla.",
+        "3. Adım: Bu durumun canlıya sağladığı adaptasyon ve hayatta kalma başarısı avantajını netleştir."
+      ],
+      "result": "Cevap: Çevresel değişimlere çok hızlı ve özelleşmiş tepkiler verebilme, öğrenme, karmaşık problemleri çözebilme ve homeostaziyi en yüksek verimle sürdürebilme avantajı sağlar."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Sıcak bir nesneye dokunulduğunda gerçekleşen üç nöronlu refleks yayının elemanlarını sırasıyla belirle.",
+        "2. Adım: Uyarının izlediği yolu aşamalar halinde açıkla: Sıcaklık derideki reseptörler tarafından algılanır. Duyu nöronu impulsu omuriliğe taşır. Omurilikteki ara nöron impulsu değerlendirir ve cevabı oluşturur. Motor nöron oluşan cevabı kol kaslarına (efektör) taşır. Kaslar kasılarak el geri çekilir.",
+        "3. Adım: Gerçekleşme sırasını refleks yayı zinciri halinde yaz."
+      ],
+      "result": "Cevap: Reseptör (Deri) -> Duyu Nöronu -> Ara Nöron (Omurilik) -> Motor Nöron -> Efektör (Kol Kasları)"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Refleks yayında yer alan duyu, ara ve motor nöronların işlevsel ilişkisini tanımla.",
+        "2. Adım: Nöronlar arasındaki bilgi akış zincirini açıkla: Duyu nöronu bilgiyi getiren (girdi), ara nöron bilgiyi işleyen ve karar veren (merkez), motor nöron ise cevabı tepki organına ileten (çıktı) elemandır.",
+        "3. Adım: Bu üç nöron tipinin koordineli çalışarak refleks yayını eksiksiz tamamladığını ifade et."
+      ],
+      "result": "Cevap: Duyu nöronu uyartıyı merkezi sinir sistemine iletir, ara nöron bu uyartıyı değerlendirip cevap oluşturur, motor nöron ise bu cevabı efektör organa ileterek tepkiyi gerçekleştirir."
+    }
+  ],
+  "biyoloji-11_p139_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Metinde yer alan anahtar kavramları (antijen-antikor, deri, mukoza, fagositoz, doğal katil hücreler, ateş, aktif ve pasif bağışıklık) analiz ediyorum.",
+        "2. Adım: Bu kavramları biyolojik savunma basamaklarına göre gruplandırıyorum. Deri, mukoza ve fagositoz gibi yapılar özgül olmayan savunma hatlarını oluştururken; aşı, serum, antikor ve lenfositler özgül savunma hatlarını oluşturur.",
+        "3. Adım: Metindeki bilgilere göre bağışıklığın genel çerçevesini; doğuştan gelen (doğal) ve sonradan edinilen (kazanılmış) savunma olarak iki ana başlık altında topluyorum."
+      ],
+      "result": "Bağışıklık; doğal (özgül olmayan) ve kazanılmış (özgül) olmak üzere ikiye ayrılır."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Bağışıklık sisteminin bir patojeni tanıma, ona karşı koyma ve daha sonra hatırlama süreçlerindeki ayırt edici özelliklerini belirliyorum.",
+        "2. Adım: MEB müfredatında yer alan bağışıklığın temel niteliklerini (özgüllük, bellek oluşturma, çeşitlilik ve kendinden olanı yabancı olandan ayırt etme) tanımlıyorum: Özgüllük, sadece hedef patojene saldırmayı sağlar. Bellek, patojeni hafızaya alıp ikinci karşılaşmada hızlı yanıt vermeyi sağlar. Çeşitlilik, farklı milyonlarca yabancı molekülü tanımayı sağlar. Tolerans ise vücudun kendi hücrelerine saldırmasını engeller.",
+        "3. Adım: Bu dört temel özelliği sıralayarak bağışıklığın temel niteliklerini tamamlıyorum."
+      ],
+      "result": "Bağışıklığın temel nitelikleri: Özgüllük, Bellek (Hafıza), Çeşitlilik ve Kendini yabancıdan ayırt edebilmedir (Tolerans)."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Verilen yapıları listeliyorum: Deri, fagositoz yapan hücreler, B lenfositleri, T lenfositleri, antikorlar.",
+        "2. Adım: Bu yapıların hangi savunma hattına ve bağışıklık türüne ait olduğunu tek tek sınıflandırıyorum: Deri (Savunmanın 1. hattı, Doğal/Özgül olmayan), Fagositoz yapan hücreler (Savunmanın 2. hattı, Doğal/Özgül olmayan), B lenfositleri (Savunmanın 3. hattı, Kazanılmış/Özgül/Humoral), T lenfositleri (Savunmanın 3. hattı, Kazanılmış/Özgül/Hücresel), Antikorlar (Savunmanın 3. hattı, Kazanılmış/Özgül/Humoral).",
+        "3. Adım: Sınıflandırmayı doğal ve kazanılmış bağışıklık olarak net bir şekilde gruplandırıyorum."
+      ],
+      "result": "Doğal Bağışıklık: Deri, Fagositoz yapan hücreler; Kazanılmış Bağışıklık: B lenfositleri, T lenfositleri, Antikorlar."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Şema üzerinde gruplandırılacak kavramları listeliyorum: Doğal Bağışıklık, Kazanılmış Bağışıklık, Aktif Bağışıklık, Pasif Bağışıklık.",
+        "2. Adım: Bu kavramları hiyerarşik bir şema yapısına dönüştürüyorum. Bağışıklık ikiye ayrılır: 1) Doğal Bağışıklık (kalıtsaldır, deri, fagositoz vb. içerir), 2) Kazanılmış Bağışıklık. Kazanılmış bağışıklık ise kendi içinde Aktif (hastalık geçirmek, aşı olmak) ve Pasif (serum, anne sütü) olarak ikiye ayrılır.",
+        "3. Adım: Bu ilişkileri içeren şematik yapıyı gruplandırarak özetliyorum."
+      ],
+      "result": "Bağışıklık -> [Doğal Bağışıklık (Deri, fagositoz, ateş)] ve [Kazanılmış Bağışıklık -> Aktif (Aşı, Hastalık) / Pasif (Serum, Anne sütü)]."
+    }
+  ],
+  "biyoloji-11_p138_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Soruda verilen başlığın kapsadığı 1. Tema (Sistemler) kapsamında destek ve hareket sistemi ile ilgili genel değerlendirme hedeflerini belirlemek.",
+        "2. Adım: Kas kasılması ve gevşemesi ile ilgili Huxley'in kayan iplikler modelinin ve bu modele ait alternatif öğrenci modellerinin kazanım düzeyindeki yerini analiz etmek.",
+        "3. Adım: Takip eden üç adet ölçme-değerlendirme sorusunun bu temanın kazanımlarını (iskelet kasının kasılma mekanizması) test ettiğini saptamak."
+      ],
+      "result": "1. Tema Destek ve Hareket Sistemi Ölçme ve Değerlendirme Çalışması"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: İskelet kasının kasılma birimi olan sarkomerin yapısındaki aktin, miyozin iplikleri ile A, I, H bantları ve Z çizgilerini belirlemek.",
+        "2. Adım: Kasılma sırasında aktin ipliklerin miyozinler üzerinde kayarak Z çizgilerinin birbirine yaklaşmasını, I ve H bantlarının daralmasını (H bandının kaybolmasını), sarkomer boyunun kısalmasını; gevşeme sırasında ise bu durumun tersine dönerek Z çizgilerinin uzaklaşmasını, I ve H bantlarının genişlemesini açıklamak. Her iki durumda da aktin, miyozin ve A bandının boyu ile kasın toplam hacminin ve kütlesinin değişmediğini belirtmek.",
+        "3. Adım: Kasılmada sarkomer kısalır, H ve I bandı daralır, gevşemede sarkomer uzar, H ve I bandı genişler; A bandı boyu ve kas hacmi her iki durumda da değişmez."
+      ],
+      "result": "Kasılmada sarkomer boyu kısalır, I ve H bantları daralır; gevşemede ise sarkomer boyu uzar, I ve H bantları genişler; A bandı boyu, aktin-miyozin iplikleri boyu ve kas hacmi değişmez."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Günlük hayattan iskelet kası mekanizmasını açıklayacak 'iki adet tarak' modeli tasarlamak.",
+        "2. Adım: İki tarağın dişlerini (aktin ve miyozin iplikleri) karşı karşıya getirerek iç içe geçirme hareketini simüle etmek. Tarakların sırt kısımları Z çizgilerini temsil eder. Taraklar birbirine yaklaştırıldığında (kasılma) dişlerin üst üste bindiği alan artar ve toplam boy kısalır. Taraklar birbirinden uzaklaştırıldığında (gevşeme) toplam boy uzar.",
+        "3. Adım: Tasarlanan iki tarağın iç içe geçip ayrılması modelinin mekanik olarak kasılma ve gevşemeyi tam olarak karşıladığını belirlemek."
+      ],
+      "result": "Karşılıklı iki tarağın dişlerinin iç içe geçirilmesi (kasılma) ve ayrılması (gevşeme) modeli"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Geliştirilen tarak modeli ile bilimsel Huxley'in kayan iplikler modelinin temel bileşenlerini karşılaştırma kriterlerini belirlemek.",
+        "2. Adım: Modellerin benzerliklerini (ipliklerin/dişlerin birbirinin üzerinde kayarak toplam boyu değiştirmesi, bağımsız birim boylarının değişmemesi) ve farklılıklarını (tarak modelinde ATP harcanması, Ca2+ iyonlarının salınımı, troponin-tropomiyozin aktivasyonu ve çapraz köprü gibi biyokimyasal süreçlerin gösterilememesi) açıklamak.",
+        "3. Adım: Benzerlik ve farklılıkları kesin hatlarıyla ortaya koymak."
+      ],
+      "result": "Benzerlik: İpliklerin/dişlerin birbiri üzerinde kayması ve kendi boylarının değişmemesi. Farklılık: Tarak modelinde ATP, Ca2+ ve çapraz köprü gibi moleküler ve biyokimyasal mekanizmaların gösterilememesi."
+    }
+  ],
+  "biyoloji-11_p141_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Grafikteki veriler ve verilen açıklama doğrultusunda, bir bireyin aynı antijenle ilk (0. gün) ve ikinci kez (yaklaşık 28. gün) karşılaşması durumunda kandaki antikor derişiminin zamana bağlı değişimi analiz edilmektedir.",
+        "2. Adım: Grafik incelendiğinde, ilk karşılaşmada antikor üretiminin başlaması için belirli bir süre (yaklaşık 7-10 gün) geçmesi gerektiği ve antikor derişiminin düşük seviyede kaldığı (birincil tepki) görülür. İkinci karşılaşmada ise antikor üretiminin hemen başladığı ve çok daha yüksek seviyeye ulaştığı (ikincil tepki) görülür.",
+        "3. Adım: Bu durum, bağışıklık sisteminin antijeni tanıma ve hafızaya alma mekanizmasını bilimsel kural olarak doğrular."
+      ],
+      "result": "Grafik, antijenle ilk karşılaşmada oluşan birincil bağışıklık tepkisi ile ikinci karşılaşmada oluşan daha güçlü ve hızlı ikincil bağışıklık tepkisini göstermektedir."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Birincil ve ikincil bağışıklık tepkilerinin başlangıç süresi, antikor üretim hızı ve antikor derişimi parametreleri bakımından karşılaştırılması istenmektedir.",
+        "2. Adım: Parametrelerin bilimsel açıklamaları şu şekildedir:\n- Başlangıç Süresi: Birincil tepkide antijen vücuda girdikten sonra antikor oluşumu 7-10 gün sürerken (latent faz), ikincil tepkide bu süre çok kısadır (1-2 gün).\n- Antikor Üretim Hızı: Birincil tepkide yavaş, ikincil tepkide ise oldukça hızlıdır.\n- Antikor Derişimi: Birincil tepkide üretilen maksimum antikor seviyesi düşüktür; ikincil tepkide ise antikor derişimi çok yüksek düzeylere ulaşır.",
+        "3. Adım: Bu üç parametrenin karşılaştırılması sonucunda ikincil tepkinin her bakımdan daha avantajlı ve güçlü olduğu sonucuna ulaşılır."
+      ],
+      "result": "Birincil tepkide başlangıç süresi uzun, hız yavaş ve derişim düşüktür; ikincil tepkide başlangıç süresi kısa, hız yüksek ve derişim çok yüksektir."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Birincil ve ikincil tepki arasındaki grafiksel farklılıkların (hız ve miktar) nedeninin hafıza (bellek) hücreleri ile açıklanması istenmektedir.",
+        "2. Adım: İlk karşılaşma sırasında B lenfositlerinin bir kısmı plazma hücrelerine dönüşürken bir kısmı da uzun ömürlü hafıza hücrelerine dönüşür. Bu hafıza hücreleri antijeni kaydeder. Aynı antijenle ikinci kez karşılaşıldığında, bu hücreler antijeni doğrudan tanır, çoğalma ve plazma hücrelerine dönüşme aşamalarını çok hızlı geçerek kısa sürede yüksek miktarda antikor sentezler.",
+        "3. Adım: Dolayısıyla hafıza hücreleri, vücudun daha önce karşılaştığı patojenlere karşı hızlı, etkin ve koruyucu bir savunma yapmasını sağlar."
+      ],
+      "result": "Hafıza hücreleri antijeni tanıyarak saklar ve ikinci karşılaşmada zaman kaybetmeden çok hızlı ve yüksek miktarda antikor üretilmesini sağlayarak ikincil bağışıklığı oluşturur."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Aşı ve serumun genel özelliklerinin bağışıklık türü, amaç, içerik ve etki süresi bakımından karşılaştırılması istenmektedir.",
+        "2. Adım: Biyolojik kurallara göre aşı ve serum özellikleri:\n- Aşı: Aktif bağışıklık sağlar, antijen içerir, koruyucudur (sağlıklı kişiye uygulanır), etkisi uzun sürelidir ve bellek hücresi oluşturur.\n- Serum: Pasif bağışıklık sağlar, hazır antikor içerir, tedavi edicidir (hasta kişiye uygulanır), etkisi kısa sürelidir (geçicidir) ve bellek hücresi oluşturmaz.",
+        "3. Adım: Bu temel farklar doğrultusunda her iki yöntemin bağışıklama mekanizmasındaki yeri netleştirilir."
+      ],
+      "result": "Aşı: Aktif bağışıklık sağlar, antijen içerir, koruyucu amaçlıdır ve uzun sürelidir. Serum: Pasif bağışıklık sağlar, hazır antikor içerir, tedavi edici amaçlıdır ve kısa sürelidir."
+    }
+  ],
+  "biyoloji-11_p146_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Homeostazinin canlılar için önemine dair yapılacak bilimsel çıkarımın temel parametrelerini ve amacını belirle. Amaç, hücrelerin hayatta kalması için kararlı bir iç çevrenin neden zorunlu olduğunu ortaya koymaktır.",
+        "2. Adım: Hücrelerin canlılığını sürdürebilmesi ve metabolik reaksiyonları gerçekleştirebilmesi için enzimlerin optimum pH, sıcaklık ve osmotik basınçta çalışması gerekir. Homeostazi mekanizmaları (terleme, idrar oluşumu, solunum hızı vb.) bu değerleri dar sınırlarda sabit tutarak enzimlerin denatüre olmasını engeller.",
+        "3. Adım: Hücrelerin iç ortam dengesi bozulduğunda enzim aktivitesi durur, metabolizma sekteye uğrar ve hücresel ölüm gerçekleşir. Dolayısıyla homeostazi, canlının bağımsız bir sistem olarak varlığını sürdürebilmesinin temel koşuludur."
+      ],
+      "result": "Homeostazi, canlının değişen dış çevre koşullarına rağmen iç ortamını (pH, sıcaklık, su oranı) kararlı tutarak enzimlerin optimum çalışmasını ve hücre bütünlüğünün korunmasını sağlayan hayati bir denge mekanizmasıdır."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: İbni Sina, İbnünnefis, Ebu Bekir Razi, Walter Cannon ve Claude Bernard’ın çalışmalarının homeostazi ve fizyolojik sistemler (dolaşım, boşaltım) açılarından analiz edilmesini sağla.",
+        "2. Adım: Claude Bernard 'iç ortam' (milieu intérieur) kavramını tanımlayarak hücrelerin dış dünyadan bağımsız bir sıvı ortamda yaşadığını göstermiştir. Walter Cannon bu kararlılığı 'homeostazi' olarak adlandırmış ve sempatik sinir sistemi ile böbrek üstü bezlerinin (adrenalin) bu dengedeki rolünü açıklamıştır. İbnünnefis küçük kan dolaşımını keşfederek akciğerlerin kanı temizleme (gaz alışverişi ve pH dengesi) işlevini ortaya koymuştur. İbni Sina ve Ebu Bekir Razi ise idrar, nabız ve vücut sıvılarının (humoral denge) analizleriyle böbreklerin ve dolaşımın vücut dengesindeki rollerini ilk kez klinik düzeyde incelemişlerdir.",
+        "3. Adım: Bu bilim insanlarının çalışmaları, sinir ve endokrin sistemlerin denetleyici, dolaşım ve boşaltım sistemlerinin ise taşıyıcı ve temizleyici roller üstlenerek homeostaziyi birlikte sağladığını kanıtlamaktadır."
+      ],
+      "result": "Claude Bernard ve Walter Cannon homeostazinin teorik altyapısını kurmuş; İbnünnefis, İbni Sina ve Razi ise dolaşım, boşaltım ve humoral denge çalışmalarıyla sistemlerin bu iç dengeyi nasıl koruduğunu açıklamışlardır."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: 'Bilim İnsanlarının Homeostazi ile İlgili Çalışmaları Tablosu'nu her bir bilim insanının özgün fizyolojik katkılarını içerecek şekilde yapılandır.",
+        "2. Adım: Bilim insanlarının çalışmalarını maddeleştirerek doğrudan tablo içeriği olarak tasarla: \n- Claude Bernard: Hücrelerin kararlı bir iç çevrede (milieu intérieur) yaşadığını ve bu iç ortamın sabit tutulmasının bağımsız yaşamın ön koşulu olduğunu öne sürdü.\n- Walter Cannon: İç dengenin korunması sürecini 'homeostazi' olarak adlandırdı; açlık, susuzluk ve stres durumlarında otonom sinir sisteminin koruyucu mekanizmalarını açıkladı.\n- İbnünnefis: Kalbin sağ karıncığından çıkan kanın akciğerlere giderek temizlendiğini (küçük kan dolaşımı) keşfetti ve dokuların oksijenlenmesi ile asit-baz dengesinin temelini attı.\n- İbni Sina: 'El-Kanun fi't-Tıbb' eserinde vücut ısısı, idrar muayenesi ve nabız ölçümleriyle hastalıkların vücut dengesinin (mizaç) bozulmasından kaynaklandığını gösterdi.\n- Ebu Bekir Razi: Vücut sıvılarının dengesini, böbreklerin süzme işlevini ve enfeksiyon hastalıklarında ateşin homeostatik bir savunma tepkisi olduğunu klinik gözlemlerle açıkladı.",
+        "3. Adım: Tabloyu bilim insanlarının isimleri ve homeostatik katkıları üzerinden eşleştirerek kesinleştir."
+      ],
+      "result": "Claude Bernard: İç ortam kavramı; Walter Cannon: Homeostazi terimi ve otonom kontrol; İbnünnefis: Küçük kan dolaşımı; İbni Sina: Humoral denge ve tanısal fizyoloji; Ebu Bekir Razi: Klinik gözlem ve vücut sıvıları dengesi."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Geçmişteki bilimsel çalışmaların günümüz tıp, biyoloji ve biyoteknoloji alanlarındaki gelişmelere olan kümülatif katkısını ve insanlık yararına etkilerini belirle.",
+        "2. Adım: İbnünnefis'in küçük kan dolaşımı keşfi modern kardiyoloji ve yapay kalp nakillerinin; Claude Bernard'ın iç ortam kavramı ve Walter Cannon'un homeostazi kuramı ise modern endokrinoloji, diyaliz cihazları, yoğun bakım monitörizasyonu ve hormon replasman (örn. insülin pompaları) tedavilerinin geliştirilmesini sağlamıştır.",
+        "3. Adım: Tarihsel süreçteki kuramsal fizyoloji birikimi, günümüzde akut organ yetmezliklerinde homeostaziyi yapay olarak sürdüren tıbbi teknolojilerin üretilmesine doğrudan katkı sağlamıştır."
+      ],
+      "result": "Tarihsel fizyoloji çalışmaları; günümüzün diyaliz teknolojisi, insülin pompaları, yapay organlar ve yoğun bakım üniteleri gibi doğrudan insan hayatını kurtaran biyomedikal teknolojilerin gelişmesini sağlamıştır."
+    }
+  ],
+  "biyoloji-11_p153_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Metinde yer alan enerji dengesi kavramını ve hücrelerin yaşamsal faaliyetlerini sürdürmesi için gereken enerjinin kaynağını belirleyelim. Enerji dengesi; beslenme yoluyla alınan organik bileşikler (yağ, karbohidrat, protein) ile vücutta harcanan enerji arasındaki ilişkidir.",
+        "2. Adım: Enerji dengesini formüle edelim: Enerji Dengesi = Alınan Enerji - Harcanan Enerji. Bu homeostatik sürecin temel biyolojik kuralı, hücrelerin enerji gereksinimini kesintisiz karşılamak ve iç dengeyi (homeostaziyi) korumaktır.",
+        "3. Adım: Enerji dengesinin temel amacı, yaşamsal olayların sürekliliğini sağlamak için alınan ve harcanan enerji arasındaki eşitliği veya kararlılığı korumaktır."
+      ],
+      "result": "Enerji Dengesi = Alınan Enerji - Harcanan Enerji (Temel işlev: Hücresel homeostazinin sürdürülmesi)"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Bazal Metabolizma Hızı (BMH) tanımını ve toplam enerji bütçesindeki oranını netleştirelim. BMH, vücudun tam dinlenme (postabsorptif ve uyanık) hâlindeyken hayatta kalmak için harcadığı minimum enerjidir.",
+        "2. Adım: BMH'nin kapsadığı yaşamsal faaliyetleri belirleyelim: Kalp atışı, solunum dalgalanmaları ve organların temel fonksiyonlarıdır. Bu değer, günlük toplam enerji ihtiyacının %60-70'lik kısmını oluşturur.",
+        "3. Adım: BMH, toplam enerji tüketiminin en büyük bileşenidir ve tamamen istirahat hâlindeki fizyolojik süreçleri kapsar."
+      ],
+      "result": "BMH = Toplam Enerji İhtiyacının %60-70'i (Hayati organ fonksiyonları ve solunum enerjisi)"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Fiziksel etkinliğin enerji tüketimi üzerindeki etkisini ve değişkenliğini analiz edelim. Fiziksel etkinlik, iskelet kaslarının kasılmasıyla gerçekleşen istemli hareketler ve egzersizler esnasında harcanan enerjiyi ifade eder.",
+        "2. Adım: Bu enerji harcamasının matematiksel oranı sabit değildir; bireyin günlük hareketlilik süresine, egzersiz yoğunluğuna ve genel etkinlik düzeyine doğrudan bağlı olarak dinamik şekilde değişir.",
+        "3. Adım: Fiziksel etkinlik, günlük enerji harcamasının en değişken bileşeni olup bireysel yaşam tarzı tarafından belirlenir."
+      ],
+      "result": "Fiziksel Etkinlik Enerjisi = Bireyin günlük egzersiz ve hareket seviyesine göre değişen dinamik enerji tüketimi"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Termik etki oranını ve kalori dengesizliğinin vücut ağırlığına (kilo) etkilerini matematiksel eşitsizliklerle belirleyelim. Termik etki, besinlerin sindirimi, emilimi ve metabolize edilmesi sürecindeki enerji harcamasıdır.",
+        "2. Adım: İlişkileri formüle edelim: Termik Etki = Toplam Enerjinin %10'u. Pozitif Enerji Dengesi (Alınan Enerji > Harcanan Enerji) durumunda yağ dokusu artar ve kilo alınır. Negatif Enerji Dengesi (Alınan Enerji < Harcanan Enerji) durumunda ise depo enerjiler harcanır ve kilo verilir.",
+        "3. Adım: Sonuç olarak termik etki toplam ihtiyacın %10'unu oluştururken; pozitif denge net kilo artışına, negatif denge ise net kilo kaybına yol açar."
+      ],
+      "result": "Termik Etki = %10; Alınan > Harcanan ise Kilo Alımı, Alınan < Harcanan ise Kilo Kaybı gerçekleşir"
+    }
+  ],
+  "biyoloji-11_p149_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Metindeki verileri analiz edelim. Şehirde sıcaklığın 40 °C'ye ulaştığı, insanların terlediği, köpeklerin dillerini çıkararak hızlı nefes aldığı ve güvercinlerin gölgede dinlendiği belirtilmiştir. Akşam sıcaklık düşünce bu davranışlar son bulmuştur.",
+        "2. Adım: Bu durum, canlıların iç çevrelerini kararlı tutmak (homeostazi) amacıyla çevresel değişimlere anlık, dinamik ve geri dönüşümlü (feedback) yanıtlar verdiğini gösterir.",
+        "3. Adım: Gözlemlerin temel sebebi, yüksek sıcaklıkta bozulan iç dengeyi (vücut ısısını) optimum düzeyde tutmak için canlıların geliştirdiği homeostatik mekanizmalardır."
+      ],
+      "result": "Farklı canlı türleri, yüksek sıcaklık gibi çevresel stres faktörlerine karşı vücut içi dengelerini (homeostaziyi) korumak amacıyla fizyolojik ve davranışsal adaptasyonlar gösterirler."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Karşılaştırılacak canlıları ve sergiledikleri mekanizmaları listeleyelim: İnsan (aşırı terleme), Köpek (hızlı soluk alıp verme, dilini dışarı çıkarma), Güvercin (gölgede dinlenme).",
+        "2. Adım: Benzerlikler ve farklılıklar yönünden analiz edelim: Benzerlik, her üç canlının da amacının vücut sıcaklığının yükselmesini önlemek ve ısıyı uzaklaştırmak olmasıdır. Farklılık ise bu amaca ulaşırken insanın sıvı kaybı ve buharlaşma (terleme) yoluyla fizyolojik, köpeğin solunum yoluyla buharlaşma (pantlama) yoluyla fizyolojik, güvercinin ise gölgeye kaçarak davranışsal bir yöntem kullanmasıdır.",
+        "3. Adım: Sonuç olarak, aynı amaca (ısı dengesine) farklı fizyolojik ve davranışsal yollarla ulaşıldığı görülür."
+      ],
+      "result": "Benzerlik: Her üç canlının da amacı vücut sıcaklığını düşürerek homeostaziyi korumaktır. Farklılık: İnsan ve köpek fizyolojik (terleme, soluma) mekanizmaları kullanırken, güvercin davranışsal (gölgeye çekilme) bir mekanizma kullanır."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Çevresel stres faktörünün (yüksek sıcaklık) farklı türlerde farklı fizyolojik tepkilere yol açmasının nedenini belirleyelim.",
+        "2. Adım: Canlılar, evrimsel süreçte yaşadıkları ekolojik nişlere ve ortamlardaki kısıtlı kaynaklara (su, nem, gölge alanlar vb.) göre en verimli enerji ve su tasarrufu sağlayan fizyolojik adaptasyonları seçmiştir. Örneğin, derisi tüylü köpeklerde terleme yerine solunum yoluyla buharlaşma daha etkilidir.",
+        "3. Adım: Bu durum, her türün kendi habitatındaki çevre şartlarına en uygun adaptasyonları geliştirerek doğal seçilimde hayatta kalma şansını artırdığını gösterir."
+      ],
+      "result": "Aynı çevresel strese karşı farklı fizyolojik tepkilerin verilmesi, türlerin evrimsel süreçte yaşadıkları habitatların su, nem ve sıcaklık koşullarına uyum sağlamak amacıyla geliştirdikleri özel adaptasyonlarla ilişkilidir."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Homeostazi mekanizmasının bozulmasının (örneğin insanın ter bezlerinin işlevsizleşmesi durumunda) canlı üzerindeki doğrudan ve dolaylı etkilerini belirleyelim.",
+        "2. Adım: Ter bezleri çalışmayan bir insan, yüksek çevre sıcaklığında vücudundaki fazla ısıyı buharlaşma yoluyla dışarıya veremez. Bu durum vücut sıcaklığının kontrolsüz yükselmesine (hipertermi) yol açar. Yüksek sıcaklık, hücresel düzeyde enzimlerin yapısını bozar (denatürasyon).",
+        "3. Adım: Enzimlerin bozulması hücresel solunum ve metabolik faaliyetleri durma noktasına getirir. Bu durum organ yetmezliğine ve dolayısıyla canlının ölümüne yol açarak hayatta kalma olasılığını kritik derecede düşürür."
+      ],
+      "result": "Ter bezlerinin işlevsiz kalması durumunda vücut ısısı düşürülemez; yükselen ısı enzimlerin yapısını bozarak (denatürasyon) hayati fonksiyonları durdurur ve canlının hayatta kalma olasılığını neredeyse sıfıra indirerek ölüme yol açar."
+    }
+  ],
+  "biyoloji-11_p161_1": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Soruda verilen homeostazi düzenleme mekanizmalarının pozitif ve negatif geri bildirim (feedback) olarak sınıflandırılması istenmektedir. Pozitif geri bildirim, bir uyarının sonucunda oluşan tepkinin uyarının şiddetini daha da artırmasıdır (döngüsel artış). Negatif geri bildirim ise uyarının tam tersi yönünde etki ederek sistemi başlangıç durumuna (dengeye) getirmeyi amaçlar.",
+        "2. Adım: Verilen durumları bilimsel homeostazi kurallarına göre analiz edelim: \n- Oksitosin hormonuyla rahim kasılmalarının artması: Pozitif Geri Bildirim\n- Tiroksin hormonunun artışına bağlı olarak TSH salgısının azalması: Negatif Geri Bildirim\n- Kan basıncı yükseldiğinde damarların genişlemesiyle basıncın düşürülmesi: Negatif Geri Bildirim\n- Pıhtılaşma faktörlerinin pıhtılaşma sürecini güçlendirerek devam ettirmesi: Pozitif Geri Bildirim\n- Bebek emdikçe oksitosin salgısının ve süt üretiminin artarak devam etmesi: Pozitif Geri Bildirim\n- Vücut sıcaklığı yükseldiğinde terlemeyle sıcaklığın düşürülmesi: Negatif Geri Bildirim\n- Glikoz seviyesi yükseldiğinde insülin salgısının artarak glikozu düşürmesi: Negatif Geri Bildirim\n- Ekleyeceğimiz özgün örnek: Kandaki kalsiyum seviyesi düştüğünde parathormon salgısının artarak kalsiyum seviyesinin normale döndürülmesi (Negatif Geri Bildirim).",
+        "3. Adım: Belirlenen tüm mekanizmaları pozitif ve negatif geri bildirim başlıkları altında doğru bir şekilde gruplandırarak kesin sonucu oluşturuyoruz."
+      ],
+      "result": "Pozitif Geri Bildirimler: Oksitosin ile doğum kasılmalarının artması, Kan pıhtılaşma süreci, Bebek emzirme ile süt salgısının devamı. Negatif Geri Bildirimler: Tiroksin-TSH dengesi, Kan basıncı kontrolü, Terleme ile vücut sıcaklığı kontrolü, İnsülin ile kan şekeri dengesi, Parathormon ile kan kalsiyum dengesi (Eklenen örnek)."
+    }
+  ],
+  "biyoloji-11_p155_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Homeostazi ile ilgili tanılayıcı dallanmış ağaçtaki önermeler sırasıyla değerlendirilerek ulaşılan çıkış noktası sorulmaktadır.",
+        "2. Adım: İlk önerme olan ç (Doğru) seçilerek devam edilir, ardından g (Doğru) önermesi yönünde ilerlenir ve son olarak k (Yanlış) önermesi tercih edilerek çıkışa yönelinir.",
+        "3. Adım: Takip edilen rotanın Doğru -> Doğru -> Yanlış şeklinde olduğu saptanır."
+      ],
+      "result": "Cevap: Doğru -> Doğru -> Yanlış rotası ile ilgili çıkış noktası"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Böbreklerin su ve elektrolit dengesinin sağlanmasındaki rolünün doğru (D) veya yanlış (Y) olduğu sorulmaktadır.",
+        "2. Adım: Böbrekler, kanı süzerek idrar oluşturma süreciyle ADH ve aldosteron hormonlarının kontrolü altında vücuttaki su miktarını ve sodyum, potasyum, klor gibi elektrolitlerin derişimini dengede tutar. Bu durum kararlı bir iç çevre sağlamaya yöneliktir.",
+        "3. Adım: Önermenin bilimsel olarak doğru (D) olduğu belirlenir."
+      ],
+      "result": "Cevap: Doğru"
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: İnsan vücut sıcaklığının yaklaşık 37 °C civarında sabit tutulmasının homeostazi örneği olup olmadığı sorulmaktadır.",
+        "2. Adım: Homeostazi, değişen çevre şartlarına rağmen vücut içi dengelerin kararlı tutulmasıdır. İnsanda hipotalamusun termostat görevi üstlenerek vücut sıcaklığını 37 °C civarında tutması en temel homeostazi örneklerindendir.",
+        "3. Adım: Önermenin bilimsel olarak doğru (D) olduğu belirlenir."
+      ],
+      "result": "Cevap: Doğru"
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Homeostazinin sadece hayvanlar alemine özgü bir özellik olup olmadığı sorulmaktadır.",
+        "2. Adım: Homeostazi (kararlı iç çevre koruma), tüm canlıların (bakteriler, arkeler, protistler, mantarlar, bitkiler ve hayvanlar) ortak özelliğidir. Bitkiler de terleme, stoma açıklığı kontrolü ve atık maddeleri uzaklaştırma gibi yöntemlerle iç dengelerini korur.",
+        "3. Adım: Önermenin bilimsel olarak yanlış (Y) olduğu belirlenir."
+      ],
+      "result": "Cevap: Yanlış"
+    }
+  ],
+  "biyoloji-11_p167_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Cümlede vücudun iç dengesini koruma durumunu ifade eden temel biyolojik terim sorulmaktadır.",
+        "2. Adım: Canlıların değişen çevre şartlarına rağmen iç ortamlarını kararlı ve dengeli tutma eğilimine \"homeostazi\" denir. Bu kavram Yunanca \"homoios\" (benzer) ve \"stasis\" (durma) kelimelerinden türetilmiştir.",
+        "3. Adım: Boşluğa gelmesi gereken kelime \"homeostazi\" olarak belirlenir."
+      ],
+      "result": "homeostazi"
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Cümlede sinir sisteminin istemsiz olarak çalışan (iç organların kontrolünü sağlayan) bölümünün adı sorulmaktadır.",
+        "2. Adım: Çevresel sinir sistemi, istemli hareketleri kontrol eden somatik sinir sistemi ve istemsiz çalışan iç organların faaliyetlerini düzenleyen otonom sinir sistemi olmak üzere ikiye ayrılır.",
+        "3. Adım: Boşluğa gelmesi gereken kelime \"otonom\" olarak belirlenir."
+      ],
+      "result": "otonom"
+    }
+  ],
+  "biyoloji-11_p170_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Endokrin sistemin homeostaziyi koruma amacına yönelik genel işleyiş prensibi, negatif geri bildirim (negative feedback) mekanizması ile açıklanır. Hedeflenen homeostatik dengenin saptanması için kontrol merkezi, reseptörler ve efektör organlar arasındaki ilişki modellenir.",
+        "2. Adım: Vücuttaki homeostatik dengenin sağlanması, antagonist (zıt) çalışan hormon çiftlerinin koordinasyonu ile gerçekleşir. Bu durumu şematize etmek için Geri Bildirim Döngüsü formüle edilir: Uyarı -> Reseptör -> Kontrol Merkezi (Hipofiz/Hipotalamus/Endokrin Bez) -> Efektör Organ -> Tepki -> Negatif Geri Bildirim süreci takip edilir.",
+        "3. Adım: Sistemik kararlılık grafiği çıkarıldığında, homeostatik değişkenin (örneğin kan şekeri veya kalsiyum) belirli bir set değeri (set point) etrafında sinüzoidal dalgalanmalar çizerek dengede kaldığı tespit edilir."
+      ],
+      "result": "Sonuç: Endokrin sistem, antagonist çalışan hormonlar ve negatif geri bildirim döngüleri ile iç çevreyi dinamik bir dengede (homeostazi) tutar."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: İzlenen videolardaki temel süreçler belirlenir: 1. Bölüm pankreastan salgılanan insülin ve glukagon hormonlarının kan glukoz düzeyine etkisini; 2. Bölüm ise tiroit ve paratiroit bezlerinden salgılanan hormonların kan kalsiyum düzeyine etkisini konu alır.",
+        "2. Adım: Her iki bölümdeki fizyolojik mekanizmalar karşılaştırıldığında, homeostazinin sağlanmasında rol oynayan iki ana antagonist eksen formüle edilir: İnsülin-Glukagon dengesi ile Kalsitonin-Parathormon dengesi.",
+        "3. Adım: Hormonal yetersizlik veya aşırılık durumlarında ortaya çıkan fizyolojik sapmalar (diyabet, osteoporoz, tetani) tespit edilerek videoların homeostazi üzerindeki önemi netleştirilir."
+      ],
+      "result": "Sonuç: Videolar, kan glukozu ve kalsiyum dengesini sağlayan antagonist hormonların (insülin/glukagon ve kalsitonin/parathormon) etki mekanizmalarını açıklar."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Kandaki kalsiyum (Ca2+) seviyesinin dengelenmesinde görevli iki antagonist hormon olan kalsitonin (tiroit bezi) ve parathormonun (paratiroit bezi) hedef organları (kemik, böbrek, bağırsak) belirlenir.",
+        "2. Adım: Kandaki Ca2+ seviyesi normalin (yaklaşık 10 mg/100 mL) üzerine çıktığında tiroit bezinden kalsitonin salgılanır; kalsiyum kandan kemiğe geçer ve böbreklerden geri emilimi azalır. Kandaki Ca2+ seviyesi düştüğünde paratiroit bezinden parathormon salgılanır; kemikten kana kalsiyum geçer, böbreklerden ve bağırsaklardan geri emilim artar.",
+        "3. Adım: Bu zıt yönlü mekanizma sonucunda kandaki kalsiyum konsantrasyonu dar bir aralıkta sabitlenerek homeostazi korunmuş olur."
+      ],
+      "result": "Sonuç: Kalsitonin ve parathormon antagonist çalışarak kan kalsiyum seviyesini 10 mg/100 mL olan set değerinde sabit tutar."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Sağlıklı bir bireyde normal kan şekeri seviyesi (açlık durumunda 70-100 mg/dL) referans alınır. Bu dengeyi sağlayan pankreas hormonları insülin (beta hücreleri) ve glukagon (alfa hücreleri) olarak saptanır.",
+        "2. Adım: Besin tüketimi sonrası yükselen kan glukozu, insülin salgısını uyarır. İnsülin, glukozun hücrelere geçmesini ve karaciğerde glikojen olarak depolanmasını sağlayarak kan şekerini düşürür. Açlık anında düşen kan glukozu ise glukagon salgısını uyarır; glukagon, karaciğerdeki glikojenin glukoza yıkılarak kana verilmesini sağlar ve kan şekerini yükseltir.",
+        "3. Adım: İnsülin ve glukagon hormonlarının bu çift yönlü negatif geri bildirim döngüsü ile kan şekerini sürekli optimum düzeyde tuttuğu doğrulanır."
+      ],
+      "result": "Sonuç: İnsülin kan glukozunu düşürücü, glukagon ise yükseltici etki yaparak kan şekerini 70-100 mg/dL sınırlarında dengede tutar."
+    }
+  ],
+  "biyoloji-11_p184_4": [
+    {
+      "question_index": 1,
+      "steps": [
+        "1. Adım: Araştırma sorularında dolaşım sistemi elemanları, kan basıncı (KB), osmotik basınç (OB) ve Starling Hipotezi'ne göre madde taşınması parametreleri incelenir.",
+        "2. Adım: Kılcal damarlarda protein osmotik basıncı (yaklaşık 25 mmHg) damar boyunca sabit kalırken, kan basıncı atardamar ucunda yüksek (yaklaşık 40 mmHg), toplardamar ucunda ise düşüktür (yaklaşık 15 mmHg). Atardamar ucunda KB > OB olduğundan süzülme ile besin ve oksijen doku sıvısına geçer; toplardamar ucunda OB > KB olduğundan geri emilim ile karbondioksit ve atıklar kana geçer.",
+        "3. Adım: Fazla doku sıvısının dolaşıma geri kazandırılmasını sağlayan ve homeostaziyi koruyan yapı ise lenf sistemidir."
+      ],
+      "result": "Starling Hipotezi: Kılcal damarın atardamar ucunda KB (40 mmHg) > OB (25 mmHg) ile süzülme, toplardamar ucunda OB (25 mmHg) > KB (15 mmHg) ile geri emilim gerçekleşir."
+    },
+    {
+      "question_index": 2,
+      "steps": [
+        "1. Adım: Grup çalışması için sınıf mevcuduna göre 4-6 kişilik heterojen grupların oluşturulması hedeflenir.",
+        "2. Adım: Grup içi roller bilimsel modelleme sürecine göre dağıtılır: Araştırmacı (bilgi toplama), Çizer/Tasarımcı (posteri hazırlama) ve Sunucu (sınıf içi anlatım).",
+        "3. Adım: Rollerin adil dağılımı ile grup içi iş birliği optimize edilir."
+      ],
+      "result": "Grup Yapısı: 4-6 kişilik heterojen çalışma gruplarında Araştırmacı, Tasarımcı ve Sunucu rollerinin belirlenmesi."
+    },
+    {
+      "question_index": 3,
+      "steps": [
+        "1. Adım: Model için gerekli olan fiziksel parametreler belirlenir: Kılcal damarın atar ve toplardamar uçlarındaki hidrostatik ve osmotik basınç değerleri.",
+        "2. Adım: Atardamar ucundaki net kuvvet formülü: F_net = KB - OB = 40 - 25 = +15 mmHg (Dışarı doğru süzülme). Toplardamar ucundaki net kuvvet formülü: F_net = KB - OB = 15 - 25 = -10 mmHg (İçeri doğru geri emilim).",
+        "3. Adım: Süzülen sıvının geri emilen sıvıdan fazla olan kısmı (%10'luk kısım) lenf kılcalları ile toplanarak homeostatik denge korunur ve ödem oluşumu engellenir."
+      ],
+      "result": "Madde Taşınması Modeli: Atardamar ucunda +15 mmHg net basınçla süzülme, toplardamar ucunda -10 mmHg net basınçla geri emilim ve kalan %10'luk sıvının lenf sistemiyle taşınması."
+    },
+    {
+      "question_index": 4,
+      "steps": [
+        "1. Adım: Grup üyelerinin modele katkı düzeyleri; literatür taraması, grafik çizimi, sunum hazırlığı ve Starling formülasyonu aşamalarına göre değerlendirilir.",
+        "2. Adım: Katkı oranı her üye için eşit dağılımla %25 olarak hedeflenir ve bireysel öz değerlendirme ölçeği uygulanır.",
+        "3. Adım: Tüm aşamalarda etkin görev alarak grup içi bireysel katkı başarıyla tamamlanır."
+      ],
+      "result": "Bireysel Katkı Oranı: Modelleme sürecinde %25 oranında eşit görev dağılımlı aktif katılım."
+    }
   ]
 }

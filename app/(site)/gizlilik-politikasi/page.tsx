@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 };
 
 export default function GizlilikPolitikasiPage() {
-  const lastUpdated = '12 Eylül 2026';
+  const lastUpdated = '20 Eylül 2026';
 
   return (
     <div className="py-14 pb-28">
@@ -152,7 +152,7 @@ export default function GizlilikPolitikasiPage() {
             </p>
             <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs">
               <p><strong>Platform:</strong> Matemetrik.com</p>
-              <p><strong>İletişim E-Posta:</strong> <a href="mailto:matemetrik@gmail.com" className="text-indigo-600 font-bold hover:underline">matemetrik@gmail.com</a></p>
+              <p><strong>İletişim E-Posta:</strong> <a href="mailto:matemetrikcom@gmail.com" className="text-indigo-600 font-bold hover:underline">matemetrikcom@gmail.com</a></p>
               <p><strong>Resmi İletişim Sayfası:</strong> <Link href="/iletisim" className="text-indigo-600 font-bold hover:underline">matemetrik.com/iletisim</Link></p>
             </div>
           </section>

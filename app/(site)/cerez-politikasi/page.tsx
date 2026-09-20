@@ -114,8 +114,8 @@ export default function CerezPolitikasiPage() {
             <h2 className="text-xl font-bold text-slate-900">4. İletişim</h2>
             <p className="text-xs text-slate-600">
               Çerez politikamız ile ilgili merak ettiğiniz her türlü detay için{' '}
-              <a href="mailto:matemetrik@gmail.com" className="font-bold text-indigo-600 hover:underline">
-                matemetrik@gmail.com
+              <a href="mailto:matemetrikcom@gmail.com" className="font-bold text-indigo-600 hover:underline">
+                matemetrikcom@gmail.com
               </a>{' '}
               adresi üzerinden veya <Link href="/iletisim" className="text-indigo-600 font-bold hover:underline">İletişim sayfamızdan</Link> bize yazabilirsiniz.
             </p>

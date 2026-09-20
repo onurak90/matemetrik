@@ -114,12 +114,22 @@ export default function Footer() {
             <ul className="space-y-2.5 text-xs">
               <li>
                 <Link href="/iletisim" className="hover:text-white transition-colors text-indigo-400 font-semibold">
-                  İletişim (matemetrik@gmail.com)
+                  İletişim (matemetrikcom@gmail.com)
                 </Link>
               </li>
               <li>
                 <Link href="/hakkimizda" className="hover:text-white transition-colors">
                   Hakkımızda
+                </Link>
+              </li>
+              <li>
+                <Link href="/vizyonumuz" className="hover:text-white transition-colors text-indigo-300">
+                  Vizyonumuz
+                </Link>
+              </li>
+              <li>
+                <Link href="/misyonumuz" className="hover:text-white transition-colors text-purple-300">
+                  Misyonumuz
                 </Link>
               </li>
               <li>
@@ -137,21 +147,6 @@ export default function Footer() {
                   Çerez Politikası
                 </Link>
               </li>
-              <li>
-                <Link href="/ads.txt" className="hover:text-white transition-colors">
-                  ads.txt
-                </Link>
-              </li>
-              <li>
-                <Link href="/sitemap.xml" className="hover:text-white transition-colors">
-                  Site Haritası (sitemap.xml)
-                </Link>
-              </li>
-              <li>
-                <Link href="/robots.txt" className="hover:text-white transition-colors">
-                  Robots.txt
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
@@ -167,7 +162,7 @@ export default function Footer() {
             2020 - {new Date().getFullYear()} matemetrik.com &bull; Tüm Hakları Saklıdır.
           </div>
           <div className="flex items-center gap-1 text-slate-400">
-            Matematik &amp; Eğitim Portalı &bull; İletişim: matemetrik@gmail.com
+            Matematik &amp; Eğitim Portalı &bull; İletişim: matemetrikcom@gmail.com
           </div>
         </div>
       </div>
