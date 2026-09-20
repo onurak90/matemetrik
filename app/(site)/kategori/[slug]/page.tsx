@@ -5,21 +5,23 @@ import type { Metadata } from 'next';
 import { FolderTree, ChevronRight, BookOpen, ArrowRight } from 'lucide-react';
 import { getCategoryBySlug, getPosts, getCategories, getMebBookMasterPosts } from '@/lib/db';
 import PostCard from '@/components/blog/PostCard';
+import GradeSubjectSolutions from '@/components/category/GradeSubjectSolutions';
 
 interface CategoryPageProps {
   params: { slug: string };
-  searchParams: { page?: string };
+  searchParams: { page?: string; ders?: string };
 }
 
 export const revalidate = 60; // ISR
 
-export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: CategoryPageProps): Promise<Metadata> {
   const cat = getCategoryBySlug(params.slug);
   const name = cat ? cat.name : params.slug.replace('-', ' ').toUpperCase();
+  const dersTitle = searchParams?.ders ? ` - ${searchParams.ders.toUpperCase()} Ders Çözümleri` : '';
 
   return {
-    title: `${name} Ders Notları, Çözümler ve Konu Anlatımları`,
-    description: cat?.description || `${name} kategorisine ait tüm MEB ders kitabı cevapları ve matematik çözümleri.`,
+    title: `${name}${dersTitle} Ders Notları, MEB Çözümleri ve Konu Anlatımları`,
+    description: cat?.description || `${name} kategorisine ait tüm MEB ders kitabı cevapları, sayfa çözümleri ve konu testleri.`,
     alternates: {
       canonical: `https://www.matemetrik.com/kategori/${params.slug}`,
     },
@@ -29,18 +31,26 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 export default async function CategoryPage({ params, searchParams }: CategoryPageProps) {
   const cat = getCategoryBySlug(params.slug);
   const currentPage = parseInt(searchParams.page || '1', 10);
+  const dersFilter = searchParams.ders;
+  const isGradeCategory = /^([1-9]|1[0-2])-sinif$/.test(params.slug);
 
   const { posts, total, totalPages } = getPosts({
     page: currentPage,
     limit: 12,
     category: params.slug,
+    search: dersFilter,
     publishedOnly: true,
   });
+
+  const totalAllPosts = isGradeCategory && dersFilter
+    ? getPosts({ category: params.slug, publishedOnly: true, limit: 1 }).total
+    : total;
 
   const allCategories = getCategories();
   const categoryName = cat ? cat.name : params.slug;
   const isMebCategory = params.slug === 'meb-ders-kitabi-cevaplari';
   const mebBooks = isMebCategory ? getMebBookMasterPosts() : [];
+  const dersQuery = dersFilter ? `&ders=${encodeURIComponent(dersFilter)}` : '';
 
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -64,7 +74,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   const collectionJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: `${categoryName} - Ders Notları ve Çözümler`,
+    name: `${categoryName} - Ders Notları ve MEB Çözümleri`,
     description: cat?.description || `${categoryName} kategorisine ait MEB çözümleri ve matematik ders materyalleri.`,
     url: `https://www.matemetrik.com/kategori/${params.slug}`,
   };
@@ -87,6 +97,12 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           </Link>
           <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
           <span className="text-slate-900 font-semibold">{categoryName}</span>
+          {dersFilter && (
+            <>
+              <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
+              <span className="text-indigo-600 font-bold capitalize">{dersFilter}</span>
+            </>
+          )}
         </nav>
 
         {/* Category Header */}
@@ -94,7 +110,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           <div className="max-w-3xl space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-bold border border-indigo-100">
               <FolderTree className="w-3.5 h-3.5" />
-              Kategori &bull; {isMebCategory ? `${mebBooks.length} Kitap &bull; 3.500+ Sayfa Çözümü` : `${total} Yazı`}
+              Kategori &bull; {isMebCategory ? `${mebBooks.length} Kitap &bull; 4.000+ Sayfa Çözümü` : `${totalAllPosts} Yazı`}
             </div>
 
             <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
@@ -107,7 +123,17 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           </div>
         </div>
 
-        {/* 2026-2027 MEB Ders Kitabı Cevapları Showcase Section */}
+        {/* Sınıf Seviyesine Özel Ders Ders Kitap Çözümleri Butonları ve Filtreleme */}
+        {isGradeCategory && (
+          <GradeSubjectSolutions
+            gradeSlug={params.slug}
+            categoryName={categoryName}
+            currentDers={dersFilter}
+            totalPosts={totalAllPosts}
+          />
+        )}
+
+        {/* 2026-2027 MEB Ders Kitabı Cevapları Showcase Section (Tüm Sınıflar İçin) */}
         {isMebCategory && mebBooks.length > 0 && (
           <div className="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-6 sm:p-8 text-white shadow-xl border border-indigo-900/50">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-6 border-b border-white/10">
@@ -121,24 +147,31 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
                   </span>
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight">
-                  Tüm Sınıf ve Ders Kitapları
+                  Tüm Sınıf ve Ders Kitapları (1-12. Sınıf)
                 </h2>
                 <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl">
                   Aşağıdaki listeden sınıfınızı ve dersinizi seçerek alıştırmalar, sıra sizde ve ölçme değerlendirme sayfalarının adım adım çözümlerine ulaşabilirsiniz.
                 </p>
               </div>
               <div className="px-4 py-2 rounded-xl bg-white/10 border border-white/10 text-xs font-bold text-indigo-200 shrink-0 self-start sm:self-center">
-                21 Kitap &bull; 3.700+ Sayfa Çözümü
+                {mebBooks.length} Kitap &bull; 4.000+ Sayfa Çözümü
               </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {[
-                { slug: '6-sinif', name: '6. Sınıf', count: 'Matematik' },
-                { slug: '7-sinif', name: '7. Sınıf', count: 'Matematik' },
+                { slug: '1-sinif', name: '1. Sınıf', count: '2 Ders' },
+                { slug: '2-sinif', name: '2. Sınıf', count: '2 Ders' },
+                { slug: '3-sinif', name: '3. Sınıf', count: '2 Ders' },
+                { slug: '4-sinif', name: '4. Sınıf', count: '3 Ders' },
+                { slug: '5-sinif', name: '5. Sınıf', count: '5 Ders' },
+                { slug: '6-sinif', name: '6. Sınıf', count: '3 Ders' },
+                { slug: '7-sinif', name: '7. Sınıf', count: '3 Ders' },
+                { slug: '8-sinif', name: '8. Sınıf', count: 'LGS (5 Ders)' },
                 { slug: '9-sinif', name: '9. Sınıf', count: '7 Ders' },
                 { slug: '10-sinif', name: '10. Sınıf', count: '6 Ders' },
                 { slug: '11-sinif', name: '11. Sınıf', count: '6 Ders' },
+                { slug: '12-sinif', name: '12. Sınıf', count: 'YKS (5 Ders)' },
               ].map((g) => {
                 const groupBooks = mebBooks.filter((b) => b.category_slug === g.slug);
                 if (groupBooks.length === 0) return null;
@@ -311,12 +344,19 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
         {/* Posts Grid */}
         {posts.length > 0 && (
           <div className="space-y-6">
-            {isMebCategory && (
-              <div className="flex items-center gap-3 pt-4">
-                <h3 className="text-lg font-bold text-slate-900">Diğer İlgili İçerikler ve Çözümler</h3>
-                <div className="h-px bg-slate-200 flex-1" />
+            <div className="flex items-center justify-between gap-3 pt-2">
+              <div className="flex items-center gap-2">
+                <h3 className="text-lg font-bold text-slate-900">
+                  {dersFilter
+                    ? `${categoryName} ${dersFilter.toUpperCase()} İçerikleri (${total})`
+                    : isMebCategory
+                    ? 'Diğer İlgili İçerikler ve Çözümler'
+                    : `${categoryName} Konu Anlatımları, Testler ve Yazılar`}
+                </h3>
               </div>
-            )}
+              <div className="h-px bg-slate-200 flex-1 hidden sm:block" />
+            </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {posts.map((post) => (
                 <PostCard key={post.id} post={post} />
@@ -326,8 +366,24 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
         )}
 
         {!isMebCategory && posts.length === 0 && (
-          <div className="p-16 bg-white rounded-3xl border border-slate-200 text-center text-slate-500">
-            Bu kategoride henüz yazı bulunmamaktadır.
+          <div className="p-12 sm:p-16 bg-white rounded-3xl border border-slate-200 text-center space-y-3">
+            <div className="text-4xl">📚</div>
+            <h3 className="text-base font-bold text-slate-800">
+              {dersFilter ? `"${dersFilter}" dersine ait bağımsız blog yazısı bulunamadı.` : 'Bu kategoride henüz yazı bulunmamaktadır.'}
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-500 max-w-md mx-auto leading-relaxed">
+              Yukarıdaki ders kartlarında yer alan <strong className="text-indigo-600">"Kitap Çözümlerini Aç"</strong> butonunu kullanarak doğrudan MEB ders kitabı sayfa çözümlerine ulaşabilirsiniz.
+            </p>
+            {dersFilter && (
+              <div className="pt-2">
+                <Link
+                  href={`/kategori/${params.slug}`}
+                  className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition-colors"
+                >
+                  Tüm {categoryName} İçeriklerini Göster
+                </Link>
+              </div>
+            )}
           </div>
         )}
 
@@ -336,8 +392,8 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           <div className="flex items-center justify-center gap-2 pt-8">
             {currentPage > 1 && (
               <Link
-                href={`/kategori/${params.slug}?page=${currentPage - 1}`}
-                className="px-4 py-2 bg-white border border-slate-200 rounded-xl text-xs font-bold text-slate-700 hover:bg-slate-50"
+                href={`/kategori/${params.slug}?page=${currentPage - 1}${dersQuery}`}
+                className="px-4 py-2 bg-white border border-slate-200 rounded-xl text-xs font-bold text-slate-700 hover:bg-slate-50 shadow-sm"
               >
                 &larr; Önceki
               </Link>
@@ -349,8 +405,8 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
 
             {currentPage < totalPages && (
               <Link
-                href={`/kategori/${params.slug}?page=${currentPage + 1}`}
-                className="px-4 py-2 bg-white border border-slate-200 rounded-xl text-xs font-bold text-slate-700 hover:bg-slate-50"
+                href={`/kategori/${params.slug}?page=${currentPage + 1}${dersQuery}`}
+                className="px-4 py-2 bg-white border border-slate-200 rounded-xl text-xs font-bold text-slate-700 hover:bg-slate-50 shadow-sm"
               >
                 Sonraki &rarr;
               </Link>
