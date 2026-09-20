@@ -14,6 +14,7 @@ import CommentSection from '@/components/blog/CommentSection';
 import TableOfContents from '@/components/blog/TableOfContents';
 import ReadingProgressBar from '@/components/blog/ReadingProgressBar';
 import PrevNextNav from '@/components/blog/PrevNextNav';
+import InteractiveQuizHandler from '@/components/blog/InteractiveQuizHandler';
 
 interface PostPageProps {
   params: { slug: string };
@@ -146,6 +147,8 @@ export default async function BlogPostPage({ params }: PostPageProps) {
     <div className="py-10 pb-24">
       {/* Scroll Reading Progress Bar */}
       <ReadingProgressBar />
+      {/* Interactive Quiz Option Highlights */}
+      <InteractiveQuizHandler />
 
       {/* Schema.org scripts */}
       <script

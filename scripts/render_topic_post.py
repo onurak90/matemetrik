@@ -55,18 +55,32 @@ def build_topic_post_html(topic_data):
         </div>'''
     ans_grid_html += '</div>'
 
-    # 2. Questions Section HTML
+    # 2. Questions Section HTML (Interactive Live Test with Instant Green/Red Feedback)
     questions_html = ""
     for q in topic_data["questions"]:
         opts_html = ""
         for opt in q["options"]:
-            opts_html += f'<div class="p-3 rounded-xl bg-slate-50 border border-slate-200/80 text-sm font-medium text-slate-800 hover:border-indigo-300 transition-colors">{opt}</div>'
+            opt_letter = opt[0] if len(opt) > 0 and opt[0] in "ABCDE" else ""
+            opt_text = opt[3:].strip() if len(opt) > 2 and opt[1] == ")" else opt
+            opts_html += f'''
+            <button type="button" 
+                    class="quiz-option w-full text-left p-3.5 rounded-xl bg-slate-50 hover:bg-indigo-50/70 border border-slate-200 hover:border-indigo-300 text-sm font-medium text-slate-800 transition-all flex items-center justify-between cursor-pointer group select-none"
+                    data-q="{q['num']}" 
+                    data-opt="{opt_letter}">
+                <span class="flex items-center gap-2.5 flex-1 pr-2">
+                    <span class="opt-badge w-7 h-7 rounded-lg bg-slate-200 text-slate-700 text-xs font-bold flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-colors shrink-0">{opt_letter}</span>
+                    <span class="opt-text text-slate-900 font-medium">{opt_text}</span>
+                </span>
+                <span class="opt-feedback hidden text-xs font-black"></span>
+            </button>'''
         
         questions_html += f'''
-        <div class="p-5 sm:p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-3" id="soru-{q['num']}">
+        <div class="p-5 sm:p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-3 quiz-card" id="soru-{q['num']}" data-quiz-q="{q['num']}" data-correct="{q['correct']}">
             <div class="flex items-center justify-between pb-2 border-b border-slate-100">
                 <span class="text-xs font-black uppercase tracking-wider px-2.5 py-1 rounded-md bg-indigo-50 text-indigo-700">Soru {q['num']}</span>
-                <span class="text-xs text-slate-400 font-medium">Yeni Nesil MEB Formatı</span>
+                <span class="text-xs text-indigo-600 font-semibold bg-indigo-50/80 px-2 py-0.5 rounded flex items-center gap-1">
+                    <span>⚡ Canlı İnteraktif Test</span>
+                </span>
             </div>
             <div class="text-sm sm:text-base font-semibold text-slate-900 leading-relaxed">
                 {q['text']}
@@ -74,19 +88,26 @@ def build_topic_post_html(topic_data):
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-2">
                 {opts_html}
             </div>
+            <!-- Feedback / Solution Hint (revealed after clicking an option) -->
+            <div class="quiz-solution-hint hidden pt-3 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs">
+                <div class="font-bold text-slate-800 hint-text"></div>
+                <a href="#cozum-{q['num']}" class="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold transition-colors">
+                    🔍 Ayrıntılı Çözümü İncele &darr;
+                </a>
+            </div>
         </div>'''
 
     # 3. Solutions Section HTML
     solutions_html = ""
     for q in topic_data["questions"]:
         solutions_html += f'''
-        <div class="p-5 rounded-2xl bg-white border border-slate-200/90 shadow-sm space-y-2">
+        <div class="p-5 rounded-2xl bg-white border border-slate-200/90 shadow-sm space-y-2 scroll-mt-24" id="cozum-{q['num']}">
             <div class="flex items-center justify-between">
                 <h4 class="font-bold text-slate-900 text-sm flex items-center gap-2">
                     <span class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-800 text-xs flex items-center justify-center font-extrabold">{q['num']}</span>
-                    Soru {q['num']} Çözümü
+                    Soru {q['num']} Ayrıntılı Çözümü
                 </h4>
-                <span class="px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200">Doğru Cevap: {q['correct']}</span>
+                <span class="px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200">Doğru Seçenek: {q['correct']}</span>
             </div>
             <div class="text-xs sm:text-sm text-slate-700 leading-relaxed pt-1 border-t border-slate-100">
                 {q['solution']}
@@ -94,7 +115,7 @@ def build_topic_post_html(topic_data):
         </div>'''
 
     # 4. Video Embed HTML
-    video_id = topic_data.get("video_embed_id", "dQw4w9WgXcQ")
+    video_id = topic_data.get("video_embed_id") or "s7z41u5mB-4"
     v_title = topic_data.get("video_title", f"{g_str} {subj} {topic} Video Konu Anlatımı")
     v_desc = topic_data.get("video_desc", "Müfredata uygun video dersi izleyerek püf noktalarını öğrenin ve soruları hocamızla birlikte çözün.")
 

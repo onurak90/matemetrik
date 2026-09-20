@@ -131,7 +131,7 @@ export default function Navbar() {
               </div>
             </div>
 
-            {/* MEB Çözümleri Dropdown */}
+            {/* MEB Çözümleri Mega Dropdown (1-12. Sınıf Tüm Kademeler) */}
             <div className="relative group">
               <button
                 type="button"
@@ -141,35 +141,91 @@ export default function Navbar() {
                 <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
               </button>
 
-              <div className="absolute top-full left-0 w-72 bg-white rounded-2xl shadow-xl border border-slate-200 p-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-1">
-                <Link
-                  href="/kategori/meb-ders-kitabi-cevaplari"
-                  className="flex items-center justify-between p-2.5 rounded-xl hover:bg-indigo-50 text-xs font-bold text-indigo-900 transition-colors"
-                >
-                  <span>📚 Tüm Ders Kitabı Çözümleri</span>
-                  <span>&rarr;</span>
-                </Link>
-                <div className="pt-2 border-t border-slate-100 space-y-1">
+              <div className="absolute top-full left-1/2 -translate-x-1/2 w-[560px] bg-white rounded-2xl shadow-2xl border border-slate-200 p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-3">
+                {/* Header Banner */}
+                <div className="flex items-center justify-between pb-3 border-b border-slate-100">
+                  <div className="flex items-center gap-2">
+                    <span className="text-base">📚</span>
+                    <div>
+                      <div className="text-xs font-bold text-slate-900">MEB Ders Kitabı Çözümleri</div>
+                      <div className="text-[10px] text-slate-500">1-12. Sınıf güncel ve doğrulanmış sayfa çözümleri</div>
+                    </div>
+                  </div>
                   <Link
-                    href="/kategori/9-sinif"
-                    className="flex items-center justify-between px-3 py-2 rounded-lg text-xs font-semibold text-slate-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
+                    href="/kategori/meb-ders-kitabi-cevaplari"
+                    className="text-xs font-bold text-indigo-600 hover:text-indigo-800 hover:underline flex items-center gap-1"
                   >
-                    <span>9. Sınıf MEB Çözümleri</span>
-                    <span className="text-[10px] px-1.5 py-0.5 rounded bg-indigo-100 text-indigo-700 font-bold">2026-2027</span>
+                    Tüm Kitaplar &rarr;
                   </Link>
-                  <Link
-                    href="/kategori/10-sinif"
-                    className="flex items-center justify-between px-3 py-2 rounded-lg text-xs font-semibold text-slate-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
-                  >
-                    <span>10. Sınıf MEB Çözümleri</span>
-                    <span className="text-[10px] px-1.5 py-0.5 rounded bg-indigo-100 text-indigo-700 font-bold">Güncel</span>
-                  </Link>
-                  <Link
-                    href="/kategori/11-sinif"
-                    className="flex items-center justify-between px-3 py-2 rounded-lg text-xs font-semibold text-slate-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
-                  >
-                    <span>11. Sınıf MEB Çözümleri</span>
-                    <span className="text-[10px] px-1.5 py-0.5 rounded bg-indigo-100 text-indigo-700 font-bold">Güncel</span>
+                </div>
+
+                {/* 3 Kademe Columns (İlkokul, Ortaokul, Lise) */}
+                <div className="grid grid-cols-3 gap-3">
+                  {/* İlkokul */}
+                  <div className="space-y-1 bg-slate-50/70 p-2.5 rounded-xl border border-slate-100">
+                    <div className="text-[10px] font-extrabold uppercase tracking-wider text-emerald-700 px-1 mb-1">
+                      İlkokul
+                    </div>
+                    {[1, 2, 3, 4].map((g) => (
+                      <Link
+                        key={g}
+                        href={`/kategori/${g}-sinif`}
+                        className="flex items-center justify-between px-2 py-1.5 rounded-lg text-xs font-medium text-slate-700 hover:text-emerald-700 hover:bg-white transition-colors"
+                      >
+                        <span>{g}. Sınıf MEB</span>
+                        <span className="text-[9px] px-1 py-0.2 rounded bg-emerald-100 text-emerald-800 font-bold">Çözüm</span>
+                      </Link>
+                    ))}
+                  </div>
+
+                  {/* Ortaokul */}
+                  <div className="space-y-1 bg-slate-50/70 p-2.5 rounded-xl border border-slate-100">
+                    <div className="text-[10px] font-extrabold uppercase tracking-wider text-blue-700 px-1 mb-1">
+                      Ortaokul
+                    </div>
+                    {[5, 6, 7, 8].map((g) => (
+                      <Link
+                        key={g}
+                        href={`/kategori/${g}-sinif`}
+                        className="flex items-center justify-between px-2 py-1.5 rounded-lg text-xs font-medium text-slate-700 hover:text-blue-700 hover:bg-white transition-colors"
+                      >
+                        <span>{g}. Sınıf MEB</span>
+                        {g === 8 ? (
+                          <span className="text-[9px] px-1 py-0.2 rounded bg-amber-100 text-amber-800 font-black">LGS</span>
+                        ) : (
+                          <span className="text-[9px] px-1 py-0.2 rounded bg-blue-100 text-blue-800 font-bold">Çözüm</span>
+                        )}
+                      </Link>
+                    ))}
+                  </div>
+
+                  {/* Lise */}
+                  <div className="space-y-1 bg-slate-50/70 p-2.5 rounded-xl border border-slate-100">
+                    <div className="text-[10px] font-extrabold uppercase tracking-wider text-purple-700 px-1 mb-1">
+                      Lise
+                    </div>
+                    {[9, 10, 11, 12].map((g) => (
+                      <Link
+                        key={g}
+                        href={`/kategori/${g}-sinif`}
+                        className="flex items-center justify-between px-2 py-1.5 rounded-lg text-xs font-medium text-slate-700 hover:text-purple-700 hover:bg-white transition-colors"
+                      >
+                        <span>{g}. Sınıf MEB</span>
+                        {g === 12 ? (
+                          <span className="text-[9px] px-1 py-0.2 rounded bg-indigo-100 text-indigo-800 font-black">YKS</span>
+                        ) : (
+                          <span className="text-[9px] px-1 py-0.2 rounded bg-purple-100 text-purple-800 font-bold">Çözüm</span>
+                        )}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Footer Link */}
+                <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
+                  <span>Adım adım işlem basamakları ve formüller</span>
+                  <Link href="/konu-anlatimlari" className="text-indigo-600 font-bold hover:underline flex items-center gap-1">
+                    📖 1-12. Sınıf Konu Anlatımları &rarr;
                   </Link>
                 </div>
               </div>
@@ -361,21 +417,34 @@ export default function Navbar() {
               <span>📚 MEB Ders Kitabı Çözümleri</span>
               <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-extrabold">2026-2027</span>
             </Link>
-            <div className="grid grid-cols-2 gap-2 text-sm text-slate-700">
-              <Link href="/kategori/1-sinif" className="p-1 hover:text-indigo-600">1. Sınıf</Link>
-              <Link href="/kategori/2-sinif" className="p-1 hover:text-indigo-600">2. Sınıf</Link>
-              <Link href="/kategori/3-sinif" className="p-1 hover:text-indigo-600">3. Sınıf</Link>
-              <Link href="/kategori/4-sinif" className="p-1 hover:text-indigo-600">4. Sınıf</Link>
-              <Link href="/kategori/5-sinif" className="p-1 hover:text-indigo-600">5. Sınıf</Link>
-              <Link href="/kategori/6-sinif" className="p-1 hover:text-indigo-600">6. Sınıf</Link>
-              <Link href="/kategori/7-sinif" className="p-1 hover:text-indigo-600">7. Sınıf</Link>
-              <Link href="/kategori/8-sinif" className="p-1 hover:text-indigo-600">8. Sınıf</Link>
-              <Link href="/kategori/9-sinif" className="p-1 hover:text-indigo-600">9. Sınıf MEB</Link>
-              <Link href="/kategori/10-sinif" className="p-1 hover:text-indigo-600">10. Sınıf MEB</Link>
-              <Link href="/kategori/11-sinif" className="p-1 hover:text-indigo-600">11. Sınıf MEB</Link>
-              <Link href="/kategori/12-sinif" className="p-1 hover:text-indigo-600">12. Sınıf MEB</Link>
-              <Link href="/kategori/ales" className="p-1 font-bold text-violet-700 hover:text-violet-900">ALES Hazırlık</Link>
-              <Link href="/kategori/yds" className="p-1 font-bold text-teal-700 hover:text-teal-900">YDS Çıkmış Sorular</Link>
+            <div className="space-y-3 pt-1">
+              <div>
+                <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider block mb-1">İlkokul (1-4. Sınıf)</span>
+                <div className="grid grid-cols-2 gap-1.5 text-xs text-slate-700">
+                  <Link href="/kategori/1-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">1. Sınıf Çözümleri</Link>
+                  <Link href="/kategori/2-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">2. Sınıf Çözümleri</Link>
+                  <Link href="/kategori/3-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">3. Sınıf Çözümleri</Link>
+                  <Link href="/kategori/4-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">4. Sınıf Çözümleri</Link>
+                </div>
+              </div>
+              <div>
+                <span className="text-[10px] font-bold text-blue-700 uppercase tracking-wider block mb-1">Ortaokul (5-8. Sınıf & LGS)</span>
+                <div className="grid grid-cols-2 gap-1.5 text-xs text-slate-700">
+                  <Link href="/kategori/5-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700">5. Sınıf Çözümleri</Link>
+                  <Link href="/kategori/6-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700">6. Sınıf Çözümleri</Link>
+                  <Link href="/kategori/7-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700">7. Sınıf Çözümleri</Link>
+                  <Link href="/kategori/8-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700 font-semibold text-blue-900">8. Sınıf (LGS)</Link>
+                </div>
+              </div>
+              <div>
+                <span className="text-[10px] font-bold text-purple-700 uppercase tracking-wider block mb-1">Lise (9-12. Sınıf & YKS)</span>
+                <div className="grid grid-cols-2 gap-1.5 text-xs text-slate-700">
+                  <Link href="/kategori/9-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700">9. Sınıf MEB</Link>
+                  <Link href="/kategori/10-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700">10. Sınıf MEB</Link>
+                  <Link href="/kategori/11-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700">11. Sınıf MEB</Link>
+                  <Link href="/kategori/12-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700 font-semibold text-purple-900">12. Sınıf (YKS)</Link>
+                </div>
+              </div>
             </div>
           </div>
 
