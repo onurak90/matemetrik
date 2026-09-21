@@ -55,6 +55,14 @@ const nextConfig = {
       { source: '/yds-hazirlik', destination: '/yds-calisma-bolumu', permanent: true },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/images/:path*',
+        destination: '/uploads/:path*',
+      },
+    ];
+  },
 };
 
 export default nextConfig;

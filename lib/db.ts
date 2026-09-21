@@ -20,7 +20,8 @@ function getResolvedDbPath(): string {
   }
   // When running inside Vercel serverless environment, filesystem outside /tmp is read-only
   if (process.env.VERCEL) {
-    const tmpDbPath = '/tmp/matemetrik.db';
+    const deploymentKey = process.env.VERCEL_DEPLOYMENT_ID || process.env.VERCEL_GIT_COMMIT_SHA || 'v3_covers';
+    const tmpDbPath = `/tmp/matemetrik_${deploymentKey}.db`;
     let shouldCopy = !fs.existsSync(tmpDbPath);
     if (!shouldCopy && fs.existsSync(ORIGINAL_DB_PATH)) {
       try {
@@ -34,7 +35,7 @@ function getResolvedDbPath(): string {
     if (shouldCopy && fs.existsSync(ORIGINAL_DB_PATH)) {
       try {
         fs.copyFileSync(ORIGINAL_DB_PATH, tmpDbPath);
-        console.log('[Vercel] Database successfully synced to /tmp/matemetrik.db');
+        console.log(`[Vercel] Database successfully synced to ${tmpDbPath}`);
       } catch (err) {
         console.error('[Vercel] Error copying DB to /tmp:', err);
       }
