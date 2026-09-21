@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "yds-turkce-ingilizce-ceviri-001",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "Yapay zeka teknolojilerinin sağlık sektöründe yaygınlaşması, hekimlerin teşhis süreçlerini hızlandırırken tıbbi hata oranlarını da belirgin biçimde azaltmıştır.",
+    "options": {
+      "A": "Physicians who widely adopt artificial intelligence technologies in healthcare accelerate diagnostic processes and reduce medical errors noticeably.",
+      "B": "The widespread adoption of artificial intelligence technologies in healthcare has accelerated diagnostic processes for physicians while noticeably reducing medical error rates.",
+      "C": "Because medical error rates were reduced noticeably by physicians, artificial intelligence technologies were widely adopted in diagnostic processes.",
+      "D": "Although artificial intelligence technologies are widespread in healthcare, diagnostic processes for physicians have noticeably increased medical error rates.",
+      "E": "The acceleration of diagnostic processes in healthcare has noticeably reduced medical error rates despite the widespread adoption of artificial intelligence."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Yapay zeka teknolojilerinin sağlık sektöründe yaygınlaşması, hekimlerin teşhis süreçlerini hızlandırırken tıbbi hata oranlarını da belirgin biçimde azaltmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi 'Yapay zeka teknolojilerinin sağlık sektöründe yaygınlaşması' (The widespread adoption of AI technologies in healthcare) ve yüklemleri 'hızlandırmış' (has accelerated) ve 'azaltmıştır' (while noticeably reducing) şeklindedir.",
+      "distractorAnalysis": "Çeldiricilerde ya Türkçe yüklemin zamanı/çatısı İngilizceye yanlış aktarılmış ya da sebep/zıtlık bağlaçları yer değiştirmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "The widespread adoption of art...",
+          "meaning": "Doğru İngilizce aktarım"
+        }
+      ],
+      "tacticalTip": "Türkçe yüklemin zamanı Present Perfect (has accelerated) olmalıdır. Özne ile başlayan ve yüklemi uyuşan şık aranır."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-002",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "Küresel ısınmanın kuraklığı tetiklemesi sonucunda birçok tarım topluluğu geleneksel sulama yöntemlerini terk etmek zorunda kalmıştır.",
+    "options": {
+      "A": "Since traditional irrigation methods triggered drought, many agricultural communities were forced to combat global warming.",
+      "B": "Unless global warming triggers severe drought, agricultural communities will not abandon their traditional irrigation methods.",
+      "C": "As a result of global warming triggering drought, many agricultural communities have been forced to abandon traditional irrigation methods.",
+      "D": "Many agricultural communities abandoned traditional irrigation methods in order to trigger drought through global warming.",
+      "E": "Although global warming triggered drought, traditional irrigation methods were abandoned by many agricultural communities reluctantly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Küresel ısınmanın kuraklığı tetiklemesi sonucunda birçok tarım topluluğu geleneksel sulama yöntemlerini terk etmek zorunda kalmıştır.",
+      "detailedReason": "'...sonucunda' ifadesi İngilizceye 'As a result of' veya 'Consequently' ile aktarılır. Yüklem 'zorunda kalmıştır' (have been forced to abandon) edilgen modal yapısıdır.",
+      "distractorAnalysis": "Çeldiricilerde ya Türkçe yüklemin zamanı/çatısı İngilizceye yanlış aktarılmış ya da sebep/zıtlık bağlaçları yer değiştirmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "As a result of global warming ...",
+          "meaning": "Doğru İngilizce aktarım"
+        }
+      ],
+      "tacticalTip": "Sebep-sonuç ilişkisini veren 'As a result of' ve edilgen yüklem olan 'have been forced to' yapısını arayın."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-003",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "Antik çağlardan bu yana filozoflar, zihnin bedenden bağımsız bir varlık olup olmadığını hararetle tartışmaktadır.",
+    "options": {
+      "A": "Philosophers in ancient times passionately debated that the mind was an independent entity from the body.",
+      "B": "Although the mind and the body were debated in ancient times, philosophers passionately believed they were independent.",
+      "C": "Philosophers have passionately debated ancient times to understand whether the mind is independent from the body.",
+      "D": "Ever since ancient times, philosophers have been passionately debating whether the mind is an entity independent of the body.",
+      "E": "Because the mind is an entity independent of the body, philosophers have debated ancient times passionately."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik çağlardan bu yana filozoflar, zihnin bedenden bağımsız bir varlık olup olmadığını hararetle tartışmaktadır.",
+      "detailedReason": "'...-den bu yana' zaman zarfı 'Ever since ancient times' ile verilir ve ana cümlede Present Perfect Continuous (have been passionately debating) gerektirir. '...olup olmadığını' ise 'whether' noun clause yapısıdır.",
+      "distractorAnalysis": "Çeldiricilerde ya Türkçe yüklemin zamanı/çatısı İngilizceye yanlış aktarılmış ya da sebep/zıtlık bağlaçları yer değiştirmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "Ever since ancient times, phil...",
+          "meaning": "Doğru İngilizce aktarım"
+        }
+      ],
+      "tacticalTip": "'Ever since' zaman zarfı ve '-ıp -madığı' anlamına gelen 'whether' yapısı doğru cevabı verir."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-004",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-005",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-006",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-007",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-008",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-009",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-010",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-011",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-012",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-013",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-014",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-015",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-016",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-017",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-018",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-019",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-020",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-021",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-022",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-023",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-024",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-025",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-026",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-027",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-028",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-029",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-030",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-031",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-032",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-033",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-034",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-035",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-036",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-037",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-038",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-039",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-040",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-041",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-042",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-043",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-044",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-045",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-046",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-047",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-048",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-049",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-050",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-051",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-052",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-053",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-054",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-055",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-056",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-057",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-058",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-059",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-060",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-061",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-062",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-063",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-064",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-065",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-066",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-067",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-068",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-069",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-070",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-071",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-072",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-073",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-074",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-075",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-076",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-077",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+    "options": {
+      "A": "Scientists deny that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally.",
+      "E": "Scientists warn that the regular consumption of ultra-processed foods significantly increases the risk of cardiovascular diseases and metabolic disorders."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Bilim insanları, aşırı işlenmiş gıdaların düzenli tüketiminin kalp damar hastalıkları ve metabolik bozukluklar riskini önemli ölçüde artırdığı konusunda uyarıyor.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Scientists warn that the regul...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-078",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels over the past two decades has made clean energy far more accessible to developing nations.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerinin son yirmi yılda hızla düşmesi, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid decline in the produ...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-079",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "C": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "D": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The conscious use of digital t...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-080",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "The preservation of terrestrial ecosystems is rarely considered important not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "C": "Although scientists conducted research on this subject, the results were not published in peer-reviewed academic journals.",
+      "D": "Because technological advancements emerged unexpectedly, governments failed to regulate these processes effectively.",
+      "E": "Unless international institutions implement coordinated measures, economic discrepancies will continue to widen globally."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Türkçe cümlenin öznesi ve yüklemi İngilizce cümledeki gramer yapılarıyla birebir uyuşmaktadır.",
+      "distractorAnalysis": "Diğer seçeneklerde ya ana fiil yanlış aktarılmış ya da 'not only ... but also' gibi bağlaç yapıları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestria...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
+    }
+  }
+]

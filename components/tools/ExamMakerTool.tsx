@@ -126,15 +126,15 @@ export default function ExamMakerTool() {
     const pages: QuestionItem[][] = [];
     const isDouble = columnCount === '2';
 
-    // Usable vertical pixel heights for A4 (at standard 96 DPI, 282mm usable = ~1065px):
-    // Page 1 has official exam header (~85px) + footer (~40px), so ~880px usable for questions.
-    // Subsequent pages have no header, so ~980px usable for questions.
-    const page1MaxHeight = 880;
-    const subsequentMaxHeight = 980;
+    // Usable vertical pixel heights for A4 with 8mm top/bottom margins (usable height = 281mm = ~1062px):
+    // Page 1 has official exam header (~85px) + footer (~35px) + safety buffer, so 740px usable for questions.
+    // Subsequent pages have no header (~35-60px footer), so 850px usable for questions.
+    const page1MaxHeight = 740;
+    const subsequentMaxHeight = 850;
 
     const getQuestionHeight = (q: QuestionItem): number => {
-      const baseHeight = 150; // question badge, image (max-h 130px), padding
-      const linesHeight = (q.lineCount || 0) * 20; // 20px per blank spacing unit
+      const baseHeight = 145; // question badge (~22px), image (max-h 115px), padding/gap (~8px)
+      const linesHeight = (q.lineCount || 0) * 18; // 18px per blank spacing unit
       return baseHeight + linesHeight;
     };
 
@@ -152,7 +152,7 @@ export default function ExamMakerTool() {
 
         const q1H = getQuestionHeight(q1);
         const q2H = q2 ? getQuestionHeight(q2) : q1H;
-        const rowH = Math.max(q1H, q2H) + 12; // 12px row gap
+        const rowH = Math.max(q1H, q2H) + 10; // 10px row gap
 
         const maxLimit = isFirstPage ? page1MaxHeight : subsequentMaxHeight;
 
@@ -171,7 +171,7 @@ export default function ExamMakerTool() {
     } else {
       // 1-column mode: questions are stacked vertically
       for (const q of questions) {
-        const qH = getQuestionHeight(q) + 12;
+        const qH = getQuestionHeight(q) + 10;
         const maxLimit = isFirstPage ? page1MaxHeight : subsequentMaxHeight;
 
         if (currentHeight + qH > maxLimit && currentPage.length > 0) {
@@ -212,7 +212,7 @@ export default function ExamMakerTool() {
         @media print {
           @page {
             size: A4 portrait;
-            margin: 0 !important;
+            margin: 8mm 10mm 8mm 10mm !important;
           }
           html, body {
             background: #ffffff !important;
@@ -236,13 +236,13 @@ export default function ExamMakerTool() {
           }
           .a4-print-sayfa {
             box-sizing: border-box !important;
-            width: 210mm !important;
-            max-width: 210mm !important;
-            height: 296mm !important;
-            max-height: 296mm !important;
-            min-height: 296mm !important;
-            padding: 8mm 10mm 6mm 10mm !important;
-            margin: 0 auto !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            height: 278mm !important;
+            max-height: 278mm !important;
+            min-height: 278mm !important;
+            padding: 0 !important;
+            margin: 0 !important;
             box-shadow: none !important;
             border: none !important;
             border-radius: 0 !important;
@@ -409,7 +409,7 @@ export default function ExamMakerTool() {
               return (
                 <div
                   key={pageIndex}
-                  className="a4-print-sayfa bg-white text-slate-900 rounded shadow-xl border border-slate-200 flex flex-col relative overflow-hidden w-full min-h-[297mm] p-[10mm_12mm]"
+                  className="a4-print-sayfa bg-white text-slate-900 rounded shadow-xl border border-slate-200 flex flex-col relative overflow-hidden w-full min-h-[297mm] p-[10mm_12mm] print:min-h-0 print:h-[278mm] print:max-h-[278mm] print:p-0"
                   style={{
                     boxSizing: 'border-box',
                   }}
@@ -498,7 +498,7 @@ export default function ExamMakerTool() {
 
                   {/* Question Grid */}
                   <div
-                    className={`grid gap-3 flex-1 align-content-start overflow-hidden min-h-0 print:gap-2 ${
+                    className={`grid gap-3 flex-1 content-start overflow-hidden min-h-0 print:gap-2 ${
                       columnCount === '2' ? 'grid-cols-2' : 'grid-cols-1'
                     }`}
                   >
@@ -535,7 +535,7 @@ export default function ExamMakerTool() {
                               <img
                                 src={q.image}
                                 alt={`Soru ${questionNumber}`}
-                                style={{ maxHeight: '130px' }}
+                                style={{ maxHeight: '115px' }}
                                 className="max-w-full object-contain"
                               />
                             </div>
@@ -545,7 +545,7 @@ export default function ExamMakerTool() {
                           {q.lineCount > 0 && (
                             <div
                               className="w-full select-none pointer-events-none"
-                              style={{ height: `${q.lineCount * 20}px` }}
+                              style={{ height: `${q.lineCount * 18}px` }}
                             />
                           )}
 

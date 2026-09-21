@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { getDb, getCategories } from '@/lib/db';
+import { getYdsTopics } from '@/lib/yds';
 
 export const revalidate = 3600; // revalidate hourly
 
@@ -40,6 +41,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/puan-hesaplama-robotu`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/yds-calisma-bolumu`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
@@ -124,5 +131,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  return [...staticRoutes, ...categoryRoutes, ...postRoutes];
+  const ydsTopics = getYdsTopics();
+  const ydsTopicRoutes: MetadataRoute.Sitemap = ydsTopics.map((t) => ({
+    url: `${baseUrl}/yds-calisma-bolumu/${t.id}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.85,
+  }));
+
+  return [...staticRoutes, ...ydsTopicRoutes, ...categoryRoutes, ...postRoutes];
 }

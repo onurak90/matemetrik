@@ -16,6 +16,7 @@ interface PostSliderProps {
 export default function PostSlider({ posts }: PostSliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
+  const [sliderImgError, setSliderImgError] = useState<Record<string, boolean>>({});
   const sliderPosts = posts.slice(0, 6); // Top 6 latest posts
 
   const nextSlide = () => {
@@ -45,18 +46,27 @@ export default function PostSlider({ posts }: PostSliderProps) {
     >
       {/* Background Image / Overlay */}
       <div className="relative min-h-[380px] sm:min-h-[460px] flex flex-col justify-end p-6 sm:p-10 lg:p-14 text-white">
-        {current.featured_image ? (
+        {current.featured_image && !sliderImgError[current.id] ? (
           <>
             <img
               key={current.id}
               src={current.featured_image}
               alt={current.title}
+              onError={() => setSliderImgError((prev) => ({ ...prev, [current.id]: true }))}
               className="absolute inset-0 w-full h-full object-cover opacity-35 group-hover:scale-105 transition-transform duration-700 ease-out"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/80 to-slate-900/30" />
           </>
         ) : (
-          <div className="absolute inset-0 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950" />
+          <div className="absolute inset-0 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950">
+            <div
+              className="absolute inset-0 opacity-15"
+              style={{
+                backgroundImage: `radial-gradient(circle, #ffffff 1.5px, transparent 1.5px)`,
+                backgroundSize: '24px 24px',
+              }}
+            />
+          </div>
         )}
 
         {/* Content Box */}

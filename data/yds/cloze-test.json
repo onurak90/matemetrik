@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "yds-cloze-001",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Academic Passage Cloze Test",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Metin Formatı",
+    "passage": "In 1928, Scottish bacteriologist Alexander Fleming made an accidental discovery that would forever transform medicine. Returning from a holiday, he noticed that a green mould called Penicillium notatum had contaminated a Petri dish of staphylococci bacteria. Remarkably, the bacteria immediately surrounding the fungus (1)---- destroyed. This serendipitous observation led to the isolation of penicillin, (2)---- saved millions of lives during the Second World War. (3)----, the widespread overuse of antibiotics in modern agriculture and healthcare has triggered a dangerous evolutionary crisis. Bacteria reproduce at astonishing rates and exchange genetic material; (4)----, strains resistant to conventional drugs are multiplying globally. Today, medical authorities warn that without urgent research into novel antimicrobial agents, humanity could return to an era (5)---- routine surgical procedures carry deadly risks.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "had been",
+      "B": "have been",
+      "C": "would be",
+      "D": "are being",
+      "E": "will have been"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Fungusun hemen etrafındaki bakteriler yok edilmişti.",
+      "detailedReason": "Tarihi olay Fleming'in gözleminden önce gerçekleştiği için Past Perfect Passive ('had been destroyed') gerekir.",
+      "distractorAnalysis": "Diğer seçenekler metnin bağlamsal akışına veya gramer uyumuna uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "had been",
+          "meaning": "Boşluğa gelen doğru ifade"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki ve sonrasındaki 2 cümleyi bütün olarak okuyup ana fikri yakalayın."
+    }
+  },
+  {
+    "id": "yds-cloze-002",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Academic Passage Cloze Test",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Metin Formatı",
+    "passage": "In 1928, Scottish bacteriologist Alexander Fleming made an accidental discovery that would forever transform medicine. Returning from a holiday, he noticed that a green mould called Penicillium notatum had contaminated a Petri dish of staphylococci bacteria. Remarkably, the bacteria immediately surrounding the fungus (1)---- destroyed. This serendipitous observation led to the isolation of penicillin, (2)---- saved millions of lives during the Second World War. (3)----, the widespread overuse of antibiotics in modern agriculture and healthcare has triggered a dangerous evolutionary crisis. Bacteria reproduce at astonishing rates and exchange genetic material; (4)----, strains resistant to conventional drugs are multiplying globally. Today, medical authorities warn that without urgent research into novel antimicrobial agents, humanity could return to an era (5)---- routine surgical procedures carry deadly risks.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "whom",
+      "C": "where",
+      "D": "whose",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İkinci Dünya Savaşı sırasında milyonlarca hayat kurtaran penisilin...",
+      "detailedReason": "Virgülden sonra cansız bir isim olan 'penicillin'i niteleyen Non-defining Relative Pronoun 'which'tir.",
+      "distractorAnalysis": "Diğer seçenekler metnin bağlamsal akışına veya gramer uyumuna uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "which",
+          "meaning": "Boşluğa gelen doğru ifade"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki ve sonrasındaki 2 cümleyi bütün olarak okuyup ana fikri yakalayın."
+    }
+  },
+  {
+    "id": "yds-cloze-003",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Academic Passage Cloze Test",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Metin Formatı",
+    "passage": "In 1928, Scottish bacteriologist Alexander Fleming made an accidental discovery that would forever transform medicine. Returning from a holiday, he noticed that a green mould called Penicillium notatum had contaminated a Petri dish of staphylococci bacteria. Remarkably, the bacteria immediately surrounding the fungus (1)---- destroyed. This serendipitous observation led to the isolation of penicillin, (2)---- saved millions of lives during the Second World War. (3)----, the widespread overuse of antibiotics in modern agriculture and healthcare has triggered a dangerous evolutionary crisis. Bacteria reproduce at astonishing rates and exchange genetic material; (4)----, strains resistant to conventional drugs are multiplying globally. Today, medical authorities warn that without urgent research into novel antimicrobial agents, humanity could return to an era (5)---- routine surgical procedures carry deadly risks.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Furthermore",
+      "D": "Similarly",
+      "E": "In addition"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, modern tarım ve sağlıkta antibiyotiklerin yaygın aşırı kullanımı tehlikeli bir krizi tetikledi.",
+      "detailedReason": "İlk kısımdaki olumlu hayat kurtarma başarısından sonraki cümlede tehlikeli krizden bahsedildiği için zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler metnin bağlamsal akışına veya gramer uyumuna uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Boşluğa gelen doğru ifade"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki ve sonrasındaki 2 cümleyi bütün olarak okuyup ana fikri yakalayın."
+    }
+  },
+  {
+    "id": "yds-cloze-004",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Academic Passage Cloze Test",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Metin Formatı",
+    "passage": "In 1928, Scottish bacteriologist Alexander Fleming made an accidental discovery that would forever transform medicine. Returning from a holiday, he noticed that a green mould called Penicillium notatum had contaminated a Petri dish of staphylococci bacteria. Remarkably, the bacteria immediately surrounding the fungus (1)---- destroyed. This serendipitous observation led to the isolation of penicillin, (2)---- saved millions of lives during the Second World War. (3)----, the widespread overuse of antibiotics in modern agriculture and healthcare has triggered a dangerous evolutionary crisis. Bacteria reproduce at astonishing rates and exchange genetic material; (4)----, strains resistant to conventional drugs are multiplying globally. Today, medical authorities warn that without urgent research into novel antimicrobial agents, humanity could return to an era (5)---- routine surgical procedures carry deadly risks.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "consequently",
+      "B": "nevertheless",
+      "C": "on the contrary",
+      "D": "otherwise",
+      "E": "in contrast"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Bakteriler şaşırtıcı hızlarda ürer; sonuç olarak (consequently) dirençli suşlar çoğalmaktadır.",
+      "detailedReason": "Hızlı üreme ve gen aktarımının sonucunda dirençli bakterilerin çoğalması sebep-sonuç ilişkisidir ('consequently').",
+      "distractorAnalysis": "Diğer seçenekler metnin bağlamsal akışına veya gramer uyumuna uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "consequently",
+          "meaning": "Boşluğa gelen doğru ifade"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki ve sonrasındaki 2 cümleyi bütün olarak okuyup ana fikri yakalayın."
+    }
+  },
+  {
+    "id": "yds-cloze-005",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Academic Passage Cloze Test",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Metin Formatı",
+    "passage": "In 1928, Scottish bacteriologist Alexander Fleming made an accidental discovery that would forever transform medicine. Returning from a holiday, he noticed that a green mould called Penicillium notatum had contaminated a Petri dish of staphylococci bacteria. Remarkably, the bacteria immediately surrounding the fungus (1)---- destroyed. This serendipitous observation led to the isolation of penicillin, (2)---- saved millions of lives during the Second World War. (3)----, the widespread overuse of antibiotics in modern agriculture and healthcare has triggered a dangerous evolutionary crisis. Bacteria reproduce at astonishing rates and exchange genetic material; (4)----, strains resistant to conventional drugs are multiplying globally. Today, medical authorities warn that without urgent research into novel antimicrobial agents, humanity could return to an era (5)---- routine surgical procedures carry deadly risks.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "in which",
+      "B": "for whom",
+      "C": "at which",
+      "D": "to which",
+      "E": "by whom"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Rutin cerrahi operasyonların ölümcül riskler taşıdığı bir döneme...",
+      "detailedReason": "'Era' (dönem, çağ) zaman/durum nitelemesinde 'in which' (içinde bulunulan dönem) ile kullanılır.",
+      "distractorAnalysis": "Diğer seçenekler metnin bağlamsal akışına veya gramer uyumuna uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "in which",
+          "meaning": "Boşluğa gelen doğru ifade"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki ve sonrasındaki 2 cümleyi bütün olarak okuyup ana fikri yakalayın."
+    }
+  },
+  {
+    "id": "yds-cloze-006",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Academic Passage Cloze Test",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Metin Formatı",
+    "passage": "In 1912, German meteorologist Alfred Wegener proposed the radical hypothesis that all the Earth's continents had once been joined into a single supercontinent known as Pangaea. His claim initially attracted fierce (6)---- from the orthodox geological community because he could not provide a convincing geophysical mechanism. In 1915, he published his expanded treatise on continental drift, but skeptics dismissed it as implausible. (7)---- the early 1960s, however, oceanographic surveys began to reveal that molten magma was rising along mid-ocean ridges and pushing oceanic plates apart. This process, termed seafloor spreading, provided the definitive physical proof (8)---- Wegener's revolutionary theory lacked. Today, plate tectonics is universally recognized as the unifying framework of modern earth sciences, explaining (9)---- earthquakes occur along fault boundaries (10)---- why mountain chains emerge where continental plates collide.",
+    "questionText": "6. soruda parçada (6) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "opposition",
+      "B": "endorsement",
+      "C": "admiration",
+      "D": "collaboration",
+      "E": "prosperity"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İddiası jeoloji camiasından şiddetli bir muhalefet / direnç (opposition) gördü.",
+      "detailedReason": "Fierce opposition (şiddetli muhalefet/itiraz), yeni teorinin ilk başta reddedildiğini gösteren doğru ifadedir.",
+      "distractorAnalysis": "Diğer seçenekler metnin bağlamsal akışına veya gramer uyumuna uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "opposition",
+          "meaning": "Boşluğa gelen doğru ifade"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki ve sonrasındaki 2 cümleyi bütün olarak okuyup ana fikri yakalayın."
+    }
+  },
+  {
+    "id": "yds-cloze-007",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Academic Passage Cloze Test",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Metin Formatı",
+    "passage": "In 1912, German meteorologist Alfred Wegener proposed the radical hypothesis that all the Earth's continents had once been joined into a single supercontinent known as Pangaea. His claim initially attracted fierce (6)---- from the orthodox geological community because he could not provide a convincing geophysical mechanism. In 1915, he published his expanded treatise on continental drift, but skeptics dismissed it as implausible. (7)---- the early 1960s, however, oceanographic surveys began to reveal that molten magma was rising along mid-ocean ridges and pushing oceanic plates apart. This process, termed seafloor spreading, provided the definitive physical proof (8)---- Wegener's revolutionary theory lacked. Today, plate tectonics is universally recognized as the unifying framework of modern earth sciences, explaining (9)---- earthquakes occur along fault boundaries (10)---- why mountain chains emerge where continental plates collide.",
+    "questionText": "7. soruda parçada (7) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "By",
+      "B": "From",
+      "C": "Until",
+      "D": "Within",
+      "E": "Off"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak 1960'ların başlarına gelindiğinde (By the early 1960s)...",
+      "detailedReason": "'By the 1960s' kalıbı '1960'lara gelindiğinde' anlamında zaman sınırını ifade eder.",
+      "distractorAnalysis": "Diğer seçenekler metnin bağlamsal akışına veya gramer uyumuna uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "By",
+          "meaning": "Boşluğa gelen doğru ifade"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki ve sonrasındaki 2 cümleyi bütün olarak okuyup ana fikri yakalayın."
+    }
+  },
+  {
+    "id": "yds-cloze-008",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Academic Passage Cloze Test",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Metin Formatı",
+    "passage": "In 1912, German meteorologist Alfred Wegener proposed the radical hypothesis that all the Earth's continents had once been joined into a single supercontinent known as Pangaea. His claim initially attracted fierce (6)---- from the orthodox geological community because he could not provide a convincing geophysical mechanism. In 1915, he published his expanded treatise on continental drift, but skeptics dismissed it as implausible. (7)---- the early 1960s, however, oceanographic surveys began to reveal that molten magma was rising along mid-ocean ridges and pushing oceanic plates apart. This process, termed seafloor spreading, provided the definitive physical proof (8)---- Wegener's revolutionary theory lacked. Today, plate tectonics is universally recognized as the unifying framework of modern earth sciences, explaining (9)---- earthquakes occur along fault boundaries (10)---- why mountain chains emerge where continental plates collide.",
+    "questionText": "8. soruda parçada (8) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "that",
+      "B": "where",
+      "C": "whose",
+      "D": "when",
+      "E": "whom"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Wegener'in teorisinin eksik olduğu kesin fiziksel kanıtı sağladı.",
+      "detailedReason": "'Proof that' relative clause yapısında eksik nesneyi tanımlar ('proof that Wegener lacked').",
+      "distractorAnalysis": "Diğer seçenekler metnin bağlamsal akışına veya gramer uyumuna uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "that",
+          "meaning": "Boşluğa gelen doğru ifade"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki ve sonrasındaki 2 cümleyi bütün olarak okuyup ana fikri yakalayın."
+    }
+  },
+  {
+    "id": "yds-cloze-009",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Academic Passage Cloze Test",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Metin Formatı",
+    "passage": "In 1912, German meteorologist Alfred Wegener proposed the radical hypothesis that all the Earth's continents had once been joined into a single supercontinent known as Pangaea. His claim initially attracted fierce (6)---- from the orthodox geological community because he could not provide a convincing geophysical mechanism. In 1915, he published his expanded treatise on continental drift, but skeptics dismissed it as implausible. (7)---- the early 1960s, however, oceanographic surveys began to reveal that molten magma was rising along mid-ocean ridges and pushing oceanic plates apart. This process, termed seafloor spreading, provided the definitive physical proof (8)---- Wegener's revolutionary theory lacked. Today, plate tectonics is universally recognized as the unifying framework of modern earth sciences, explaining (9)---- earthquakes occur along fault boundaries (10)---- why mountain chains emerge where continental plates collide.",
+    "questionText": "9. soruda parçada (9) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "not only",
+      "B": "neither",
+      "C": "either",
+      "D": "whether",
+      "E": "no sooner"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca depremlerin neden meydana geldiğini değil, aynı zamanda dağların neden yükseldiğini de açıklar.",
+      "detailedReason": "İlerleyen kısımda gelen 'why mountain chains emerge' paralelliği ile 'not only ... why ...' kurgusudur.",
+      "distractorAnalysis": "Diğer seçenekler metnin bağlamsal akışına veya gramer uyumuna uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "not only",
+          "meaning": "Boşluğa gelen doğru ifade"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki ve sonrasındaki 2 cümleyi bütün olarak okuyup ana fikri yakalayın."
+    }
+  },
+  {
+    "id": "yds-cloze-010",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Academic Passage Cloze Test",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Metin Formatı",
+    "passage": "In 1912, German meteorologist Alfred Wegener proposed the radical hypothesis that all the Earth's continents had once been joined into a single supercontinent known as Pangaea. His claim initially attracted fierce (6)---- from the orthodox geological community because he could not provide a convincing geophysical mechanism. In 1915, he published his expanded treatise on continental drift, but skeptics dismissed it as implausible. (7)---- the early 1960s, however, oceanographic surveys began to reveal that molten magma was rising along mid-ocean ridges and pushing oceanic plates apart. This process, termed seafloor spreading, provided the definitive physical proof (8)---- Wegener's revolutionary theory lacked. Today, plate tectonics is universally recognized as the unifying framework of modern earth sciences, explaining (9)---- earthquakes occur along fault boundaries (10)---- why mountain chains emerge where continental plates collide.",
+    "questionText": "10. soruda parçada (10) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "nor",
+      "C": "or else",
+      "D": "as well",
+      "E": "rather than"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "...aynı zamanda dağ sıralarının neden oluştuğunu da (but also why...).",
+      "detailedReason": "9. sorudaki 'not only'nin eşleniği 'but also'dur.",
+      "distractorAnalysis": "Diğer seçenekler metnin bağlamsal akışına veya gramer uyumuna uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Boşluğa gelen doğru ifade"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki ve sonrasındaki 2 cümleyi bütün olarak okuyup ana fikri yakalayın."
+    }
+  },
+  {
+    "id": "yds-cloze-011",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Artificial Intelligence in Healthcare and Diagnostics",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into artificial intelligence in healthcare and diagnostics have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-012",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Artificial Intelligence in Healthcare and Diagnostics",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into artificial intelligence in healthcare and diagnostics have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-013",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Artificial Intelligence in Healthcare and Diagnostics",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into artificial intelligence in healthcare and diagnostics have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-014",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Artificial Intelligence in Healthcare and Diagnostics",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into artificial intelligence in healthcare and diagnostics have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-015",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Artificial Intelligence in Healthcare and Diagnostics",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into artificial intelligence in healthcare and diagnostics have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-016",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Deep Sea Hydrothermal Vents and Extremophile Life",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into deep sea hydrothermal vents and extremophile life have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-017",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Deep Sea Hydrothermal Vents and Extremophile Life",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into deep sea hydrothermal vents and extremophile life have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-018",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Deep Sea Hydrothermal Vents and Extremophile Life",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into deep sea hydrothermal vents and extremophile life have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-019",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Deep Sea Hydrothermal Vents and Extremophile Life",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into deep sea hydrothermal vents and extremophile life have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-020",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Deep Sea Hydrothermal Vents and Extremophile Life",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into deep sea hydrothermal vents and extremophile life have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-021",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Psychological Effects of Sleep Deprivation",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the psychological effects of sleep deprivation have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-022",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Psychological Effects of Sleep Deprivation",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the psychological effects of sleep deprivation have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-023",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Psychological Effects of Sleep Deprivation",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the psychological effects of sleep deprivation have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-024",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Psychological Effects of Sleep Deprivation",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the psychological effects of sleep deprivation have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-025",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Psychological Effects of Sleep Deprivation",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the psychological effects of sleep deprivation have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-026",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Renewable Solar Energy and Photovoltaic Cell Efficiency",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into renewable solar energy and photovoltaic cell efficiency have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-027",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Renewable Solar Energy and Photovoltaic Cell Efficiency",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into renewable solar energy and photovoltaic cell efficiency have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-028",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Renewable Solar Energy and Photovoltaic Cell Efficiency",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into renewable solar energy and photovoltaic cell efficiency have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-029",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Renewable Solar Energy and Photovoltaic Cell Efficiency",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into renewable solar energy and photovoltaic cell efficiency have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-030",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Renewable Solar Energy and Photovoltaic Cell Efficiency",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into renewable solar energy and photovoltaic cell efficiency have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-031",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Childhood Bilingualism and Cognitive Flexibility",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into childhood bilingualism and cognitive flexibility have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-032",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Childhood Bilingualism and Cognitive Flexibility",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into childhood bilingualism and cognitive flexibility have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-033",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Childhood Bilingualism and Cognitive Flexibility",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into childhood bilingualism and cognitive flexibility have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-034",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Childhood Bilingualism and Cognitive Flexibility",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into childhood bilingualism and cognitive flexibility have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-035",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Childhood Bilingualism and Cognitive Flexibility",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into childhood bilingualism and cognitive flexibility have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-036",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Agricultural Revolution in the Fertile Crescent",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the agricultural revolution in the fertile crescent have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-037",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Agricultural Revolution in the Fertile Crescent",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the agricultural revolution in the fertile crescent have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-038",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Agricultural Revolution in the Fertile Crescent",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the agricultural revolution in the fertile crescent have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-039",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Agricultural Revolution in the Fertile Crescent",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the agricultural revolution in the fertile crescent have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-040",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Agricultural Revolution in the Fertile Crescent",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the agricultural revolution in the fertile crescent have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-041",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Quantum Cryptography and Cyber Defense",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into quantum cryptography and cyber defense have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-042",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Quantum Cryptography and Cyber Defense",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into quantum cryptography and cyber defense have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-043",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Quantum Cryptography and Cyber Defense",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into quantum cryptography and cyber defense have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-044",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Quantum Cryptography and Cyber Defense",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into quantum cryptography and cyber defense have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-045",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Quantum Cryptography and Cyber Defense",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into quantum cryptography and cyber defense have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-046",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Volcanic Eruptions and Stratospheric Cooling",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into volcanic eruptions and stratospheric cooling have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-047",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Volcanic Eruptions and Stratospheric Cooling",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into volcanic eruptions and stratospheric cooling have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-048",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Volcanic Eruptions and Stratospheric Cooling",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into volcanic eruptions and stratospheric cooling have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-049",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Volcanic Eruptions and Stratospheric Cooling",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into volcanic eruptions and stratospheric cooling have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-050",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Volcanic Eruptions and Stratospheric Cooling",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into volcanic eruptions and stratospheric cooling have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-051",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Economics of Ancient Silk Road Trade Routes",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the economics of ancient silk road trade routes have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-052",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Economics of Ancient Silk Road Trade Routes",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the economics of ancient silk road trade routes have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-053",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Economics of Ancient Silk Road Trade Routes",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the economics of ancient silk road trade routes have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-054",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Economics of Ancient Silk Road Trade Routes",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the economics of ancient silk road trade routes have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-055",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Economics of Ancient Silk Road Trade Routes",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the economics of ancient silk road trade routes have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-056",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Neuroplasticity and Stroke Rehabilitation",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into neuroplasticity and stroke rehabilitation have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-057",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Neuroplasticity and Stroke Rehabilitation",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into neuroplasticity and stroke rehabilitation have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-058",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Neuroplasticity and Stroke Rehabilitation",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into neuroplasticity and stroke rehabilitation have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-059",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Neuroplasticity and Stroke Rehabilitation",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into neuroplasticity and stroke rehabilitation have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-060",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Neuroplasticity and Stroke Rehabilitation",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into neuroplasticity and stroke rehabilitation have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-061",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Ocean Acidification and Coral Reef Ecosystems",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into ocean acidification and coral reef ecosystems have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-062",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Ocean Acidification and Coral Reef Ecosystems",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into ocean acidification and coral reef ecosystems have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-063",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Ocean Acidification and Coral Reef Ecosystems",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into ocean acidification and coral reef ecosystems have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-064",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Ocean Acidification and Coral Reef Ecosystems",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into ocean acidification and coral reef ecosystems have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-065",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Ocean Acidification and Coral Reef Ecosystems",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into ocean acidification and coral reef ecosystems have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-066",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Printing Press and the Spread of the Scientific Revolution",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the printing press and the spread of the scientific revolution have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-067",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Printing Press and the Spread of the Scientific Revolution",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the printing press and the spread of the scientific revolution have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-068",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Printing Press and the Spread of the Scientific Revolution",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the printing press and the spread of the scientific revolution have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-069",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Printing Press and the Spread of the Scientific Revolution",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the printing press and the spread of the scientific revolution have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-070",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Printing Press and the Spread of the Scientific Revolution",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into the printing press and the spread of the scientific revolution have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-071",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Space Telescopes and the Atmospheric Analysis of Exoplanets",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into space telescopes and the atmospheric analysis of exoplanets have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-072",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Space Telescopes and the Atmospheric Analysis of Exoplanets",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into space telescopes and the atmospheric analysis of exoplanets have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-073",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Space Telescopes and the Atmospheric Analysis of Exoplanets",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into space telescopes and the atmospheric analysis of exoplanets have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-074",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Space Telescopes and the Atmospheric Analysis of Exoplanets",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into space telescopes and the atmospheric analysis of exoplanets have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-075",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Space Telescopes and the Atmospheric Analysis of Exoplanets",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into space telescopes and the atmospheric analysis of exoplanets have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-076",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Urban Heat Islands and Sustainable Architecture",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into urban heat islands and sustainable architecture have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "1. soruda parçada (1) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "because",
+      "B": "although",
+      "C": "unless",
+      "D": "despite",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Klasik gözlem araçları yetersiz çözünürlüğe sahip olduğu için (because)...",
+      "detailedReason": "Sebep-sonuç ilişkisidir. Araçlar yetersiz olduğu için veriler sentezlenememiştir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "because",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-077",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Urban Heat Islands and Sustainable Architecture",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into urban heat islands and sustainable architecture have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "2. soruda parçada (2) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "However",
+      "B": "Therefore",
+      "C": "Similarly",
+      "D": "Otherwise",
+      "E": "For example"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Ancak, süper bilgisayarların entegrasyonuyla (However)...",
+      "detailedReason": "İlk cümledeki zorluktan ikinci cümledeki başarılara geçişte zıtlık bağlacı 'However' gerekir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "However",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-078",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Urban Heat Islands and Sustainable Architecture",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into urban heat islands and sustainable architecture have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "3. soruda parçada (3) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "have achieved",
+      "B": "had achieved",
+      "C": "achieved",
+      "D": "will achieve",
+      "E": "would have achieved"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Son on yılda dikkate değer atılımlar gerçekleştirdiler (have achieved).",
+      "detailedReason": "'Over the past decade' zaman zarfı Present Perfect (have achieved) gerektirir.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "have achieved",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-079",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Urban Heat Islands and Sustainable Architecture",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into urban heat islands and sustainable architecture have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "4. soruda parçada (4) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "but also",
+      "B": "as well",
+      "C": "neither",
+      "D": "rather than",
+      "E": "instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yalnızca teorik kavrayışı geliştirmekle kalmayıp aynı zamanda somut çözümler de sunar.",
+      "detailedReason": "'Not only ... but also' kalıbının tamamlayıcısıdır.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "but also",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  },
+  {
+    "id": "yds-cloze-080",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Urban Heat Islands and Sustainable Architecture",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Akademik Cloze Test Formatı",
+    "passage": "Recent scientific investigations into urban heat islands and sustainable architecture have revealed fundamental insights regarding complex natural and technological phenomena. Initially, researchers struggled to synthesize reliable data (1)---- classical observational instruments lacked sufficient resolution. (2)----, with the integration of high-performance supercomputing and novel sensor arrays, scientists (3)---- remarkable breakthroughs over the past decade. These developments not only enhance theoretical comprehension (4)---- provide tangible solutions to real-world industrial challenges. Nevertheless, prominent scholars emphasize that ongoing interdisciplinary cooperation remains essential (5)---- humanity hopes to harness these technologies ethically and effectively.",
+    "questionText": "5. soruda parçada (5) numaralı boşluğa uygun düşen ifadeyi bulunuz.",
+    "options": {
+      "A": "if",
+      "B": "unless",
+      "C": "lest",
+      "D": "as though",
+      "E": "in case of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsanlık bu teknolojileri etik olarak kullanmayı umuyorsa (if humanity hopes)...",
+      "detailedReason": "Koşul cümlesidir; 'if' yapısı umut ve gereklilik ilişkisini bağlar.",
+      "distractorAnalysis": "Diğer seçenekler cümlenin gramer zaman uyumuna ya da mantıksal bağlaç yönüne uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "if",
+          "meaning": "Doğru bağlam tamamlama"
+        }
+      ],
+      "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
+    }
+  }
+]

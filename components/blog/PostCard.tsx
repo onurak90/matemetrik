@@ -3,37 +3,33 @@ import Link from 'next/link';
 import { Calendar, Clock, ArrowUpRight } from 'lucide-react';
 import { Post } from '@/lib/types';
 import { formatDate, estimateReadingTime } from '@/lib/utils';
+import PostCoverImage from '@/components/blog/PostCoverImage';
 
 export default function PostCard({ post }: { post: Post }) {
   const readingTime = estimateReadingTime(post.content || '');
 
   return (
     <article className="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:border-indigo-200 transition-all duration-300 flex flex-col">
-      {/* Image thumbnail if available */}
-      {post.featured_image ? (
-        <Link
-          href={`/post/${post.slug}`}
-          className="relative aspect-[16/9] overflow-hidden bg-slate-100 block"
-        >
-          <img
-            src={post.featured_image}
-            alt={post.title}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            loading="lazy"
-          />
-          <div className="absolute top-3 left-3">
+      {/* Cover Image thumbnail with automatic fallback */}
+      <Link
+        href={`/post/${post.slug}`}
+        className="relative aspect-[16/9] overflow-hidden bg-slate-900 block"
+      >
+        <PostCoverImage
+          src={post.featured_image}
+          alt={post.title}
+          title={post.title}
+          category={post.category}
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+        />
+        {post.featured_image && (
+          <div className="absolute top-3 left-3 pointer-events-none">
             <span className="text-[11px] font-bold px-3 py-1 rounded-full bg-white/95 text-indigo-700 shadow-sm backdrop-blur-sm">
               {post.category}
             </span>
           </div>
-        </Link>
-      ) : (
-        <div className="p-5 pb-0">
-          <span className="inline-block text-[11px] font-bold px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-100">
-            {post.category}
-          </span>
-        </div>
-      )}
+        )}
+      </Link>
 
       {/* Content */}
       <div className="p-5 flex-1 flex flex-col justify-between space-y-4">

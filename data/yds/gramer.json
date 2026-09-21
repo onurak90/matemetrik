@@ -1,0 +1,3642 @@
+[
+  {
+    "id": "yds-gramer-001",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "Ever since the James Webb Space Telescope ---- operational in 2022, astronomers ---- unprecedented images of primordial galaxies.",
+    "options": {
+      "A": "became / have captured",
+      "B": "had become / capture",
+      "C": "becomes / will have captured",
+      "D": "has become / were capturing",
+      "E": "was becoming / had captured"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "James Webb Uzay Teleskobu 2022'de faaliyete geçtiğinden beri gökbilimciler ilkel galaksilerin benzeri görülmemiş görüntülerini yakaladılar.",
+      "detailedReason": "'Ever since' kuralı gereği: 'Since + Past Simple (became), Ana Cümle Present Perfect (have captured)' zaman yapısı aranır.",
+      "distractorAnalysis": "B, C, D ve E seçenekleri 'since' zaman uyumu kuralını (Past Simple + Present Perfect) ihlal eder.",
+      "vocabularyNotes": [
+        {
+          "word": "operational",
+          "meaning": "çalışır durumda, faal"
+        },
+        {
+          "word": "primordial",
+          "meaning": "ilkel, en baştaki"
+        }
+      ],
+      "tacticalTip": "'Ever since' veya 'Since' gördüyseniz ilk cümlecikte V2 (past simple), ana cümlede 'have/has V3' arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-002",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "By the time the first human expedition ---- on Mars in the coming decades, robotic rovers ---- the Martian terrain for over forty years.",
+    "options": {
+      "A": "lands / will have explored",
+      "B": "landed / have explored",
+      "C": "will land / had explored",
+      "D": "has landed / were exploring",
+      "E": "would land / explore"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Önümüzdeki on yıllarda ilk insanlı keşif heyeti Mars'a indiğinde, robotik keşif araçları kırk yılı aşkın süredir Mars arazisini keşfetmiş olacak.",
+      "detailedReason": "'By the time + Present Simple (lands), Ana Cümle Future Perfect (will have explored)' kuralı gereğidir.",
+      "distractorAnalysis": "Zaman bağlaçlarının (by the time, when, after) hemen arkasından 'will' gelemez (C elenir). Geçmiş zaman yapıları (B, D, E) 'coming decades' ifadesiyle çelişir.",
+      "vocabularyNotes": [
+        {
+          "word": "expedition",
+          "meaning": "keşif heyeti, sefer"
+        },
+        {
+          "word": "terrain",
+          "meaning": "arazi"
+        }
+      ],
+      "tacticalTip": "'By the time' geleceğe işaret ediyorsa yan cümle Present, ana cümle 'will have V3' alır."
+    }
+  },
+  {
+    "id": "yds-gramer-003",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "Before antibiotics ---- in the early twentieth century, even minor bacterial infections ---- life-threatening to ordinary patients.",
+    "options": {
+      "A": "were discovered / were",
+      "B": "have been discovered / had been",
+      "C": "are discovered / would be",
+      "D": "had been discovered / have been",
+      "E": "would be discovered / are"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yirminci yüzyılın başlarında antibiyotikler keşfedilmeden önce, küçük bakteriyel enfeksiyonlar bile sıradan hastalar için ölümcül olabiliyordu.",
+      "detailedReason": "'In the early twentieth century' geçmişe ait kesin bir tarihtir ve Past Simple (were discovered / were) gerektirir.",
+      "distractorAnalysis": "Present yapılar (B, C, E) tarihsel gerçeklikle uyuşmaz.",
+      "vocabularyNotes": [
+        {
+          "word": "minor",
+          "meaning": "küçük, önemsiz"
+        },
+        {
+          "word": "life-threatening",
+          "meaning": "hayati tehlike yaratan"
+        }
+      ],
+      "tacticalTip": "Geçmişe ait net bir tarih verildiğinde (in the 20th century, in 1945) öncelikle Simple Past (V2 / was-were) düşünülmelidir."
+    }
+  },
+  {
+    "id": "yds-gramer-004",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "The ancient Mayans ---- their monumental stone pyramids without advanced metal tools, which indicates that their engineering techniques ---- exceptionally ingenious.",
+    "options": {
+      "A": "must have constructed / must have been",
+      "B": "should construct / could be",
+      "C": "might construct / would have been",
+      "D": "can have constructed / should be",
+      "E": "needn't have constructed / were"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Antik Mayalar anıtsal taş piramitlerini gelişmiş metal aletler olmadan inşa etmiş olmalılar; bu da onların mühendislik tekniklerinin olağanüstü derecede dâhiyane olduğunu gösterir.",
+      "detailedReason": "Geçmişe dair güçlü bir çıkarım (deduction about the past) 'must have V3' (yapmış olmalı) ile ifade edilir.",
+      "distractorAnalysis": "B ve C şıkları geçmiş zaman anlamı vermez. 'Should have V3' pişmanlık/yapılmamış görev bildirir.",
+      "vocabularyNotes": [
+        {
+          "word": "monumental",
+          "meaning": "anıtsal, muazzam"
+        },
+        {
+          "word": "ingenious",
+          "meaning": "dâhiyane, ustalıklı"
+        }
+      ],
+      "tacticalTip": "Geçmişe yönelik kesin çıkarımlarda 'must have V3'; olasılıkta 'may/might/could have V3' kullanılır."
+    }
+  },
+  {
+    "id": "yds-gramer-005",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "Factory managers ---- the hazardous chemical leak immediately, but instead they delayed reporting it to health authorities for several days.",
+    "options": {
+      "A": "should have evacuated",
+      "B": "must evacuate",
+      "C": "might have evacuated",
+      "D": "could evacuate",
+      "E": "needn't have evacuated"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Fabrika yöneticileri tehlikeli kimyasal sızıntıyı derhal tahliye etmeliydiler, ancak bunun yerine sağlık yetkililerine bildirmeyi birkaç gün geciktirdiler.",
+      "detailedReason": "'Should have V3' geçmişte yapılması gereken ama YAPILMAYAN eylemleri ve eleştiriyi ifade eder. 'Delayed' ifadesi tahliyenin yapılmadığını kanıtlar.",
+      "distractorAnalysis": "Must evacuate şimdiki zamandır. Needn't have V3 'gerek yoktu ama yaptılar' demektir.",
+      "vocabularyNotes": [
+        {
+          "word": "hazardous",
+          "meaning": "tehlikeli, zararlı"
+        },
+        {
+          "word": "evacuate",
+          "meaning": "tahliye etmek"
+        }
+      ],
+      "tacticalTip": "'Should have V3' = Yapmalıydı ama yapmadı (Geçmişe yönelik eleştiri/pişmanlık)."
+    }
+  },
+  {
+    "id": "yds-gramer-006",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive & Causative",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "The historical manuscripts ---- in climate-controlled vaults so that they ---- from atmospheric moisture and biological degradation.",
+    "options": {
+      "A": "are preserved / can be protected",
+      "B": "preserve / will protect",
+      "C": "have preserved / were protected",
+      "D": "were preserving / protected",
+      "E": "will preserve / are protecting"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Tarihi el yazmaları, atmosferik nemden ve biyolojik bozulmadan korunabilsinler diye iklim kontrollü kasalarda muhafaza edilir.",
+      "detailedReason": "El yazmaları koruma eylemini kendisi yapmaz, korunur (passive). Her iki cümlede de nesne olmadığından passive (be + V3) yapısı şarttır.",
+      "distractorAnalysis": "B, C, D, E seçeneklerinde ana veya yan fiiller aktif kullanılmıştır; oysa cansız el yazmaları 'muhafaza edilir' (are preserved).",
+      "vocabularyNotes": [
+        {
+          "word": "manuscript",
+          "meaning": "el yazması eser"
+        },
+        {
+          "word": "degradation",
+          "meaning": "bozulma"
+        }
+      ],
+      "tacticalTip": "Özne cansız bir nesneyse ve arkasından nesne (object) gelmiyorsa passive (be + V3) yapı önceliklidir."
+    }
+  },
+  {
+    "id": "yds-gramer-007",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "---- excessive screen time has been linked to elevated anxiety among adolescents, digital technology also offers unparalleled access to educational materials.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Provided that",
+      "D": "Since",
+      "E": "Unless"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Aşırı ekran süresi ergenler arasında artan kaygı ile ilişkilendirilmiş olsa da, dijital teknoloji aynı zamanda eğitim materyallerine eşsiz bir erişim de sunmaktadır.",
+      "detailedReason": "Cümlede zıtlık vardır: Bir tarafta kaygı (olumsuz), diğer tarafta eşsiz erişim (olumlu). Zıtlık bağlacı 'Although' (her ne kadar ... -se de) kullanılmalıdır.",
+      "distractorAnalysis": "B ve D sebep bildirir. C ve E şart bildirir.",
+      "vocabularyNotes": [
+        {
+          "word": "elevated",
+          "meaning": "yükselmiş, artmış"
+        },
+        {
+          "word": "unparalleled",
+          "meaning": "eşsiz, benzeri görülmemiş"
+        }
+      ],
+      "tacticalTip": "İki cümle arasında (+ / -) kutuplaşması varsa mutlaka zıtlık bağlaçlarını (Although, Even though, While, Whereas) arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-008",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "Governments must implement strict carbon tariffs on imported goods ---- heavy manufacturing industries relocate production to countries with lax environmental laws.",
+    "options": {
+      "A": "lest",
+      "B": "even if",
+      "C": "in spite of",
+      "D": "as though",
+      "E": "whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Hükümetler, ağır imalat sanayileri üretimi çevre yasaları gevşek olan ülkelere taşımasın diye / taşır korkusuyla ithal mallara katı karbon vergileri uygulamalıdır.",
+      "detailedReason": "'Lest' bağlacı '-mesin diye / korkusuyla' (for fear that) anlamına gelir ve genellikle arkasından yalın fiil veya 'should' alır.",
+      "distractorAnalysis": "C kendisinden sonra isim tamlaması alır, tam cümle alamaz. E zıtlık karşılaştırması yapar.",
+      "vocabularyNotes": [
+        {
+          "word": "lest",
+          "meaning": "-mesin diye, korkusuyla"
+        },
+        {
+          "word": "lax",
+          "meaning": "gevşek, sıkı olmayan"
+        }
+      ],
+      "tacticalTip": "'Lest' kendisinden sonra olumsuzluk eki almadan anlamı olumsuz yapar ('so that ... not' gibi)."
+    }
+  },
+  {
+    "id": "yds-gramer-009",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "Global sea levels will continue to rise catastrophically ---- greenhouse gas emissions are curtailed drastically over the next decade.",
+    "options": {
+      "A": "unless",
+      "B": "since",
+      "C": "so that",
+      "D": "because",
+      "E": "as long as"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Önümüzdeki on yılda sera gazı emisyonları ciddi biçimde azaltılmadıkça, küresel deniz seviyeleri felaket boyutunda yükselmeye devam edecektir.",
+      "detailedReason": "'Unless' (-medikçe / -mezse, if not) koşul bildirir. Emisyonlar azaltılmazsa denizler yükselir.",
+      "distractorAnalysis": "B ve D sebep bildirir (azaltıldığı için yükselir mantıksız olur). C amaç bildirir. E 'as long as' (azaltıldığı sürece yükselir) ters anlam verir.",
+      "vocabularyNotes": [
+        {
+          "word": "catastrophically",
+          "meaning": "felaket boyutunda"
+        },
+        {
+          "word": "curtail",
+          "meaning": "kısmak, azaltmak"
+        }
+      ],
+      "tacticalTip": "'Unless' = 'If not'. Ana cümlede olumsuz veya tehditkar bir sonuç varsa 'unless' güçlü adaydır."
+    }
+  },
+  {
+    "id": "yds-gramer-010",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "Marie Curie is remembered as a pioneering scientist ---- discoveries in radioactivity transformed modern physics and cancer therapy.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Marie Curie, radyoaktivite alanındaki keşifleri modern fiziği ve kanser tedavisini dönüştüren öncü bir bilim insanı olarak hatırlanır.",
+      "detailedReason": "Scientist ile discoveries arasında iyelik/sahiplik ilişkisi vardır ('onun keşifleri' -> whose discoveries). İki isim arasına 'whose' gelir.",
+      "distractorAnalysis": "B insandan sonra tam cümle gerektirir ama nesne konumundadır. C cansızlar içindir.",
+      "vocabularyNotes": [
+        {
+          "word": "pioneering",
+          "meaning": "öncü, çığır açan"
+        },
+        {
+          "word": "radioactivity",
+          "meaning": "radyoaktivite"
+        }
+      ],
+      "tacticalTip": "'İsim + whose + İsim' yapısı ÖSYM'nin en garanti soru kalıplarındandır."
+    }
+  },
+  {
+    "id": "yds-gramer-011",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "had replaced",
+      "B": "has replaced",
+      "C": "will have replaced",
+      "D": "would replace",
+      "E": "replaces"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-012",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "In terms of",
+      "B": "Because of",
+      "C": "Rather than",
+      "D": "In contrast to",
+      "E": "In spite of"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-013",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "whereas",
+      "B": "so that",
+      "C": "in case",
+      "D": "even though",
+      "E": "as if"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-014",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "needn't have had",
+      "B": "can have",
+      "C": "should have had",
+      "D": "must have had",
+      "E": "would rather have"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-015",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "are collided",
+      "B": "have collided",
+      "C": "will collide",
+      "D": "collide",
+      "E": "were colliding"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-016",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "Were not",
+      "B": "Should not",
+      "C": "Had not",
+      "D": "If only",
+      "E": "Unless"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-017",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "with",
+      "B": "at",
+      "C": "for",
+      "D": "from",
+      "E": "to"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-018",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "whom",
+      "B": "how",
+      "C": "whose",
+      "D": "that",
+      "E": "which"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-019",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "No sooner",
+      "B": "Either",
+      "C": "Hardly",
+      "D": "Not only",
+      "E": "Neither"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-020",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "will have replaced",
+      "B": "replaces",
+      "C": "would replace",
+      "D": "has replaced",
+      "E": "had replaced"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-021",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "Rather than",
+      "B": "In terms of",
+      "C": "In spite of",
+      "D": "Because of",
+      "E": "In contrast to"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-022",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "in case",
+      "B": "even though",
+      "C": "whereas",
+      "D": "as if",
+      "E": "so that"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-023",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "can have",
+      "B": "must have had",
+      "C": "would rather have",
+      "D": "should have had",
+      "E": "needn't have had"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-024",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "have collided",
+      "B": "collide",
+      "C": "were colliding",
+      "D": "are collided",
+      "E": "will collide"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-025",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "Had not",
+      "B": "If only",
+      "C": "Should not",
+      "D": "Were not",
+      "E": "Unless"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-026",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "at",
+      "B": "with",
+      "C": "to",
+      "D": "for",
+      "E": "from"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-027",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "which",
+      "B": "whom",
+      "C": "whose",
+      "D": "that",
+      "E": "how"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-028",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "Either",
+      "B": "Not only",
+      "C": "No sooner",
+      "D": "Neither",
+      "E": "Hardly"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-029",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "had replaced",
+      "B": "has replaced",
+      "C": "would replace",
+      "D": "will have replaced",
+      "E": "replaces"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-030",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "In spite of",
+      "B": "Rather than",
+      "C": "In contrast to",
+      "D": "In terms of",
+      "E": "Because of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-031",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "in case",
+      "B": "as if",
+      "C": "so that",
+      "D": "whereas",
+      "E": "even though"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-032",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "can have",
+      "B": "should have had",
+      "C": "needn't have had",
+      "D": "would rather have",
+      "E": "must have had"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-033",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "were colliding",
+      "B": "are collided",
+      "C": "collide",
+      "D": "will collide",
+      "E": "have collided"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-034",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "Should not",
+      "B": "If only",
+      "C": "Were not",
+      "D": "Had not",
+      "E": "Unless"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-035",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "to",
+      "B": "at",
+      "C": "from",
+      "D": "for",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-036",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "that",
+      "B": "whom",
+      "C": "how",
+      "D": "whose",
+      "E": "which"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-037",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "Either",
+      "B": "Hardly",
+      "C": "No sooner",
+      "D": "Neither",
+      "E": "Not only"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-038",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "would replace",
+      "B": "will have replaced",
+      "C": "has replaced",
+      "D": "replaces",
+      "E": "had replaced"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-039",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "Rather than",
+      "B": "In terms of",
+      "C": "Because of",
+      "D": "In spite of",
+      "E": "In contrast to"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-040",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "so that",
+      "B": "even though",
+      "C": "whereas",
+      "D": "in case",
+      "E": "as if"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-041",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "would rather have",
+      "B": "can have",
+      "C": "must have had",
+      "D": "should have had",
+      "E": "needn't have had"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-042",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "collide",
+      "B": "have collided",
+      "C": "will collide",
+      "D": "were colliding",
+      "E": "are collided"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-043",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "Unless",
+      "B": "Had not",
+      "C": "If only",
+      "D": "Should not",
+      "E": "Were not"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-044",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "with",
+      "B": "from",
+      "C": "at",
+      "D": "to",
+      "E": "for"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-045",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "how",
+      "B": "whom",
+      "C": "which",
+      "D": "that",
+      "E": "whose"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-046",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "No sooner",
+      "B": "Either",
+      "C": "Not only",
+      "D": "Neither",
+      "E": "Hardly"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-047",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "replaces",
+      "B": "had replaced",
+      "C": "would replace",
+      "D": "has replaced",
+      "E": "will have replaced"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-048",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "Because of",
+      "B": "In spite of",
+      "C": "In contrast to",
+      "D": "Rather than",
+      "E": "In terms of"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-049",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "in case",
+      "B": "even though",
+      "C": "as if",
+      "D": "so that",
+      "E": "whereas"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-050",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "must have had",
+      "B": "would rather have",
+      "C": "needn't have had",
+      "D": "should have had",
+      "E": "can have"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-051",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "were colliding",
+      "B": "will collide",
+      "C": "are collided",
+      "D": "collide",
+      "E": "have collided"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-052",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "If only",
+      "B": "Should not",
+      "C": "Were not",
+      "D": "Unless",
+      "E": "Had not"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-053",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "for",
+      "B": "to",
+      "C": "with",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-054",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "that",
+      "B": "which",
+      "C": "whose",
+      "D": "how",
+      "E": "whom"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-055",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "Not only",
+      "B": "Neither",
+      "C": "Hardly",
+      "D": "Either",
+      "E": "No sooner"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-056",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "would replace",
+      "B": "had replaced",
+      "C": "will have replaced",
+      "D": "has replaced",
+      "E": "replaces"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-057",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "Because of",
+      "B": "In terms of",
+      "C": "Rather than",
+      "D": "In contrast to",
+      "E": "In spite of"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-058",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "as if",
+      "B": "so that",
+      "C": "in case",
+      "D": "whereas",
+      "E": "even though"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-059",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "can have",
+      "B": "needn't have had",
+      "C": "would rather have",
+      "D": "must have had",
+      "E": "should have had"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-060",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "are collided",
+      "B": "will collide",
+      "C": "were colliding",
+      "D": "collide",
+      "E": "have collided"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-061",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "Unless",
+      "B": "If only",
+      "C": "Had not",
+      "D": "Should not",
+      "E": "Were not"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-062",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "from",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "to"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-063",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "which",
+      "B": "how",
+      "C": "whose",
+      "D": "whom",
+      "E": "that"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-064",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "Either",
+      "B": "No sooner",
+      "C": "Neither",
+      "D": "Not only",
+      "E": "Hardly"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-065",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "will have replaced",
+      "B": "had replaced",
+      "C": "replaces",
+      "D": "has replaced",
+      "E": "would replace"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-066",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "In contrast to",
+      "B": "Rather than",
+      "C": "In spite of",
+      "D": "Because of",
+      "E": "In terms of"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-067",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "even though",
+      "B": "in case",
+      "C": "whereas",
+      "D": "as if",
+      "E": "so that"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-068",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "can have",
+      "B": "must have had",
+      "C": "needn't have had",
+      "D": "should have had",
+      "E": "would rather have"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-069",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "were colliding",
+      "B": "will collide",
+      "C": "collide",
+      "D": "are collided",
+      "E": "have collided"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-070",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "Had not",
+      "B": "Should not",
+      "C": "If only",
+      "D": "Unless",
+      "E": "Were not"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-071",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "at",
+      "B": "from",
+      "C": "to",
+      "D": "with",
+      "E": "for"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-072",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "whose",
+      "B": "which",
+      "C": "that",
+      "D": "whom",
+      "E": "how"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-073",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "Hardly",
+      "B": "Not only",
+      "C": "Either",
+      "D": "No sooner",
+      "E": "Neither"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-074",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "replaces",
+      "B": "would replace",
+      "C": "has replaced",
+      "D": "will have replaced",
+      "E": "had replaced"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-075",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "In spite of",
+      "B": "Rather than",
+      "C": "Because of",
+      "D": "In terms of",
+      "E": "In contrast to"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-076",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "in case",
+      "B": "as if",
+      "C": "so that",
+      "D": "even though",
+      "E": "whereas"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-077",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "would rather have",
+      "B": "can have",
+      "C": "should have had",
+      "D": "needn't have had",
+      "E": "must have had"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-078",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "collide",
+      "B": "are collided",
+      "C": "have collided",
+      "D": "will collide",
+      "E": "were colliding"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-079",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "If only",
+      "B": "Unless",
+      "C": "Should not",
+      "D": "Had not",
+      "E": "Were not"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-080",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "to",
+      "B": "at",
+      "C": "with",
+      "D": "for",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-081",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "which",
+      "B": "that",
+      "C": "how",
+      "D": "whom",
+      "E": "whose"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-082",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "Either",
+      "B": "Hardly",
+      "C": "Neither",
+      "D": "No sooner",
+      "E": "Not only"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-083",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "had replaced",
+      "B": "will have replaced",
+      "C": "replaces",
+      "D": "has replaced",
+      "E": "would replace"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-084",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "Because of",
+      "B": "In contrast to",
+      "C": "Rather than",
+      "D": "In spite of",
+      "E": "In terms of"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-085",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "so that",
+      "B": "as if",
+      "C": "in case",
+      "D": "whereas",
+      "E": "even though"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-086",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "needn't have had",
+      "B": "would rather have",
+      "C": "must have had",
+      "D": "can have",
+      "E": "should have had"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-087",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "were colliding",
+      "B": "have collided",
+      "C": "will collide",
+      "D": "collide",
+      "E": "are collided"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-088",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "If only",
+      "B": "Had not",
+      "C": "Unless",
+      "D": "Were not",
+      "E": "Should not"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-089",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "with",
+      "B": "at",
+      "C": "for",
+      "D": "to",
+      "E": "from"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-090",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "how",
+      "B": "that",
+      "C": "which",
+      "D": "whose",
+      "E": "whom"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-091",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "Neither",
+      "B": "Either",
+      "C": "Not only",
+      "D": "No sooner",
+      "E": "Hardly"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-092",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "had replaced",
+      "B": "would replace",
+      "C": "replaces",
+      "D": "has replaced",
+      "E": "will have replaced"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-093",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "Because of",
+      "B": "In spite of",
+      "C": "In terms of",
+      "D": "Rather than",
+      "E": "In contrast to"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-094",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "even though",
+      "B": "whereas",
+      "C": "in case",
+      "D": "so that",
+      "E": "as if"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-095",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "must have had",
+      "B": "would rather have",
+      "C": "should have had",
+      "D": "needn't have had",
+      "E": "can have"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-096",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "will collide",
+      "B": "were colliding",
+      "C": "are collided",
+      "D": "have collided",
+      "E": "collide"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-097",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "If only",
+      "B": "Unless",
+      "C": "Were not",
+      "D": "Should not",
+      "E": "Had not"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-098",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "with",
+      "B": "to",
+      "C": "at",
+      "D": "from",
+      "E": "for"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-099",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "whose",
+      "B": "that",
+      "C": "which",
+      "D": "how",
+      "E": "whom"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-100",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "Not only",
+      "B": "Hardly",
+      "C": "Neither",
+      "D": "No sooner",
+      "E": "Either"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-101",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "would replace",
+      "B": "replaces",
+      "C": "will have replaced",
+      "D": "has replaced",
+      "E": "had replaced"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-102",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "In terms of",
+      "B": "Rather than",
+      "C": "In contrast to",
+      "D": "Because of",
+      "E": "In spite of"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-103",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "in case",
+      "B": "so that",
+      "C": "as if",
+      "D": "whereas",
+      "E": "even though"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-104",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "can have",
+      "B": "needn't have had",
+      "C": "would rather have",
+      "D": "must have had",
+      "E": "should have had"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-105",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "are collided",
+      "B": "have collided",
+      "C": "collide",
+      "D": "were colliding",
+      "E": "will collide"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-106",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "Unless",
+      "B": "Should not",
+      "C": "Had not",
+      "D": "If only",
+      "E": "Were not"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-107",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "at",
+      "B": "from",
+      "C": "for",
+      "D": "with",
+      "E": "to"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-108",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "that",
+      "B": "how",
+      "C": "whom",
+      "D": "whose",
+      "E": "which"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-109",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "Either",
+      "B": "Neither",
+      "C": "No sooner",
+      "D": "Not only",
+      "E": "Hardly"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-110",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "will have replaced",
+      "B": "replaces",
+      "C": "had replaced",
+      "D": "would replace",
+      "E": "has replaced"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-111",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "Because of",
+      "B": "In contrast to",
+      "C": "In spite of",
+      "D": "Rather than",
+      "E": "In terms of"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  },
+  {
+    "id": "yds-gramer-112",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "The new legislation requires all public buildings to install wheelchair ramps ---- disabled citizens can access government services freely.",
+    "options": {
+      "A": "as if",
+      "B": "whereas",
+      "C": "in case",
+      "D": "even though",
+      "E": "so that"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Yeni mevzuat, engelli vatandaşların kamu hizmetlerine serbestçe erişebilmeleri amacıyla tüm kamu binalarına tekerlekli sandalye rampaları kurulmasını şart koşmaktadır.",
+      "detailedReason": "'So that' (-sın diye / amacıyla) amaç bildiren bir bağlaçtır ve genellikle 'can/could' modallarıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "so that",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'So that + özne + can/could/may' standart amaç kalıbıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-113",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Semi-modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Given that all the security cameras were operational, the thieves ---- inside assistance to bypass the electronic vault locks.",
+    "options": {
+      "A": "needn't have had",
+      "B": "must have had",
+      "C": "would rather have",
+      "D": "can have",
+      "E": "should have had"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Tüm güvenlik kameralarının çalışır durumda olduğu göz önüne alındığında, hırsızların elektronik kasa kilitlerini atlatmak için içeriden yardım almış olmaları gerekir.",
+      "detailedReason": "Geçmişe yönelik güçlü kanıta dayalı çıkarımlarda 'must have V3' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "must have had",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Güçlü geçmiş çıkarım = must have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-114",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive Voice",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Subatomic particles ---- in particle accelerators at speeds approaching the velocity of light to study the fundamental forces of nature.",
+    "options": {
+      "A": "were colliding",
+      "B": "have collided",
+      "C": "will collide",
+      "D": "are collided",
+      "E": "collide"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Doğanın temel kuvvetlerini incelemek amacıyla atom altı parçacıklar parçacık hızlandırıcılarda ışık hızına yakın hızlarda çarpıştırılır.",
+      "detailedReason": "Parçacıklar bilim insanları tarafından çarpıştırıldığı için edilgen (passive: are collided) yapı gerekir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "are collided",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Eylem başkası tarafından yapılıyorsa passive arayın."
+    }
+  },
+  {
+    "id": "yds-gramer-115",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Inversion",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the central bank intervened with decisive currency reserves, the national economy would have suffered a severe liquidity collapse.",
+    "options": {
+      "A": "Had not",
+      "B": "Unless",
+      "C": "If only",
+      "D": "Should not",
+      "E": "Were not"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Merkez bankası kararlı döviz rezervleriyle müdahale etmemiş olsaydı, ulusal ekonomi şiddetli bir likidite çöküşü yaşardı.",
+      "detailedReason": "Devrik Tip 3 Şart Cümlesi (Inverted Conditional Type 3): 'Had not the bank intervened' = 'If the bank had not intervened'.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Had not",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Had + özne + V3 devrik Type 3 koşul yapısıdır."
+    }
+  },
+  {
+    "id": "yds-gramer-116",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Prolonged malnutrition in early childhood is directly linked ---- irreversible deficits in cognitive and physical development.",
+    "options": {
+      "A": "for",
+      "B": "from",
+      "C": "to",
+      "D": "at",
+      "E": "with"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Erken çocukluk dönemindeki uzun süreli yetersiz beslenme, bilişsel ve fiziksel gelişimdeki geri döndürülemez kayıplarla doğrudan bağlantılıdır.",
+      "detailedReason": "'Be linked to' kalıbı '-e bağlı / bağlantılı olmak' anlamına gelir ve 'to' edatıyla kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "to",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "'Link to / relate to / connect to' edat eşleşmeleridir."
+    }
+  },
+  {
+    "id": "yds-gramer-117",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Noun Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "Psychologists are investigating ---- emotional stress influences decision-making under high-pressure competitive conditions.",
+    "options": {
+      "A": "that",
+      "B": "which",
+      "C": "whom",
+      "D": "whose",
+      "E": "how"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Psikologlar, duygusal stresin yüksek baskı altındaki rekabetçi koşullarda karar vermeyi nasıl etkilediğini araştırmaktadır.",
+      "detailedReason": "Fiilden sonra gelen nesne cümleciğinde eylemin yapılış biçimini niteleyen soru kelimesi 'how' (nasıl) en uygun düşen yapıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "how",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Fiil + Noun Clause (how, why, whether)."
+    }
+  },
+  {
+    "id": "yds-gramer-118",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- does regular aerobic exercise strengthen cardiovascular endurance, but it also improves neuroplasticity and emotional well-being.",
+    "options": {
+      "A": "Hardly",
+      "B": "Not only",
+      "C": "Either",
+      "D": "No sooner",
+      "E": "Neither"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Düzenli aerobik egzersiz yalnızca kardiyovasküler dayanıklılığı güçlendirmekle kalmaz, aynı zamanda nöroplastisiteyi ve duygusal esenliği de geliştirir.",
+      "detailedReason": "'Not only ... but also' kalıbı cümle başında devrik yapı ('does exercise strengthen') gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "Not only",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "Cümle başı 'Not only' daima devrik soru formunda fiil çeker."
+    }
+  },
+  {
+    "id": "yds-gramer-119",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "By the end of the 21st century, climatologists predict that renewable energy ---- fossil fuels as the primary global power source.",
+    "options": {
+      "A": "would replace",
+      "B": "has replaced",
+      "C": "replaces",
+      "D": "will have replaced",
+      "E": "had replaced"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "21. yüzyılın sonuna kadar ('By the end of...'), yenilenebilir enerjinin birincil güç kaynağı olarak fosil yakıtların yerini almış olacağı tahmin edilmektedir.",
+      "detailedReason": "'By the end of + Gelecek Zaman' kuralı ana cümlede Future Perfect (will have V3) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "will have replaced",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "By + gelecek zaman = will have V3."
+    }
+  },
+  {
+    "id": "yds-gramer-120",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Connectors",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Dilbilgisi Soru Bankası",
+    "passage": null,
+    "questionText": "---- the harsh alpine weather and sub-zero temperatures, the mountain rescue team succeeded in locating the stranded climbers.",
+    "options": {
+      "A": "In spite of",
+      "B": "In contrast to",
+      "C": "Because of",
+      "D": "Rather than",
+      "E": "In terms of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Sert dağ havasına ve sıfırın altındaki sıcaklıklara rağmen, dağ kurtarma ekibi mahsur kalan dağcıların yerini tespit etmeyi başardı.",
+      "detailedReason": "'In spite of' kendisinden sonra isim tamlaması alan bir zıtlık bağlacıdır (harsh weather).",
+      "distractorAnalysis": "Diğer seçeneklerdeki yapılar cümledeki zaman zarflarına, bağlaç mantığına veya edat uyumuna aykırıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "In spite of",
+          "meaning": "Doğru gramer yapısı"
+        }
+      ],
+      "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
+    }
+  }
+]

@@ -52,6 +52,7 @@ const nextConfig = {
       { source: '/lise', destination: '/kategori/lise', permanent: true },
       { source: '/matematik-blog', destination: '/kategori/matematik-blog', permanent: true },
       { source: '/lgs-yks-puan-hesaplama', destination: '/puan-hesaplama-robotu', permanent: true },
+      { source: '/yds-hazirlik', destination: '/yds-calisma-bolumu', permanent: true },
     ];
   },
 };

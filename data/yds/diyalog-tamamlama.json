@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "yds-diyalog-tamamlama-001",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Academic Discussion",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Diyalog Formatı",
+    "passage": null,
+    "questionText": "Dr. Aris: Have you had a chance to review the latest clinical trial data for the new immunotherapy drug?\nDr. Miller: Yes, I read through the entire report yesterday evening. The efficacy rates against melanoma are truly remarkable.\nDr. Aris: ----\nDr. Miller: That's precisely my concern as well. Over thirty percent of participants reported acute liver inflammation, which cannot be overlooked.",
+    "options": {
+      "A": "Indeed, but did you notice the alarming frequency of adverse hepatic side effects?",
+      "B": "Do you think the pharmaceutical manufacturer will reduce the market price once it is approved?",
+      "C": "I disagree completely; the sample size of eighty patients was far too small to draw conclusions.",
+      "D": "Why didn't the regulatory authorities mandate a double-blind trial before granting authorization?",
+      "E": "The patients must have felt tremendous relief when their tumours began shrinking so rapidly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Dr. Aris: Yeni immünoterapi ilacının son klinik deney verilerini inceleme fırsatınız oldu mu?\nDr. Miller: Evet, raporun tamamını dün akşam okudum. Melanoma karşı etkinlik oranları gerçekten kayda değer.\nDr. Aris: Gerçekten öyle, ancak karaciğerle ilgili olumsuz yan etkilerin endişe verici sıklığını fark ettiniz mi?\nDr. Miller: Benim endişem de tam olarak bu. Katılımcıların yüzde otuzundan fazlası göz ardı edilemeyecek akut karaciğer iltihabı bildirdi.",
+      "detailedReason": "Dr. Miller'ın bir sonraki yanıtında 'That's precisely my concern as well... acute liver inflammation' (Benim endişem de tam olarak bu... karaciğer iltihabı) demesi, boşlukta karaciğer yan etkilerinden ('hepatic side effects') bahsedilmiş olmasını zorunlu kılar.",
+      "distractorAnalysis": "Diğer seçenekler diyalogdaki karşılıklı tepki-yanıt mantığına ve nezaket/bağlam akışına uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "precisely",
+          "meaning": "tam olarak, kesinlikle"
+        }
+      ],
+      "tacticalTip": "Diyalog tamamlama sorularında boşluktan HEMEN SONRAKİ replik cevabı belirler. 'My concern as well' ve 'liver' ifadeleri doğrudan A şıkkına işaret eder."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-002",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Environmental Policy",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Diyalog Formatı",
+    "passage": null,
+    "questionText": "Journalist: Do you believe the new municipal bicycle lane initiative will significantly reduce urban vehicular congestion?\nCity Planner: Initially, there might be temporary traffic bottlenecks as drivers adjust to narrower road corridors.\nJournalist: ----\nCity Planner: Absolutely. Empirical data from European cities shows that once protected cycling lanes are established, bicycle commuting increases by over forty percent within two years.",
+    "options": {
+      "A": "So you are confident that the long-term benefits will outweigh the short-term disruption?",
+      "B": "Are you suggesting that drivers should be fined heavily for parking in dedicated bicycle lanes?",
+      "C": "Why did the mayor refuse to allocate public funds for expanding the underground subway system?",
+      "D": "How many electric scooters have been impounded by city police officers over the past month?",
+      "E": "Is it true that local shopkeepers organized a protest against the elimination of curbside parking?"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Gazeteci: Yeni belediye bisiklet yolu girişiminin kentsel araç sıkışıklığını önemli ölçüde azaltacağına inanıyor musunuz?\nŞehir Plancısı: Başlangıçta, sürücüler daha dar yol koridorlarına alışırken geçici trafik darboğazları olabilir.\nGazeteci: Yani uzun vadeli faydaların kısa vadeli aksaklıklardan daha ağır basacağından emin misiniz?\nŞehir Plancısı: Kesinlikle. Avrupa şehirlerinden elde edilen veriler, bisiklet kullanımının iki yıl içinde %40'tan fazla arttığını gösteriyor.",
+      "detailedReason": "Şehir plancısının 'Absolutely' (Kesinlikle) diyerek uzun vadeli kazanımları açıklaması, gazetecinin uzun vadeli faydaların kısa vadeli sıkıntılara değip değmeyeceğini sormuş olduğunu gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyalogdaki karşılıklı tepki-yanıt mantığına ve nezaket/bağlam akışına uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "precisely",
+          "meaning": "tam olarak, kesinlikle"
+        }
+      ],
+      "tacticalTip": "Bir sonraki konuşmacının 'Absolutely / Definitely / Exactly' gibi teyit edici yanıtlarına dikkat edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-003",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-004",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "Does that mean the departure has been relocated to another platform?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-005",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Shall we request a revision and ask him to consult the national archives?",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-006",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-007",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-008",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Does that mean the departure has been relocated to another platform?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-009",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "Shall we request a revision and ask him to consult the national archives?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-010",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-011",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-012",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "Does that mean the departure has been relocated to another platform?"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-013",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Shall we request a revision and ask him to consult the national archives?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-014",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-015",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-016",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Does that mean the departure has been relocated to another platform?",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-017",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "Shall we request a revision and ask him to consult the national archives?"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-018",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-019",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-020",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Does that mean the departure has been relocated to another platform?",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-021",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Shall we request a revision and ask him to consult the national archives?",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-022",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-023",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-024",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "Does that mean the departure has been relocated to another platform?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-025",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Shall we request a revision and ask him to consult the national archives?",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-026",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-027",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-028",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Does that mean the departure has been relocated to another platform?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-029",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "Shall we request a revision and ask him to consult the national archives?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-030",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-031",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-032",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "Does that mean the departure has been relocated to another platform?"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-033",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Shall we request a revision and ask him to consult the national archives?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-034",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-035",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-036",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Does that mean the departure has been relocated to another platform?",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-037",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "Shall we request a revision and ask him to consult the national archives?"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-038",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-039",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-040",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Does that mean the departure has been relocated to another platform?",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-041",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Shall we request a revision and ask him to consult the national archives?",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-042",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-043",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-044",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "Does that mean the departure has been relocated to another platform?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-045",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Shall we request a revision and ask him to consult the national archives?",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-046",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-047",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-048",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Does that mean the departure has been relocated to another platform?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-049",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "Shall we request a revision and ask him to consult the national archives?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-050",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-051",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-052",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "Does that mean the departure has been relocated to another platform?"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-053",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Shall we request a revision and ask him to consult the national archives?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-054",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-055",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-056",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Does that mean the departure has been relocated to another platform?",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-057",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "Shall we request a revision and ask him to consult the national archives?"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-058",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-059",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-060",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Does that mean the departure has been relocated to another platform?",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-061",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Shall we request a revision and ask him to consult the national archives?",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-062",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-063",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-064",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "Does that mean the departure has been relocated to another platform?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-065",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Shall we request a revision and ask him to consult the national archives?",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-066",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-067",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-068",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Does that mean the departure has been relocated to another platform?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-069",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "Shall we request a revision and ask him to consult the national archives?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-070",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-071",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-072",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Ulaşım ve Seyahat",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Traveler: Excuse me, is this the correct high-speed platform for the 14:15 express train to Munich?\nConductor: It was scheduled here, sir, but there has been an unexpected track maintenance issue.\nTraveler: ----\nConductor: Yes, platform 4 on the opposite side. You still have ten minutes, so there's plenty of time.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy.",
+      "E": "Does that mean the departure has been relocated to another platform?"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Does that mean the departure has been relocated to another platform?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Does that mean the departure h...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-073",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Yayıncılık ve Akademik İnceleme",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Editor: The author's draft of the historical biography is compelling, but the third chapter lacks verified primary citations.\nReviewer: I noticed that as well; several contentious claims about the treaty rely solely on unconfirmed oral memoirs.\nEditor: ----\nReviewer: That sounds fair. We should ask him to substantiate those claims with archival government documents before publication.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "Shall we request a revision and ask him to consult the national archives?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Shall we request a revision and ask him to consult the national archives?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Shall we request a revision an...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-074",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Sağlık ve Tıp",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Doctor: Your blood pressure readings are considerably higher than they were during your last annual check-up.\nPatient: I suppose my new job has been causing an immense amount of chronic workplace stress.\nDoctor: ----\nPatient: I'll certainly try. I can start by taking brisk thirty-minute walks during my lunch breaks.",
+    "options": {
+      "A": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "B": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "C": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "D": "We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'We should definitely look into lifestyle modifications and daily cardiovascular exercise before prescribing medication.' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "We should definitely look into...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-075",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Laboratuvar ve Araştırma",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Diyalog Soru Bankası",
+    "passage": null,
+    "questionText": "Professor: Did you finish calibrating the electron microscope for this afternoon's nanomaterial testing?\nAssistant: Yes, Professor. I calibrated the sensors and double-checked the vacuum seal chamber.\nProfessor: ----\nAssistant: Certainly. I'll make sure the sample stages are completely sterilized before the students arrive.",
+    "options": {
+      "A": "Then could you also prepare the silicon substrate wafers so that we don't lose any time?",
+      "B": "Why don't we cancel the entire project and refund all the research grant money immediately?",
+      "C": "I believe the weather forecast predicts heavy snowfall across the entire northern hemisphere tomorrow.",
+      "D": "Did you know that the cafeteria will be closed for renovation throughout the upcoming summer semester?",
+      "E": "The library fine for overdue textbooks has increased by fifteen percent according to the new university policy."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonra gelen kişinin yanıtı, boşlukta bu sorunun veya önerinin yapılmış olmasını gerektirir.",
+      "detailedReason": "İkinci konuşmacının verdiği yanıt doğrudan 'Then could you also prepare the silicon substrate wafers so that we don't lose any time?' ifadesini tamamlar.",
+      "distractorAnalysis": "Diğer seçenekler konuyla ilgisiz durumlar sunar ve diyalogdaki soru-cevap zincirini koparır.",
+      "vocabularyNotes": [
+        {
+          "word": "Then could you also prepare th...",
+          "meaning": "Diyaloğu tamamlayan doğru replik"
+        }
+      ],
+      "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
+    }
+  }
+]

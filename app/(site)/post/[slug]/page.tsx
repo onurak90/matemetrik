@@ -15,6 +15,7 @@ import TableOfContents from '@/components/blog/TableOfContents';
 import ReadingProgressBar from '@/components/blog/ReadingProgressBar';
 import PrevNextNav from '@/components/blog/PrevNextNav';
 import InteractiveQuizHandler from '@/components/blog/InteractiveQuizHandler';
+import PostCoverImage from '@/components/blog/PostCoverImage';
 
 interface PostPageProps {
   params: { slug: string };
@@ -225,16 +226,16 @@ export default async function BlogPostPage({ params }: PostPageProps) {
           </div>
         </header>
 
-        {/* Featured Image */}
-        {post.featured_image && (
-          <div className="rounded-3xl overflow-hidden shadow-lg border border-slate-200 aspect-[16/9] bg-slate-100 relative">
-            <img
-              src={post.featured_image}
-              alt={post.title}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        )}
+        {/* Featured Image with Automatic Fallback */}
+        <div className="rounded-3xl overflow-hidden shadow-lg border border-slate-200 aspect-[16/9] bg-slate-900 relative">
+          <PostCoverImage
+            src={post.featured_image}
+            alt={post.title}
+            title={post.title}
+            category={post.category}
+            className="w-full h-full object-cover"
+          />
+        </div>
 
         {/* Post Rich Content */}
         <article className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/80 shadow-sm">

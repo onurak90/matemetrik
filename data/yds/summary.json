@@ -1,0 +1,83 @@
+{
+  "totalQuestions": 1000,
+  "totalTopics": 11,
+  "topics": [
+    {
+      "id": "kelime-bilgisi",
+      "title": "Kelime Bilgisi (Vocabulary)",
+      "questionCount": 100,
+      "totalInRealExam": 6,
+      "badge": "İlk 6 Soru"
+    },
+    {
+      "id": "gramer",
+      "title": "Dilbilgisi & Gramer (Grammar)",
+      "questionCount": 120,
+      "totalInRealExam": 10,
+      "badge": "Tenses & Bağlaçlar"
+    },
+    {
+      "id": "cloze-test",
+      "title": "Cloze Test (Paragraf Boşluk Doldurma)",
+      "questionCount": 80,
+      "totalInRealExam": 10,
+      "badge": "10 Soru / 2 Metin"
+    },
+    {
+      "id": "cumle-tamamlama",
+      "title": "Cümle Tamamlama (Sentence Completion)",
+      "questionCount": 120,
+      "totalInRealExam": 10,
+      "badge": "10 Soru / Stratejik"
+    },
+    {
+      "id": "ingilizce-turkce-ceviri",
+      "title": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+      "questionCount": 80,
+      "totalInRealExam": 3,
+      "badge": "En Kolay Netler (3 Soru)"
+    },
+    {
+      "id": "turkce-ingilizce-ceviri",
+      "title": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+      "questionCount": 80,
+      "totalInRealExam": 3,
+      "badge": "Hatasız Yüklem Tespiti"
+    },
+    {
+      "id": "paragraf-okuma-anlama",
+      "title": "Okuma Parçaları (Reading Comprehension)",
+      "questionCount": 120,
+      "totalInRealExam": 20,
+      "badge": "20 Soru / Sınavın %25'i"
+    },
+    {
+      "id": "diyalog-tamamlama",
+      "title": "Diyalog Tamamlama (Dialogue Completion)",
+      "questionCount": 75,
+      "totalInRealExam": 5,
+      "badge": "5 Soru / İletişim"
+    },
+    {
+      "id": "es-anlam-restatement",
+      "title": "Anlamca En Yakın Cümle (Restatement)",
+      "questionCount": 75,
+      "totalInRealExam": 4,
+      "badge": "4 Soru / Eş Anlam"
+    },
+    {
+      "id": "paragraf-tamamlama",
+      "title": "Paragraf Tamamlama (Paragraph Completion)",
+      "questionCount": 75,
+      "totalInRealExam": 4,
+      "badge": "4 Soru / Akış"
+    },
+    {
+      "id": "anlami-bozan-cumle",
+      "title": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+      "questionCount": 75,
+      "totalInRealExam": 5,
+      "badge": "Son 5 Soru"
+    }
+  ]
+}

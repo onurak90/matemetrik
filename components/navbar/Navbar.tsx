@@ -54,8 +54,9 @@ export default function Navbar() {
       { name: '12. Sınıf', href: '/kategori/12-sinif' },
     ]},
     { label: 'Sınavlar', items: [
-      { name: 'ALES', href: '/kategori/ales' },
-      { name: 'YDS', href: '/kategori/yds' },
+      { name: '🎯 YDS Hazırlık (1.000 Soru)', href: '/yds-calisma-bolumu' },
+      { name: 'YDS Blog & Materyal', href: '/kategori/yds' },
+      { name: 'ALES Çıkmış Sorular', href: '/kategori/ales' },
       { name: 'YKS & Sınav', href: '/kategori/yks' },
     ]},
   ];
@@ -364,6 +365,20 @@ export default function Navbar() {
             </Link>
 
             <Link
+              href="/yds-calisma-bolumu"
+              className={`px-3 py-2 rounded-xl text-sm font-semibold transition-colors flex items-center gap-1.5 ${
+                pathname?.startsWith('/yds-calisma-bolumu')
+                  ? 'text-indigo-600 bg-indigo-50'
+                  : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
+              }`}
+            >
+              <span>🎯 YDS Hazırlık</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-extrabold">
+                1.000 Soru
+              </span>
+            </Link>
+
+            <Link
               href="/hakkimizda"
               className="px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
             >
@@ -513,6 +528,17 @@ export default function Navbar() {
           >
             <span>📖 Konu Anlatımları</span>
             <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-extrabold">1-12. Sınıf</span>
+          </Link>
+
+          <Link
+            href="/yds-calisma-bolumu"
+            onClick={() => setIsOpen(false)}
+            className="block py-2 font-bold text-emerald-700 hover:text-emerald-900 border-b border-slate-100 flex items-center justify-between"
+          >
+            <span className="flex items-center gap-2">
+              <span>🎯</span> YDS Hazırlık &amp; Çalışma
+            </span>
+            <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-extrabold">1.000 Soru</span>
           </Link>
 
           <Link

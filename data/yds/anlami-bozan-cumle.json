@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "yds-anlami-bozan-cumle-001",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Jeoloji ve Depremler",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Formatı",
+    "passage": null,
+    "questionText": "(I) Earthquakes are the sudden violent shaking of the ground resulting from movements deep within the Earth's crust. (II) These tectonic forces continuously build up immense strain along active geological fault lines. (III) Although the Richter scale has no theoretical upper limit, the largest recorded earthquake in history reached a magnitude of 9.5 in Chile. (IV) When this accumulated stress suddenly exceeds the frictional strength of the rock, tectonic plates rupture and release seismic energy. (V) This released energy radiates outward in all directions as seismic waves, causing widespread destruction on the surface.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "(I) Depremler, Yer kabuğunun derinliklerindeki hareketlerden kaynaklanan ani ve şiddetli yer sarsıntılarıdır. (II) Bu tektonik kuvvetler, aktif jeolojik fay hatları boyunca sürekli olarak muazzam bir gerilim biriktirir. (III) Richter ölçeğinin teorik bir üst sınırı olmasa da tarihte kaydedilen en büyük deprem Şili'de 9.5 büyüklüğüne ulaşmıştır. (IV) Bu biriken stres aniden kayanın sürtünme direncini aştığında, tektonik plakalar kırılır ve sismik enerji açığa çıkarır. (V) Açığa çıkan bu enerji, sismik dalgalar halinde her yöne yayılarak yüzeyde yaygın yıkıma neden olur.",
+      "detailedReason": "Paragrafın I, II, IV ve V. cümleleri depremin fiziksel oluşum mekanizmasını (stres birikimi -> kırılma -> enerji açığa çıkması -> dalgaların yayılması) adım adım açıklar. Oysa III. cümle ani bir sapma yaparak Richter ölçeğinin sınırından ve Şili depreminin büyüklüğünden bahseder. III çıkarıldığında II doğrudan IV'e bağlanır ('this accumulated stress').",
+      "distractorAnalysis": "Diğer 4 cümle birbirine zamirler ve mantıksal nedensellikle bağlıdır; sadece doğru seçenek akışı böler.",
+      "vocabularyNotes": [
+        {
+          "word": "III",
+          "meaning": "Akışı bozan aykırı cümle numarası"
+        }
+      ],
+      "tacticalTip": "Kronolojik ya da sebep-sonuç akışını bozan, spesifik bir örneğe veya alakasız bir rekora kayan cümleyi tespit edin."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-002",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Psikoloji ve İş Yaşamı",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Formatı",
+    "passage": null,
+    "questionText": "(I) The psychological term 'workaholism' describes an obsessive and uncontrollable compulsion to work continuously at the expense of health and personal relationships. (II) Clinical studies suggest that it is often driven by profound inner anxieties rather than genuine professional enthusiasm. (III) Many multinational corporations offer generous retirement packages and health insurance benefits to veteran executives. (IV) Over time, this chronic overwork leads to severe emotional exhaustion, clinical burnout, and cardiovascular illnesses. (V) Consequently, cognitive behavioral therapy and workplace boundary coaching are increasingly recommended to help sufferers recover.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "(I) Psikolojik bir terim olan 'işkoliklik', sağlık ve kişisel ilişkiler pahasına sürekli çalışma yönündeki takıntılı ve kontrol edilemez bir dürtüyü tanımlar. (II) Klinik çalışmalar, bunun gerçek bir mesleki hevesten ziyade derin içsel kaygılardan kaynaklandığını öne sürmektedir. (III) Birçok çokuluslu şirket, kıdemli yöneticilere cömert emeklilik paketleri ve sağlık sigortası avantajları sunmaktadır. (IV) Zamanla bu kronik aşırı çalışma, şiddetli duygusal tükenmişliğe, klinik tükenmeye ve kardiyovasküler hastalıklara yol açar. (V) Sonuç olarak, bu durumdan muzdarip olanların iyileşmesine yardımcı olmak için bilişsel davranışçı terapi ve işyeri sınır koçluğu giderek daha fazla önerilmektedir.",
+      "detailedReason": "Paragraf bütünüyle 'işkoliklik' psikolojik bozukluğunu, sebeplerini, zararlarını ve tedavisini ele almaktadır. III. cümle ise çokuluslu şirketlerin yöneticilerine sunduğu emeklilik ve sigorta paketlerinden bahsederek odağı tamamen konu dışına kaydırır.",
+      "distractorAnalysis": "Diğer 4 cümle birbirine zamirler ve mantıksal nedensellikle bağlıdır; sadece doğru seçenek akışı böler.",
+      "vocabularyNotes": [
+        {
+          "word": "III",
+          "meaning": "Akışı bozan aykırı cümle numarası"
+        }
+      ],
+      "tacticalTip": "Numaralanmış cümlelerde 'özne ve odak takibi' yapın. Diğer 4 cümle bir hastalığı anlatırken tek bir cümlenin kurumsal avantajlardan bahsetmesi o cümlenin aykırı olduğunu gösterir."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-003",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-004",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-005",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-006",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-007",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-008",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-009",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-010",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-011",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-012",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-013",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-014",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-015",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-016",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-017",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-018",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-019",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-020",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-021",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-022",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-023",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-024",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-025",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-026",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-027",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-028",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-029",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-030",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-031",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-032",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-033",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-034",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-035",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-036",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-037",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-038",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-039",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-040",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-041",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-042",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-043",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-044",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-045",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-046",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-047",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-048",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-049",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-050",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-051",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-052",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-053",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-054",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-055",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-056",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-057",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-058",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-059",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-060",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-061",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-062",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-063",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-064",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-065",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-066",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-067",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-068",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-069",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-070",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-071",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-072",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Sosyoloji ve Eğitim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) In every human society, individuals must learn the customs, traditions, and foundational ethical values of their culture. (II) This fundamental lifelong process of cultural integration is formally defined by sociologists as socialization. (III) Socialization begins within the immediate family unit during infancy and continues through formal schooling and peer interactions. (IV) It plays an indispensable role in shaping an individual's moral identity and emotional stability. (V) Some modern schools prefer using digital tablet computers rather than traditional printed textbooks for teaching mathematics.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (E) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek E",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-073",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Tarih ve Matbaa",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) The invention of the printing press in the 1440s marked a profound watershed in the history of human communication. (II) Prior to Gutenberg's movable metal type, books had to be painstakingly transcribed by hand, rendering them prohibitively expensive. (III) Mass production drastically reduced the cost of literature, allowing philosophical and scientific treatises to circulate widely. (IV) Johannes Gutenberg was born in the German city of Mainz, which was a prominent regional center for trade and goldsmithing. (V) This widespread diffusion of knowledge subsequently fueled the Renaissance, the Protestant Reformation, and the Scientific Revolution.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (D) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek D",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-074",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Nöroloji ve Biliş",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Sleep deprivation exerts immediate and detrimental effects on human cognitive performance, particularly working memory and attentional vigilance. (II) Brain imaging scans show reduced metabolic activity in the prefrontal cortex after just twenty-four hours without adequate rest. (III) Many prominent technology companies provide ergonomic standing desks and organic fruit snacks in their corporate headquarters. (IV) Consequently, sleep-deprived individuals exhibit slower reaction times, impaired risk assessment, and frequent decision-making errors. (V) Restoring consistent eight-hour sleep patterns rapidly reverses these neural deficits and restores executive functioning.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  },
+  {
+    "id": "yds-anlami-bozan-cumle-075",
+    "topicId": "anlami-bozan-cumle",
+    "topicTitle": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "subTopic": "Deniz Biyolojisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Soru Bankası",
+    "passage": null,
+    "questionText": "(I) Coral reefs are among the most biologically diverse ecosystems on Earth, harboring nearly a quarter of all marine species. (II) These delicate underwater structures are constructed by colonies of tiny calcifying organisms over thousands of years. (III) Commercial scuba diving equipment has become significantly lighter and more affordable for amateur tourists in recent decades. (IV) However, rising sea surface temperatures and ocean acidification are now causing catastrophic coral bleaching worldwide. (V) If greenhouse emissions remain unchecked, scientists warn that over ninety percent of global reefs could perish before mid-century.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki diğer 4 cümle ana konuyu tutarlı bir akışla geliştirirken, doğru cevapta belirtilen cümle konu dışına kayarak bütünlüğü bozmaktadır.",
+      "detailedReason": "Paragraftaki diğer cümleler ana konuyu açıklarken (C) numaralı cümle akışla doğrudan ilgisiz bir detaya sapmaktadır.",
+      "distractorAnalysis": "Doğru şık çıkarıldığında önceki ve sonraki cümleler birbirine pürüzsüz bağlanır.",
+      "vocabularyNotes": [
+        {
+          "word": "Seçenek C",
+          "meaning": "Anlatım bütünlüğünü bozan cümle"
+        }
+      ],
+      "tacticalTip": "Paragrafın ana konusunu belirleyin. Bir cümle konuyla ilgili görünse bile 'odak noktası' farklıysa (örneğin konunun bilimsel boyutundan magazinel/maddi boyutuna atlıyorsa) akışı bozar."
+    }
+  }
+]

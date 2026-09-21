@@ -1,0 +1,245 @@
+[
+  {
+    "id": "kelime-bilgisi",
+    "title": "Kelime Bilgisi (Vocabulary)",
+    "englishTitle": "Vocabulary",
+    "shortTitle": "Kelime",
+    "icon": "BookOpen",
+    "color": "indigo",
+    "badge": "İlk 6 Soru",
+    "targetCount": 100,
+    "totalInRealExam": 6,
+    "order": 1,
+    "description": "YDS'nin ilk 6 sorusunda çıkan İsimler, Fiiller, Sıfatlar, Zarflar ve Phrasal Verbs (Deyimsel Fiiller). Akademik metinlerde en sık geçen ÖSYM kelimeleri.",
+    "tacticalOverview": "Boşluğun öncesindeki ve sonrasındaki edat (preposition), sıfat-isim tamlamaları ve cümlenin olumlu/olumsuz duygu tonu doğru kelimeyi buldurur.",
+    "keyRules": [
+      "Boşluktan sonraki edata dikkat edin (ör. 'contribute to', 'rely on', 'exposure to').",
+      "Cümledeki zıtlık veya paralellik bağlaçları kelimenin anlam yönünü (pozitif/negatif) belirler.",
+      "Phrasal verb sorularında kök fiilden ziyade edatın (off, out, up, down) kattığı yönü inceleyin.",
+      "Zarf sorularında cümlenin yüklemini veya sıfatını nasıl nitelediğine bakın (ör. 'dramatically increase')."
+    ],
+    "frequentMistakes": [
+      "İlk akla gelen yaygın anlamı düşünmek; YDS genellikle kelimenin akademik yan anlamlarını sorar.",
+      "Edat uyumunu kontrol etmeden sadece anlama göre karar vermek."
+    ],
+    "questionCount": 100
+  },
+  {
+    "id": "gramer",
+    "title": "Dilbilgisi & Gramer (Grammar)",
+    "englishTitle": "Grammar & Structure",
+    "shortTitle": "Gramer",
+    "icon": "Layers",
+    "color": "purple",
+    "badge": "Tenses & Bağlaçlar",
+    "targetCount": 120,
+    "totalInRealExam": 10,
+    "order": 2,
+    "description": "Zaman uyumu (Tenses), Kiplikler (Modals), Pasif ve Ettirgen Çatı, Edatlar ve YDS'nin kalbi olan Zıtlık, Sebep-Sonuç ve Şart Bağlaçları.",
+    "tacticalOverview": "Zaman sorularında zaman zarflarını (since, by the time, recently, in 1990) arayın. Bağlaç sorularında iki cümle arasındaki mantıksal ilişkiyi (+ / - veya neden-sonuç) tespit edin.",
+    "keyRules": [
+      "'By + geçmiş zaman' -> Past Perfect (had V3); 'By + gelecek zaman' -> Future Perfect (will have V3).",
+      "'Since + Past simple', ana cümle Present Perfect (have/has V3) gerektirir.",
+      "Zıtlık bağlaçları (Although, Whereas, In spite of) zıt kutupları; Sebep bağlaçları (Because, Since, As) paralel mantığı bağlar.",
+      "Preposition + Gerund (V-ing) kuralını unutmayın."
+    ],
+    "frequentMistakes": [
+      "Geçmiş zaman ipucu olmadan Past Perfect (had V3) seçmek.",
+      "'Although' ile 'Because' arasındaki zıtlık/sebep ayrımını kaçırmak."
+    ],
+    "questionCount": 120
+  },
+  {
+    "id": "cloze-test",
+    "title": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "englishTitle": "Cloze Tests",
+    "icon": "FileSpreadsheet",
+    "color": "emerald",
+    "badge": "10 Soru / 2 Metin",
+    "targetCount": 80,
+    "totalInRealExam": 10,
+    "order": 3,
+    "description": "İki akademik parça içinde beşer adet boşluğun kelime, edat, bağlaç ve gramer bilgisiyle bağlam içerisinde tamamlanması.",
+    "tacticalOverview": "Boşluğun bulunduğu cümlenin öncesini ve sonrasını mutlaka okuyun. Paragrafın ana konusu ve zaman akışı doğru seçeneği belirler.",
+    "keyRules": [
+      "Boşluktan önceki ve sonraki kelime kombinasyonlarını (collocation) tarayın.",
+      "Metnin ana tense yapısını (tarihi bir olay mı, genel bir bilimsel gerçek mi) belirleyin.",
+      "Cümle başı bağlaçlarında bir önceki cümlenin sonucunu mu zıttını mı anlattığına bakın."
+    ],
+    "frequentMistakes": [
+      "Sadece boşluğun olduğu cümleyi okuyup metnin genel bağlamını göz ardı etmek."
+    ],
+    "questionCount": 80
+  },
+  {
+    "id": "cumle-tamamlama",
+    "title": "Cümle Tamamlama (Sentence Completion)",
+    "englishTitle": "Sentence Completion",
+    "icon": "Sparkles",
+    "color": "amber",
+    "badge": "10 Soru / Stratejik",
+    "targetCount": 120,
+    "totalInRealExam": 10,
+    "order": 4,
+    "description": "Yan cümle veya ana cümlesi eksik bırakılan ifadeleri mantık, zaman uyumu, özne-zamir takibi ve bağlaç ilişkisiyle tamamlama.",
+    "tacticalOverview": "Özne takibi (subject tracking) en güçlü silahtır. Soru kökündeki özne ile doğru şıktaki zamir (it, they, these) birebir örtüşmelidir.",
+    "keyRules": [
+      "Zaman uyumu: Present ile Past yapılar ancak 'since' veya zıtlık bağlaçlarında özel durumlarda bir araya gelebilir.",
+      "Zıtlık bağlacı varsa (+ / -) kutuplaşması arayın (ör. 'faydalı olmasına rağmen -> risk taşır').",
+      "Sebep bağlacı varsa neden ile sonuç arasındaki sebep-sonuç bağını doğrulayın."
+    ],
+    "frequentMistakes": [
+      "Anlamı güzel gelen ancak öznesi veya zamanı soru köküyle çelişen şıkka düşmek."
+    ],
+    "questionCount": 120
+  },
+  {
+    "id": "ingilizce-turkce-ceviri",
+    "title": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "englishTitle": "Translation (EN to TR)",
+    "icon": "Languages",
+    "color": "cyan",
+    "badge": "En Kolay Netler (3 Soru)",
+    "targetCount": 80,
+    "totalInRealExam": 3,
+    "order": 5,
+    "description": "İngilizce cümlenin yüklemini ve ana öznesini tespit ederek Türkçe karşılığına 15 saniyede ulaşma teknikleri.",
+    "tacticalOverview": "Önce İngilizce cümlenin ana fiilini bulun. Türkçe cümlenin yüklemi daima en sondadır. Yüklemi uyuşmayan şıkları anında eleyin.",
+    "keyRules": [
+      "İngilizce ana fiilin zamanı ve çatısı (etken/edilgen) Türkçe yüklem ile birebir aynı olmalıdır.",
+      "Ana özne tespit edilip Türkçe cümlenin başındaki özneyle eşleştirilmelidir.",
+      "Bağlaçların Türkçe karşılıkları (çünkü, -dığı için, rağmen, ancak) dikkatle kontrol edilmelidir."
+    ],
+    "frequentMistakes": [
+      "Tüm paragrafı tek tek kelime kelime çevirmeye çalışarak vakit kaybetmek."
+    ],
+    "questionCount": 80
+  },
+  {
+    "id": "turkce-ingilizce-ceviri",
+    "title": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "englishTitle": "Translation (TR to EN)",
+    "icon": "ArrowRightLeft",
+    "color": "teal",
+    "badge": "Hatasız Yüklem Tespiti",
+    "targetCount": 80,
+    "totalInRealExam": 3,
+    "order": 6,
+    "description": "Türkçe cümlenin sonundaki ana yüklemi ve özneyi İngilizce dilbilgisi kurallarıyla eşleştirip çeldiricileri eleme.",
+    "tacticalOverview": "Türkçe cümlenin en sonundaki yükleme bakın: 'sağlamıştır', 'sağlayabilir', 'sağlanmaktadır'. İngilizce fiilin zamanı (Present Perfect, Modal, Passive) bu yükleme uymalıdır.",
+    "keyRules": [
+      "Türkçe yüklemin modu (can, must, should, will) ve zamanı İngilizce fiille örtüşmelidir.",
+      "Yan cümleciklerin ana cümleye bağlanma biçimi kontrol edilmelidir."
+    ],
+    "frequentMistakes": [
+      "Aktif ve pasif yapıları karıştırmak (ör. 'geliştirildi' -> was developed, 'geliştirdi' -> developed)."
+    ],
+    "questionCount": 80
+  },
+  {
+    "id": "paragraf-okuma-anlama",
+    "title": "Okuma Parçaları (Reading Comprehension)",
+    "englishTitle": "Reading Comprehension",
+    "icon": "GraduationCap",
+    "color": "blue",
+    "badge": "20 Soru / Sınavın %25'i",
+    "targetCount": 120,
+    "totalInRealExam": 20,
+    "order": 7,
+    "description": "Bilim, tarih, sağlık, teknoloji ve sanat metinlerinde ana fikir, detay, yazar tutumu ve çıkarım soruları.",
+    "tacticalOverview": "Önce soru köklerini hızlıca tarayın (paragraf ne hakkında?), ardından metni okuyun. Metinde doğrudan geçmeyen aşırı genellemelerden (all, never, only) kaçının.",
+    "keyRules": [
+      "Doğru cevap genellikle parçadaki bir cümlenin eşanlamlı (paraphrased) halidir.",
+      "Kendi genel kültürünüze göre değil, yalnızca parçada yazılan bilgiye göre karar verin.",
+      "'According to the passage' soruları doğrudan metindeki kanıta dayanır."
+    ],
+    "frequentMistakes": [
+      "Parçada geçmeyen ancak genel dünyada doğru olan bir bilgiyi doğru şık sanmak."
+    ],
+    "questionCount": 120
+  },
+  {
+    "id": "diyalog-tamamlama",
+    "title": "Diyalog Tamamlama (Dialogue Completion)",
+    "englishTitle": "Dialogue Completion",
+    "icon": "MessageSquare",
+    "color": "rose",
+    "badge": "5 Soru / İletişim",
+    "targetCount": 75,
+    "totalInRealExam": 5,
+    "order": 8,
+    "description": "İki kişi arasındaki konuşmada boşluğun hemen öncesi ve sonrasındaki tepki, duygu durumu, soru-cevap ve nezaket uyumu.",
+    "tacticalOverview": "Boşluktan HEMEN SONRAKİ replik anahtardır. Karşıdaki kişi 'I agree', 'Really?', 'Why do you say so?' gibi ne tepki verdiyse boşluk bunu doğurmuş olmalıdır.",
+    "keyRules": [
+      "Soru sorulmuşsa uygun cevap, fikir beyan edilmişse uygun tepki aranır.",
+      "Konuşanlar arasındaki samimiyet veya resmiyet derecesi üsluba yansımalıdır."
+    ],
+    "frequentMistakes": [
+      "Boşluktan sonraki kişinin tepkisini okumadan önceki cümleye göre karar vermek."
+    ],
+    "questionCount": 75
+  },
+  {
+    "id": "es-anlam-restatement",
+    "title": "Anlamca En Yakın Cümle (Restatement)",
+    "englishTitle": "Restatement / Paraphrase",
+    "icon": "Repeat",
+    "color": "violet",
+    "badge": "4 Soru / Eş Anlam",
+    "targetCount": 75,
+    "totalInRealExam": 4,
+    "order": 9,
+    "description": "Cümlenin özünü, bağlaçlarını ve kesinlik derecesini değiştirmeden farklı yapılarla yeniden ifade etme.",
+    "tacticalOverview": "Cümledeki anahtar öğeleri işaretleyin: 1) Bağlaç (although, because), 2) Derece zarfı (only, barely, mostly), 3) Modal (might, must). Doğru şık bunların tam karşılığını taşımalıdır.",
+    "keyRules": [
+      "Soru kökünde 'might' (olasılık) varsa şıkta 'definitely' (kesinlik) olamaz.",
+      "Zıtlık bağlacı içeren cümlenin eşanlamlısı yine bir zıtlık veya ödün yapısı içermelidir."
+    ],
+    "frequentMistakes": [
+      "Kelime benzerliğine aldanıp anlamda fazlalık veya eksiklik olan şıkkı seçmek."
+    ],
+    "questionCount": 75
+  },
+  {
+    "id": "paragraf-tamamlama",
+    "title": "Paragraf Tamamlama (Paragraph Completion)",
+    "englishTitle": "Paragraph Completion",
+    "icon": "FileText",
+    "color": "orange",
+    "badge": "4 Soru / Akış",
+    "targetCount": 75,
+    "totalInRealExam": 4,
+    "order": 10,
+    "description": "Paragrafın akışını bozan boşluğa konu gelişimi, kronoloji ve zamir referanslarıyla tam oturan ifadeyi yerleştirme.",
+    "tacticalOverview": "Boşluktan önceki cümlenin sonu ile boşluktan sonraki cümlenin başı arasındaki köprüyü kurun. 'However', 'Therefore', 'This idea' gibi geçiş ifadeleri yolu gösterir.",
+    "keyRules": [
+      "Boşluktan sonra 'These methods' diyorsa boşlukta birden fazla yöntemden bahsedilmiş olmalıdır.",
+      "Konunun kapsamı (daralması veya genişlemesi) akışa uygun olmalıdır."
+    ],
+    "frequentMistakes": [
+      "Paragrafın genel konusuyla ilgili olan ama tam o boşluğa akış olarak oturmayan cümleyi seçmek."
+    ],
+    "questionCount": 75
+  },
+  {
+    "id": "anlami-bozan-cumle",
+    "title": "Anlam Bütünlüğünü Bozan Cümle (Irrelevant Sentence)",
+    "englishTitle": "Irrelevant Sentence",
+    "icon": "FilterX",
+    "color": "red",
+    "badge": "Son 5 Soru",
+    "targetCount": 75,
+    "totalInRealExam": 5,
+    "order": 11,
+    "description": "Numaralandırılmış 5 cümleden konunun odağına, zaman dilimine veya anlatım akışına uymayan aykırı cümleyi eleme.",
+    "tacticalOverview": "Genelden özele veya özelden genele ani ve bağlantısız geçişleri arayın. Diğer 4 cümle birbiriyle köprü kurarken 1 cümle o köprünün dışında kalır.",
+    "keyRules": [
+      "Konu aynı görünse de 'odak noktası' farklı olan cümle akışı bozar (ör. diğerleri tedaviyi anlatırken biri maliyetten bahsediyorsa).",
+      "Aykırı cümleyi çıkardığınızda önceki ve sonraki cümle birbirine pürüzsüz bağlanmalıdır."
+    ],
+    "frequentMistakes": [
+      "Sadece aynı kelime geçiyor diye alakasız cümleyi doğru kabul etmek."
+    ],
+    "questionCount": 75
+  }
+]

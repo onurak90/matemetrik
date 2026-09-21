@@ -123,6 +123,37 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           </div>
         </div>
 
+        {/* YDS Özel İnteraktif Çalışma Bölümü Bannerı */}
+        {params.slug === 'yds' && (
+          <div className="relative overflow-hidden bg-gradient-to-r from-slate-900 via-indigo-950 to-emerald-950 rounded-3xl p-8 sm:p-10 text-white shadow-xl border border-emerald-500/30 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 group">
+            <div className="space-y-3 max-w-2xl">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-400/30">
+                <span>🎯 2026-2027 ÖSYM YDS &amp; YÖKDİL Hazırlık Platformu</span>
+              </div>
+              <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+                YDS Çalışma Bölümü (1.000 Çözümlü Soru)
+              </h2>
+              <p className="text-slate-300 text-sm leading-relaxed">
+                Kelime Bilgisi, Gramer, Cloze Test, Cümle Tamamlama, Çeviri ve Paragraf gibi 11 farklı soru türünde 1.000 açıklamalı çözümlü soru bankamızla sınava interaktif hazırlanın. Doğru cevaplar yeşil, yanlışlar kırmızı; anında Türkçe çeviri ve çözüm analizi!
+              </p>
+              <div className="flex flex-wrap gap-2 text-xs text-emerald-200 pt-1">
+                <span className="bg-white/10 px-2.5 py-1 rounded-lg">✓ 11 Soru Kategorisi</span>
+                <span className="bg-white/10 px-2.5 py-1 rounded-lg">✓ Çözümü Göster &amp; Açıkla</span>
+                <span className="bg-white/10 px-2.5 py-1 rounded-lg">✓ %100 Ücretsiz</span>
+              </div>
+            </div>
+            <div className="shrink-0 w-full md:w-auto">
+              <Link
+                href="/yds-calisma-bolumu"
+                className="w-full md:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gradient-to-r from-emerald-500 to-indigo-600 hover:from-emerald-600 hover:to-indigo-700 text-white font-bold text-sm rounded-2xl transition-all shadow-lg shadow-emerald-600/20 group-hover:scale-105"
+              >
+                <span>YDS Testlerini Başlat</span>
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        )}
+
         {/* Sınıf Seviyesine Özel Ders Ders Kitap Çözümleri Butonları ve Filtreleme */}
         {isGradeCategory && (
           <GradeSubjectSolutions

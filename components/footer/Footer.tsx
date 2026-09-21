@@ -84,6 +84,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/yds-calisma-bolumu" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-semibold">
+                  <Sparkles className="w-3 h-3" /> 🎯 YDS Hazırlık &amp; Çalışma (1.000 Soru)
+                </Link>
+              </li>
+              <li>
                 <Link href="/konu-anlatimlari" className="hover:text-white transition-colors flex items-center gap-1.5 text-cyan-400 font-semibold">
                   <Sparkles className="w-3 h-3" /> 📖 Konu Anlatımları (1-12. Sınıf)
                 </Link>

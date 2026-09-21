@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "yds-ingilizce-turkce-ceviri-001",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Cümle Çevirisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "Recent neuroimaging studies indicate that bilingual individuals exhibit greater cognitive flexibility and develop symptoms of dementia significantly later than monolingual peers.",
+    "options": {
+      "A": "İki dilli bireylerin daha yüksek bilişsel esneklik sergilemesi, nörogörüntüleme çalışmalarında demans belirtilerinin tamamen engellendiğini kanıtlamıştır.",
+      "B": "Son nörogörüntüleme çalışmaları, iki dilli bireylerin daha yüksek bilişsel esneklik sergilediğini ve demans belirtilerini tek dilli akranlarına göre belirgin şekilde daha geç geliştirdiğini göstermektedir.",
+      "C": "İki dilli bireylerin demans belirtilerini tek dillilere göre daha geç geliştirmesi, son nörogörüntüleme çalışmalarının temel araştırma konusunu oluşturmaktadır.",
+      "D": "Nörogörüntüleme çalışmaları tek dilli akranların bilişsel esnekliğinin iki dilli bireylere kıyasla demans riskini daha geç tetiklediğini öne sürmektedir.",
+      "E": "Son nörogörüntüleme çalışmalarına göre iki dilli bireyler yüksek bilişsel esneklik sergileseler de tek dilli akranlarıyla benzer zamanlarda demans belirtileri gösterirler."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Son nörogörüntüleme çalışmaları, iki dilli bireylerin daha yüksek bilişsel esneklik sergilediğini ve demans belirtilerini tek dilli akranlarına göre belirgin şekilde daha geç geliştirdiğini göstermektedir.",
+      "detailedReason": "İngilizce cümlenin ana fiili 'indicate that' (göstermektedir) ve öznesi 'Recent neuroimaging studies' (Son nörogörüntüleme çalışmaları) şeklindedir. Yan cümlenin yüklemleri 'exhibit' (sergilediğini) ve 'develop' (geliştirdiğini) olup doğru şıkta eksiksiz karşılanmıştır.",
+      "distractorAnalysis": "Çeldirici şıklarda ya ana cümlenin yüklemi (zaman veya çatı bakımından) yanlış aktarılmış ya da özne-nesne ilişkisi çarpıtılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Recent neuroimaging studies in...",
+          "meaning": "Doğru Türkçe aktarım"
+        }
+      ],
+      "tacticalTip": "Önce ana cümlenin yüklemini (indicate that -> göstermektedir) bulun. Yüklemi uyuşmayan seçenekleri doğrudan eleyin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-002",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Cümle Çevirisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "Although the development of renewable energy infrastructure requires substantial initial capital investment, it provides immense long-term economic and environmental benefits.",
+    "options": {
+      "A": "Önemli bir başlangıç sermayesi yatırımı gerektirmeyen yenilenebilir enerji altyapıları, uzun vadede çevreye ve ekonomiye muazzam katkı sunmaktadır.",
+      "B": "Yenilenebilir enerji altyapılarının sağladığı ekonomik ve çevresel faydalar, başlangıçta yapılan yüksek sermaye yatırımlarını tamamen telafi edemez.",
+      "C": "Yenilenebilir enerji altyapısının geliştirilmesi önemli bir başlangıç sermayesi yatırımı gerektirse de, uzun vadede muazzam ekonomik ve çevresel faydalar sağlar.",
+      "D": "Uzun vadeli ekonomik ve çevresel faydalar elde etmek amacıyla yenilenebilir enerji altyapılarına büyük sermaye yatırımları yapılmalıdır.",
+      "E": "Yenilenebilir enerji altyapısı geliştirmek için başlangıçta büyük sermaye gerekmesine rağmen bu durum ekonomik faydaları kısıtlamaktadır."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Yenilenebilir enerji altyapısının geliştirilmesi önemli bir başlangıç sermayesi yatırımı gerektirse de, uzun vadede muazzam ekonomik ve çevresel faydalar sağlar.",
+      "detailedReason": "'Although' bağlacı Türkçeye '-se de / -mesine rağmen' olarak aktarılır. Ana cümlenin yüklemi 'provides' (sağlar) ve yan cümlenin yüklemi 'requires' (gerektirse de) yapısıdır.",
+      "distractorAnalysis": "Çeldirici şıklarda ya ana cümlenin yüklemi (zaman veya çatı bakımından) yanlış aktarılmış ya da özne-nesne ilişkisi çarpıtılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Although the development of re...",
+          "meaning": "Doğru Türkçe aktarım"
+        }
+      ],
+      "tacticalTip": "Zıtlık bağlacının (Although) Türkçe cümlede doğru kurulup kurulmadığına ve cümlenin sonundaki ana yükleme (sağlar) odaklanın."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-003",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Cümle Çevirisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "Artificial intelligence algorithms applied in medical diagnostics are capable of detecting cancerous anomalies on radiological scans with higher accuracy than human specialists.",
+    "options": {
+      "A": "İnsan uzmanların doğruluğunu aşan yapay zeka algoritmaları, tıbbi teşhis amacıyla radyolojik taramalarda sadece kanserli anomalileri tespit etmektedir.",
+      "B": "Radyolojik taramalardaki kanserli anomalilerin tespiti için tıbbi teşhiste insan uzmanların yerine tamamen yapay zeka algoritmaları kullanılmalıdır.",
+      "C": "Tıbbi teşhis alanındaki uzmanlar, yapay zeka algoritmaları sayesinde radyolojik taramalardaki kanser anomalilerini daha doğru tespit edebilmektedir.",
+      "D": "Tıbbi teşhiste uygulanan yapay zeka algoritmaları, radyolojik taramalardaki kanserli anomalileri insan uzmanlardan daha yüksek bir doğrulukla tespit etme yeteneğine sahiptir.",
+      "E": "Yapay zeka algoritmaları tıbbi teşhislerde kullanıldığında insan uzmanların radyolojik taramalardaki doğruluk oranını belirgin şekilde artırmaktadır."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Tıbbi teşhiste uygulanan yapay zeka algoritmaları, radyolojik taramalardaki kanserli anomalileri insan uzmanlardan daha yüksek bir doğrulukla tespit etme yeteneğine sahiptir.",
+      "detailedReason": "Cümlenin öznesi 'Artificial intelligence algorithms applied in medical diagnostics' (Tıbbi teşhiste uygulanan yapay zeka algoritmaları), ana yüklemi ise 'are capable of detecting' (tespit etme yeteneğine sahiptir) ifadesidir.",
+      "distractorAnalysis": "Çeldirici şıklarda ya ana cümlenin yüklemi (zaman veya çatı bakımından) yanlış aktarılmış ya da özne-nesne ilişkisi çarpıtılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Artificial intelligence algori...",
+          "meaning": "Doğru Türkçe aktarım"
+        }
+      ],
+      "tacticalTip": "Özne grubunu (algoritmalar) doğru tespit edip ana fiil olan 'tespit etme yeteneğine sahiptir' ifadesiyle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-004",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Cümle Çevirisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "The archaeological excavation of Göbeklitepe in southeastern Anatolia has fundamentally challenged previous historical assumptions regarding the emergence of complex societies and monumental architecture.",
+    "options": {
+      "A": "Önceki tarihsel varsayımların aksine, karmaşık toplumlar ve anıtsal mimari Güneydoğu Anadolu'daki Göbeklitepe kazılarıyla ortaya çıkmıştır.",
+      "B": "Güneydoğu Anadolu'da Göbeklitepe'de yapılan arkeolojik kazılar, karmaşık toplumlar ve anıtsal mimari hakkındaki tüm varsayımları doğrulamıştır.",
+      "C": "Güneydoğu Anadolu'da keşfedilen Göbeklitepe, anıtsal mimarinin kökenlerine dair eski varsayımları yeniden tartışmaya açmayı amaçlamaktadır.",
+      "D": "Göbeklitepe arkeolojik kazıları, anıtsal mimarinin karmaşık toplumlardan önce ortaya çıktığına dair tarihsel varsayımları desteklemiştir.",
+      "E": "Güneydoğu Anadolu'daki Göbeklitepe arkeolojik kazısı, karmaşık toplumların ve anıtsal mimarinin ortaya çıkışına ilişkin önceki tarihsel varsayımları kökten sarsmıştır."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Güneydoğu Anadolu'daki Göbeklitepe arkeolojik kazısı, karmaşık toplumların ve anıtsal mimarinin ortaya çıkışına ilişkin önceki tarihsel varsayımları kökten sarsmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili 'has fundamentally challenged' (kökten sarsmıştır / kökten meydan okumuştur). Doğru seçenek bu yüklemi ve özneyi birebir yansıtır.",
+      "distractorAnalysis": "Çeldirici şıklarda ya ana cümlenin yüklemi (zaman veya çatı bakımından) yanlış aktarılmış ya da özne-nesne ilişkisi çarpıtılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The archaeological excavation ...",
+          "meaning": "Doğru Türkçe aktarım"
+        }
+      ],
+      "tacticalTip": "'Challenge' fiili akademik çevirilerde 'meydan okumak, sarsmak, sorgulatmak' anlamlarıyla karşılanır."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-005",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-006",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-007",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-008",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-009",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-010",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-011",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-012",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-013",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-014",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-015",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-016",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-017",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-018",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-019",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-020",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-021",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-022",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-023",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-024",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-025",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-026",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-027",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-028",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-029",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-030",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-031",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-032",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-033",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-034",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-035",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-036",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-037",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-038",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-039",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-040",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-041",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-042",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-043",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-044",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-045",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-046",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-047",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-048",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-049",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-050",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-051",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-052",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-053",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-054",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-055",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-056",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-057",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-058",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-059",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-060",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-061",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-062",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-063",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-064",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-065",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-066",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-067",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-068",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-069",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-070",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-071",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-072",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-073",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-074",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-075",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-076",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Microorganisms inhabiting deep-sea hydrothermal vents derive metabolic energy not from sunlight but from chemical reactions involving hydrogen sulfide.",
+    "options": {
+      "A": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Derin deniz hidrotermal bacalarında yaşayan mikroorganizmalar, metabolik enerjilerini güneş ışığından değil, hidrojen sülfür içeren kimyasal reaksiyonlardan elde ederler.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Microorganisms inhabiting...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-077",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The invention of the printing press by Johannes Gutenberg in the fifteenth century facilitated the widespread dissemination of scientific ideas across Renaissance Europe.",
+    "options": {
+      "A": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "B": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Matbaanın on beşinci yüzyılda Johannes Gutenberg tarafından icat edilmesi, bilimsel fikirlerin Rönesans Avrupası genelinde yaygın biçimde dağıtılmasını kolaylaştırmıştır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The invention of the prin...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-078",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have discovered that the human brain continuously reorganizes synaptic connections in response to experiential learning and cognitive training.",
+    "options": {
+      "A": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini iddia etmektedirler.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "D": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir.",
+      "E": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, insan beyninin deneyimsel öğrenme ve bilişsel eğitime yanıt olarak sinaptik bağlantıları sürekli olarak yeniden düzenlediğini keşfetmişlerdir.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Neuroscientists have disc...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-079",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "International monetary authorities emphasize that sustainable macroeconomic stability cannot be achieved without structural reforms and fiscal discipline.",
+    "options": {
+      "A": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "B": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "C": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası para otoriteleri, yapısal reformlar ve mali disiplin olmaksızın sürdürülebilir makroekonomik istikrarın sağlanamayacağını vurgulamaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "International monetary au...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-080",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The rapid melting of polar ice caps due to anthropogenic global warming poses an immediate threat to low-lying coastal cities around the world.",
+    "options": {
+      "A": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "B": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "C": "Bilim insanlarına göre bu durumun ortaya çıkması temel olarak ekonomik kısıtlamalara bağlanmaktadır.",
+      "D": "Araştırmacılar söz konusu bulguların gelecekte yeni tartışmalara yol açacağını belirtmişlerdir.",
+      "E": "Tarihsel veriler incelendiğinde bu sürecin beklenenden çok daha yavaş ilerlediği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "İnsan kaynaklı küresel ısınma nedeniyle kutup buzullarının hızla erimesi, dünya genelindeki alçak kıyı şehirleri için acil bir tehdit oluşturmaktadır.",
+      "detailedReason": "İngilizce cümlenin ana fiili ile Türkçe cümlenin sonundaki yüklem tam uyumludur. Yan cümleciklerin niteleme biçimleri ve bağlaç yapısı eksiksiz aktarılmıştır.",
+      "distractorAnalysis": "Diğer şıklarda yüklem anlamı saptırılmış veya cümledeki koşul/sebep bağlaçları eksik bırakılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The rapid melting of pola...",
+          "meaning": "Doğru Türkçe karşılık"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
+    }
+  }
+]
