@@ -136,13 +136,17 @@ export default function Navbar() {
 
             {/* MEB Çözümleri Mega Dropdown (1-12. Sınıf Tüm Kademeler) */}
             <div className="relative group">
-              <button
-                type="button"
-                className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
+              <Link
+                href="/meb-cozumleri"
+                className={`flex items-center gap-1.5 px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
+                  pathname?.startsWith('/meb-cozumleri')
+                    ? 'text-indigo-600 bg-indigo-50'
+                    : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
+                }`}
               >
                 MEB Çözümleri
                 <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
-              </button>
+              </Link>
 
               <div className="absolute top-full left-1/2 -translate-x-1/2 w-[560px] bg-white rounded-2xl shadow-2xl border border-slate-200 p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-3">
                 {/* Header Banner */}
@@ -155,7 +159,7 @@ export default function Navbar() {
                     </div>
                   </div>
                   <Link
-                    href="/kategori/meb-ders-kitabi-cevaplari"
+                    href="/meb-cozumleri"
                     className="text-xs font-bold text-indigo-600 hover:text-indigo-800 hover:underline flex items-center gap-1"
                   >
                     Tüm Kitaplar &rarr;
@@ -227,8 +231,8 @@ export default function Navbar() {
                 {/* Footer Link */}
                 <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                   <span>Adım adım işlem basamakları ve formüller</span>
-                  <Link href="/konu-anlatimlari" className="text-indigo-600 font-bold hover:underline flex items-center gap-1">
-                    📖 1-12. Sınıf Konu Anlatımları &rarr;
+                  <Link href="/meb-cozumleri" className="text-indigo-600 font-bold hover:underline flex items-center gap-1">
+                    📖 MEB Çözüm Merkezine Git &rarr;
                   </Link>
                 </div>
               </div>
@@ -236,15 +240,26 @@ export default function Navbar() {
 
             {/* Öğretmen Araçları Dropdown */}
             <div className="relative group">
-              <button
-                type="button"
-                className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
+              <Link
+                href="/ogretmen-araclari"
+                className={`flex items-center gap-1.5 px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
+                  pathname?.startsWith('/ogretmen-araclari')
+                    ? 'text-indigo-600 bg-indigo-50'
+                    : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
+                }`}
               >
                 Öğretmen Araçları
                 <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
-              </button>
+              </Link>
 
-              <div className="absolute top-full left-0 w-72 bg-white rounded-2xl shadow-xl border border-slate-200 p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0">
+              <div className="absolute top-full left-0 w-80 bg-white rounded-2xl shadow-xl border border-slate-200 p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-0.5">
+                <div className="p-2 border-b border-slate-100 flex items-center justify-between">
+                  <span className="text-xs font-bold text-slate-900">Dijital Öğretmen Odası</span>
+                  <Link href="/ogretmen-araclari" className="text-[11px] font-bold text-indigo-600 hover:underline">
+                    Tüm Araçlar &rarr;
+                  </Link>
+                </div>
+
                 <Link
                   href="/yillik-plan-hazirlama"
                   className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-indigo-50 transition-colors group/item"
@@ -341,23 +356,67 @@ export default function Navbar() {
               </div>
             </div>
 
-            <Link
-              href="/kategori/kitap-ozet"
-              className="px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
-            >
-              Kitap Özetleri
-            </Link>
+            {/* Hesaplama Araçları Mega Dropdown */}
+            <div className="relative group">
+              <Link
+                href="/hesaplama-araclari"
+                className={`flex items-center gap-1.5 px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
+                  pathname?.startsWith('/hesaplama-araclari') ||
+                  pathname === '/yuzde-hesaplama' ||
+                  pathname === '/kdv-hesaplama' ||
+                  pathname === '/ebob-ekok-hesaplama'
+                    ? 'text-indigo-600 bg-indigo-50'
+                    : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
+                }`}
+              >
+                <span>🧮 Hesaplama</span>
+                <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
+              </Link>
 
-            <Link
-              href="/kategori/matematik-blog"
-              className="px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
-            >
-              Blog &amp; Makaleler
-            </Link>
+              <div className="absolute top-full left-1/2 -translate-x-1/2 w-[520px] bg-white rounded-2xl shadow-2xl border border-slate-200 p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-3">
+                <div className="flex items-center justify-between pb-2.5 border-b border-slate-100">
+                  <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                    <span>🧮</span> Adım Adım Matematik Hesaplayıcılar
+                  </div>
+                  <Link
+                    href="/hesaplama-araclari"
+                    className="text-xs font-bold text-indigo-600 hover:underline"
+                  >
+                    Tümünü Gör (18 Araç) &rarr;
+                  </Link>
+                </div>
+                <div className="grid grid-cols-2 gap-1.5 text-xs">
+                  <Link href="/yuzde-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                    <span className="w-5 text-center font-bold text-indigo-600">%</span> Yüzde Hesaplama
+                  </Link>
+                  <Link href="/kdv-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                    <span className="w-5 text-center font-bold text-emerald-600">🧾</span> KDV Hesaplama (%1-20)
+                  </Link>
+                  <Link href="/ebob-ekok-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                    <span className="w-5 text-center font-bold text-purple-600">÷</span> EBOB &amp; EKOK Bulma
+                  </Link>
+                  <Link href="/ikinci-dereceden-denklem-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                    <span className="w-5 text-center font-bold text-rose-600">x²</span> 2. Derece Denklem (Delta)
+                  </Link>
+                  <Link href="/karekok-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                    <span className="w-5 text-center font-bold text-cyan-600">√</span> Karekök &amp; Kök Dışına Çıkarma
+                  </Link>
+                  <Link href="/pisagor-hipotenus-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                    <span className="w-5 text-center font-bold text-blue-600">📐</span> Pisagor &amp; Hipotenüs
+                  </Link>
+                  <Link href="/oran-oranti-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                    <span className="w-5 text-center font-bold text-amber-600">⚖️</span> Oran Orantı Çözücü
+                  </Link>
+                  <Link href="/ortalama-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                    <span className="w-5 text-center font-bold text-teal-600">📊</span> Ortalama &amp; Medyan
+                  </Link>
+                </div>
+              </div>
+            </div>
 
             <Link
               href="/konu-anlatimlari"
-              className={`px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
+              className={`px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
                 pathname === '/konu-anlatimlari' || pathname?.startsWith('/konu-anlatimlari')
                   ? 'text-indigo-600 bg-indigo-50'
                   : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
@@ -368,21 +427,51 @@ export default function Navbar() {
 
             <Link
               href="/yds-calisma-bolumu"
-              className={`px-3 py-2 rounded-xl text-sm font-semibold transition-colors flex items-center gap-1.5 ${
+              className={`px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold transition-colors flex items-center gap-1 ${
                 pathname?.startsWith('/yds-calisma-bolumu')
                   ? 'text-indigo-600 bg-indigo-50'
                   : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
               }`}
             >
-              <span>🎯 YDS Hazırlık</span>
+              <span>🎯 YDS</span>
             </Link>
 
-            <Link
-              href="/hakkimizda"
-              className="px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
-            >
-              Hakkımızda
-            </Link>
+            {/* Keşfet / Daha Fazla Dropdown (Menü sığma sorununu çözer) */}
+            <div className="relative group">
+              <button
+                type="button"
+                className="flex items-center gap-1 px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
+              >
+                Keşfet
+                <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
+              </button>
+              <div className="absolute top-full right-0 w-52 bg-white rounded-2xl shadow-xl border border-slate-200 p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-1">
+                <Link
+                  href="/kategori/kitap-ozet"
+                  className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-xl transition-colors"
+                >
+                  📚 Kitap Özetleri
+                </Link>
+                <Link
+                  href="/kategori/matematik-blog"
+                  className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-xl transition-colors"
+                >
+                  ✍️ Blog &amp; Makaleler
+                </Link>
+                <Link
+                  href="/hakkimizda"
+                  className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-xl transition-colors"
+                >
+                  ℹ️ Hakkımızda
+                </Link>
+                <Link
+                  href="/iletisim"
+                  className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-xl transition-colors"
+                >
+                  📬 İletişim
+                </Link>
+              </div>
+            </div>
           </nav>
 
           {/* Right Actions */}
@@ -444,7 +533,7 @@ export default function Navbar() {
 
           <div className="py-2 border-b border-slate-100 space-y-2">
             <Link
-              href="/kategori/meb-ders-kitabi-cevaplari"
+              href="/meb-cozumleri"
               onClick={() => setIsOpen(false)}
               className="flex items-center justify-between py-1 text-sm font-bold text-indigo-700 hover:text-indigo-900"
             >
@@ -483,9 +572,14 @@ export default function Navbar() {
           </div>
 
           <div className="py-2 border-b border-slate-100 space-y-2">
-            <div className="text-xs font-bold text-indigo-600 uppercase tracking-wider">
-              Öğretmen Araçları
-            </div>
+            <Link
+              href="/ogretmen-araclari"
+              onClick={() => setIsOpen(false)}
+              className="text-xs font-bold text-indigo-600 uppercase tracking-wider flex items-center justify-between"
+            >
+              <span>Öğretmen Araçları</span>
+              <span className="text-[10px] text-slate-500 font-medium lowercase">tümünü gör &rarr;</span>
+            </Link>
             <Link href="/yillik-plan-hazirlama" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
               <span>Yıllık Plan Hazırlama</span>
               <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-bold border border-emerald-200">2026-2027</span>
@@ -511,6 +605,28 @@ export default function Navbar() {
               <Link href="/lgs-puan-hesaplama-robotu" onClick={() => setIsOpen(false)} className="p-1 rounded text-indigo-700 hover:bg-indigo-50 font-medium">
                 🎯 LGS Puan Hesapla
               </Link>
+            </div>
+          </div>
+
+          {/* Mobile Hesaplama Araçları Section */}
+          <div className="py-2 border-b border-slate-100 space-y-2">
+            <Link
+              href="/hesaplama-araclari"
+              onClick={() => setIsOpen(false)}
+              className="flex items-center justify-between py-1 text-sm font-bold text-indigo-700 hover:text-indigo-900"
+            >
+              <span>🧮 Matematik Hesaplama Araçları</span>
+              <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-extrabold">18 Robot</span>
+            </Link>
+            <div className="grid grid-cols-2 gap-1.5 text-xs text-slate-700 pt-1">
+              <Link href="/yuzde-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Yüzde Hesaplama</Link>
+              <Link href="/kdv-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">KDV Hesaplama</Link>
+              <Link href="/ebob-ekok-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">EBOB &amp; EKOK</Link>
+              <Link href="/ikinci-dereceden-denklem-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">2. Derece Denklem</Link>
+              <Link href="/karekok-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Karekök Bulucu</Link>
+              <Link href="/pisagor-hipotenus-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Pisagor &amp; Hipotenüs</Link>
+              <Link href="/oran-oranti-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Oran Orantı</Link>
+              <Link href="/ortalama-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Ortalama &amp; Medyan</Link>
             </div>
           </div>
 

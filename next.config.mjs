@@ -54,6 +54,15 @@ const nextConfig = {
       { source: '/matematik-blog', destination: '/kategori/matematik-blog', permanent: true },
       { source: '/lgs-yks-puan-hesaplama', destination: '/puan-hesaplama-robotu', permanent: true },
       { source: '/yds-hazirlik', destination: '/yds-calisma-bolumu', permanent: true },
+      { source: '/ebob-hesaplama', destination: '/ebob-ekok-hesaplama', permanent: true },
+      { source: '/ekok-hesaplama', destination: '/ebob-ekok-hesaplama', permanent: true },
+      { source: '/permutasyon-hesaplama', destination: '/permutasyon-kombinasyon-hesaplama', permanent: true },
+      { source: '/kombinasyon-hesaplama', destination: '/permutasyon-kombinasyon-hesaplama', permanent: true },
+      { source: '/daire-alan-hesaplama', destination: '/daire-alan-cevre-hesaplama', permanent: true },
+      { source: '/daire-cevre-hesaplama', destination: '/daire-alan-cevre-hesaplama', permanent: true },
+      { source: '/pisagor-hesaplama', destination: '/pisagor-hipotenus-hesaplama', permanent: true },
+      { source: '/hipotenus-hesaplama', destination: '/pisagor-hipotenus-hesaplama', permanent: true },
+      { source: '/denklem-hesaplama', destination: '/denklem-cozucu', permanent: true },
     ];
   },
   async rewrites() {

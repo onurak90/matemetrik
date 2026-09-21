@@ -59,6 +59,21 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 text-xs">
               <li>
+                <Link href="/ogretmen-araclari" className="hover:text-white transition-colors flex items-center gap-1.5 text-indigo-400 font-bold">
+                  <Sparkles className="w-3 h-3" /> 🧑‍🏫 MEB Öğretmen Araçları Merkezi
+                </Link>
+              </li>
+              <li>
+                <Link href="/meb-cozumleri" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-bold">
+                  <Sparkles className="w-3 h-3" /> 📚 MEB Ders Kitabı Çözümleri (1-12)
+                </Link>
+              </li>
+              <li>
+                <Link href="/hesaplama-araclari" className="hover:text-white transition-colors flex items-center gap-1.5 text-purple-400 font-bold">
+                  <Sparkles className="w-3 h-3" /> 🧮 Matematik Hesaplama Araçları (18+)
+                </Link>
+              </li>
+              <li>
                 <Link href="/yillik-plan-hazirlama" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-semibold">
                   <Sparkles className="w-3 h-3" /> Yıllık Plan Hazırlama (2026-2027)
                 </Link>
