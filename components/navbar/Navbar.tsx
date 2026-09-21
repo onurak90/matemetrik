@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import {
   BookOpen, Search, Menu, X, ChevronDown,
   GraduationCap, Sparkles, Award, FileText,
-  Compass, ArrowRight, Shield, Calendar, Users
+  Compass, ArrowRight, Shield, Calendar, Users, Calculator
 } from 'lucide-react';
 
 import TopCtaBanner from './TopCtaBanner';
@@ -315,6 +315,26 @@ export default function Navbar() {
                     </div>
                   </div>
                 </Link>
+
+                <Link
+                  href="/puan-hesaplama-robotu"
+                  className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-indigo-50 transition-colors group/item"
+                >
+                  <div className="w-8 h-8 rounded-lg bg-rose-100 text-rose-600 flex items-center justify-center shrink-0">
+                    <Calculator className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-slate-800 group-hover/item:text-indigo-600 flex items-center gap-1.5">
+                      Puan Hesaplama Robotu
+                      <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-rose-50 text-rose-700 font-extrabold border border-rose-200">
+                        LGS &amp; YKS
+                      </span>
+                    </div>
+                    <div className="text-[11px] text-slate-500 line-clamp-1">
+                      TYT, AYT, LGS net &amp; OBP sıralama
+                    </div>
+                  </div>
+                </Link>
               </div>
             </div>
 
@@ -465,6 +485,10 @@ export default function Navbar() {
             </Link>
             <Link href="/sinav-hazirlama-robotu" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600">
               Sınav Hazırlama Robotu
+            </Link>
+            <Link href="/puan-hesaplama-robotu" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
+              <span>Puan Hesaplama Robotu</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-rose-50 text-rose-700 font-bold border border-rose-200">LGS &amp; YKS</span>
             </Link>
           </div>
 
