@@ -131,10 +131,10 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
                 <span>🎯 2026-2027 ÖSYM YDS &amp; YÖKDİL Hazırlık Platformu</span>
               </div>
               <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
-                YDS Çalışma Bölümü (1.000 Çözümlü Soru)
+                YDS Çalışma Bölümü (2.000 Çözümlü Soru)
               </h2>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Kelime Bilgisi, Gramer, Cloze Test, Cümle Tamamlama, Çeviri ve Paragraf gibi 11 farklı soru türünde 1.000 açıklamalı çözümlü soru bankamızla sınava interaktif hazırlanın. Doğru cevaplar yeşil, yanlışlar kırmızı; anında Türkçe çeviri ve çözüm analizi!
+                Kelime Bilgisi, Gramer, Cloze Test, Cümle Tamamlama, Çeviri ve Paragraf gibi 11 farklı soru türünde 2.000 açıklamalı çözümlü soru bankamızla sınava interaktif hazırlanın. Doğru cevaplar yeşil, yanlışlar kırmızı; anında Türkçe çeviri ve çözüm analizi!
               </p>
               <div className="flex flex-wrap gap-2 text-xs text-emerald-200 pt-1">
                 <span className="bg-white/10 px-2.5 py-1 rounded-lg">✓ 11 Soru Kategorisi</span>

@@ -11,9 +11,9 @@ import {
 import { getYdsTopics, getYdsSummary } from '@/lib/yds';
 
 export const metadata: Metadata = {
-  title: '2026-2027 YDS Hazırlık & Çalışma Bölümü | 1.000 Çözümlü Soru & Konu Testleri - Matemetrik',
+  title: '2026-2027 YDS Hazırlık & Çalışma Bölümü | 2.000 Çözümlü Soru & Konu Testleri - Matemetrik',
   description:
-    'ÖSYM YDS ve YÖKDİL İngilizce sınavlarına hazırlık için 11 temel soru türünde 1.000 çözümlü soru bankası, konu anlatımları ve soru çözüm teknikleri. Kelime, gramer, cloze test, çeviri ve paragraf sorularını anında dönütlü interaktif testlerle çözün.',
+    'ÖSYM YDS ve YÖKDİL İngilizce sınavlarına hazırlık için 11 temel soru türünde 2.000 çözümlü soru bankası, konu anlatımları ve soru çözüm teknikleri. Kelime, gramer, cloze test, çeviri ve paragraf sorularını anında dönütlü interaktif testlerle çözün.',
   keywords: [
     'yds hazırlık',
     'yds çalışma bölümü',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '2026-2027 YDS Hazırlık & Çalışma Bölümü | Matemetrik',
     description:
-      'ÖSYM standartlarında 1.000 adet Türkçe açıklamalı soru, 11 soru türü ve anında dönütlü interaktif test platformu.',
+      'ÖSYM standartlarında 2.000 adet Türkçe açıklamalı soru, 11 soru türü ve anında dönütlü interaktif test platformu.',
     url: 'https://www.matemetrik.com/yds-calisma-bolumu',
     type: 'website',
     images: [
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: '2026-2027 YDS Hazırlık & Çalışma Bölümü | Matemetrik',
     description:
-      'YDS ve YÖKDİL için 1.000 adet açıklamalı soru ve konu testleri. Yeşil/kırmızı anında kontrol ve çözüm analizi.',
+      'YDS ve YÖKDİL için 2.000 adet açıklamalı soru ve konu testleri. Yeşil/kırmızı anında kontrol ve çözüm analizi.',
     images: ['https://www.matemetrik.com/og.jpg'],
   },
 };
@@ -62,7 +62,7 @@ const ydsFaqs = [
   {
     question: 'YDS Çalışma Bölümü soru havuzunda kaç soru bulunmaktadır?',
     answer:
-      'Matemetrik YDS Hazırlık platformumuzda ÖSYM YDS ve YÖKDİL standartlarında hazırlanmış, 11 temel soru kategorisine ayrılmış tam 1.000 adet çözümlü soru bulunmaktadır. Sorular çıkmış soru kalıpları, akademik soru bankaları ve özgün YDS formatı esas alınarak titizlikle oluşturulmuştur.',
+      'Matemetrik YDS Hazırlık platformumuzda ÖSYM YDS ve YÖKDİL standartlarında hazırlanmış, 11 temel soru kategorisine ayrılmış tam 2.000 adet çözümlü soru bulunmaktadır. Sorular çıkmış soru kalıpları, akademik soru bankaları ve özgün YDS formatı esas alınarak titizlikle oluşturulmuştur.',
   },
   {
     question: 'İnteraktif test sisteminde doğru ve yanlış cevaplar nasıl gösterilir?',
@@ -126,7 +126,7 @@ export default function YdsHubPage() {
     '@type': 'Course',
     name: 'Matemetrik 2026-2027 YDS & YÖKDİL Hazırlık ve Çalışma Platformu',
     description:
-      '11 soru türünde 1.000 çözümlü soru, akademik kelime listeleri, gramer ve okuma teknikleri sunan kapsamlı YDS eğitim programı.',
+      '11 soru türünde 2.000 çözümlü soru, akademik kelime listeleri, gramer ve okuma teknikleri sunan kapsamlı YDS eğitim programı.',
     provider: {
       '@type': 'Organization',
       name: 'Matemetrik',
@@ -227,13 +227,13 @@ export default function YdsHubPage() {
               </h1>
 
               <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-                ÖSYM YDS ve YÖKDİL sınavlarında çıkan tüm soru türleri için özel olarak geliştirilmiş interaktif test ve çalışma platformu. Konulara göre ayrılmış <strong>1.000 çözümlü soru</strong>, anında doğru (yeşil) ve yanlış (kırmızı) kontrolü, Türkçe çeviriler ve çözüm teknikleri ile hedefinize ulaşın.
+                ÖSYM YDS ve YÖKDİL sınavlarında çıkan tüm soru türleri için özel olarak geliştirilmiş interaktif test ve çalışma platformu. Konulara göre ayrılmış <strong>2.000 çözümlü soru</strong>, anında doğru (yeşil) ve yanlış (kırmızı) kontrolü, Türkçe çeviriler ve çözüm teknikleri ile hedefinize ulaşın.
               </p>
 
               {/* Badges Bar */}
               <div className="pt-2 flex flex-wrap items-center gap-2.5 text-xs text-slate-600">
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-white border border-slate-200 font-medium shadow-sm">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" /> 1.000 Açıklamalı Soru
+                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" /> 2.000 Açıklamalı Soru
                 </span>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-white border border-slate-200 font-medium shadow-sm">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" /> 11 Ayrı Soru Türü
@@ -253,7 +253,7 @@ export default function YdsHubPage() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm text-center">
-              <div className="text-2xl sm:text-3xl font-black text-indigo-600">1.000</div>
+              <div className="text-2xl sm:text-3xl font-black text-indigo-600">2.000</div>
               <div className="text-xs font-semibold text-slate-500 mt-1">ÖSYM Standart Soru</div>
             </div>
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm text-center">
@@ -468,7 +468,7 @@ export default function YdsHubPage() {
                     <td className="py-3 px-4">11 Temel Kategori</td>
                     <td className="py-3 px-4 text-indigo-600">80 Soru</td>
                     <td className="py-3 px-4 text-emerald-600">100 Puan</td>
-                    <td className="py-3 px-4 text-indigo-600">1.000 Soru Bankası</td>
+                    <td className="py-3 px-4 text-indigo-600">2.000 Soru Bankası</td>
                     <td className="py-3 px-4">180 Dakika (3 Saat)</td>
                   </tr>
                 </tbody>

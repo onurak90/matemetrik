@@ -2248,5 +2248,2255 @@
       ],
       "tacticalTip": "Restatement sorularında 'Zaman (Tense)', 'Bağlaç (Conjunction)' ve 'Derecelendirme Zarfları (only, barely, mostly)' unsurlarını kontrol edin."
     }
+  },
+  {
+    "id": "yds-es-anlam-restatement-076",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Eş Anlam ve Yapı Dönüşümü",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Restatement Soru Bankası",
+    "passage": null,
+    "questionText": "The widespread adoption of electric vehicles is unlikely to resolve urban congestion unless metropolitan authorities also invest heavily in rapid mass transit systems.",
+    "options": {
+      "A": "Without substantial municipal investments in rapid mass transit, the extensive use of electric cars will probably fail to eliminate city traffic congestion.",
+      "B": "Urban traffic congestion can be completely resolved by electric vehicles even if metropolitan authorities neglect public transit.",
+      "C": "Rapid mass transit systems are so efficient that metropolitan authorities no longer need to encourage the adoption of electric cars.",
+      "D": "Unless electric vehicle prices drop drastically, city dwellers will continue to rely exclusively on mass transit systems.",
+      "E": "Metropolitan authorities believe that traffic congestion is primarily caused by rapid mass transit rather than private electric cars."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki cümlenin anlamı, vurgusu ve kesinlik derecesi doğru seçenekte eksiksiz korunmuştur.",
+      "detailedReason": "Soru kökündeki 'is unlikely to resolve... unless... invest in transit' (toplu taşımaya yatırım yapmadıkça çözmesi olası değildir) önermesi A şıkkında 'Without substantial investments... will probably fail to eliminate' şeklinde tam olarak karşılanmıştır.",
+      "distractorAnalysis": "Diğer seçeneklerde şart, olasılık derecesi veya bağlaç mantığı değiştirilerek anlam çarpıtılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "paraphrase equivalence",
+          "meaning": "anlamca eşdeğerlik"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki 'unless' yapısı doğru seçenekte 'without' ile; 'unlikely to resolve' yapısı ise 'will probably fail to eliminate' ile eşanlamlı kurulmuştur."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-077",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Eş Anlam ve Yapı Dönüşümü",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Restatement Soru Bankası",
+    "passage": null,
+    "questionText": "Hardly had the scientific team published their controversial findings on room-temperature superconductivity when independent researchers began questioning their experimental methodology.",
+    "options": {
+      "A": "No sooner had the scientists released their controversial results regarding room-temperature superconductivity than independent experts cast doubt on their experimental methods.",
+      "B": "Independent researchers waited for several years before examining the experimental methodology of the room-temperature superconductivity paper.",
+      "C": "The scientific team retracted their findings on superconductivity because independent experts proved that their calculations were entirely fabricated.",
+      "D": "Although independent researchers praised the experimental methods, they rejected the team's theoretical conclusions on superconductivity.",
+      "E": "Independent researchers verified the room-temperature superconductivity experiments immediately after the paper was published in a journal."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki cümlenin anlamı, vurgusu ve kesinlik derecesi doğru seçenekte eksiksiz korunmuştur.",
+      "detailedReason": "'Hardly had ... when' yapısının tam eşanlamlısı 'No sooner had ... than' yapısıdır (yayınlar yayınlamaz bağımsız araştırmacılar şüpheyle yaklaştı).",
+      "distractorAnalysis": "Diğer seçeneklerde şart, olasılık derecesi veya bağlaç mantığı değiştirilerek anlam çarpıtılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "paraphrase equivalence",
+          "meaning": "anlamca eşdeğerlik"
+        }
+      ],
+      "tacticalTip": "'Hardly ... when' = 'No sooner ... than' = 'As soon as' zaman zarfları birebir eşanlamlıdır."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-078",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-079",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-080",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-081",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-082",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-083",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-084",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-085",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-086",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-087",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-088",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-089",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-090",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-091",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-092",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-093",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-094",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-095",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-096",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-097",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-098",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-099",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-100",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-101",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-102",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-103",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-104",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-105",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-106",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-107",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-108",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-109",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-110",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-111",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-112",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-113",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-114",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-115",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-116",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-117",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-118",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-119",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-120",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-121",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-122",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-123",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-124",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-125",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-126",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-127",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-128",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-129",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-130",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-131",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-132",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-133",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-134",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-135",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-136",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-137",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-138",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-139",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-140",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-141",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-142",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-143",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-144",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-145",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-146",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-147",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-148",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Despite the undeniable economic advantages of global trade, it has also exacerbated wealth inequality within several developing countries.",
+    "options": {
+      "A": "Although global trade unquestionably brings economic benefits, it has simultaneously widened the wealth disparity in various developing nations.",
+      "B": "Global trade has failed to generate any economic benefits for developing nations and has instead led to complete poverty.",
+      "C": "Developing countries have completely halted global trade in order to prevent internal wealth inequality from rising.",
+      "D": "Wealth inequality in developing countries has diminished rapidly thanks to the undeniable advantages of international trade.",
+      "E": "Unless developing countries engage in global trade, their domestic wealth disparity will continue to expand uncontrollably."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Soru kökündeki 'Despite... advantages, it has exacerbated inequality' yapısı 'Although... brings benefits, it has simultaneously widened disparity' ile tam örtüşür.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-149",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Only by strictly limiting industrial carbon emissions can nations hope to avert catastrophic disruptions to the global climate system.",
+    "options": {
+      "A": "Nations will be unable to prevent disastrous climate disruptions unless they place rigorous constraints on industrial carbon emissions.",
+      "B": "Industrial carbon emissions will naturally decline even if nations take no regulatory action to protect the global climate system.",
+      "C": "Nations have already averted catastrophic climate disruptions without having to restrict industrial carbon emissions.",
+      "D": "Restricting industrial carbon emissions is completely futile because catastrophic climate disruptions are entirely inevitable.",
+      "E": "Limiting carbon emissions is one of many optional recommendations that nations may consider to reduce minor weather changes."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "'Only by... can nations hope to avert' (Yalnızca emisyonları kısıtlayarak önleyebilirler) ifadesi 'unable to prevent... unless they place constraints' ile eşanlamlıdır.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
+  },
+  {
+    "id": "yds-es-anlam-restatement-150",
+    "topicId": "es-anlam-restatement",
+    "topicTitle": "Anlamca En Yakın Cümle (Restatement)",
+    "subTopic": "Sentaktik Eşdeğerlik",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Restatement Havuzu",
+    "passage": null,
+    "questionText": "Had the government acted decisively when the initial viral outbreak was detected, the subsequent nationwide quarantine would not have been necessary.",
+    "options": {
+      "A": "Because the government failed to take prompt and resolute action upon detecting the first outbreak, a nationwide quarantine had to be imposed.",
+      "B": "The nationwide quarantine was enforced even though the government responded immediately to the initial viral outbreak.",
+      "C": "The government refused to impose a quarantine because the initial viral outbreak was deemed completely harmless.",
+      "D": "If the government had enforced a quarantine immediately, the virus would have spread much faster across the entire nation.",
+      "E": "Decisive government action was taken after the nationwide quarantine proved ineffective at curbing the viral infection."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Soru kökündeki önermenin mantıksal ve derecesel dengesi doğru seçenekte eksiksiz aktarılmıştır.",
+      "detailedReason": "Type 3 Conditional (Had government acted... quarantine would not have been necessary) = Hükümet zamanında harekete geçmediği için karantina zorunlu oldu.",
+      "distractorAnalysis": "Çeldirici seçeneklerde modal dereceleri (kesinlik, olasılık) veya sebep-sonuç ilişkileri tahrif edilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "restatement rule",
+          "meaning": "zıtlık ve koşul yapılarının korunumu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki anahtar bağlaçları (although, unless, only by) ve modalları (can, might, must) şıklarda arayın."
+    }
   }
 ]

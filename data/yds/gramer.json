@@ -3638,5 +3638,3641 @@
       ],
       "tacticalTip": "İsim tamlaması alan zıtlık bağlaçları: Despite / In spite of / Notwithstanding."
     }
+  },
+  {
+    "id": "yds-gramer-121",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "By the time the international climate treaty ---- into full force in 2030, industrialized nations ---- their carbon outputs by forty percent.",
+    "options": {
+      "A": "comes / will have reduced",
+      "B": "came / had reduced",
+      "C": "will come / have reduced",
+      "D": "has come / were reducing",
+      "E": "would come / reduce"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralları gereği 'comes / will have reduced' doğru gramer yapısını oluşturur.",
+      "detailedReason": "By the time + Present Simple (comes), Ana Cümle Future Perfect (will have reduced) zaman kuralıdır.",
+      "distractorAnalysis": "Geleceğe yönelik 'by the time' yan cümlede Present Simple, ana cümlede Future Perfect (will have V3) gerektirir. 'Will' zaman bağlacının hemen arkasından gelemez.",
+      "vocabularyNotes": [
+        {
+          "word": "into full force",
+          "meaning": "tam olarak yürürlüğe girmek"
+        },
+        {
+          "word": "carbon output",
+          "meaning": "karbon salımı"
+        }
+      ],
+      "tacticalTip": "'By the time + Present', ana cümlede 'will have V3' ister."
+    }
+  },
+  {
+    "id": "yds-gramer-122",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "Paleoclimatologists believe that if the ancient Sahara ---- severe desertification six millennia ago, human migration patterns across Africa ---- drastically different.",
+    "options": {
+      "A": "had not undergone / would have been",
+      "B": "did not undergo / will be",
+      "C": "has not undergone / would be",
+      "D": "would not undergo / had been",
+      "E": "was not undergoing / are"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralları gereği 'had not undergone / would have been' doğru gramer yapısını oluşturur.",
+      "detailedReason": "Geçmişte gerçekleşmiş olaya yönelik varsayım Type 3 Conditional (If + Had V3, would have V3) gerektirir.",
+      "distractorAnalysis": "6 bin yıl öncesindeki tarihsel olgu için Unreal Past (Type 3) yapısı şarttır.",
+      "vocabularyNotes": [
+        {
+          "word": "undergo",
+          "meaning": "geçirmek, maruz kalmak"
+        },
+        {
+          "word": "desertification",
+          "meaning": "çölleşme"
+        }
+      ],
+      "tacticalTip": "Geçmişteki olaylar için şart cümlelerinde 'If had V3, would have V3' aranır."
+    }
+  },
+  {
+    "id": "yds-gramer-123",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "The expedition team ---- their satellite beacon activated at all times; otherwise, the rescue helicopters ---- their whereabouts in the blizzards.",
+    "options": {
+      "A": "must have kept / could not have located",
+      "B": "should keep / are not locating",
+      "C": "can keep / have not located",
+      "D": "might keep / will not locate",
+      "E": "used to keep / did not locate"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralları gereği 'must have kept / could not have located' doğru gramer yapısını oluşturur.",
+      "detailedReason": "Geçmişteki olaya yönelik zorunluluk/çıkarım 'must have V3' ve geçmiş olasılık 'could not have V3' ile ifade edilir.",
+      "distractorAnalysis": "Cümle fırtınada kaybolan ekibin geçmişteki arama kurtarma durumunu anlattığından geçmiş modal yapısı zorunludur.",
+      "vocabularyNotes": [
+        {
+          "word": "beacon",
+          "meaning": "işaret feneri, sinyal verici"
+        },
+        {
+          "word": "whereabouts",
+          "meaning": "bulunduğu yer"
+        }
+      ],
+      "tacticalTip": "'Otherwise' veya 'or else' ifadeleri koşul ve modal gerektirir."
+    }
+  },
+  {
+    "id": "yds-gramer-124",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "Given how rapidly the antibiotic-resistant strain spread across wards, hospital administrators ---- stricter containment protocols much earlier.",
+    "options": {
+      "A": "ought to have enforced",
+      "B": "must enforce",
+      "C": "can have enforced",
+      "D": "would enforce",
+      "E": "needn't have enforced"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralları gereği 'ought to have enforced' doğru gramer yapısını oluşturur.",
+      "detailedReason": "'Ought to have V3' (ya da should have V3) geçmişte yapılması gereken ancak YAPILMAYAN eylemleri ve eleştiriyi anlatır.",
+      "distractorAnalysis": "Bakterinin hızla yayılması, önlemlerin zamanında alınmadığını gösterir ('much earlier' vurgusu).",
+      "vocabularyNotes": [
+        {
+          "word": "containment",
+          "meaning": "sınırlama, tecrit"
+        },
+        {
+          "word": "strain",
+          "meaning": "bakteri/virüs türü"
+        }
+      ],
+      "tacticalTip": "'Much earlier' ve olumsuz sonuç geçmişe yönelik eleştiri (should / ought to have V3) gösterir."
+    }
+  },
+  {
+    "id": "yds-gramer-125",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "---- modern electric vehicles produce zero tailpipe emissions, the environmental footprint associated with manufacturing their lithium batteries remains substantial.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "In case",
+      "D": "Provided that",
+      "E": "Unless"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralları gereği 'Although' doğru gramer yapısını oluşturur.",
+      "detailedReason": "Zıtlık bağlacı: Bir yanda sıfır egzoz emisyonu (olumlu), diğer yanda üretimdeki büyük çevre ayak izi (olumsuz).",
+      "distractorAnalysis": "Olumlu ve olumsuz iki yargıyı zıtlık bağlacı 'Although' (her ne kadar ... -se de) birbirine bağlar.",
+      "vocabularyNotes": [
+        {
+          "word": "tailpipe emissions",
+          "meaning": "egzoz borusu salımları"
+        },
+        {
+          "word": "footprint",
+          "meaning": "ayak izi, etki alanı"
+        }
+      ],
+      "tacticalTip": "Cümlede zıt kutuplar (+ / -) varsa 'Although, Even though, While' önceliklidir."
+    }
+  },
+  {
+    "id": "yds-gramer-126",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "The treaty failed to curtail greenhouse gas emissions, ---- because several signatories refused to ratify the binding enforcement clauses.",
+    "options": {
+      "A": "principally",
+      "B": "nevertheless",
+      "C": "on the contrary",
+      "D": "even if",
+      "E": "in spite of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralları gereği 'principally' doğru gramer yapısını oluşturur.",
+      "detailedReason": "'Principally because' (başlıca ... sebebiyle) sebep bildiren yan cümleyi niteleyen zarftır.",
+      "distractorAnalysis": "Bağlaçtan (because) hemen önce gelerek sebebi pekiştiren yapı 'principally / largely / primarily' zarflarıdır.",
+      "vocabularyNotes": [
+        {
+          "word": "curtail",
+          "meaning": "kısmak, azaltmak"
+        },
+        {
+          "word": "signatory",
+          "meaning": "imzacı devlet"
+        }
+      ],
+      "tacticalTip": "'Because' öncesinde 'mainly, largely, primarily, principally' gibi pekiştirici zarflar aranır."
+    }
+  },
+  {
+    "id": "yds-gramer-127",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Passive & Causative",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "In ancient Mesopotamia, cuneiform tablets ---- from soft river clay and then ---- in the sun or baked in kilns.",
+    "options": {
+      "A": "were molded / dried",
+      "B": "have molded / were drying",
+      "C": "molded / had dried",
+      "D": "are molded / dry",
+      "E": "had molded / would dry"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Passive & Causative' kuralları gereği 'were molded / dried' doğru gramer yapısını oluşturur.",
+      "detailedReason": "Kil tabletler kendi kendine şekil almaz, şekil verilir (passive). 'In ancient Mesopotamia' geçmiş zaman göstergesidir.",
+      "distractorAnalysis": "Tabletlerin insan eliyle yapılması edilgen çatı (were molded) ve geçmiş zaman (dried) gerektirir.",
+      "vocabularyNotes": [
+        {
+          "word": "cuneiform",
+          "meaning": "çivi yazısı"
+        },
+        {
+          "word": "kiln",
+          "meaning": "fırın, ocak"
+        }
+      ],
+      "tacticalTip": "Cansız özne + eylem eyleyen kişi değilse edilgen çatı (be + V3) aranır."
+    }
+  },
+  {
+    "id": "yds-gramer-128",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "Seldom ---- such intense geomagnetic solar storms recorded that auroral lights could be observed as far south as the Mediterranean.",
+    "options": {
+      "A": "have there been",
+      "B": "there were",
+      "C": "there have been",
+      "D": "are there being",
+      "E": "there had been"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralları gereği 'have there been' doğru gramer yapısını oluşturur.",
+      "detailedReason": "Olumsuzluk zarfı 'Seldom' cümle başında olduğunda devrik yapı (Inversion: Yardımcı fiil + Özne) kullanılır.",
+      "distractorAnalysis": "'Seldom have there been' devrik biçimde kurulmuştur. Düz cümle yapıları (B, C, E) kurala uymaz.",
+      "vocabularyNotes": [
+        {
+          "word": "geomagnetic",
+          "meaning": "jeomanyetik"
+        },
+        {
+          "word": "auroral",
+          "meaning": "kutup ışıklarına ait"
+        }
+      ],
+      "tacticalTip": "Cümle başına gelen olumsuz zarflar (Seldom, Rarely, Never, Scarcely, Under no circumstances) devrik yapı ister."
+    }
+  },
+  {
+    "id": "yds-gramer-129",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Gramer Soru Bankası",
+    "passage": null,
+    "questionText": "The neuroscientist attributed the patient’s remarkable recovery ---- intensive physical rehabilitation combined ---- cognitive behavioral therapy.",
+    "options": {
+      "A": "to / with",
+      "B": "for / by",
+      "C": "from / in",
+      "D": "at / on",
+      "E": "with / through"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralları gereği 'to / with' doğru gramer yapısını oluşturur.",
+      "detailedReason": "'Attribute something to' (bir şeyi bir nedene bağlamak) ve 'combined with' (ile birleşen) kalıplaşmış edat kullanımlarıdır.",
+      "distractorAnalysis": "'Attribute to' ve 'combine with' kalıpları YDS'de en sık sorulan sabit fiil-edat (verb + preposition) kombinasyonlarındandır.",
+      "vocabularyNotes": [
+        {
+          "word": "attribute to",
+          "meaning": "bir şeye atfetmek, bağlamak"
+        },
+        {
+          "word": "recovery",
+          "meaning": "iyileşme"
+        }
+      ],
+      "tacticalTip": "'Attribute X to Y' kalıbını mutlaka ezberleyin: X'i Y'ye bağlamak."
+    }
+  },
+  {
+    "id": "yds-gramer-130",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-131",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Wish Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Had the structural engineers inspected the foundation properly, the subsequent collapse ----.",
+    "options": {
+      "A": "would have been averted",
+      "B": "will be averted",
+      "C": "has been averted",
+      "D": "is being averted",
+      "E": "averted"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conditionals & Wish Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Devrik Type 3 Conditional (Had + Subject + V3) ana cümlede 'would have been V3' gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conditionals & Wish Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-132",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative & Noun Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The Nobel committee honored two bioengineers ---- groundbreaking gene-editing technique has transformed molecular medicine.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Relative & Noun Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "İki biyomühendisin tekniği (genitive / iyelik) anlatıldığından 'whose' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Relative & Noun Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-133",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- geothermal energy provides reliable baseload power, its deployment is restricted to volcanically active regions.",
+    "options": {
+      "A": "While",
+      "B": "Because",
+      "C": "As long as",
+      "D": "So that",
+      "E": "In case"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Zıtlık bağlacı 'While' (güvenilir olmasına rağmen, sadece volkanik alanlarla sınırlı) zıtlığı kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-134",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Exposure ---- ultraviolet radiation without adequate protection contributes significantly ---- premature skin aging.",
+    "options": {
+      "A": "to / to",
+      "B": "for / at",
+      "C": "in / with",
+      "D": "with / from",
+      "E": "at / for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Exposure to' ve 'contribute to' sabit edat kalıplarıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Prepositions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-135",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Gerund & Infinitive",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists avoided ---- heavy excavation machinery in order to prevent ---- the delicate Roman mosaics.",
+    "options": {
+      "A": "using / damaging",
+      "B": "to use / to damage",
+      "C": "use / damaged",
+      "D": "having used / to damage",
+      "E": "to have used / damaging"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Gerund & Infinitive' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Avoid doing' ve 'prevent doing' yapıları gerund (V-ing) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Gerund & Infinitive"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-136",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Since the beginning of the industrial era, atmospheric carbon dioxide concentrations ---- by nearly fifty percent.",
+    "options": {
+      "A": "have risen",
+      "B": "rose",
+      "C": "had risen",
+      "D": "are rising",
+      "E": "will have risen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Since the beginning of...' zaman ifadesi Present Perfect (have risen) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Tenses & Time Agreement"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-137",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The laboratory specimens ---- at minus eighty degrees Celsius; otherwise, the enzymatic proteins would have degraded.",
+    "options": {
+      "A": "must have been stored",
+      "B": "could store",
+      "C": "should store",
+      "D": "might be storing",
+      "E": "can be stored"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Geçmişteki duruma yönelik güçlü çıkarım edilgen biçimde 'must have been stored' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Modals & Past Modals"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-138",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Not only ---- excessive screen time strain eye muscles, but it also disrupts nocturnal melatonin secretion.",
+    "options": {
+      "A": "does",
+      "B": "is",
+      "C": "has",
+      "D": "was",
+      "E": "would"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Not only' cümle başında devrik yapı oluşturur; 'excessive screen time' için geniş zamanda 'does' gelir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Inversion & Emphasis"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-139",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Reduction of Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- from satellite imagery, the ancient caravan routes across the Rub' al Khali desert became clearly visible.",
+    "options": {
+      "A": "Viewed",
+      "B": "Viewing",
+      "C": "Having viewed",
+      "D": "To view",
+      "E": "To be viewed"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Reduction of Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Kervan yolları 'görüldüğünde' (edilgen kısaltma) Past Participle (V3 - Viewed) ile kısaltılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Reduction of Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-140",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-141",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Wish Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Had the structural engineers inspected the foundation properly, the subsequent collapse ----.",
+    "options": {
+      "A": "would have been averted",
+      "B": "will be averted",
+      "C": "has been averted",
+      "D": "is being averted",
+      "E": "averted"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conditionals & Wish Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Devrik Type 3 Conditional (Had + Subject + V3) ana cümlede 'would have been V3' gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conditionals & Wish Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-142",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative & Noun Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The Nobel committee honored two bioengineers ---- groundbreaking gene-editing technique has transformed molecular medicine.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Relative & Noun Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "İki biyomühendisin tekniği (genitive / iyelik) anlatıldığından 'whose' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Relative & Noun Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-143",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- geothermal energy provides reliable baseload power, its deployment is restricted to volcanically active regions.",
+    "options": {
+      "A": "While",
+      "B": "Because",
+      "C": "As long as",
+      "D": "So that",
+      "E": "In case"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Zıtlık bağlacı 'While' (güvenilir olmasına rağmen, sadece volkanik alanlarla sınırlı) zıtlığı kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-144",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Exposure ---- ultraviolet radiation without adequate protection contributes significantly ---- premature skin aging.",
+    "options": {
+      "A": "to / to",
+      "B": "for / at",
+      "C": "in / with",
+      "D": "with / from",
+      "E": "at / for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Exposure to' ve 'contribute to' sabit edat kalıplarıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Prepositions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-145",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Gerund & Infinitive",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists avoided ---- heavy excavation machinery in order to prevent ---- the delicate Roman mosaics.",
+    "options": {
+      "A": "using / damaging",
+      "B": "to use / to damage",
+      "C": "use / damaged",
+      "D": "having used / to damage",
+      "E": "to have used / damaging"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Gerund & Infinitive' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Avoid doing' ve 'prevent doing' yapıları gerund (V-ing) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Gerund & Infinitive"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-146",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Since the beginning of the industrial era, atmospheric carbon dioxide concentrations ---- by nearly fifty percent.",
+    "options": {
+      "A": "have risen",
+      "B": "rose",
+      "C": "had risen",
+      "D": "are rising",
+      "E": "will have risen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Since the beginning of...' zaman ifadesi Present Perfect (have risen) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Tenses & Time Agreement"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-147",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The laboratory specimens ---- at minus eighty degrees Celsius; otherwise, the enzymatic proteins would have degraded.",
+    "options": {
+      "A": "must have been stored",
+      "B": "could store",
+      "C": "should store",
+      "D": "might be storing",
+      "E": "can be stored"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Geçmişteki duruma yönelik güçlü çıkarım edilgen biçimde 'must have been stored' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Modals & Past Modals"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-148",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Not only ---- excessive screen time strain eye muscles, but it also disrupts nocturnal melatonin secretion.",
+    "options": {
+      "A": "does",
+      "B": "is",
+      "C": "has",
+      "D": "was",
+      "E": "would"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Not only' cümle başında devrik yapı oluşturur; 'excessive screen time' için geniş zamanda 'does' gelir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Inversion & Emphasis"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-149",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Reduction of Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- from satellite imagery, the ancient caravan routes across the Rub' al Khali desert became clearly visible.",
+    "options": {
+      "A": "Viewed",
+      "B": "Viewing",
+      "C": "Having viewed",
+      "D": "To view",
+      "E": "To be viewed"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Reduction of Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Kervan yolları 'görüldüğünde' (edilgen kısaltma) Past Participle (V3 - Viewed) ile kısaltılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Reduction of Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-150",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-151",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Wish Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Had the structural engineers inspected the foundation properly, the subsequent collapse ----.",
+    "options": {
+      "A": "would have been averted",
+      "B": "will be averted",
+      "C": "has been averted",
+      "D": "is being averted",
+      "E": "averted"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conditionals & Wish Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Devrik Type 3 Conditional (Had + Subject + V3) ana cümlede 'would have been V3' gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conditionals & Wish Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-152",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative & Noun Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The Nobel committee honored two bioengineers ---- groundbreaking gene-editing technique has transformed molecular medicine.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Relative & Noun Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "İki biyomühendisin tekniği (genitive / iyelik) anlatıldığından 'whose' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Relative & Noun Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-153",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- geothermal energy provides reliable baseload power, its deployment is restricted to volcanically active regions.",
+    "options": {
+      "A": "While",
+      "B": "Because",
+      "C": "As long as",
+      "D": "So that",
+      "E": "In case"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Zıtlık bağlacı 'While' (güvenilir olmasına rağmen, sadece volkanik alanlarla sınırlı) zıtlığı kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-154",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Exposure ---- ultraviolet radiation without adequate protection contributes significantly ---- premature skin aging.",
+    "options": {
+      "A": "to / to",
+      "B": "for / at",
+      "C": "in / with",
+      "D": "with / from",
+      "E": "at / for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Exposure to' ve 'contribute to' sabit edat kalıplarıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Prepositions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-155",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Gerund & Infinitive",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists avoided ---- heavy excavation machinery in order to prevent ---- the delicate Roman mosaics.",
+    "options": {
+      "A": "using / damaging",
+      "B": "to use / to damage",
+      "C": "use / damaged",
+      "D": "having used / to damage",
+      "E": "to have used / damaging"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Gerund & Infinitive' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Avoid doing' ve 'prevent doing' yapıları gerund (V-ing) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Gerund & Infinitive"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-156",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Since the beginning of the industrial era, atmospheric carbon dioxide concentrations ---- by nearly fifty percent.",
+    "options": {
+      "A": "have risen",
+      "B": "rose",
+      "C": "had risen",
+      "D": "are rising",
+      "E": "will have risen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Since the beginning of...' zaman ifadesi Present Perfect (have risen) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Tenses & Time Agreement"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-157",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The laboratory specimens ---- at minus eighty degrees Celsius; otherwise, the enzymatic proteins would have degraded.",
+    "options": {
+      "A": "must have been stored",
+      "B": "could store",
+      "C": "should store",
+      "D": "might be storing",
+      "E": "can be stored"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Geçmişteki duruma yönelik güçlü çıkarım edilgen biçimde 'must have been stored' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Modals & Past Modals"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-158",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Not only ---- excessive screen time strain eye muscles, but it also disrupts nocturnal melatonin secretion.",
+    "options": {
+      "A": "does",
+      "B": "is",
+      "C": "has",
+      "D": "was",
+      "E": "would"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Not only' cümle başında devrik yapı oluşturur; 'excessive screen time' için geniş zamanda 'does' gelir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Inversion & Emphasis"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-159",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Reduction of Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- from satellite imagery, the ancient caravan routes across the Rub' al Khali desert became clearly visible.",
+    "options": {
+      "A": "Viewed",
+      "B": "Viewing",
+      "C": "Having viewed",
+      "D": "To view",
+      "E": "To be viewed"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Reduction of Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Kervan yolları 'görüldüğünde' (edilgen kısaltma) Past Participle (V3 - Viewed) ile kısaltılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Reduction of Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-160",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-161",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Wish Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Had the structural engineers inspected the foundation properly, the subsequent collapse ----.",
+    "options": {
+      "A": "would have been averted",
+      "B": "will be averted",
+      "C": "has been averted",
+      "D": "is being averted",
+      "E": "averted"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conditionals & Wish Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Devrik Type 3 Conditional (Had + Subject + V3) ana cümlede 'would have been V3' gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conditionals & Wish Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-162",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative & Noun Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The Nobel committee honored two bioengineers ---- groundbreaking gene-editing technique has transformed molecular medicine.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Relative & Noun Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "İki biyomühendisin tekniği (genitive / iyelik) anlatıldığından 'whose' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Relative & Noun Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-163",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- geothermal energy provides reliable baseload power, its deployment is restricted to volcanically active regions.",
+    "options": {
+      "A": "While",
+      "B": "Because",
+      "C": "As long as",
+      "D": "So that",
+      "E": "In case"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Zıtlık bağlacı 'While' (güvenilir olmasına rağmen, sadece volkanik alanlarla sınırlı) zıtlığı kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-164",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Exposure ---- ultraviolet radiation without adequate protection contributes significantly ---- premature skin aging.",
+    "options": {
+      "A": "to / to",
+      "B": "for / at",
+      "C": "in / with",
+      "D": "with / from",
+      "E": "at / for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Exposure to' ve 'contribute to' sabit edat kalıplarıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Prepositions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-165",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Gerund & Infinitive",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists avoided ---- heavy excavation machinery in order to prevent ---- the delicate Roman mosaics.",
+    "options": {
+      "A": "using / damaging",
+      "B": "to use / to damage",
+      "C": "use / damaged",
+      "D": "having used / to damage",
+      "E": "to have used / damaging"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Gerund & Infinitive' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Avoid doing' ve 'prevent doing' yapıları gerund (V-ing) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Gerund & Infinitive"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-166",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Since the beginning of the industrial era, atmospheric carbon dioxide concentrations ---- by nearly fifty percent.",
+    "options": {
+      "A": "have risen",
+      "B": "rose",
+      "C": "had risen",
+      "D": "are rising",
+      "E": "will have risen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Since the beginning of...' zaman ifadesi Present Perfect (have risen) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Tenses & Time Agreement"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-167",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The laboratory specimens ---- at minus eighty degrees Celsius; otherwise, the enzymatic proteins would have degraded.",
+    "options": {
+      "A": "must have been stored",
+      "B": "could store",
+      "C": "should store",
+      "D": "might be storing",
+      "E": "can be stored"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Geçmişteki duruma yönelik güçlü çıkarım edilgen biçimde 'must have been stored' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Modals & Past Modals"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-168",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Not only ---- excessive screen time strain eye muscles, but it also disrupts nocturnal melatonin secretion.",
+    "options": {
+      "A": "does",
+      "B": "is",
+      "C": "has",
+      "D": "was",
+      "E": "would"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Not only' cümle başında devrik yapı oluşturur; 'excessive screen time' için geniş zamanda 'does' gelir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Inversion & Emphasis"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-169",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Reduction of Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- from satellite imagery, the ancient caravan routes across the Rub' al Khali desert became clearly visible.",
+    "options": {
+      "A": "Viewed",
+      "B": "Viewing",
+      "C": "Having viewed",
+      "D": "To view",
+      "E": "To be viewed"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Reduction of Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Kervan yolları 'görüldüğünde' (edilgen kısaltma) Past Participle (V3 - Viewed) ile kısaltılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Reduction of Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-170",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-171",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Wish Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Had the structural engineers inspected the foundation properly, the subsequent collapse ----.",
+    "options": {
+      "A": "would have been averted",
+      "B": "will be averted",
+      "C": "has been averted",
+      "D": "is being averted",
+      "E": "averted"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conditionals & Wish Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Devrik Type 3 Conditional (Had + Subject + V3) ana cümlede 'would have been V3' gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conditionals & Wish Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-172",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative & Noun Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The Nobel committee honored two bioengineers ---- groundbreaking gene-editing technique has transformed molecular medicine.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Relative & Noun Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "İki biyomühendisin tekniği (genitive / iyelik) anlatıldığından 'whose' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Relative & Noun Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-173",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- geothermal energy provides reliable baseload power, its deployment is restricted to volcanically active regions.",
+    "options": {
+      "A": "While",
+      "B": "Because",
+      "C": "As long as",
+      "D": "So that",
+      "E": "In case"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Zıtlık bağlacı 'While' (güvenilir olmasına rağmen, sadece volkanik alanlarla sınırlı) zıtlığı kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-174",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Exposure ---- ultraviolet radiation without adequate protection contributes significantly ---- premature skin aging.",
+    "options": {
+      "A": "to / to",
+      "B": "for / at",
+      "C": "in / with",
+      "D": "with / from",
+      "E": "at / for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Exposure to' ve 'contribute to' sabit edat kalıplarıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Prepositions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-175",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Gerund & Infinitive",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists avoided ---- heavy excavation machinery in order to prevent ---- the delicate Roman mosaics.",
+    "options": {
+      "A": "using / damaging",
+      "B": "to use / to damage",
+      "C": "use / damaged",
+      "D": "having used / to damage",
+      "E": "to have used / damaging"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Gerund & Infinitive' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Avoid doing' ve 'prevent doing' yapıları gerund (V-ing) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Gerund & Infinitive"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-176",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Since the beginning of the industrial era, atmospheric carbon dioxide concentrations ---- by nearly fifty percent.",
+    "options": {
+      "A": "have risen",
+      "B": "rose",
+      "C": "had risen",
+      "D": "are rising",
+      "E": "will have risen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Since the beginning of...' zaman ifadesi Present Perfect (have risen) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Tenses & Time Agreement"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-177",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The laboratory specimens ---- at minus eighty degrees Celsius; otherwise, the enzymatic proteins would have degraded.",
+    "options": {
+      "A": "must have been stored",
+      "B": "could store",
+      "C": "should store",
+      "D": "might be storing",
+      "E": "can be stored"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Geçmişteki duruma yönelik güçlü çıkarım edilgen biçimde 'must have been stored' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Modals & Past Modals"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-178",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Not only ---- excessive screen time strain eye muscles, but it also disrupts nocturnal melatonin secretion.",
+    "options": {
+      "A": "does",
+      "B": "is",
+      "C": "has",
+      "D": "was",
+      "E": "would"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Not only' cümle başında devrik yapı oluşturur; 'excessive screen time' için geniş zamanda 'does' gelir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Inversion & Emphasis"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-179",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Reduction of Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- from satellite imagery, the ancient caravan routes across the Rub' al Khali desert became clearly visible.",
+    "options": {
+      "A": "Viewed",
+      "B": "Viewing",
+      "C": "Having viewed",
+      "D": "To view",
+      "E": "To be viewed"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Reduction of Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Kervan yolları 'görüldüğünde' (edilgen kısaltma) Past Participle (V3 - Viewed) ile kısaltılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Reduction of Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-180",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-181",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Wish Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Had the structural engineers inspected the foundation properly, the subsequent collapse ----.",
+    "options": {
+      "A": "would have been averted",
+      "B": "will be averted",
+      "C": "has been averted",
+      "D": "is being averted",
+      "E": "averted"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conditionals & Wish Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Devrik Type 3 Conditional (Had + Subject + V3) ana cümlede 'would have been V3' gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conditionals & Wish Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-182",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative & Noun Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The Nobel committee honored two bioengineers ---- groundbreaking gene-editing technique has transformed molecular medicine.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Relative & Noun Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "İki biyomühendisin tekniği (genitive / iyelik) anlatıldığından 'whose' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Relative & Noun Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-183",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- geothermal energy provides reliable baseload power, its deployment is restricted to volcanically active regions.",
+    "options": {
+      "A": "While",
+      "B": "Because",
+      "C": "As long as",
+      "D": "So that",
+      "E": "In case"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Zıtlık bağlacı 'While' (güvenilir olmasına rağmen, sadece volkanik alanlarla sınırlı) zıtlığı kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-184",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Exposure ---- ultraviolet radiation without adequate protection contributes significantly ---- premature skin aging.",
+    "options": {
+      "A": "to / to",
+      "B": "for / at",
+      "C": "in / with",
+      "D": "with / from",
+      "E": "at / for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Exposure to' ve 'contribute to' sabit edat kalıplarıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Prepositions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-185",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Gerund & Infinitive",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists avoided ---- heavy excavation machinery in order to prevent ---- the delicate Roman mosaics.",
+    "options": {
+      "A": "using / damaging",
+      "B": "to use / to damage",
+      "C": "use / damaged",
+      "D": "having used / to damage",
+      "E": "to have used / damaging"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Gerund & Infinitive' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Avoid doing' ve 'prevent doing' yapıları gerund (V-ing) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Gerund & Infinitive"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-186",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Since the beginning of the industrial era, atmospheric carbon dioxide concentrations ---- by nearly fifty percent.",
+    "options": {
+      "A": "have risen",
+      "B": "rose",
+      "C": "had risen",
+      "D": "are rising",
+      "E": "will have risen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Since the beginning of...' zaman ifadesi Present Perfect (have risen) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Tenses & Time Agreement"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-187",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The laboratory specimens ---- at minus eighty degrees Celsius; otherwise, the enzymatic proteins would have degraded.",
+    "options": {
+      "A": "must have been stored",
+      "B": "could store",
+      "C": "should store",
+      "D": "might be storing",
+      "E": "can be stored"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Geçmişteki duruma yönelik güçlü çıkarım edilgen biçimde 'must have been stored' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Modals & Past Modals"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-188",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Not only ---- excessive screen time strain eye muscles, but it also disrupts nocturnal melatonin secretion.",
+    "options": {
+      "A": "does",
+      "B": "is",
+      "C": "has",
+      "D": "was",
+      "E": "would"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Not only' cümle başında devrik yapı oluşturur; 'excessive screen time' için geniş zamanda 'does' gelir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Inversion & Emphasis"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-189",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Reduction of Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- from satellite imagery, the ancient caravan routes across the Rub' al Khali desert became clearly visible.",
+    "options": {
+      "A": "Viewed",
+      "B": "Viewing",
+      "C": "Having viewed",
+      "D": "To view",
+      "E": "To be viewed"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Reduction of Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Kervan yolları 'görüldüğünde' (edilgen kısaltma) Past Participle (V3 - Viewed) ile kısaltılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Reduction of Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-190",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-191",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Wish Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Had the structural engineers inspected the foundation properly, the subsequent collapse ----.",
+    "options": {
+      "A": "would have been averted",
+      "B": "will be averted",
+      "C": "has been averted",
+      "D": "is being averted",
+      "E": "averted"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conditionals & Wish Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Devrik Type 3 Conditional (Had + Subject + V3) ana cümlede 'would have been V3' gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conditionals & Wish Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-192",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative & Noun Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The Nobel committee honored two bioengineers ---- groundbreaking gene-editing technique has transformed molecular medicine.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Relative & Noun Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "İki biyomühendisin tekniği (genitive / iyelik) anlatıldığından 'whose' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Relative & Noun Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-193",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- geothermal energy provides reliable baseload power, its deployment is restricted to volcanically active regions.",
+    "options": {
+      "A": "While",
+      "B": "Because",
+      "C": "As long as",
+      "D": "So that",
+      "E": "In case"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Zıtlık bağlacı 'While' (güvenilir olmasına rağmen, sadece volkanik alanlarla sınırlı) zıtlığı kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-194",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Exposure ---- ultraviolet radiation without adequate protection contributes significantly ---- premature skin aging.",
+    "options": {
+      "A": "to / to",
+      "B": "for / at",
+      "C": "in / with",
+      "D": "with / from",
+      "E": "at / for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Exposure to' ve 'contribute to' sabit edat kalıplarıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Prepositions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-195",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Gerund & Infinitive",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists avoided ---- heavy excavation machinery in order to prevent ---- the delicate Roman mosaics.",
+    "options": {
+      "A": "using / damaging",
+      "B": "to use / to damage",
+      "C": "use / damaged",
+      "D": "having used / to damage",
+      "E": "to have used / damaging"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Gerund & Infinitive' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Avoid doing' ve 'prevent doing' yapıları gerund (V-ing) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Gerund & Infinitive"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-196",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Since the beginning of the industrial era, atmospheric carbon dioxide concentrations ---- by nearly fifty percent.",
+    "options": {
+      "A": "have risen",
+      "B": "rose",
+      "C": "had risen",
+      "D": "are rising",
+      "E": "will have risen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Since the beginning of...' zaman ifadesi Present Perfect (have risen) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Tenses & Time Agreement"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-197",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The laboratory specimens ---- at minus eighty degrees Celsius; otherwise, the enzymatic proteins would have degraded.",
+    "options": {
+      "A": "must have been stored",
+      "B": "could store",
+      "C": "should store",
+      "D": "might be storing",
+      "E": "can be stored"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Geçmişteki duruma yönelik güçlü çıkarım edilgen biçimde 'must have been stored' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Modals & Past Modals"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-198",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Not only ---- excessive screen time strain eye muscles, but it also disrupts nocturnal melatonin secretion.",
+    "options": {
+      "A": "does",
+      "B": "is",
+      "C": "has",
+      "D": "was",
+      "E": "would"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Not only' cümle başında devrik yapı oluşturur; 'excessive screen time' için geniş zamanda 'does' gelir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Inversion & Emphasis"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-199",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Reduction of Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- from satellite imagery, the ancient caravan routes across the Rub' al Khali desert became clearly visible.",
+    "options": {
+      "A": "Viewed",
+      "B": "Viewing",
+      "C": "Having viewed",
+      "D": "To view",
+      "E": "To be viewed"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Reduction of Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Kervan yolları 'görüldüğünde' (edilgen kısaltma) Past Participle (V3 - Viewed) ile kısaltılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Reduction of Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-200",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-201",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Wish Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Had the structural engineers inspected the foundation properly, the subsequent collapse ----.",
+    "options": {
+      "A": "would have been averted",
+      "B": "will be averted",
+      "C": "has been averted",
+      "D": "is being averted",
+      "E": "averted"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conditionals & Wish Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Devrik Type 3 Conditional (Had + Subject + V3) ana cümlede 'would have been V3' gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conditionals & Wish Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-202",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative & Noun Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The Nobel committee honored two bioengineers ---- groundbreaking gene-editing technique has transformed molecular medicine.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Relative & Noun Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "İki biyomühendisin tekniği (genitive / iyelik) anlatıldığından 'whose' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Relative & Noun Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-203",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- geothermal energy provides reliable baseload power, its deployment is restricted to volcanically active regions.",
+    "options": {
+      "A": "While",
+      "B": "Because",
+      "C": "As long as",
+      "D": "So that",
+      "E": "In case"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Zıtlık bağlacı 'While' (güvenilir olmasına rağmen, sadece volkanik alanlarla sınırlı) zıtlığı kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-204",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Exposure ---- ultraviolet radiation without adequate protection contributes significantly ---- premature skin aging.",
+    "options": {
+      "A": "to / to",
+      "B": "for / at",
+      "C": "in / with",
+      "D": "with / from",
+      "E": "at / for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Exposure to' ve 'contribute to' sabit edat kalıplarıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Prepositions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-205",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Gerund & Infinitive",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists avoided ---- heavy excavation machinery in order to prevent ---- the delicate Roman mosaics.",
+    "options": {
+      "A": "using / damaging",
+      "B": "to use / to damage",
+      "C": "use / damaged",
+      "D": "having used / to damage",
+      "E": "to have used / damaging"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Gerund & Infinitive' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Avoid doing' ve 'prevent doing' yapıları gerund (V-ing) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Gerund & Infinitive"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-206",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Since the beginning of the industrial era, atmospheric carbon dioxide concentrations ---- by nearly fifty percent.",
+    "options": {
+      "A": "have risen",
+      "B": "rose",
+      "C": "had risen",
+      "D": "are rising",
+      "E": "will have risen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Since the beginning of...' zaman ifadesi Present Perfect (have risen) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Tenses & Time Agreement"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-207",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The laboratory specimens ---- at minus eighty degrees Celsius; otherwise, the enzymatic proteins would have degraded.",
+    "options": {
+      "A": "must have been stored",
+      "B": "could store",
+      "C": "should store",
+      "D": "might be storing",
+      "E": "can be stored"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Geçmişteki duruma yönelik güçlü çıkarım edilgen biçimde 'must have been stored' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Modals & Past Modals"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-208",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Not only ---- excessive screen time strain eye muscles, but it also disrupts nocturnal melatonin secretion.",
+    "options": {
+      "A": "does",
+      "B": "is",
+      "C": "has",
+      "D": "was",
+      "E": "would"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Not only' cümle başında devrik yapı oluşturur; 'excessive screen time' için geniş zamanda 'does' gelir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Inversion & Emphasis"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-209",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Reduction of Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- from satellite imagery, the ancient caravan routes across the Rub' al Khali desert became clearly visible.",
+    "options": {
+      "A": "Viewed",
+      "B": "Viewing",
+      "C": "Having viewed",
+      "D": "To view",
+      "E": "To be viewed"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Reduction of Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Kervan yolları 'görüldüğünde' (edilgen kısaltma) Past Participle (V3 - Viewed) ile kısaltılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Reduction of Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-210",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-211",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Wish Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Had the structural engineers inspected the foundation properly, the subsequent collapse ----.",
+    "options": {
+      "A": "would have been averted",
+      "B": "will be averted",
+      "C": "has been averted",
+      "D": "is being averted",
+      "E": "averted"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conditionals & Wish Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Devrik Type 3 Conditional (Had + Subject + V3) ana cümlede 'would have been V3' gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conditionals & Wish Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-212",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative & Noun Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The Nobel committee honored two bioengineers ---- groundbreaking gene-editing technique has transformed molecular medicine.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Relative & Noun Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "İki biyomühendisin tekniği (genitive / iyelik) anlatıldığından 'whose' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Relative & Noun Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-213",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- geothermal energy provides reliable baseload power, its deployment is restricted to volcanically active regions.",
+    "options": {
+      "A": "While",
+      "B": "Because",
+      "C": "As long as",
+      "D": "So that",
+      "E": "In case"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Zıtlık bağlacı 'While' (güvenilir olmasına rağmen, sadece volkanik alanlarla sınırlı) zıtlığı kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-214",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Exposure ---- ultraviolet radiation without adequate protection contributes significantly ---- premature skin aging.",
+    "options": {
+      "A": "to / to",
+      "B": "for / at",
+      "C": "in / with",
+      "D": "with / from",
+      "E": "at / for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Exposure to' ve 'contribute to' sabit edat kalıplarıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Prepositions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-215",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Gerund & Infinitive",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists avoided ---- heavy excavation machinery in order to prevent ---- the delicate Roman mosaics.",
+    "options": {
+      "A": "using / damaging",
+      "B": "to use / to damage",
+      "C": "use / damaged",
+      "D": "having used / to damage",
+      "E": "to have used / damaging"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Gerund & Infinitive' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Avoid doing' ve 'prevent doing' yapıları gerund (V-ing) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Gerund & Infinitive"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-216",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Since the beginning of the industrial era, atmospheric carbon dioxide concentrations ---- by nearly fifty percent.",
+    "options": {
+      "A": "have risen",
+      "B": "rose",
+      "C": "had risen",
+      "D": "are rising",
+      "E": "will have risen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Since the beginning of...' zaman ifadesi Present Perfect (have risen) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Tenses & Time Agreement"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-217",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The laboratory specimens ---- at minus eighty degrees Celsius; otherwise, the enzymatic proteins would have degraded.",
+    "options": {
+      "A": "must have been stored",
+      "B": "could store",
+      "C": "should store",
+      "D": "might be storing",
+      "E": "can be stored"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Geçmişteki duruma yönelik güçlü çıkarım edilgen biçimde 'must have been stored' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Modals & Past Modals"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-218",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Not only ---- excessive screen time strain eye muscles, but it also disrupts nocturnal melatonin secretion.",
+    "options": {
+      "A": "does",
+      "B": "is",
+      "C": "has",
+      "D": "was",
+      "E": "would"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Not only' cümle başında devrik yapı oluşturur; 'excessive screen time' için geniş zamanda 'does' gelir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Inversion & Emphasis"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-219",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Reduction of Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- from satellite imagery, the ancient caravan routes across the Rub' al Khali desert became clearly visible.",
+    "options": {
+      "A": "Viewed",
+      "B": "Viewing",
+      "C": "Having viewed",
+      "D": "To view",
+      "E": "To be viewed"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Reduction of Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Kervan yolları 'görüldüğünde' (edilgen kısaltma) Past Participle (V3 - Viewed) ile kısaltılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Reduction of Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-220",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-221",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Wish Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Had the structural engineers inspected the foundation properly, the subsequent collapse ----.",
+    "options": {
+      "A": "would have been averted",
+      "B": "will be averted",
+      "C": "has been averted",
+      "D": "is being averted",
+      "E": "averted"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conditionals & Wish Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Devrik Type 3 Conditional (Had + Subject + V3) ana cümlede 'would have been V3' gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conditionals & Wish Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-222",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative & Noun Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The Nobel committee honored two bioengineers ---- groundbreaking gene-editing technique has transformed molecular medicine.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Relative & Noun Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "İki biyomühendisin tekniği (genitive / iyelik) anlatıldığından 'whose' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Relative & Noun Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-223",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- geothermal energy provides reliable baseload power, its deployment is restricted to volcanically active regions.",
+    "options": {
+      "A": "While",
+      "B": "Because",
+      "C": "As long as",
+      "D": "So that",
+      "E": "In case"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Zıtlık bağlacı 'While' (güvenilir olmasına rağmen, sadece volkanik alanlarla sınırlı) zıtlığı kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-224",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Exposure ---- ultraviolet radiation without adequate protection contributes significantly ---- premature skin aging.",
+    "options": {
+      "A": "to / to",
+      "B": "for / at",
+      "C": "in / with",
+      "D": "with / from",
+      "E": "at / for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Exposure to' ve 'contribute to' sabit edat kalıplarıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Prepositions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-225",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Gerund & Infinitive",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists avoided ---- heavy excavation machinery in order to prevent ---- the delicate Roman mosaics.",
+    "options": {
+      "A": "using / damaging",
+      "B": "to use / to damage",
+      "C": "use / damaged",
+      "D": "having used / to damage",
+      "E": "to have used / damaging"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Gerund & Infinitive' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Avoid doing' ve 'prevent doing' yapıları gerund (V-ing) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Gerund & Infinitive"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-226",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Since the beginning of the industrial era, atmospheric carbon dioxide concentrations ---- by nearly fifty percent.",
+    "options": {
+      "A": "have risen",
+      "B": "rose",
+      "C": "had risen",
+      "D": "are rising",
+      "E": "will have risen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Since the beginning of...' zaman ifadesi Present Perfect (have risen) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Tenses & Time Agreement"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-227",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The laboratory specimens ---- at minus eighty degrees Celsius; otherwise, the enzymatic proteins would have degraded.",
+    "options": {
+      "A": "must have been stored",
+      "B": "could store",
+      "C": "should store",
+      "D": "might be storing",
+      "E": "can be stored"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Geçmişteki duruma yönelik güçlü çıkarım edilgen biçimde 'must have been stored' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Modals & Past Modals"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-228",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Not only ---- excessive screen time strain eye muscles, but it also disrupts nocturnal melatonin secretion.",
+    "options": {
+      "A": "does",
+      "B": "is",
+      "C": "has",
+      "D": "was",
+      "E": "would"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Not only' cümle başında devrik yapı oluşturur; 'excessive screen time' için geniş zamanda 'does' gelir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Inversion & Emphasis"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-229",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Reduction of Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- from satellite imagery, the ancient caravan routes across the Rub' al Khali desert became clearly visible.",
+    "options": {
+      "A": "Viewed",
+      "B": "Viewing",
+      "C": "Having viewed",
+      "D": "To view",
+      "E": "To be viewed"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Reduction of Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Kervan yolları 'görüldüğünde' (edilgen kısaltma) Past Participle (V3 - Viewed) ile kısaltılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Reduction of Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-230",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-231",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conditionals & Wish Clauses",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Had the structural engineers inspected the foundation properly, the subsequent collapse ----.",
+    "options": {
+      "A": "would have been averted",
+      "B": "will be averted",
+      "C": "has been averted",
+      "D": "is being averted",
+      "E": "averted"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conditionals & Wish Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Devrik Type 3 Conditional (Had + Subject + V3) ana cümlede 'would have been V3' gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conditionals & Wish Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-232",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Relative & Noun Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The Nobel committee honored two bioengineers ---- groundbreaking gene-editing technique has transformed molecular medicine.",
+    "options": {
+      "A": "whose",
+      "B": "whom",
+      "C": "which",
+      "D": "where",
+      "E": "that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Relative & Noun Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "İki biyomühendisin tekniği (genitive / iyelik) anlatıldığından 'whose' kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Relative & Noun Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-233",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- geothermal energy provides reliable baseload power, its deployment is restricted to volcanically active regions.",
+    "options": {
+      "A": "While",
+      "B": "Because",
+      "C": "As long as",
+      "D": "So that",
+      "E": "In case"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Zıtlık bağlacı 'While' (güvenilir olmasına rağmen, sadece volkanik alanlarla sınırlı) zıtlığı kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-234",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Prepositions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Exposure ---- ultraviolet radiation without adequate protection contributes significantly ---- premature skin aging.",
+    "options": {
+      "A": "to / to",
+      "B": "for / at",
+      "C": "in / with",
+      "D": "with / from",
+      "E": "at / for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Prepositions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Exposure to' ve 'contribute to' sabit edat kalıplarıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Prepositions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-235",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Gerund & Infinitive",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists avoided ---- heavy excavation machinery in order to prevent ---- the delicate Roman mosaics.",
+    "options": {
+      "A": "using / damaging",
+      "B": "to use / to damage",
+      "C": "use / damaged",
+      "D": "having used / to damage",
+      "E": "to have used / damaging"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Gerund & Infinitive' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Avoid doing' ve 'prevent doing' yapıları gerund (V-ing) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Gerund & Infinitive"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-236",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Tenses & Time Agreement",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Since the beginning of the industrial era, atmospheric carbon dioxide concentrations ---- by nearly fifty percent.",
+    "options": {
+      "A": "have risen",
+      "B": "rose",
+      "C": "had risen",
+      "D": "are rising",
+      "E": "will have risen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Tenses & Time Agreement' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Since the beginning of...' zaman ifadesi Present Perfect (have risen) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Tenses & Time Agreement"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-237",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Modals & Past Modals",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "The laboratory specimens ---- at minus eighty degrees Celsius; otherwise, the enzymatic proteins would have degraded.",
+    "options": {
+      "A": "must have been stored",
+      "B": "could store",
+      "C": "should store",
+      "D": "might be storing",
+      "E": "can be stored"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Modals & Past Modals' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Geçmişteki duruma yönelik güçlü çıkarım edilgen biçimde 'must have been stored' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Modals & Past Modals"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-238",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Inversion & Emphasis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Not only ---- excessive screen time strain eye muscles, but it also disrupts nocturnal melatonin secretion.",
+    "options": {
+      "A": "does",
+      "B": "is",
+      "C": "has",
+      "D": "was",
+      "E": "would"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Inversion & Emphasis' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Not only' cümle başında devrik yapı oluşturur; 'excessive screen time' için geniş zamanda 'does' gelir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Inversion & Emphasis"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-239",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Reduction of Clauses",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "---- from satellite imagery, the ancient caravan routes across the Rub' al Khali desert became clearly visible.",
+    "options": {
+      "A": "Viewed",
+      "B": "Viewing",
+      "C": "Having viewed",
+      "D": "To view",
+      "E": "To be viewed"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Reduction of Clauses' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "Kervan yolları 'görüldüğünde' (edilgen kısaltma) Past Participle (V3 - Viewed) ile kısaltılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Reduction of Clauses"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
+  },
+  {
+    "id": "yds-gramer-240",
+    "topicId": "gramer",
+    "topicTitle": "Dilbilgisi & Gramer (Grammar)",
+    "subTopic": "Conjunctions & Transitions",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Gramer Havuzu",
+    "passage": null,
+    "questionText": "Deforestation must be halted immediately; ----, irreplaceable rain forest biodiversity will be permanently lost.",
+    "options": {
+      "A": "otherwise",
+      "B": "moreover",
+      "C": "therefore",
+      "D": "nevertheless",
+      "E": "likewise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'Conjunctions & Transitions' kuralı uyarınca doğru seçenek 'A' seçeneğidir.",
+      "detailedReason": "'Otherwise' (aksi takdirde) uyarının ardından gelen olumsuz sonucu ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki zamanlar, kipler veya edat uyumları dilbilgisi kuralını ihlal etmektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "key grammar rule",
+          "meaning": "Conjunctions & Transitions"
+        }
+      ],
+      "tacticalTip": "Zaman zarfı, bağlaç ya da ipucu kelimeyi tespit edip seçenekleri eleyerek çözün."
+    }
   }
 ]

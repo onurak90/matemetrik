@@ -2398,5 +2398,2405 @@
       ],
       "tacticalTip": "Metnin tamamını okumadan tek tek şıklara odaklanmayın; metnin zamanı ve duygu yönü (+/-) seçenekleri eler."
     }
+  },
+  {
+    "id": "yds-cloze-test-081",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Marine Biology & Chemosynthesis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "Deep-sea hydrothermal vents, first discovered along the Galapagos Rift in 1977, completely revolutionized biological science. Thriving thousands of meters below the ocean surface where sunlight cannot penetrate, these bizarre ecosystems do not rely (1)---- photosynthesis. Instead, specialized extremophile bacteria utilize geothermal hydrogen sulfide to generate energy through a chemical process known (2)---- chemosynthesis. Giant tube worms and vent crabs flourish in these scalding thermal plumes (3)---- extreme pressures and toxic mineral concentrations. (4)---- scientists had previously assumed life was impossible in such hostile abyssal depths, hydrothermal vents proved that life can adapt to the most extreme environments. Today, astrobiologists study these subterranean communities (5)---- understand how extraterrestrial life might exist within the ice-covered oceans of Jupiter's moon, Europa.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "on",
+      "B": "at",
+      "C": "with",
+      "D": "for",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'on' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Rely on' (bel bağlamak, dayanmak) kalıbı 'on' edatı alır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "'Rely / depend' fiilleri daima 'on / upon' edatıyla kullanılır."
+    }
+  },
+  {
+    "id": "yds-cloze-test-082",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Marine Biology & Chemosynthesis",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "Deep-sea hydrothermal vents, first discovered along the Galapagos Rift in 1977, completely revolutionized biological science. Thriving thousands of meters below the ocean surface where sunlight cannot penetrate, these bizarre ecosystems do not rely (1)---- photosynthesis. Instead, specialized extremophile bacteria utilize geothermal hydrogen sulfide to generate energy through a chemical process known (2)---- chemosynthesis. Giant tube worms and vent crabs flourish in these scalding thermal plumes (3)---- extreme pressures and toxic mineral concentrations. (4)---- scientists had previously assumed life was impossible in such hostile abyssal depths, hydrothermal vents proved that life can adapt to the most extreme environments. Today, astrobiologists study these subterranean communities (5)---- understand how extraterrestrial life might exist within the ice-covered oceans of Jupiter's moon, Europa.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "as",
+      "B": "to",
+      "C": "by",
+      "D": "for",
+      "E": "in"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'as' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Known as' (olarak bilinen) kalıbı 'as' ile kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Tanımlamalarda 'known as / regarded as' yapısı aranır."
+    }
+  },
+  {
+    "id": "yds-cloze-test-083",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Marine Biology & Chemosynthesis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "Deep-sea hydrothermal vents, first discovered along the Galapagos Rift in 1977, completely revolutionized biological science. Thriving thousands of meters below the ocean surface where sunlight cannot penetrate, these bizarre ecosystems do not rely (1)---- photosynthesis. Instead, specialized extremophile bacteria utilize geothermal hydrogen sulfide to generate energy through a chemical process known (2)---- chemosynthesis. Giant tube worms and vent crabs flourish in these scalding thermal plumes (3)---- extreme pressures and toxic mineral concentrations. (4)---- scientists had previously assumed life was impossible in such hostile abyssal depths, hydrothermal vents proved that life can adapt to the most extreme environments. Today, astrobiologists study these subterranean communities (5)---- understand how extraterrestrial life might exist within the ice-covered oceans of Jupiter's moon, Europa.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "despite",
+      "B": "because",
+      "C": "unless",
+      "D": "in order that",
+      "E": "as if"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'despite' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Despite + noun phrase' (aşırı basınç ve toksik minerallere rağmen) zıtlık bildirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Arkadan isim öbeği (extreme pressures...) geliyorsa 'despite / in spite of' seçilir."
+    }
+  },
+  {
+    "id": "yds-cloze-test-084",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Marine Biology & Chemosynthesis",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "Deep-sea hydrothermal vents, first discovered along the Galapagos Rift in 1977, completely revolutionized biological science. Thriving thousands of meters below the ocean surface where sunlight cannot penetrate, these bizarre ecosystems do not rely (1)---- photosynthesis. Instead, specialized extremophile bacteria utilize geothermal hydrogen sulfide to generate energy through a chemical process known (2)---- chemosynthesis. Giant tube worms and vent crabs flourish in these scalding thermal plumes (3)---- extreme pressures and toxic mineral concentrations. (4)---- scientists had previously assumed life was impossible in such hostile abyssal depths, hydrothermal vents proved that life can adapt to the most extreme environments. Today, astrobiologists study these subterranean communities (5)---- understand how extraterrestrial life might exist within the ice-covered oceans of Jupiter's moon, Europa.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Whereas",
+      "B": "Because",
+      "C": "So that",
+      "D": "Provided that",
+      "E": "As long as"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'Whereas' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Whereas' (oysaki, halbuki) daha önceki varsayım ile yeni keşif arasındaki zıtlığı bağlar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Önceki varsayım ile yeni kanıt zıtlık bağlacı ister."
+    }
+  },
+  {
+    "id": "yds-cloze-test-085",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Marine Biology & Chemosynthesis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "Deep-sea hydrothermal vents, first discovered along the Galapagos Rift in 1977, completely revolutionized biological science. Thriving thousands of meters below the ocean surface where sunlight cannot penetrate, these bizarre ecosystems do not rely (1)---- photosynthesis. Instead, specialized extremophile bacteria utilize geothermal hydrogen sulfide to generate energy through a chemical process known (2)---- chemosynthesis. Giant tube worms and vent crabs flourish in these scalding thermal plumes (3)---- extreme pressures and toxic mineral concentrations. (4)---- scientists had previously assumed life was impossible in such hostile abyssal depths, hydrothermal vents proved that life can adapt to the most extreme environments. Today, astrobiologists study these subterranean communities (5)---- understand how extraterrestrial life might exist within the ice-covered oceans of Jupiter's moon, Europa.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "in order to",
+      "B": "so that",
+      "C": "lest",
+      "D": "in case",
+      "E": "as though"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'in order to' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "Amaç bildiren ve arkasından yalın fiil (understand) alan yapı 'in order to + V1' dir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra yalın fiil (V1) varsa 'in order to / so as to' aranır."
+    }
+  },
+  {
+    "id": "yds-cloze-test-086",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Astrophysics & Space Science",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "The James Webb Space Telescope (JWST), stationed at the second Lagrange point nearly 1.5 million kilometers from Earth, has provided (1)---- insights into the cosmic dawn. By peering into infrared wavelengths, the observatory is capable of (2)---- light that has traveled across the universe for over 13 billion years. Before the deployment of JWST, astrophysicists (3)---- that early galaxies were relatively small and disorganized. However, new imagery reveals massive, well-formed star systems that existed just a few hundred million years after the Big Bang. (4)---- this unexpected discovery, cosmological models regarding galaxy formation must now be fundamentally revised. (5)---- more spectroscopic data is analyzed, astronomers hope to uncover the atmospheric composition of potentially habitable exoplanets.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "unprecedented",
+      "B": "negligible",
+      "C": "mediocre",
+      "D": "obsolete",
+      "E": "fragile"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'unprecedented' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Unprecedented insights' (benzeri görülmemiş kavrayışlar/bilgiler) akademik bir sıfat tamlamasıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Büyük bilimsel buluşlar için 'unprecedented / groundbreaking' sıfatları seçilir."
+    }
+  },
+  {
+    "id": "yds-cloze-test-087",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Astrophysics & Space Science",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "The James Webb Space Telescope (JWST), stationed at the second Lagrange point nearly 1.5 million kilometers from Earth, has provided (1)---- insights into the cosmic dawn. By peering into infrared wavelengths, the observatory is capable of (2)---- light that has traveled across the universe for over 13 billion years. Before the deployment of JWST, astrophysicists (3)---- that early galaxies were relatively small and disorganized. However, new imagery reveals massive, well-formed star systems that existed just a few hundred million years after the Big Bang. (4)---- this unexpected discovery, cosmological models regarding galaxy formation must now be fundamentally revised. (5)---- more spectroscopic data is analyzed, astronomers hope to uncover the atmospheric composition of potentially habitable exoplanets.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "detecting",
+      "B": "detect",
+      "C": "to detect",
+      "D": "detected",
+      "E": "having detected"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'detecting' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Capable of' edatından sonra fiil Gerund (V-ing -> detecting) alır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Preposition + V-ing kuralıdır."
+    }
+  },
+  {
+    "id": "yds-cloze-test-088",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Astrophysics & Space Science",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "The James Webb Space Telescope (JWST), stationed at the second Lagrange point nearly 1.5 million kilometers from Earth, has provided (1)---- insights into the cosmic dawn. By peering into infrared wavelengths, the observatory is capable of (2)---- light that has traveled across the universe for over 13 billion years. Before the deployment of JWST, astrophysicists (3)---- that early galaxies were relatively small and disorganized. However, new imagery reveals massive, well-formed star systems that existed just a few hundred million years after the Big Bang. (4)---- this unexpected discovery, cosmological models regarding galaxy formation must now be fundamentally revised. (5)---- more spectroscopic data is analyzed, astronomers hope to uncover the atmospheric composition of potentially habitable exoplanets.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "had assumed",
+      "B": "will assume",
+      "C": "have assumed",
+      "D": "are assuming",
+      "E": "assume"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'had assumed' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Before + Past Simple (deployment)', öncesindeki durumu Past Perfect (had assumed) ile ifade eder.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "'Before' geçmiş bir eylemi bildiriyorsa ana cümle Had V3 alır."
+    }
+  },
+  {
+    "id": "yds-cloze-test-089",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Astrophysics & Space Science",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "The James Webb Space Telescope (JWST), stationed at the second Lagrange point nearly 1.5 million kilometers from Earth, has provided (1)---- insights into the cosmic dawn. By peering into infrared wavelengths, the observatory is capable of (2)---- light that has traveled across the universe for over 13 billion years. Before the deployment of JWST, astrophysicists (3)---- that early galaxies were relatively small and disorganized. However, new imagery reveals massive, well-formed star systems that existed just a few hundred million years after the Big Bang. (4)---- this unexpected discovery, cosmological models regarding galaxy formation must now be fundamentally revised. (5)---- more spectroscopic data is analyzed, astronomers hope to uncover the atmospheric composition of potentially habitable exoplanets.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Owing to",
+      "B": "In spite of",
+      "C": "Regardless of",
+      "D": "Contrary to",
+      "E": "Instead of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'Owing to' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Owing to + noun' (bu beklenmedik keşif sayesinde / sebebiyle) sebep bildirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Sebep ve ardından gelen revizyon ilişkisi 'owing to / due to' ile kurulur."
+    }
+  },
+  {
+    "id": "yds-cloze-test-090",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Astrophysics & Space Science",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "The James Webb Space Telescope (JWST), stationed at the second Lagrange point nearly 1.5 million kilometers from Earth, has provided (1)---- insights into the cosmic dawn. By peering into infrared wavelengths, the observatory is capable of (2)---- light that has traveled across the universe for over 13 billion years. Before the deployment of JWST, astrophysicists (3)---- that early galaxies were relatively small and disorganized. However, new imagery reveals massive, well-formed star systems that existed just a few hundred million years after the Big Bang. (4)---- this unexpected discovery, cosmological models regarding galaxy formation must now be fundamentally revised. (5)---- more spectroscopic data is analyzed, astronomers hope to uncover the atmospheric composition of potentially habitable exoplanets.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "As",
+      "B": "Unless",
+      "C": "Lest",
+      "D": "Although",
+      "E": "Whereas"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'As' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'As' (-dıkça / süreç bildiren zaman bağlacı: veri analiz edildikçe) yapısıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Zaman içinde ilerleyen süreçlerde 'As + Subject + Verb' aranır."
+    }
+  },
+  {
+    "id": "yds-cloze-test-091",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "World History & Technology",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "During the mid-fifteenth century in Mainz, Johannes Gutenberg perfected a mechanical system of movable type printing (1)---- transformed human civilization. Before his revolutionary invention, manuscripts had to be laboriously copied by hand, making books an exclusive luxury (2)---- the wealthy elite and religious clergy. Gutenberg’s press allowed classical and scientific texts to be disseminated rapidly and (3)---- lower cost. Consequently, literacy rates across Western Europe soared (4)---- unprecedented rates during the Renaissance. (5)---- Gutenberg himself faced financial insolvency and lost control of his printing workshop, his technological breakthrough paved the way for the Reformation and the modern Scientific Revolution.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "that",
+      "B": "where",
+      "C": "whom",
+      "D": "whose",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'that' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "Cansız isim olan 'a mechanical system' relative clause ile 'that' veya 'which' ile tanımlanır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Cansız nesne tanımlanıyorsa özne konumunda 'that / which' gelir."
+    }
+  },
+  {
+    "id": "yds-cloze-test-092",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "World History & Technology",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "During the mid-fifteenth century in Mainz, Johannes Gutenberg perfected a mechanical system of movable type printing (1)---- transformed human civilization. Before his revolutionary invention, manuscripts had to be laboriously copied by hand, making books an exclusive luxury (2)---- the wealthy elite and religious clergy. Gutenberg’s press allowed classical and scientific texts to be disseminated rapidly and (3)---- lower cost. Consequently, literacy rates across Western Europe soared (4)---- unprecedented rates during the Renaissance. (5)---- Gutenberg himself faced financial insolvency and lost control of his printing workshop, his technological breakthrough paved the way for the Reformation and the modern Scientific Revolution.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "for",
+      "B": "with",
+      "C": "by",
+      "D": "from",
+      "E": "at"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'for' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'A luxury for someone' (biri için lüks) anlamında 'for' edatı kullanılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Hedef kitle bildiriminde 'for' edatı kullanılır."
+    }
+  },
+  {
+    "id": "yds-cloze-test-093",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "World History & Technology",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "During the mid-fifteenth century in Mainz, Johannes Gutenberg perfected a mechanical system of movable type printing (1)---- transformed human civilization. Before his revolutionary invention, manuscripts had to be laboriously copied by hand, making books an exclusive luxury (2)---- the wealthy elite and religious clergy. Gutenberg’s press allowed classical and scientific texts to be disseminated rapidly and (3)---- lower cost. Consequently, literacy rates across Western Europe soared (4)---- unprecedented rates during the Renaissance. (5)---- Gutenberg himself faced financial insolvency and lost control of his printing workshop, his technological breakthrough paved the way for the Reformation and the modern Scientific Revolution.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "at",
+      "B": "in",
+      "C": "on",
+      "D": "to",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'at' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'At lower cost / at high price' maliyet ifadeleri 'at' edatıyla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Maliyet, hız ve oran sözcükleri (cost, speed, rate) 'at' edatı alır."
+    }
+  },
+  {
+    "id": "yds-cloze-test-094",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "World History & Technology",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "During the mid-fifteenth century in Mainz, Johannes Gutenberg perfected a mechanical system of movable type printing (1)---- transformed human civilization. Before his revolutionary invention, manuscripts had to be laboriously copied by hand, making books an exclusive luxury (2)---- the wealthy elite and religious clergy. Gutenberg’s press allowed classical and scientific texts to be disseminated rapidly and (3)---- lower cost. Consequently, literacy rates across Western Europe soared (4)---- unprecedented rates during the Renaissance. (5)---- Gutenberg himself faced financial insolvency and lost control of his printing workshop, his technological breakthrough paved the way for the Reformation and the modern Scientific Revolution.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "at",
+      "B": "on",
+      "C": "by",
+      "D": "with",
+      "E": "in"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'at' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'At an unprecedented rate' (benzeri görülmemiş bir oranda) kalıplaşmış edat yapısıdır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "'At the rate of' kalıbı sabittir."
+    }
+  },
+  {
+    "id": "yds-cloze-test-095",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "World History & Technology",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "During the mid-fifteenth century in Mainz, Johannes Gutenberg perfected a mechanical system of movable type printing (1)---- transformed human civilization. Before his revolutionary invention, manuscripts had to be laboriously copied by hand, making books an exclusive luxury (2)---- the wealthy elite and religious clergy. Gutenberg’s press allowed classical and scientific texts to be disseminated rapidly and (3)---- lower cost. Consequently, literacy rates across Western Europe soared (4)---- unprecedented rates during the Renaissance. (5)---- Gutenberg himself faced financial insolvency and lost control of his printing workshop, his technological breakthrough paved the way for the Reformation and the modern Scientific Revolution.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Even though",
+      "B": "Because",
+      "C": "Since",
+      "D": "So that",
+      "E": "Unless"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'Even though' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "Gutenberg'in iflas etmesi (olumsuz) ile icadının dünyayı değiştirmesi (olumlu) zıtlığı 'Even though' ile kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "Kişisel trajedi vs. evrensel başarı zıtlık bağlacı ister."
+    }
+  },
+  {
+    "id": "yds-cloze-test-096",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Neuroscience & Sleep Psychology",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "Sleep is not merely a passive state of physical rest; it is an active neurobiological process indispensable (1)---- cognitive health. During rapid eye movement (REM) sleep, the human brain replays neural patterns acquired throughout the day, systematically transferring information (2)---- the short-term hippocampus to long-term cortical networks. Chronic sleep deprivation, (3)----, severely impairs synaptic plasticity and emotional regulation. Individuals who consistently sleep fewer than six hours per night exhibit elevated levels of cortisol and are far more susceptible (4)---- metabolic disorders. Neurologists emphasize that prioritizing consistent sleep schedules is one of the most effective lifestyle interventions (5)---- preserve lifelong neurological vitality.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "for",
+      "B": "at",
+      "C": "by",
+      "D": "with",
+      "E": "in"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'for' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Indispensable for' (bir şey için vazgeçilmez) edat uyumudur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "'Indispensable / essential / vital' sıfatları 'for' edatı ile kullanılır."
+    }
+  },
+  {
+    "id": "yds-cloze-test-097",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Neuroscience & Sleep Psychology",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "Sleep is not merely a passive state of physical rest; it is an active neurobiological process indispensable (1)---- cognitive health. During rapid eye movement (REM) sleep, the human brain replays neural patterns acquired throughout the day, systematically transferring information (2)---- the short-term hippocampus to long-term cortical networks. Chronic sleep deprivation, (3)----, severely impairs synaptic plasticity and emotional regulation. Individuals who consistently sleep fewer than six hours per night exhibit elevated levels of cortisol and are far more susceptible (4)---- metabolic disorders. Neurologists emphasize that prioritizing consistent sleep schedules is one of the most effective lifestyle interventions (5)---- preserve lifelong neurological vitality.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "from",
+      "B": "into",
+      "C": "at",
+      "D": "by",
+      "E": "through"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'from' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Transfer ... from X to Y' (X'ten Y'ye aktarmak) başlangıç noktasını belirtir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "'From ... to' yapısı transfer ve hareket bildirir."
+    }
+  },
+  {
+    "id": "yds-cloze-test-098",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Neuroscience & Sleep Psychology",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "Sleep is not merely a passive state of physical rest; it is an active neurobiological process indispensable (1)---- cognitive health. During rapid eye movement (REM) sleep, the human brain replays neural patterns acquired throughout the day, systematically transferring information (2)---- the short-term hippocampus to long-term cortical networks. Chronic sleep deprivation, (3)----, severely impairs synaptic plasticity and emotional regulation. Individuals who consistently sleep fewer than six hours per night exhibit elevated levels of cortisol and are far more susceptible (4)---- metabolic disorders. Neurologists emphasize that prioritizing consistent sleep schedules is one of the most effective lifestyle interventions (5)---- preserve lifelong neurological vitality.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "on the other hand",
+      "B": "in addition",
+      "C": "for example",
+      "D": "likewise",
+      "E": "as a result"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'on the other hand' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "Uykunun faydalarından (olumlu) uykusuzluğun zararlarına (olumsuz) geçiş 'on the other hand' ile yapılır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "İki virgül arasında zıtlığa geçiş ifadesidir."
+    }
+  },
+  {
+    "id": "yds-cloze-test-099",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Neuroscience & Sleep Psychology",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "Sleep is not merely a passive state of physical rest; it is an active neurobiological process indispensable (1)---- cognitive health. During rapid eye movement (REM) sleep, the human brain replays neural patterns acquired throughout the day, systematically transferring information (2)---- the short-term hippocampus to long-term cortical networks. Chronic sleep deprivation, (3)----, severely impairs synaptic plasticity and emotional regulation. Individuals who consistently sleep fewer than six hours per night exhibit elevated levels of cortisol and are far more susceptible (4)---- metabolic disorders. Neurologists emphasize that prioritizing consistent sleep schedules is one of the most effective lifestyle interventions (5)---- preserve lifelong neurological vitality.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "against",
+      "E": "by"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'to' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Susceptible to' (bir hastalığa/etkiye karşı hassas, yatkın) kalıbı 'to' edatı alır.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "'Vulnerable to / susceptible to / prone to' daima 'to' alır."
+    }
+  },
+  {
+    "id": "yds-cloze-test-100",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Neuroscience & Sleep Psychology",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Cloze Test Formatı",
+    "passage": "Sleep is not merely a passive state of physical rest; it is an active neurobiological process indispensable (1)---- cognitive health. During rapid eye movement (REM) sleep, the human brain replays neural patterns acquired throughout the day, systematically transferring information (2)---- the short-term hippocampus to long-term cortical networks. Chronic sleep deprivation, (3)----, severely impairs synaptic plasticity and emotional regulation. Individuals who consistently sleep fewer than six hours per night exhibit elevated levels of cortisol and are far more susceptible (4)---- metabolic disorders. Neurologists emphasize that prioritizing consistent sleep schedules is one of the most effective lifestyle interventions (5)---- preserve lifelong neurological vitality.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "by",
+      "D": "with",
+      "E": "at"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragrafta ilgili boşluğa 'to' ifadesi dilbilgisel ve anlamsal bağlamı kusursuz tamamlar.",
+      "detailedReason": "'Interventions to preserve' (korumak için yapılan müdahaleler) amaç infinitive (to + V1) gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki edat veya bağlaçlar cümlenin dilbilgisi kurallarını ve parça bütünlüğünü bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "contextual clue",
+          "meaning": "paragraf içi bağlam ipucu"
+        }
+      ],
+      "tacticalTip": "İsimden sonra amaç bildiren 'to + V1' yapısıdır."
+    }
+  },
+  {
+    "id": "yds-cloze-test-101",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Ancient Maya Astronomy",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Ancient Mayan astronomers possessed an astonishingly sophisticated understanding (1)---- planetary motion. Without telescopes or metal instruments, Mayan priest-astronomers recorded the orbital cycles of Venus and Mars (2)---- great mathematical precision. Their calendar system was so meticulously calibrated that it deviated (3)---- only one day every five thousand years. Architectural pyramids were deliberately aligned (4)---- solar equinoxes would cast serpentine shadows along temple staircases. These celestial observations were not merely scientific; they were deeply integrated into religious rituals (5)---- determined agricultural planting seasons.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-102",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Ancient Maya Astronomy",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Ancient Mayan astronomers possessed an astonishingly sophisticated understanding (1)---- planetary motion. Without telescopes or metal instruments, Mayan priest-astronomers recorded the orbital cycles of Venus and Mars (2)---- great mathematical precision. Their calendar system was so meticulously calibrated that it deviated (3)---- only one day every five thousand years. Architectural pyramids were deliberately aligned (4)---- solar equinoxes would cast serpentine shadows along temple staircases. These celestial observations were not merely scientific; they were deeply integrated into religious rituals (5)---- determined agricultural planting seasons.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-103",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Ancient Maya Astronomy",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Ancient Mayan astronomers possessed an astonishingly sophisticated understanding (1)---- planetary motion. Without telescopes or metal instruments, Mayan priest-astronomers recorded the orbital cycles of Venus and Mars (2)---- great mathematical precision. Their calendar system was so meticulously calibrated that it deviated (3)---- only one day every five thousand years. Architectural pyramids were deliberately aligned (4)---- solar equinoxes would cast serpentine shadows along temple staircases. These celestial observations were not merely scientific; they were deeply integrated into religious rituals (5)---- determined agricultural planting seasons.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-104",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Ancient Maya Astronomy",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Ancient Mayan astronomers possessed an astonishingly sophisticated understanding (1)---- planetary motion. Without telescopes or metal instruments, Mayan priest-astronomers recorded the orbital cycles of Venus and Mars (2)---- great mathematical precision. Their calendar system was so meticulously calibrated that it deviated (3)---- only one day every five thousand years. Architectural pyramids were deliberately aligned (4)---- solar equinoxes would cast serpentine shadows along temple staircases. These celestial observations were not merely scientific; they were deeply integrated into religious rituals (5)---- determined agricultural planting seasons.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-105",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Ancient Maya Astronomy",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Ancient Mayan astronomers possessed an astonishingly sophisticated understanding (1)---- planetary motion. Without telescopes or metal instruments, Mayan priest-astronomers recorded the orbital cycles of Venus and Mars (2)---- great mathematical precision. Their calendar system was so meticulously calibrated that it deviated (3)---- only one day every five thousand years. Architectural pyramids were deliberately aligned (4)---- solar equinoxes would cast serpentine shadows along temple staircases. These celestial observations were not merely scientific; they were deeply integrated into religious rituals (5)---- determined agricultural planting seasons.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-106",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Gut-Brain Axis",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Recent gastroenterological research has illuminated the intricate biochemical dialogue operating (1)---- the human gut and the central nervous system. Known as the gut-brain axis, this bidirectional network relies (2)---- the vagus nerve and bacterial metabolic byproducts. Trillions of intestinal microbes synthesize critical neurotransmitters, including serotonin, (3)---- regulates mood, sleep, and appetite. Disruptions in the micro-biome have been linked (4)---- clinical depression, anxiety, and neurodegenerative disorders. Consequently, psychiatrists are investigating dietary interventions (5)---- therapeutic adjuncts for psychiatric care.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-107",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Gut-Brain Axis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Recent gastroenterological research has illuminated the intricate biochemical dialogue operating (1)---- the human gut and the central nervous system. Known as the gut-brain axis, this bidirectional network relies (2)---- the vagus nerve and bacterial metabolic byproducts. Trillions of intestinal microbes synthesize critical neurotransmitters, including serotonin, (3)---- regulates mood, sleep, and appetite. Disruptions in the micro-biome have been linked (4)---- clinical depression, anxiety, and neurodegenerative disorders. Consequently, psychiatrists are investigating dietary interventions (5)---- therapeutic adjuncts for psychiatric care.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-108",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Gut-Brain Axis",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Recent gastroenterological research has illuminated the intricate biochemical dialogue operating (1)---- the human gut and the central nervous system. Known as the gut-brain axis, this bidirectional network relies (2)---- the vagus nerve and bacterial metabolic byproducts. Trillions of intestinal microbes synthesize critical neurotransmitters, including serotonin, (3)---- regulates mood, sleep, and appetite. Disruptions in the micro-biome have been linked (4)---- clinical depression, anxiety, and neurodegenerative disorders. Consequently, psychiatrists are investigating dietary interventions (5)---- therapeutic adjuncts for psychiatric care.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-109",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Gut-Brain Axis",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Recent gastroenterological research has illuminated the intricate biochemical dialogue operating (1)---- the human gut and the central nervous system. Known as the gut-brain axis, this bidirectional network relies (2)---- the vagus nerve and bacterial metabolic byproducts. Trillions of intestinal microbes synthesize critical neurotransmitters, including serotonin, (3)---- regulates mood, sleep, and appetite. Disruptions in the micro-biome have been linked (4)---- clinical depression, anxiety, and neurodegenerative disorders. Consequently, psychiatrists are investigating dietary interventions (5)---- therapeutic adjuncts for psychiatric care.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-110",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "The Gut-Brain Axis",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Recent gastroenterological research has illuminated the intricate biochemical dialogue operating (1)---- the human gut and the central nervous system. Known as the gut-brain axis, this bidirectional network relies (2)---- the vagus nerve and bacterial metabolic byproducts. Trillions of intestinal microbes synthesize critical neurotransmitters, including serotonin, (3)---- regulates mood, sleep, and appetite. Disruptions in the micro-biome have been linked (4)---- clinical depression, anxiety, and neurodegenerative disorders. Consequently, psychiatrists are investigating dietary interventions (5)---- therapeutic adjuncts for psychiatric care.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-111",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Nanotechnology in Oncology",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Nanoscale particles are transforming oncology by enabling targeted drug delivery directly (1)---- malignant tumors. Traditional systemic chemotherapy circulates throughout the entire bloodstream, damaging healthy tissue (2)---- causing debilitating side effects. In contrast, engineered nanoparticles can encapsulate cytotoxic agents and release them only upon (3)---- receptor proteins on cancer cells. (4)---- this approach maximizes therapeutic toxicity at the tumor site, it preserves surrounding normal tissues. Clinical oncologists anticipate that personalized nanomedicine (5)---- standard cancer treatment protocols over the coming decades.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-112",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Nanotechnology in Oncology",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Nanoscale particles are transforming oncology by enabling targeted drug delivery directly (1)---- malignant tumors. Traditional systemic chemotherapy circulates throughout the entire bloodstream, damaging healthy tissue (2)---- causing debilitating side effects. In contrast, engineered nanoparticles can encapsulate cytotoxic agents and release them only upon (3)---- receptor proteins on cancer cells. (4)---- this approach maximizes therapeutic toxicity at the tumor site, it preserves surrounding normal tissues. Clinical oncologists anticipate that personalized nanomedicine (5)---- standard cancer treatment protocols over the coming decades.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-113",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Nanotechnology in Oncology",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Nanoscale particles are transforming oncology by enabling targeted drug delivery directly (1)---- malignant tumors. Traditional systemic chemotherapy circulates throughout the entire bloodstream, damaging healthy tissue (2)---- causing debilitating side effects. In contrast, engineered nanoparticles can encapsulate cytotoxic agents and release them only upon (3)---- receptor proteins on cancer cells. (4)---- this approach maximizes therapeutic toxicity at the tumor site, it preserves surrounding normal tissues. Clinical oncologists anticipate that personalized nanomedicine (5)---- standard cancer treatment protocols over the coming decades.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-114",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Nanotechnology in Oncology",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Nanoscale particles are transforming oncology by enabling targeted drug delivery directly (1)---- malignant tumors. Traditional systemic chemotherapy circulates throughout the entire bloodstream, damaging healthy tissue (2)---- causing debilitating side effects. In contrast, engineered nanoparticles can encapsulate cytotoxic agents and release them only upon (3)---- receptor proteins on cancer cells. (4)---- this approach maximizes therapeutic toxicity at the tumor site, it preserves surrounding normal tissues. Clinical oncologists anticipate that personalized nanomedicine (5)---- standard cancer treatment protocols over the coming decades.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-115",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Nanotechnology in Oncology",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Nanoscale particles are transforming oncology by enabling targeted drug delivery directly (1)---- malignant tumors. Traditional systemic chemotherapy circulates throughout the entire bloodstream, damaging healthy tissue (2)---- causing debilitating side effects. In contrast, engineered nanoparticles can encapsulate cytotoxic agents and release them only upon (3)---- receptor proteins on cancer cells. (4)---- this approach maximizes therapeutic toxicity at the tumor site, it preserves surrounding normal tissues. Clinical oncologists anticipate that personalized nanomedicine (5)---- standard cancer treatment protocols over the coming decades.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-116",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Volcanic Aerosols & Climate",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Major volcanic eruptions inject immense quantities of sulfur dioxide gas high (1)---- the stratosphere. Once aloft, these gases react with water vapor to form reflective sulfate aerosols (2)---- scatter incoming solar radiation back into space. The 1815 eruption of Mount Tambora in Indonesia caused the famous 'Year Without a Summer,' (3)---- global temperatures dropped and widespread crop failures struck North America and Europe. Historical paleoclimatologists study ice core records to determine (4)---- past volcanic episodes triggered severe climate shocks. Such research confirms that volcanic activity has played a profound role (5)---- shaping Earth's climate history.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-117",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Volcanic Aerosols & Climate",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Major volcanic eruptions inject immense quantities of sulfur dioxide gas high (1)---- the stratosphere. Once aloft, these gases react with water vapor to form reflective sulfate aerosols (2)---- scatter incoming solar radiation back into space. The 1815 eruption of Mount Tambora in Indonesia caused the famous 'Year Without a Summer,' (3)---- global temperatures dropped and widespread crop failures struck North America and Europe. Historical paleoclimatologists study ice core records to determine (4)---- past volcanic episodes triggered severe climate shocks. Such research confirms that volcanic activity has played a profound role (5)---- shaping Earth's climate history.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-118",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Volcanic Aerosols & Climate",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Major volcanic eruptions inject immense quantities of sulfur dioxide gas high (1)---- the stratosphere. Once aloft, these gases react with water vapor to form reflective sulfate aerosols (2)---- scatter incoming solar radiation back into space. The 1815 eruption of Mount Tambora in Indonesia caused the famous 'Year Without a Summer,' (3)---- global temperatures dropped and widespread crop failures struck North America and Europe. Historical paleoclimatologists study ice core records to determine (4)---- past volcanic episodes triggered severe climate shocks. Such research confirms that volcanic activity has played a profound role (5)---- shaping Earth's climate history.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-119",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Volcanic Aerosols & Climate",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Major volcanic eruptions inject immense quantities of sulfur dioxide gas high (1)---- the stratosphere. Once aloft, these gases react with water vapor to form reflective sulfate aerosols (2)---- scatter incoming solar radiation back into space. The 1815 eruption of Mount Tambora in Indonesia caused the famous 'Year Without a Summer,' (3)---- global temperatures dropped and widespread crop failures struck North America and Europe. Historical paleoclimatologists study ice core records to determine (4)---- past volcanic episodes triggered severe climate shocks. Such research confirms that volcanic activity has played a profound role (5)---- shaping Earth's climate history.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-120",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Volcanic Aerosols & Climate",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Major volcanic eruptions inject immense quantities of sulfur dioxide gas high (1)---- the stratosphere. Once aloft, these gases react with water vapor to form reflective sulfate aerosols (2)---- scatter incoming solar radiation back into space. The 1815 eruption of Mount Tambora in Indonesia caused the famous 'Year Without a Summer,' (3)---- global temperatures dropped and widespread crop failures struck North America and Europe. Historical paleoclimatologists study ice core records to determine (4)---- past volcanic episodes triggered severe climate shocks. Such research confirms that volcanic activity has played a profound role (5)---- shaping Earth's climate history.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-121",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Preserving Indigenous Languages",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Linguists estimate that more than half of the world's seven thousand spoken languages are (1)---- danger of extinction by the end of this century. When a language vanishes, an entire cosmological worldview and indigenous botanical knowledge base (2)---- lost with it. Many endangered tongues rely exclusively on oral traditions (3)---- written documentation. (4)---- urgent digital archiving and community language immersion initiatives, many dialects will disappear within a single generation. International organizations are mobilizing financial resources (5)---- support native language revitalization programs globally.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-122",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Preserving Indigenous Languages",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Linguists estimate that more than half of the world's seven thousand spoken languages are (1)---- danger of extinction by the end of this century. When a language vanishes, an entire cosmological worldview and indigenous botanical knowledge base (2)---- lost with it. Many endangered tongues rely exclusively on oral traditions (3)---- written documentation. (4)---- urgent digital archiving and community language immersion initiatives, many dialects will disappear within a single generation. International organizations are mobilizing financial resources (5)---- support native language revitalization programs globally.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-123",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Preserving Indigenous Languages",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Linguists estimate that more than half of the world's seven thousand spoken languages are (1)---- danger of extinction by the end of this century. When a language vanishes, an entire cosmological worldview and indigenous botanical knowledge base (2)---- lost with it. Many endangered tongues rely exclusively on oral traditions (3)---- written documentation. (4)---- urgent digital archiving and community language immersion initiatives, many dialects will disappear within a single generation. International organizations are mobilizing financial resources (5)---- support native language revitalization programs globally.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-124",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Preserving Indigenous Languages",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Linguists estimate that more than half of the world's seven thousand spoken languages are (1)---- danger of extinction by the end of this century. When a language vanishes, an entire cosmological worldview and indigenous botanical knowledge base (2)---- lost with it. Many endangered tongues rely exclusively on oral traditions (3)---- written documentation. (4)---- urgent digital archiving and community language immersion initiatives, many dialects will disappear within a single generation. International organizations are mobilizing financial resources (5)---- support native language revitalization programs globally.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-125",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Preserving Indigenous Languages",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Linguists estimate that more than half of the world's seven thousand spoken languages are (1)---- danger of extinction by the end of this century. When a language vanishes, an entire cosmological worldview and indigenous botanical knowledge base (2)---- lost with it. Many endangered tongues rely exclusively on oral traditions (3)---- written documentation. (4)---- urgent digital archiving and community language immersion initiatives, many dialects will disappear within a single generation. International organizations are mobilizing financial resources (5)---- support native language revitalization programs globally.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-126",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Artificial Intelligence in Navigation",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Autonomous commercial maritime vessels are increasingly relying (1)---- artificial intelligence algorithms to plot optimal oceanic shipping routes. Modern sensor suites incorporate radar, LiDAR, and satellite telemetry to scan waterways (2)---- potential collision hazards. By constantly assessing wave heights and wind currents, navigational AI can reduce fuel consumption (3)---- up to twenty percent. (4)---- human captains must still oversee remote control hubs, fully autonomous cargo voyages are rapidly approaching technical feasibility. Maritime regulators are now drafting international maritime safety conventions (5)---- ensure safe navigation in busy international straits.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-127",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Artificial Intelligence in Navigation",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Autonomous commercial maritime vessels are increasingly relying (1)---- artificial intelligence algorithms to plot optimal oceanic shipping routes. Modern sensor suites incorporate radar, LiDAR, and satellite telemetry to scan waterways (2)---- potential collision hazards. By constantly assessing wave heights and wind currents, navigational AI can reduce fuel consumption (3)---- up to twenty percent. (4)---- human captains must still oversee remote control hubs, fully autonomous cargo voyages are rapidly approaching technical feasibility. Maritime regulators are now drafting international maritime safety conventions (5)---- ensure safe navigation in busy international straits.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-128",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Artificial Intelligence in Navigation",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Autonomous commercial maritime vessels are increasingly relying (1)---- artificial intelligence algorithms to plot optimal oceanic shipping routes. Modern sensor suites incorporate radar, LiDAR, and satellite telemetry to scan waterways (2)---- potential collision hazards. By constantly assessing wave heights and wind currents, navigational AI can reduce fuel consumption (3)---- up to twenty percent. (4)---- human captains must still oversee remote control hubs, fully autonomous cargo voyages are rapidly approaching technical feasibility. Maritime regulators are now drafting international maritime safety conventions (5)---- ensure safe navigation in busy international straits.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-129",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Artificial Intelligence in Navigation",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Autonomous commercial maritime vessels are increasingly relying (1)---- artificial intelligence algorithms to plot optimal oceanic shipping routes. Modern sensor suites incorporate radar, LiDAR, and satellite telemetry to scan waterways (2)---- potential collision hazards. By constantly assessing wave heights and wind currents, navigational AI can reduce fuel consumption (3)---- up to twenty percent. (4)---- human captains must still oversee remote control hubs, fully autonomous cargo voyages are rapidly approaching technical feasibility. Maritime regulators are now drafting international maritime safety conventions (5)---- ensure safe navigation in busy international straits.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-130",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Artificial Intelligence in Navigation",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Autonomous commercial maritime vessels are increasingly relying (1)---- artificial intelligence algorithms to plot optimal oceanic shipping routes. Modern sensor suites incorporate radar, LiDAR, and satellite telemetry to scan waterways (2)---- potential collision hazards. By constantly assessing wave heights and wind currents, navigational AI can reduce fuel consumption (3)---- up to twenty percent. (4)---- human captains must still oversee remote control hubs, fully autonomous cargo voyages are rapidly approaching technical feasibility. Maritime regulators are now drafting international maritime safety conventions (5)---- ensure safe navigation in busy international straits.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-131",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Paleolithic Cave Art",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "The discovery of Upper Paleolithic cave paintings in Lascaux and Altamira fundamentally altered our understanding (1)---- early human cognitive capabilities. Created over thirty thousand years ago, these charcoal and ochre depictions of bison, horses, and mammoths reveal sophisticated artistic perspective (2)---- anatomical nuance. Anthropologists debate the ultimate function of these subterranean galleries; some suggest they served as sacred sanctuaries (3)---- shamanic hunting rituals, while others view them as astronomical star charts. (4)---- their original intent, the paintings prove that symbolic thought (5)---- deeply rooted in the Homo sapiens lineage long before the emergence of urban settlements.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-132",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Paleolithic Cave Art",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "The discovery of Upper Paleolithic cave paintings in Lascaux and Altamira fundamentally altered our understanding (1)---- early human cognitive capabilities. Created over thirty thousand years ago, these charcoal and ochre depictions of bison, horses, and mammoths reveal sophisticated artistic perspective (2)---- anatomical nuance. Anthropologists debate the ultimate function of these subterranean galleries; some suggest they served as sacred sanctuaries (3)---- shamanic hunting rituals, while others view them as astronomical star charts. (4)---- their original intent, the paintings prove that symbolic thought (5)---- deeply rooted in the Homo sapiens lineage long before the emergence of urban settlements.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-133",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Paleolithic Cave Art",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "The discovery of Upper Paleolithic cave paintings in Lascaux and Altamira fundamentally altered our understanding (1)---- early human cognitive capabilities. Created over thirty thousand years ago, these charcoal and ochre depictions of bison, horses, and mammoths reveal sophisticated artistic perspective (2)---- anatomical nuance. Anthropologists debate the ultimate function of these subterranean galleries; some suggest they served as sacred sanctuaries (3)---- shamanic hunting rituals, while others view them as astronomical star charts. (4)---- their original intent, the paintings prove that symbolic thought (5)---- deeply rooted in the Homo sapiens lineage long before the emergence of urban settlements.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-134",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Paleolithic Cave Art",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "The discovery of Upper Paleolithic cave paintings in Lascaux and Altamira fundamentally altered our understanding (1)---- early human cognitive capabilities. Created over thirty thousand years ago, these charcoal and ochre depictions of bison, horses, and mammoths reveal sophisticated artistic perspective (2)---- anatomical nuance. Anthropologists debate the ultimate function of these subterranean galleries; some suggest they served as sacred sanctuaries (3)---- shamanic hunting rituals, while others view them as astronomical star charts. (4)---- their original intent, the paintings prove that symbolic thought (5)---- deeply rooted in the Homo sapiens lineage long before the emergence of urban settlements.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-135",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Paleolithic Cave Art",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "The discovery of Upper Paleolithic cave paintings in Lascaux and Altamira fundamentally altered our understanding (1)---- early human cognitive capabilities. Created over thirty thousand years ago, these charcoal and ochre depictions of bison, horses, and mammoths reveal sophisticated artistic perspective (2)---- anatomical nuance. Anthropologists debate the ultimate function of these subterranean galleries; some suggest they served as sacred sanctuaries (3)---- shamanic hunting rituals, while others view them as astronomical star charts. (4)---- their original intent, the paintings prove that symbolic thought (5)---- deeply rooted in the Homo sapiens lineage long before the emergence of urban settlements.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-136",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Electric Aviation Prospects",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Aviation accounts for nearly three percent of annual global carbon dioxide emissions, driving intense research (1)---- electric passenger flight. Traditional jet turbines burn kerosene at high altitudes, releasing nitrogen oxides and contrails (2)---- exacerbate atmospheric radiative forcing. Electric aircraft powered by high-density lithium batteries produce zero operational emissions, (3)---- their practical flight range is currently limited to regional hops under five hundred kilometers. (4)---- battery chemistry advances toward higher energy densities, electric aviation will expand to larger commercial passenger routes. Aerospace engineers predict that hybrid-electric regional airliners (5)---- commercial service before 2035.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-137",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Electric Aviation Prospects",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Aviation accounts for nearly three percent of annual global carbon dioxide emissions, driving intense research (1)---- electric passenger flight. Traditional jet turbines burn kerosene at high altitudes, releasing nitrogen oxides and contrails (2)---- exacerbate atmospheric radiative forcing. Electric aircraft powered by high-density lithium batteries produce zero operational emissions, (3)---- their practical flight range is currently limited to regional hops under five hundred kilometers. (4)---- battery chemistry advances toward higher energy densities, electric aviation will expand to larger commercial passenger routes. Aerospace engineers predict that hybrid-electric regional airliners (5)---- commercial service before 2035.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-138",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Electric Aviation Prospects",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Aviation accounts for nearly three percent of annual global carbon dioxide emissions, driving intense research (1)---- electric passenger flight. Traditional jet turbines burn kerosene at high altitudes, releasing nitrogen oxides and contrails (2)---- exacerbate atmospheric radiative forcing. Electric aircraft powered by high-density lithium batteries produce zero operational emissions, (3)---- their practical flight range is currently limited to regional hops under five hundred kilometers. (4)---- battery chemistry advances toward higher energy densities, electric aviation will expand to larger commercial passenger routes. Aerospace engineers predict that hybrid-electric regional airliners (5)---- commercial service before 2035.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-139",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Electric Aviation Prospects",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Aviation accounts for nearly three percent of annual global carbon dioxide emissions, driving intense research (1)---- electric passenger flight. Traditional jet turbines burn kerosene at high altitudes, releasing nitrogen oxides and contrails (2)---- exacerbate atmospheric radiative forcing. Electric aircraft powered by high-density lithium batteries produce zero operational emissions, (3)---- their practical flight range is currently limited to regional hops under five hundred kilometers. (4)---- battery chemistry advances toward higher energy densities, electric aviation will expand to larger commercial passenger routes. Aerospace engineers predict that hybrid-electric regional airliners (5)---- commercial service before 2035.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-140",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Electric Aviation Prospects",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Aviation accounts for nearly three percent of annual global carbon dioxide emissions, driving intense research (1)---- electric passenger flight. Traditional jet turbines burn kerosene at high altitudes, releasing nitrogen oxides and contrails (2)---- exacerbate atmospheric radiative forcing. Electric aircraft powered by high-density lithium batteries produce zero operational emissions, (3)---- their practical flight range is currently limited to regional hops under five hundred kilometers. (4)---- battery chemistry advances toward higher energy densities, electric aviation will expand to larger commercial passenger routes. Aerospace engineers predict that hybrid-electric regional airliners (5)---- commercial service before 2035.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-141",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Renewable Ocean Energy",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Coastal nations are increasingly exploring marine tidal energy as a predictable alternative (1)---- fossil fuels. Unlike solar or wind power, oceanic tides (2)---- by the gravitational attraction of the Moon. Consequently, tidal power generation can be calculated centuries (3)---- advance. (4)---- the installation costs of subsea turbine blades remain high, technological innovations are rapidly improving their economic viability. Marine engineers project that by 2040, oceanic power (5)---- a vital pillar of coastal electrification.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-142",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Renewable Ocean Energy",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Coastal nations are increasingly exploring marine tidal energy as a predictable alternative (1)---- fossil fuels. Unlike solar or wind power, oceanic tides (2)---- by the gravitational attraction of the Moon. Consequently, tidal power generation can be calculated centuries (3)---- advance. (4)---- the installation costs of subsea turbine blades remain high, technological innovations are rapidly improving their economic viability. Marine engineers project that by 2040, oceanic power (5)---- a vital pillar of coastal electrification.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-143",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Renewable Ocean Energy",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Coastal nations are increasingly exploring marine tidal energy as a predictable alternative (1)---- fossil fuels. Unlike solar or wind power, oceanic tides (2)---- by the gravitational attraction of the Moon. Consequently, tidal power generation can be calculated centuries (3)---- advance. (4)---- the installation costs of subsea turbine blades remain high, technological innovations are rapidly improving their economic viability. Marine engineers project that by 2040, oceanic power (5)---- a vital pillar of coastal electrification.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-144",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Renewable Ocean Energy",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Coastal nations are increasingly exploring marine tidal energy as a predictable alternative (1)---- fossil fuels. Unlike solar or wind power, oceanic tides (2)---- by the gravitational attraction of the Moon. Consequently, tidal power generation can be calculated centuries (3)---- advance. (4)---- the installation costs of subsea turbine blades remain high, technological innovations are rapidly improving their economic viability. Marine engineers project that by 2040, oceanic power (5)---- a vital pillar of coastal electrification.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-145",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Renewable Ocean Energy",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Coastal nations are increasingly exploring marine tidal energy as a predictable alternative (1)---- fossil fuels. Unlike solar or wind power, oceanic tides (2)---- by the gravitational attraction of the Moon. Consequently, tidal power generation can be calculated centuries (3)---- advance. (4)---- the installation costs of subsea turbine blades remain high, technological innovations are rapidly improving their economic viability. Marine engineers project that by 2040, oceanic power (5)---- a vital pillar of coastal electrification.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-146",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "CRISPR Gene Editing",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "The advent of CRISPR-Cas9 genetic engineering has endowed molecular biologists (1)---- the capability to edit DNA with surgical precision. This technology operates by utilizing a synthetic RNA guide (2)---- directs a bacterial enzyme to cut target sequences. While this tool offers miraculous therapies (3)---- genetic disorders, it also raises ethical dilemmas regarding human germline modification. (4)---- international scientific consensus develops strict regulatory frameworks, unregulated bioengineering could proliferate. Therefore, bioethicists urge governments to collaborate closely (5)---- safety standards are globally harmonized.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-147",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "CRISPR Gene Editing",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "The advent of CRISPR-Cas9 genetic engineering has endowed molecular biologists (1)---- the capability to edit DNA with surgical precision. This technology operates by utilizing a synthetic RNA guide (2)---- directs a bacterial enzyme to cut target sequences. While this tool offers miraculous therapies (3)---- genetic disorders, it also raises ethical dilemmas regarding human germline modification. (4)---- international scientific consensus develops strict regulatory frameworks, unregulated bioengineering could proliferate. Therefore, bioethicists urge governments to collaborate closely (5)---- safety standards are globally harmonized.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-148",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "CRISPR Gene Editing",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "The advent of CRISPR-Cas9 genetic engineering has endowed molecular biologists (1)---- the capability to edit DNA with surgical precision. This technology operates by utilizing a synthetic RNA guide (2)---- directs a bacterial enzyme to cut target sequences. While this tool offers miraculous therapies (3)---- genetic disorders, it also raises ethical dilemmas regarding human germline modification. (4)---- international scientific consensus develops strict regulatory frameworks, unregulated bioengineering could proliferate. Therefore, bioethicists urge governments to collaborate closely (5)---- safety standards are globally harmonized.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-149",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "CRISPR Gene Editing",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "The advent of CRISPR-Cas9 genetic engineering has endowed molecular biologists (1)---- the capability to edit DNA with surgical precision. This technology operates by utilizing a synthetic RNA guide (2)---- directs a bacterial enzyme to cut target sequences. While this tool offers miraculous therapies (3)---- genetic disorders, it also raises ethical dilemmas regarding human germline modification. (4)---- international scientific consensus develops strict regulatory frameworks, unregulated bioengineering could proliferate. Therefore, bioethicists urge governments to collaborate closely (5)---- safety standards are globally harmonized.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-150",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "CRISPR Gene Editing",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "The advent of CRISPR-Cas9 genetic engineering has endowed molecular biologists (1)---- the capability to edit DNA with surgical precision. This technology operates by utilizing a synthetic RNA guide (2)---- directs a bacterial enzyme to cut target sequences. While this tool offers miraculous therapies (3)---- genetic disorders, it also raises ethical dilemmas regarding human germline modification. (4)---- international scientific consensus develops strict regulatory frameworks, unregulated bioengineering could proliferate. Therefore, bioethicists urge governments to collaborate closely (5)---- safety standards are globally harmonized.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-151",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Archaeology of the Fertile Crescent",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Nearly ten thousand years ago, nomadic hunter-gatherers in the Fertile Crescent began settling into sedentary agrarian hamlets. The transition to agriculture required human groups (1)---- wild cereals like wheat and barley. Over centuries, selective breeding resulted (2)---- higher caloric yields per acre. (3)---- farming provided a reliable food surplus, it also exposed early villagers to epidemic diseases spread by domesticated cattle. (4)----, social hierarchies and specialized craft guilds emerged rapidly once populations expanded. Archaeological records demonstrate that agriculture (5)---- the foundation for modern urban civilizations.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-152",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Archaeology of the Fertile Crescent",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Nearly ten thousand years ago, nomadic hunter-gatherers in the Fertile Crescent began settling into sedentary agrarian hamlets. The transition to agriculture required human groups (1)---- wild cereals like wheat and barley. Over centuries, selective breeding resulted (2)---- higher caloric yields per acre. (3)---- farming provided a reliable food surplus, it also exposed early villagers to epidemic diseases spread by domesticated cattle. (4)----, social hierarchies and specialized craft guilds emerged rapidly once populations expanded. Archaeological records demonstrate that agriculture (5)---- the foundation for modern urban civilizations.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-153",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Archaeology of the Fertile Crescent",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Nearly ten thousand years ago, nomadic hunter-gatherers in the Fertile Crescent began settling into sedentary agrarian hamlets. The transition to agriculture required human groups (1)---- wild cereals like wheat and barley. Over centuries, selective breeding resulted (2)---- higher caloric yields per acre. (3)---- farming provided a reliable food surplus, it also exposed early villagers to epidemic diseases spread by domesticated cattle. (4)----, social hierarchies and specialized craft guilds emerged rapidly once populations expanded. Archaeological records demonstrate that agriculture (5)---- the foundation for modern urban civilizations.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-154",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Archaeology of the Fertile Crescent",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Nearly ten thousand years ago, nomadic hunter-gatherers in the Fertile Crescent began settling into sedentary agrarian hamlets. The transition to agriculture required human groups (1)---- wild cereals like wheat and barley. Over centuries, selective breeding resulted (2)---- higher caloric yields per acre. (3)---- farming provided a reliable food surplus, it also exposed early villagers to epidemic diseases spread by domesticated cattle. (4)----, social hierarchies and specialized craft guilds emerged rapidly once populations expanded. Archaeological records demonstrate that agriculture (5)---- the foundation for modern urban civilizations.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-155",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Archaeology of the Fertile Crescent",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Nearly ten thousand years ago, nomadic hunter-gatherers in the Fertile Crescent began settling into sedentary agrarian hamlets. The transition to agriculture required human groups (1)---- wild cereals like wheat and barley. Over centuries, selective breeding resulted (2)---- higher caloric yields per acre. (3)---- farming provided a reliable food surplus, it also exposed early villagers to epidemic diseases spread by domesticated cattle. (4)----, social hierarchies and specialized craft guilds emerged rapidly once populations expanded. Archaeological records demonstrate that agriculture (5)---- the foundation for modern urban civilizations.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-156",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Coral Reef Conservation",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Tropical coral reefs support approximately twenty-five percent of all marine species, making them vital (1)---- global oceanic biodiversity. However, rising sea surface temperatures caused by climate change trigger widespread coral bleaching, a process (2)---- corals expel their symbiotic zooxanthellae algae. (3)---- these protective microalgae, coral polyps starve and eventually calcify into brittle skeletons. (4)---- international greenhouse emissions are sharply curtailed, marine scientists fear that over ninety percent of the world's reefs will perish by mid-century. Marine conservationists are now breeding heat-resilient coral cultivars in laboratories (5)---- restore damaged coastal barriers.",
+    "questionText": "Parçada (1) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "for",
+      "D": "at",
+      "E": "from"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (1) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Parçadaki boşluk kalıplaşmış edat gerektirir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-157",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Coral Reef Conservation",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Tropical coral reefs support approximately twenty-five percent of all marine species, making them vital (1)---- global oceanic biodiversity. However, rising sea surface temperatures caused by climate change trigger widespread coral bleaching, a process (2)---- corals expel their symbiotic zooxanthellae algae. (3)---- these protective microalgae, coral polyps starve and eventually calcify into brittle skeletons. (4)---- international greenhouse emissions are sharply curtailed, marine scientists fear that over ninety percent of the world's reefs will perish by mid-century. Marine conservationists are now breeding heat-resilient coral cultivars in laboratories (5)---- restore damaged coastal barriers.",
+    "questionText": "Parçada (2) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "which",
+      "B": "where",
+      "C": "whose",
+      "D": "whom",
+      "E": "what"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (2) numaralı boşlukta 'which' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cansız ismi niteleyen doğru relative clause 'which' seçeneğidir.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-158",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Coral Reef Conservation",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Tropical coral reefs support approximately twenty-five percent of all marine species, making them vital (1)---- global oceanic biodiversity. However, rising sea surface temperatures caused by climate change trigger widespread coral bleaching, a process (2)---- corals expel their symbiotic zooxanthellae algae. (3)---- these protective microalgae, coral polyps starve and eventually calcify into brittle skeletons. (4)---- international greenhouse emissions are sharply curtailed, marine scientists fear that over ninety percent of the world's reefs will perish by mid-century. Marine conservationists are now breeding heat-resilient coral cultivars in laboratories (5)---- restore damaged coastal barriers.",
+    "questionText": "Parçada (3) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Although",
+      "B": "Because",
+      "C": "Unless",
+      "D": "In case",
+      "E": "Provided that"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (3) numaralı boşlukta 'Although' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "İki yargı arasındaki mantıksal zıtlık veya neden bağı 'A' seçeneğindeki bağlaçla kurulur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-159",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Coral Reef Conservation",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Tropical coral reefs support approximately twenty-five percent of all marine species, making them vital (1)---- global oceanic biodiversity. However, rising sea surface temperatures caused by climate change trigger widespread coral bleaching, a process (2)---- corals expel their symbiotic zooxanthellae algae. (3)---- these protective microalgae, coral polyps starve and eventually calcify into brittle skeletons. (4)---- international greenhouse emissions are sharply curtailed, marine scientists fear that over ninety percent of the world's reefs will perish by mid-century. Marine conservationists are now breeding heat-resilient coral cultivars in laboratories (5)---- restore damaged coastal barriers.",
+    "questionText": "Parçada (4) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "Unless",
+      "B": "Moreover",
+      "C": "Therefore",
+      "D": "However",
+      "E": "Otherwise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (4) numaralı boşlukta 'Unless' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Cümle başı bağlacı doğru şart veya sebep-sonuç ilişkisini kurar.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
+  },
+  {
+    "id": "yds-cloze-test-160",
+    "topicId": "cloze-test",
+    "topicTitle": "Cloze Test (Paragraf Boşluk Doldurma)",
+    "subTopic": "Coral Reef Conservation",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Cloze Test Havuzu",
+    "passage": "Tropical coral reefs support approximately twenty-five percent of all marine species, making them vital (1)---- global oceanic biodiversity. However, rising sea surface temperatures caused by climate change trigger widespread coral bleaching, a process (2)---- corals expel their symbiotic zooxanthellae algae. (3)---- these protective microalgae, coral polyps starve and eventually calcify into brittle skeletons. (4)---- international greenhouse emissions are sharply curtailed, marine scientists fear that over ninety percent of the world's reefs will perish by mid-century. Marine conservationists are now breeding heat-resilient coral cultivars in laboratories (5)---- restore damaged coastal barriers.",
+    "questionText": "Parçada (5) numaralı boşluğa gelebilecek en uygun ifadeyi bulunuz.",
+    "options": {
+      "A": "to",
+      "B": "for",
+      "C": "in",
+      "D": "by",
+      "E": "with"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki (5) numaralı boşlukta 'to' kullanımı hem gramer hem de akademik bağlam açısından doğrudur.",
+      "detailedReason": "Amaç bildiren 'to + V1' yapısı boşluğa tam oturur.",
+      "distractorAnalysis": "Diğer seçeneklerdeki kelimeler parçanın ana akışını, zaman çizelgesini veya edat yapısını bozar.",
+      "vocabularyNotes": [
+        {
+          "word": "academic context",
+          "meaning": "paragraf bağlamı"
+        }
+      ],
+      "tacticalTip": "Cloze testlerde boşluğun öncesindeki fiil ve edat kombinasyonunu (collocation) dikkatle inceleyin."
+    }
   }
 ]

@@ -2248,5 +2248,2255 @@
       ],
       "tacticalTip": "Diyaloğun boşluktan sonraki cümlesinde bir kabul ('Certainly', 'Sure') veya ret varsa, boşluk bir rica veya teklif olmalıdır."
     }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-076",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Akademik ve Profesyonel İletişim",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Diyalog Formatı",
+    "passage": null,
+    "questionText": "Dr. Evans : Have you reviewed the laboratory results from the second phase of the clinical trial?\nDr. Morales : Yes, I have. The experimental compound seems to reduce neuroinflammation significantly.\nDr. Evans : ----\nDr. Morales : Exactly. That is why we must proceed with caution before seeking regulatory approval.",
+    "options": {
+      "A": "However, we cannot overlook the severe gastrointestinal side effects reported by nearly twenty percent of the cohort.",
+      "B": "I believe the treatment is completely harmless and requires no further clinical testing.",
+      "C": "Why would anyone want to continue researching such an ineffective compound?",
+      "D": "The pharmaceutical board has already authorized commercial production across all hospitals.",
+      "E": "We should immediately publish these preliminary findings without conducting any statistical verification."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonraki konuşmacının verdiği tepki doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Morales'in 'Exactly. That is why we must proceed with caution' (Aynen öyle, bu yüzden tedbirle ilerlemeliyiz) yanıtı, Dr. Evans'ın bir yan etki veya riskten (yan etkilerden) bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler karşıdaki konuşmacının onaylayan veya tedbir tavsiye eden sözleriyle mantıksal olarak çelişir.",
+      "vocabularyNotes": [
+        {
+          "word": "dialogue context",
+          "meaning": "karşılıklı konuşma bağlamı"
+        }
+      ],
+      "tacticalTip": "Boşluktan HEMEN SONRAKİ replik anahtardır: Dr. Morales 'tedbirli olmalıyız' dediğine göre, Dr. Evans endişe verici bir durum/yan etki dile getirmiştir."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-077",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Akademik ve Profesyonel İletişim",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Diyalog Formatı",
+    "passage": null,
+    "questionText": "Sarah : Did you know that the municipal council plans to replace the central downtown parking lot with a pedestrianized green park?\nMark : Yes, but aren't local shop owners protesting against the decision?\nSarah : ----\nMark : That makes sense. Improved foot traffic usually boosts retail sales in the long run.",
+    "options": {
+      "A": "Some were initially worried, but city planners presented studies showing that pedestrian zones actually increase customer footfall.",
+      "B": "Yes, all the shop owners have decided to permanently shut down their retail stores.",
+      "C": "I think the mayor should cancel the green park project entirely to avoid controversy.",
+      "D": "Automobile traffic in the city center has completely ceased due to high fuel prices.",
+      "E": "Nobody in the neighborhood cares about parks or environmental green spaces."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalog akışında boşluktan sonraki konuşmacının verdiği tepki doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Mark'ın 'That makes sense. Improved foot traffic usually boosts retail sales' (Bu mantıklı, artan yaya trafiği uzun vadede satışları artırır) demesi, Sarah'nın yaya bölgelerinin esnafa faydasını anlatan bir çalışma aktardığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler karşıdaki konuşmacının onaylayan veya tedbir tavsiye eden sözleriyle mantıksal olarak çelişir.",
+      "vocabularyNotes": [
+        {
+          "word": "dialogue context",
+          "meaning": "karşılıklı konuşma bağlamı"
+        }
+      ],
+      "tacticalTip": "Mark'ın 'That makes sense... foot traffic boosts sales' yanıtı doğrudan Sarah'nın esnafın endişesini gideren argümanına dayanır."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-078",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-079",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-080",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-081",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-082",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-083",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-084",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-085",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-086",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-087",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-088",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-089",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-090",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-091",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-092",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-093",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-094",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-095",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-096",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-097",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-098",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-099",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-100",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-101",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-102",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-103",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-104",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-105",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-106",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-107",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-108",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-109",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-110",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-111",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-112",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-113",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-114",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-115",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-116",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-117",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-118",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-119",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-120",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-121",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-122",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-123",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-124",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-125",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-126",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-127",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-128",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-129",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-130",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-131",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-132",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-133",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-134",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-135",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-136",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-137",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-138",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-139",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-140",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-141",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-142",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-143",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-144",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-145",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-146",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-147",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-148",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Professor Clark : I noticed you didn't include the statistical regression model in your dissertation draft.\nStudent : Well, I was uncertain whether the sample size was large enough to yield statistical significance.\nProfessor Clark : ----\nStudent : In that case, I will rerun the calculations and include the scatter plots as well.",
+    "options": {
+      "A": "With over five hundred respondents, your dataset is more than sufficient to generate reliable confidence intervals.",
+      "B": "You are right, we should abandon the empirical research completely and rely only on theory.",
+      "C": "Statistics has never been useful in sociological studies anyway.",
+      "D": "I advise you to delete all your raw survey data immediately.",
+      "E": "The academic committee does not care about statistical methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Öğrencinin 'In that case, I will rerun...' yanıtı, profesörün örneklemin yeterli olduğunu onayladığını gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-149",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Emma : Are you planning to attend the international symposium on renewable marine energy next month?\nLiam : I would love to, but the conference registration fees are quite steep for doctoral students.\nEmma : ----\nLiam : Really? I had no idea. I will submit an application for that grant right away.",
+    "options": {
+      "A": "The organizing committee actually offers travel grants and fee waivers for early-career researchers who present a poster.",
+      "B": "You should borrow money from a commercial bank to pay the full conference fee.",
+      "C": "I think the symposium will be canceled anyway due to budget cuts.",
+      "D": "Most international conferences refuse to accept papers written by doctoral students.",
+      "E": "It is much better to stay at home and read the conference proceedings next year."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Liam'ın 'I had no idea. I will submit an application for that grant right away' (Haberim yoktu, hemen bursa başvuracağım) yanıtı Emma'nın burs imkanından bahsettiğini gösterir.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
+  },
+  {
+    "id": "yds-diyalog-tamamlama-150",
+    "topicId": "diyalog-tamamlama",
+    "topicTitle": "Diyalog Tamamlama (Dialogue Completion)",
+    "subTopic": "Bağlamsal Konuşma Analizi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Diyalog Havuzu",
+    "passage": null,
+    "questionText": "Dr. Thorne : The radiocarbon dating results from the subterranean cave were quite surprising.\nDr. Vance : In what way? Were the artifacts older than we anticipated?\nDr. Thorne : ----\nDr. Vance : Incredible! That pushes back human habitation in this valley by nearly four thousand years.",
+    "options": {
+      "A": "Yes, the charcoal residues date back to approximately twelve thousand BCE rather than eight thousand.",
+      "B": "No, they proved to be modern plastic fragments left by tourists last summer.",
+      "C": "The laboratory was unable to date any of the organic materials we sent.",
+      "D": "The artifacts belong to a nineteenth-century mining expedition.",
+      "E": "The radiometric instruments malfunctioned and gave inconsistent readings."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Diyalogda boşluktan hemen sonraki konuşmacının verdiği yanıt doğru seçeneği netleştirmektedir.",
+      "detailedReason": "Dr. Vance'in 'Incredible! That pushes back human habitation... by four thousand years' tepkisi kalıntıların beklenenden çok daha eski çıktığını kanıtlar.",
+      "distractorAnalysis": "Diğer seçenekler diyaloğun akışına ve konuşmacının son tepkisine uygun düşmemektedir.",
+      "vocabularyNotes": [
+        {
+          "word": "conversational flow",
+          "meaning": "konuşma akışı ve mantık"
+        }
+      ],
+      "tacticalTip": "Diyalog sorularında boşluğun HEMEN ARKASINDAN gelen repliği çok iyi analiz edin."
+    }
   }
 ]

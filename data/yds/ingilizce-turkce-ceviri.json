@@ -2398,5 +2398,2405 @@
       ],
       "tacticalTip": "İngilizce cümlenin ana yüklemini bulun ve seçeneklerin son kelimeleriyle karşılaştırın; 3 şık genellikle saniyeler içinde elenir."
     }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-081",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "The discovery of extremophile bacteria living in deep subterranean aquifers demonstrates that life can flourish in environments previously deemed utterly uninhabitable.",
+    "options": {
+      "A": "Derin yer altı akiferlerinde yaşayan ekstremofil bakterilerin keşfi, yaşamın daha önce tamamen yaşanılamaz kabul edilen ortamlarda gelişebileceğini göstermektedir.",
+      "B": "Daha önce yaşanılamaz kabul edilen derin yer altı akiferleri, ekstremofil bakterilerin keşfedilmesiyle yaşanabilir hale getirilmiştir.",
+      "C": "Yaşamın tamamen yaşanılamaz ortamlarda gelişebilmesi, yer altı akiferlerinde yaşayan ekstremofil bakterilerin araştırılmasına bağlıdır.",
+      "D": "Ekstremofil bakteriler derin yer altı akiferlerinde keşfedilse de bilim insanları bu ortamların yaşama uygun olmadığını savunmaktadır.",
+      "E": "Derin yer altı akiferlerinde yaşamın gelişebildiğini kanıtlamak amacıyla ekstremofil bakteriler üzerinde araştırmalar yapılmaktadır."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Derin yer altı akiferlerinde yaşayan ekstremofil bakterilerin keşfi, yaşamın daha önce tamamen yaşanılamaz kabul edilen ortamlarda gelişebileceğini göstermektedir.",
+      "detailedReason": "Ana fiil 'demonstrates that' (göstermektedir) ve özne 'The discovery of extremophile bacteria...' (ekstremofil bakterilerin keşfi) yapısıdır.",
+      "distractorAnalysis": "Çeldiricilerde ana cümlenin öznesi ile yan cümlenin yüklemi yer değiştirmiş veya bağlaç anlamı çarpıtılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The discovery of extremophile bacte...",
+          "meaning": "Temel İngilizce önerme"
+        }
+      ],
+      "tacticalTip": "Yüklem olan 'göstermektedir' ifadesini ve özne olan 'keşfi' sözcüğünü tespit ederek seçenekleri eleyin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-082",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "Although quantum computing promises to solve complex molecular simulations exponentially faster than classical supercomputers, building fault-tolerant hardware remains a formidable hurdle.",
+    "options": {
+      "A": "Karmaşık moleküler simülasyonları süper bilgisayarlardan daha hızlı çözebilen kuantum hesaplama, hataya dayanıklı donanımların inşasını zorlaştırmaktadır.",
+      "B": "Kuantum hesaplama karmaşık moleküler simülasyonları klasik süper bilgisayarlardan kat kat daha hızlı çözmeyi vaat etse de, hataya dayanıklı donanım inşa etmek zorlu bir engel olmaya devam etmektedir.",
+      "C": "Kuantum hesaplamada hataya dayanıklı donanımlar üretilmedikçe moleküler simülasyonların süper bilgisayarlardan hızlı çözülmesi mümkün değildir.",
+      "D": "Klasik süper bilgisayarların çözemediği moleküler simülasyonlar, kuantum hesaplama donanımlarının geliştirilmesiyle tamamen ortadan kalkacaktır.",
+      "E": "Hataya dayanıklı kuantum donanımlarının inşasındaki zorluklar, süper bilgisayarların moleküler simülasyonlardaki hızını geride bırakmasını engeller."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Kuantum hesaplama karmaşık moleküler simülasyonları klasik süper bilgisayarlardan kat kat daha hızlı çözmeyi vaat etse de, hataya dayanıklı donanım inşa etmek zorlu bir engel olmaya devam etmektedir.",
+      "detailedReason": "'Although' bağlacı Türkçeye '-se de / -mesine rağmen' olarak aktarılır. Ana yüklem 'remains a formidable hurdle' (zorlu bir engel olmaya devam etmektedir).",
+      "distractorAnalysis": "Çeldiricilerde ana cümlenin öznesi ile yan cümlenin yüklemi yer değiştirmiş veya bağlaç anlamı çarpıtılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Although quantum computing promises...",
+          "meaning": "Temel İngilizce önerme"
+        }
+      ],
+      "tacticalTip": "Zıtlık bağlacı (Although) ve cümlenin sonundaki ana yüklem (devam etmektedir) doğru seçeneği verir."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-083",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "Marine biologists emphasize that the acidification of ocean surface waters directly impairs the ability of calcifying organisms to build protective shells and skeletons.",
+    "options": {
+      "A": "Okyanus sularındaki asitlenme kireçlenen canlıların iskelet inşa etmesini zayıflattığı için deniz biyologları araştırmalarını yoğunlaştırmıştır.",
+      "B": "Kireçlenen canlıların koruyucu kabuk inşa etme yeteneğinin zayıflaması, deniz biyologlarına göre okyanus yüzey sularındaki asitlenmenin tek sonucudur.",
+      "C": "Deniz biyologları, okyanus yüzey sularının asitlenmesinin kireçlenen canlıların koruyucu kabuk ve iskeletler inşa etme yeteneğini doğrudan zayıflattığını vurgulamaktadır.",
+      "D": "Deniz biyologlarının vurguladığı gibi, okyanus yüzey sularının asitlenmesi durumunda kabuklu canlılar iskeletlerini tamamen kaybedecektir.",
+      "E": "Okyanus suları asitlendikçe koruyucu kabuk ve iskelet inşa edemeyen kireçlenen canlılar deniz biyologlarının dikkatini çekmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Deniz biyologları, okyanus yüzey sularının asitlenmesinin kireçlenen canlıların koruyucu kabuk ve iskeletler inşa etme yeteneğini doğrudan zayıflattığını vurgulamaktadır.",
+      "detailedReason": "Ana fiil 'emphasize that' (vurgulamaktadır) ve yan cümlenin fiili 'directly impairs' (doğrudan zayıflatmaktadır / engellemektedir).",
+      "distractorAnalysis": "Çeldiricilerde ana cümlenin öznesi ile yan cümlenin yüklemi yer değiştirmiş veya bağlaç anlamı çarpıtılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Marine biologists emphasize that th...",
+          "meaning": "Temel İngilizce önerme"
+        }
+      ],
+      "tacticalTip": "Önce cümlenin yüklemine ('vurgulamaktadır') odaklanarak şıkları doğrudan ikiye indirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-084",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "The widespread implementation of digital sensor networks across agricultural fields enables farmers to optimize irrigation schedules while drastically conserving freshwater reserves.",
+    "options": {
+      "A": "Çiftçilerin sulama takvimlerini optimize etmeleri ve tatlı su rezervlerini korumaları, dijital sensör ağlarının tarımda yaygınlaşmasına bağlıdır.",
+      "B": "Tarım arazilerinde sensör ağları kurulsa bile çiftçilerin tatlı su rezervlerini korumak için sulama takvimlerini değiştirmeleri gerekmektedir.",
+      "C": "Tatlı su rezervlerini korumak amacıyla tarım arazilerine kurulan dijital sensör ağları, çiftçilere sulama takvimlerini optimize etme zorunluluğu getirir.",
+      "D": "Tarım arazilerinde dijital sensör ağlarının yaygın şekilde uygulanması, çiftçilerin tatlı su rezervlerini büyük oranda korurken sulama takvimlerini optimize etmelerini sağlamaktadır.",
+      "E": "Çiftçiler sulama takvimlerini optimize ettikçe tarım arazilerindeki dijital sensör ağları tatlı su rezervlerini daha verimli korumaktadır."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Tarım arazilerinde dijital sensör ağlarının yaygın şekilde uygulanması, çiftçilerin tatlı su rezervlerini büyük oranda korurken sulama takvimlerini optimize etmelerini sağlamaktadır.",
+      "detailedReason": "Ana özne 'The widespread implementation...' (yaygın şekilde uygulanması), ana yüklem 'enables farmers to optimize...' (optimize etmelerini sağlamaktadır).",
+      "distractorAnalysis": "Çeldiricilerde ana cümlenin öznesi ile yan cümlenin yüklemi yer değiştirmiş veya bağlaç anlamı çarpıtılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The widespread implementation of di...",
+          "meaning": "Temel İngilizce önerme"
+        }
+      ],
+      "tacticalTip": "'Enables' yüklemi Türkçede 'sağlamaktadır / olanak tanımaktadır' olarak karşılık bulmalıdır."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-085",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-086",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-087",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-088",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-089",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-090",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-091",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-092",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-093",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-094",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-095",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-096",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-097",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-098",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-099",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-100",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-101",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-102",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-103",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-104",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-105",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-106",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-107",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-108",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-109",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-110",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-111",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-112",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-113",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-114",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-115",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-116",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-117",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-118",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-119",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-120",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-121",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-122",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-123",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-124",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-125",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-126",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-127",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-128",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-129",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-130",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-131",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-132",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-133",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-134",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-135",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-136",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-137",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-138",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-139",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-140",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-141",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-142",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-143",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-144",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-145",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-146",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-147",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-148",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-149",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-150",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-151",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-152",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-153",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-154",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-155",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-156",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "The systematic reforestation of arid regions not only mitigates regional desertification, but it also creates essential habitats for endangered species.",
+    "options": {
+      "A": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "B": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da kısıtlar.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Kurak bölgelerin sistematik biçimde yeniden ağaçlandırılması, yalnızca bölgesel çölleşmeyi hafifletmekle kalmaz, aynı zamanda nesli tehlike altındaki türler için temel yaşam alanları da oluşturur.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-157",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Archaeologists analyzing isotopic ratios in human teeth found at ancient settlements can reconstruct the migration routes and dietary patterns of prehistoric populations.",
+    "options": {
+      "A": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Antik yerleşimlerde bulunan insan dişlerindeki izotopik oranları analiz eden arkeologlar, tarih öncesi toplulukların göç yollarını ve beslenme modellerini yeniden kurgulayabilmektedir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-158",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Neuroscientists have demonstrated that sustained mindfulness meditation practice physically alters cortical thickness in brain regions associated with emotional self-regulation.",
+    "options": {
+      "A": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini tartışmaya açmışlardır.",
+      "B": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "C": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Sinirbilimciler, sürekli yapılan bilinçli farkındalık meditasyonu uygulamasının beynin duygusal öz düzenleme ile ilişkili bölgelerindeki kortikal kalınlığı fiziksel olarak değiştirdiğini kanıtlamışlardır.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-159",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar panels installed across arid deserts can produce enormous amounts of clean electricity, provided that efficient energy transmission grids are constructed.",
+    "options": {
+      "A": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "D": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir.",
+      "E": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Verimli enerji iletim şebekeleri inşa edildiği takdirde, kurak çöller boyunca kurulan yenilenebilir güneş panelleri muazzam miktarda temiz elektrik üretebilir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
+  },
+  {
+    "id": "yds-ingilizce-turkce-ceviri-160",
+    "topicId": "ingilizce-turkce-ceviri",
+    "topicTitle": "İngilizce - Türkçe Çeviri (Translation EN-TR)",
+    "subTopic": "Cümle Çeviri Stratejisi",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Unless international shipping regulations enforce strict carbon reduction targets, maritime freight emissions will continue to rise dramatically over the coming decades.",
+    "options": {
+      "A": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "B": "Bilim insanları bu araştırmayı yürüttüklerinde beklenen sonuçların elde edilemediği anlaşılmıştır.",
+      "C": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "D": "Uluslararası kuruluşlar tarafından kabul edilen yeni ilkeler doğrultusunda bu süreç durdurulmuştur.",
+      "E": "Bölgesel gelişmeler dikkate alındığında söz konusu varsayımın geçerliliğini yitirdiği görülmektedir."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Uluslararası denizcilik düzenlemeleri katı karbon azaltım hedeflerini zorunlu kılmadıkça, deniz taşımacılığı emisyonları önümüzdeki on yıllarda çarpıcı biçimde artmaya devam edecektir.",
+      "detailedReason": "İngilizce cümlenin ana öznesi ve yüklemi Türkçede tam karşılığını doğru seçenekte bulmuştur.",
+      "distractorAnalysis": "Çeldirici seçeneklerde cümlenin ana fiilinin zamanı veya etken/edilgen çatısı yanlış çevrilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "translation accuracy",
+          "meaning": "birebir yüklem ve özne uyumu"
+        }
+      ],
+      "tacticalTip": "İngilizce cümlenin ana fiilini bulun ve Türkçe cümlenin sonundaki yüklemle eşleştirin."
+    }
   }
 ]

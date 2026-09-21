@@ -7,7 +7,7 @@
     "icon": "BookOpen",
     "color": "indigo",
     "badge": "İlk 6 Soru",
-    "targetCount": 100,
+    "targetCount": 200,
     "totalInRealExam": 6,
     "order": 1,
     "description": "YDS'nin ilk 6 sorusunda çıkan İsimler, Fiiller, Sıfatlar, Zarflar ve Phrasal Verbs (Deyimsel Fiiller). Akademik metinlerde en sık geçen ÖSYM kelimeleri.",
@@ -22,7 +22,7 @@
       "İlk akla gelen yaygın anlamı düşünmek; YDS genellikle kelimenin akademik yan anlamlarını sorar.",
       "Edat uyumunu kontrol etmeden sadece anlama göre karar vermek."
     ],
-    "questionCount": 100
+    "questionCount": 200
   },
   {
     "id": "gramer",
@@ -32,7 +32,7 @@
     "icon": "Layers",
     "color": "purple",
     "badge": "Tenses & Bağlaçlar",
-    "targetCount": 120,
+    "targetCount": 240,
     "totalInRealExam": 10,
     "order": 2,
     "description": "Zaman uyumu (Tenses), Kiplikler (Modals), Pasif ve Ettirgen Çatı, Edatlar ve YDS'nin kalbi olan Zıtlık, Sebep-Sonuç ve Şart Bağlaçları.",
@@ -47,7 +47,7 @@
       "Geçmiş zaman ipucu olmadan Past Perfect (had V3) seçmek.",
       "'Although' ile 'Because' arasındaki zıtlık/sebep ayrımını kaçırmak."
     ],
-    "questionCount": 120
+    "questionCount": 240
   },
   {
     "id": "cloze-test",
@@ -56,7 +56,7 @@
     "icon": "FileSpreadsheet",
     "color": "emerald",
     "badge": "10 Soru / 2 Metin",
-    "targetCount": 80,
+    "targetCount": 160,
     "totalInRealExam": 10,
     "order": 3,
     "description": "İki akademik parça içinde beşer adet boşluğun kelime, edat, bağlaç ve gramer bilgisiyle bağlam içerisinde tamamlanması.",
@@ -69,7 +69,7 @@
     "frequentMistakes": [
       "Sadece boşluğun olduğu cümleyi okuyup metnin genel bağlamını göz ardı etmek."
     ],
-    "questionCount": 80
+    "questionCount": 160
   },
   {
     "id": "cumle-tamamlama",
@@ -78,7 +78,7 @@
     "icon": "Sparkles",
     "color": "amber",
     "badge": "10 Soru / Stratejik",
-    "targetCount": 120,
+    "targetCount": 240,
     "totalInRealExam": 10,
     "order": 4,
     "description": "Yan cümle veya ana cümlesi eksik bırakılan ifadeleri mantık, zaman uyumu, özne-zamir takibi ve bağlaç ilişkisiyle tamamlama.",
@@ -91,7 +91,7 @@
     "frequentMistakes": [
       "Anlamı güzel gelen ancak öznesi veya zamanı soru köküyle çelişen şıkka düşmek."
     ],
-    "questionCount": 120
+    "questionCount": 240
   },
   {
     "id": "ingilizce-turkce-ceviri",
@@ -100,7 +100,7 @@
     "icon": "Languages",
     "color": "cyan",
     "badge": "En Kolay Netler (3 Soru)",
-    "targetCount": 80,
+    "targetCount": 160,
     "totalInRealExam": 3,
     "order": 5,
     "description": "İngilizce cümlenin yüklemini ve ana öznesini tespit ederek Türkçe karşılığına 15 saniyede ulaşma teknikleri.",
@@ -113,7 +113,7 @@
     "frequentMistakes": [
       "Tüm paragrafı tek tek kelime kelime çevirmeye çalışarak vakit kaybetmek."
     ],
-    "questionCount": 80
+    "questionCount": 160
   },
   {
     "id": "turkce-ingilizce-ceviri",
@@ -122,7 +122,7 @@
     "icon": "ArrowRightLeft",
     "color": "teal",
     "badge": "Hatasız Yüklem Tespiti",
-    "targetCount": 80,
+    "targetCount": 160,
     "totalInRealExam": 3,
     "order": 6,
     "description": "Türkçe cümlenin sonundaki ana yüklemi ve özneyi İngilizce dilbilgisi kurallarıyla eşleştirip çeldiricileri eleme.",
@@ -134,7 +134,7 @@
     "frequentMistakes": [
       "Aktif ve pasif yapıları karıştırmak (ör. 'geliştirildi' -> was developed, 'geliştirdi' -> developed)."
     ],
-    "questionCount": 80
+    "questionCount": 160
   },
   {
     "id": "paragraf-okuma-anlama",
@@ -143,7 +143,7 @@
     "icon": "GraduationCap",
     "color": "blue",
     "badge": "20 Soru / Sınavın %25'i",
-    "targetCount": 120,
+    "targetCount": 240,
     "totalInRealExam": 20,
     "order": 7,
     "description": "Bilim, tarih, sağlık, teknoloji ve sanat metinlerinde ana fikir, detay, yazar tutumu ve çıkarım soruları.",
@@ -156,7 +156,7 @@
     "frequentMistakes": [
       "Parçada geçmeyen ancak genel dünyada doğru olan bir bilgiyi doğru şık sanmak."
     ],
-    "questionCount": 120
+    "questionCount": 240
   },
   {
     "id": "diyalog-tamamlama",
@@ -165,7 +165,7 @@
     "icon": "MessageSquare",
     "color": "rose",
     "badge": "5 Soru / İletişim",
-    "targetCount": 75,
+    "targetCount": 150,
     "totalInRealExam": 5,
     "order": 8,
     "description": "İki kişi arasındaki konuşmada boşluğun hemen öncesi ve sonrasındaki tepki, duygu durumu, soru-cevap ve nezaket uyumu.",
@@ -177,7 +177,7 @@
     "frequentMistakes": [
       "Boşluktan sonraki kişinin tepkisini okumadan önceki cümleye göre karar vermek."
     ],
-    "questionCount": 75
+    "questionCount": 150
   },
   {
     "id": "es-anlam-restatement",
@@ -186,7 +186,7 @@
     "icon": "Repeat",
     "color": "violet",
     "badge": "4 Soru / Eş Anlam",
-    "targetCount": 75,
+    "targetCount": 150,
     "totalInRealExam": 4,
     "order": 9,
     "description": "Cümlenin özünü, bağlaçlarını ve kesinlik derecesini değiştirmeden farklı yapılarla yeniden ifade etme.",
@@ -198,7 +198,7 @@
     "frequentMistakes": [
       "Kelime benzerliğine aldanıp anlamda fazlalık veya eksiklik olan şıkkı seçmek."
     ],
-    "questionCount": 75
+    "questionCount": 150
   },
   {
     "id": "paragraf-tamamlama",
@@ -207,7 +207,7 @@
     "icon": "FileText",
     "color": "orange",
     "badge": "4 Soru / Akış",
-    "targetCount": 75,
+    "targetCount": 150,
     "totalInRealExam": 4,
     "order": 10,
     "description": "Paragrafın akışını bozan boşluğa konu gelişimi, kronoloji ve zamir referanslarıyla tam oturan ifadeyi yerleştirme.",
@@ -219,7 +219,7 @@
     "frequentMistakes": [
       "Paragrafın genel konusuyla ilgili olan ama tam o boşluğa akış olarak oturmayan cümleyi seçmek."
     ],
-    "questionCount": 75
+    "questionCount": 150
   },
   {
     "id": "anlami-bozan-cumle",
@@ -228,7 +228,7 @@
     "icon": "FilterX",
     "color": "red",
     "badge": "Son 5 Soru",
-    "targetCount": 75,
+    "targetCount": 150,
     "totalInRealExam": 5,
     "order": 11,
     "description": "Numaralandırılmış 5 cümleden konunun odağına, zaman dilimine veya anlatım akışına uymayan aykırı cümleyi eleme.",
@@ -240,6 +240,6 @@
     "frequentMistakes": [
       "Sadece aynı kelime geçiyor diye alakasız cümleyi doğru kabul etmek."
     ],
-    "questionCount": 75
+    "questionCount": 150
   }
 ]

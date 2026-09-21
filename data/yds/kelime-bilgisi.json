@@ -3094,5 +3094,3145 @@
       ],
       "tacticalTip": "Soru kökündeki sıfat-isim tamlamalarına ve niteleyen zarflara dikkat ederek kelimenin pozitif/negatif yönünü tespit edin."
     }
+  },
+  {
+    "id": "yds-kelime-bilgisi-101",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The lead researcher presented forensic data in order to ---- the hypothesis that climate fluctuations caused the Bronze Age collapse.",
+    "options": {
+      "A": "substantiate",
+      "B": "diminish",
+      "C": "fabricate",
+      "D": "reiterate",
+      "E": "contemplate"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'substantiate' sözcüğü 'somut kanıtlarla doğrulamak, kanıtlamak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Adli tıp ve iklim verileri sunularak hipotezin somut kanıtlarla doğrulanması (substantiate) amaçlanmaktadır.",
+      "distractorAnalysis": "B) diminish: azaltmak; C) fabricate: uydurmak; D) reiterate: yinelemek; E) contemplate: düşünüp taşınmak.",
+      "vocabularyNotes": [
+        {
+          "word": "substantiate",
+          "meaning": "somut delillerle doğrulamak"
+        },
+        {
+          "word": "hypothesis",
+          "meaning": "varsayım, hipotez"
+        }
+      ],
+      "tacticalTip": "Akademik metinlerde hipotez ve tezlerin 'kanıtlanması' için en sık 'substantiate, verify, validate' kullanılır."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-102",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Strict international sanctions were imposed on the rogue regime to ---- it from conducting further ballistic missile tests.",
+    "options": {
+      "A": "deter",
+      "B": "encourage",
+      "C": "facilitate",
+      "D": "accelerate",
+      "E": "stimulate"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'deter' sözcüğü 'caydırıcı olmak, vazgeçirmek, engellemek' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Uluslararası yaptırımlar başka füze denemeleri yapılmasını engellemek, caydırmak (deter) amacıyla uygulanmıştır.",
+      "distractorAnalysis": "B) encourage: teşvik etmek; C) facilitate: kolaylaştırmak; D) accelerate: hızlandırmak; E) stimulate: uyarmak.",
+      "vocabularyNotes": [
+        {
+          "word": "deter",
+          "meaning": "caydırmak, engel olmak"
+        },
+        {
+          "word": "sanction",
+          "meaning": "yaptırım"
+        }
+      ],
+      "tacticalTip": "'Deter somebody from doing something' kalıbı 'from' edatıyla birlikte vazgeçirme/caydırma bildirir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-103",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Novel pain management protocols aim to ---- chronic musculoskeletal discomfort without relying exclusively on addictive opioids.",
+    "options": {
+      "A": "alleviate",
+      "B": "intensify",
+      "C": "aggravate",
+      "D": "provoke",
+      "E": "trigger"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'alleviate' sözcüğü 'hafifletmek, dindirmek, yatıştırmak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Yeni ağrı yönetim protokolleri, bağımlılık yapıcı opioidlere dayanmadan kas-iskelet rahatsızlığını hafifletmeyi (alleviate) amaçlamaktadır.",
+      "distractorAnalysis": "B) intensify: şiddetlendirmek; C) aggravate: kötüleştirmek; D) provoke: kışkırtmak; E) trigger: tetiklemek.",
+      "vocabularyNotes": [
+        {
+          "word": "alleviate",
+          "meaning": "hafifletmek, yatıştırmak"
+        },
+        {
+          "word": "discomfort",
+          "meaning": "rahatsızlık, ağrı"
+        }
+      ],
+      "tacticalTip": "Ağrı (pain), yoksulluk (poverty) ve semptomları hafifletmek için 'alleviate, relieve, soothe, ease' sözcükleri gelir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-104",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Failing to secure adequate ecological permits could seriously ---- the entire timeline and financing of the offshore wind project.",
+    "options": {
+      "A": "jeopardise",
+      "B": "guarantee",
+      "C": "foster",
+      "D": "endorse",
+      "E": "strengthen"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'jeopardise' sözcüğü 'tehlikeye atmak, riske sokmak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Yeterli ekolojik izinlerin alınamaması, rüzgâr projesinin tüm takvimini ve finansmanını ciddi şekilde tehlikeye sokabilir (jeopardise).",
+      "distractorAnalysis": "B) guarantee: garanti etmek; C) foster: geliştirmek; D) endorse: onaylamak; E) strengthen: güçlendirmek.",
+      "vocabularyNotes": [
+        {
+          "word": "jeopardise",
+          "meaning": "tehlikeye atmak"
+        },
+        {
+          "word": "permit",
+          "meaning": "ruhsat, resmi izin"
+        }
+      ],
+      "tacticalTip": "Projeleri, kariyeri veya geleceği riske atmak bağlamında 'jeopardise / endanger / compromise' aranır."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-105",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The empirical experiments conducted at CERN served to conclusively ---- earlier theoretical models that predicted faster-than-light particles.",
+    "options": {
+      "A": "refute",
+      "B": "corroborate",
+      "C": "substantiate",
+      "D": "advocate",
+      "E": "justify"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'refute' sözcüğü 'çürütmek, aksini ispatlamak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "CERN'de yürütülen deneysel çalışmalar, ışıktan hızlı parçacıklar öngören önceki teorik modelleri kesin olarak çürütmüştür (refute).",
+      "distractorAnalysis": "B) corroborate: teyit etmek; C) substantiate: doğrulamak; D) advocate: savunmak; E) justify: haklı çıkarmak.",
+      "vocabularyNotes": [
+        {
+          "word": "refute",
+          "meaning": "çürütmek, aksini ispatlamak"
+        },
+        {
+          "word": "conclusively",
+          "meaning": "kesin olarak"
+        }
+      ],
+      "tacticalTip": "Teori, iddia veya hipotezlerin yanlışlığını ortaya koyarken 'refute, disprove, debunk' tercih edilir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-106",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Widespread corruption within the financial sector continues to ---- public confidence in governmental regulatory agencies.",
+    "options": {
+      "A": "undermine",
+      "B": "reinforce",
+      "C": "boost",
+      "D": "sustain",
+      "E": "bolster"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'undermine' sözcüğü 'baltalamak, temelini sarsmak, zayıflatmak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Finans sektöründeki yaygın yolsuzluk, halkın düzenleyici kamu kurumlarına duyduğu güveni baltalamaya (undermine) devam etmektedir.",
+      "distractorAnalysis": "B) reinforce: pekiştirmek; C) boost: artırmak; D) sustain: sürdürmek; E) bolster: desteklemek.",
+      "vocabularyNotes": [
+        {
+          "word": "undermine",
+          "meaning": "baltalamak, zayıflatmak"
+        },
+        {
+          "word": "confidence",
+          "meaning": "güven, itimat"
+        }
+      ],
+      "tacticalTip": "Güveni (trust/confidence), otoriteyi veya sağlığı yavaş yavaş aşındırıp zayıflatmak 'undermine' ile anlatılır."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-107",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Severe weather conditions in the mountain pass threatened to ---- the deployment of rescue equipment to the isolated village.",
+    "options": {
+      "A": "hinder",
+      "B": "promote",
+      "C": "stimulate",
+      "D": "facilitate",
+      "E": "accelerate"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'hinder' sözcüğü 'engellemek, aksatmak, güçleştirmek' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Dağ geçidindeki şiddetli hava koşulları, kurtarma ekipmanının izole köye sevk edilmesini engellemekle (hinder) tehdit etmiştir.",
+      "distractorAnalysis": "B) promote: teşvik etmek; C) stimulate: canlandırmak; D) facilitate: kolaylaştırmak; E) accelerate: hızlandırmak.",
+      "vocabularyNotes": [
+        {
+          "word": "hinder",
+          "meaning": "engellemek, mani olmak"
+        },
+        {
+          "word": "deployment",
+          "meaning": "konuşlandırma, sevk"
+        }
+      ],
+      "tacticalTip": "İlerlemeyi veya hareketi zorlaştıran etkenlerde 'hinder, impede, obstruct, hamper' eşanlamlıdır."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-108",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The hospital administration decided to hire temporary nursing staff to ---- its existing workforce during the peak flu season.",
+    "options": {
+      "A": "augment",
+      "B": "deplete",
+      "C": "restrict",
+      "D": "curb",
+      "E": "abbreviate"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'augment' sözcüğü 'çoğaltmak, artırmak, büyütmek' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Hastane yönetimi, grip salgınının zirve yaptığı dönemde mevcut iş gücünü artırmak / takviye etmek (augment) için geçici hemşireler istihdam etme kararı aldı.",
+      "distractorAnalysis": "B) deplete: tüketmek; C) restrict: kısıtlamak; D) curb: dizginlemek; E) abbreviate: kısaltmak.",
+      "vocabularyNotes": [
+        {
+          "word": "augment",
+          "meaning": "çoğaltmak, takviye etmek"
+        },
+        {
+          "word": "workforce",
+          "meaning": "iş gücü"
+        }
+      ],
+      "tacticalTip": "Mevcut geliri, gücü veya kapasiteyi ekleme yaparak büyütmek 'augment' fiiliyle ifade edilir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-109",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The company offered substantial financial bonuses to ---- employees for working extensive overtime during the critical system migration.",
+    "options": {
+      "A": "compensate",
+      "B": "penalise",
+      "C": "prohibit",
+      "D": "condemn",
+      "E": "blame"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'compensate' sözcüğü 'telafi etmek, tazmin etmek' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Şirket, kritik sistem geçişi sırasında fazla mesai yapan çalışanları telafi etmek / ödüllendirmek (compensate) için önemli mali primler sundu.",
+      "distractorAnalysis": "B) penalise: cezalandırmak; C) prohibit: yasaklamak; D) condemn: kınamak; E) blame: suçlamak.",
+      "vocabularyNotes": [
+        {
+          "word": "compensate",
+          "meaning": "telafi etmek, bedelini ödemek"
+        },
+        {
+          "word": "overtime",
+          "meaning": "fazla mesai"
+        }
+      ],
+      "tacticalTip": "'Compensate for' kalıbı eksikliği veya zahmeti telafi etmeyi ifade eder."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-110",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Years of dedicated agronomic trials have finally begun to ---- promising results regarding drought-resistant grain cultivation.",
+    "options": {
+      "A": "yield",
+      "B": "withhold",
+      "C": "conceal",
+      "D": "suppress",
+      "E": "reject"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'yield' sözcüğü 'sağlamak, ürün vermek; boyun eğmek' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Yıllar süren tarımsal denemeler nihayet kuraklığa dayanıklı tahıl yetiştiriciliği konusunda umut verici sonuçlar vermeye (yield) başlamıştır.",
+      "distractorAnalysis": "B) withhold: esirgemek; C) conceal: gizlemek; D) suppress: bastırmak; E) reject: reddetmek.",
+      "vocabularyNotes": [
+        {
+          "word": "yield",
+          "meaning": "sonuç/ürün vermek, sağlamak"
+        },
+        {
+          "word": "drought-resistant",
+          "meaning": "kuraklığa dayanıklı"
+        }
+      ],
+      "tacticalTip": "'Yield results / yield crop' bilimsel ve tarımsal araştırmalarda 'sonuç veya mahsul vermek' anlamına gelir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-111",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The Arctic region experienced an ---- heatwave that caused colossal ice melt at rates never recorded in modern meteorological history.",
+    "options": {
+      "A": "unprecedented",
+      "B": "customary",
+      "C": "negligible",
+      "D": "predictable",
+      "E": "mediocre"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'unprecedented' sözcüğü 'eşi benzeri görülmemiş, emsalsiz' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Kuzey Kutup bölgesi, modern meteoroloji tarihinde daha önce hiç kaydedilmemiş oranlarda devasa buz erimesine yol açan emsalsiz (unprecedented) bir sıcak hava dalgası yaşadı.",
+      "distractorAnalysis": "B) customary: alışılagelmiş; C) negligible: göz ardı edilebilir; D) predictable: öngörülebilir; E) mediocre: vasat.",
+      "vocabularyNotes": [
+        {
+          "word": "unprecedented",
+          "meaning": "eşi benzeri görülmemiş"
+        },
+        {
+          "word": "colossal",
+          "meaning": "muazzam, devasa"
+        }
+      ],
+      "tacticalTip": "'Rates never recorded before' ifadesi doğrudan 'unprecedented' (emsalsiz) sıfatını işaret eder."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-112",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Due to their underdeveloped immune systems, premature infants are particularly ---- to severe bacterial complications.",
+    "options": {
+      "A": "vulnerable",
+      "B": "immune",
+      "C": "resistant",
+      "D": "impervious",
+      "E": "indifferent"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'vulnerable' sözcüğü 'savunmasız, kırılgan, hassas' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Yetersiz gelişmiş bağışıklık sistemleri sebebiyle prematüre bebekler şiddetli bakteriyel komplikasyonlara karşı özellikle savunmasızdır (vulnerable).",
+      "distractorAnalysis": "B) immune: bağışık; C) resistant: dirençli; D) impervious: geçirimsiz, etkilenmez; E) indifferent: kayıtsız.",
+      "vocabularyNotes": [
+        {
+          "word": "vulnerable",
+          "meaning": "savunmasız, hassas"
+        },
+        {
+          "word": "premature",
+          "meaning": "erken doğan, prematüre"
+        }
+      ],
+      "tacticalTip": "'Vulnerable to' kalıbı hastalıklara veya tehlikelere karşı açık ve korumasız olmayı belirtir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-113",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Restoring the ancient Byzantine mosaic required months of ---- craftsmanship to avoid damaging the delicate glass tiles.",
+    "options": {
+      "A": "meticulous",
+      "B": "hasty",
+      "C": "reckless",
+      "D": "negligent",
+      "E": "superficial"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'meticulous' sözcüğü 'titiz, kılı kırk yaran, son derece özenli' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Antik Bizans mozaiğinin restore edilmesi, hassas cam karolara zarar vermemek için aylarca süren titiz (meticulous) bir ustalık gerektirdi.",
+      "distractorAnalysis": "B) hasty: aceleci; C) reckless: pervasız; D) negligent: ihmalkâr; E) superficial: yüzeysel.",
+      "vocabularyNotes": [
+        {
+          "word": "meticulous",
+          "meaning": "titiz, aşırı özenli"
+        },
+        {
+          "word": "delicate",
+          "meaning": "narin, hassas"
+        }
+      ],
+      "tacticalTip": "Sanat restorasyonu, cerrahi ve laboratuvar çalışmaları 'meticulous / painstaking' sıfatlarıyla nitelenir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-114",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The detective dismissed several far-fetched theories before concluding that mechanical failure was the only ---- explanation for the derailment.",
+    "options": {
+      "A": "plausible",
+      "B": "absurd",
+      "C": "groundless",
+      "D": "implausible",
+      "E": "irrational"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'plausible' sözcüğü 'akla yatkın, makul, inandırıcı' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Dedektif, mekanik arızanın trenin raydan çıkmasına ilişkin tek akla yatkın (plausible) açıklama olduğu sonucuna varmadan önce abartılı teorileri reddetti.",
+      "distractorAnalysis": "B) absurd: saçma; C) groundless: temelsiz; D) implausible: inandırıcılıktan uzak; E) irrational: mantıksız.",
+      "vocabularyNotes": [
+        {
+          "word": "plausible",
+          "meaning": "akla yatkın, makul"
+        },
+        {
+          "word": "far-fetched",
+          "meaning": "zorlama, gerçek dışı"
+        }
+      ],
+      "tacticalTip": "'Plausible explanation / plausible scenario' YDS'nin en sevdiği akademik kalıplardandır."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-115",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The expansion into emerging Asian telecommunication markets proved to be an exceptionally ---- venture for the multinational corporation.",
+    "options": {
+      "A": "lucrative",
+      "B": "unprofitable",
+      "C": "bankrupt",
+      "D": "worthless",
+      "E": "disastrous"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'lucrative' sözcüğü 'kârlı, kazançlı' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Gelişmekte olan Asya telekomünikasyon pazarlarına açılmak, çok uluslu şirket için olağanüstü derecede kârlı (lucrative) bir girişim olduğunu kanıtladı.",
+      "distractorAnalysis": "B) unprofitable: kârsız; C) bankrupt: iflas etmiş; D) worthless: değersiz; E) disastrous: felaket niteliğinde.",
+      "vocabularyNotes": [
+        {
+          "word": "lucrative",
+          "meaning": "kazançlı, yüksek kâr getiren"
+        },
+        {
+          "word": "venture",
+          "meaning": "ticari girişim"
+        }
+      ],
+      "tacticalTip": "Finans ve ticaret sorularında yüksek getiri sağlayan işler 'lucrative / profitable' olarak adlandırılır."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-116",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The Ministry of Health announced that vaccination against measles would become ---- for all children entering primary school.",
+    "options": {
+      "A": "compulsory",
+      "B": "optional",
+      "C": "voluntary",
+      "D": "arbitrary",
+      "E": "discretionary"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'compulsory' sözcüğü 'zorunlu, mecburi' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Sağlık Bakanlığı, ilkokula başlayan tüm çocuklar için kızamık aşısının zorunlu (compulsory) hale geleceğini duyurdu.",
+      "distractorAnalysis": "B) optional: isteğe bağlı; C) voluntary: gönüllü; D) arbitrary: keyfi; E) discretionary: inisiyatife bağlı.",
+      "vocabularyNotes": [
+        {
+          "word": "compulsory",
+          "meaning": "zorunlu, mecburi"
+        },
+        {
+          "word": "measles",
+          "meaning": "kızamık"
+        }
+      ],
+      "tacticalTip": "Yasa, kural veya bakanlık kararlarıyla mecburi tutulan durumlar 'compulsory / mandatory / obligatory' dir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-117",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The legal contract was so poorly drafted and ---- that both parties interpreted their financial obligations in completely conflicting ways.",
+    "options": {
+      "A": "ambiguous",
+      "B": "lucid",
+      "C": "transparent",
+      "D": "unequivocal",
+      "E": "explicit"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'ambiguous' sözcüğü 'muğlak, belirsiz, birden çok anlama gelen' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Hukuki sözleşme o kadar kötü yazılmış ve muğlaktı (ambiguous) ki her iki taraf da mali yükümlülüklerini tamamen çelişkili şekillerde yorumladı.",
+      "distractorAnalysis": "B) lucid: açık ve net; C) transparent: şeffaf; D) unequivocal: kesin, şüphe götürmez; E) explicit: bariz.",
+      "vocabularyNotes": [
+        {
+          "word": "ambiguous",
+          "meaning": "muğlak, iki anlamlı"
+        },
+        {
+          "word": "conflicting",
+          "meaning": "çelişen, zıt"
+        }
+      ],
+      "tacticalTip": "Metinlerde çelişki veya yanlış anlamaya yol açan belirsizlikler 'ambiguous / vague' sıfatıyla ifade edilir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-118",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Excessive consumption of refined sugars produces ---- effects on metabolic health, accelerating insulin resistance and obesity.",
+    "options": {
+      "A": "detrimental",
+      "B": "beneficial",
+      "C": "wholesome",
+      "D": "favourable",
+      "E": "advantageous"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'detrimental' sözcüğü 'zararlı, hasar verici' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "İşlenmiş şekerin aşırı tüketimi, insülin direncini ve obeziteyi hızlandırarak metabolik sağlık üzerinde zararlı (detrimental) etkiler üretir.",
+      "distractorAnalysis": "B) beneficial: faydalı; C) wholesome: sağlıklı; D) favourable: olumlu; E) advantageous: avantajlı.",
+      "vocabularyNotes": [
+        {
+          "word": "detrimental",
+          "meaning": "zararlı, tahrip edici"
+        },
+        {
+          "word": "refined",
+          "meaning": "rafine edilmiş, işlenmiş"
+        }
+      ],
+      "tacticalTip": "'Detrimental to' kalıbı 'harmful / damaging to' anlamına gelir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-119",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "In modern molecular genetics, polymerase chain reaction (PCR) technology has become an ---- tool for amplifying trace amounts of DNA.",
+    "options": {
+      "A": "indispensable",
+      "B": "redundant",
+      "C": "superfluous",
+      "D": "dispensable",
+      "E": "trivial"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'indispensable' sözcüğü 'vazgeçilmez, olmazsa olmaz' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Modern moleküler genetikte PCR teknolojisi, eser miktardaki DNA'yı çoğaltmak için vazgeçilmez (indispensable) bir araç haline gelmiştir.",
+      "distractorAnalysis": "B) redundant: gereksiz; C) superfluous: fuzuli; D) dispensable: vazgeçilebilir; E) trivial: önemsiz.",
+      "vocabularyNotes": [
+        {
+          "word": "indispensable",
+          "meaning": "vazgeçilmez, elzem"
+        },
+        {
+          "word": "amplify",
+          "meaning": "çoğaltmak, güçlendirmek"
+        }
+      ],
+      "tacticalTip": "Hayatın veya bilimin vazgeçilmez unsurları 'indispensable / essential / vital' kelimeleriyle nitelenir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-120",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The committee commended the candidate for presenting a remarkably ---- and well-structured strategy for the corporate reorganization.",
+    "options": {
+      "A": "coherent",
+      "B": "disjointed",
+      "C": "contradictory",
+      "D": "chaotic",
+      "E": "fragmented"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'coherent' sözcüğü 'tutarlı, mantıklı, uyumlu' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Komite, kurumsal yeniden yapılanma için son derece tutarlı (coherent) ve iyi yapılandırılmış bir strateji sunduğu için adayı övdü.",
+      "distractorAnalysis": "B) disjointed: kopuk, dağınık; C) contradictory: çelişkili; D) chaotic: karmaşık; E) fragmented: parçalanmış.",
+      "vocabularyNotes": [
+        {
+          "word": "coherent",
+          "meaning": "tutarlı, ahenkli"
+        },
+        {
+          "word": "commend",
+          "meaning": "övgüyle bahsetmek"
+        }
+      ],
+      "tacticalTip": "Mantıksal olarak birbiriyle bütünleşmiş tez veya stratejiler 'coherent / consistent' dır."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-121",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adverb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Implementing automated sorting mechanisms has ---- reduced turnaround time in the logistics fulfillment center.",
+    "options": {
+      "A": "substantially",
+      "B": "scarcely",
+      "C": "barely",
+      "D": "superficially",
+      "E": "marginally"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'substantially' sözcüğü 'önemli ölçüde, büyük oranda' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Otomatik ayırma mekanizmalarının uygulanması, lojistik merkezinde işlem süresini önemli ölçüde (substantially) azaltmıştır.",
+      "distractorAnalysis": "B) scarcely: neredeyse hiç; C) barely: zar zor; D) superficially: yüzeysel olarak; E) marginally: çok az oranda.",
+      "vocabularyNotes": [
+        {
+          "word": "substantially",
+          "meaning": "büyük ölçüde, esaslı şekilde"
+        },
+        {
+          "word": "turnaround",
+          "meaning": "işlem/teslim süresi"
+        }
+      ],
+      "tacticalTip": "Artış veya azalış bildiren fiillerle (increase, decrease, reduce) 'substantially, significantly, considerably' zarfları gelir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-122",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adverb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "A junior programmer ---- deleted the backup database while attempting to update the staging environment configuration.",
+    "options": {
+      "A": "inadvertently",
+      "B": "deliberately",
+      "C": "intentionally",
+      "D": "purposefully",
+      "E": "consciously"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'inadvertently' sözcüğü 'yanlışlıkla, kazara, kasıtsız olarak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Kıdemi az bir programcı, test ortamı yapılandırmasını güncellemeye çalışırken yedekleme veri tabanını yanlışlıkla (inadvertently) sildi.",
+      "distractorAnalysis": "B) deliberately: kasten; C) intentionally: bilerek; D) purposefully: kasıtlı olarak; E) consciously: bilinçli şekilde.",
+      "vocabularyNotes": [
+        {
+          "word": "inadvertently",
+          "meaning": "farkında olmadan, kazara"
+        },
+        {
+          "word": "configuration",
+          "meaning": "yapılandırma"
+        }
+      ],
+      "tacticalTip": "Kasıtsız yapılan hatalarda 'inadvertently / accidentally / unintentionally' kullanılır; zıttı 'deliberately'dir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-123",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adverb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The invention of moveable type in the fifteenth century ---- altered the dissemination of religious and scientific knowledge across Europe.",
+    "options": {
+      "A": "profoundly",
+      "B": "shallowly",
+      "C": "negligibly",
+      "D": "slightly",
+      "E": "trivially"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'profoundly' sözcüğü 'derinden, köklü bir biçimde' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "On beşinci yüzyılda hareketli matbaanın icadı, din ve bilim bilgisinin Avrupa genelinde yayılmasını derinden (profoundly) değiştirmiştir.",
+      "distractorAnalysis": "B) shallowly: sığ biçimde; C) negligibly: önemsiz düzeyde; D) slightly: hafifçe; E) trivially: önemsizce.",
+      "vocabularyNotes": [
+        {
+          "word": "profoundly",
+          "meaning": "derinlemesine, kökten"
+        },
+        {
+          "word": "dissemination",
+          "meaning": "yayma, dağıtma"
+        }
+      ],
+      "tacticalTip": "Toplumsal, tarihi ve bilimsel dönüşümler 'profoundly / fundamentally' zarflarıyla ifade edilir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-124",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adverb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Due to the prolonged drought, the local water authority was compelled to ---- restrict municipal consumption.",
+    "options": {
+      "A": "drastically",
+      "B": "gently",
+      "C": "mildly",
+      "D": "negligibly",
+      "E": "tentatively"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'drastically' sözcüğü 'ciddi ve sert bir biçimde, radikal olarak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Uzun süren kuraklık nedeniyle yerel su idaresi, belediye tüketimini sert ve radikal bir biçimde (drastically) kısıtlamak zorunda kaldı.",
+      "distractorAnalysis": "B) gently: nazikçe; C) mildly: ılımlı şekilde; D) negligibly: ihmal edilebilir oranda; E) tentatively: geçici olarak.",
+      "vocabularyNotes": [
+        {
+          "word": "drastically",
+          "meaning": "radikal şekilde, sertçe"
+        },
+        {
+          "word": "prolonged",
+          "meaning": "uzun süren"
+        }
+      ],
+      "tacticalTip": "Kriz dönemlerinde alınan sert önlemler 'drastically / severely' ile nitelenir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-125",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adverb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Human rights activists campaigned ---- for decades until the discriminatory statute was formally repealed by parliament.",
+    "options": {
+      "A": "relentlessly",
+      "B": "hesitantly",
+      "C": "rarely",
+      "D": "sporadically",
+      "E": "reluctantly"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'relentlessly' sözcüğü 'aralıksız, amansızca, dur durak bilmeden' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "İnsan hakları aktivistleri, ayrımcı yasa parlamento tarafından resmen yürürlükten kaldırılıncaya kadar on yıllarca durmaksızın (relentlessly) mücadele ettiler.",
+      "distractorAnalysis": "B) hesitantly: tereddütle; C) rarely: nadiren; D) sporadically: ara sıra; E) reluctantly: gönülsüzce.",
+      "vocabularyNotes": [
+        {
+          "word": "relentlessly",
+          "meaning": "amansızca, durmaksızın"
+        },
+        {
+          "word": "repeal",
+          "meaning": "yürürlükten kaldırmak"
+        }
+      ],
+      "tacticalTip": "Azimle ve pes etmeden sürdürülen çabalarda 'relentlessly / persistently' kullanılır."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-126",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Mental health counselors provide patients with practical cognitive strategies to ---- severe workplace stress and burnout.",
+    "options": {
+      "A": "cope with",
+      "B": "give up",
+      "C": "look down on",
+      "D": "run out of",
+      "E": "break into"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'cope with' sözcüğü 'başa çıkmak, üstesinden gelmek' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Ruh sağlığı danışmanları, hastaların şiddetli iş yeri stresi ve tükenmişlikle başa çıkmaları (cope with) için pratik bilişsel stratejiler sunar.",
+      "distractorAnalysis": "B) give up: vazgeçmek; C) look down on: hor görmek; D) run out of: tüketmek; E) break into: zorla girmek.",
+      "vocabularyNotes": [
+        {
+          "word": "cope with",
+          "meaning": "başa çıkmak, göğüs germek"
+        },
+        {
+          "word": "burnout",
+          "meaning": "tükenmişlik sendromu"
+        }
+      ],
+      "tacticalTip": "Zorluklar, krizler ve stresle baş etmek bağlamında 'cope with, deal with, handle, overcome' en yaygın phrasal verblerdir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-127",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The industrial revolution did not merely introduce steam power; it helped ---- profound transformations in urban social demographics.",
+    "options": {
+      "A": "bring about",
+      "B": "call off",
+      "C": "turn down",
+      "D": "take off",
+      "E": "put off"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'bring about' sözcüğü 'neden olmak, ortaya çıkarmak, yol açmak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Sanayi devrimi sadece buhar gücünü getirmekle kalmadı; kentsel sosyal demografide köklü dönüşümlere yol açmaya (bring about) yardımcı oldu.",
+      "distractorAnalysis": "B) call off: iptal etmek; C) turn down: reddetmek; D) take off: havalanmak, çıkarmak; E) put off: ertelemek.",
+      "vocabularyNotes": [
+        {
+          "word": "bring about",
+          "meaning": "yol açmak, sebep olmak"
+        },
+        {
+          "word": "transformation",
+          "meaning": "dönüşüm"
+        }
+      ],
+      "tacticalTip": "Değişime veya sonuca yol açma anlamında 'bring about / lead to / trigger / result in' kalıpları test edilir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-128",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Residents near the international airport have complained that they can no longer ---- the deafening roar of nighttime cargo flights.",
+    "options": {
+      "A": "put up with",
+      "B": "come across",
+      "C": "look forward to",
+      "D": "stand for",
+      "E": "carry out"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'put up with' sözcüğü 'katlanmak, tahammül etmek' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Uluslararası havalimanı yakınındaki sakinler, gece kargo uçuşlarının sağır edici gürültüsüne artık katlanamadıklarını (put up with) belirterek şikâyette bulundular.",
+      "distractorAnalysis": "B) come across: rastlamak; C) look forward to: dört gözle beklemek; D) stand for: temsil etmek; E) carry out: yürütmek.",
+      "vocabularyNotes": [
+        {
+          "word": "put up with",
+          "meaning": "katlanmak, tahammül etmek"
+        },
+        {
+          "word": "deafening",
+          "meaning": "sağır edici"
+        }
+      ],
+      "tacticalTip": "Rahatsız edici durumlara tahammül etmek: 'put up with / tolerate / endure'."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-129",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "A multidisciplinary team of marine biologists travelled to the Mariana Trench to ---- comprehensive surveys of hydrothermal vents.",
+    "options": {
+      "A": "carry out",
+      "B": "give in",
+      "C": "call for",
+      "D": "set off",
+      "E": "take after"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'carry out' sözcüğü 'yürütmek, uygulamak, icra etmek' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Farklı disiplinlerden deniz biyologlarından oluşan bir ekip, hidrotermal bacaların kapsamlı incelemelerini yürütmek (carry out) üzere Mariana Çukuru'na seyahat etti.",
+      "distractorAnalysis": "B) give in: teslim olmak; C) call for: talep etmek; D) set off: yola çıkmak; E) take after: benzemek.",
+      "vocabularyNotes": [
+        {
+          "word": "carry out",
+          "meaning": "yürütmek, gerçekleştirmek"
+        },
+        {
+          "word": "hydrothermal",
+          "meaning": "hidrotermal, sıcak su"
+        }
+      ],
+      "tacticalTip": "Araştırma (research), anket (survey), deney (experiment) ve planlar daima 'carry out / conduct' edilir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-130",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Transport emissions and heavy industrial manufacturing collectively ---- more than sixty percent of annual urban air pollution.",
+    "options": {
+      "A": "account for",
+      "B": "bring up",
+      "C": "fall behind",
+      "D": "break out",
+      "E": "watch out"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'account for' sözcüğü 'oluşturmak, tekabül etmek; açıklamak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Ulaşım emisyonları ve ağır sanayi üretimi, yıllık kentsel hava kirliliğinin yüzde altmışından fazlasını oluşturmaktadır (account for).",
+      "distractorAnalysis": "B) bring up: yetiştirmek, gündeme getirmek; C) fall behind: geride kalmak; D) break out: patlak vermek; E) watch out: dikkat etmek.",
+      "vocabularyNotes": [
+        {
+          "word": "account for",
+          "meaning": "oran oluşturmak, tekabül etmek"
+        },
+        {
+          "word": "emission",
+          "meaning": "salım, emisyon"
+        }
+      ],
+      "tacticalTip": "Yüzde veya oran bildiren sayılardan önce 'account for / constitute / make up' gelir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-131",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The sudden volcanic eruption and subsequent ash fall threatened to completely ---- the unique fauna of the isolated archipelago.",
+    "options": {
+      "A": "wipe out",
+      "B": "bring up",
+      "C": "stand by",
+      "D": "make up for",
+      "E": "rely on"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'wipe out' sözcüğü 'yok etmek, kökünü kurutmak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Ani volkanik patlama ve ardından gelen kül yağışı, izole takımadanın benzersiz faunasını tamamen yok etmekle (wipe out) tehdit etti.",
+      "distractorAnalysis": "B) bring up: bahsetmek; C) stand by: desteklemek; D) make up for: telafi etmek; E) rely on: güvenmek.",
+      "vocabularyNotes": [
+        {
+          "word": "wipe out",
+          "meaning": "yok etmek, silip süpürmek"
+        },
+        {
+          "word": "archipelago",
+          "meaning": "takımada"
+        }
+      ],
+      "tacticalTip": "Canlı türlerinin yok olması veya şehirlerin haritadan silinmesi 'wipe out / eradicate / destroy' dur."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-132",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Many sociologists argue that juvenile delinquency often ---- acute economic deprivation and unstable domestic environments.",
+    "options": {
+      "A": "stems from",
+      "B": "results in",
+      "C": "leads to",
+      "D": "brings about",
+      "E": "takes after"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'stem from' sözcüğü '-den kaynaklanmak, ileri gelmek' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Birçok sosyolog, genç suçluluğunun genellikle şiddetli ekonomik yoksunluktan ve istikrarsız aile ortamlarından kaynaklandığını (stems from) savunur.",
+      "distractorAnalysis": "B) results in: sonuçlanır; C) leads to: yol açar; D) brings about: neden olur; E) takes after: çeker.",
+      "vocabularyNotes": [
+        {
+          "word": "stem from",
+          "meaning": "-den kaynaklanmak, doğmak"
+        },
+        {
+          "word": "deprivation",
+          "meaning": "yoksunluk, mahrumiyet"
+        }
+      ],
+      "tacticalTip": "'Stem from / originate from / derive from' sebebi, 'lead to / result in' ise sonucu gösterir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-133",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Subsistence farming communities in arid regions heavily ---- seasonal rainfall patterns for their annual crop yields.",
+    "options": {
+      "A": "rely on",
+      "B": "dispose of",
+      "C": "refrain from",
+      "D": "look down on",
+      "E": "call off"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'rely on' sözcüğü 'güvenmek, bel bağlamak, bağımlı olmak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Kurak bölgelerdeki geçimlik tarım toplulukları, yıllık ürün verimleri için büyük ölçüde mevsimsel yağış modellerine bel bağlamaktadır (rely on).",
+      "distractorAnalysis": "B) dispose of: elden çıkarmak; C) refrain from: kaçınmak; D) look down on: aşağılamak; E) call off: iptal etmek.",
+      "vocabularyNotes": [
+        {
+          "word": "rely on",
+          "meaning": "bel bağlamak, bağımlı olmak"
+        },
+        {
+          "word": "subsistence",
+          "meaning": "geçimlik, günübirlik"
+        }
+      ],
+      "tacticalTip": "'Rely on / depend on / count on' bir şeye güvenmeyi veya bağımlı olmayı ifade eder."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-134",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "Nuclear power plants must construct heavily fortified geological repositories to safely ---- hazardous radioactive waste.",
+    "options": {
+      "A": "dispose of",
+      "B": "approve of",
+      "C": "deprive of",
+      "D": "consist of",
+      "E": "accuse of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'dispose of' sözcüğü 'elden çıkarmak, imha etmek, kurtulmak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Nükleer santraller, tehlikeli radyoaktif atıkları güvenli bir şekilde bertaraf etmek / imha etmek (dispose of) için sağlamlaştırılmış jeolojik depolar inşa etmelidir.",
+      "distractorAnalysis": "B) approve of: onaylamak; C) deprive of: mahrum bırakmak; D) consist of: oluşmak; E) accuse of: suçlamak.",
+      "vocabularyNotes": [
+        {
+          "word": "dispose of",
+          "meaning": "imha etmek, bertaraf etmek"
+        },
+        {
+          "word": "radioactive",
+          "meaning": "radyoaktif"
+        }
+      ],
+      "tacticalTip": "Atıkların yok edilmesi veya elden çıkarılması 'dispose of / get rid of' phrasal verbleriyle anlatılır."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-135",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Standart Soru Bankası",
+    "passage": null,
+    "questionText": "The company hoped that strong fourth-quarter holiday sales would ---- the severe revenue losses incurred earlier in the fiscal year.",
+    "options": {
+      "A": "make up for",
+      "B": "look up to",
+      "C": "get away with",
+      "D": "run out of",
+      "E": "drop out of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'make up for' sözcüğü 'telafi etmek, açığı kapatmak' anlamıyla doğru yanıtı oluşturur.",
+      "detailedReason": "Şirket, güçlü dördüncü çeyrek tatil satışlarının mali yılın başlarında yaşanan ciddi gelir kayıplarını telafi edeceğini (make up for) umuyordu.",
+      "distractorAnalysis": "B) look up to: hayranlık duymak; C) get away with: yanına kâr kalmak; D) run out of: tükenmek; E) drop out of: okulu bırakmak.",
+      "vocabularyNotes": [
+        {
+          "word": "make up for",
+          "meaning": "telafi etmek, açığını kapatmak"
+        },
+        {
+          "word": "revenue",
+          "meaning": "gelir, hasılat"
+        }
+      ],
+      "tacticalTip": "'Make up for / compensate for' kalıpları eş anlamlıdır ve sınavda sürekli test edilir."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-136",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Genetically modified crops are engineered to be far more ---- against invasive parasitic insects.",
+    "options": {
+      "A": "resilient",
+      "B": "inevitable",
+      "C": "compatible with",
+      "D": "stem from",
+      "E": "prevalent"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'resilient' (dirençli) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'resilient' (dirençli) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'dirençli' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "resilient",
+          "meaning": "dirençli"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-137",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "A localized volcanic catastrophe provides the most ---- explanation for the sudden abandonment of the Minoan palace.",
+    "options": {
+      "A": "abundance",
+      "B": "plausible",
+      "C": "refute",
+      "D": "scrutinise",
+      "E": "versatile"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'plausible' (akla yatkın) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'plausible' (akla yatkın) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'akla yatkın' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "plausible",
+          "meaning": "akla yatkın"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-138",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The palaeontologist spent years engaged in ---- fossil extraction in the badlands of Montana.",
+    "options": {
+      "A": "with respect to",
+      "B": "prevalent",
+      "C": "meticulous",
+      "D": "ambiguous",
+      "E": "bring about"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'meticulous' (titiz) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'meticulous' (titiz) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'titiz' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "meticulous",
+          "meaning": "titiz"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-139",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adverb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Upgrading the thermal insulation of old residential buildings ---- lowers winter heating expenses.",
+    "options": {
+      "A": "bring about",
+      "B": "drastically",
+      "C": "alleviate",
+      "D": "substantially",
+      "E": "ambiguous"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'substantially' (önemli ölçüde) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'substantially' (önemli ölçüde) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'önemli ölçüde' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "substantially",
+          "meaning": "önemli ölçüde"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-140",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adverb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "While searching for a synthetic dye, William Perkin ---- created the world's first aniline mauve pigment.",
+    "options": {
+      "A": "versatile",
+      "B": "substantially",
+      "C": "prerequisite",
+      "D": "put up with",
+      "E": "inadvertently"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'inadvertently' (kazara) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'inadvertently' (kazara) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'kazara' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "inadvertently",
+          "meaning": "kazara"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-141",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adverb",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Charles Darwin's evolutionary treatise ---- revolutionized nineteenth-century biological thinking.",
+    "options": {
+      "A": "profoundly",
+      "B": "account for",
+      "C": "stem from",
+      "D": "unprecedented",
+      "E": "reluctant"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'profoundly' (derinden) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'profoundly' (derinden) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'derinden' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "profoundly",
+          "meaning": "derinden"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-142",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adverb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Following the financial crash, municipal authorities were forced to ---- cut public infrastructure expenditures.",
+    "options": {
+      "A": "contrary to",
+      "B": "drastically",
+      "C": "meticulous",
+      "D": "comprehensive",
+      "E": "on behalf of"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'drastically' (radikalce) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'drastically' (radikalce) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'radikalce' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "drastically",
+          "meaning": "radikalce"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-143",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adverb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Astronomers scanned deep space ---- until they detected the faint radio signal emitted by the distant pulsar.",
+    "options": {
+      "A": "alleviate",
+      "B": "lucrative",
+      "C": "relentlessly",
+      "D": "inadvertently",
+      "E": "tenacious"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'relentlessly' (durmaksızın) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'relentlessly' (durmaksızın) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'durmaksızın' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "relentlessly",
+          "meaning": "durmaksızın"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-144",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Psychological resilience training helps first responders ---- extreme stress encountered during disaster relief.",
+    "options": {
+      "A": "diminish",
+      "B": "augment",
+      "C": "rely on",
+      "D": "cope with",
+      "E": "substantially"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'cope with' (başa çıkmak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'cope with' (başa çıkmak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'başa çıkmak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "cope with",
+          "meaning": "başa çıkmak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-145",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The invention of the steam locomotive helped ---- massive industrial urbanization in Great Britain.",
+    "options": {
+      "A": "compensate",
+      "B": "refute",
+      "C": "with respect to",
+      "D": "immune to",
+      "E": "bring about"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'bring about' (yol açmak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'bring about' (yol açmak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'yol açmak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "bring about",
+          "meaning": "yol açmak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-146",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Marine researchers plan to ---- deep oceanic soundings around the Mariana trench next spring.",
+    "options": {
+      "A": "carry out",
+      "B": "at the expense of",
+      "C": "compatible with",
+      "D": "obscure",
+      "E": "bring about"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'carry out' (yürütmek) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'carry out' (yürütmek) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'yürütmek' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "carry out",
+          "meaning": "yürütmek"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-147",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Tenants declared that they would no longer ---- the persistent heating failures throughout the winter.",
+    "options": {
+      "A": "on behalf of",
+      "B": "put up with",
+      "C": "vulnerable to",
+      "D": "in terms of",
+      "E": "devoid of"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'put up with' (katlanmak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'put up with' (katlanmak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'katlanmak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "put up with",
+          "meaning": "katlanmak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-148",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Renewable wind and solar power now ---- approximately thirty percent of total national electricity generation.",
+    "options": {
+      "A": "augment",
+      "B": "at the expense of",
+      "C": "account for",
+      "D": "prerequisite",
+      "E": "deterioration"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'account for' (oluşturmak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'account for' (oluşturmak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'oluşturmak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "account for",
+          "meaning": "oluşturmak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-149",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "An invasive fungal blight threatened to completely ---- the native chestnut tree population.",
+    "options": {
+      "A": "abundance",
+      "B": "bring about",
+      "C": "hostile",
+      "D": "wipe out",
+      "E": "put up with"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'wipe out' (yok etmek) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'wipe out' (yok etmek) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'yok etmek' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "wipe out",
+          "meaning": "yok etmek"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-150",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Chronic lower back pain frequently ---- poor ergonomic habits and prolonged sedentary desk work.",
+    "options": {
+      "A": "detrimental",
+      "B": "devoid of",
+      "C": "ambiguous",
+      "D": "lucrative",
+      "E": "stem from"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'stem from' (kaynaklanmak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'stem from' (kaynaklanmak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'kaynaklanmak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "stem from",
+          "meaning": "kaynaklanmak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-151",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Modern navigation systems ---- atomic clocks aboard orbiting satellites for hyper-precise positioning.",
+    "options": {
+      "A": "rely on",
+      "B": "ambiguous",
+      "C": "dispose of",
+      "D": "carry out",
+      "E": "make up for"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'rely on' (bel bağlamak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'rely on' (bel bağlamak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'bel bağlamak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "rely on",
+          "meaning": "bel bağlamak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-152",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Stringent biosafety regulations mandate that laboratories incinerate or chemically ---- biohazardous cultures.",
+    "options": {
+      "A": "at the expense of",
+      "B": "dispose of",
+      "C": "perpetuate",
+      "D": "compensate",
+      "E": "cope with"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'dispose of' (imha etmek) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'dispose of' (imha etmek) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'imha etmek' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "dispose of",
+          "meaning": "imha etmek"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-153",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Higher agricultural exports to European markets helped ---- the decline in domestic automotive sales.",
+    "options": {
+      "A": "obscure",
+      "B": "augment",
+      "C": "make up for",
+      "D": "carry out",
+      "E": "in accordance with"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'make up for' (telafi etmek) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'make up for' (telafi etmek) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'telafi etmek' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "make up for",
+          "meaning": "telafi etmek"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-154",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "A comprehensive feasibility study confirmed that geothermal power generation was economically ---- in the volcanic valley.",
+    "options": {
+      "A": "in accordance with",
+      "B": "in terms of",
+      "C": "indispensable",
+      "D": "feasible",
+      "E": "refute"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'feasible' (uygulanabilir) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'feasible' (uygulanabilir) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'uygulanabilir' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "feasible",
+          "meaning": "uygulanabilir"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-155",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Noun",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Restorers observed alarming ---- in the stone facade of the cathedral due to persistent acid rain.",
+    "options": {
+      "A": "compatible with",
+      "B": "immune to",
+      "C": "susceptible to",
+      "D": "reluctant",
+      "E": "deterioration"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'deterioration' (bozulma) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'deterioration' (bozulma) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'bozulma' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "deterioration",
+          "meaning": "bozulma"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-156",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Graphene is considered an exceptionally ---- material due to its electrical conductivity and mechanical toughness.",
+    "options": {
+      "A": "versatile",
+      "B": "inevitable",
+      "C": "concur",
+      "D": "wipe out",
+      "E": "prerequisite"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'versatile' (çok yönlü) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'versatile' (çok yönlü) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'çok yönlü' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "versatile",
+          "meaning": "çok yönlü"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-157",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Wholesale grain prices tend to ---- sharply whenever geopolitical tensions flare along shipping straits.",
+    "options": {
+      "A": "resilient",
+      "B": "fluctuate",
+      "C": "deprived of",
+      "D": "wipe out",
+      "E": "diminish"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'fluctuate' (dalgalanmak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'fluctuate' (dalgalanmak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'dalgalanmak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "fluctuate",
+          "meaning": "dalgalanmak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-158",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Lactose intolerance is particularly ---- among adult populations across East Asia and parts of West Africa.",
+    "options": {
+      "A": "tenacious",
+      "B": "dispose of",
+      "C": "prevalent",
+      "D": "scrutinise",
+      "E": "hostile"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'prevalent' (yaygın) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'prevalent' (yaygın) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'yaygın' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "prevalent",
+          "meaning": "yaygın"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-159",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Public support for the controversial energy tax began to ---- as household utility bills surged.",
+    "options": {
+      "A": "versatile",
+      "B": "rely on",
+      "C": "contrary to",
+      "D": "diminish",
+      "E": "vulnerable to"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'diminish' (azalmak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'diminish' (azalmak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'azalmak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "diminish",
+          "meaning": "azalmak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-160",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Forensic accountants were commissioned to ---- five years of offshore banking records.",
+    "options": {
+      "A": "obscure",
+      "B": "prerequisite",
+      "C": "on behalf of",
+      "D": "drastically",
+      "E": "scrutinise"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'scrutinise' (titizce incelemek) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'scrutinise' (titizce incelemek) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'titizce incelemek' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "scrutinise",
+          "meaning": "titizce incelemek"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-161",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Given the severe structural damage to the dam, the complete evacuation of downstream villages became ----.",
+    "options": {
+      "A": "inevitable",
+      "B": "contrary to",
+      "C": "on behalf of",
+      "D": "ambiguous",
+      "E": "carry out"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'inevitable' (kaçınılmaz) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'inevitable' (kaçınılmaz) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'kaçınılmaz' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "inevitable",
+          "meaning": "kaçınılmaz"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-162",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The medical journal published a ---- meta-analysis evaluating over forty clinical trials on hypertension.",
+    "options": {
+      "A": "ambiguous",
+      "B": "comprehensive",
+      "C": "indispensable",
+      "D": "compensate",
+      "E": "reluctant"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'comprehensive' (kapsamlı) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'comprehensive' (kapsamlı) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'kapsamlı' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "comprehensive",
+          "meaning": "kapsamlı"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-163",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Unchecked online disinformation algorithms serve to ---- societal polarization and mistrust.",
+    "options": {
+      "A": "refute",
+      "B": "substantially",
+      "C": "perpetuate",
+      "D": "unprecedented",
+      "E": "feasible"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'perpetuate' (sürdürmek) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'perpetuate' (sürdürmek) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'sürdürmek' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "perpetuate",
+          "meaning": "sürdürmek"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-164",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The icy winds and barren permafrost of Antarctica create an intensely ---- ecosystem for terrestrial life.",
+    "options": {
+      "A": "undermine",
+      "B": "stem from",
+      "C": "resilient",
+      "D": "hostile",
+      "E": "meticulous"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'hostile' (düşmanca, çetin) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'hostile' (düşmanca, çetin) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'düşmanca, çetin' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "hostile",
+          "meaning": "düşmanca, çetin"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-165",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Noun",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Nutrient upwelling off the coast of Peru supports an astonishing ---- of anchovies and seabirds.",
+    "options": {
+      "A": "stem from",
+      "B": "plausible",
+      "C": "reluctant",
+      "D": "drastically",
+      "E": "abundance"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'abundance' (bolluk) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'abundance' (bolluk) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'bolluk' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "abundance",
+          "meaning": "bolluk"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-166",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Phrasal/colloc",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Endangered sea turtles remain acutely ---- plastic marine pollution.",
+    "options": {
+      "A": "vulnerable to",
+      "B": "prolific",
+      "C": "relentlessly",
+      "D": "in terms of",
+      "E": "meticulous"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'vulnerable to' (savunmasız) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'vulnerable to' (savunmasız) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'savunmasız' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "vulnerable to",
+          "meaning": "savunmasız"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-167",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Prepositional phrase",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The two prospective candidate vaccines are virtually identical ---- efficacy.",
+    "options": {
+      "A": "inevitable",
+      "B": "in terms of",
+      "C": "compatible with",
+      "D": "on behalf of",
+      "E": "essential for"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'in terms of' (açısından, bakımından) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'in terms of' (açısından, bakımından) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'açısından, bakımından' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "in terms of",
+          "meaning": "açısından, bakımından"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-168",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Prepositional phrase",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Rapid industrialization should not be pursued ---- environmental stability.",
+    "options": {
+      "A": "plausible",
+      "B": "versatile",
+      "C": "at the expense of",
+      "D": "prolific",
+      "E": "undermine"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'at the expense of' (pahasına) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'at the expense of' (pahasına) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'pahasına' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "at the expense of",
+          "meaning": "pahasına"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-169",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Prepositional phrase",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The building was constructed strictly ---- international earthquake resistance codes.",
+    "options": {
+      "A": "concur",
+      "B": "prerequisite",
+      "C": "fluctuate",
+      "D": "in accordance with",
+      "E": "drastically"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'in accordance with' (uyarınca, gereğince) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'in accordance with' (uyarınca, gereğince) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'uyarınca, gereğince' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "in accordance with",
+          "meaning": "uyarınca, gereğince"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-170",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Prepositional phrase",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "---- widespread popular assumptions, camels store fat rather than water in their humps.",
+    "options": {
+      "A": "refute",
+      "B": "ambiguous",
+      "C": "versatile",
+      "D": "immune to",
+      "E": "Contrary to"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'contrary to' (aksine) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'contrary to' (aksine) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'aksine' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "contrary to",
+          "meaning": "aksine"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-171",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Prepositional phrase",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Data privacy laws have become much more stringent ---- cross-border user data transfers.",
+    "options": {
+      "A": "with respect to",
+      "B": "detrimental",
+      "C": "meticulous",
+      "D": "at the expense of",
+      "E": "carry out"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'with respect to' (ile ilgili olarak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'with respect to' (ile ilgili olarak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'ile ilgili olarak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "with respect to",
+          "meaning": "ile ilgili olarak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-172",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Prepositional phrase",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The foreign minister delivered a passionate speech ---- the sovereign island nation.",
+    "options": {
+      "A": "devoid of",
+      "B": "on behalf of",
+      "C": "diminish",
+      "D": "immune to",
+      "E": "inadvertently"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'on behalf of' (adına, namına) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'on behalf of' (adına, namına) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'adına, namına' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "on behalf of",
+          "meaning": "adına, namına"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-173",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Prepositional phrase",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Ancient Polynesians navigated across vast oceanic expanses ---- celestial observations.",
+    "options": {
+      "A": "diminish",
+      "B": "deterioration",
+      "C": "by means of",
+      "D": "feasible",
+      "E": "hostile"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'by means of' (aracılığıyla, vasıtasıyla) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'by means of' (aracılığıyla, vasıtasıyla) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'aracılığıyla, vasıtasıyla' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "by means of",
+          "meaning": "aracılığıyla, vasıtasıyla"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-174",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Elderly patients with diabetes are especially ---- chronic renal failure.",
+    "options": {
+      "A": "drastically",
+      "B": "plausible",
+      "C": "in accordance with",
+      "D": "susceptible to",
+      "E": "versatile"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'susceptible to' (hassas, yatkın) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'susceptible to' (hassas, yatkın) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'hassas, yatkın' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "susceptible to",
+          "meaning": "hassas, yatkın"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-175",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Children consistently ---- REM sleep exhibit impaired memory consolidation.",
+    "options": {
+      "A": "undermine",
+      "B": "comprehensive",
+      "C": "profoundly",
+      "D": "alleviate",
+      "E": "deprived of"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'deprived of' (mahrum kalmış) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'deprived of' (mahrum kalmış) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'mahrum kalmış' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "deprived of",
+          "meaning": "mahrum kalmış"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-176",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The updated clinical guidelines are fully ---- European medical directives.",
+    "options": {
+      "A": "compatible with",
+      "B": "rely on",
+      "C": "in accordance with",
+      "D": "inevitable",
+      "E": "alleviate"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'compatible with' (uyumlu) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'compatible with' (uyumlu) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'uyumlu' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "compatible with",
+          "meaning": "uyumlu"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-177",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Certain deep-sea bacteria have evolved to be virtually ---- toxic heavy metal concentrations.",
+    "options": {
+      "A": "carry out",
+      "B": "immune to",
+      "C": "alleviate",
+      "D": "in terms of",
+      "E": "with respect to"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'immune to' (bağışık, etkilenmez) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'immune to' (bağışık, etkilenmez) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'bağışık, etkilenmez' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "immune to",
+          "meaning": "bağışık, etkilenmez"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-178",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The arid planetary surface was found to be entirely ---- liquid water.",
+    "options": {
+      "A": "deterioration",
+      "B": "hostile",
+      "C": "devoid of",
+      "D": "compatible with",
+      "E": "prolific"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'devoid of' (yoksun) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'devoid of' (yoksun) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'yoksun' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "devoid of",
+          "meaning": "yoksun"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-179",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Trace minerals like selenium are absolutely ---- optimal thyroid hormone synthesis.",
+    "options": {
+      "A": "in accordance with",
+      "B": "make up for",
+      "C": "compatible with",
+      "D": "essential for",
+      "E": "by means of"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'essential for' (için elzem) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'essential for' (için elzem) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'için elzem' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "essential for",
+          "meaning": "için elzem"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-180",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The observed isotopic ratios are broadly ---- a massive extraterrestrial impact hypothesis.",
+    "options": {
+      "A": "dispose of",
+      "B": "compatible with",
+      "C": "carry out",
+      "D": "immune to",
+      "E": "consistent with"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'consistent with' (ile tutarlı) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'consistent with' (ile tutarlı) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'ile tutarlı' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "consistent with",
+          "meaning": "ile tutarlı"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-181",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Central bankers proved ---- to raise interest rates while inflation remained under control.",
+    "options": {
+      "A": "reluctant",
+      "B": "augment",
+      "C": "tenacious",
+      "D": "bring about",
+      "E": "at the expense of"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'reluctant' (gönülsüz, isteksiz) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'reluctant' (gönülsüz, isteksiz) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'gönülsüz, isteksiz' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "reluctant",
+          "meaning": "gönülsüz, isteksiz"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-182",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Isaac Asimov was an exceptionally ---- author, penning more than five hundred books during his lifetime.",
+    "options": {
+      "A": "relentlessly",
+      "B": "prolific",
+      "C": "hostile",
+      "D": "in accordance with",
+      "E": "deprived of"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'prolific' (üretken, velut) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'prolific' (üretken, velut) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'üretken, velut' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "prolific",
+          "meaning": "üretken, velut"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-183",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The research team mounted a ---- investigation that eventually revealed the root cause of the epidemic.",
+    "options": {
+      "A": "fluctuate",
+      "B": "resilient",
+      "C": "tenacious",
+      "D": "vulnerable to",
+      "E": "immune to"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'tenacious' (inatçı, azimli, sımsıkı tutunan) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'tenacious' (inatçı, azimli, sımsıkı tutunan) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'inatçı, azimli, sımsıkı tutunan' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "tenacious",
+          "meaning": "inatçı, azimli, sımsıkı tutunan"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-184",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The researcher unearthed an ---- seventeenth-century medical treatise on herbal pharmacology.",
+    "options": {
+      "A": "vulnerable to",
+      "B": "resilient",
+      "C": "substantially",
+      "D": "obscure",
+      "E": "prevalent"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'obscure' (belirsiz, az bilinen) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'obscure' (belirsiz, az bilinen) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'belirsiz, az bilinen' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "obscure",
+          "meaning": "belirsiz, az bilinen"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-185",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Noun",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "A rigorous command of statistics is a vital ---- for pursuing doctoral research in econometrics.",
+    "options": {
+      "A": "resilient",
+      "B": "rely on",
+      "C": "susceptible to",
+      "D": "comprehensive",
+      "E": "prerequisite"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'prerequisite' (ön koşul, şart) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'prerequisite' (ön koşul, şart) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'ön koşul, şart' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "prerequisite",
+          "meaning": "ön koşul, şart"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-186",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Leading climatologists overwhelmingly ---- that anthropogenic greenhouse emissions drive global warming.",
+    "options": {
+      "A": "concur",
+      "B": "drastically",
+      "C": "hostile",
+      "D": "substantially",
+      "E": "rely on"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'concur' (aynı fikirde olmak, hemfikir olmak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'concur' (aynı fikirde olmak, hemfikir olmak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'aynı fikirde olmak, hemfikir olmak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "concur",
+          "meaning": "aynı fikirde olmak, hemfikir olmak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-187",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The efficacy of the antibiotic will ---- if patients do not complete the prescribed medical regimen.",
+    "options": {
+      "A": "immune to",
+      "B": "diminish",
+      "C": "versatile",
+      "D": "refute",
+      "E": "put up with"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'diminish' (azalmak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'diminish' (azalmak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'azalmak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "diminish",
+          "meaning": "azalmak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-188",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Lingering bureaucratic hurdles continued to ---- international relief aid from reaching earthquake victims.",
+    "options": {
+      "A": "detrimental",
+      "B": "make up for",
+      "C": "hinder",
+      "D": "perpetuate",
+      "E": "comprehensive"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'hinder' (engellemek) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'hinder' (engellemek) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'engellemek' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "hinder",
+          "meaning": "engellemek"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-189",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Subsidized housing programs are designed to ---- the severe cost-of-living burden on low-income families.",
+    "options": {
+      "A": "lucrative",
+      "B": "versatile",
+      "C": "feasible",
+      "D": "alleviate",
+      "E": "cope with"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'alleviate' (hafifletmek) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'alleviate' (hafifletmek) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'hafifletmek' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "alleviate",
+          "meaning": "hafifletmek"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-190",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Releasing proprietary trade secrets would irrevocably ---- the corporate partnership.",
+    "options": {
+      "A": "undermine",
+      "B": "obscure",
+      "C": "make up for",
+      "D": "vulnerable to",
+      "E": "jeopardise"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'jeopardise' (tehlikeye atmak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'jeopardise' (tehlikeye atmak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'tehlikeye atmak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "jeopardise",
+          "meaning": "tehlikeye atmak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-191",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Further archaeological excavations are required to ---- the discovery of an ancient iron smelting forge.",
+    "options": {
+      "A": "substantiate",
+      "B": "diminish",
+      "C": "scrutinise",
+      "D": "vulnerable to",
+      "E": "indispensable"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'substantiate' (somut kanıtlamak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'substantiate' (somut kanıtlamak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'somut kanıtlamak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "substantiate",
+          "meaning": "somut kanıtlamak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-192",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Partisan misinformation campaigns deliberately attempt to ---- democratic election processes.",
+    "options": {
+      "A": "relentlessly",
+      "B": "undermine",
+      "C": "prerequisite",
+      "D": "bring about",
+      "E": "by means of"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'undermine' (sarsmak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'undermine' (sarsmak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'sarsmak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "undermine",
+          "meaning": "sarsmak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-193",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Rigorous double-blind clinical trials decisively ---- the claim that the herbal supplement cured insomnia.",
+    "options": {
+      "A": "compensate",
+      "B": "prevalent",
+      "C": "refute",
+      "D": "consistent with",
+      "E": "inevitable"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'refute' (çürütmek) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'refute' (çürütmek) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'çürütmek' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "refute",
+          "meaning": "çürütmek"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-194",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Renewable solar arrays were installed on municipal rooftops to ---- the central electrical grid.",
+    "options": {
+      "A": "put up with",
+      "B": "in accordance with",
+      "C": "alleviate",
+      "D": "augment",
+      "E": "deterioration"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'augment' (takviye etmek) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'augment' (takviye etmek) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'takviye etmek' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "augment",
+          "meaning": "takviye etmek"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-195",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Verb",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The government offered tax exemptions to ---- farmers for severe crop damage caused by unseasonal hail.",
+    "options": {
+      "A": "deprived of",
+      "B": "by means of",
+      "C": "at the expense of",
+      "D": "carry out",
+      "E": "compensate"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'compensate' (telafi etmek) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'compensate' (telafi etmek) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'telafi etmek' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "compensate",
+          "meaning": "telafi etmek"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-196",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Cryogenic cooling systems have proven ---- for sustaining superconducting quantum computing processors.",
+    "options": {
+      "A": "indispensable",
+      "B": "resilient",
+      "C": "diminish",
+      "D": "reluctant",
+      "E": "scrutinise"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'indispensable' (vazgeçilmez) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'indispensable' (vazgeçilmez) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'vazgeçilmez' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "indispensable",
+          "meaning": "vazgeçilmez"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-197",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Patenting the genetic editing mechanism proved to be an immensely ---- commercial opportunity.",
+    "options": {
+      "A": "relentlessly",
+      "B": "lucrative",
+      "C": "compatible with",
+      "D": "perpetuate",
+      "E": "concur"
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'lucrative' (kazançlı) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'lucrative' (kazançlı) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'kazançlı' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "lucrative",
+          "meaning": "kazançlı"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-198",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The survey question was so ---- that participants gave diametrically opposed interpretations.",
+    "options": {
+      "A": "at the expense of",
+      "B": "augment",
+      "C": "ambiguous",
+      "D": "unprecedented",
+      "E": "hinder"
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'ambiguous' (muğlak) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'ambiguous' (muğlak) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'muğlak' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "ambiguous",
+          "meaning": "muğlak"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-199",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "Deforestation produces ---- consequences for local microclimates and regional watershed health.",
+    "options": {
+      "A": "stem from",
+      "B": "substantially",
+      "C": "account for",
+      "D": "detrimental",
+      "E": "in terms of"
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'detrimental' (zararlı) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'detrimental' (zararlı) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'zararlı' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "detrimental",
+          "meaning": "zararlı"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
+  },
+  {
+    "id": "yds-kelime-bilgisi-200",
+    "topicId": "kelime-bilgisi",
+    "topicTitle": "Kelime Bilgisi (Vocabulary)",
+    "subTopic": "Academic Adjective",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Soru Havuzu",
+    "passage": null,
+    "questionText": "The global summit concluded with an ---- international pact to phase out ozone-depleting substances.",
+    "options": {
+      "A": "put up with",
+      "B": "dispose of",
+      "C": "cope with",
+      "D": "prolific",
+      "E": "unprecedented"
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Cümlede 'unprecedented' (eşi görülmemiş) anlamı bağlamı en doğru ve pürüzsüz biçimde tamamlar.",
+      "detailedReason": "Cümle bağlamında boş bırakılan yere anlamca en uygun düşen sözcük 'unprecedented' (eşi görülmemiş) sözcüğüdür. Diğer seçenekler anlam ve dilbilgisel çatı açısından cümlenin akışını bozar.",
+      "distractorAnalysis": "Diğer şıklardaki sözcükler bağlamın gerektirdiği 'eşi görülmemiş' anlamını ve akademik üslubu karşılamaz.",
+      "vocabularyNotes": [
+        {
+          "word": "unprecedented",
+          "meaning": "eşi görülmemiş"
+        }
+      ],
+      "tacticalTip": "Soru kökündeki edatlara (prepositions) ve niteleyen kelimelere dikkat ederek doğrudan eşleşen kalıbı bulun."
+    }
   }
 ]

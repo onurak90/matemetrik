@@ -2256,5 +2256,2255 @@
       ],
       "tacticalTip": "Boşluktan HEMEN SONRA gelen cümlenin ilk kelimesine bakın (Consequently, However, These...). Bu kelime boşluktaki cümlenin niteliğini belirler."
     }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-076",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Metin İçi Anlam Köprüsü",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Paragraf Tamamlama Formatı",
+    "passage": null,
+    "questionText": "The invention of optical fiber cables during the late twentieth century fundamentally transformed international communications. Prior to their deployment, transoceanic telephone calls relied on copper cables and geostationary satellites, both of which suffered from limited bandwidth and severe signal latency. ----. Today, a single fiber-optic thread, thinner than a strand of human hair, can transmit terabits of encrypted data per second across thousands of kilometers under the ocean.",
+    "options": {
+      "A": "Fiber optics overcame these constraints by transmitting data as rapid pulses of light through pure silica glass",
+      "B": "Copper mining companies successfully campaigned to ban optical fiber installations in international waters",
+      "C": "Satellites remain the cheapest and most efficient mechanism for global internet connectivity",
+      "D": "Because telephone communication was considered completely unnecessary by modern corporations",
+      "E": "As a result, most nations dismantled their terrestrial communication networks permanently"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluktan önceki ve sonraki cümleler arasındaki mantıksal ve zamirsel bağ doğru seçenekte kurulmuştur.",
+      "detailedReason": "Boşluktan önceki cümlede bakır kablo ve uyduların sınırları (limited bandwidth, latency) anlatılmış; boşluktan sonra ise fiber optiğin muazzam veri aktarım hızı belirtilmiştir. A şıkkı 'Fiber optics overcame these constraints...' diyerek köprü kurar.",
+      "distractorAnalysis": "Diğer şıklar akışın yönünü (olumlu/olumsuz) bozar veya parça konusuyla çelişir.",
+      "vocabularyNotes": [
+        {
+          "word": "paragraph coherence",
+          "meaning": "paragraf içi tutarlılık ve köprü kurma"
+        }
+      ],
+      "tacticalTip": "Boşluk öncesindeki 'both of which suffered from limited bandwidth and latency' ifadesine doğrudan 'overcame these constraints' (bu kısıtlamaların üstesinden geldi) cümlesi bağlanır."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-077",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Metin İçi Anlam Köprüsü",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Paragraf Tamamlama Formatı",
+    "passage": null,
+    "questionText": "The human gut microbiome consists of trillions of bacteria, viruses, and fungi living in symbiotic harmony within the digestive tract. These microscopic organisms perform vital metabolic duties, such as breaking down complex dietary fibers and synthesizing essential vitamins. ----. For instance, recent clinical studies indicate that imbalances in gut microbial diversity are strongly correlated with inflammatory bowel disease, obesity, and even chronic depression.",
+    "options": {
+      "A": "However, disruptions to this delicate ecological balance can have profound negative repercussions for overall human health",
+      "B": "Therefore, physicians advise patients to eliminate all bacteria from their gastrointestinal systems using antibiotics",
+      "C": "All intestinal microbes are inherently pathogenic and cause severe fatal illnesses in healthy adults",
+      "D": "In addition, human cells outnumber bacterial cells by a factor of ten thousand to one",
+      "E": "Dietary habits have zero influence on the composition or stability of intestinal microbial communities"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluktan önceki ve sonraki cümleler arasındaki mantıksal ve zamirsel bağ doğru seçenekte kurulmuştur.",
+      "detailedReason": "Boşluktan önceki kısım mikrobiyotanın faydalarını anlatıyor; boşluktan sonraki 'For instance, recent clinical studies indicate that imbalances... are correlated with disease' cümlesi olumsuz sağlık etkilerini örneklendiriyor. A şıkkı 'However, disruptions... can have profound negative repercussions' ile bu geçişi sağlar.",
+      "distractorAnalysis": "Diğer şıklar akışın yönünü (olumlu/olumsuz) bozar veya parça konusuyla çelişir.",
+      "vocabularyNotes": [
+        {
+          "word": "paragraph coherence",
+          "meaning": "paragraf içi tutarlılık ve köprü kurma"
+        }
+      ],
+      "tacticalTip": "Önceki olumlu anlatı ile sonraki hastalık örneği arasına 'However, disruptions... negative repercussions' köprüsü oturmalıdır."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-078",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-079",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-080",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-081",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-082",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-083",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-084",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-085",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-086",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-087",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-088",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-089",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-090",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-091",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-092",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-093",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-094",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-095",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-096",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-097",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-098",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-099",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-100",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-101",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-102",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-103",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-104",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-105",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-106",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-107",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-108",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-109",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-110",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-111",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-112",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-113",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-114",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-115",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-116",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-117",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-118",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-119",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-120",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-121",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-122",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-123",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-124",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-125",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-126",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-127",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-128",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-129",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-130",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-131",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-132",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-133",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-134",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-135",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-136",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-137",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-138",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-139",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-140",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-141",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-142",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-143",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-144",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-145",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-146",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-147",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-148",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-149",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "In recent years, astronomical observatories have discovered thousands of exoplanets orbiting distant stars throughout the Milky Way. While many of these worlds are blistering gas giants orbiting perilously close to their host stars, a growing number are rocky worlds situated within the circumstellar habitable zone. ----. Liquid water is universally recognized by astrobiologists as the foundational prerequisite for organic biochemistry as we know it.",
+    "options": {
+      "A": "This orbital region is crucial because temperatures permit liquid surface water to persist without boiling away or freezing solid",
+      "B": "Astronomers have concluded that planets situated in the habitable zone can never support life",
+      "C": "Gas giants are far more hospitable to biological organisms than small rocky terrestrial planets",
+      "D": "Because stars emit dangerous solar flares that destroy all organic compounds across the universe",
+      "E": "Consequently, planetary scientists have discontinued their search for extrasolar planets entirely"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Boşluktan önceki 'habitable zone' terimi, boşluktaki 'This orbital region is crucial because temperatures permit liquid water...' ile tanımlanır ve sonraki 'Liquid water is recognized...' cümlesine bağlanır.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
+  },
+  {
+    "id": "yds-paragraf-tamamlama-150",
+    "topicId": "paragraf-tamamlama",
+    "topicTitle": "Paragraf Tamamlama (Paragraph Completion)",
+    "subTopic": "Kronolojik ve Mantıksal Akış",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Paragraf Tamamlama Havuzu",
+    "passage": null,
+    "questionText": "Urban green spaces provide far more than mere aesthetic beautification for modern metropolitan areas. Scientific research confirms that public parks effectively mitigate the urban heat island effect by absorbing solar radiation and providing shade. ----. Furthermore, exposure to urban nature has been shown to lower cortisol levels and alleviate mental fatigue among city residents.",
+    "options": {
+      "A": "They also improve urban air quality by filtering harmful particulate matter and absorbing atmospheric carbon dioxide",
+      "B": "Municipal governments are therefore closing all urban parks to build commercial shopping malls",
+      "C": "Air pollution has no measurable effect on respiratory health in major industrial cities",
+      "D": "Because trees consume too much municipal freshwater without providing any ecological benefit",
+      "E": "As a result, citizens are abandoning metropolitan centers in favor of distant rural farms"
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Paragraftaki boşluğun öncesindeki konuyu alıp sonrasındaki cümleye pürüzsüz bağlayan seçenek doğru yanıttır.",
+      "detailedReason": "Parkların faydaları sıralanmaktadır; A şıkkı 'They also improve urban air quality...' diyerek akışı destekler.",
+      "distractorAnalysis": "Diğer seçenekler akışın gerektirdiği konu bütünlüğünü sağlamamaktadır.",
+      "vocabularyNotes": [
+        {
+          "word": "transitional bridge",
+          "meaning": "geçiş köprüsü"
+        }
+      ],
+      "tacticalTip": "Boşluktan sonra gelen cümlede 'This, These, Such, Furthermore' gibi referans ifadelerine dikkat edin."
+    }
   }
 ]

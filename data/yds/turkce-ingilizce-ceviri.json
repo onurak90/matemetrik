@@ -2398,5 +2398,2405 @@
       ],
       "tacticalTip": "Türkçe cümlenin en sonundaki yüklemin zamanına ve moduna (can, must, has done, is done) bakın ve İngilizce fiille eşleştirin."
     }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-081",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+    "options": {
+      "A": "The preservation of terrestrial ecosystems is of vital importance not only for sustaining biodiversity, but also for maintaining global climate balance.",
+      "B": "Maintaining global climate balance is the primary reason why terrestrial ecosystems should be preserved without damaging biodiversity.",
+      "C": "Because terrestrial ecosystems are of vital importance, biodiversity and global climate balance have been preserved successfully.",
+      "D": "Although terrestrial ecosystems sustain biodiversity, they cannot maintain global climate balance without human intervention.",
+      "E": "The preservation of terrestrial ecosystems sustains biodiversity, but it rarely contributes to global climate stability."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Karasal ekosistemlerin korunması, yalnızca biyolojik çeşitliliğin sürdürülmesi için değil, aynı zamanda küresel iklim dengesinin muhafazası için de hayati öneme sahiptir.",
+      "detailedReason": "Özne 'Karasal ekosistemlerin korunması' (The preservation of terrestrial ecosystems), yüklem 'hayati öneme sahiptir' (is of vital importance).",
+      "distractorAnalysis": "Çeldirici şıklarda Türkçe cümlenin ana yükleminin modu ve zamanı hatalı aktarılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "The preservation of terrestrial eco...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "Türkçe yüklemi İngilizce cümlenin ana fiili olan 'is of vital importance' ile eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-082",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Akademik Çeviri Teknikleri",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Çıkmış Çeviri Formatı",
+    "passage": null,
+    "questionText": "Tarihçiler, antik ticaret yollarının yalnızca emtiaların değil, aynı zamanda felsefi fikirlerin ve teknolojik buluşların da yayılmasını kolaylaştırdığını öne sürmektedir.",
+    "options": {
+      "A": "According to historians, philosophical ideas and technological inventions were more important than commodities along ancient trade routes.",
+      "B": "Historians suggest that ancient trade routes facilitated the dissemination not only of commodities, but also of philosophical ideas and technological inventions.",
+      "C": "Ancient trade routes disseminated commodities, although historians argue that philosophical ideas spread much later.",
+      "D": "Because commodities were traded along ancient routes, philosophical ideas and technological inventions were completely transformed.",
+      "E": "Historians maintain that technological inventions originated from ancient trade routes that primarily transported commodities."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Tarihçiler, antik ticaret yollarının yalnızca emtiaların değil, aynı zamanda felsefi fikirlerin ve teknolojik buluşların da yayılmasını kolaylaştırdığını öne sürmektedir.",
+      "detailedReason": "Ana yüklem 'öne sürmektedir' (suggest that), yan cümlenin fiili 'kolaylaştırdığını' (facilitated).",
+      "distractorAnalysis": "Çeldirici şıklarda Türkçe cümlenin ana yükleminin modu ve zamanı hatalı aktarılmıştır.",
+      "vocabularyNotes": [
+        {
+          "word": "Historians suggest that ancient tra...",
+          "meaning": "Doğru İngilizce çeviri"
+        }
+      ],
+      "tacticalTip": "'Öne sürmektedir' ifadesini 'suggest that' ile ve 'kolaylaştırdığını' fiilini 'facilitated' ile eşleştirin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-083",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-084",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-085",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-086",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-087",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-088",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-089",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-090",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-091",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-092",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-093",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-094",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-095",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-096",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-097",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-098",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-099",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-100",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-101",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-102",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-103",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-104",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-105",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-106",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-107",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-108",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-109",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-110",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-111",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-112",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-113",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-114",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-115",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-116",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-117",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-118",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-119",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-120",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-121",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-122",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-123",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-124",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-125",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-126",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-127",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-128",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-129",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-130",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-131",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-132",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-133",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-134",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-135",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-136",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-137",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-138",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-139",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-140",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-141",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-142",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-143",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-144",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-145",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-146",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-147",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-148",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-149",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-150",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-151",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-152",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-153",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-154",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-155",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-156",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "A",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-157",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+    "options": {
+      "A": "The regular consumption of ultra-processed foods significantly eliminates the risk of metabolic syndrome and cardiovascular disorders.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "The regular consumption of ultra-processed foods significantly increases the risk of metabolic syndrome and cardiovascular disorders.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "C",
+    "explanation": {
+      "turkishTranslation": "Aşırı işlenmiş gıdaların düzenli tüketimi, metabolik sendrom ve kalp damar rahatsızlıkları riskini önemli ölçüde artırmaktadır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-158",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "kolay",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+    "options": {
+      "A": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly.",
+      "E": "The utilization of artificial intelligence algorithms in medical diagnostics enables physicians to detect complex diseases at a much earlier stage."
+    },
+    "correctAnswer": "E",
+    "explanation": {
+      "turkishTranslation": "Yapay zekâ algoritmalarının tıbbi teşhiste kullanılması, doktorların karmaşık hastalıkları çok daha erken aşamada tespit etmelerine olanak tanır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-159",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "orta",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+    "options": {
+      "A": "The rapid decline in the production costs of solar panels has made clean energy far more prohibitive to developing nations.",
+      "B": "The rapid decline in the production costs of solar panels has made clean energy far more accessible to developing nations.",
+      "C": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "D": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "B",
+    "explanation": {
+      "turkishTranslation": "Güneş enerjisi panellerinin üretim maliyetlerindeki hızlı düşüş, temiz enerjiyi gelişmekte olan ülkeler için çok daha erişilebilir kılmıştır.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
+  },
+  {
+    "id": "yds-turkce-ingilizce-ceviri-160",
+    "topicId": "turkce-ingilizce-ceviri",
+    "topicTitle": "Türkçe - İngilizce Çeviri (Translation TR-EN)",
+    "subTopic": "Yüklem ve Çatı Uyumu",
+    "difficulty": "ileri",
+    "yearOrSource": "ÖSYM YDS Özgün Çeviri Havuzu",
+    "passage": null,
+    "questionText": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+    "options": {
+      "A": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "B": "Although scientific studies were conducted on this matter, no conclusive data could be obtained.",
+      "C": "Governments must implement stricter environmental regulations to prevent widespread ecological deterioration.",
+      "D": "The conscious use of digital tools in education can strengthen students' learning motivation while enhancing their independent research skills.",
+      "E": "Because technological developments emerged unexpectedly, regulatory authorities failed to supervise them properly."
+    },
+    "correctAnswer": "D",
+    "explanation": {
+      "turkishTranslation": "Eğitimde dijital araçların bilinçli kullanımı, öğrencilerin bağımsız araştırma becerilerini geliştirirken öğrenme motivasyonlarını da güçlendirebilir.",
+      "detailedReason": "Türkçe cümlenin yüklem ve özne yapısı İngilizcede en eksiksiz ve dilbilgisel olarak doğru biçimde doğru seçenekte verilmiştir.",
+      "distractorAnalysis": "Çeldiricilerde etken-edilgen çatılar veya bağlaçlar yanlış eşleştirilmiştir.",
+      "vocabularyNotes": [
+        {
+          "word": "target sentence",
+          "meaning": "çevrilecek cümle"
+        }
+      ],
+      "tacticalTip": "Türkçe cümlenin en sonundaki yükleme bakıp İngilizce cümlenin ana fiilini kontrol edin."
+    }
   }
 ]

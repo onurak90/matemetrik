@@ -54,7 +54,7 @@ export default function Navbar() {
       { name: '12. Sınıf', href: '/kategori/12-sinif' },
     ]},
     { label: 'Sınavlar', items: [
-      { name: '🎯 YDS Hazırlık (1.000 Soru)', href: '/yds-calisma-bolumu' },
+      { name: '🎯 YDS Hazırlık (2.000 Soru)', href: '/yds-calisma-bolumu' },
       { name: 'YDS Blog & Materyal', href: '/kategori/yds' },
       { name: 'ALES Çıkmış Sorular', href: '/kategori/ales' },
       { name: 'YKS & Sınav', href: '/kategori/yks' },
@@ -374,7 +374,7 @@ export default function Navbar() {
             >
               <span>🎯 YDS Hazırlık</span>
               <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-extrabold">
-                1.000 Soru
+                2.000 Soru
               </span>
             </Link>
 
@@ -538,7 +538,7 @@ export default function Navbar() {
             <span className="flex items-center gap-2">
               <span>🎯</span> YDS Hazırlık &amp; Çalışma
             </span>
-            <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-extrabold">1.000 Soru</span>
+            <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-extrabold">2.000 Soru</span>
           </Link>
 
           <Link
