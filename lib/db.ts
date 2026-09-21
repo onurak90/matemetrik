@@ -116,7 +116,6 @@ function initTables(db: Database.Database) {
     );
 
     CREATE INDEX IF NOT EXISTS idx_comments_post ON comments(post_id);
-    CREATE INDEX IF NOT EXISTS idx_comments_parent ON comments(parent_id);
     CREATE INDEX IF NOT EXISTS idx_comments_approved ON comments(is_approved);
 
     CREATE INDEX IF NOT EXISTS idx_posts_slug ON posts(slug);
@@ -151,6 +150,9 @@ function initTables(db: Database.Database) {
   } catch {}
   try {
     db.exec('ALTER TABLE comments ADD COLUMN is_admin INTEGER DEFAULT 0');
+  } catch {}
+  try {
+    db.exec('CREATE INDEX IF NOT EXISTS idx_comments_parent ON comments(parent_id)');
   } catch {}
 }
 
