@@ -25,6 +25,7 @@ export default function ExamMakerTool() {
   const [questions, setQuestions] = useState<QuestionItem[]>([]);
   const [columnCount, setColumnCount] = useState<'1' | '2'>('2');
   const [globalLineCount, setGlobalLineCount] = useState<number>(5);
+  const [showPageNumber, setShowPageNumber] = useState<boolean>(false);
   const [hasErrorBlink, setHasErrorBlink] = useState(false);
 
   // Editable Header & Footer Values
@@ -238,19 +239,17 @@ export default function ExamMakerTool() {
             box-sizing: border-box !important;
             width: 100% !important;
             max-width: 100% !important;
-            height: 278mm !important;
-            max-height: 278mm !important;
-            min-height: 278mm !important;
+            height: auto !important;
+            min-height: 0 !important;
+            max-height: 270mm !important;
             padding: 0 !important;
             margin: 0 !important;
             box-shadow: none !important;
             border: none !important;
             border-radius: 0 !important;
-            overflow: hidden !important;
+            overflow: visible !important;
             position: relative !important;
-            display: flex !important;
-            flex-direction: column !important;
-            justify-content: space-between !important;
+            display: block !important;
             break-inside: avoid !important;
             page-break-inside: avoid !important;
           }
@@ -261,6 +260,9 @@ export default function ExamMakerTool() {
           .a4-print-sayfa:last-child {
             page-break-after: avoid !important;
             break-after: avoid !important;
+          }
+          .sinav-kapanis-alani {
+            margin-top: 14px !important;
           }
         }
       `}</style>
@@ -316,7 +318,7 @@ export default function ExamMakerTool() {
         </div>
 
         {/* Setting Controls */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">
           {/* Column Layout */}
           <div className="space-y-1.5">
             <label className="block font-bold text-slate-700 uppercase tracking-wider text-[11px]">
@@ -335,18 +337,33 @@ export default function ExamMakerTool() {
           {/* Quick Line Spacing */}
           <div className="space-y-1.5">
             <label className="block font-bold text-slate-700 uppercase tracking-wider text-[11px]">
-              ⚡ Soru Altı Cevap Boşluğu (Tümüne Uygula)
+              ⚡ Soru Altı Cevap Boşluğu
             </label>
             <select
               value={globalLineCount}
               onChange={(e) => handleGlobalLineChange(Number(e.target.value))}
               className="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
-              <option value="0">⚪ Boşluk Yok (Yalnızca Soru Görselleri)</option>
-              <option value="3">📐 Küçük Boşluk (Kısa Cevaplar)</option>
-              <option value="5">📐 Standart Cevap Boşluğu (MEB Formatı)</option>
+              <option value="0">⚪ Boşluk Yok (Yalnızca Soru)</option>
+              <option value="3">📐 Küçük Boşluk (Kısa Cevap)</option>
+              <option value="5">📐 Standart Boşluk (MEB Formatı)</option>
               <option value="7">📐 Geniş Boşluk (İşlem Alanı)</option>
-              <option value="10">📐 Maksimum Boşluk (Ayrıntılı Çözüm)</option>
+              <option value="10">📐 Maksimum Boşluk (Detaylı Çözüm)</option>
+            </select>
+          </div>
+
+          {/* Page Number Option */}
+          <div className="space-y-1.5">
+            <label className="block font-bold text-slate-700 uppercase tracking-wider text-[11px]">
+              Sayfa Numarası
+            </label>
+            <select
+              value={showPageNumber ? 'top' : 'none'}
+              onChange={(e) => setShowPageNumber(e.target.value === 'top')}
+              className="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            >
+              <option value="none">🚫 Sayfa Numarası Yok (Önerilen)</option>
+              <option value="top">📄 Üst Antette Göster (Taşmaz)</option>
             </select>
           </div>
 
@@ -409,7 +426,7 @@ export default function ExamMakerTool() {
               return (
                 <div
                   key={pageIndex}
-                  className="a4-print-sayfa bg-white text-slate-900 rounded shadow-xl border border-slate-200 flex flex-col relative overflow-hidden w-full min-h-[297mm] p-[10mm_12mm] print:min-h-0 print:h-[278mm] print:max-h-[278mm] print:p-0"
+                  className="a4-print-sayfa bg-white text-slate-900 rounded-2xl shadow-xl border border-slate-200 flex flex-col relative w-full min-h-[297mm] p-[10mm_12mm] print:min-h-0 print:h-auto print:max-h-[270mm] print:p-0 print:border-none print:shadow-none print:rounded-none print:block"
                   style={{
                     boxSizing: 'border-box',
                   }}
@@ -492,7 +509,31 @@ export default function ExamMakerTool() {
                         <div>Adı:</div>
                         <div>Soyadı:</div>
                         <div>Sınıf / No:</div>
+                        {showPageNumber && (
+                          <div className="text-[10px] font-bold text-slate-600 print:text-black mt-1">
+                            Sayfa: 1 / {paginatedPages.length}
+                          </div>
+                        )}
                       </div>
+                    </div>
+                  )}
+
+                  {/* Subtle Sub-header for Page 2 and beyond */}
+                  {!isFirstPage && (
+                    <div className="shrink-0 mb-3 pb-1 border-b border-slate-300 print:border-slate-700 flex items-center justify-between text-[11px] text-slate-600 print:text-black font-semibold min-h-[20px]">
+                      <span className="truncate max-w-[140mm]">
+                        {schoolName && !isDefaultOrEmpty(schoolName, DEFAULT_REMINDERS.schoolName)
+                          ? `${schoolName} `
+                          : ''}
+                        {courseName && !isDefaultOrEmpty(courseName, DEFAULT_REMINDERS.courseName)
+                          ? `- ${courseName}`
+                          : ''}
+                      </span>
+                      {showPageNumber && (
+                        <span className="font-bold shrink-0">
+                          Sayfa {pageNumber} / {paginatedPages.length}
+                        </span>
+                      )}
                     </div>
                   )}
 
@@ -573,56 +614,45 @@ export default function ExamMakerTool() {
                     })}
                   </div>
 
-                  {/* Integrated In-Flow Page Footer (Eliminates page overflow / orphan blank pages) */}
-                  <div className="shrink-0 mt-auto pt-1.5 border-t border-slate-300 print:border-slate-400 print:pt-1">
-                    {isLastPage && (
-                      <div className="pb-1.5 mb-1.5 border-b border-slate-200 flex items-center justify-between text-xs font-bold text-slate-900">
-                        <div
-                          contentEditable
-                          suppressContentEditableWarning
-                          onBlur={(e) => setPointsNote(e.currentTarget.innerText.trim())}
-                          className="cursor-text"
-                        >
-                          {pointsNote}
-                        </div>
-
-                        <div
-                          contentEditable
-                          suppressContentEditableWarning
-                          onBlur={(e) => setGoodLuckNote(e.currentTarget.innerText.trim())}
-                          className="italic text-center flex-1 cursor-text"
-                        >
-                          {goodLuckNote}
-                        </div>
-
-                        <div className="text-right">
-                          <span
-                            contentEditable
-                            suppressContentEditableWarning
-                            onBlur={(e) => setTeacherName(e.currentTarget.innerText.trim())}
-                            className={`px-1.5 py-0.5 rounded cursor-text ${
-                              isDefaultOrEmpty(teacherName, DEFAULT_REMINDERS.teacherName)
-                                ? `bg-amber-50 border border-dashed border-amber-500 text-amber-900 ${
-                                    hasErrorBlink ? 'alan-hata' : ''
-                                  }`
-                                : 'bg-transparent border-transparent'
-                            }`}
-                          >
-                            {teacherName}
-                          </span>
-                        </div>
+                  {/* Exam Ending / Signature Area (In-flow on the last page only - NEVER causes page overflow) */}
+                  {isLastPage && (
+                    <div className="sinav-kapanis-alani shrink-0 mt-auto pt-2 border-t border-slate-300 print:border-slate-800 flex items-center justify-between text-xs font-bold text-slate-900 print:text-black print:mt-3.5 print:pt-1.5">
+                      <div
+                        contentEditable
+                        suppressContentEditableWarning
+                        onBlur={(e) => setPointsNote(e.currentTarget.innerText.trim())}
+                        className="cursor-text"
+                      >
+                        {pointsNote}
                       </div>
-                    )}
 
-                    <div className="flex items-center justify-between text-[10px] text-slate-500 font-medium">
-                      <span className="truncate max-w-[120mm]">
-                        {schoolName && !isDefaultOrEmpty(schoolName, DEFAULT_REMINDERS.schoolName) ? schoolName : ''}
-                      </span>
-                      <span className="font-bold text-slate-600 print:text-slate-800">
-                        Sayfa {pageNumber} / {paginatedPages.length}
-                      </span>
+                      <div
+                        contentEditable
+                        suppressContentEditableWarning
+                        onBlur={(e) => setGoodLuckNote(e.currentTarget.innerText.trim())}
+                        className="italic text-center flex-1 cursor-text"
+                      >
+                        {goodLuckNote}
+                      </div>
+
+                      <div className="text-right">
+                        <span
+                          contentEditable
+                          suppressContentEditableWarning
+                          onBlur={(e) => setTeacherName(e.currentTarget.innerText.trim())}
+                          className={`px-1.5 py-0.5 rounded cursor-text ${
+                            isDefaultOrEmpty(teacherName, DEFAULT_REMINDERS.teacherName)
+                              ? `bg-amber-50 border border-dashed border-amber-500 text-amber-900 ${
+                                  hasErrorBlink ? 'alan-hata' : ''
+                                }`
+                              : 'bg-transparent border-transparent'
+                          }`}
+                        >
+                          {teacherName}
+                        </span>
+                      </div>
                     </div>
-                  </div>
+                  )}
                 </div>
               );
             })}

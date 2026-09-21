@@ -72,28 +72,28 @@ export default function Navbar() {
       }`}
     >
       <TopCtaBanner />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1440px] mx-auto px-3 sm:px-5 lg:px-6">
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center text-white shadow-lg shadow-indigo-500/25 group-hover:scale-105 transition-transform duration-300">
-              <span className="font-black text-xl">M</span>
+          <Link href="/" className="flex items-center gap-2 group shrink-0">
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-2xl bg-gradient-to-tr from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center text-white shadow-lg shadow-indigo-500/25 group-hover:scale-105 transition-transform duration-300">
+              <span className="font-black text-lg sm:text-xl">M</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl sm:text-2xl font-black tracking-tight text-slate-900 group-hover:text-indigo-600 transition-colors">
+              <span className="text-lg sm:text-2xl font-black tracking-tight text-slate-900 group-hover:text-indigo-600 transition-colors">
                 matemetrik<span className="text-indigo-600">.</span>
               </span>
-              <span className="text-[10px] -mt-1 font-semibold text-slate-500 uppercase tracking-widest">
+              <span className="text-[9px] sm:text-[10px] -mt-1 font-semibold text-slate-500 uppercase tracking-widest">
                 Akıllı Eğitim
               </span>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
+          <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1 2xl:gap-1.5">
             <Link
               href="/"
-              className={`px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
+              className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                 pathname === '/'
                   ? 'text-indigo-600 bg-indigo-50'
                   : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
@@ -106,10 +106,11 @@ export default function Navbar() {
             <div className="relative group">
               <button
                 type="button"
-                className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
+                className="flex items-center gap-1 px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
               >
-                Sınıflar &amp; Sınavlar
-                <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
+                <span>Sınıflar</span>
+                <span className="hidden xl:inline">&amp; Sınavlar</span>
+                <ChevronDown className="w-3.5 h-3.5 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
               </button>
 
               <div className="absolute top-full left-0 w-[440px] bg-white rounded-2xl shadow-xl border border-slate-200 p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0">
@@ -138,14 +139,14 @@ export default function Navbar() {
             <div className="relative group">
               <Link
                 href="/meb-cozumleri"
-                className={`flex items-center gap-1.5 px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
+                className={`flex items-center gap-1 px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                   pathname?.startsWith('/meb-cozumleri')
                     ? 'text-indigo-600 bg-indigo-50'
                     : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
                 }`}
               >
-                MEB Çözümleri
-                <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
+                <span>MEB Çözümleri</span>
+                <ChevronDown className="w-3.5 h-3.5 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
               </Link>
 
               <div className="absolute top-full left-1/2 -translate-x-1/2 w-[560px] bg-white rounded-2xl shadow-2xl border border-slate-200 p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-3">
@@ -242,14 +243,14 @@ export default function Navbar() {
             <div className="relative group">
               <Link
                 href="/ogretmen-araclari"
-                className={`flex items-center gap-1.5 px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
+                className={`flex items-center gap-1 px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                   pathname?.startsWith('/ogretmen-araclari')
                     ? 'text-indigo-600 bg-indigo-50'
                     : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
                 }`}
               >
-                Öğretmen Araçları
-                <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
+                <span>Öğretmen Araçları</span>
+                <ChevronDown className="w-3.5 h-3.5 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
               </Link>
 
               <div className="absolute top-full left-0 w-80 bg-white rounded-2xl shadow-xl border border-slate-200 p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-0.5">
@@ -360,7 +361,7 @@ export default function Navbar() {
             <div className="relative group">
               <Link
                 href="/hesaplama-araclari"
-                className={`flex items-center gap-1.5 px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
+                className={`flex items-center gap-1 px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                   pathname?.startsWith('/hesaplama-araclari') ||
                   pathname === '/yuzde-hesaplama' ||
                   pathname === '/kdv-hesaplama' ||
@@ -370,7 +371,8 @@ export default function Navbar() {
                 }`}
               >
                 <span>🧮 Hesaplama</span>
-                <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
+                <span className="hidden 2xl:inline">&nbsp;Araçları</span>
+                <ChevronDown className="w-3.5 h-3.5 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
               </Link>
 
               <div className="absolute top-full left-1/2 -translate-x-1/2 w-[520px] bg-white rounded-2xl shadow-2xl border border-slate-200 p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-3">
@@ -416,7 +418,7 @@ export default function Navbar() {
 
             <Link
               href="/konu-anlatimlari"
-              className={`px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold transition-colors ${
+              className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                 pathname === '/konu-anlatimlari' || pathname?.startsWith('/konu-anlatimlari')
                   ? 'text-indigo-600 bg-indigo-50'
                   : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
@@ -427,51 +429,38 @@ export default function Navbar() {
 
             <Link
               href="/yds-calisma-bolumu"
-              className={`px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold transition-colors flex items-center gap-1 ${
+              className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors flex items-center gap-1 ${
                 pathname?.startsWith('/yds-calisma-bolumu')
                   ? 'text-indigo-600 bg-indigo-50'
                   : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
               }`}
             >
               <span>🎯 YDS</span>
+              <span className="hidden xl:inline">Hazırlık</span>
             </Link>
 
-            {/* Keşfet / Daha Fazla Dropdown (Menü sığma sorununu çözer) */}
-            <div className="relative group">
-              <button
-                type="button"
-                className="flex items-center gap-1 px-2.5 xl:px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:text-indigo-600 hover:bg-slate-50 transition-colors"
-              >
-                Keşfet
-                <ChevronDown className="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
-              </button>
-              <div className="absolute top-full right-0 w-52 bg-white rounded-2xl shadow-xl border border-slate-200 p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-1">
-                <Link
-                  href="/kategori/kitap-ozet"
-                  className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-xl transition-colors"
-                >
-                  📚 Kitap Özetleri
-                </Link>
-                <Link
-                  href="/kategori/matematik-blog"
-                  className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-xl transition-colors"
-                >
-                  ✍️ Blog &amp; Makaleler
-                </Link>
-                <Link
-                  href="/hakkimizda"
-                  className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-xl transition-colors"
-                >
-                  ℹ️ Hakkımızda
-                </Link>
-                <Link
-                  href="/iletisim"
-                  className="block px-3 py-2 text-xs font-semibold text-slate-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-xl transition-colors"
-                >
-                  📬 İletişim
-                </Link>
-              </div>
-            </div>
+            <Link
+              href="/kategori/matematik-blog"
+              className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
+                pathname === '/kategori/matematik-blog'
+                  ? 'text-indigo-600 bg-indigo-50'
+                  : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
+              }`}
+            >
+              <span>Blog</span>
+              <span className="hidden xl:inline">&amp; Makaleler</span>
+            </Link>
+
+            <Link
+              href="/hakkimizda"
+              className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
+                pathname === '/hakkimizda'
+                  ? 'text-indigo-600 bg-indigo-50'
+                  : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
+              }`}
+            >
+              Hakkımızda
+            </Link>
           </nav>
 
           {/* Right Actions */}
