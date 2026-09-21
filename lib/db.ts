@@ -14,15 +14,27 @@ if (!fs.existsSync(DB_DIR)) {
 }
 
 function getResolvedDbPath(): string {
+  // During build phase, always use the real project database
+  if (process.env.NEXT_PHASE === 'phase-production-build') {
+    return ORIGINAL_DB_PATH;
+  }
   // When running inside Vercel serverless environment, filesystem outside /tmp is read-only
   if (process.env.VERCEL) {
     const tmpDbPath = '/tmp/matemetrik.db';
-    if (!fs.existsSync(tmpDbPath)) {
+    let shouldCopy = !fs.existsSync(tmpDbPath);
+    if (!shouldCopy && fs.existsSync(ORIGINAL_DB_PATH)) {
       try {
-        if (fs.existsSync(ORIGINAL_DB_PATH)) {
-          fs.copyFileSync(ORIGINAL_DB_PATH, tmpDbPath);
-          console.log('[Vercel] Database successfully copied to /tmp/matemetrik.db');
+        const origStat = fs.statSync(ORIGINAL_DB_PATH);
+        const tmpStat = fs.statSync(tmpDbPath);
+        if (origStat.mtimeMs > tmpStat.mtimeMs || origStat.size !== tmpStat.size) {
+          shouldCopy = true;
         }
+      } catch {}
+    }
+    if (shouldCopy && fs.existsSync(ORIGINAL_DB_PATH)) {
+      try {
+        fs.copyFileSync(ORIGINAL_DB_PATH, tmpDbPath);
+        console.log('[Vercel] Database successfully synced to /tmp/matemetrik.db');
       } catch (err) {
         console.error('[Vercel] Error copying DB to /tmp:', err);
       }
