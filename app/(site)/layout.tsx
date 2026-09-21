@@ -3,6 +3,7 @@ import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/footer/Footer';
 import CookieConsent from '@/components/common/CookieConsent';
 import AnalyticsTracker from '@/components/common/AnalyticsTracker';
+import CopyAttribution from '@/components/common/CopyAttribution';
 
 export default function SiteLayout({
   children,
@@ -12,6 +13,7 @@ export default function SiteLayout({
   return (
     <div className="flex flex-col min-h-screen">
       <AnalyticsTracker />
+      <CopyAttribution />
       <div className="print:hidden">
         <Navbar />
       </div>

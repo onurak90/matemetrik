@@ -5,7 +5,7 @@ import {
   CheckCircle2, XCircle, HelpCircle, ChevronLeft, ChevronRight,
   RotateCcw, Award, Sparkles, BookOpen, Clock, AlertCircle,
   Eye, EyeOff, Filter, BarChart3, Bookmark, Share2, Check,
-  Volume2, Compass, Layers, ShieldCheck, ArrowRight
+  Volume2, Compass, Layers, ShieldCheck, ArrowRight, Code, X, Copy
 } from 'lucide-react';
 import type { YdsQuestion } from '@/lib/yds';
 
@@ -27,6 +27,8 @@ export default function YdsTestEngine({ topicId, topicTitle, questions }: Props)
   const [timeElapsed, setTimeElapsed] = useState(0);
   const [isTimerRunning, setIsTimerRunning] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [showEmbedModal, setShowEmbedModal] = useState(false);
+  const [embedCopied, setEmbedCopied] = useState(false);
 
   // Timer
   useEffect(() => {
@@ -353,6 +355,17 @@ export default function YdsTestEngine({ topicId, topicTitle, questions }: Props)
 
             <div className="flex items-center gap-2">
               <button
+                type="button"
+                onClick={() => setShowEmbedModal(true)}
+                className="p-2 sm:px-3 sm:py-2 rounded-xl border border-slate-200 text-slate-600 hover:text-indigo-600 hover:bg-indigo-50 hover:border-indigo-200 transition-all flex items-center gap-1.5 text-xs font-semibold"
+                title="Bu YDS Modülünü Kendi Web Sitene Ekle (Embed)"
+              >
+                <Code className="w-4 h-4 text-indigo-600" />
+                <span className="hidden sm:inline">Sitene Ekle</span>
+              </button>
+
+              <button
+                type="button"
                 onClick={() => toggleBookmark(currentQ.id)}
                 className={`p-2 rounded-xl border transition-all ${
                   bookmarks[currentQ.id]
@@ -629,6 +642,67 @@ export default function YdsTestEngine({ topicId, topicTitle, questions }: Props)
           })}
         </div>
       </div>
+
+      {/* ==================== SITENE EKLE (EMBED) MODAL ==================== */}
+      {showEmbedModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-sm animate-in fade-in">
+          <div className="bg-white dark:bg-slate-900 rounded-3xl max-w-lg w-full p-6 sm:p-7 shadow-2xl border border-slate-200 dark:border-slate-800 space-y-5 relative">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2.5">
+                <div className="p-2 rounded-xl bg-indigo-50 dark:bg-indigo-950/50 text-indigo-600 dark:text-indigo-400">
+                  <Code className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="font-extrabold text-slate-900 dark:text-white text-base sm:text-lg">
+                    {topicTitle} Testini Sitene Ekle
+                  </h3>
+                  <p className="text-xs text-slate-500">Web Sitenize veya Blogunuza Ücretsiz Ekleyin</p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setShowEmbedModal(false)}
+                className="p-2 rounded-xl text-slate-400 hover:text-slate-600 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+              Aşağıdaki HTML kodunu kopyalayıp web sitenize ekleyerek interaktif <strong>{topicTitle}</strong> test modülünü ziyaretçilerinize ücretsiz sunabilirsiniz.
+            </p>
+
+            <div className="relative bg-slate-900 rounded-2xl p-4 text-slate-200 text-xs font-mono break-all select-all border border-slate-800">
+              <code>
+                {`<iframe src="https://www.matemetrik.com/yds-calisma-bolumu/${topicId}" width="100%" height="750" frameborder="0" style="border-radius:16px;border:1px solid #e2e8f0;overflow:hidden;" title="Matemetrik YDS ${topicTitle}"></iframe>\n<p style="font-size:12px;color:#64748b;text-align:right;margin-top:6px;">YDS Testi: <a href="https://www.matemetrik.com/yds-calisma-bolumu/${topicId}" target="_blank" rel="noopener" style="color:#4f46e5;font-weight:600;text-decoration:none;">Matemetrik YDS Hazırlık</a></p>`}
+              </code>
+            </div>
+
+            <div className="flex flex-col sm:flex-row items-center gap-3">
+              <button
+                type="button"
+                onClick={() => {
+                  const code = `<iframe src="https://www.matemetrik.com/yds-calisma-bolumu/${topicId}" width="100%" height="750" frameborder="0" style="border-radius:16px;border:1px solid #e2e8f0;overflow:hidden;" title="Matemetrik YDS ${topicTitle}"></iframe>\n<p style="font-size:12px;color:#64748b;text-align:right;margin-top:6px;">YDS Testi: <a href="https://www.matemetrik.com/yds-calisma-bolumu/${topicId}" target="_blank" rel="noopener" style="color:#4f46e5;font-weight:600;text-decoration:none;">Matemetrik YDS Hazırlık</a></p>`;
+                  navigator.clipboard.writeText(code);
+                  setEmbedCopied(true);
+                  setTimeout(() => setEmbedCopied(false), 2500);
+                }}
+                className="w-full sm:flex-1 py-3 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-md shadow-indigo-200 dark:shadow-none"
+              >
+                {embedCopied ? <Check className="w-4 h-4 text-emerald-300" /> : <Copy className="w-4 h-4" />}
+                {embedCopied ? 'Kod Panoya Kopyalandı!' : 'Embed Kodunu Kopyala'}
+              </button>
+              <button
+                type="button"
+                onClick={() => setShowEmbedModal(false)}
+                className="w-full sm:w-auto py-3 px-5 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-bold text-xs transition-colors"
+              >
+                Kapat
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
