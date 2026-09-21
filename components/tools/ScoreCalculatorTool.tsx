@@ -9,8 +9,12 @@ import {
 
 type TabType = 'lgs' | 'yks';
 
-export default function ScoreCalculatorTool() {
-  const [activeTab, setActiveTab] = useState<TabType>('lgs');
+export default function ScoreCalculatorTool({
+  initialTab = 'lgs',
+}: {
+  initialTab?: TabType;
+} = {}) {
+  const [activeTab, setActiveTab] = useState<TabType>(initialTab);
   const [copied, setCopied] = useState(false);
   const [showEmbedModal, setShowEmbedModal] = useState(false);
   const [embedCopied, setEmbedCopied] = useState(false);

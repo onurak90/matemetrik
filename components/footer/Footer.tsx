@@ -83,6 +83,16 @@ export default function Footer() {
                   <Sparkles className="w-3 h-3" /> Puan Hesaplama Robotu (LGS &amp; YKS)
                 </Link>
               </li>
+              <li className="pl-4">
+                <Link href="/yks-puan-hesaplama-robotu" className="hover:text-white transition-colors flex items-center gap-1 text-slate-300 hover:text-purple-300">
+                  &rarr; 📊 2026 YKS Puan Hesaplama
+                </Link>
+              </li>
+              <li className="pl-4">
+                <Link href="/lgs-puan-hesaplama-robotu" className="hover:text-white transition-colors flex items-center gap-1 text-slate-300 hover:text-indigo-300">
+                  &rarr; 🎯 2026 LGS Puan Hesaplama
+                </Link>
+              </li>
               <li>
                 <Link href="/yds-calisma-bolumu" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-semibold">
                   <Sparkles className="w-3 h-3" /> 🎯 YDS Hazırlık &amp; Çalışma

@@ -55,6 +55,8 @@ export default function Navbar() {
     ]},
     { label: 'Sınavlar', items: [
       { name: '🎯 YDS Hazırlık', href: '/yds-calisma-bolumu' },
+      { name: '📊 YKS Puan Hesaplama', href: '/yks-puan-hesaplama-robotu' },
+      { name: '🎯 LGS Puan Hesaplama', href: '/lgs-puan-hesaplama-robotu' },
       { name: 'YDS Blog & Materyal', href: '/kategori/yds' },
       { name: 'ALES Çıkmış Sorular', href: '/kategori/ales' },
       { name: 'YKS & Sınav', href: '/kategori/yks' },
@@ -502,6 +504,14 @@ export default function Navbar() {
               <span>Puan Hesaplama Robotu</span>
               <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-rose-50 text-rose-700 font-bold border border-rose-200">LGS &amp; YKS</span>
             </Link>
+            <div className="pl-3 grid grid-cols-2 gap-1.5 text-xs">
+              <Link href="/yks-puan-hesaplama-robotu" onClick={() => setIsOpen(false)} className="p-1 rounded text-purple-700 hover:bg-purple-50 font-medium">
+                📊 YKS Puan Hesapla
+              </Link>
+              <Link href="/lgs-puan-hesaplama-robotu" onClick={() => setIsOpen(false)} className="p-1 rounded text-indigo-700 hover:bg-indigo-50 font-medium">
+                🎯 LGS Puan Hesapla
+              </Link>
+            </div>
           </div>
 
           <Link

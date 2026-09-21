@@ -227,8 +227,53 @@ export default function PuanHesaplamaPage() {
           </div>
         </section>
 
+        {/* Dedicated Calculator Quick Cards */}
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-2 mb-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Link
+              href="/yks-puan-hesaplama-robotu"
+              className="p-4 bg-white hover:bg-purple-50/50 border border-slate-200 hover:border-purple-300 rounded-2xl transition-all shadow-sm flex items-center justify-between group"
+            >
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center font-bold">
+                  📊
+                </div>
+                <div>
+                  <div className="text-sm font-bold text-slate-900 group-hover:text-purple-700 transition-colors">
+                    2026 YKS Puan Hesaplama Robotu
+                  </div>
+                  <div className="text-xs text-slate-500">
+                    TYT, AYT Sayısal, EA, Sözel &amp; YDT sıralama
+                  </div>
+                </div>
+              </div>
+              <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-purple-600 transition-colors" />
+            </Link>
+
+            <Link
+              href="/lgs-puan-hesaplama-robotu"
+              className="p-4 bg-white hover:bg-indigo-50/50 border border-slate-200 hover:border-indigo-300 rounded-2xl transition-all shadow-sm flex items-center justify-between group"
+            >
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold">
+                  🎯
+                </div>
+                <div>
+                  <div className="text-sm font-bold text-slate-900 group-hover:text-indigo-700 transition-colors">
+                    2026 LGS Puan Hesaplama Robotu
+                  </div>
+                  <div className="text-xs text-slate-500">
+                    8. Sınıf merkezi sınav katsayıları ve yüzdelik dilim
+                  </div>
+                </div>
+              </div>
+              <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-indigo-600 transition-colors" />
+            </Link>
+          </div>
+        </section>
+
         {/* Main Calculator Tool Component */}
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6">
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScoreCalculatorTool />
         </section>
 
