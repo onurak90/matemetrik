@@ -128,13 +128,13 @@ export default function ExamMakerTool() {
     const isDouble = columnCount === '2';
 
     // Usable vertical pixel heights for A4 with 8mm top/bottom margins (usable height = 281mm = ~1062px):
-    // Page 1 has official exam header (~85px) + footer (~35px) + safety buffer, so 740px usable for questions.
-    // Subsequent pages have no header (~35-60px footer), so 850px usable for questions.
-    const page1MaxHeight = 740;
-    const subsequentMaxHeight = 850;
+    // Page 1 has official exam header (~85px) + footer (~35px) + safety buffer, usable ~890px.
+    // Subsequent pages have minimal sub-header (~25px) + footer (~35px) + safety buffer, usable ~930px.
+    const page1MaxHeight = 890;
+    const subsequentMaxHeight = 930;
 
     const getQuestionHeight = (q: QuestionItem): number => {
-      const baseHeight = 145; // question badge (~22px), image (max-h 115px), padding/gap (~8px)
+      const baseHeight = 115; // question badge (~20px), image (capped at max-h 115px, avg 80-95px), card padding/gap
       const linesHeight = (q.lineCount || 0) * 18; // 18px per blank spacing unit
       return baseHeight + linesHeight;
     };
@@ -241,7 +241,6 @@ export default function ExamMakerTool() {
             max-width: 100% !important;
             height: auto !important;
             min-height: 0 !important;
-            max-height: 270mm !important;
             padding: 0 !important;
             margin: 0 !important;
             box-shadow: none !important;
@@ -337,7 +336,7 @@ export default function ExamMakerTool() {
           {/* Quick Line Spacing */}
           <div className="space-y-1.5">
             <label className="block font-bold text-slate-700 uppercase tracking-wider text-[11px]">
-              ⚡ Soru Altı Cevap Boşluğu
+              ⚡ Toplu Boşluk (Tüm Sorular)
             </label>
             <select
               value={globalLineCount}
@@ -345,10 +344,10 @@ export default function ExamMakerTool() {
               className="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               <option value="0">⚪ Boşluk Yok (Yalnızca Soru)</option>
-              <option value="3">📐 Küçük Boşluk (Kısa Cevap)</option>
-              <option value="5">📐 Standart Boşluk (MEB Formatı)</option>
-              <option value="7">📐 Geniş Boşluk (İşlem Alanı)</option>
-              <option value="10">📐 Maksimum Boşluk (Detaylı Çözüm)</option>
+              <option value="3">📐 Küçük Boşluk (3 Satır)</option>
+              <option value="5">📐 Standart Boşluk (5 Satır - MEB)</option>
+              <option value="7">📐 Geniş Boşluk (7 Satır)</option>
+              <option value="10">📐 Maksimum Boşluk (10 Satır)</option>
             </select>
           </div>
 
@@ -385,7 +384,7 @@ export default function ExamMakerTool() {
         <div className="flex items-center gap-2 p-3 bg-amber-50/80 border border-amber-200/80 rounded-2xl text-amber-900 text-xs">
           <Info className="w-4 h-4 text-amber-600 shrink-0" />
           <span>
-            <strong>Öğretmen İpucu:</strong> Okul Adı ve Öğretmen İsmi gibi sarı çerçeveli alanlara tıklayıp doğrudan düzenleyebilirsiniz. Her sorunun altındaki satır sayısını dilediğiniz gibi ayrı ayrı da değiştirebilirsiniz.
+            <strong>Öğretmen İpucu:</strong> Okul Adı ve Öğretmen İsmi gibi sarı çerçeveli alanlara tıklayıp doğrudan düzenleyebilirsiniz. Her sorunun altındaki boşluğu diğer soruları etkilemeden dilediğiniz gibi ayrı ayrı da değiştirebilirsiniz.
           </span>
         </div>
       </div>
@@ -426,7 +425,7 @@ export default function ExamMakerTool() {
               return (
                 <div
                   key={pageIndex}
-                  className="a4-print-sayfa bg-white text-slate-900 rounded-2xl shadow-xl border border-slate-200 flex flex-col relative w-full min-h-[297mm] p-[10mm_12mm] print:min-h-0 print:h-auto print:max-h-[270mm] print:p-0 print:border-none print:shadow-none print:rounded-none print:block"
+                  className="a4-print-sayfa bg-white text-slate-900 rounded-2xl shadow-xl border border-slate-200 flex flex-col relative w-full min-h-[297mm] p-[10mm_12mm] print:min-h-0 print:h-auto print:p-0 print:border-none print:shadow-none print:rounded-none print:block"
                   style={{
                     boxSizing: 'border-box',
                   }}
@@ -539,7 +538,7 @@ export default function ExamMakerTool() {
 
                   {/* Question Grid */}
                   <div
-                    className={`grid gap-3 flex-1 content-start overflow-hidden min-h-0 print:gap-2 ${
+                    className={`grid gap-3 flex-1 content-start items-start min-h-0 print:gap-2 ${
                       columnCount === '2' ? 'grid-cols-2' : 'grid-cols-1'
                     }`}
                   >
@@ -551,7 +550,7 @@ export default function ExamMakerTool() {
                       return (
                         <div
                           key={q.id}
-                          className="border border-slate-200 rounded-lg p-2.5 bg-white flex flex-col justify-between relative group print:border-none print:p-1"
+                          className="border border-slate-200 rounded-lg p-2.5 bg-white flex flex-col justify-start relative group print:border-none print:p-1"
                         >
                           <div>
                             {/* Question Number Badge */}
@@ -592,21 +591,21 @@ export default function ExamMakerTool() {
 
                           {/* Per-Question Line Setting (Hidden in Print) */}
                           <div className="ekran-gizle mt-2 pt-1 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500">
-                            <span>Cevap Boşluğu:</span>
+                            <span className="font-semibold text-slate-600">Bu Soru İçin Boşluk:</span>
                             <select
                               value={q.lineCount}
                               onChange={(e) => handleQuestionLineChange(q.id, Number(e.target.value))}
-                              className="bg-slate-50 border border-slate-200 rounded px-1.5 py-0.5 text-[10px] text-slate-700 font-medium"
+                              className="bg-slate-50 border border-slate-200 rounded px-1.5 py-0.5 text-[10px] text-slate-700 font-medium cursor-pointer"
                             >
                               <option value="0">Boşluk Yok</option>
-                              <option value="2">2 Birim Boşluk</option>
-                              <option value="3">3 Birim Boşluk</option>
-                              <option value="4">4 Birim Boşluk</option>
-                              <option value="5">5 Birim Boşluk</option>
-                              <option value="6">6 Birim Boşluk</option>
-                              <option value="8">8 Birim Boşluk</option>
-                              <option value="10">10 Birim Boşluk</option>
-                              <option value="12">12 Birim Boşluk</option>
+                              <option value="2">2 Satır Boşluk</option>
+                              <option value="3">3 Satır Boşluk</option>
+                              <option value="4">4 Satır Boşluk</option>
+                              <option value="5">5 Satır Boşluk</option>
+                              <option value="6">6 Satır Boşluk</option>
+                              <option value="8">8 Satır Boşluk</option>
+                              <option value="10">10 Satır Boşluk</option>
+                              <option value="12">12 Satır Boşluk</option>
                             </select>
                           </div>
                         </div>
