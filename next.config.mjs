@@ -6,7 +6,8 @@ const nextConfig = {
   experimental: {
     serverComponentsExternalPackages: ['better-sqlite3'],
     outputFileTracingIncludes: {
-      '/**': ['./data/**/*'],
+      '/api/**/*': ['./data/**/*'],
+      '/**/*': ['./data/**/*'],
     },
   },
   images: {
