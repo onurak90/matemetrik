@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { getSettings } from '@/lib/db';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 function cleanVerificationToken(val?: string): string | undefined {
   if (!val || !val.trim()) return undefined;
@@ -216,6 +218,8 @@ export default function RootLayout({
           />
         )}
         {children}
+        <Analytics />
+        <SpeedInsights />
         {adsEnabled && settings.ad_footer_code && (
           <div
             id="ad-footer-container"

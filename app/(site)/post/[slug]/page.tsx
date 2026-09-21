@@ -3,7 +3,7 @@ import { notFound, permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import {
-  Calendar, Clock, Eye, Share2, ArrowLeft,
+  Calendar, Clock, Share2, ArrowLeft,
   BookOpen, CheckCircle, Tag, ChevronRight,
   Sparkles, ExternalLink, AlertCircle
 } from 'lucide-react';
@@ -220,10 +220,6 @@ export default async function BlogPostPage({ params }: PostPageProps) {
               <span className="flex items-center gap-1">
                 <Calendar className="w-3.5 h-3.5 text-slate-400" />
                 {formatDate(post.created_at)}
-              </span>
-              <span className="flex items-center gap-1">
-                <Eye className="w-3.5 h-3.5 text-slate-400" />
-                {post.views} görüntülenme
               </span>
             </div>
           </div>

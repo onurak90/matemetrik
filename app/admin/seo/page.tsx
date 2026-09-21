@@ -45,6 +45,7 @@ export default function AdminSeoPage() {
   const [auditReport, setAuditReport] = useState<SeoAuditReport | null>(null);
   const [isLoadingAudit, setIsLoadingAudit] = useState(true);
   const [auditFilter, setAuditFilter] = useState<'all' | 'critical' | 'warning' | 'info'>('all');
+  const [issueSearch, setIssueSearch] = useState('');
 
   // Ping state
   const [isPinging, setIsPinging] = useState(false);
@@ -151,8 +152,13 @@ export default function AdminSeoPage() {
   );
 
   const filteredIssues = (auditReport?.issues || []).filter((item) => {
-    if (auditFilter === 'all') return true;
-    return item.severity === auditFilter;
+    const matchesFilter = auditFilter === 'all' || item.severity === auditFilter;
+    const matchesSearch =
+      !issueSearch.trim() ||
+      item.title.toLowerCase().includes(issueSearch.toLowerCase()) ||
+      item.issue.toLowerCase().includes(issueSearch.toLowerCase()) ||
+      item.slug.toLowerCase().includes(issueSearch.toLowerCase());
+    return matchesFilter && matchesSearch;
   });
 
   return (
@@ -262,33 +268,75 @@ export default function AdminSeoPage() {
               </div>
             </div>
 
-            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
-              <div className="text-xs font-semibold text-slate-500 uppercase">Taranan Yazı</div>
+            <button
+              type="button"
+              onClick={() => {
+                setAuditFilter('all');
+                document.getElementById('seo-issues-section')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className={`text-left p-5 rounded-2xl border transition-all shadow-sm group cursor-pointer ${
+                auditFilter === 'all'
+                  ? 'bg-slate-50 border-slate-400 ring-2 ring-slate-400'
+                  : 'bg-white border-slate-200 hover:border-slate-300 hover:shadow-md'
+              }`}
+            >
+              <div className="text-xs font-semibold text-slate-500 uppercase flex items-center justify-between">
+                <span>Taranan Yazı</span>
+                <span className="text-[10px] text-indigo-600 font-bold group-hover:underline">Tümünü Gör &darr;</span>
+              </div>
               <div className="text-3xl font-extrabold text-slate-900 mt-1">
                 {auditReport ? auditReport.totalPostsAudited : '...'}
               </div>
               <div className="text-xs text-slate-400 mt-2">Tüm veritabanı denetlendi</div>
-            </div>
+            </button>
 
-            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
-              <div className="text-xs font-semibold text-rose-600 uppercase">Kritik Eksikler</div>
+            <button
+              type="button"
+              onClick={() => {
+                setAuditFilter('critical');
+                document.getElementById('seo-issues-section')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className={`text-left p-5 rounded-2xl border transition-all shadow-sm group cursor-pointer ${
+                auditFilter === 'critical'
+                  ? 'bg-rose-50 border-rose-400 ring-2 ring-rose-400'
+                  : 'bg-white border-slate-200 hover:border-rose-300 hover:shadow-md'
+              }`}
+            >
+              <div className="text-xs font-semibold text-rose-600 uppercase flex items-center justify-between">
+                <span>Kritik Eksikler</span>
+                <span className="text-[10px] text-rose-600 font-bold group-hover:underline">Sorunlu Yazıları Gör &darr;</span>
+              </div>
               <div className="text-3xl font-extrabold text-rose-600 mt-1">
                 {auditReport ? auditReport.criticalCount : '...'}
               </div>
-              <div className="text-xs text-rose-500 mt-2">Boş veya eksik meta açıklamalar</div>
-            </div>
+              <div className="text-xs text-rose-500 mt-2 font-medium">Tıkla ve sorunlu yazıları listele</div>
+            </button>
 
-            <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
-              <div className="text-xs font-semibold text-amber-600 uppercase">Geliştirilebilir</div>
+            <button
+              type="button"
+              onClick={() => {
+                setAuditFilter('warning');
+                document.getElementById('seo-issues-section')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className={`text-left p-5 rounded-2xl border transition-all shadow-sm group cursor-pointer ${
+                auditFilter === 'warning'
+                  ? 'bg-amber-50 border-amber-400 ring-2 ring-amber-400'
+                  : 'bg-white border-slate-200 hover:border-amber-300 hover:shadow-md'
+              }`}
+            >
+              <div className="text-xs font-semibold text-amber-600 uppercase flex items-center justify-between">
+                <span>Geliştirilebilir</span>
+                <span className="text-[10px] text-amber-600 font-bold group-hover:underline">İyileştirmeleri Gör &darr;</span>
+              </div>
               <div className="text-3xl font-extrabold text-amber-600 mt-1">
                 {auditReport ? auditReport.warningCount : '...'}
               </div>
-              <div className="text-xs text-amber-600 mt-2">İç link &amp; görsel önerileri</div>
-            </div>
+              <div className="text-xs text-amber-600 mt-2 font-medium">Tıkla ve geliştirilecek yazıları listele</div>
+            </button>
           </div>
 
           {/* Audit Issues List */}
-          <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col">
+          <div id="seo-issues-section" className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col scroll-mt-20">
             <div className="p-5 border-b border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div>
                 <h2 className="font-bold text-slate-900 text-base">
@@ -299,8 +347,15 @@ export default function AdminSeoPage() {
                 </p>
               </div>
 
-              {/* Filter Pills */}
-              <div className="flex items-center gap-1.5 text-xs">
+              {/* Search & Filter Pills */}
+              <div className="flex flex-wrap items-center gap-2 text-xs">
+                <input
+                  type="text"
+                  placeholder="Yazı ara (başlık veya kusur)..."
+                  value={issueSearch}
+                  onChange={(e) => setIssueSearch(e.target.value)}
+                  className="px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-lg text-xs placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 w-48 sm:w-56"
+                />
                 <button
                   onClick={() => setAuditFilter('all')}
                   className={`px-3 py-1 rounded-lg font-medium transition-colors ${

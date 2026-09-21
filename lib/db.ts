@@ -104,16 +104,19 @@ function initTables(db: Database.Database) {
     CREATE TABLE IF NOT EXISTS comments (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       post_id INTEGER NOT NULL,
+      parent_id INTEGER DEFAULT NULL,
       author_name TEXT NOT NULL,
       author_email TEXT NOT NULL,
       author_avatar TEXT,
       content TEXT NOT NULL,
       is_approved INTEGER DEFAULT 0,
+      is_admin INTEGER DEFAULT 0,
       created_at TEXT,
       FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE
     );
 
     CREATE INDEX IF NOT EXISTS idx_comments_post ON comments(post_id);
+    CREATE INDEX IF NOT EXISTS idx_comments_parent ON comments(parent_id);
     CREATE INDEX IF NOT EXISTS idx_comments_approved ON comments(is_approved);
 
     CREATE INDEX IF NOT EXISTS idx_posts_slug ON posts(slug);
@@ -142,6 +145,13 @@ function initTables(db: Database.Database) {
     CREATE INDEX IF NOT EXISTS idx_page_hits_post_id ON page_hits(post_id);
     CREATE INDEX IF NOT EXISTS idx_page_hits_entity_type ON page_hits(entity_type);
   `);
+
+  try {
+    db.exec('ALTER TABLE comments ADD COLUMN parent_id INTEGER DEFAULT NULL');
+  } catch {}
+  try {
+    db.exec('ALTER TABLE comments ADD COLUMN is_admin INTEGER DEFAULT 0');
+  } catch {}
 }
 
 function formatPostRow(row: any): Post {
@@ -1374,7 +1384,7 @@ export function getSeoAuditReport() {
     warningCount,
     infoCount,
     totalIssues: issues.length,
-    issues: issues.slice(0, 100), // top 100 issues
+    issues: issues.slice(0, 500), // top 500 issues for comprehensive admin review
   };
 }
 
@@ -1386,31 +1396,56 @@ export function getCommentsByPostId(postId: number, approvedOnly: boolean = true
   if (approvedOnly) {
     query += ' AND is_approved = 1';
   }
-  query += ' ORDER BY id DESC';
-  return db.prepare(query).all(postId) as any[];
+  query += ' ORDER BY id ASC';
+  const allComments = db.prepare(query).all(postId) as any[];
+
+  // Structure into hierarchical tree (top-level comments with nested replies)
+  const commentMap = new Map<number, any>();
+  const topLevelComments: any[] = [];
+
+  for (const c of allComments) {
+    c.replies = [];
+    commentMap.set(c.id, c);
+  }
+
+  for (const c of allComments) {
+    if (c.parent_id && commentMap.has(c.parent_id)) {
+      commentMap.get(c.parent_id).replies.push(c);
+    } else {
+      topLevelComments.push(c);
+    }
+  }
+
+  // Reverse so newest top-level discussions appear first
+  topLevelComments.reverse();
+  return topLevelComments;
 }
 
 export function createComment(data: {
   postId: number;
+  parentId?: number | null;
   authorName: string;
   authorEmail: string;
   authorAvatar?: string;
   content: string;
   isApproved?: number;
+  isAdmin?: number;
 }) {
   const db = getDb();
   const stmt = db.prepare(`
-    INSERT INTO comments (post_id, author_name, author_email, author_avatar, content, is_approved, created_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?)
+    INSERT INTO comments (post_id, parent_id, author_name, author_email, author_avatar, content, is_approved, is_admin, created_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const now = new Date().toISOString();
   const res = stmt.run(
     data.postId,
+    data.parentId || null,
     data.authorName,
     data.authorEmail,
     data.authorAvatar || '',
     data.content,
-    data.isApproved !== undefined ? data.isApproved : 0,
+    data.isApproved !== undefined ? data.isApproved : 1,
+    data.isAdmin ? 1 : 0,
     now
   );
   return {
@@ -1423,9 +1458,11 @@ export function createComment(data: {
 export function getAllComments(filter: 'all' | 'pending' | 'approved' = 'all') {
   const db = getDb();
   let query = `
-    SELECT c.*, p.title as post_title, p.slug as post_slug
+    SELECT c.*, p.title as post_title, p.slug as post_slug,
+           parent.author_name as parent_author_name
     FROM comments c
     LEFT JOIN posts p ON c.post_id = p.id
+    LEFT JOIN comments parent ON c.parent_id = parent.id
   `;
   if (filter === 'pending') {
     query += ' WHERE c.is_approved = 0';

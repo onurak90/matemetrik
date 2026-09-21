@@ -169,6 +169,81 @@ export default function AdminReportsPage() {
         </div>
       </div>
 
+      {/* Official Analytics Hub: Google Analytics 4 & Vercel Speed Insights */}
+      <div className="bg-gradient-to-br from-indigo-950 via-slate-900 to-indigo-900 rounded-3xl p-6 sm:p-8 text-white shadow-xl border border-indigo-500/30">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+          <div className="space-y-2 max-w-2xl">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-emerald-500 text-slate-950 flex items-center gap-1.5 shadow-sm">
+                <span className="w-2 h-2 rounded-full bg-emerald-950 animate-ping"></span>
+                CANLI VE DOĞRULANMIŞ
+              </span>
+              <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-white/10 text-indigo-200 border border-white/10">
+                Google Analytics 4 (G-RP0J3L0TKJ)
+              </span>
+              <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-white/10 text-cyan-200 border border-white/10">
+                Vercel Analytics &amp; Speed Insights
+              </span>
+            </div>
+            <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white">
+              Doğrulanmış Gerçek Ziyaretçi &amp; Hız Analizi
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+              Google Analytics ve Vercel Analytics; botları, arama motoru tarayıcılarını ve mükerrer istekleri filtreleyerek %100 gerçek insan trafiğini ve Core Web Vitals hız metriklerini ölçümler.
+            </p>
+          </div>
+
+          {/* Direct Launch Buttons */}
+          <div className="flex flex-col sm:flex-row lg:flex-col gap-2.5 shrink-0">
+            <a
+              href="https://analytics.google.com/analytics/web/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3 bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-slate-950 font-black text-xs sm:text-sm rounded-xl transition-all shadow-lg shadow-orange-500/20"
+            >
+              <ExternalLink className="w-4 h-4 text-slate-950" />
+              Google Analytics'te Canlı Aç &rarr;
+            </a>
+
+            <a
+              href="https://search.google.com/search-console"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white/10 hover:bg-white/20 text-white font-bold text-xs rounded-xl border border-white/10 transition-colors"
+            >
+              <Search className="w-4 h-4 text-indigo-300" />
+              Google Search Console (Organik Arama)
+            </a>
+
+            <a
+              href="https://vercel.com/dashboard"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-white/10 hover:bg-white/20 text-white font-bold text-xs rounded-xl border border-white/10 transition-colors"
+            >
+              <TrendingUp className="w-4 h-4 text-cyan-300" />
+              Vercel Analytics &amp; Speed Insights
+            </a>
+          </div>
+        </div>
+
+        {/* Quick Explanations on Google Data Accuracy */}
+        <div className="mt-6 pt-6 border-t border-white/10 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs text-slate-300">
+          <div className="bg-white/5 p-3.5 rounded-xl border border-white/5">
+            <strong className="text-white block mb-1">🛡️ %100 Bot Filtresi</strong>
+            Google botları ve web scraper'lar sayılmaz, sadece gerçek öğrenciler ve veliler listelenir.
+          </div>
+          <div className="bg-white/5 p-3.5 rounded-xl border border-white/5">
+            <strong className="text-white block mb-1">⚡ Anlık Canlı Ziyaretçi</strong>
+            analytics.google.com üzerinde şu an sitenizde kaç kişinin hangi sayfayı okuduğunu anlık izleyin.
+          </div>
+          <div className="bg-white/5 p-3.5 rounded-xl border border-white/5">
+            <strong className="text-white block mb-1">🚀 Speed Insights Aktif</strong>
+            LCP, FID, CLS gibi sayfa hız metrikleri doğrudan Vercel panelinizde toplanmaktadır.
+          </div>
+        </div>
+      </div>
+
       {/* Time Range Selector Tabs */}
       <div className="flex items-center gap-1.5 overflow-x-auto pb-1 border-b border-slate-200 scrollbar-none">
         {RANGES.map((r) => (

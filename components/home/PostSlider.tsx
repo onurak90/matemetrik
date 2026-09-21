@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import {
   ChevronLeft, ChevronRight, Calendar, Clock,
-  Eye, ArrowUpRight, Sparkles, BookOpen
+  ArrowUpRight, Sparkles, BookOpen
 } from 'lucide-react';
 import { Post } from '@/lib/types';
 import { formatDate, estimateReadingTime } from '@/lib/utils';
@@ -69,10 +69,6 @@ export default function PostSlider({ posts }: PostSliderProps) {
             <span className="text-xs text-slate-300 flex items-center gap-1">
               <Clock className="w-3.5 h-3.5 text-indigo-400" />
               {readingTime}
-            </span>
-            <span className="text-xs text-slate-400 flex items-center gap-1">
-              <Eye className="w-3.5 h-3.5 text-indigo-400" />
-              {current.views} görüntülenme
             </span>
           </div>
 

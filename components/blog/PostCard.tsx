@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Calendar, Eye, Clock, ArrowUpRight } from 'lucide-react';
+import { Calendar, Clock, ArrowUpRight } from 'lucide-react';
 import { Post } from '@/lib/types';
 import { formatDate, estimateReadingTime } from '@/lib/utils';
 
@@ -63,9 +63,8 @@ export default function PostCard({ post }: { post: Post }) {
         </div>
 
         <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
-          <span className="text-slate-400 flex items-center gap-1">
-            <Eye className="w-3.5 h-3.5" />
-            {post.views} görüntülenme
+          <span className="text-slate-400 text-[11px] font-medium">
+            {post.author || 'Cavenaghi'}
           </span>
 
           <Link

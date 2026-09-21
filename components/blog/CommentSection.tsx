@@ -1,7 +1,10 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { MessageSquare, Send, CheckCircle2, LogOut, Clock, ShieldCheck, User } from 'lucide-react';
+import {
+  MessageSquare, Send, CheckCircle2, LogOut, Clock,
+  ShieldCheck, User, Reply, X, Crown, Sparkles
+} from 'lucide-react';
 
 interface CommentItem {
   id: number;
@@ -9,7 +12,10 @@ interface CommentItem {
   author_email: string;
   author_avatar?: string;
   content: string;
+  is_admin?: number;
+  parent_id?: number | null;
   created_at: string;
+  replies?: CommentItem[];
 }
 
 interface CommenterUser {
@@ -28,6 +34,7 @@ export default function CommentSection({
   const [comments, setComments] = useState<CommentItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState<CommenterUser | null>(null);
+  const [isAdminSession, setIsAdminSession] = useState(false);
 
   // Modal / Login form
   const [showLoginModal, setShowLoginModal] = useState(false);
@@ -36,6 +43,8 @@ export default function CommentSection({
 
   // Comment input
   const [commentText, setCommentText] = useState('');
+  const [replyingTo, setReplyingTo] = useState<{ id: number; authorName: string } | null>(null);
+  const [replyText, setReplyText] = useState('');
   const [submitting, setSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
@@ -55,8 +64,20 @@ export default function CommentSection({
     }
   };
 
+  // Check admin session
+  const checkAdminAuth = async () => {
+    try {
+      const res = await fetch('/api/auth/check');
+      if (res.ok) {
+        const data = await res.json();
+        setIsAdminSession(Boolean(data.authenticated));
+      }
+    } catch {}
+  };
+
   useEffect(() => {
     fetchComments();
+    checkAdminAuth();
 
     // Check localStorage for saved Google / Gmail user
     try {
@@ -102,14 +123,56 @@ export default function CommentSection({
     } catch {}
   };
 
-  const handleSubmitComment = async (e: React.FormEvent) => {
+  const handleSubmitComment = async (e: React.FormEvent, parentId: number | null = null) => {
     e.preventDefault();
+
+    // If admin is commenting/replying
+    if (isAdminSession) {
+      const textToSubmit = parentId ? replyText : commentText;
+      if (!textToSubmit.trim()) return;
+
+      setSubmitting(true);
+      setErrorMsg(null);
+      try {
+        const res = await fetch('/api/comments', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            postId,
+            parentId,
+            authorName: 'Cavenaghi (Editör & Öğretmen)',
+            authorEmail: 'cavenaghi@matemetrik.com',
+            content: textToSubmit.trim(),
+          }),
+        });
+
+        const data = await res.json();
+        if (res.ok && data.success) {
+          setSubmitSuccess(true);
+          setCommentText('');
+          setReplyText('');
+          setReplyingTo(null);
+          fetchComments();
+          setTimeout(() => setSubmitSuccess(false), 4000);
+        } else {
+          setErrorMsg(data.error || 'Cevap gönderilemedi');
+        }
+      } catch {
+        setErrorMsg('Bağlantı hatası oluştu');
+      } finally {
+        setSubmitting(false);
+      }
+      return;
+    }
+
+    // Visitor / Student
     if (!user) {
       setShowLoginModal(true);
       return;
     }
 
-    if (!commentText.trim()) return;
+    const textToSubmit = parentId ? replyText : commentText;
+    if (!textToSubmit.trim()) return;
 
     setSubmitting(true);
     setErrorMsg(null);
@@ -119,10 +182,11 @@ export default function CommentSection({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           postId,
+          parentId,
           authorName: user.name,
           authorEmail: user.email,
           authorAvatar: user.avatar,
-          content: commentText.trim(),
+          content: textToSubmit.trim(),
         }),
       });
 
@@ -130,7 +194,10 @@ export default function CommentSection({
       if (res.ok && data.success) {
         setSubmitSuccess(true);
         setCommentText('');
-        setTimeout(() => setSubmitSuccess(false), 6000);
+        setReplyText('');
+        setReplyingTo(null);
+        fetchComments();
+        setTimeout(() => setSubmitSuccess(false), 4000);
       } else {
         setErrorMsg(data.error || 'Yorum gönderilemedi');
       }
@@ -154,6 +221,11 @@ export default function CommentSection({
     }
   };
 
+  const totalCommentsCount = comments.reduce(
+    (acc, curr) => acc + 1 + (curr.replies?.length || 0),
+    0
+  );
+
   return (
     <section className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-10 shadow-sm space-y-8 mt-10">
       {/* Header */}
@@ -167,198 +239,358 @@ export default function CommentSection({
               Yorumlar &amp; Soru-Cevap
             </h2>
             <p className="text-xs text-slate-500">
-              {comments.length} onaylanmış topluluk yorumu
+              {totalCommentsCount} topluluk yorumu ve öğretmen yanıtı
             </p>
           </div>
         </div>
 
         <div className="flex items-center gap-1.5 px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full border border-emerald-200 text-xs font-semibold">
-          <ShieldCheck className="w-3.5 h-3.5" /> Moderatör Onaylı
+          <ShieldCheck className="w-3.5 h-3.5" /> Canlı Tartışma
         </div>
       </div>
 
-      {/* Comment Form Box */}
+      {/* Main Comment Form Box */}
       <div className="bg-slate-50/80 rounded-2xl border border-slate-200/80 p-5 sm:p-6 space-y-4">
-        {submitSuccess ? (
+        {submitSuccess && !replyingTo && (
           <div className="p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-sm flex items-start gap-3 animate-in fade-in">
             <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
             <div>
-              <div className="font-bold">Teşekkürler, yorumunuz alındı!</div>
+              <div className="font-bold">Teşekkürler, yorumunuz yayınlandı!</div>
               <p className="text-xs text-emerald-700 mt-0.5 leading-relaxed">
-                Yorumunuz içerik yöneticimizin onayından sonra bu sayfada yayınlanacaktır.
+                Yorumunuz başarıyla listelendi ve toplulukla paylaşıldı.
               </p>
             </div>
           </div>
-        ) : (
-          <>
-            {user ? (
-              <div className="flex items-center justify-between gap-3 pb-3 border-b border-slate-200/60">
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-full overflow-hidden border border-slate-300 bg-white shrink-0">
-                    <img src={user.avatar} alt={user.name} className="w-full h-full object-cover" />
-                  </div>
-                  <div>
-                    <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
-                      <span>{user.name}</span>
-                      <span className="px-1.5 py-0.2 rounded text-[10px] bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold">
-                        Gmail İle Giriş Yapıldı
-                      </span>
-                    </div>
-                    <div className="text-[11px] text-slate-400 font-mono">{user.email}</div>
-                  </div>
-                </div>
-
-                <button
-                  type="button"
-                  onClick={handleLogout}
-                  className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-500 hover:text-rose-600 transition-colors"
-                >
-                  <LogOut className="w-3 h-3" /> Çıkış
-                </button>
-              </div>
-            ) : (
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
-                <div className="flex items-center gap-3">
-                  {/* Google 'G' icon */}
-                  <div className="w-9 h-9 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center shrink-0">
-                    <svg className="w-4 h-4" viewBox="0 0 24 24">
-                      <path
-                        fill="#4285F4"
-                        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
-                      />
-                      <path
-                        fill="#34A853"
-                        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                      />
-                      <path
-                        fill="#FBBC05"
-                        d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
-                      />
-                      <path
-                        fill="#EA4335"
-                        d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <div className="text-xs font-bold text-slate-800">
-                      Gmail Hesabınızla Yorum Yapın
-                    </div>
-                    <p className="text-[11px] text-slate-500">
-                      Sitede üyelik oluşturmadan, Google hesabınızla anında soru sorabilir veya yorum bırakabilirsiniz.
-                    </p>
-                  </div>
-                </div>
-
-                <button
-                  type="button"
-                  onClick={() => setShowLoginModal(true)}
-                  className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold rounded-xl transition-colors shadow-sm shrink-0"
-                >
-                  <svg className="w-3.5 h-3.5" viewBox="0 0 24 24">
-                    <path
-                      fill="#4285F4"
-                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
-                    />
-                    <path
-                      fill="#34A853"
-                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                    />
-                    <path
-                      fill="#FBBC05"
-                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
-                    />
-                    <path
-                      fill="#EA4335"
-                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
-                    />
-                  </svg>
-                  Google ile Bağlan
-                </button>
-              </div>
-            )}
-
-            {/* Form */}
-            <form onSubmit={handleSubmitComment} className="space-y-3">
-              <textarea
-                rows={3}
-                placeholder={
-                  user
-                    ? 'Bu konu hakkında bir soru sorun veya düşüncelerinizi paylaşın...'
-                    : 'Yorum yazmak için önce yukarıdan Google hesabınızı onaylayın...'
-                }
-                value={commentText}
-                onChange={(e) => setCommentText(e.target.value)}
-                disabled={!user || submitting}
-                required
-                className="w-full p-3.5 text-xs sm:text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all disabled:bg-slate-100 disabled:cursor-not-allowed resize-none"
-              />
-
-              {errorMsg && (
-                <div className="text-xs text-rose-600 font-semibold">{errorMsg}</div>
-              )}
-
-              <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
-                <p className="text-[11px] text-slate-400">
-                  🔒 Gönderilen yorumlar moderatör kontrolünden geçtikten sonra listelenir.
-                </p>
-
-                <button
-                  type="submit"
-                  disabled={!user || submitting || !commentText.trim()}
-                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs rounded-xl transition-all shadow-md shadow-indigo-600/20 disabled:opacity-50 disabled:cursor-not-allowed shrink-0"
-                >
-                  <Send className="w-3.5 h-3.5" />
-                  {submitting ? 'Gönderiliyor...' : 'Yorumu Gönder'}
-                </button>
-              </div>
-            </form>
-          </>
         )}
+
+        {/* User Status Bar */}
+        {isAdminSession ? (
+          <div className="flex items-center justify-between gap-3 pb-3 border-b border-indigo-100 bg-indigo-50/60 p-3 rounded-xl border">
+            <div className="flex items-center gap-2.5">
+              <div className="w-7 h-7 rounded-lg bg-indigo-600 text-white flex items-center justify-center font-bold text-xs shadow-sm">
+                <Crown className="w-4 h-4" />
+              </div>
+              <div>
+                <span className="text-xs font-bold text-indigo-900 flex items-center gap-1.5">
+                  Cavenaghi
+                  <span className="px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-indigo-600 text-white shadow-xs">
+                    Admin &amp; Öğretmen
+                  </span>
+                </span>
+                <span className="text-[11px] text-indigo-600/80">Yorumlarınız resmi yönetici rozeti ile yayınlanır</span>
+              </div>
+            </div>
+          </div>
+        ) : user ? (
+          <div className="flex items-center justify-between gap-3 pb-3 border-b border-slate-200/60">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-full overflow-hidden border border-slate-300 bg-white shrink-0">
+                <img src={user.avatar} alt={user.name} className="w-full h-full object-cover" />
+              </div>
+              <div>
+                <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                  <span>{user.name}</span>
+                  <span className="px-1.5 py-0.2 rounded text-[10px] bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold">
+                    Gmail İle Bağlı
+                  </span>
+                </div>
+                <div className="text-[11px] text-slate-400 font-mono">{user.email}</div>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              onClick={handleLogout}
+              className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-500 hover:text-rose-600 transition-colors"
+            >
+              <LogOut className="w-3 h-3" /> Çıkış
+            </button>
+          </div>
+        ) : (
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center shrink-0">
+                <svg className="w-4 h-4" viewBox="0 0 24 24">
+                  <path
+                    fill="#4285F4"
+                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+                  />
+                  <path
+                    fill="#34A853"
+                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                  />
+                  <path
+                    fill="#FBBC05"
+                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
+                  />
+                  <path
+                    fill="#EA4335"
+                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div className="text-xs font-bold text-slate-800">
+                  Gmail Hesabınızla Yorum Yapın veya Soru Sorun
+                </div>
+                <p className="text-[11px] text-slate-500">
+                  Üyelik gerekmeksizin Google hesabınızla anında soru sorabilir, çözümleri tartışabilirsiniz.
+                </p>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setShowLoginModal(true)}
+              className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold rounded-xl transition-colors shadow-sm shrink-0"
+            >
+              Google ile Bağlan
+            </button>
+          </div>
+        )}
+
+        {/* Main Textarea Form */}
+        <form onSubmit={(e) => handleSubmitComment(e, null)} className="space-y-3">
+          <textarea
+            rows={3}
+            placeholder={
+              isAdminSession
+                ? 'Yönetici olarak sayfaya yeni bir değerlendirme veya açıklama ekleyin...'
+                : user
+                ? 'Bu ders çözümü veya sayfa hakkında bir soru sorun veya düşüncenizi paylaşın...'
+                : 'Yorum yazmak için yukarıdan Google hesabınızı bağlayın...'
+            }
+            value={commentText}
+            onChange={(e) => setCommentText(e.target.value)}
+            disabled={(!user && !isAdminSession) || submitting}
+            required
+            className="w-full p-3.5 text-xs sm:text-sm bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all disabled:bg-slate-100 disabled:cursor-not-allowed resize-none"
+          />
+
+          {errorMsg && !replyingTo && (
+            <div className="text-xs text-rose-600 font-semibold">{errorMsg}</div>
+          )}
+
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
+            <p className="text-[11px] text-slate-400">
+              💬 Sayfa çözümleri, işlem adımları ve sınav taktikleri üzerine fikir alışverişi yapabilirsiniz.
+            </p>
+
+            <button
+              type="submit"
+              disabled={(!user && !isAdminSession) || submitting || !commentText.trim()}
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs rounded-xl transition-all shadow-md shadow-indigo-600/20 disabled:opacity-50 disabled:cursor-not-allowed shrink-0"
+            >
+              <Send className="w-3.5 h-3.5" />
+              {submitting ? 'Gönderiliyor...' : 'Yorumu Gönder'}
+            </button>
+          </div>
+        </form>
       </div>
 
-      {/* Comments List */}
-      <div className="space-y-4">
+      {/* Comments List & Nested Replies */}
+      <div className="space-y-5">
         {loading ? (
           <div className="p-8 text-center text-xs text-slate-400">Yorumlar yükleniyor...</div>
         ) : comments.length === 0 ? (
           <div className="p-8 text-center text-xs text-slate-400 border border-dashed border-slate-200 rounded-2xl">
-            Henüz yorum yapılmamış. İlk yorumu siz yapın!
+            Henüz yorum yapılmamış. İlk soruyu veya yorumu siz bırakın!
           </div>
         ) : (
           comments.map((c) => (
-            <div
-              key={c.id}
-              className="p-5 rounded-2xl bg-slate-50/60 border border-slate-200/70 hover:border-indigo-200 transition-colors space-y-2.5"
-            >
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <div className="w-9 h-9 rounded-full overflow-hidden border border-slate-200 bg-white shrink-0">
-                    {c.author_avatar ? (
-                      <img src={c.author_avatar} alt={c.author_name} className="w-full h-full object-cover" />
-                    ) : (
-                      <div className="w-full h-full flex items-center justify-center bg-indigo-100 text-indigo-600 font-bold text-xs">
-                        {c.author_name.charAt(0).toUpperCase()}
+            <div key={c.id} className="space-y-3">
+              {/* Parent Comment Card */}
+              <div
+                className={`p-5 rounded-2xl border transition-colors space-y-3 ${
+                  c.is_admin
+                    ? 'bg-gradient-to-r from-indigo-50/80 via-purple-50/60 to-white border-indigo-200 shadow-sm'
+                    : 'bg-slate-50/70 border-slate-200/80 hover:border-slate-300'
+                }`}
+              >
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <div className="w-9 h-9 rounded-full overflow-hidden border border-slate-200 bg-white shrink-0 shadow-xs">
+                      {c.author_avatar ? (
+                        <img src={c.author_avatar} alt={c.author_name} className="w-full h-full object-cover" />
+                      ) : (
+                        <div
+                          className={`w-full h-full flex items-center justify-center font-bold text-xs ${
+                            c.is_admin
+                              ? 'bg-indigo-600 text-white'
+                              : 'bg-slate-200 text-slate-700'
+                          }`}
+                        >
+                          {c.is_admin ? 'C' : c.author_name.charAt(0).toUpperCase()}
+                        </div>
+                      )}
+                    </div>
+                    <div>
+                      <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5 flex-wrap">
+                        <span>{c.author_name}</span>
+                        {c.is_admin ? (
+                          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-indigo-600 text-white shadow-xs">
+                            <Crown className="w-3 h-3" /> Yazar &amp; Öğretmen
+                          </span>
+                        ) : (
+                          <span className="inline-flex items-center gap-0.5 text-[10px] text-emerald-600 font-semibold">
+                            <CheckCircle2 className="w-3 h-3" /> Doğrulanmış
+                          </span>
+                        )}
                       </div>
-                    )}
-                  </div>
-                  <div>
-                    <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
-                      <span>{c.author_name}</span>
-                      <span className="inline-flex items-center gap-0.5 text-[10px] text-emerald-600 font-semibold">
-                        <CheckCircle2 className="w-3 h-3" /> Doğrulanmış Kullanıcı
-                      </span>
-                    </div>
-                    <div className="text-[11px] text-slate-400 flex items-center gap-1">
-                      <Clock className="w-3 h-3" /> {formatDate(c.created_at)}
+                      <div className="text-[11px] text-slate-400 flex items-center gap-1">
+                        <Clock className="w-3 h-3" /> {formatDate(c.created_at)}
+                      </div>
                     </div>
                   </div>
+
+                  {/* Reply Button */}
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if (!user && !isAdminSession) {
+                        setShowLoginModal(true);
+                      } else {
+                        setReplyingTo(replyingTo?.id === c.id ? null : { id: c.id, authorName: c.author_name });
+                        setReplyText('');
+                        setErrorMsg(null);
+                      }
+                    }}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-slate-200 hover:border-indigo-300 hover:text-indigo-600 text-slate-600 rounded-xl text-xs font-semibold transition-all shadow-xs"
+                  >
+                    <Reply className="w-3.5 h-3.5" />
+                    Cevapla
+                  </button>
                 </div>
+
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed pl-12">
+                  {c.content}
+                </p>
+
+                {/* Inline Reply Form (when replyingTo matches this comment) */}
+                {replyingTo?.id === c.id && (
+                  <div className="ml-12 mt-3 p-4 bg-white rounded-2xl border border-indigo-200 shadow-sm space-y-3 animate-in fade-in">
+                    <div className="flex items-center justify-between text-xs">
+                      <span className="font-bold text-indigo-700 flex items-center gap-1">
+                        <Reply className="w-3.5 h-3.5" />
+                        {c.author_name} kullanıcısına cevap yazıyorsunuz:
+                      </span>
+                      <button
+                        type="button"
+                        onClick={() => setReplyingTo(null)}
+                        className="text-slate-400 hover:text-slate-600"
+                      >
+                        <X className="w-4 h-4" />
+                      </button>
+                    </div>
+
+                    <form onSubmit={(e) => handleSubmitComment(e, c.id)} className="space-y-2">
+                      <textarea
+                        rows={2}
+                        placeholder={
+                          isAdminSession
+                            ? 'Öğretmen olarak detaylı çözüm veya açıklama yazın...'
+                            : `${c.author_name} için cevabınızı yazın...`
+                        }
+                        value={replyText}
+                        onChange={(e) => setReplyText(e.target.value)}
+                        required
+                        className="w-full p-3 text-xs bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none"
+                      />
+
+                      {errorMsg && (
+                        <div className="text-xs text-rose-600 font-semibold">{errorMsg}</div>
+                      )}
+
+                      <div className="flex items-center justify-end gap-2">
+                        <button
+                          type="button"
+                          onClick={() => setReplyingTo(null)}
+                          className="px-3 py-1.5 text-xs font-semibold text-slate-600 hover:bg-slate-100 rounded-lg transition-colors"
+                        >
+                          Vazgeç
+                        </button>
+                        <button
+                          type="submit"
+                          disabled={submitting || !replyText.trim()}
+                          className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs rounded-lg transition-colors shadow-sm disabled:opacity-50"
+                        >
+                          <Send className="w-3 h-3" />
+                          {submitting ? 'Gönderiliyor...' : 'Cevap Gönder'}
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                )}
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed pl-12">
-                {c.content}
-              </p>
+              {/* Nested Replies */}
+              {c.replies && c.replies.length > 0 && (
+                <div className="ml-6 sm:ml-12 border-l-2 border-indigo-200 pl-4 sm:pl-6 space-y-3 pt-1">
+                  {c.replies.map((rep) => (
+                    <div
+                      key={rep.id}
+                      className={`p-4 rounded-xl border transition-colors space-y-2 ${
+                        rep.is_admin
+                          ? 'bg-gradient-to-r from-indigo-50/90 to-purple-50/70 border-indigo-200 shadow-xs'
+                          : 'bg-white border-slate-200/90'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2.5">
+                          <div className="w-7 h-7 rounded-full overflow-hidden border border-slate-200 bg-white shrink-0">
+                            {rep.author_avatar ? (
+                              <img src={rep.author_avatar} alt={rep.author_name} className="w-full h-full object-cover" />
+                            ) : (
+                              <div
+                                className={`w-full h-full flex items-center justify-center font-bold text-[11px] ${
+                                  rep.is_admin ? 'bg-indigo-600 text-white' : 'bg-slate-200 text-slate-700'
+                                }`}
+                              >
+                                {rep.is_admin ? 'C' : rep.author_name.charAt(0).toUpperCase()}
+                              </div>
+                            )}
+                          </div>
+                          <div>
+                            <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5 flex-wrap">
+                              <span>{rep.author_name}</span>
+                              {rep.is_admin && (
+                                <span className="inline-flex items-center gap-1 px-1.5 py-0.2 rounded-full text-[9px] font-black uppercase tracking-wider bg-indigo-600 text-white">
+                                  <Crown className="w-2.5 h-2.5" /> Öğretmen
+                                </span>
+                              )}
+                            </div>
+                            <div className="text-[10px] text-slate-400">
+                              {formatDate(rep.created_at)}
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Reply to this thread */}
+                        <button
+                          type="button"
+                          onClick={() => {
+                            if (!user && !isAdminSession) {
+                              setShowLoginModal(true);
+                            } else {
+                              setReplyingTo({ id: c.id, authorName: rep.author_name });
+                              setReplyText(`@${rep.author_name} `);
+                              setErrorMsg(null);
+                            }
+                          }}
+                          className="text-[11px] font-semibold text-slate-500 hover:text-indigo-600 flex items-center gap-1"
+                        >
+                          <Reply className="w-3 h-3" />
+                          Cevapla
+                        </button>
+                      </div>
+
+                      <p className="text-xs text-slate-700 leading-relaxed pl-9">
+                        {rep.content}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           ))
         )}
@@ -393,7 +625,7 @@ export default function CommentSection({
                 Gmail Hesabınızla Bağlanın
               </h3>
               <p className="text-xs text-slate-500 max-w-xs mx-auto">
-                Sitede üye olmadan, doğrudan Google hesabınızla yorum bırakabilirsiniz.
+                Üyelik kaydı olmadan, Google hesabınızla anında soru sorabilir ve diğer öğrencilerin yorumlarını cevaplayabilirsiniz.
               </p>
             </div>
 

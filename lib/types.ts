@@ -55,6 +55,7 @@ export interface SiteSettings {
 export interface Comment {
   id: number;
   post_id: number;
+  parent_id?: number | null;
   post_title?: string;
   post_slug?: string;
   author_name: string;
@@ -62,5 +63,8 @@ export interface Comment {
   author_avatar?: string;
   content: string;
   is_approved: number;
+  is_admin?: number;
   created_at: string;
+  replies?: Comment[];
 }
+

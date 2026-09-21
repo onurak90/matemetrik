@@ -14,7 +14,6 @@ import {
   ChevronRight,
   FileText,
   Wrench,
-  Eye,
   TrendingUp,
   CornerDownLeft,
 } from 'lucide-react';
@@ -512,16 +511,6 @@ export default function LiveSearchBox({
                             >
                               {post.category}
                             </span>
-                            {post.views > 0 && (
-                              <span
-                                className={`text-[10px] flex items-center gap-0.5 ${
-                                  isActive ? 'text-indigo-200' : 'text-slate-400'
-                                }`}
-                              >
-                                <Eye className="w-2.5 h-2.5" />
-                                {post.views}
-                              </span>
-                            )}
                           </div>
                           <div className="text-xs sm:text-sm font-semibold truncate leading-snug">
                             {highlightMatch(post.title, query)}

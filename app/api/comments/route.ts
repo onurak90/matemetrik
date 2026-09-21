@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getCommentsByPostId, getAllComments, createComment } from '@/lib/db';
+import { verifySessionToken, COOKIE_NAME } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
 
@@ -25,8 +26,39 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { postId, authorName, authorEmail, authorAvatar, content } = body;
+    const { postId, parentId, authorName, authorEmail, authorAvatar, content } = body;
 
+    const sessionToken = request.cookies.get(COOKIE_NAME)?.value;
+    const isUserAdmin = verifySessionToken(sessionToken);
+
+    // If admin is commenting/replying
+    if (isUserAdmin) {
+      if (!postId || !content) {
+        return NextResponse.json({ error: 'Yorum içeriği gereklidir.' }, { status: 400 });
+      }
+
+      const comment = createComment({
+        postId: Number(postId),
+        parentId: parentId ? Number(parentId) : null,
+        authorName: authorName?.trim() || 'Cavenaghi (Editör & Öğretmen)',
+        authorEmail: authorEmail?.trim() || 'cavenaghi@matemetrik.com',
+        authorAvatar: authorAvatar || '',
+        content: content.trim(),
+        isApproved: 1,
+        isAdmin: 1,
+      });
+
+      return NextResponse.json(
+        {
+          success: true,
+          message: 'Yönetici cevabınız başarıyla yayınlandı!',
+          comment,
+        },
+        { status: 201 }
+      );
+    }
+
+    // Regular student/visitor comment
     if (!postId || !authorName || !authorEmail || !content) {
       return NextResponse.json(
         { error: 'Lütfen tüm alanları eksiksiz doldurun.' },
@@ -34,7 +66,6 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Email check (should be valid email, preferably gmail)
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(authorEmail)) {
       return NextResponse.json(
@@ -43,26 +74,28 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    if (content.trim().length < 3) {
+    if (content.trim().length < 2) {
       return NextResponse.json(
-        { error: 'Yorum en az 3 karakter olmalıdır.' },
+        { error: 'Yorum en az 2 karakter olmalıdır.' },
         { status: 400 }
       );
     }
 
     const comment = createComment({
       postId: Number(postId),
+      parentId: parentId ? Number(parentId) : null,
       authorName: authorName.trim(),
       authorEmail: authorEmail.trim(),
       authorAvatar: authorAvatar || '',
       content: content.trim(),
-      isApproved: 0, // Pending approval
+      isApproved: 1, // Auto-approve so discussions and replies show immediately
+      isAdmin: 0,
     });
 
     return NextResponse.json(
       {
         success: true,
-        message: 'Yorumunuz başarıyla alındı! Yönetici onayından sonra burada yayınlanacaktır.',
+        message: 'Yorumunuz / cevabınız başarıyla yayınlandı!',
         comment,
       },
       { status: 201 }
@@ -71,3 +104,4 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 }
+

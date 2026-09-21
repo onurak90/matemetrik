@@ -4,7 +4,8 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   MessageSquare, CheckCircle2, Clock, Trash2,
-  ExternalLink, ShieldAlert, Check, RefreshCw
+  ExternalLink, ShieldAlert, Check, RefreshCw,
+  Reply, Send, X, CornerDownRight
 } from 'lucide-react';
 import { Comment } from '@/lib/types';
 
@@ -13,6 +14,9 @@ export default function AdminCommentsPage() {
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<'all' | 'pending' | 'approved'>('pending');
   const [actionLoadingId, setActionLoadingId] = useState<number | null>(null);
+  const [replyingId, setReplyingId] = useState<number | null>(null);
+  const [adminReplyText, setAdminReplyText] = useState('');
+  const [isSubmittingReply, setIsSubmittingReply] = useState(false);
 
   const fetchComments = async () => {
     setLoading(true);
@@ -68,6 +72,35 @@ export default function AdminCommentsPage() {
     }
   };
 
+  const handleAdminReply = async (comment: Comment) => {
+    if (!adminReplyText.trim()) return;
+    setIsSubmittingReply(true);
+    try {
+      const res = await fetch('/api/comments', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          postId: comment.post_id,
+          parentId: comment.id,
+          authorName: 'Cavenaghi (Editör & Öğretmen)',
+          authorEmail: 'cavenaghi@matemetrik.com',
+          content: adminReplyText.trim(),
+        }),
+      });
+      if (res.ok) {
+        setAdminReplyText('');
+        setReplyingId(null);
+        fetchComments();
+      } else {
+        alert('Cevap kaydedilemedi');
+      }
+    } catch {
+      alert('Bağlantı hatası oluştu');
+    } finally {
+      setIsSubmittingReply(false);
+    }
+  };
+
   const pendingCount = comments.filter((c) => c.is_approved === 0).length;
 
   return (
@@ -80,7 +113,7 @@ export default function AdminCommentsPage() {
             Yorum Moderasyonu
           </h1>
           <p className="text-sm text-slate-500 mt-1">
-            Ziyaretçilerin Gmail hesaplarıyla bıraktığı yorumları inceleyin, onaylayın veya silin.
+            Ziyaretçilerin bıraktığı yorumları inceleyin, doğrudan yanıtlayın, onaylayın veya silin.
           </p>
         </div>
 
@@ -105,7 +138,7 @@ export default function AdminCommentsPage() {
           }`}
         >
           <Clock className="w-4 h-4" />
-          Onay Bekleyenler
+          Onay Bekleyenler ({pendingCount})
         </button>
 
         <button
@@ -179,6 +212,11 @@ export default function AdminCommentsPage() {
                     <div>
                       <div className="text-xs font-bold text-slate-900 flex items-center gap-2">
                         <span>{comment.author_name}</span>
+                        {comment.is_admin === 1 && (
+                          <span className="px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-indigo-600 text-white">
+                            Öğretmen
+                          </span>
+                        )}
                         <span className="font-mono text-[11px] text-slate-400 font-normal">
                           ({comment.author_email})
                         </span>
@@ -228,8 +266,67 @@ export default function AdminCommentsPage() {
                   "{comment.content}"
                 </div>
 
+                {/* Inline Admin Reply Box */}
+                {replyingId === comment.id && (
+                  <div className="p-4 bg-indigo-50/70 border border-indigo-200 rounded-2xl space-y-3 animate-in fade-in">
+                    <div className="flex items-center justify-between text-xs">
+                      <span className="font-bold text-indigo-900 flex items-center gap-1.5">
+                        <Reply className="w-3.5 h-3.5" />
+                        <strong>{comment.author_name}</strong> kullanıcısına yönetici cevabı yazıyorsunuz:
+                      </span>
+                      <button
+                        type="button"
+                        onClick={() => setReplyingId(null)}
+                        className="text-slate-400 hover:text-slate-600"
+                      >
+                        <X className="w-4 h-4" />
+                      </button>
+                    </div>
+
+                    <textarea
+                      rows={2}
+                      placeholder="Öğretmen / Admin olarak detaylı cevabınızı yazın..."
+                      value={adminReplyText}
+                      onChange={(e) => setAdminReplyText(e.target.value)}
+                      className="w-full p-3 text-xs bg-white border border-indigo-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none"
+                    />
+
+                    <div className="flex items-center justify-end gap-2">
+                      <button
+                        type="button"
+                        onClick={() => setReplyingId(null)}
+                        className="px-3 py-1.5 text-xs font-semibold text-slate-600 hover:bg-white rounded-lg transition-colors"
+                      >
+                        Vazgeç
+                      </button>
+                      <button
+                        type="button"
+                        disabled={isSubmittingReply || !adminReplyText.trim()}
+                        onClick={() => handleAdminReply(comment)}
+                        className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs rounded-lg transition-colors shadow-sm disabled:opacity-50"
+                      >
+                        <Send className="w-3.5 h-3.5" />
+                        {isSubmittingReply ? 'Cevap Gönderiliyor...' : 'Cevabı Yayınla'}
+                      </button>
+                    </div>
+                  </div>
+                )}
+
                 {/* Action Buttons */}
                 <div className="flex items-center justify-end gap-2 pt-1">
+                  {/* Admin Reply Button */}
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setReplyingId(replyingId === comment.id ? null : comment.id);
+                      setAdminReplyText('');
+                    }}
+                    className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold text-xs rounded-xl transition-colors"
+                  >
+                    <Reply className="w-3.5 h-3.5" />
+                    Cevapla
+                  </button>
+
                   {!isApproved ? (
                     <button
                       type="button"
