@@ -25,5 +25,10 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/admin/:path*', '/yonetim'],
+  matcher: [
+    // Only run on admin HTML pages and /yonetim; never run on static assets, images or APIs
+    '/admin',
+    '/admin/((?!api|_next|.*\\..*).*)',
+    '/yonetim',
+  ],
 };

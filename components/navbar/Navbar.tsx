@@ -122,6 +122,7 @@ export default function Navbar() {
                       </div>
                       {group.items.map((item) => (
                         <Link
+                          prefetch={false}
                           key={item.name}
                           href={item.href}
                           className="block px-2 py-1.5 text-xs font-medium text-slate-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors"
@@ -160,6 +161,7 @@ export default function Navbar() {
                     </div>
                   </div>
                   <Link
+                    prefetch={false}
                     href="/meb-cozumleri"
                     className="text-xs font-bold text-indigo-600 hover:text-indigo-800 hover:underline flex items-center gap-1"
                   >
@@ -176,6 +178,7 @@ export default function Navbar() {
                     </div>
                     {[1, 2, 3, 4].map((g) => (
                       <Link
+                        prefetch={false}
                         key={g}
                         href={`/kategori/${g}-sinif`}
                         className="flex items-center justify-between px-2 py-1.5 rounded-lg text-xs font-medium text-slate-700 hover:text-emerald-700 hover:bg-white transition-colors"
@@ -193,6 +196,7 @@ export default function Navbar() {
                     </div>
                     {[5, 6, 7, 8].map((g) => (
                       <Link
+                        prefetch={false}
                         key={g}
                         href={`/kategori/${g}-sinif`}
                         className="flex items-center justify-between px-2 py-1.5 rounded-lg text-xs font-medium text-slate-700 hover:text-blue-700 hover:bg-white transition-colors"
@@ -214,6 +218,7 @@ export default function Navbar() {
                     </div>
                     {[9, 10, 11, 12].map((g) => (
                       <Link
+                        prefetch={false}
                         key={g}
                         href={`/kategori/${g}-sinif`}
                         className="flex items-center justify-between px-2 py-1.5 rounded-lg text-xs font-medium text-slate-700 hover:text-purple-700 hover:bg-white transition-colors"
@@ -232,7 +237,7 @@ export default function Navbar() {
                 {/* Footer Link */}
                 <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                   <span>Adım adım işlem basamakları ve formüller</span>
-                  <Link href="/meb-cozumleri" className="text-indigo-600 font-bold hover:underline flex items-center gap-1">
+                  <Link prefetch={false} href="/meb-cozumleri" className="text-indigo-600 font-bold hover:underline flex items-center gap-1">
                     📖 MEB Çözüm Merkezine Git &rarr;
                   </Link>
                 </div>
@@ -256,12 +261,13 @@ export default function Navbar() {
               <div className="absolute top-full left-0 w-80 bg-white rounded-2xl shadow-xl border border-slate-200 p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-0.5">
                 <div className="p-2 border-b border-slate-100 flex items-center justify-between">
                   <span className="text-xs font-bold text-slate-900">Dijital Öğretmen Odası</span>
-                  <Link href="/ogretmen-araclari" className="text-[11px] font-bold text-indigo-600 hover:underline">
+                  <Link prefetch={false} href="/ogretmen-araclari" className="text-[11px] font-bold text-indigo-600 hover:underline">
                     Tüm Araçlar &rarr;
                   </Link>
                 </div>
 
                 <Link
+                  prefetch={false}
                   href="/yillik-plan-hazirlama"
                   className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-indigo-50 transition-colors group/item"
                 >
@@ -282,6 +288,7 @@ export default function Navbar() {
                 </Link>
 
                 <Link
+                  prefetch={false}
                   href="/kulup-toplanti-tutanaklari"
                   className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-indigo-50 transition-colors group/item"
                 >
@@ -302,6 +309,7 @@ export default function Navbar() {
                 </Link>
 
                 <Link
+                  prefetch={false}
                   href="/karne-gorusu-ureticisi"
                   className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-indigo-50 transition-colors group/item"
                 >
@@ -319,6 +327,7 @@ export default function Navbar() {
                 </Link>
 
                 <Link
+                  prefetch={false}
                   href="/sinav-hazirlama-robotu"
                   className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-indigo-50 transition-colors group/item"
                 >
@@ -336,6 +345,7 @@ export default function Navbar() {
                 </Link>
 
                 <Link
+                  prefetch={false}
                   href="/puan-hesaplama-robotu"
                   className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-indigo-50 transition-colors group/item"
                 >
@@ -360,6 +370,7 @@ export default function Navbar() {
             {/* Hesaplama Araçları Mega Dropdown */}
             <div className="relative group">
               <Link
+                prefetch={false}
                 href="/hesaplama-araclari"
                 className={`flex items-center gap-1 px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                   pathname?.startsWith('/hesaplama-araclari') ||
@@ -381,6 +392,7 @@ export default function Navbar() {
                     <span>🧮</span> Adım Adım Matematik Hesaplayıcılar
                   </div>
                   <Link
+                    prefetch={false}
                     href="/hesaplama-araclari"
                     className="text-xs font-bold text-indigo-600 hover:underline"
                   >
@@ -388,28 +400,28 @@ export default function Navbar() {
                   </Link>
                 </div>
                 <div className="grid grid-cols-2 gap-1.5 text-xs">
-                  <Link href="/yuzde-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                  <Link prefetch={false} href="/yuzde-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
                     <span className="w-5 text-center font-bold text-indigo-600">%</span> Yüzde Hesaplama
                   </Link>
-                  <Link href="/kdv-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                  <Link prefetch={false} href="/kdv-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
                     <span className="w-5 text-center font-bold text-emerald-600">🧾</span> KDV Hesaplama (%1-20)
                   </Link>
-                  <Link href="/ebob-ekok-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                  <Link prefetch={false} href="/ebob-ekok-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
                     <span className="w-5 text-center font-bold text-purple-600">÷</span> EBOB &amp; EKOK Bulma
                   </Link>
-                  <Link href="/ikinci-dereceden-denklem-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                  <Link prefetch={false} href="/ikinci-dereceden-denklem-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
                     <span className="w-5 text-center font-bold text-rose-600">x²</span> 2. Derece Denklem (Delta)
                   </Link>
-                  <Link href="/karekok-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                  <Link prefetch={false} href="/karekok-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
                     <span className="w-5 text-center font-bold text-cyan-600">√</span> Karekök &amp; Kök Dışına Çıkarma
                   </Link>
-                  <Link href="/pisagor-hipotenus-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                  <Link prefetch={false} href="/pisagor-hipotenus-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
                     <span className="w-5 text-center font-bold text-blue-600">📐</span> Pisagor &amp; Hipotenüs
                   </Link>
-                  <Link href="/oran-oranti-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                  <Link prefetch={false} href="/oran-oranti-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
                     <span className="w-5 text-center font-bold text-amber-600">⚖️</span> Oran Orantı Çözücü
                   </Link>
-                  <Link href="/ortalama-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
+                  <Link prefetch={false} href="/ortalama-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
                     <span className="w-5 text-center font-bold text-teal-600">📊</span> Ortalama &amp; Medyan
                   </Link>
                 </div>
@@ -533,28 +545,28 @@ export default function Navbar() {
               <div>
                 <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider block mb-1">İlkokul (1-4. Sınıf)</span>
                 <div className="grid grid-cols-2 gap-1.5 text-xs text-slate-700">
-                  <Link href="/kategori/1-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">1. Sınıf Çözümleri</Link>
-                  <Link href="/kategori/2-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">2. Sınıf Çözümleri</Link>
-                  <Link href="/kategori/3-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">3. Sınıf Çözümleri</Link>
-                  <Link href="/kategori/4-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">4. Sınıf Çözümleri</Link>
+                  <Link prefetch={false} href="/kategori/1-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">1. Sınıf Çözümleri</Link>
+                  <Link prefetch={false} href="/kategori/2-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">2. Sınıf Çözümleri</Link>
+                  <Link prefetch={false} href="/kategori/3-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">3. Sınıf Çözümleri</Link>
+                  <Link prefetch={false} href="/kategori/4-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-emerald-700">4. Sınıf Çözümleri</Link>
                 </div>
               </div>
               <div>
                 <span className="text-[10px] font-bold text-blue-700 uppercase tracking-wider block mb-1">Ortaokul (5-8. Sınıf & LGS)</span>
                 <div className="grid grid-cols-2 gap-1.5 text-xs text-slate-700">
-                  <Link href="/kategori/5-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700">5. Sınıf Çözümleri</Link>
-                  <Link href="/kategori/6-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700">6. Sınıf Çözümleri</Link>
-                  <Link href="/kategori/7-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700">7. Sınıf Çözümleri</Link>
-                  <Link href="/kategori/8-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700 font-semibold text-blue-900">8. Sınıf (LGS)</Link>
+                  <Link prefetch={false} href="/kategori/5-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700">5. Sınıf Çözümleri</Link>
+                  <Link prefetch={false} href="/kategori/6-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700">6. Sınıf Çözümleri</Link>
+                  <Link prefetch={false} href="/kategori/7-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700">7. Sınıf Çözümleri</Link>
+                  <Link prefetch={false} href="/kategori/8-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-blue-700 font-semibold text-blue-900">8. Sınıf (LGS)</Link>
                 </div>
               </div>
               <div>
                 <span className="text-[10px] font-bold text-purple-700 uppercase tracking-wider block mb-1">Lise (9-12. Sınıf & YKS)</span>
                 <div className="grid grid-cols-2 gap-1.5 text-xs text-slate-700">
-                  <Link href="/kategori/9-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700">9. Sınıf MEB</Link>
-                  <Link href="/kategori/10-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700">10. Sınıf MEB</Link>
-                  <Link href="/kategori/11-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700">11. Sınıf MEB</Link>
-                  <Link href="/kategori/12-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700 font-semibold text-purple-900">12. Sınıf (YKS)</Link>
+                  <Link prefetch={false} href="/kategori/9-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700">9. Sınıf MEB</Link>
+                  <Link prefetch={false} href="/kategori/10-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700">10. Sınıf MEB</Link>
+                  <Link prefetch={false} href="/kategori/11-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700">11. Sınıf MEB</Link>
+                  <Link prefetch={false} href="/kategori/12-sinif" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-purple-700 font-semibold text-purple-900">12. Sınıf (YKS)</Link>
                 </div>
               </div>
             </div>
@@ -562,6 +574,7 @@ export default function Navbar() {
 
           <div className="py-2 border-b border-slate-100 space-y-2">
             <Link
+              prefetch={false}
               href="/ogretmen-araclari"
               onClick={() => setIsOpen(false)}
               className="text-xs font-bold text-indigo-600 uppercase tracking-wider flex items-center justify-between"
@@ -569,29 +582,29 @@ export default function Navbar() {
               <span>Öğretmen Araçları</span>
               <span className="text-[10px] text-slate-500 font-medium lowercase">tümünü gör &rarr;</span>
             </Link>
-            <Link href="/yillik-plan-hazirlama" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
+            <Link prefetch={false} href="/yillik-plan-hazirlama" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
               <span>Yıllık Plan Hazırlama</span>
               <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-bold border border-emerald-200">2026-2027</span>
             </Link>
-            <Link href="/kulup-toplanti-tutanaklari" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
+            <Link prefetch={false} href="/kulup-toplanti-tutanaklari" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
               <span>Kulüp Toplantı Tutanakları</span>
               <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 font-bold border border-indigo-200">38 Kulüp</span>
             </Link>
-            <Link href="/karne-gorusu-ureticisi" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600">
+            <Link prefetch={false} href="/karne-gorusu-ureticisi" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600">
               Karne Görüşü Üreticisi
             </Link>
-            <Link href="/sinav-hazirlama-robotu" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600">
+            <Link prefetch={false} href="/sinav-hazirlama-robotu" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600">
               Sınav Hazırlama Robotu
             </Link>
-            <Link href="/puan-hesaplama-robotu" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
+            <Link prefetch={false} href="/puan-hesaplama-robotu" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
               <span>Puan Hesaplama Robotu</span>
               <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-rose-50 text-rose-700 font-bold border border-rose-200">LGS &amp; YKS</span>
             </Link>
             <div className="pl-3 grid grid-cols-2 gap-1.5 text-xs">
-              <Link href="/yks-puan-hesaplama-robotu" onClick={() => setIsOpen(false)} className="p-1 rounded text-purple-700 hover:bg-purple-50 font-medium">
+              <Link prefetch={false} href="/yks-puan-hesaplama-robotu" onClick={() => setIsOpen(false)} className="p-1 rounded text-purple-700 hover:bg-purple-50 font-medium">
                 📊 YKS Puan Hesapla
               </Link>
-              <Link href="/lgs-puan-hesaplama-robotu" onClick={() => setIsOpen(false)} className="p-1 rounded text-indigo-700 hover:bg-indigo-50 font-medium">
+              <Link prefetch={false} href="/lgs-puan-hesaplama-robotu" onClick={() => setIsOpen(false)} className="p-1 rounded text-indigo-700 hover:bg-indigo-50 font-medium">
                 🎯 LGS Puan Hesapla
               </Link>
             </div>
@@ -600,6 +613,7 @@ export default function Navbar() {
           {/* Mobile Hesaplama Araçları Section */}
           <div className="py-2 border-b border-slate-100 space-y-2">
             <Link
+              prefetch={false}
               href="/hesaplama-araclari"
               onClick={() => setIsOpen(false)}
               className="flex items-center justify-between py-1 text-sm font-bold text-indigo-700 hover:text-indigo-900"
@@ -608,14 +622,14 @@ export default function Navbar() {
               <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-extrabold">18 Robot</span>
             </Link>
             <div className="grid grid-cols-2 gap-1.5 text-xs text-slate-700 pt-1">
-              <Link href="/yuzde-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Yüzde Hesaplama</Link>
-              <Link href="/kdv-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">KDV Hesaplama</Link>
-              <Link href="/ebob-ekok-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">EBOB &amp; EKOK</Link>
-              <Link href="/ikinci-dereceden-denklem-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">2. Derece Denklem</Link>
-              <Link href="/karekok-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Karekök Bulucu</Link>
-              <Link href="/pisagor-hipotenus-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Pisagor &amp; Hipotenüs</Link>
-              <Link href="/oran-oranti-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Oran Orantı</Link>
-              <Link href="/ortalama-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Ortalama &amp; Medyan</Link>
+              <Link prefetch={false} href="/yuzde-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Yüzde Hesaplama</Link>
+              <Link prefetch={false} href="/kdv-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">KDV Hesaplama</Link>
+              <Link prefetch={false} href="/ebob-ekok-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">EBOB &amp; EKOK</Link>
+              <Link prefetch={false} href="/ikinci-dereceden-denklem-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">2. Derece Denklem</Link>
+              <Link prefetch={false} href="/karekok-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Karekök Bulucu</Link>
+              <Link prefetch={false} href="/pisagor-hipotenus-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Pisagor &amp; Hipotenüs</Link>
+              <Link prefetch={false} href="/oran-oranti-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Oran Orantı</Link>
+              <Link prefetch={false} href="/ortalama-hesaplama" onClick={() => setIsOpen(false)} className="p-1.5 rounded-md hover:bg-slate-50 hover:text-indigo-600">Ortalama &amp; Medyan</Link>
             </div>
           </div>
 

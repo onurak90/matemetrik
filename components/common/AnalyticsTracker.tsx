@@ -8,12 +8,20 @@ export default function AnalyticsTracker() {
   const lastTrackedPath = useRef<string | null>(null);
 
   useEffect(() => {
-    // Ignore admin and internal pages
+    // Ignore admin, internal pages and automated bots
     if (
       !pathname ||
       pathname.startsWith('/admin') ||
       pathname.startsWith('/yonetim') ||
       pathname.startsWith('/api')
+    ) {
+      return;
+    }
+
+    // Ignore bots / headless automated scrapers
+    if (
+      typeof navigator !== 'undefined' &&
+      (navigator.webdriver || /bot|crawler|spider|headless|scrape/i.test(navigator.userAgent))
     ) {
       return;
     }

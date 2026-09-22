@@ -30,6 +30,7 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-x-2 gap-y-2 text-xs">
               {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((grade) => (
                 <Link
+                  prefetch={false}
                   key={grade}
                   href={`/kategori/${grade}-sinif`}
                   className="hover:text-white hover:underline transition-colors"
@@ -38,12 +39,14 @@ export default function Footer() {
                 </Link>
               ))}
               <Link
+                prefetch={false}
                 href="/kategori/ales"
                 className="hover:text-white hover:underline transition-colors font-semibold text-violet-400"
               >
                 ALES
               </Link>
               <Link
+                prefetch={false}
                 href="/kategori/yds"
                 className="hover:text-white hover:underline transition-colors font-semibold text-teal-400"
               >
@@ -59,82 +62,82 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link href="/ogretmen-araclari" className="hover:text-white transition-colors flex items-center gap-1.5 text-indigo-400 font-bold">
+                <Link prefetch={false} href="/ogretmen-araclari" className="hover:text-white transition-colors flex items-center gap-1.5 text-indigo-400 font-bold">
                   <Sparkles className="w-3 h-3" /> 🧑‍🏫 MEB Öğretmen Araçları Merkezi
                 </Link>
               </li>
               <li>
-                <Link href="/meb-cozumleri" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-bold">
+                <Link prefetch={false} href="/meb-cozumleri" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-bold">
                   <Sparkles className="w-3 h-3" /> 📚 MEB Ders Kitabı Çözümleri (1-12)
                 </Link>
               </li>
               <li>
-                <Link href="/hesaplama-araclari" className="hover:text-white transition-colors flex items-center gap-1.5 text-purple-400 font-bold">
+                <Link prefetch={false} href="/hesaplama-araclari" className="hover:text-white transition-colors flex items-center gap-1.5 text-purple-400 font-bold">
                   <Sparkles className="w-3 h-3" /> 🧮 Matematik Hesaplama Araçları (18+)
                 </Link>
               </li>
               <li>
-                <Link href="/yillik-plan-hazirlama" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-semibold">
+                <Link prefetch={false} href="/yillik-plan-hazirlama" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-semibold">
                   <Sparkles className="w-3 h-3" /> Yıllık Plan Hazırlama (2026-2027)
                 </Link>
               </li>
               <li>
-                <Link href="/kulup-toplanti-tutanaklari" className="hover:text-white transition-colors flex items-center gap-1.5 text-indigo-400 font-semibold">
+                <Link prefetch={false} href="/kulup-toplanti-tutanaklari" className="hover:text-white transition-colors flex items-center gap-1.5 text-indigo-400 font-semibold">
                   <Sparkles className="w-3 h-3" /> Kulüp Toplantı Tutanakları
                 </Link>
               </li>
               <li>
-                <Link href="/karne-gorusu-ureticisi" className="hover:text-white transition-colors flex items-center gap-1.5 text-purple-400">
+                <Link prefetch={false} href="/karne-gorusu-ureticisi" className="hover:text-white transition-colors flex items-center gap-1.5 text-purple-400">
                   <Sparkles className="w-3 h-3" /> Karne Görüşü Üreticisi
                 </Link>
               </li>
               <li>
-                <Link href="/sinav-hazirlama-robotu" className="hover:text-white transition-colors flex items-center gap-1.5 text-amber-400">
+                <Link prefetch={false} href="/sinav-hazirlama-robotu" className="hover:text-white transition-colors flex items-center gap-1.5 text-amber-400">
                   <Sparkles className="w-3 h-3" /> Sınav Hazırlama Robotu
                 </Link>
               </li>
               <li>
-                <Link href="/puan-hesaplama-robotu" className="hover:text-white transition-colors flex items-center gap-1.5 text-rose-400 font-semibold">
+                <Link prefetch={false} href="/puan-hesaplama-robotu" className="hover:text-white transition-colors flex items-center gap-1.5 text-rose-400 font-semibold">
                   <Sparkles className="w-3 h-3" /> Puan Hesaplama Robotu (LGS &amp; YKS)
                 </Link>
               </li>
               <li className="pl-4">
-                <Link href="/yks-puan-hesaplama-robotu" className="hover:text-white transition-colors flex items-center gap-1 text-slate-300 hover:text-purple-300">
+                <Link prefetch={false} href="/yks-puan-hesaplama-robotu" className="hover:text-white transition-colors flex items-center gap-1 text-slate-300 hover:text-purple-300">
                   &rarr; 📊 2026 YKS Puan Hesaplama
                 </Link>
               </li>
               <li className="pl-4">
-                <Link href="/lgs-puan-hesaplama-robotu" className="hover:text-white transition-colors flex items-center gap-1 text-slate-300 hover:text-indigo-300">
+                <Link prefetch={false} href="/lgs-puan-hesaplama-robotu" className="hover:text-white transition-colors flex items-center gap-1 text-slate-300 hover:text-indigo-300">
                   &rarr; 🎯 2026 LGS Puan Hesaplama
                 </Link>
               </li>
               <li>
-                <Link href="/yds-calisma-bolumu" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-semibold">
+                <Link prefetch={false} href="/yds-calisma-bolumu" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-semibold">
                   <Sparkles className="w-3 h-3" /> 🎯 YDS Hazırlık &amp; Çalışma
                 </Link>
               </li>
               <li>
-                <Link href="/konu-anlatimlari" className="hover:text-white transition-colors flex items-center gap-1.5 text-cyan-400 font-semibold">
+                <Link prefetch={false} href="/konu-anlatimlari" className="hover:text-white transition-colors flex items-center gap-1.5 text-cyan-400 font-semibold">
                   <Sparkles className="w-3 h-3" /> 📖 Konu Anlatımları (1-12. Sınıf)
                 </Link>
               </li>
               <li>
-                <Link href="/kategori/kitap-ozet" className="hover:text-white transition-colors">
+                <Link prefetch={false} href="/kategori/kitap-ozet" className="hover:text-white transition-colors">
                   Kitap Özetleri
                 </Link>
               </li>
               <li>
-                <Link href="/kategori/matematik-blog" className="hover:text-white transition-colors">
+                <Link prefetch={false} href="/kategori/matematik-blog" className="hover:text-white transition-colors">
                   Matematik Tarihi ve Makaleler
                 </Link>
               </li>
               <li>
-                <Link href="/kategori/egitim-rehberligi" className="hover:text-white transition-colors">
+                <Link prefetch={false} href="/kategori/egitim-rehberligi" className="hover:text-white transition-colors">
                   Eğitim &amp; Sınav Rehberliği
                 </Link>
               </li>
               <li>
-                <Link href="/vaka-calismalari" className="hover:text-white transition-colors">
+                <Link prefetch={false} href="/vaka-calismalari" className="hover:text-white transition-colors">
                   Vaka Çalışmaları
                 </Link>
               </li>
@@ -148,37 +151,37 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link href="/iletisim" className="hover:text-white transition-colors text-indigo-400 font-semibold">
+                <Link prefetch={false} href="/iletisim" className="hover:text-white transition-colors text-indigo-400 font-semibold">
                   İletişim (matemetrikcom@gmail.com)
                 </Link>
               </li>
               <li>
-                <Link href="/hakkimizda" className="hover:text-white transition-colors">
+                <Link prefetch={false} href="/hakkimizda" className="hover:text-white transition-colors">
                   Hakkımızda
                 </Link>
               </li>
               <li>
-                <Link href="/vizyonumuz" className="hover:text-white transition-colors text-indigo-300">
+                <Link prefetch={false} href="/vizyonumuz" className="hover:text-white transition-colors text-indigo-300">
                   Vizyonumuz
                 </Link>
               </li>
               <li>
-                <Link href="/misyonumuz" className="hover:text-white transition-colors text-purple-300">
+                <Link prefetch={false} href="/misyonumuz" className="hover:text-white transition-colors text-purple-300">
                   Misyonumuz
                 </Link>
               </li>
               <li>
-                <Link href="/kullanim-sartlari" className="hover:text-white transition-colors">
+                <Link prefetch={false} href="/kullanim-sartlari" className="hover:text-white transition-colors">
                   Kullanım Şartları
                 </Link>
               </li>
               <li>
-                <Link href="/gizlilik-politikasi" className="hover:text-white transition-colors">
+                <Link prefetch={false} href="/gizlilik-politikasi" className="hover:text-white transition-colors">
                   Gizlilik Politikası (KVKK)
                 </Link>
               </li>
               <li>
-                <Link href="/cerez-politikasi" className="hover:text-white transition-colors">
+                <Link prefetch={false} href="/cerez-politikasi" className="hover:text-white transition-colors">
                   Çerez Politikası
                 </Link>
               </li>
