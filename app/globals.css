@@ -117,19 +117,95 @@ html.dark tr:hover {
   }
 }
 
-/* Print Styles for PDF Test Downloads */
+/* Print Styles for PDF Test Downloads - MEB Format Clean Test Output */
 @media print {
-  header, footer, nav, aside, .print\:hidden {
+  @page {
+    margin: 1.2cm 1cm;
+    size: A4 portrait;
+  }
+
+  /* 1. Hide everything on the website */
+  header,
+  footer,
+  nav,
+  aside,
+  .print\:hidden,
+  .post-header,
+  header.space-y-4,
+  .rounded-3xl.overflow-hidden.shadow-lg,
+  .toc-container,
+  #konu-anlatimi,
+  #video-ders,
+  #meb-kitap-cozumleri,
+  #benzer-konular,
+  #sss-bolumu,
+  #pdf-test-indir,
+  #test-cevaplari,
+  .quiz-solution-hint,
+  .opt-feedback,
+  .in-article-ad,
+  .post-tags,
+  .share-buttons,
+  .comments-section,
+  .reading-progress-bar,
+  #reading-progress {
     display: none !important;
   }
-  body {
+
+  /* 2. Reset containers to full width white canvas */
+  html, body, main, div, article {
     background: #ffffff !important;
     color: #000000 !important;
-  }
-  .quiz-card {
-    page-break-inside: avoid;
-    border: 1px solid #e2e8f0 !important;
     box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* 3. Ensure test section and its print elements are cleanly rendered */
+  #20-soruluk-test {
+    display: block !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+  }
+
+  .print-exam-header {
+    display: block !important;
+    margin-bottom: 1.2rem !important;
+  }
+
+  .print-answer-key {
+    display: block !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .quiz-card {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    border: 1px solid #94a3b8 !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+    margin-bottom: 10px !important;
+    box-shadow: none !important;
+    background: #ffffff !important;
+  }
+
+  .quiz-card button {
+    border: 1px solid #cbd5e1 !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 4px 8px !important;
+    pointer-events: none !important;
+  }
+
+  .quiz-card .opt-badge {
+    background: #f1f5f9 !important;
+    color: #0f172a !important;
+    border: 1px solid #cbd5e1 !important;
   }
 }
 

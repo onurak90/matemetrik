@@ -131,89 +131,90 @@ export default function KonuAnlatimlariPage() {
         </nav>
 
         {/* Hero Header */}
-        <div className="relative overflow-hidden bg-gradient-to-br from-indigo-900 via-indigo-800 to-slate-900 text-white p-8 sm:p-14 rounded-3xl shadow-xl space-y-6">
+        <div className="relative overflow-hidden bg-gradient-to-br from-slate-950 via-indigo-950 to-purple-950 text-white p-8 sm:p-14 rounded-3xl shadow-2xl border border-indigo-500/30 space-y-6">
+          {/* Animated colorful background glow orbs */}
+          <div className="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-indigo-500/25 blur-3xl pointer-events-none animate-pulse"></div>
+          <div className="absolute right-1/3 -top-24 w-80 h-80 rounded-full bg-fuchsia-500/20 blur-3xl pointer-events-none"></div>
+          <div className="absolute left-10 -bottom-20 w-60 h-60 rounded-full bg-cyan-500/15 blur-3xl pointer-events-none"></div>
+
           <div className="relative z-10 max-w-3xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-bold border border-indigo-400/30">
-              <Sparkles className="w-3.5 h-3.5 text-yellow-300" />
-              2026-2027 MEB &amp; Maarif Modeli Müfredatı
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-amber-500/20 via-pink-500/20 to-indigo-500/20 text-yellow-300 text-xs font-black border border-yellow-400/40 shadow-sm backdrop-blur-md">
+              <Sparkles className="w-3.5 h-3.5 text-yellow-300 animate-spin" style={{ animationDuration: '4s' }} />
+              2026-2027 MEB &amp; Türkiye Yüzyılı Maarif Modeli
             </div>
 
-            <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
               MEB Konu Anlatımları <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-indigo-200 to-pink-200">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-400 to-cyan-300 drop-shadow">
                 1 - 12. Sınıf Tüm Dersler
               </span>
             </h1>
 
-            <p className="text-sm sm:text-base text-indigo-100/90 leading-relaxed">
-              İlkokul, ortaokul ve lise kademelerinde ihtiyaç duyacağınız tüm ders ve ünitelerin eksiksiz konu anlatımları; her konuya özel <strong>20 soruluk yeni nesil deneme testleri</strong>, ayrıntılı işlem adımlarıyla <strong>cevap anahtarları</strong>, <strong>video dersler</strong> ve <strong>resmi MEB kitap çözümleri</strong> tek bir merkezde.
+            <p className="text-sm sm:text-base text-indigo-100/90 leading-relaxed font-normal">
+              İlkokul, ortaokul ve lise kademelerinde her sınıfın düzeyine özel, öğretmen anlatımlı pratik konu özetleri; her konuya özel <strong>20 soruluk yeni nesil deneme testleri</strong>, ayrıntılı işlem adımlarıyla <strong>çözüm anahtarları</strong>, <strong>video dersler</strong> ve <strong>tek tıkla indirilebilir PDF test çıktıları</strong>!
             </p>
 
             {/* Quick Stats Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4 text-center">
-              <div className="p-3 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
-                <div className="text-xl sm:text-2xl font-black text-white">12 Sınıf</div>
-                <div className="text-[11px] text-indigo-200 font-medium">1'den 12'ye Tam Kapsam</div>
+              <div className="p-3.5 rounded-2xl bg-white/10 backdrop-blur-md border border-cyan-400/30 hover:border-cyan-400/60 transition-all hover:scale-105">
+                <div className="text-xl sm:text-2xl font-black text-cyan-300">108 Ünite</div>
+                <div className="text-[11px] text-cyan-100 font-semibold">1-12. Sınıf Tüm Dersler</div>
               </div>
-              <div className="p-3 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
-                <div className="text-xl sm:text-2xl font-black text-white">108 Ünite</div>
-                <div className="text-[11px] text-indigo-200 font-medium">1-12. Sınıf Tüm Dersler</div>
+              <div className="p-3.5 rounded-2xl bg-white/10 backdrop-blur-md border border-amber-400/30 hover:border-amber-400/60 transition-all hover:scale-105">
+                <div className="text-xl sm:text-2xl font-black text-yellow-300">Sınıfa Özel</div>
+                <div className="text-[11px] text-amber-100 font-semibold">Öğrenci Diliyle Anlatım</div>
               </div>
-              <div className="p-3 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
-                <div className="text-xl sm:text-2xl font-black text-white">2.160+ Soru</div>
-                <div className="text-[11px] text-indigo-200 font-medium">Çözümlü &amp; PDF Test</div>
+              <div className="p-3.5 rounded-2xl bg-white/10 backdrop-blur-md border border-fuchsia-400/30 hover:border-fuchsia-400/60 transition-all hover:scale-105">
+                <div className="text-xl sm:text-2xl font-black text-fuchsia-300">2.160+ Soru</div>
+                <div className="text-[11px] text-fuchsia-100 font-semibold">Çözümlü &amp; PDF Test</div>
               </div>
-              <div className="p-3 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
-                <div className="text-xl sm:text-2xl font-black text-white">%100</div>
-                <div className="text-[11px] text-indigo-200 font-medium">MEB Maarif Modeli</div>
+              <div className="p-3.5 rounded-2xl bg-white/10 backdrop-blur-md border border-emerald-400/30 hover:border-emerald-400/60 transition-all hover:scale-105">
+                <div className="text-xl sm:text-2xl font-black text-emerald-300">%100 MEB</div>
+                <div className="text-[11px] text-emerald-100 font-semibold">Maarif Modeli Uyumlu</div>
               </div>
             </div>
           </div>
-
-          {/* Decorative glow circles */}
-          <div className="absolute -right-16 -bottom-16 w-80 h-80 rounded-full bg-indigo-500/20 blur-3xl pointer-events-none"></div>
-          <div className="absolute right-1/3 -top-20 w-60 h-60 rounded-full bg-pink-500/10 blur-3xl pointer-events-none"></div>
         </div>
 
         {/* 4 Pillars of Matemetrik Topic Guides */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">
-            <div className="w-10 h-10 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-lg">
+          <div className="p-5 rounded-3xl bg-gradient-to-br from-purple-50/80 to-white border border-purple-200/80 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all space-y-2">
+            <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-purple-600 to-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-purple-500/20">
               📖
             </div>
-            <h3 className="font-bold text-slate-900 text-sm">1. Eksiksiz Teori &amp; Kurallar</h3>
+            <h3 className="font-black text-purple-950 text-sm">1. Sınıfa Özel Pratik Anlatım</h3>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Ezbere dayalı olmayan kavramsal açıklamalar, püf noktaları ve çözümlü model sorular.
+              İlkokulda eğlenceli ve hikayeli, ortaokulda LGS odaklı, lisede ÖSYM formül ve taktikleriyle anlatım.
             </p>
           </div>
 
-          <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">
-            <div className="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-lg">
+          <div className="p-5 rounded-3xl bg-gradient-to-br from-blue-50/80 to-white border border-blue-200/80 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all space-y-2">
+            <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-blue-600 to-cyan-600 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-blue-500/20">
               📝
             </div>
-            <h3 className="font-bold text-slate-900 text-sm">2. 20 Soruluk Tarama Testi</h3>
+            <h3 className="font-black text-blue-950 text-sm">2. 20 Soruluk Tarama Testi</h3>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Her konunun sonunda MEB yazılı ve merkezi sınav kalıplarına uygun 20 özgün soru.
+              Her konunun sonunda MEB yazılı ve merkezi sınav kalıplarına uygun 20 özgün soru ve test modülü.
             </p>
           </div>
 
-          <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">
-            <div className="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-lg">
+          <div className="p-5 rounded-3xl bg-gradient-to-br from-emerald-50/80 to-white border border-emerald-200/80 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all space-y-2">
+            <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-600 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-emerald-500/20">
               ✅
             </div>
-            <h3 className="font-bold text-slate-900 text-sm">3. Adım Adım Çözümler</h3>
+            <h3 className="font-black text-emerald-950 text-sm">3. Adım Adım Çözümler</h3>
             <p className="text-xs text-slate-600 leading-relaxed">
-              20 sorunun tamamı için ara işlem basamaklarını ve doğru seçeneği gösteren ayrıntılı çözümler.
+              20 sorunun tamamı için işlem basamaklarını ve doğru seçeneği gösteren ayrıntılı çözümler.
             </p>
           </div>
 
-          <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">
-            <div className="w-10 h-10 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center font-bold text-lg">
-              🎥
+          <div className="p-5 rounded-3xl bg-gradient-to-br from-rose-50/80 to-white border border-rose-200/80 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all space-y-2">
+            <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-rose-600 to-amber-600 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-rose-500/20">
+              📥
             </div>
-            <h3 className="font-bold text-slate-900 text-sm">4. Video &amp; MEB Kitapları</h3>
+            <h3 className="font-black text-rose-950 text-sm">4. Ücretsiz PDF Test İndir</h3>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Konuyla ilgili özenle seçilmiş YouTube video dersi ve MEB ders kitabı sayfa sayfa çözümleri.
+              Tek tıkla resmi MEB sınav formatında cevap anahtarlı PDF test çıktısı alın veya yazıcıdan basın.
             </p>
           </div>
         </div>

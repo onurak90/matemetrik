@@ -198,7 +198,24 @@ def build_topic_post_html(topic_data):
 
   <!-- BÖLÜM 2: 📝 20 SORULUK TEST -->
   <section class="space-y-6 pt-6 border-t border-slate-200" id="20-soruluk-test">
-    <div class="flex items-center gap-3 pb-3 border-b-2 border-blue-600">
+    <!-- MEB Print-Only Official Exam Sheet Header -->
+    <div class="hidden print:block print-exam-header border-b-2 border-slate-900 pb-3 mb-4 text-black">
+      <div class="flex justify-between items-center text-[10px] font-bold uppercase tracking-wider text-slate-800 pb-1">
+        <span>T.C. MİLLİ EĞİTİM BAKANLIĞI</span>
+        <span>2026-2027 EĞİTİM ÖĞRETİM YILI</span>
+      </div>
+      <div class="text-center font-black text-base uppercase tracking-tight text-slate-950 py-1">
+        {g_str} {subj} DERSİ — {topic} KAZANIM DEĞERLENDİRME TESTİ
+      </div>
+      <div class="grid grid-cols-3 gap-2 pt-2 border-t border-slate-400 text-xs text-slate-900 font-medium">
+        <div><strong>Adı Soyadı:</strong> ....................................................</div>
+        <div class="text-center"><strong>Sınıfı / Şubesi:</strong> ......... / .........</div>
+        <div class="text-right"><strong>No:</strong> ............... &nbsp; <strong>Puan:</strong> .........</div>
+      </div>
+    </div>
+
+    <!-- On-Screen Test Title -->
+    <div class="flex items-center gap-3 pb-3 border-b-2 border-blue-600 print:hidden">
       <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold text-lg shadow-md">📝</div>
       <div>
         <h2 class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight m-0">2. 20 Soruluk {topic} Tarama Testi</h2>
@@ -206,53 +223,61 @@ def build_topic_post_html(topic_data):
       </div>
     </div>
 
-    <div class="p-4 rounded-xl bg-blue-50 border border-blue-200 text-xs sm:text-sm text-blue-900 font-medium">
+    <div class="p-3.5 rounded-xl bg-blue-50 border border-blue-200 text-xs sm:text-sm text-blue-900 font-medium print:hidden">
       💡 <strong>Öğrenci Tavsiyesi:</strong> Soruları çözmeden önce bir kağıt-kalem alarak süre tutunuz. 20 soruyu tamamladıktan sonra bir alt kısımdaki ayrıntılı çözüm basamaklarından yanıtlarınızı kontrol edebilirsiniz.
     </div>
 
-    <div class="space-y-5">
+    <div class="space-y-4 print:space-y-3">
       {questions_html}
     </div>
 
-    <!-- BÖLÜM 2.5: 📥 PDF TEST İNDİR & YAZDIR (SEO HEDEFİ) -->
-    <div class="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-indigo-900 via-indigo-950 to-slate-900 text-white shadow-xl space-y-5 border border-indigo-700/50 print:hidden" id="pdf-test-indir">
-      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-        <div class="space-y-2">
-          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-bold border border-indigo-400/30">
-            📥 2026-2027 MEB Formatı PDF Test &amp; Çıktı
+    <!-- MEB Print-Only Official Answer Key Grid -->
+    <div class="hidden print:block print-answer-key pt-4 mt-6 border-t-2 border-dashed border-slate-800">
+      <div class="text-xs font-black uppercase tracking-wider text-slate-950 mb-2 text-center">
+        ★ {g_str} {subj} {topic} — CEVAP ANAHTARI ★
+      </div>
+      {ans_grid_html}
+    </div>
+
+    <!-- BÖLÜM 2.5: 📥 PDF TEST İNDİR & YAZDIR (KOMPAKT & MODERN) -->
+    <div class="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white shadow-md border border-slate-800 print:hidden my-6" id="pdf-test-indir">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="space-y-1">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-300 text-[10px] font-black uppercase tracking-wider border border-emerald-400/30">
+              📥 MEB Formatı PDF
+            </span>
+            <h3 class="text-sm sm:text-base font-black text-white m-0">
+              {g_str} {subj} {topic} PDF Test İndir
+            </h3>
           </div>
-          <h3 class="text-xl sm:text-2xl font-black tracking-tight text-white m-0">
-            {g_str} {subj} {topic} PDF Test İndir
-          </h3>
-          <p class="text-xs sm:text-sm text-indigo-200/90 leading-relaxed max-w-2xl m-0">
-            <strong>{g_str} {subj} {topic} 20 soruluk yeni nesil tarama testi</strong>ni, MEB kazanım kavrama formatındaki cevap anahtarlı ve çözümlü PDF belgesini ücretsiz indirebilir veya tarayıcınızdan doğrudan tek tıkla yazdırarak kağıt üzerinde çözebilirsiniz.
+          <p class="text-xs text-slate-300 m-0">
+            20 soruluk yeni nesil tarama testini cevap anahtarlı sınav kağıdı formatında tek tıkla yazdırın veya PDF olarak kaydedin.
           </p>
         </div>
 
-        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full md:w-auto shrink-0">
+        <div class="flex items-center gap-2 shrink-0">
           <button
             type="button"
             onclick="window.print()"
-            class="px-5 py-3 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white font-black text-xs sm:text-sm flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all cursor-pointer"
+            class="px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs flex items-center gap-1.5 shadow-md hover:shadow-lg transition-all cursor-pointer"
           >
-            🖨️ PDF Test Olarak Yazdır / İndir
+            <span>🖨️ PDF Test İndir / Yazdır</span>
           </button>
           <a
             href="/sinav-hazirlama-robotu"
-            class="px-5 py-3 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 border border-white/20 transition-all text-center"
+            class="px-3.5 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs border border-white/15 transition-all text-center"
           >
-            ✨ Sınav Kağıdı Formatında Düzenle
+            <span>✨ Sınav Kağıdı Yap</span>
           </a>
         </div>
       </div>
 
-      <!-- SEO Keywords & Related Search Tags -->
-      <div class="pt-4 border-t border-indigo-800/60 flex flex-wrap items-center gap-2 text-[11px] text-indigo-300">
-        <span class="font-bold text-white">Google Popüler Aramalar:</span>
-        <span class="px-2.5 py-1 rounded-lg bg-indigo-800/40 border border-indigo-700/50">{g_str} {subj} {topic} pdf test indir</span>
-        <span class="px-2.5 py-1 rounded-lg bg-indigo-800/40 border border-indigo-700/50">{g_str} {topic} test çöz pdf</span>
-        <span class="px-2.5 py-1 rounded-lg bg-indigo-800/40 border border-indigo-700/50">{g_str} {subj} {topic} cevap anahtarlı test</span>
-        <span class="px-2.5 py-1 rounded-lg bg-indigo-800/40 border border-indigo-700/50">2026-2027 meb {g_str} {topic} deneme</span>
+      <div class="mt-3 pt-2.5 border-t border-white/10 flex flex-wrap items-center gap-1.5 text-[10px] text-slate-400">
+        <span class="font-bold text-slate-300">Popüler Aramalar:</span>
+        <span class="px-2 py-0.5 rounded bg-white/5 border border-white/5">{g_str} {subj} {topic} pdf test indir</span>
+        <span class="px-2 py-0.5 rounded bg-white/5 border border-white/5">{g_str} {topic} test çöz pdf</span>
+        <span class="px-2 py-0.5 rounded bg-white/5 border border-white/5">2026-2027 meb {g_str} {topic} deneme</span>
       </div>
     </div>
   </section>
