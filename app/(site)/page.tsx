@@ -11,7 +11,7 @@ import PostSlider from '@/components/home/PostSlider';
 import FaqSection from '@/components/home/FaqSection';
 import DynamicMathHero from '@/components/home/DynamicMathHero';
 
-export const revalidate = 60; // ISR cache for blazing fast performance
+export const revalidate = 3600; // 1 hour edge cache
 
 export default function HomePage({
   searchParams,

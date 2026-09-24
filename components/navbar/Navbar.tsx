@@ -92,6 +92,7 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1 2xl:gap-1.5">
             <Link
+              prefetch={false}
               href="/"
               className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                 pathname === '/'
@@ -139,6 +140,7 @@ export default function Navbar() {
             {/* MEB Çözümleri Mega Dropdown (1-12. Sınıf Tüm Kademeler) */}
             <div className="relative group">
               <Link
+                prefetch={false}
                 href="/meb-cozumleri"
                 className={`flex items-center gap-1 px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                   pathname?.startsWith('/meb-cozumleri')
@@ -247,6 +249,7 @@ export default function Navbar() {
             {/* Öğretmen Araçları Dropdown */}
             <div className="relative group">
               <Link
+                prefetch={false}
                 href="/ogretmen-araclari"
                 className={`flex items-center gap-1 px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                   pathname?.startsWith('/ogretmen-araclari')
@@ -429,6 +432,7 @@ export default function Navbar() {
             </div>
 
             <Link
+              prefetch={false}
               href="/konu-anlatimlari"
               className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                 pathname === '/konu-anlatimlari' || pathname?.startsWith('/konu-anlatimlari')
@@ -440,6 +444,7 @@ export default function Navbar() {
             </Link>
 
             <Link
+              prefetch={false}
               href="/yds-calisma-bolumu"
               className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors flex items-center gap-1 ${
                 pathname?.startsWith('/yds-calisma-bolumu')
@@ -452,6 +457,7 @@ export default function Navbar() {
             </Link>
 
             <Link
+              prefetch={false}
               href="/kategori/matematik-blog"
               className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                 pathname === '/kategori/matematik-blog'
@@ -464,6 +470,7 @@ export default function Navbar() {
             </Link>
 
             <Link
+              prefetch={false}
               href="/hakkimizda"
               className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
                 pathname === '/hakkimizda'

@@ -12,7 +12,7 @@ interface CategoryPageProps {
   searchParams: { page?: string; ders?: string };
 }
 
-export const revalidate = 60; // ISR
+export const revalidate = 3600; // 1 hour edge cache
 
 export async function generateMetadata({ params, searchParams }: CategoryPageProps): Promise<Metadata> {
   const cat = getCategoryBySlug(params.slug);

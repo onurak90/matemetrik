@@ -71,7 +71,7 @@ export default function KonuAnlatimlariClient({ topics }: Props) {
         if (selectedSubject === 'Matematik' && !item.subject.includes('Matematik')) return false;
         if (selectedSubject === 'Türkçe' && !item.subject.includes('Türkçe') && !item.subject.includes('Edebiyat')) return false;
         if (selectedSubject === 'Fen Bilimleri' && !item.subject.includes('Fen') && !item.subject.includes('Fizik') && !item.subject.includes('Kimya') && !item.subject.includes('Biyoloji')) return false;
-        if (selectedSubject === 'Sosyal' && !item.subject.includes('Sosyal') && !item.subject.includes('Hayat') && !item.subject.includes('Tarih') && !item.subject.includes('Coğrafya')) return false;
+        if (selectedSubject === 'Sosyal' && !item.subject.includes('Sosyal') && !item.subject.includes('Hayat') && !item.subject.includes('Tarih') && !item.subject.includes('Coğrafya') && !item.subject.includes('İnkılap')) return false;
       }
 
       // Search Query
@@ -230,7 +230,7 @@ export default function KonuAnlatimlariClient({ topics }: Props) {
               { id: 'Matematik', label: 'Matematik' },
               { id: 'Türkçe', label: 'Türkçe & Edebiyat' },
               { id: 'Fen Bilimleri', label: 'Fen & Fizik & Kimya & Biyo' },
-              { id: 'Sosyal', label: 'Sosyal & Hayat Bilgisi' },
+              { id: 'Sosyal', label: 'Sosyal & Tarih & İnkılap' },
             ].map((s) => (
               <button
                 key={s.id}
@@ -404,13 +404,18 @@ export default function KonuAnlatimlariClient({ topics }: Props) {
                           >
                             <div className="space-y-4">
                               {/* Top Bar: Grade Badge & Test Pill */}
-                              <div className="flex items-center justify-between gap-2">
+                              <div className="flex items-center justify-between gap-2 flex-wrap">
                                 <span className={`text-[11px] font-extrabold px-2.5 py-1 rounded-lg border ${theme.badgeBg}`}>
                                   {t.grade_str}
                                 </span>
-                                <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200">
-                                  📝 20 Soru &amp; Çözüm
-                                </span>
+                                <div className="flex items-center gap-1.5">
+                                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200">
+                                    📝 20 Soru &amp; Çözüm
+                                  </span>
+                                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-indigo-50 text-indigo-700 border border-indigo-200">
+                                    📥 PDF Test
+                                  </span>
+                                </div>
                               </div>
 
                               {/* Topic Title */}
@@ -435,14 +440,14 @@ export default function KonuAnlatimlariClient({ topics }: Props) {
                                   <span className="text-rose-600">🎥</span> Türkçe Video
                                 </div>
                                 <div className="flex items-center gap-1.5 text-slate-700 font-semibold">
-                                  <span className="text-amber-600">📚</span> MEB Çözümü
+                                  <span className="text-amber-600">📥</span> PDF İndir &amp; Yazdır
                                 </div>
                               </div>
                             </div>
 
                             {/* Card Footer CTA */}
                             <div className="pt-4 mt-4 border-t border-slate-200/70 flex items-center justify-between text-xs font-bold text-indigo-600 group-hover:translate-x-0.5 transition-transform">
-                              <span className="font-extrabold">Konuyu Çalış &amp; Test Çöz</span>
+                              <span className="font-extrabold">Konuyu Çalış &amp; PDF Test İndir</span>
                               <ChevronRight className="w-4 h-4 text-indigo-600" />
                             </div>
                           </Link>

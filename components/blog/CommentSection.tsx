@@ -64,9 +64,12 @@ export default function CommentSection({
     }
   };
 
-  // Check admin session
+  // Check admin session (only if admin cookie is present)
   const checkAdminAuth = async () => {
     try {
+      if (typeof document === 'undefined' || !document.cookie.includes('matemetrik_session')) {
+        return;
+      }
       const res = await fetch('/api/auth/check');
       if (res.ok) {
         const data = await res.json();

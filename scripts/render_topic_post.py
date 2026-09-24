@@ -213,6 +213,48 @@ def build_topic_post_html(topic_data):
     <div class="space-y-5">
       {questions_html}
     </div>
+
+    <!-- BÖLÜM 2.5: 📥 PDF TEST İNDİR & YAZDIR (SEO HEDEFİ) -->
+    <div class="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-indigo-900 via-indigo-950 to-slate-900 text-white shadow-xl space-y-5 border border-indigo-700/50 print:hidden" id="pdf-test-indir">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div class="space-y-2">
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-bold border border-indigo-400/30">
+            📥 2026-2027 MEB Formatı PDF Test &amp; Çıktı
+          </div>
+          <h3 class="text-xl sm:text-2xl font-black tracking-tight text-white m-0">
+            {g_str} {subj} {topic} PDF Test İndir
+          </h3>
+          <p class="text-xs sm:text-sm text-indigo-200/90 leading-relaxed max-w-2xl m-0">
+            <strong>{g_str} {subj} {topic} 20 soruluk yeni nesil tarama testi</strong>ni, MEB kazanım kavrama formatındaki cevap anahtarlı ve çözümlü PDF belgesini ücretsiz indirebilir veya tarayıcınızdan doğrudan tek tıkla yazdırarak kağıt üzerinde çözebilirsiniz.
+          </p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full md:w-auto shrink-0">
+          <button
+            type="button"
+            onclick="window.print()"
+            class="px-5 py-3 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white font-black text-xs sm:text-sm flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all cursor-pointer"
+          >
+            🖨️ PDF Test Olarak Yazdır / İndir
+          </button>
+          <a
+            href="/sinav-hazirlama-robotu"
+            class="px-5 py-3 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 border border-white/20 transition-all text-center"
+          >
+            ✨ Sınav Kağıdı Formatında Düzenle
+          </a>
+        </div>
+      </div>
+
+      <!-- SEO Keywords & Related Search Tags -->
+      <div class="pt-4 border-t border-indigo-800/60 flex flex-wrap items-center gap-2 text-[11px] text-indigo-300">
+        <span class="font-bold text-white">Google Popüler Aramalar:</span>
+        <span class="px-2.5 py-1 rounded-lg bg-indigo-800/40 border border-indigo-700/50">{g_str} {subj} {topic} pdf test indir</span>
+        <span class="px-2.5 py-1 rounded-lg bg-indigo-800/40 border border-indigo-700/50">{g_str} {topic} test çöz pdf</span>
+        <span class="px-2.5 py-1 rounded-lg bg-indigo-800/40 border border-indigo-700/50">{g_str} {subj} {topic} cevap anahtarlı test</span>
+        <span class="px-2.5 py-1 rounded-lg bg-indigo-800/40 border border-indigo-700/50">2026-2027 meb {g_str} {topic} deneme</span>
+      </div>
+    </div>
   </section>
 
   <!-- BÖLÜM 3: ✅ TEST CEVAPLARI -->

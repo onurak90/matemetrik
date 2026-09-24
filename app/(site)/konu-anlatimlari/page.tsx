@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 import KonuAnlatimlariClient, { TopicItem } from '@/components/konu-anlatimlari/KonuAnlatimlariClient';
 
-export const revalidate = 60; // ISR cache
+export const revalidate = 3600; // 1 hour edge cache
 
 export const metadata: Metadata = {
   title: 'MEB Konu Anlatımları (1-12. Sınıf) | Tüm Dersler, 20 Soruluk Testler ve MEB Çözümleri',
@@ -156,12 +156,12 @@ export default function KonuAnlatimlariPage() {
                 <div className="text-[11px] text-indigo-200 font-medium">1'den 12'ye Tam Kapsam</div>
               </div>
               <div className="p-3 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
-                <div className="text-xl sm:text-2xl font-black text-white">55+ Ünite</div>
-                <div className="text-[11px] text-indigo-200 font-medium">Kapsamlı Konu Rehberi</div>
+                <div className="text-xl sm:text-2xl font-black text-white">108 Ünite</div>
+                <div className="text-[11px] text-indigo-200 font-medium">1-12. Sınıf Tüm Dersler</div>
               </div>
               <div className="p-3 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
-                <div className="text-xl sm:text-2xl font-black text-white">1.100+ Soru</div>
-                <div className="text-[11px] text-indigo-200 font-medium">Adım Adım Çözümlü Test</div>
+                <div className="text-xl sm:text-2xl font-black text-white">2.160+ Soru</div>
+                <div className="text-[11px] text-indigo-200 font-medium">Çözümlü &amp; PDF Test</div>
               </div>
               <div className="p-3 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
                 <div className="text-xl sm:text-2xl font-black text-white">%100</div>

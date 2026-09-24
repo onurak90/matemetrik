@@ -117,3 +117,20 @@ html.dark tr:hover {
   }
 }
 
+/* Print Styles for PDF Test Downloads */
+@media print {
+  header, footer, nav, aside, .print\:hidden {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .quiz-card {
+    page-break-inside: avoid;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: none !important;
+  }
+}
+
+

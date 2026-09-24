@@ -21,7 +21,7 @@ interface PostPageProps {
   params: { slug: string };
 }
 
-export const revalidate = 60; // ISR cache
+export const revalidate = 86400; // 24 hours edge cache for static solution posts
 
 export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
   const { post } = getPostBySlug(params.slug);

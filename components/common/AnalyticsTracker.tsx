@@ -4,53 +4,7 @@ import { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 
 export default function AnalyticsTracker() {
-  const pathname = usePathname();
-  const lastTrackedPath = useRef<string | null>(null);
-
-  useEffect(() => {
-    // Ignore admin, internal pages and automated bots
-    if (
-      !pathname ||
-      pathname.startsWith('/admin') ||
-      pathname.startsWith('/yonetim') ||
-      pathname.startsWith('/api')
-    ) {
-      return;
-    }
-
-    // Ignore bots / headless automated scrapers
-    if (
-      typeof navigator !== 'undefined' &&
-      (navigator.webdriver || /bot|crawler|spider|headless|scrape/i.test(navigator.userAgent))
-    ) {
-      return;
-    }
-
-    if (lastTrackedPath.current === pathname) {
-      return;
-    }
-    lastTrackedPath.current = pathname;
-
-    const payload = JSON.stringify({
-      path: pathname,
-      title: typeof document !== 'undefined' ? document.title : '',
-      referrer: typeof document !== 'undefined' ? document.referrer : '',
-    });
-
-    try {
-      if (typeof navigator !== 'undefined' && typeof navigator.sendBeacon === 'function') {
-        const blob = new Blob([payload], { type: 'application/json' });
-        navigator.sendBeacon('/api/analytics/track', blob);
-      } else {
-        fetch('/api/analytics/track', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: payload,
-          keepalive: true,
-        }).catch(() => {});
-      }
-    } catch {}
-  }, [pathname]);
-
+  // GA4 (Google Analytics) is actively tracking all visitors via app/layout.tsx directly to Google servers.
+  // Internal serverless beacon is disabled to eliminate 1 Edge/Function invocation per page view.
   return null;
 }
