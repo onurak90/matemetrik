@@ -375,6 +375,116 @@ export function getPrevNextPosts(currentId: number, categorySlug?: string): { pr
   };
 }
 
+export interface BookPageItem {
+  pageNumber: number;
+  slug: string;
+  title: string;
+}
+
+export interface BookSequenceData {
+  isBookPage: boolean;
+  bookTitle?: string;
+  currentPageNumber?: number;
+  prevPage?: BookPageItem | null;
+  nextPage?: BookPageItem | null;
+  masterBookSlug?: string | null;
+  nearbyPages: BookPageItem[];
+  totalPages: number;
+}
+
+export function getBookPageSequence(slug: string, categorySlug?: string): BookSequenceData {
+  let match = slug.match(/^(.*?)[-_]sayfa[-_](\d+)/i);
+  let pNum = 0;
+  let prefix = '';
+
+  if (match) {
+    prefix = match[1];
+    pNum = parseInt(match[2], 10);
+  } else {
+    const matchAlt = slug.match(/^(.*?)[-_](\d+)(?:[-_]\d+)?[-_]sayfa/i);
+    if (matchAlt) {
+      prefix = matchAlt[1];
+      pNum = parseInt(matchAlt[2], 10);
+    }
+  }
+
+  if (!prefix || !pNum) {
+    return {
+      isBookPage: false,
+      nearbyPages: [],
+      totalPages: 0,
+    };
+  }
+
+  const db = getDb();
+  // Fetch all pages matching the prefix
+  const rows = db.prepare(`
+    SELECT slug, title FROM posts 
+    WHERE slug LIKE ? AND is_published = 1
+  `).all(`${prefix}%sayfa%`) as Array<{ slug: string; title: string }>;
+
+  const pagesMap = new Map<number, { pageNumber: number; slug: string; title: string }>();
+
+  for (const r of rows) {
+    let m = r.slug.match(/sayfa[-_](\d+)/i);
+    if (!m) m = r.slug.match(/(\d+)(?:[-_]\d+)?[-_]sayfa/i);
+    if (m) {
+      const pageNum = parseInt(m[1], 10);
+      if (!pagesMap.has(pageNum)) {
+        pagesMap.set(pageNum, { pageNumber: pageNum, slug: r.slug, title: r.title });
+      }
+    }
+  }
+
+  const allPages = Array.from(pagesMap.values()).sort((a, b) => a.pageNumber - b.pageNumber);
+  if (allPages.length <= 1) {
+    return {
+      isBookPage: false,
+      nearbyPages: [],
+      totalPages: allPages.length,
+    };
+  }
+
+  let prevPage: BookPageItem | null = null;
+  let nextPage: BookPageItem | null = null;
+
+  for (const p of allPages) {
+    if (p.pageNumber < pNum) {
+      prevPage = p;
+    } else if (p.pageNumber > pNum && !nextPage) {
+      nextPage = p;
+      break;
+    }
+  }
+
+  const currentIndex = allPages.findIndex((p) => p.pageNumber === pNum);
+  const startIdx = Math.max(0, currentIndex - 3);
+  const endIdx = Math.min(allPages.length, startIdx + 7);
+  const nearbyPages = allPages.slice(startIdx, endIdx);
+
+  // Check for master book hub
+  const masterBookRow = db.prepare(`
+    SELECT slug FROM posts 
+    WHERE slug LIKE ? AND slug NOT LIKE '%sayfa%' AND is_published = 1 
+    LIMIT 1
+  `).get(`${prefix}%`) as { slug: string } | undefined;
+
+  const cleanBookTitle = prefix
+    .replace(/-/g, ' ')
+    .replace(/\b\w/g, (l) => l.toUpperCase());
+
+  return {
+    isBookPage: true,
+    bookTitle: cleanBookTitle,
+    currentPageNumber: pNum,
+    prevPage,
+    nextPage,
+    masterBookSlug: masterBookRow?.slug || null,
+    nearbyPages,
+    totalPages: allPages.length,
+  };
+}
+
 export function createPost(post: {
   title: string;
   slug: string;

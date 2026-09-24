@@ -54,6 +54,7 @@ export default function Navbar() {
       { name: '12. Sınıf', href: '/kategori/12-sinif' },
     ]},
     { label: 'Sınavlar', items: [
+      { name: '🏆 Takdir Teşekkür', href: '/takdir-tesekkur-hesaplama' },
       { name: '🎯 YDS Hazırlık', href: '/yds-calisma-bolumu' },
       { name: '📊 YKS Puan Hesaplama', href: '/yks-puan-hesaplama-robotu' },
       { name: '🎯 LGS Puan Hesaplama', href: '/lgs-puan-hesaplama-robotu' },

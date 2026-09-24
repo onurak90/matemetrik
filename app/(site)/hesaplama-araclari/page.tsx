@@ -141,6 +141,28 @@ export default function HesaplamaAraclariHubPage() {
           </div>
         </div>
 
+        {/* Featured Banner: Takdir Teşekkür Hesaplama */}
+        <div className="p-6 rounded-3xl bg-gradient-to-r from-amber-500 via-yellow-500 to-indigo-600 text-white shadow-lg flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="space-y-1 text-center sm:text-left">
+            <span className="text-[10px] font-black uppercase tracking-wider bg-white/20 px-2.5 py-1 rounded-full text-white inline-block">
+              ⭐ En Çok Aranan Okul Aracı
+            </span>
+            <h2 className="text-xl sm:text-2xl font-black">
+              2024-2025 Takdir Teşekkür Hesaplama Robotu
+            </h2>
+            <p className="text-xs text-amber-100 max-w-xl">
+              4, 5, 6, 7, 8, 9, 10, 11 ve 12. sınıf MEB haftalık ders saatleri ve ağırlıklı ortalamayla karne notunuzu anında hesaplayın.
+            </p>
+          </div>
+          <Link
+            href="/takdir-tesekkur-hesaplama"
+            className="px-6 py-3 rounded-2xl bg-white text-slate-900 hover:bg-slate-100 font-black text-xs transition-all shadow-md shrink-0 flex items-center gap-1.5"
+          >
+            <span>Hemen Hesapla</span>
+            <ArrowRight className="w-4 h-4 text-indigo-600" />
+          </Link>
+        </div>
+
         {/* Results Header */}
         <div className="flex items-center justify-between px-1">
           <div className="text-sm font-bold text-slate-700">

@@ -111,6 +111,11 @@ export default function Footer() {
                   &rarr; 🎯 2026 LGS Puan Hesaplama
                 </Link>
               </li>
+              <li className="pl-4">
+                <Link prefetch={false} href="/takdir-tesekkur-hesaplama" className="hover:text-white transition-colors flex items-center gap-1 text-yellow-300 hover:text-yellow-200 font-bold">
+                  &rarr; 🏆 Takdir Teşekkür Hesaplama
+                </Link>
+              </li>
               <li>
                 <Link prefetch={false} href="/yds-calisma-bolumu" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-semibold">
                   <Sparkles className="w-3 h-3" /> 🎯 YDS Hazırlık &amp; Çalışma

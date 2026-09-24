@@ -5,9 +5,9 @@ import type { Metadata } from 'next';
 import {
   Calendar, Clock, Share2, ArrowLeft,
   BookOpen, CheckCircle, Tag, ChevronRight,
-  Sparkles, ExternalLink, AlertCircle
+  Sparkles, ExternalLink, AlertCircle, HelpCircle
 } from 'lucide-react';
-import { getPostBySlug, getRelatedPosts, getPrevNextPosts, incrementViews, getSettings } from '@/lib/db';
+import { getPostBySlug, getRelatedPosts, getPrevNextPosts, incrementViews, getSettings, getBookPageSequence } from '@/lib/db';
 import { formatDate, estimateReadingTime } from '@/lib/utils';
 import PostCard from '@/components/blog/PostCard';
 import CommentSection from '@/components/blog/CommentSection';
@@ -16,6 +16,7 @@ import ReadingProgressBar from '@/components/blog/ReadingProgressBar';
 import PrevNextNav from '@/components/blog/PrevNextNav';
 import InteractiveQuizHandler from '@/components/blog/InteractiveQuizHandler';
 import PostCoverImage from '@/components/blog/PostCoverImage';
+import BookPageNav from '@/components/blog/BookPageNav';
 
 interface PostPageProps {
   params: { slug: string };
@@ -36,27 +37,46 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
       : `https://www.matemetrik.com${post.featured_image}`
     : 'https://www.matemetrik.com/og.jpg';
 
+  // Smart CTR Optimization for Google Search Results
+  const isBookSolution = post.slug.includes('sayfa') || post.title.toLowerCase().includes('sayfa');
+  const isTopicLecture = post.slug.includes('konu-anlatimi') || post.title.toLowerCase().includes('konu anlatımı');
+
+  let title = post.title;
+  let description = post.excerpt || `${post.title} hakkında detaylı konu anlatımı ve çözümler.`;
+
+  if (isBookSolution) {
+    if (!title.includes('2024') && !title.includes('2025') && !title.includes('2026')) {
+      title = `${post.title} (2024-2025 MEB Maarif Modeli Çözümleri)`;
+    }
+    description = `2024-2025 MEB güncel müfredatına uygun ${post.title}. Sayfadaki tüm alıştırma, sıra sizde ve değerlendirme sorularının adım adım açıklamalı çözümleri.`;
+  } else if (isTopicLecture) {
+    if (!title.includes('PDF')) {
+      title = `${post.title} + PDF Test İndir (2024-2025 MEB)`;
+    }
+    description = `2024-2025 MEB müfredatına tam uyumlu ${post.title}. Kilit konu özetleri, pekiştirici örnekler, 20 soruluk yeni nesil tarama testi ve ücretsiz PDF test çıktısı.`;
+  }
+
   return {
-    title: post.title,
-    description: post.excerpt || `${post.title} hakkında detaylı konu anlatımı ve çözümler.`,
+    title,
+    description,
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
+      title,
+      description,
       url: canonicalUrl,
       type: 'article',
       publishedTime: post.created_at,
       modifiedTime: post.updated_at,
       authors: [post.author || 'Cavenaghi'],
       tags: post.tags,
-      images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
     },
     twitter: {
       card: 'summary_large_image',
-      title: post.title,
-      description: post.excerpt,
+      title,
+      description,
       images: [ogImage],
     },
   };
@@ -144,6 +164,63 @@ export default async function BlogPostPage({ params }: PostPageProps) {
     ],
   };
 
+  // Book Page Sequence (Prev, Next, Book Hub, and quick page switcher)
+  const bookSequence = getBookPageSequence(post.slug, post.category_slug);
+
+  // Dynamic FAQ Schema (Google SERP Rich Snippets with Accordions)
+  const isBookSolution = post.slug.includes('sayfa') || post.title.toLowerCase().includes('sayfa');
+  const isTopicLecture = post.slug.includes('konu-anlatimi') || post.title.toLowerCase().includes('konu anlatımı');
+
+  const faqItems = isBookSolution
+    ? [
+        {
+          q: `${post.title} 2024-2025 MEB güncel müfredatına uygun mudur?`,
+          a: `Evet, bu sayfadaki tüm soru, etkinlik ve alıştırma çözümleri Millî Eğitim Bakanlığı (MEB) güncel ders kitabı ve Türkiye Yüzyılı Maarif Modeli kazanımlarına tam uyumludur.`,
+        },
+        {
+          q: `Bu kitaptaki diğer sayfaların çözümlerine nasıl ulaşabilirim?`,
+          a: `Sayfadaki 'Önceki Sayfa', 'Sonraki Sayfa' butonları ve 'Ders Kitabı Fihristi' bağlantısı üzerinden kitabın tüm sayfalarına ücretsiz erişebilirsiniz.`,
+        },
+        {
+          q: `Sayfadaki alıştırma ve sıra sizde sorularının adımları açıklandı mı?`,
+          a: `Evet, soruların tamamı öğrencilerin işlem basamaklarını ve mantığını kavraması için adım adım detaylı işlem aşamalarıyla çözülmüştür.`,
+        },
+      ]
+    : isTopicLecture
+    ? [
+        {
+          q: `${post.title} okul yazılıları ve merkezi sınavlar için yeterli mi?`,
+          a: `Evet, konu anlatımımız MEB müfredatı ve kazanımları temel alınarak hazırlanmış olup hem okul yazılı sınavlarına hem de LGS ve YKS hazırlık süreçlerine eksiksiz destek sağlar.`,
+        },
+        {
+          q: `Konunun 20 soruluk testini ve cevaplarını PDF olarak indirebilir miyim?`,
+          a: `Evet, sayfanın altındaki 'PDF Test Olarak İndir / Yazdır' butonuna tıklayarak testi çözümlü olarak A4 formatında çıktısını alabilir veya bilgisayarınıza indirebilirsiniz.`,
+        },
+        {
+          q: `Testteki soruların doğru seçenekleri ve çözümleri var mı?`,
+          a: `Evet, 20 sorunun tamamı alanında uzman öğretmenler tarafından hazırlanmış ayrıntılı işlem basamakları ve doğru seçenek analizleriyle sunulmaktadır.`,
+        },
+      ]
+    : [
+        {
+          q: `${post.title} içeriği kimler için uygundur?`,
+          a: `Bu içerik MEB müfredatına paralel olarak öğrenciler, öğretmenler ve veliler için rehber niteliğinde hazırlanmıştır.`,
+        },
+      ];
+
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  };
+
   return (
     <div className="py-10 pb-24">
       {/* Scroll Reading Progress Bar */}
@@ -159,6 +236,10 @@ export default async function BlogPostPage({ params }: PostPageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
@@ -237,6 +318,14 @@ export default async function BlogPostPage({ params }: PostPageProps) {
           />
         </div>
 
+        {/* Book Page Sequence Navigation (Top) */}
+        <BookPageNav
+          sequence={bookSequence}
+          position="top"
+          categorySlug={post.category_slug}
+          categoryName={post.category}
+        />
+
         {/* Post Rich Content */}
         <article className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/80 shadow-sm">
           {/* Smart Table of Contents (SERP Jump-Links) */}
@@ -277,6 +366,14 @@ export default async function BlogPostPage({ params }: PostPageProps) {
             </div>
           )}
         </article>
+
+        {/* Book Page Sequence Navigation (Bottom) */}
+        <BookPageNav
+          sequence={bookSequence}
+          position="bottom"
+          categorySlug={post.category_slug}
+          categoryName={post.category}
+        />
 
         {/* Yazar Bilgisi (E-E-A-T) */}
         <div className="p-6 bg-white rounded-3xl border border-slate-200/80 shadow-sm flex flex-col sm:flex-row items-center sm:items-start gap-4">
@@ -351,6 +448,32 @@ export default async function BlogPostPage({ params }: PostPageProps) {
             />
           </div>
         )}
+
+        {/* Sıkça Sorulan Sorular (Google SERP FAQ Accordion) */}
+        <div className="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200/80 shadow-sm space-y-4">
+          <div className="flex items-center gap-2 text-indigo-600 font-extrabold text-xs uppercase tracking-wider">
+            <HelpCircle className="w-4 h-4" />
+            <span>Merak Edilenler &amp; Sıkça Sorulan Sorular</span>
+          </div>
+          <h3 className="text-lg sm:text-xl font-black text-slate-900">
+            {post.title} Hakkında Sık Sorulanlar
+          </h3>
+          <div className="divide-y divide-slate-100">
+            {faqItems.map((faq, idx) => (
+              <details key={idx} className="py-3.5 group [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-xs sm:text-sm hover:text-indigo-600 transition-colors">
+                  <span>{faq.q}</span>
+                  <span className="ml-3 shrink-0 text-slate-400 group-open:rotate-180 transition-transform font-bold text-sm">
+                    &darr;
+                  </span>
+                </summary>
+                <p className="mt-2.5 text-xs sm:text-sm text-slate-600 leading-relaxed pl-2 border-l-2 border-indigo-200">
+                  {faq.a}
+                </p>
+              </details>
+            ))}
+          </div>
+        </div>
 
         {/* Comment Section with Gmail Connect */}
         <CommentSection postId={post.id} postTitle={post.title} />

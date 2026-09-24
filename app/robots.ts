@@ -25,7 +25,12 @@ export default function robots(): MetadataRoute.Robots {
         disallow: '/',
       },
     ],
-    sitemap: 'https://www.matemetrik.com/sitemap.xml',
+    sitemap: [
+      'https://www.matemetrik.com/sitemap.xml',
+      'https://www.matemetrik.com/sitemap-konular.xml',
+      'https://www.matemetrik.com/sitemap-araclar.xml',
+      'https://www.matemetrik.com/sitemap-kitaplar.xml',
+    ],
     host: 'https://www.matemetrik.com',
   };
 }
