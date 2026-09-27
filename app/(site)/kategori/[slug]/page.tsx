@@ -1,5 +1,5 @@
 import React from 'react';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { FolderTree, ChevronRight, BookOpen, ArrowRight } from 'lucide-react';
@@ -15,6 +15,16 @@ interface CategoryPageProps {
 export const revalidate = 3600; // 1 hour edge cache
 
 export async function generateMetadata({ params, searchParams }: CategoryPageProps): Promise<Metadata> {
+  if (params.slug === 'matematik-blog') {
+    return {
+      title: 'Tüm Blog Yazıları, Makaleler ve Sınav Rehberi | Matemetrik',
+      description: 'Matemetrik blog ve makaleler arşivi.',
+      alternates: {
+        canonical: 'https://www.matemetrik.com/post',
+      },
+    };
+  }
+
   const cat = getCategoryBySlug(params.slug);
   const name = cat ? cat.name : params.slug.replace('-', ' ').toUpperCase();
   const dersTitle = searchParams?.ders ? ` - ${searchParams.ders.toUpperCase()} Ders Çözümleri` : '';
@@ -29,6 +39,10 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
 }
 
 export default async function CategoryPage({ params, searchParams }: CategoryPageProps) {
+  if (params.slug === 'matematik-blog') {
+    permanentRedirect('/post');
+  }
+
   const cat = getCategoryBySlug(params.slug);
   const currentPage = parseInt(searchParams.page || '1', 10);
   const dersFilter = searchParams.ders;

@@ -459,9 +459,9 @@ export default function Navbar() {
 
             <Link
               prefetch={false}
-              href="/kategori/matematik-blog"
+              href="/post"
               className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
-                pathname === '/kategori/matematik-blog'
+                pathname === '/post' || pathname === '/kategori/matematik-blog'
                   ? 'text-indigo-600 bg-indigo-50'
                   : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
               }`}
@@ -649,7 +649,8 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/kategori/matematik-blog"
+            href="/post"
+            onClick={() => setIsOpen(false)}
             className="block py-2 font-semibold text-slate-900 border-b border-slate-100"
           >
             Blog &amp; Makaleler

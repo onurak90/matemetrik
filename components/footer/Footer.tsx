@@ -132,12 +132,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link prefetch={false} href="/kategori/matematik-blog" className="hover:text-white transition-colors">
-                  Matematik Tarihi ve Makaleler
+                <Link prefetch={false} href="/post" className="hover:text-white transition-colors">
+                  Blog, Makaleler ve Sınav Rehberi
                 </Link>
               </li>
               <li>
-                <Link prefetch={false} href="/kategori/egitim-rehberligi" className="hover:text-white transition-colors">
+                <Link prefetch={false} href="/post?cat=sinavlar" className="hover:text-white transition-colors">
                   Eğitim &amp; Sınav Rehberliği
                 </Link>
               </li>

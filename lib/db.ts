@@ -203,7 +203,7 @@ function formatPostRow(row: any): Post {
 export function getPosts(options: {
   page?: number;
   limit?: number;
-  category?: string;
+  category?: string | string[];
   search?: string;
   publishedOnly?: boolean;
   excludePageSolutions?: boolean;
@@ -225,8 +225,16 @@ export function getPosts(options: {
   }
 
   if (options.category) {
-    conditions.push('(category_slug = ? OR category = ?)');
-    params.push(options.category, options.category);
+    if (Array.isArray(options.category)) {
+      if (options.category.length > 0) {
+        const placeholders = options.category.map(() => '?').join(', ');
+        conditions.push(`(category_slug IN (${placeholders}) OR category IN (${placeholders}))`);
+        params.push(...options.category, ...options.category);
+      }
+    } else {
+      conditions.push('(category_slug = ? OR category = ?)');
+      params.push(options.category, options.category);
+    }
   }
 
   if (options.search) {
