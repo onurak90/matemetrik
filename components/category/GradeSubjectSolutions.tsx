@@ -370,6 +370,17 @@ export const GRADE_SUBJECTS_MAP: Record<string, SubjectItem[]> = {
       description: 'Bir Kahraman Doğuyor, Millî Uyanış, Kurtuluş Savaşı cepheleri ve Atatürk ilkeleri.'
     },
     {
+      key: 'din-kulturu',
+      name: 'LGS Din Kültürü',
+      bookTitle: '8. Sınıf Din Kültürü MEB Kitabı',
+      icon: '🕌',
+      color: 'from-emerald-600 to-teal-600',
+      badge: 'LGS 2026-2027',
+      bookSlug: '2026-2027-meb-8-sinif-din-kulturu-ve-ahlak-bilgisi-ders-kitabi-cevaplari',
+      filterQuery: 'din',
+      description: 'Kader inancı, zekat ve sadaka, din ve hayat, Hz. Muhammed’in güvenilirliği ve Kur’an özellikleri.'
+    },
+    {
       key: 'ingilizce',
       name: 'LGS İngilizce',
       bookTitle: '8. Sınıf İngilizce MEB Kitabı',
@@ -458,6 +469,39 @@ export const GRADE_SUBJECTS_MAP: Record<string, SubjectItem[]> = {
       bookSlug: '2026-2027-meb-ingilizce-calisma-kitabi-cevaplari-9-sinif',
       filterQuery: 'ingilizce',
       description: 'Theme 1-10 tüm Workbook alıştırmaları, okuma parçaları ve gramer testleri.'
+    },
+    {
+      key: 'edebiyat',
+      name: 'Türk Dili ve Edebiyatı',
+      bookTitle: '9. Sınıf Edebiyat MEB Kitabı',
+      icon: '📚',
+      color: 'from-rose-600 to-pink-600',
+      badge: '38 Sayfa Çözüm',
+      bookSlug: '2026-2027-meb-turk-dili-ve-edebiyati-ders-kitabi-cevaplari-9-sinif',
+      filterQuery: 'edebiyat',
+      description: 'Sözün İnceliği, Anlam Arayışı, Faruk Nafiz San\'at şiiri, Eskici hikâyesi ve Çalıkuşu tahlilleri.'
+    },
+    {
+      key: 'tarih',
+      name: 'Tarih',
+      bookTitle: '9. Sınıf Tarih MEB Kitabı',
+      icon: '🏛️',
+      color: 'from-amber-600 to-orange-600',
+      badge: 'MEB Yayınları',
+      bookSlug: '2026-2027-meb-tarih-ders-kitabi-cevaplari-9-sinif',
+      filterQuery: 'tarih',
+      description: 'Tarih ve zaman, ilk çağ medeniyetleri, Orta Çağ’da dünya, ilk Türk devletleri ve İslam tarihi.'
+    },
+    {
+      key: 'din-kulturu',
+      name: 'Din Kültürü',
+      bookTitle: '9. Sınıf Din Kültürü MEB Kitabı',
+      icon: '🕌',
+      color: 'from-emerald-600 to-teal-600',
+      badge: 'MEB Yayınları',
+      bookSlug: '2026-2027-meb-din-kulturu-ve-ahlak-bilgisi-ders-kitabi-cevaplari-9-sinif',
+      filterQuery: 'din',
+      description: 'Bilgi ve inanç, din ve İslam, ibadetler, gençlik ve değerler, gönül coğrafyamız tahlilleri.'
     }
   ],
   '10-sinif': [
@@ -526,6 +570,50 @@ export const GRADE_SUBJECTS_MAP: Record<string, SubjectItem[]> = {
       bookSlug: '2026-2027-meb-ingilizce-calisma-kitabi-cevaplari-10-sinif',
       filterQuery: 'ingilizce',
       description: 'School Life, Plans, Legendary Figures, Traditions and Travel çalışma sayfaları.'
+    },
+    {
+      key: 'edebiyat',
+      name: 'Türk Dili ve Edebiyatı',
+      bookTitle: '10. Sınıf Edebiyat MEB Kitabı',
+      icon: '📚',
+      color: 'from-rose-600 to-pink-600',
+      badge: '46 Sayfa Çözüm',
+      bookSlug: '2026-2027-meb-turk-dili-ve-edebiyati-ders-kitabi-cevaplari-10-sinif',
+      filterQuery: 'edebiyat',
+      description: 'Koşuk, Turnalar Türküsü, Necati Bey Gazeli, Kaldırımlar, Oğuz Kağan Destanı ve Hürriyet Kasîdesi.'
+    },
+    {
+      key: 'tarih',
+      name: 'Tarih',
+      bookTitle: '10. Sınıf Tarih MEB Kitabı',
+      icon: '🏛️',
+      color: 'from-amber-600 to-orange-600',
+      badge: 'MEB Yayınları',
+      bookSlug: '2026-2027-meb-tarih-ders-kitabi-cevaplari-10-sinif',
+      filterQuery: 'tarih',
+      description: 'Selçuklu Türkiyesi, Beylikten Devlete Osmanlı siyaseti, fetihler, ordu ve Osmanlı medeniyeti.'
+    },
+    {
+      key: 'felsefe',
+      name: 'Felsefe',
+      bookTitle: '10. Sınıf Felsefe MEB Kitabı',
+      icon: '🤔',
+      color: 'from-purple-600 to-indigo-600',
+      badge: 'MEB Yayınları',
+      bookSlug: '2026-2027-meb-felsefe-ders-kitabi-cevaplari-10-sinif',
+      filterQuery: 'felsefe',
+      description: 'Felsefeyi tanıma, akıl yürütme, varlık, bilgi, ahlak, din, siyaset ve sanat felsefesi tahlilleri.'
+    },
+    {
+      key: 'din-kulturu',
+      name: 'Din Kültürü',
+      bookTitle: '10. Sınıf Din Kültürü MEB Kitabı',
+      icon: '🕌',
+      color: 'from-emerald-600 to-teal-600',
+      badge: 'MEB Yayınları',
+      bookSlug: '2026-2027-meb-din-kulturu-ve-ahlak-bilgisi-ders-kitabi-cevaplari-10-sinif',
+      filterQuery: 'din',
+      description: 'Allah inancı ve insan, din ve hayat, ahlaki tutumlar, İslam düşüncesinde mezhepler ve laiklik.'
     }
   ],
   '11-sinif': [
@@ -594,6 +682,61 @@ export const GRADE_SUBJECTS_MAP: Record<string, SubjectItem[]> = {
       bookSlug: '2026-2027-meb-cografya-ders-kitabi-cevaplari-11-sinif',
       filterQuery: 'cografya',
       description: 'Biyoçeşitlilik, madde döngüleri, nüfus politikaları, şehirlerin fonksiyonları ve ekonomik faaliyetler.'
+    },
+    {
+      key: 'edebiyat',
+      name: 'Türk Dili ve Edebiyatı',
+      bookTitle: '11. Sınıf Edebiyat MEB Kitabı',
+      icon: '📚',
+      color: 'from-rose-600 to-pink-600',
+      badge: '44 Sayfa Çözüm',
+      bookSlug: '2026-2027-meb-turk-dili-ve-edebiyati-ders-kitabi-cevaplari-11-sinif',
+      filterQuery: 'edebiyat',
+      description: 'Geleneksel Tiyatro (Karagöz), Kül Tigin Âbidesi, Dîvânu Lugâti\'t-Türk, Huzur ve Ben, Mimar Sinan.'
+    },
+    {
+      key: 'tarih',
+      name: 'Tarih',
+      bookTitle: '11. Sınıf Tarih MEB Kitabı',
+      icon: '🏛️',
+      color: 'from-amber-600 to-orange-600',
+      badge: 'MEB Yayınları',
+      bookSlug: '2026-2027-meb-tarih-ders-kitabi-cevaplari-11-sinif',
+      filterQuery: 'tarih',
+      description: 'Değişen dünya dengeleri, değişim çağında Avrupa ve Osmanlı, denge stratejisi ve devrimler çağı.'
+    },
+    {
+      key: 'felsefe',
+      name: 'Felsefe',
+      bookTitle: '11. Sınıf Felsefe MEB Kitabı',
+      icon: '🤔',
+      color: 'from-purple-600 to-indigo-600',
+      badge: 'MEB Yayınları',
+      bookSlug: '2026-2027-meb-felsefe-ders-kitabi-cevaplari-11-sinif',
+      filterQuery: 'felsefe',
+      description: 'Antik Çağ, Orta Çağ Hristiyan ve İslam felsefesi, Rönesans, 18-19. yy Aydınlanma ve 20. yy felsefesi.'
+    },
+    {
+      key: 'din-kulturu',
+      name: 'Din Kültürü',
+      bookTitle: '11. Sınıf Din Kültürü MEB Kitabı',
+      icon: '🕌',
+      color: 'from-emerald-600 to-teal-600',
+      badge: 'MEB Yayınları',
+      bookSlug: '2026-2027-meb-din-kulturu-ve-ahlak-bilgisi-ders-kitabi-cevaplari-11-sinif',
+      filterQuery: 'din',
+      description: 'Dünya ve ahiret, Kur’an’a göre Hz. Muhammed, Kur’an kavramları, inanç problemleri ve dinler tarihi.'
+    },
+    {
+      key: 'ingilizce',
+      name: 'İngilizce',
+      bookTitle: '11. Sınıf İngilizce Silver Lining',
+      icon: '🇬🇧',
+      color: 'from-sky-600 to-blue-600',
+      badge: 'Silver Lining',
+      bookSlug: '2026-2027-meb-11-sinif-ingilizce-ders-kitabi-cevaplari',
+      filterQuery: 'ingilizce',
+      description: 'Theme 1-10 Future Jobs, Hobbies, Past Events, Emotions ve Sports okuma ve alıştırma çözümleri.'
     }
   ],
   '12-sinif': [
@@ -651,6 +794,50 @@ export const GRADE_SUBJECTS_MAP: Record<string, SubjectItem[]> = {
       bookSlug: '2026-2027-meb-12-sinif-turk-dili-ve-edebiyati-ders-kitabi-cevaplari',
       filterQuery: 'edebiyat',
       description: 'Cumhuriyet dönemi Türk şiiri, romanı, tiyatrosu ve deneme-söylev metin tahlilleri.'
+    },
+    {
+      key: 'inkilap',
+      name: 'T.C. İnkılap Tarihi',
+      bookTitle: '12. Sınıf İnkılap Tarihi MEB Kitabı',
+      icon: '🇹🇷',
+      color: 'from-red-600 to-rose-600',
+      badge: 'YKS & AYT',
+      bookSlug: '2026-2027-meb-12-sinif-inkilap-tarihi-ders-kitabi-cevaplari',
+      filterQuery: 'inkilap',
+      description: 'Millî Mücadele, Atatürk ilkeleri ve inkılapları, II. Dünya Savaşı süreci ve çağdaş Türk-dünya tarihi.'
+    },
+    {
+      key: 'cografya',
+      name: 'YKS Coğrafya',
+      bookTitle: '12. Sınıf Coğrafya MEB Kitabı',
+      icon: '🌍',
+      color: 'from-amber-600 to-orange-600',
+      badge: 'YKS & AYT',
+      bookSlug: '2026-2027-meb-12-sinif-cografya-ders-kitabi-cevaplari',
+      filterQuery: 'cografya',
+      description: 'Ekosistemler, madde döngüleri, dünya nüfus politikaları, Türkiye ekonomisi ve küresel örgütler.'
+    },
+    {
+      key: 'din-kulturu',
+      name: 'Din Kültürü',
+      bookTitle: '12. Sınıf Din Kültürü MEB Kitabı',
+      icon: '🕌',
+      color: 'from-emerald-600 to-teal-600',
+      badge: 'YKS & AYT',
+      bookSlug: '2026-2027-meb-12-sinif-din-kulturu-ve-ahlak-bilgisi-ders-kitabi-cevaplari',
+      filterQuery: 'din',
+      description: 'İslam ve bilim, Anadolu’da İslam, tasavvufi yorumlar, güncel dini meseleler ve Hint-Asya dinleri.'
+    },
+    {
+      key: 'ingilizce',
+      name: 'İngilizce',
+      bookTitle: '12. Sınıf İngilizce Count Me In',
+      icon: '🇬🇧',
+      color: 'from-sky-600 to-blue-600',
+      badge: 'Count Me In',
+      bookSlug: '2026-2027-meb-12-sinif-ingilizce-ders-kitabi-cevaplari',
+      filterQuery: 'ingilizce',
+      description: 'Theme 1-10 Music, Friendship, Human Rights, Psychology, Technology ve Manners çözümleri.'
     }
   ]
 };
