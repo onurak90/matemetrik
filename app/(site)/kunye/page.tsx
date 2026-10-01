@@ -45,14 +45,14 @@ export default function KunyePage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-1">
                 <span className="text-xs font-bold uppercase tracking-wider text-indigo-600">İmtiyaz Sahibi &amp; Kurucu</span>
-                <h3 className="text-base font-bold text-slate-900">Saadet Aydemir</h3>
+                <h3 className="text-base font-bold text-slate-900">Bahtiyar Tonguç</h3>
                 <p className="text-xs text-slate-600">Eğitim Teknolojisti, Matematik Araştırmacısı</p>
-                <p className="text-[11px] text-slate-400">E-posta: saadetaydemir@matemetrik.com</p>
+                <p className="text-[11px] text-slate-400">E-posta: bahtiyartonguc@matemetrik.com</p>
               </div>
 
               <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-1">
                 <span className="text-xs font-bold uppercase tracking-wider text-indigo-600">Genel Yayın Yönetmeni (Editor-in-Chief)</span>
-                <h3 className="text-base font-bold text-slate-900">Saadet Aydemir</h3>
+                <h3 className="text-base font-bold text-slate-900">Bahtiyar Tonguç</h3>
                 <p className="text-xs text-slate-600">Pedagojik İçerik ve Müfredat Uyumluluğu</p>
                 <p className="text-[11px] text-slate-400">E-posta: editor@matemetrik.com</p>
               </div>
