@@ -170,6 +170,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.95,
     },
     {
+      url: `${baseUrl}/post`,
+      changeFrequency: 'daily',
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/kunye`,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/yayin-ilkeleri`,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/telif-haklari-ve-yasal-uyari`,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
       url: `${baseUrl}/hakkimizda`,
       changeFrequency: 'monthly',
       priority: 0.6,
@@ -196,8 +216,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // 2. Categories
-  const categories = getCategories();
+  // 2. Categories (Filter out redirected categories like matematik-blog which redirects to /post)
+  const categories = getCategories().filter((cat) => cat.slug !== 'matematik-blog');
   const categoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
     url: `${baseUrl}/kategori/${cat.slug}`,
     changeFrequency: 'daily',

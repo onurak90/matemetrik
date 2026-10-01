@@ -192,7 +192,7 @@ function formatPostRow(row: any): Post {
     category: row.category || 'Genel',
     category_slug: row.category_slug || 'genel',
     tags: parsedTags,
-    author: row.author || 'Cavenaghi',
+    author: row.author || 'Matemetrik Eğitim & Matematik Zümresi',
     views: row.views || 0,
     is_published: row.is_published,
     created_at: row.created_at || new Date().toISOString(),
@@ -318,6 +318,21 @@ export function getPostBySlug(slugOrOldSlug: string): { post: Post | null; isOld
       const decodedRow = db.prepare('SELECT * FROM posts WHERE slug = ? OR old_slug = ?').get(decoded, decoded);
       if (decodedRow) {
         return { post: formatPostRow(decodedRow), isOldSlug: true };
+      }
+    }
+  } catch {}
+
+  // 4. Try match in redirects table
+  try {
+    const redirectRow = db.prepare(
+      'SELECT target_path FROM redirects WHERE source_path = ? OR source_path = ? LIMIT 1'
+    ).get(`/post/${slugOrOldSlug}`, slugOrOldSlug) as { target_path: string } | undefined;
+
+    if (redirectRow && redirectRow.target_path) {
+      const cleanTargetSlug = redirectRow.target_path.replace(/^\/post\//, '').replace(/\/$/, '');
+      const targetPost = db.prepare('SELECT * FROM posts WHERE slug = ?').get(cleanTargetSlug);
+      if (targetPost) {
+        return { post: formatPostRow(targetPost), isOldSlug: true };
       }
     }
   } catch {}
@@ -528,7 +543,7 @@ export function createPost(post: {
     post.category || 'Genel',
     post.category_slug || 'genel',
     tagsStr,
-    post.author || 'Cavenaghi',
+    post.author || 'Matemetrik Eğitim & Matematik Zümresi',
     post.is_published !== undefined ? post.is_published : 1,
     now,
     now
@@ -1054,7 +1069,7 @@ export function getSettings(): Record<string, string> {
   const settings: Record<string, string> = {
     site_name: 'Matemetrik',
     site_description: 'Matematik, MEB ders kitabı cevapları, eğitim rehberliği ve öğretmen araçları platformu',
-    site_author: 'Cavenaghi',
+    site_author: 'Matemetrik Eğitim & Matematik Zümresi',
     site_url: 'https://www.matemetrik.com',
     gsc_verification: 'googleed824f4935091493.html',
     bing_verification: 'D9C02A88877A9191E490E1CFC17C3608',

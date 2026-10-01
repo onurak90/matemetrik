@@ -47,7 +47,7 @@ export async function GET() {
       const title = post.title;
       const excerpt = post.excerpt || post.title;
       const category = post.category || 'MEB Ders Kitabı Cevapları';
-      const author = post.author || 'Cavenaghi';
+      const author = post.author || 'Matemetrik Eğitim & Matematik Zümresi';
 
       // Ensure absolute image URL for Pinterest Pin creation
       let imageUrl = `${baseUrl}/og.jpg`;

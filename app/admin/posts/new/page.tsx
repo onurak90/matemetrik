@@ -23,7 +23,7 @@ export default function NewPostPage() {
   const [featuredImage, setFeaturedImage] = useState('');
   const [category, setCategory] = useState('Matematik Blog');
   const [tags, setTags] = useState('');
-  const [author, setAuthor] = useState('Cavenaghi');
+  const [author, setAuthor] = useState('Matemetrik Eğitim & Matematik Zümresi');
   const [isPublished, setIsPublished] = useState(1);
   const [categories, setCategories] = useState<Category[]>([]);
   const [isSubmitting, setIsSubmitting] = useState(false);

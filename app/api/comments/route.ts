@@ -40,8 +40,8 @@ export async function POST(request: NextRequest) {
       const comment = createComment({
         postId: Number(postId),
         parentId: parentId ? Number(parentId) : null,
-        authorName: authorName?.trim() || 'Cavenaghi (Editör & Öğretmen)',
-        authorEmail: authorEmail?.trim() || 'cavenaghi@matemetrik.com',
+        authorName: authorName?.trim() || 'Matemetrik Eğitim & Matematik Zümresi',
+        authorEmail: authorEmail?.trim() || 'editor@matemetrik.com',
         authorAvatar: authorAvatar || '',
         content: content.trim(),
         isApproved: 1,

@@ -143,8 +143,8 @@ export default function CommentSection({
           body: JSON.stringify({
             postId,
             parentId,
-            authorName: 'Cavenaghi (Editör & Öğretmen)',
-            authorEmail: 'cavenaghi@matemetrik.com',
+            authorName: 'Matemetrik Eğitim & Matematik Zümresi',
+            authorEmail: 'editor@matemetrik.com',
             content: textToSubmit.trim(),
           }),
         });
@@ -275,7 +275,7 @@ export default function CommentSection({
               </div>
               <div>
                 <span className="text-xs font-bold text-indigo-900 flex items-center gap-1.5">
-                  Cavenaghi
+                  Matemetrik Eğitim Kurulu
                   <span className="px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-indigo-600 text-white shadow-xs">
                     Admin &amp; Öğretmen
                   </span>

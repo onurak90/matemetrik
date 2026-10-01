@@ -60,7 +60,7 @@ export default function PostCard({ post }: { post: Post }) {
 
         <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
           <span className="text-slate-400 text-[11px] font-medium">
-            {post.author || 'Cavenaghi'}
+            {post.author || 'Matemetrik Eğitim & Matematik Zümresi'}
           </span>
 
           <Link

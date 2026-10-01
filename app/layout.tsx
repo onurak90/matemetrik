@@ -50,7 +50,7 @@ export async function generateMetadata(): Promise<Metadata> {
       'yks matematik',
       'lgs matematik',
     ],
-    authors: [{ name: settings.site_author || 'Cavenaghi', url: 'https://www.matemetrik.com' }],
+    authors: [{ name: settings.site_author || 'Matemetrik Eğitim & Matematik Zümresi', url: 'https://www.matemetrik.com' }],
     creator: settings.site_name || 'Matemetrik',
     verification: {
       ...(googleVer ? { google: googleVer } : {}),

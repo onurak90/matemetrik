@@ -118,9 +118,9 @@ export default async function BlogPostPage({ params }: PostPageProps) {
     articleSection: post.category,
     keywords: post.tags && post.tags.length > 0 ? post.tags.join(', ') : undefined,
     author: {
-      '@type': 'Person',
-      name: post.author || 'Cavenaghi',
-      url: 'https://www.matemetrik.com/hakkimizda',
+      '@type': 'Organization',
+      name: post.author || 'Matemetrik Eğitim & Matematik Zümresi',
+      url: 'https://www.matemetrik.com/kunye',
     },
     publisher: {
       '@type': 'Organization',
@@ -136,6 +136,31 @@ export default async function BlogPostPage({ params }: PostPageProps) {
       '@id': `https://www.matemetrik.com/post/${post.slug}`,
     },
     image: post.featured_image || 'https://www.matemetrik.com/og.jpg',
+  };
+
+  const isBookSolution = post.slug.includes('sayfa') || post.title.toLowerCase().includes('sayfa');
+  const isTopicLecture = post.slug.includes('konu-anlatimi') || post.title.toLowerCase().includes('konu anlatımı');
+
+  // LearningResource Schema (Google Education Rich Results)
+  const learningResourceJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'LearningResource',
+    name: post.title,
+    description: post.excerpt,
+    learningResourceType: isBookSolution ? 'Alıştırma ve Soru Çözümü' : 'Konu Anlatımı ve Müfredat Rehberi',
+    educationalLevel: post.category,
+    inLanguage: 'tr-TR',
+    educationalUse: 'Öğrenme, Kavram Pekiştirme ve Çözüm Kontrolü',
+    author: {
+      '@type': 'Organization',
+      name: post.author || 'Matemetrik Eğitim & Matematik Zümresi',
+      url: 'https://www.matemetrik.com/kunye',
+    },
+    provider: {
+      '@type': 'Organization',
+      name: 'Matemetrik',
+      url: 'https://www.matemetrik.com',
+    },
   };
 
   // Breadcrumbs Schema
@@ -168,9 +193,6 @@ export default async function BlogPostPage({ params }: PostPageProps) {
   const bookSequence = getBookPageSequence(post.slug, post.category_slug);
 
   // Dynamic FAQ Schema (Google SERP Rich Snippets with Accordions)
-  const isBookSolution = post.slug.includes('sayfa') || post.title.toLowerCase().includes('sayfa');
-  const isTopicLecture = post.slug.includes('konu-anlatimi') || post.title.toLowerCase().includes('konu anlatımı');
-
   const faqItems = isBookSolution
     ? [
         {
@@ -241,6 +263,10 @@ export default async function BlogPostPage({ params }: PostPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(learningResourceJsonLd) }}
+      />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         {/* Breadcrumb Navigation */}
@@ -286,14 +312,17 @@ export default async function BlogPostPage({ params }: PostPageProps) {
 
           {/* Author & Meta row */}
           <div className="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-slate-100 text-xs text-slate-500">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-xs">
-                C
+            <div className="flex items-center gap-2.5">
+              <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-indigo-600 to-violet-600 text-white flex items-center justify-center font-bold text-xs shadow-sm">
+                MZ
               </div>
               <div>
-                <div className="font-bold text-slate-900">{post.author || 'Cavenaghi'}</div>
+                <Link href="/kunye" className="font-bold text-slate-900 hover:text-indigo-600 transition-colors flex items-center gap-1">
+                  {post.author || 'Matemetrik Eğitim & Matematik Zümresi'}
+                  <span className="text-[10px] text-emerald-600 bg-emerald-50 px-1.5 py-0.2 rounded font-semibold border border-emerald-100">Doğrulanmış</span>
+                </Link>
                 <div className="text-[11px] text-slate-400">
-                  {formatDate(post.created_at)}
+                  MEB Müfredatı &bull; {formatDate(post.created_at)}
                 </div>
               </div>
             </div>
@@ -325,6 +354,35 @@ export default async function BlogPostPage({ params }: PostPageProps) {
           categorySlug={post.category_slug}
           categoryName={post.category}
         />
+
+        {/* Pedagojik Rehber & Öğrenme Stratejisi Kutusu (E-E-A-T & High Value Content) */}
+        <div className="bg-gradient-to-br from-indigo-50/90 via-slate-50 to-purple-50/80 p-5 sm:p-6 rounded-3xl border border-indigo-100/90 shadow-sm space-y-3">
+          <div className="flex items-center justify-between flex-wrap gap-2">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-600 text-white text-xs font-bold shadow-sm">
+              <Sparkles className="w-3.5 h-3.5" /> Pedagojik Çözüm Stratejisi
+            </span>
+            <span className="text-[11px] font-semibold text-indigo-700 bg-indigo-50 border border-indigo-200/60 px-2.5 py-0.5 rounded-full">
+              2026-2027 MEB &amp; TTKB Kazanım Odaklı
+            </span>
+          </div>
+          <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
+            💡 <strong>Kavramsal Anlama İlkesi:</strong> Matematik ezberle değil, kuralların mantıksal nedensellik bağları anlaşılarak öğrenilir. Bu sayfadaki alıştırmaları incelerken sadece sonuca değil, <em>işlem adımlarının hangi kural ve formüllere dayandığına</em> dikkat ediniz.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-2 text-[11px] text-slate-600 border-t border-indigo-100/60">
+            <div className="flex items-center gap-1.5 bg-white/80 p-2 rounded-xl border border-slate-200/60 font-medium">
+              <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+              <span>İşlem Önceliğine Dikkat Edin</span>
+            </div>
+            <div className="flex items-center gap-1.5 bg-white/80 p-2 rounded-xl border border-slate-200/60 font-medium">
+              <CheckCircle className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
+              <span>En Sade Kesir &amp; Kök Değerini Bulun</span>
+            </div>
+            <div className="flex items-center gap-1.5 bg-white/80 p-2 rounded-xl border border-slate-200/60 font-medium">
+              <CheckCircle className="w-3.5 h-3.5 text-purple-600 shrink-0" />
+              <span>Doğruluğu Sağlama ile Test Edin</span>
+            </div>
+          </div>
+        </div>
 
         {/* Post Rich Content */}
         <article className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/80 shadow-sm">
@@ -367,6 +425,31 @@ export default async function BlogPostPage({ params }: PostPageProps) {
           )}
         </article>
 
+        {/* Sınav ve Hesaplama Araçları Hızlı Geçiş (Interactive Value Box) */}
+        <div className="p-5 sm:p-6 bg-slate-900 text-white rounded-3xl shadow-lg flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="space-y-1 text-center md:text-left">
+            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Ücretsiz Öğrenci &amp; Öğretmen Araçları</span>
+            <h4 className="text-base sm:text-lg font-bold">Matematiksel Hesaplama veya Sınav Kağıdı mı Gerekiyor?</h4>
+            <p className="text-xs text-slate-300 max-w-xl">
+              18+ hesaplama robotumuz, sınav hazırlama aracımız ve takdir-teşekkür hesaplayıcımız ile anında sonuç alın.
+            </p>
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-2 shrink-0">
+            <Link
+              href="/hesaplama-araclari"
+              className="px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition-all shadow-md"
+            >
+              🧮 Hesaplama Araçları
+            </Link>
+            <Link
+              href="/sinav-hazirlama-robotu"
+              className="px-3.5 py-2 rounded-xl bg-white text-slate-900 hover:bg-slate-100 text-xs font-bold transition-all shadow-md"
+            >
+              📝 Sınav Robotu
+            </Link>
+          </div>
+        </div>
+
         {/* Book Page Sequence Navigation (Bottom) */}
         <BookPageNav
           sequence={bookSequence}
@@ -377,21 +460,37 @@ export default async function BlogPostPage({ params }: PostPageProps) {
 
         {/* Yazar Bilgisi (E-E-A-T) */}
         <div className="p-6 bg-white rounded-3xl border border-slate-200/80 shadow-sm flex flex-col sm:flex-row items-center sm:items-start gap-4">
-          <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-indigo-600 to-violet-600 flex items-center justify-center text-white font-bold text-xl flex-shrink-0 shadow-md">
-            C
+          <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-indigo-600 to-violet-600 flex items-center justify-center text-white font-bold text-lg flex-shrink-0 shadow-md">
+            MZ
           </div>
-          <div className="space-y-1.5 text-center sm:text-left flex-1">
+          <div className="space-y-2 text-center sm:text-left flex-1">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
-              <h4 className="font-bold text-slate-900 text-sm">
-                {post.author || 'Cavenaghi'}
+              <h4 className="font-bold text-slate-900 text-sm flex items-center gap-1.5 justify-center sm:justify-start">
+                {post.author || 'Matemetrik Eğitim & Matematik Zümresi'}
+                <span className="text-[10px] text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full font-semibold border border-emerald-100">
+                  Doğrulanmış Eğitimci
+                </span>
               </h4>
               <span className="text-[11px] text-indigo-600 font-semibold bg-indigo-50 px-2.5 py-0.5 rounded-full border border-indigo-100 self-center sm:self-auto">
-                Matematik Eğitimcisi &amp; İçerik Editörü
+                Millî Eğitim Müfredat ve Matematik Zümresi
               </span>
             </div>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Milli Eğitim Bakanlığı (MEB) müfredatına uygun matematik ders kitabı çözümleri, pedagojik rehberlik ve yeni nesil soru kalıpları üzerine içerikler üretmektedir.
+              Bu içerik; Millî Eğitim Bakanlığı (MEB) güncel müfredat kazanımları ve Türkiye Yüzyılı Maarif Modeli pedagojik ilkeleri gözetilerek matematik öğretmenleri ve müfredat uzmanları tarafından titizlikle incelenmiş ve doğrulanmıştır.
             </p>
+            <div className="flex items-center justify-center sm:justify-start gap-3 pt-1 text-xs">
+              <Link href="/kunye" className="text-indigo-600 font-bold hover:underline">
+                Künye &amp; Yayın Kurulu &rarr;
+              </Link>
+              <span className="text-slate-300">&bull;</span>
+              <Link href="/yayin-ilkeleri" className="text-slate-600 hover:text-indigo-600 transition-colors">
+                Yayın İlkelerimiz &rarr;
+              </Link>
+              <span className="text-slate-300">&bull;</span>
+              <Link href="/telif-haklari-ve-yasal-uyari" className="text-slate-600 hover:text-indigo-600 transition-colors">
+                Telif Bildirimi &rarr;
+              </Link>
+            </div>
           </div>
         </div>
 

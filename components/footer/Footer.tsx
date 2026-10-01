@@ -156,13 +156,28 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 text-xs">
               <li>
-                <Link prefetch={false} href="/iletisim" className="hover:text-white transition-colors text-indigo-400 font-semibold">
-                  İletişim (matemetrikcom@gmail.com)
+                <Link prefetch={false} href="/kunye" className="hover:text-white transition-colors text-indigo-300 font-semibold flex items-center gap-1">
+                  Künye &amp; Yayın Kurulu
+                </Link>
+              </li>
+              <li>
+                <Link prefetch={false} href="/yayin-ilkeleri" className="hover:text-white transition-colors text-slate-300 flex items-center gap-1">
+                  Yayın İlkeleri
+                </Link>
+              </li>
+              <li>
+                <Link prefetch={false} href="/telif-haklari-ve-yasal-uyari" className="hover:text-white transition-colors text-amber-300 flex items-center gap-1">
+                  Telif Hakları &amp; Yasal Uyarı
                 </Link>
               </li>
               <li>
                 <Link prefetch={false} href="/hakkimizda" className="hover:text-white transition-colors">
                   Hakkımızda
+                </Link>
+              </li>
+              <li>
+                <Link prefetch={false} href="/iletisim" className="hover:text-white transition-colors text-indigo-400 font-semibold">
+                  İletişim (matemetrikcom@gmail.com)
                 </Link>
               </li>
               <li>

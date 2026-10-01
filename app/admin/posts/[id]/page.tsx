@@ -23,7 +23,7 @@ export default function EditPostPage({ params }: { params: { id: string } }) {
   const [featuredImage, setFeaturedImage] = useState('');
   const [category, setCategory] = useState('Matematik Blog');
   const [tags, setTags] = useState('');
-  const [author, setAuthor] = useState('Cavenaghi');
+  const [author, setAuthor] = useState('Matemetrik Eğitim & Matematik Zümresi');
   const [isPublished, setIsPublished] = useState(1);
   const [categories, setCategories] = useState<Category[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -52,7 +52,7 @@ export default function EditPostPage({ params }: { params: { id: string } }) {
         setFeaturedImage(data.featured_image || '');
         setCategory(data.category || 'Matematik Blog');
         setTags(data.tags ? data.tags.join(', ') : '');
-        setAuthor(data.author || 'Cavenaghi');
+        setAuthor(data.author || 'Matemetrik Eğitim & Matematik Zümresi');
         setIsPublished(data.is_published);
       })
       .catch((err) => {

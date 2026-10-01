@@ -82,8 +82,8 @@ export default function AdminCommentsPage() {
         body: JSON.stringify({
           postId: comment.post_id,
           parentId: comment.id,
-          authorName: 'Cavenaghi (Editör & Öğretmen)',
-          authorEmail: 'cavenaghi@matemetrik.com',
+          authorName: 'Matemetrik Eğitim & Matematik Zümresi',
+          authorEmail: 'editor@matemetrik.com',
           content: adminReplyText.trim(),
         }),
       });
