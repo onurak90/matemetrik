@@ -337,6 +337,28 @@ export function getPostBySlug(slugOrOldSlug: string): { post: Post | null; isOld
     }
   } catch {}
 
+  // 5. Try stripped slug (strip .html, trailing slash, -amp)
+  const cleaned = slugOrOldSlug
+    .replace(/\.(html?|php)$/i, '')
+    .replace(/\/$/, '')
+    .replace(/-amp$/i, '');
+
+  if (cleaned !== slugOrOldSlug) {
+    const cleanedRow = db.prepare('SELECT * FROM posts WHERE slug = ? OR old_slug = ?').get(cleaned, cleaned);
+    if (cleanedRow) {
+      return { post: formatPostRow(cleanedRow), isOldSlug: true };
+    }
+  }
+
+  // 6. Try removing trailing duplicate suffix like -1, -2, -3, -4
+  const strippedSuffix = cleaned.replace(/-\d+$/, '');
+  if (strippedSuffix !== cleaned) {
+    const suffixRow = db.prepare('SELECT * FROM posts WHERE slug = ? OR old_slug = ?').get(strippedSuffix, strippedSuffix);
+    if (suffixRow) {
+      return { post: formatPostRow(suffixRow), isOldSlug: true };
+    }
+  }
+
   return { post: null, isOldSlug: false };
 }
 

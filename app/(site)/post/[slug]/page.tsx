@@ -69,7 +69,7 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
       type: 'article',
       publishedTime: post.created_at,
       modifiedTime: post.updated_at,
-      authors: [post.author || 'Cavenaghi'],
+      authors: [post.author || 'Matemetrik Eğitim & Matematik Zümresi'],
       tags: post.tags,
       images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
     },
