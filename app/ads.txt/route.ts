@@ -7,7 +7,7 @@ export async function GET() {
   const settings = getSettings();
   const content =
     settings.ads_txt ||
-    '# Google AdSense ads.txt - Matemetrik\n# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0\n';
+    'google.com, pub-0247925049589800, DIRECT, f08c47fec0942fa0\n';
 
   return new NextResponse(content, {
     status: 200,
