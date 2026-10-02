@@ -36,7 +36,7 @@ export default function Navbar() {
 
   const grades = [
     { label: 'İlkokul', items: [
-      { name: '✨ İlkokul Etkinlikleri (PDF)', href: '/ilkokul-etkinlikleri' },
+      { name: 'İlkokul Etkinlikleri (PDF)', href: '/ilkokul-etkinlikleri' },
       { name: '1. Sınıf', href: '/kategori/1-sinif' },
       { name: '2. Sınıf', href: '/kategori/2-sinif' },
       { name: '3. Sınıf', href: '/kategori/3-sinif' },
@@ -55,10 +55,10 @@ export default function Navbar() {
       { name: '12. Sınıf', href: '/kategori/12-sinif' },
     ]},
     { label: 'Sınavlar', items: [
-      { name: '🏆 Takdir Teşekkür', href: '/takdir-tesekkur-hesaplama' },
-      { name: '🎯 YDS Hazırlık', href: '/yds-calisma-bolumu' },
-      { name: '📊 YKS Puan Hesaplama', href: '/yks-puan-hesaplama-robotu' },
-      { name: '🎯 LGS Puan Hesaplama', href: '/lgs-puan-hesaplama-robotu' },
+      { name: 'Takdir Teşekkür', href: '/takdir-tesekkur-hesaplama' },
+      { name: 'YDS Hazırlık', href: '/yds-calisma-bolumu' },
+      { name: 'YKS Puan Hesaplama', href: '/yks-puan-hesaplama-robotu' },
+      { name: 'LGS Puan Hesaplama', href: '/lgs-puan-hesaplama-robotu' },
       { name: 'YDS Blog & Materyal', href: '/kategori/yds' },
       { name: 'ALES Çıkmış Sorular', href: '/kategori/ales' },
       { name: 'YKS & Sınav', href: '/kategori/yks' },
@@ -157,12 +157,9 @@ export default function Navbar() {
               <div className="absolute top-full left-1/2 -translate-x-1/2 w-[560px] bg-white rounded-2xl shadow-2xl border border-slate-200 p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-3">
                 {/* Header Banner */}
                 <div className="flex items-center justify-between pb-3 border-b border-slate-100">
-                  <div className="flex items-center gap-2">
-                    <span className="text-base">📚</span>
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">MEB Ders Kitabı Çözümleri</div>
-                      <div className="text-[10px] text-slate-500">1-12. Sınıf güncel ve doğrulanmış sayfa çözümleri</div>
-                    </div>
+                  <div>
+                    <div className="text-xs font-bold text-slate-900">MEB Ders Kitabı Çözümleri</div>
+                    <div className="text-[10px] text-slate-500">1-12. Sınıf güncel ve doğrulanmış sayfa çözümleri</div>
                   </div>
                   <Link
                     prefetch={false}
@@ -242,7 +239,7 @@ export default function Navbar() {
                 <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                   <span>Adım adım işlem basamakları ve formüller</span>
                   <Link prefetch={false} href="/meb-cozumleri" className="text-indigo-600 font-bold hover:underline flex items-center gap-1">
-                    📖 MEB Çözüm Merkezine Git &rarr;
+                    MEB Çözüm Merkezine Git &rarr;
                   </Link>
                 </div>
               </div>
@@ -258,7 +255,6 @@ export default function Navbar() {
                   : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
               }`}
             >
-              <span className="text-amber-500 font-bold">✨</span>
               <span>İlkokul Etkinlikleri</span>
               <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-amber-100 text-amber-800 font-extrabold hidden 2xl:inline">
                 PDF
@@ -403,15 +399,15 @@ export default function Navbar() {
                     : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
                 }`}
               >
-                <span>🧮 Hesaplama</span>
+                <span>Hesaplama</span>
                 <span className="hidden 2xl:inline">&nbsp;Araçları</span>
                 <ChevronDown className="w-3.5 h-3.5 text-slate-400 group-hover:rotate-180 transition-transform duration-200" />
               </Link>
 
               <div className="absolute top-full left-1/2 -translate-x-1/2 w-[520px] bg-white rounded-2xl shadow-2xl border border-slate-200 p-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 translate-y-2 group-hover:translate-y-0 space-y-3">
                 <div className="flex items-center justify-between pb-2.5 border-b border-slate-100">
-                  <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
-                    <span>🧮</span> Adım Adım Matematik Hesaplayıcılar
+                  <div className="text-xs font-bold text-slate-900">
+                    Adım Adım Matematik Hesaplayıcılar
                   </div>
                   <Link
                     prefetch={false}
@@ -426,7 +422,7 @@ export default function Navbar() {
                     <span className="w-5 text-center font-bold text-indigo-600">%</span> Yüzde Hesaplama
                   </Link>
                   <Link prefetch={false} href="/kdv-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
-                    <span className="w-5 text-center font-bold text-emerald-600">🧾</span> KDV Hesaplama (%1-20)
+                    <span className="w-5 text-center font-bold text-emerald-600">TL</span> KDV Hesaplama (%1-20)
                   </Link>
                   <Link prefetch={false} href="/ebob-ekok-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
                     <span className="w-5 text-center font-bold text-purple-600">÷</span> EBOB &amp; EKOK Bulma
@@ -438,13 +434,13 @@ export default function Navbar() {
                     <span className="w-5 text-center font-bold text-cyan-600">√</span> Karekök &amp; Kök Dışına Çıkarma
                   </Link>
                   <Link prefetch={false} href="/pisagor-hipotenus-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
-                    <span className="w-5 text-center font-bold text-blue-600">📐</span> Pisagor &amp; Hipotenüs
+                    <span className="w-5 text-center font-bold text-blue-600">△</span> Pisagor &amp; Hipotenüs
                   </Link>
                   <Link prefetch={false} href="/oran-oranti-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
-                    <span className="w-5 text-center font-bold text-amber-600">⚖️</span> Oran Orantı Çözücü
+                    <span className="w-5 text-center font-bold text-amber-600">::</span> Oran Orantı Çözücü
                   </Link>
                   <Link prefetch={false} href="/ortalama-hesaplama" className="p-2 rounded-xl hover:bg-indigo-50 font-medium text-slate-700 hover:text-indigo-600 flex items-center gap-2">
-                    <span className="w-5 text-center font-bold text-teal-600">📊</span> Ortalama &amp; Medyan
+                    <span className="w-5 text-center font-bold text-teal-600">x̄</span> Ortalama &amp; Medyan
                   </Link>
                 </div>
               </div>
@@ -459,7 +455,7 @@ export default function Navbar() {
                   : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
               }`}
             >
-              <span>🎯 YDS</span>
+              <span>YDS</span>
               <span className="hidden xl:inline">Hazırlık</span>
             </Link>
 
@@ -553,7 +549,7 @@ export default function Navbar() {
               className="flex items-center justify-between py-1.5 px-3 rounded-xl bg-amber-50 text-sm font-bold text-amber-900 border border-amber-200"
             >
               <span className="flex items-center gap-1.5">
-                <span>✨</span> İlkokul Etkinlikleri (1-4. Sınıf)
+                İlkokul Etkinlikleri (1-4. Sınıf)
               </span>
               <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-200 text-amber-950 font-black">PDF İndir</span>
             </Link>
@@ -565,7 +561,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="flex items-center justify-between py-1 text-sm font-bold text-indigo-700 hover:text-indigo-900"
             >
-              <span>📚 MEB Ders Kitabı Çözümleri</span>
+              <span>MEB Ders Kitabı Çözümleri</span>
               <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-extrabold">2026-2027</span>
             </Link>
             <div className="space-y-3 pt-1">
@@ -629,10 +625,10 @@ export default function Navbar() {
             </Link>
             <div className="pl-3 grid grid-cols-2 gap-1.5 text-xs">
               <Link prefetch={false} href="/yks-puan-hesaplama-robotu" onClick={() => setIsOpen(false)} className="p-1 rounded text-purple-700 hover:bg-purple-50 font-medium">
-                📊 YKS Puan Hesapla
+                YKS Puan Hesapla
               </Link>
               <Link prefetch={false} href="/lgs-puan-hesaplama-robotu" onClick={() => setIsOpen(false)} className="p-1 rounded text-indigo-700 hover:bg-indigo-50 font-medium">
-                🎯 LGS Puan Hesapla
+                LGS Puan Hesapla
               </Link>
             </div>
           </div>
@@ -645,7 +641,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="flex items-center justify-between py-1 text-sm font-bold text-indigo-700 hover:text-indigo-900"
             >
-              <span>🧮 Matematik Hesaplama Araçları</span>
+              <span>Matematik Hesaplama Araçları</span>
               <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-extrabold">18 Robot</span>
             </Link>
             <div className="grid grid-cols-2 gap-1.5 text-xs text-slate-700 pt-1">
@@ -681,7 +677,7 @@ export default function Navbar() {
             className="block py-2 font-bold text-emerald-700 hover:text-emerald-900 border-b border-slate-100 flex items-center justify-between"
           >
             <span className="flex items-center gap-2">
-              <span>🎯</span> YDS Hazırlık &amp; Çalışma
+              YDS Hazırlık &amp; Çalışma
             </span>
           </Link>
 
