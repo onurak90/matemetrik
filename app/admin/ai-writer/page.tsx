@@ -91,30 +91,79 @@ export default function AiWriterPage() {
     }
   };
 
-  const handleUpdateCover = async (postId: number, imageUrl: string) => {
-    if (!imageUrl.trim()) return;
+  const handleUpdateCover = async (postId: number, imageUrl: string, targetPost?: any) => {
+    if (!imageUrl.trim()) {
+      alert('Lütfen geçerli bir görsel bağlantısı girin.');
+      return;
+    }
+    const cleanUrl = imageUrl.trim();
     try {
+      const activePost = (latestGenerated && latestGenerated.post.id === postId) 
+        ? latestGenerated.post 
+        : (targetPost || draftPosts.find((p) => p.id === postId));
+
+      let updatedContent = activePost?.content || '';
+      const safeTitle = (activePost?.title || 'Yazı Görseli').replace(/"/g, '&quot;');
+      const figureHtml = `<figure class="my-6 text-center"><img src="${cleanUrl}" alt="${safeTitle}" class="w-full max-h-[480px] object-cover rounded-2xl shadow-lg mx-auto" /><figcaption class="text-xs text-slate-500 mt-2">${safeTitle} - Matemetrik</figcaption></figure>`;
+
+      if (updatedContent) {
+        const imgRegex = /<figure[^>]*>[\s\S]*?<img[^>]+src=["'][^"']+["'][^>]*>[\s\S]*?<\/figure>|<img[^>]+src=["'][^"']+["'][^>]*>/i;
+        if (imgRegex.test(updatedContent)) {
+          updatedContent = updatedContent.replace(imgRegex, figureHtml);
+        } else {
+          updatedContent = `${figureHtml}\n${updatedContent}`;
+        }
+      } else {
+        updatedContent = figureHtml;
+      }
+
+      const payload: any = {
+        featured_image: cleanUrl,
+        content: updatedContent,
+      };
+
+      if (activePost) {
+        payload.title = activePost.title;
+        payload.slug = activePost.slug;
+        payload.excerpt = activePost.excerpt;
+        payload.category = activePost.category;
+        payload.category_slug = activePost.category_slug;
+        payload.tags = activePost.tags;
+        payload.is_published = activePost.is_published !== undefined ? activePost.is_published : 0;
+      }
+
       const res = await fetch(`/api/posts/${postId}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ featured_image: imageUrl.trim() }),
+        body: JSON.stringify(payload),
       });
-      if (res.ok) {
-        if (latestGenerated && latestGenerated.post.id === postId) {
-          setLatestGenerated({
-            ...latestGenerated,
-            coverImage: imageUrl.trim(),
-            post: { ...latestGenerated.post, featured_image: imageUrl.trim() },
-          });
-        }
-        setDraftPosts((prev) =>
-          prev.map((p) => (p.id === postId ? { ...p, featured_image: imageUrl.trim() } : p))
-        );
-        setIsEditingCover(false);
-        setEditingModalPost(null);
+
+      if (!res.ok) {
+        const errorData = await res.json().catch(() => ({}));
+        throw new Error(errorData.error || `Sunucu hatası: ${res.status}`);
       }
-    } catch {
-      alert('Kapak görseli güncellenemedi');
+
+      if (latestGenerated && latestGenerated.post.id === postId) {
+        setLatestGenerated({
+          ...latestGenerated,
+          coverImage: cleanUrl,
+          post: {
+            ...latestGenerated.post,
+            featured_image: cleanUrl,
+            content: updatedContent,
+          },
+        });
+      }
+      setDraftPosts((prev) =>
+        prev.map((p) =>
+          p.id === postId ? { ...p, featured_image: cleanUrl, content: updatedContent } : p
+        )
+      );
+      setIsEditingCover(false);
+      setEditingModalPost(null);
+      alert('✓ Görsel başarıyla güncellendi ve yazıya eklendi!');
+    } catch (err: any) {
+      alert(`Görsel güncellenirken hata oluştu: ${err.message || 'Bilinmeyen hata'}`);
     }
   };
 
@@ -135,8 +184,8 @@ export default function AiWriterPage() {
       } else {
         alert(data.error || 'Yükleme başarısız');
       }
-    } catch {
-      alert('Görsel yüklenirken hata oluştu');
+    } catch (err: any) {
+      alert(`Görsel yüklenirken hata oluştu: ${err.message || 'Bilinmeyen hata'}`);
     } finally {
       if (isModal) setIsModalUploading(false);
       else setIsUploadingCover(false);
@@ -313,26 +362,66 @@ export default function AiWriterPage() {
     setIsGenerating(false);
   };
 
-  // Quick Publish draft
-  const handleQuickPublish = async (id: number) => {
+  const [isPublishingAction, setIsPublishingAction] = useState(false);
+
+  // Set Publish status: 1 = Yayında, 0 = Taslak
+  const handleSetPublishStatus = async (id: number, status: number) => {
     try {
+      setIsPublishingAction(true);
+      const activePost = (latestGenerated && latestGenerated.post.id === id)
+        ? latestGenerated.post
+        : draftPosts.find((p) => p.id === id);
+
+      const payload: any = {
+        is_published: status,
+      };
+
+      if (activePost) {
+        payload.title = activePost.title;
+        payload.slug = activePost.slug;
+        payload.excerpt = activePost.excerpt;
+        payload.content = activePost.content;
+        payload.featured_image = activePost.featured_image;
+        payload.category = activePost.category;
+        payload.category_slug = activePost.category_slug;
+        payload.tags = activePost.tags;
+      }
+
       const res = await fetch(`/api/posts/${id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ is_published: 1 }),
+        body: JSON.stringify(payload),
       });
-      if (res.ok) {
-        setSuccessPublishId(id);
-        if (latestGenerated && latestGenerated.post.id === id) {
-          setLatestGenerated({
-            ...latestGenerated,
-            post: { ...latestGenerated.post, is_published: 1 },
-          });
-        }
-        setDraftPosts((prev) => prev.filter((p) => p.id !== id));
+
+      if (!res.ok) {
+        const errData = await res.json().catch(() => ({}));
+        throw new Error(errData.error || `Sunucu hatası: ${res.status}`);
       }
-    } catch {
-      alert('Yayınlama sırasında hata oluştu');
+
+      if (status === 1) {
+        setSuccessPublishId(id);
+      } else {
+        setSuccessPublishId(null);
+      }
+
+      if (latestGenerated && latestGenerated.post.id === id) {
+        setLatestGenerated({
+          ...latestGenerated,
+          post: { ...latestGenerated.post, is_published: status },
+        });
+      }
+
+      await loadDrafts();
+
+      if (status === 1) {
+        alert('✓ Yazı başarıyla CANLIYA YAYINLANDI! Artık sitede ve arama motorlarında yayında.');
+      } else {
+        alert('✓ Yazı başarıyla TASLAK olarak kaydedildi! "Tüm Blog Yazıları" ve alttaki "Bekleyen Taslaklar" listesinden erişebilirsiniz.');
+      }
+    } catch (err: any) {
+      alert(`İşlem sırasında hata oluştu: ${err.message || 'Bilinmeyen hata'}`);
+    } finally {
+      setIsPublishingAction(false);
     }
   };
 
@@ -731,27 +820,60 @@ export default function AiWriterPage() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 flex-wrap">
+                  {latestGenerated.post.is_published === 0 ? (
+                    <span className="px-3 py-1.5 rounded-xl text-xs font-bold bg-amber-100 text-amber-900 border border-amber-300 flex items-center gap-1.5 shadow-sm">
+                      <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse" />
+                      Taslak Olarak Kayıtlı
+                    </span>
+                  ) : (
+                    <span className="px-3 py-1.5 rounded-xl text-xs font-bold bg-emerald-100 text-emerald-900 border border-emerald-300 flex items-center gap-1.5 shadow-sm">
+                      <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                      Canlıda Yayında
+                    </span>
+                  )}
+
+                  {/* Taslak Olarak Kaydet / Yayınla Button */}
+                  <button
+                    type="button"
+                    disabled={isPublishingAction}
+                    onClick={() => handleSetPublishStatus(latestGenerated.post.id, 0)}
+                    className="px-3.5 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-xl text-xs font-bold transition-all shadow-sm flex items-center gap-1.5 disabled:opacity-50"
+                    title="Yazıyı taslak olarak sakla ve tüm yazılar taslak deposuna ekle"
+                  >
+                    <span>📝</span>
+                    <span>Taslak Olarak Kaydet</span>
+                  </button>
+
+                  {/* Canlıya Yayınla Button */}
+                  <button
+                    type="button"
+                    disabled={isPublishingAction}
+                    onClick={() => handleSetPublishStatus(latestGenerated.post.id, 1)}
+                    className="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold transition-all shadow-sm flex items-center gap-1.5 disabled:opacity-50"
+                  >
+                    <span>🚀</span>
+                    <span>{latestGenerated.post.is_published === 1 ? 'Yayında (Güncelle)' : 'Canlıya Yayınla'}</span>
+                  </button>
+
                   <Link
                     href={`/admin/posts/${latestGenerated.post.id}`}
-                    className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold transition-colors shadow-sm"
+                    target="_blank"
+                    className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-bold transition-colors shadow-sm"
                   >
                     <Edit3 className="w-3.5 h-3.5" />
-                    WordPress Editörde Aç &rarr;
+                    WordPress Editör &rarr;
                   </Link>
 
-                  {latestGenerated.post.is_published === 0 ? (
-                    <button
-                      type="button"
-                      onClick={() => handleQuickPublish(latestGenerated.post.id)}
-                      className="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold transition-colors shadow-sm"
+                  {latestGenerated.post.is_published === 1 && (
+                    <Link
+                      href={`/post/${latestGenerated.post.slug}`}
+                      target="_blank"
+                      className="inline-flex items-center gap-1.5 px-3 py-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 rounded-xl text-xs font-bold transition-colors"
                     >
-                      {successPublishId === latestGenerated.post.id ? '✓ Yayında!' : 'Tek Tıkla Yayınla 🚀'}
-                    </button>
-                  ) : (
-                    <span className="px-3 py-2 bg-emerald-100 text-emerald-800 rounded-xl text-xs font-bold">
-                      ✓ Yayında
-                    </span>
+                      <ExternalLink className="w-3.5 h-3.5" />
+                      Sitede Gör
+                    </Link>
                   )}
                 </div>
               </div>
@@ -1096,8 +1218,9 @@ export default function AiWriterPage() {
                   <div className="flex items-center gap-1.5">
                     <button
                       type="button"
-                      onClick={() => handleQuickPublish(post.id)}
-                      className="px-2.5 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-bold transition-colors shadow-sm"
+                      disabled={isPublishingAction}
+                      onClick={() => handleSetPublishStatus(post.id, 1)}
+                      className="px-2.5 py-1.5 bg-emerald-600 hover:bg-emerald-700 disabled:opacity-50 text-white rounded-lg text-xs font-bold transition-colors shadow-sm"
                     >
                       Yayınla 🚀
                     </button>
@@ -1169,7 +1292,7 @@ export default function AiWriterPage() {
                 />
                 <button
                   type="button"
-                  onClick={() => handleUpdateCover(editingModalPost.id, modalCoverUrl)}
+                  onClick={() => handleUpdateCover(editingModalPost.id, modalCoverUrl, editingModalPost)}
                   className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold transition-colors"
                 >
                   Uygula

@@ -17,8 +17,15 @@ export default function AdminPostsPage() {
   const [page, setPage] = useState(1);
   const [search, setSearch] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
+  const [statusFilter, setStatusFilter] = useState<'all' | 'drafts' | 'published'>('all');
+  const [statusCounts, setStatusCounts] = useState<{ total: number; drafts: number; published: number }>({
+    total: 0,
+    drafts: 0,
+    published: 0,
+  });
   const [isLoading, setIsLoading] = useState(true);
   const [deletingId, setDeletingId] = useState<number | null>(null);
+  const [togglingId, setTogglingId] = useState<number | null>(null);
   const [selectedIds, setSelectedIds] = useState<number[]>([]);
   const [bulkLoading, setBulkLoading] = useState(false);
 
@@ -63,14 +70,48 @@ export default function AdminPostsPage() {
     }
   };
 
+  const handleQuickTogglePublish = async (id: number, newStatus: number) => {
+    try {
+      setTogglingId(id);
+      const post = posts.find((p) => p.id === id);
+      const res = await fetch(`/api/posts/${id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          title: post?.title,
+          slug: post?.slug,
+          is_published: newStatus,
+        }),
+      });
+      if (res.ok) {
+        setPosts((prev) =>
+          prev.map((p) => (p.id === id ? { ...p, is_published: newStatus } : p))
+        );
+        fetchPosts();
+      } else {
+        alert('Durum güncellenemedi');
+      }
+    } catch {
+      alert('Hata oluştu');
+    } finally {
+      setTogglingId(null);
+    }
+  };
+
   const fetchPosts = async () => {
     setIsLoading(true);
     try {
       const params = new URLSearchParams({
         page: page.toString(),
         limit: '15',
-        all: 'true',
       });
+      if (statusFilter === 'drafts') {
+        params.append('drafts', 'true');
+      } else if (statusFilter === 'published') {
+        params.append('published', 'true');
+      } else {
+        params.append('all', 'true');
+      }
       if (search) params.append('search', search);
       if (selectedCategory) params.append('category', selectedCategory);
 
@@ -79,6 +120,9 @@ export default function AdminPostsPage() {
       setPosts(data.posts || []);
       setTotal(data.total || 0);
       setTotalPages(data.totalPages || 1);
+      if (data.counts) {
+        setStatusCounts(data.counts);
+      }
     } catch (err) {
       console.error(err);
     } finally {
@@ -98,7 +142,7 @@ export default function AdminPostsPage() {
       fetchPosts();
     }, 200);
     return () => clearTimeout(timer);
-  }, [page, search, selectedCategory]);
+  }, [page, search, selectedCategory, statusFilter]);
 
   const handleDelete = async (id: number, title: string) => {
     if (!confirm(`"${title}" başlıklı yazıyı silmek istediğinizden emin misiniz?`)) {
@@ -111,6 +155,7 @@ export default function AdminPostsPage() {
       if (res.ok) {
         setPosts((prev) => prev.filter((p) => p.id !== id));
         setTotal((prev) => prev - 1);
+        fetchPosts();
       } else {
         alert('Yazı silinemedi');
       }
@@ -149,6 +194,60 @@ export default function AdminPostsPage() {
             Manuel Yazı Ekle
           </Link>
         </div>
+      </div>
+
+      {/* Status Filter Tabs (Tüm Yazılar, Taslaklar, Yayındakiler) */}
+      <div className="flex flex-wrap items-center gap-2 border-b border-slate-200 pb-3">
+        <button
+          type="button"
+          onClick={() => { setStatusFilter('all'); setPage(1); }}
+          className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all flex items-center gap-2 ${
+            statusFilter === 'all'
+              ? 'bg-slate-900 text-white shadow-sm'
+              : 'bg-white hover:bg-slate-100 text-slate-600 border border-slate-200'
+          }`}
+        >
+          <span>Tüm Yazılar</span>
+          <span className={`px-2 py-0.5 rounded-full text-[11px] font-bold ${
+            statusFilter === 'all' ? 'bg-slate-800 text-slate-200' : 'bg-slate-100 text-slate-600'
+          }`}>
+            {statusCounts.total || total}
+          </span>
+        </button>
+
+        <button
+          type="button"
+          onClick={() => { setStatusFilter('drafts'); setPage(1); }}
+          className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all flex items-center gap-2 ${
+            statusFilter === 'drafts'
+              ? 'bg-amber-600 text-white shadow-md shadow-amber-600/20'
+              : 'bg-white hover:bg-amber-50 text-amber-800 border border-amber-200'
+          }`}
+        >
+          <span>📝 Taslaklar</span>
+          <span className={`px-2 py-0.5 rounded-full text-[11px] font-black ${
+            statusFilter === 'drafts' ? 'bg-amber-700 text-white' : 'bg-amber-100 text-amber-900 border border-amber-300'
+          }`}>
+            {statusCounts.drafts}
+          </span>
+        </button>
+
+        <button
+          type="button"
+          onClick={() => { setStatusFilter('published'); setPage(1); }}
+          className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all flex items-center gap-2 ${
+            statusFilter === 'published'
+              ? 'bg-emerald-600 text-white shadow-md shadow-emerald-600/20'
+              : 'bg-white hover:bg-emerald-50 text-emerald-800 border border-emerald-200'
+          }`}
+        >
+          <span>🌐 Yayındakiler</span>
+          <span className={`px-2 py-0.5 rounded-full text-[11px] font-bold ${
+            statusFilter === 'published' ? 'bg-emerald-700 text-white' : 'bg-emerald-100 text-emerald-900 border border-emerald-200'
+          }`}>
+            {statusCounts.published}
+          </span>
+        </button>
       </div>
 
       {/* Filter and Search Bar */}
@@ -265,11 +364,16 @@ export default function AdminPostsPage() {
               <tbody className="divide-y divide-slate-100">
                 {posts.map((post) => {
                   const isSelected = selectedIds.includes(post.id);
+                  const isDraft = post.is_published === 0;
                   return (
                     <tr
                       key={post.id}
                       className={`transition-colors ${
-                        isSelected ? 'bg-indigo-50/60' : 'hover:bg-slate-50/80'
+                        isSelected
+                          ? 'bg-indigo-50/70'
+                          : isDraft
+                          ? 'bg-amber-50/40 hover:bg-amber-100/50 border-l-4 border-l-amber-500'
+                          : 'hover:bg-slate-50/80'
                       }`}
                     >
                       <td className="py-3.5 px-4 text-center">
@@ -282,13 +386,13 @@ export default function AdminPostsPage() {
                       </td>
                       <td className="py-3.5 px-4 max-w-md">
                       <div className="flex items-center gap-2">
-                        {post.is_published === 0 ? (
-                          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-200 shrink-0">
-                            Taslak
+                        {isDraft ? (
+                          <span className="px-2 py-0.5 rounded-lg text-[10px] font-black bg-amber-100 text-amber-900 border border-amber-300 shadow-xs shrink-0 flex items-center gap-1">
+                            <span>📝</span> TASLAK
                           </span>
                         ) : (
-                          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 shrink-0">
-                            Yayında
+                          <span className="px-2 py-0.5 rounded-lg text-[10px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-200 shrink-0 flex items-center gap-1">
+                            <span>🌐</span> YAYINDA
                           </span>
                         )}
                         <div className="font-semibold text-slate-900 line-clamp-1">
@@ -326,7 +430,31 @@ export default function AdminPostsPage() {
                     </td>
 
                     <td className="py-3.5 px-4 text-right whitespace-nowrap">
-                      <div className="inline-flex items-center gap-1">
+                      <div className="inline-flex items-center gap-1.5">
+                        {/* Quick 1-click publish / draft toggle */}
+                        {isDraft ? (
+                          <button
+                            type="button"
+                            disabled={togglingId === post.id}
+                            onClick={() => handleQuickTogglePublish(post.id, 1)}
+                            className="px-2.5 py-1 bg-emerald-600 hover:bg-emerald-700 disabled:opacity-50 text-white rounded-lg text-xs font-bold transition-all shadow-xs flex items-center gap-1"
+                            title="Hemen Canlıya Yayınla"
+                          >
+                            <span>🚀</span>
+                            <span>{togglingId === post.id ? '...' : 'Yayınla'}</span>
+                          </button>
+                        ) : (
+                          <button
+                            type="button"
+                            disabled={togglingId === post.id}
+                            onClick={() => handleQuickTogglePublish(post.id, 0)}
+                            className="px-2 py-1 bg-slate-100 hover:bg-amber-100 text-slate-600 hover:text-amber-900 border border-slate-200 hover:border-amber-300 rounded-lg text-xs font-medium transition-all"
+                            title="Taslağa Geri Al"
+                          >
+                            <span>{togglingId === post.id ? '...' : 'Taslağa Al'}</span>
+                          </button>
+                        )}
+
                         <Link
                           href={`/post/${post.slug}`}
                           target="_blank"

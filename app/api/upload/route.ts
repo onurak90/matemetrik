@@ -17,8 +17,13 @@ export async function POST(request: NextRequest) {
 
     const parts = ['public', 'uploads'];
     const uploadsDir = path.join(process.cwd(), ...parts);
+    let canWrite = true;
     if (!fs.existsSync(uploadsDir)) {
-      fs.mkdirSync(uploadsDir, { recursive: true });
+      try {
+        fs.mkdirSync(uploadsDir, { recursive: true });
+      } catch {
+        canWrite = false;
+      }
     }
 
     // sanitize filename and force .webp
@@ -28,13 +33,23 @@ export async function POST(request: NextRequest) {
     const filename = `${base}_${Date.now()}.webp`;
     const filePath = path.join(uploadsDir, filename);
 
-    // Convert to webp with high efficiency
-    await sharp(buffer)
+    // Convert to webp with high efficiency (resizing to max 1200px width)
+    const webpBuffer = await sharp(buffer)
+      .resize({ width: 1200, withoutEnlargement: true })
       .webp({ quality: 85, effort: 6 })
-      .toFile(filePath);
+      .toBuffer();
 
-    const url = `/uploads/${filename}`;
-    return NextResponse.json({ url, filename });
+    if (canWrite) {
+      try {
+        fs.writeFileSync(filePath, webpBuffer);
+        const url = `/uploads/${filename}`;
+        return NextResponse.json({ url, filename });
+      } catch {}
+    }
+
+    // Serverless fallback: return data URI
+    const dataUri = `data:image/webp;base64,${webpBuffer.toString('base64')}`;
+    return NextResponse.json({ url: dataUri, filename });
   } catch (error: any) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }

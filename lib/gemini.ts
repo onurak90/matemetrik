@@ -410,12 +410,20 @@ Sadece ve sadece aşağıdaki geçerli JSON nesnesini döndür:
     coverImageUrl = '/uploads/test-cover.webp';
   }
 
+  // Ensure the cover image is also embedded cleanly in the article content for maximum visual appeal & SEO
+  let finalContent = content;
+  if (coverImageUrl && !finalContent.includes('<img')) {
+    const safeTitle = title.replace(/"/g, '&quot;');
+    const figureHtml = `<figure class="my-6 text-center"><img src="${coverImageUrl}" alt="${safeTitle}" class="w-full max-h-[480px] object-cover rounded-2xl shadow-lg mx-auto" /><figcaption class="text-xs text-slate-500 mt-2">${safeTitle} - Matemetrik</figcaption></figure>\n`;
+    finalContent = `${figureHtml}${finalContent}`;
+  }
+
   // Calculate SEO score
   const seoAudit = calculateSeoScore({
     title,
     slug,
     excerpt,
-    content,
+    content: finalContent,
     category,
     tags,
   });
@@ -425,7 +433,7 @@ Sadece ve sadece aşağıdaki geçerli JSON nesnesini döndür:
     title,
     slug,
     excerpt,
-    content,
+    content: finalContent,
     featured_image: coverImageUrl,
     category,
     category_slug: finalCategorySlug,

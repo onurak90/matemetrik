@@ -10,7 +10,7 @@ export async function GET(request: NextRequest) {
     const category = searchParams.get('category') || undefined;
     const search = searchParams.get('search') || undefined;
     const draftsOnly = searchParams.get('drafts') === 'true' || searchParams.get('filter') === 'drafts';
-    const publishedOnly = draftsOnly ? false : (searchParams.get('all') === 'true' ? false : true);
+    const publishedOnly = draftsOnly ? false : (searchParams.get('published') === 'true' ? true : (searchParams.get('all') === 'true' ? false : true));
 
     const data = getPosts({ page, limit, category, search, publishedOnly, draftsOnly });
     return NextResponse.json(data);

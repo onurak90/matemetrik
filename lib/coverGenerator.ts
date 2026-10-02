@@ -179,8 +179,19 @@ export async function generateCoverImage({
 </svg>
 `;
 
-    await sharpModule(Buffer.from(svg)).webp({ quality: 85, effort: 6 }).toFile(filePath);
-    return `/uploads/${filename}`;
+    try {
+      const webpBuffer = await sharpModule(Buffer.from(svg)).webp({ quality: 85, effort: 6 }).toBuffer();
+      try {
+        fs.writeFileSync(filePath, webpBuffer);
+        return `/uploads/${filename}`;
+      } catch {
+        // Disk write failed (serverless read-only), return data URI
+        return `data:image/webp;base64,${webpBuffer.toString('base64')}`;
+      }
+    } catch (sharpErr) {
+      console.warn('Sharp webp conversion failed, fallback to /og.jpg:', sharpErr);
+      return '/og.jpg';
+    }
   } catch (err) {
     console.warn('Cover generation failed, fallback to /og.jpg:', err);
     return '/og.jpg';

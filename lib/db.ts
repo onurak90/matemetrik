@@ -20,26 +20,16 @@ function getResolvedDbPath(): string {
   }
   // When running inside Vercel serverless environment, filesystem outside /tmp is read-only
   if (process.env.VERCEL) {
-    const deploymentKey = process.env.VERCEL_DEPLOYMENT_ID || process.env.VERCEL_GIT_COMMIT_SHA || 'v4_covers';
+    const deploymentKey = process.env.VERCEL_DEPLOYMENT_ID || process.env.VERCEL_GIT_COMMIT_SHA || 'v5_persistent';
     const tmpDbPath = `/tmp/matemetrik_${deploymentKey}.db`;
-    let shouldCopy = !fs.existsSync(tmpDbPath);
-    if (!shouldCopy && fs.existsSync(ORIGINAL_DB_PATH)) {
-      try {
-        const origStat = fs.statSync(ORIGINAL_DB_PATH);
-        const tmpStat = fs.statSync(tmpDbPath);
-        if (origStat.mtimeMs > tmpStat.mtimeMs || origStat.size !== tmpStat.size) {
-          shouldCopy = true;
-        }
-      } catch {}
-    }
-    if (shouldCopy && fs.existsSync(ORIGINAL_DB_PATH)) {
+    if (!fs.existsSync(tmpDbPath) && fs.existsSync(ORIGINAL_DB_PATH)) {
       try {
         fs.copyFileSync(ORIGINAL_DB_PATH, tmpDbPath);
         const walPath = ORIGINAL_DB_PATH + '-wal';
         const shmPath = ORIGINAL_DB_PATH + '-shm';
         if (fs.existsSync(walPath)) fs.copyFileSync(walPath, tmpDbPath + '-wal');
         if (fs.existsSync(shmPath)) fs.copyFileSync(shmPath, tmpDbPath + '-shm');
-        console.log(`[Vercel] Database successfully synced to ${tmpDbPath}`);
+        console.log(`[Vercel] Database successfully initialized at ${tmpDbPath}`);
       } catch (err) {
         console.error('[Vercel] Error copying DB to /tmp:', err);
       }
@@ -208,7 +198,7 @@ export function getPosts(options: {
   publishedOnly?: boolean;
   draftsOnly?: boolean;
   excludePageSolutions?: boolean;
-} = {}): { posts: Post[]; total: number; totalPages: number } {
+} = {}): { posts: Post[]; total: number; totalPages: number; counts?: { total: number; drafts: number; published: number } } {
   const db = getDb();
   const page = Math.max(1, options.page || 1);
   const limit = Math.max(1, options.limit || 12);
@@ -258,10 +248,22 @@ export function getPosts(options: {
     LIMIT ? OFFSET ?
   `).all(...params, limit, offset);
 
+  let counts: { total: number; drafts: number; published: number } | undefined;
+  try {
+    const dCount = db.prepare('SELECT COUNT(*) as count FROM posts WHERE is_published = 0').get() as { count: number };
+    const pCount = db.prepare('SELECT COUNT(*) as count FROM posts WHERE is_published = 1').get() as { count: number };
+    counts = {
+      total: (dCount?.count || 0) + (pCount?.count || 0),
+      drafts: dCount?.count || 0,
+      published: pCount?.count || 0,
+    };
+  } catch {}
+
   return {
     posts: rows.map(formatPostRow),
     total,
     totalPages: Math.ceil(total / limit),
+    counts,
   };
 }
 
@@ -622,8 +624,37 @@ export function updatePost(
   }
 ): Post | null {
   const db = getDb();
-  const existing = getPostById(id);
-  if (!existing) return null;
+  let existing = getPostById(id);
+  if (!existing) {
+    if (post.title) {
+      const now = new Date().toISOString();
+      const finalSlug = ensureUniqueSlug(post.slug || post.title, id);
+      const tagsStr = JSON.stringify(post.tags || []);
+      db.prepare(`
+        INSERT INTO posts (
+          id, title, slug, excerpt, content, featured_image,
+          category, category_slug, tags, author, is_published,
+          created_at, updated_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      `).run(
+        id,
+        post.title,
+        finalSlug,
+        post.excerpt || '',
+        post.content || '',
+        post.featured_image || '',
+        post.category || 'Genel',
+        post.category_slug || 'genel',
+        tagsStr,
+        post.author || 'Matemetrik Eğitim & Matematik Zümresi',
+        post.is_published !== undefined ? post.is_published : 0,
+        now,
+        now
+      );
+      return getPostById(id);
+    }
+    return null;
+  }
 
   let finalSlug = post.slug;
   if (post.slug !== undefined) {
