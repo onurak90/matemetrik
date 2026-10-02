@@ -285,15 +285,15 @@ export default function TakdirTesekkurPage() {
             </Link>
 
             <Link
-              href="/konu-anlatimlari"
+              href="/ilkokul-etkinlikleri"
               className="p-5 rounded-2xl bg-white border border-slate-200 hover:border-indigo-400 hover:shadow-md transition-all group flex items-center justify-between"
             >
               <div>
                 <div className="font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
-                  MEB Konu Anlatımları &amp; Testler
+                  İlkokul Etkinlikleri &amp; PDF İndir
                 </div>
                 <div className="text-xs text-slate-500 mt-1">
-                  1-12. sınıf ders anlatımları ve 20 soruluk testler
+                  1-4. sınıf ders etkinlikleri, çalışma fasikülleri ve indirilebilir PDF materyalleri
                 </div>
               </div>
               <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-indigo-600 transition-colors" />

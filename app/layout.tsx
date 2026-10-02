@@ -37,7 +37,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     description:
       settings.site_description ||
-      '1. sınıftan 12. sınıfa kadar tüm kademeler için MEB matematik ders kitabı çözümleri, konu anlatımları, karne görüşü robotu ve sınav hazırlık platformu.',
+      '1. sınıftan 12. sınıfa kadar tüm kademeler için MEB matematik ders kitabı çözümleri, ilkokul etkinlikleri, karne görüşü robotu ve sınav hazırlık platformu.',
     keywords: [
       'matematik',
       'meb ders kitabı cevapları',
@@ -65,7 +65,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: `${settings.site_name || 'Matemetrik'} | Matematik ve Eğitim Portalı`,
       description:
         settings.site_description ||
-        'MEB ders kitabı çözümleri, konu anlatımları, öğretmen karne görüşü robotu ve sınav hazırlık platformu.',
+        'MEB ders kitabı çözümleri, ilkokul etkinlikleri, öğretmen karne görüşü robotu ve sınav hazırlık platformu.',
     },
     twitter: {
       card: 'summary_large_image',

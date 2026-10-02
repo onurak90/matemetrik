@@ -44,3 +44,5 @@ __pycache__/
 ~$*
 *.db-shm
 *.db-wal
+*.bak
+*.backup*

@@ -18,7 +18,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
-              Matemetrik; 1. sınıftan 12. sınıfa kadar tüm kademeler için matematik konu anlatımları, yeni nesil soru çözümleri, öğretmen karne görüşü robotu ve sınav hazırlık araçları sunan Türkiye’nin öncü eğitim platformudur.
+              Matemetrik; 1. sınıftan 12. sınıfa kadar tüm kademeler için matematik ders kitabı çözümleri, ilkokul etkinlikleri, öğretmen karne görüşü robotu ve sınav hazırlık araçları sunan Türkiye’nin öncü eğitim platformudur.
             </p>
           </div>
 
@@ -124,11 +124,6 @@ export default function Footer() {
               <li>
                 <Link prefetch={false} href="/yds-calisma-bolumu" className="hover:text-white transition-colors flex items-center gap-1.5 text-emerald-400 font-semibold">
                   <Sparkles className="w-3 h-3" /> 🎯 YDS Hazırlık &amp; Çalışma
-                </Link>
-              </li>
-              <li>
-                <Link prefetch={false} href="/konu-anlatimlari" className="hover:text-white transition-colors flex items-center gap-1.5 text-cyan-400 font-semibold">
-                  <Sparkles className="w-3 h-3" /> 📖 Konu Anlatımları (1-12. Sınıf)
                 </Link>
               </li>
               <li>

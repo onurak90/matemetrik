@@ -7,7 +7,7 @@ import {
   BookOpen, CheckCircle, Tag, ChevronRight,
   Sparkles, ExternalLink, AlertCircle, HelpCircle
 } from 'lucide-react';
-import { getPostBySlug, getRelatedPosts, getPrevNextPosts, incrementViews, getSettings, getBookPageSequence } from '@/lib/db';
+import { getPostBySlug, getRelatedPosts, getPrevNextPosts, incrementViews, getSettings, getBookPageSequence, getRedirect } from '@/lib/db';
 import { formatDate, estimateReadingTime } from '@/lib/utils';
 import PostCard from '@/components/blog/PostCard';
 import CommentSection from '@/components/blog/CommentSection';
@@ -27,6 +27,10 @@ export const revalidate = 86400; // 24 hours edge cache for static solution post
 export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
   const { post } = getPostBySlug(params.slug);
   if (!post) {
+    const redirect = getRedirect(`/post/${params.slug}`);
+    if (redirect) {
+      return { title: 'Yönlendiriliyor... | Matemetrik' };
+    }
     return { title: 'Yazı Bulunamadı | Matemetrik' };
   }
 
@@ -86,6 +90,10 @@ export default async function BlogPostPage({ params }: PostPageProps) {
   const { post, isOldSlug } = getPostBySlug(params.slug);
 
   if (!post) {
+    const redirect = getRedirect(`/post/${params.slug}`);
+    if (redirect) {
+      permanentRedirect(redirect.target_path);
+    }
     notFound();
   }
 

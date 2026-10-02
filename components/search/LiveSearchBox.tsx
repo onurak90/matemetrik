@@ -98,7 +98,7 @@ export default function LiveSearchBox({
     (variant === 'hero'
       ? 'Örn: 10. sınıf ders kitabı çözümleri, pi sayısı, karne görüşü...'
       : variant === 'navbar'
-      ? '468+ blog yazısı, konu anlatımı veya MEB cevaplarında ara...'
+      ? '468+ blog yazısı, ilkokul etkinlikleri veya MEB cevaplarında ara...'
       : 'Ders kitabı, sınıf veya konu ara...');
 
   // Flattened list of navigable items for keyboard navigation

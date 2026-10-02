@@ -27,6 +27,8 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/konu-anlatimlari', destination: '/ilkokul-etkinlikleri', permanent: true },
+      { source: '/konu-anlatimlari/:slug*', destination: '/ilkokul-etkinlikleri', permanent: true },
       { source: '/blog', destination: '/post', permanent: true },
       { source: '/makaleler', destination: '/post', permanent: true },
       { source: '/kategori/matematik-blog', destination: '/post', permanent: true },

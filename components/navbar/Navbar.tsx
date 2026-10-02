@@ -452,18 +452,6 @@ export default function Navbar() {
 
             <Link
               prefetch={false}
-              href="/konu-anlatimlari"
-              className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
-                pathname === '/konu-anlatimlari' || pathname?.startsWith('/konu-anlatimlari')
-                  ? 'text-indigo-600 bg-indigo-50'
-                  : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
-              }`}
-            >
-              Konu Anlatımları
-            </Link>
-
-            <Link
-              prefetch={false}
               href="/yds-calisma-bolumu"
               className={`px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors flex items-center gap-1 ${
                 pathname?.startsWith('/yds-calisma-bolumu')
@@ -685,15 +673,6 @@ export default function Navbar() {
             className="block py-2 font-semibold text-slate-900 border-b border-slate-100"
           >
             Blog &amp; Makaleler
-          </Link>
-
-          <Link
-            href="/konu-anlatimlari"
-            onClick={() => setIsOpen(false)}
-            className="block py-2 font-semibold text-indigo-700 hover:text-indigo-900 border-b border-slate-100 flex items-center justify-between"
-          >
-            <span>📖 Konu Anlatımları</span>
-            <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-extrabold">1-12. Sınıf</span>
           </Link>
 
           <Link
