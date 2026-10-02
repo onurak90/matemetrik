@@ -1,4 +1,3 @@
-import sharp from 'sharp';
 import path from 'path';
 import fs from 'fs';
 
@@ -54,14 +53,27 @@ export async function generateCoverImage({
   category = 'Matematik & Eğitim',
   slug,
 }: GenerateCoverOptions): Promise<string> {
-  const uploadsDir = path.join(process.cwd(), 'public', 'uploads');
-  if (!fs.existsSync(uploadsDir)) {
-    fs.mkdirSync(uploadsDir, { recursive: true });
-  }
+  try {
+    const uploadsDir = path.join(process.cwd(), 'public', 'uploads');
+    if (!fs.existsSync(uploadsDir)) {
+      try {
+        fs.mkdirSync(uploadsDir, { recursive: true });
+      } catch {
+        return '/og.jpg';
+      }
+    }
 
-  const cleanSlug = slug.replace(/[^a-z0-9-]/gi, '-').toLowerCase();
-  const filename = `cover-${cleanSlug}.webp`;
-  const filePath = path.join(uploadsDir, filename);
+    const cleanSlug = slug.replace(/[^a-z0-9-]/gi, '-').toLowerCase();
+    const filename = `cover-${cleanSlug}.webp`;
+    const filePath = path.join(uploadsDir, filename);
+
+    // Dynamic import sharp to avoid breaking serverless if native binary is mismatched
+    let sharpModule: any;
+    try {
+      sharpModule = (await import('sharp')).default;
+    } catch {
+      return '/og.jpg';
+    }
 
   const lines = wrapText(title, 32, 3);
   const tspans = lines
@@ -167,7 +179,10 @@ export async function generateCoverImage({
 </svg>
 `;
 
-  await sharp(Buffer.from(svg)).webp({ quality: 85, effort: 6 }).toFile(filePath);
-
-  return `/uploads/${filename}`;
+    await sharpModule(Buffer.from(svg)).webp({ quality: 85, effort: 6 }).toFile(filePath);
+    return `/uploads/${filename}`;
+  } catch (err) {
+    console.warn('Cover generation failed, fallback to /og.jpg:', err);
+    return '/og.jpg';
+  }
 }

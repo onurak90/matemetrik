@@ -430,7 +430,7 @@ Sadece ve sadece aşağıdaki geçerli JSON nesnesini döndür:
     category,
     category_slug: finalCategorySlug,
     tags,
-    author: 'Cavenaghi',
+    author: 'Matemetrik Eğitim & Matematik Zümresi',
     is_published: 0, // Saved as DRAFT so user can review and publish!
   });
 

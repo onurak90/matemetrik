@@ -101,7 +101,13 @@ export default function AiWriterPage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ keyword: trendKeyword.trim() }),
       });
-      const data = await res.json();
+      const text = await res.text();
+      let data: any;
+      try {
+        data = JSON.parse(text);
+      } catch {
+        throw new Error(`Sunucu hatası (${res.status}): Lütfen birkaç saniye sonra tekrar deneyin.`);
+      }
       if (!res.ok || data.error) {
         throw new Error(data.error || 'Trend konular alınamadı');
       }
@@ -190,7 +196,14 @@ export default function AiWriterPage() {
           }),
         });
 
-        const data = await res.json();
+        const text = await res.text();
+        let data: any;
+        try {
+          data = JSON.parse(text);
+        } catch {
+          throw new Error(`Sunucu hatası (${res.status}): Yanıt alınamadı, lütfen tekrar deneyin.`);
+        }
+
         if (!res.ok || data.error) {
           throw new Error(data.error || 'Üretim hatası');
         }
