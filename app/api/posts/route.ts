@@ -9,9 +9,10 @@ export async function GET(request: NextRequest) {
     const limit = parseInt(searchParams.get('limit') || '12', 10);
     const category = searchParams.get('category') || undefined;
     const search = searchParams.get('search') || undefined;
-    const publishedOnly = searchParams.get('all') === 'true' ? false : true;
+    const draftsOnly = searchParams.get('drafts') === 'true' || searchParams.get('filter') === 'drafts';
+    const publishedOnly = draftsOnly ? false : (searchParams.get('all') === 'true' ? false : true);
 
-    const data = getPosts({ page, limit, category, search, publishedOnly });
+    const data = getPosts({ page, limit, category, search, publishedOnly, draftsOnly });
     return NextResponse.json(data);
   } catch (error: any) {
     return NextResponse.json({ error: error.message }, { status: 500 });

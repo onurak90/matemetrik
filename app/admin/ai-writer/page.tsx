@@ -7,7 +7,7 @@ import {
   AlertCircle, ArrowRight, ExternalLink, Edit3, Image as ImageIcon,
   Check, Layers, FileText, Hash, Link as LinkIcon, RefreshCw,
   Plus, Eye, BookOpen, Clock, ShieldCheck, ChevronRight,
-  Activity, Zap, Compass, CheckCircle, Timer
+  Activity, Zap, Compass, CheckCircle, Timer, Upload, Trash2, FolderOpen
 } from 'lucide-react';
 import { Category } from '@/lib/types';
 
@@ -66,10 +66,101 @@ export default function AiWriterPage() {
   const [errorMessage, setErrorMessage] = useState('');
   const [successPublishId, setSuccessPublishId] = useState<number | null>(null);
 
+  // Persistent Drafts & Cover Editing States
+  const [draftPosts, setDraftPosts] = useState<any[]>([]);
+  const [isLoadingDrafts, setIsLoadingDrafts] = useState(false);
+  const [isEditingCover, setIsEditingCover] = useState(false);
+  const [newCoverUrl, setNewCoverUrl] = useState('');
+  const [isUploadingCover, setIsUploadingCover] = useState(false);
+  const [editingModalPost, setEditingModalPost] = useState<any | null>(null);
+  const [modalCoverUrl, setModalCoverUrl] = useState('');
+  const [isModalUploading, setIsModalUploading] = useState(false);
+
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Load categories
+  const loadDrafts = async () => {
+    try {
+      setIsLoadingDrafts(true);
+      const res = await fetch('/api/posts?drafts=true&limit=50');
+      const data = await res.json();
+      setDraftPosts(data.posts || []);
+    } catch (e) {
+      console.error(e);
+    } finally {
+      setIsLoadingDrafts(false);
+    }
+  };
+
+  const handleUpdateCover = async (postId: number, imageUrl: string) => {
+    if (!imageUrl.trim()) return;
+    try {
+      const res = await fetch(`/api/posts/${postId}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ featured_image: imageUrl.trim() }),
+      });
+      if (res.ok) {
+        if (latestGenerated && latestGenerated.post.id === postId) {
+          setLatestGenerated({
+            ...latestGenerated,
+            coverImage: imageUrl.trim(),
+            post: { ...latestGenerated.post, featured_image: imageUrl.trim() },
+          });
+        }
+        setDraftPosts((prev) =>
+          prev.map((p) => (p.id === postId ? { ...p, featured_image: imageUrl.trim() } : p))
+        );
+        setIsEditingCover(false);
+        setEditingModalPost(null);
+      }
+    } catch {
+      alert('Kapak görseli güncellenemedi');
+    }
+  };
+
+  const handleUploadCover = async (postId: number, file: File, isModal = false) => {
+    try {
+      if (isModal) setIsModalUploading(true);
+      else setIsUploadingCover(true);
+
+      const formData = new FormData();
+      formData.append('file', file);
+      const res = await fetch('/api/upload', {
+        method: 'POST',
+        body: formData,
+      });
+      const data = await res.json();
+      if (data.url) {
+        await handleUpdateCover(postId, data.url);
+      } else {
+        alert(data.error || 'Yükleme başarısız');
+      }
+    } catch {
+      alert('Görsel yüklenirken hata oluştu');
+    } finally {
+      if (isModal) setIsModalUploading(false);
+      else setIsUploadingCover(false);
+    }
+  };
+
+  const handleDeleteDraft = async (postId: number) => {
+    if (!confirm('Bu taslağı silmek istediğinizden emin misiniz?')) return;
+    try {
+      const res = await fetch(`/api/posts/${postId}`, { method: 'DELETE' });
+      if (res.ok) {
+        setDraftPosts((prev) => prev.filter((p) => p.id !== postId));
+        if (latestGenerated && latestGenerated.post.id === postId) {
+          setLatestGenerated(null);
+        }
+      }
+    } catch {
+      alert('Silinirken hata oluştu');
+    }
+  };
+
+  // Load categories and initial drafts
   useEffect(() => {
+    loadDrafts();
     fetch('/api/categories')
       .then((res) => res.json())
       .then((data) => {
@@ -218,6 +309,7 @@ export default function AiWriterPage() {
     }
 
     if (timerRef.current) clearInterval(timerRef.current);
+    await loadDrafts();
     setIsGenerating(false);
   };
 
@@ -237,6 +329,7 @@ export default function AiWriterPage() {
             post: { ...latestGenerated.post, is_published: 1 },
           });
         }
+        setDraftPosts((prev) => prev.filter((p) => p.id !== id));
       }
     } catch {
       alert('Yayınlama sırasında hata oluştu');
@@ -663,12 +756,69 @@ export default function AiWriterPage() {
                 </div>
               </div>
 
-              {/* Cover Image Preview */}
-              <div className="space-y-2">
-                <div className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
-                  <ImageIcon className="w-4 h-4 text-indigo-600" />
-                  Otomatik Üretilen Kapak Görseli (1200x630)
+              {/* Cover Image Preview & Changer */}
+              <div className="space-y-3">
+                <div className="flex items-center justify-between">
+                  <div className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
+                    <ImageIcon className="w-4 h-4 text-indigo-600" />
+                    Kapak Görseli (1200x630)
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setIsEditingCover(!isEditingCover);
+                      setNewCoverUrl(latestGenerated.coverImage || '');
+                    }}
+                    className="inline-flex items-center gap-1.5 px-3 py-1 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 rounded-xl text-xs font-semibold transition-colors"
+                  >
+                    <Edit3 className="w-3.5 h-3.5" />
+                    {isEditingCover ? 'Kapat' : 'Görseli Değiştir'}
+                  </button>
                 </div>
+
+                {isEditingCover && (
+                  <div className="p-4 bg-indigo-50/70 border border-indigo-200 rounded-2xl space-y-3 animate-fadeIn">
+                    <div className="text-xs font-bold text-indigo-900">
+                      Yeni Kapak Görseli Belirle
+                    </div>
+                    <div className="flex flex-col sm:flex-row gap-2">
+                      <input
+                        type="text"
+                        value={newCoverUrl}
+                        onChange={(e) => setNewCoverUrl(e.target.value)}
+                        placeholder="Örn: https://... veya /uploads/resim.webp"
+                        className="flex-1 px-3 py-2 bg-white border border-slate-300 rounded-xl text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                      />
+                      <button
+                        type="button"
+                        onClick={() => handleUpdateCover(latestGenerated.post.id, newCoverUrl)}
+                        className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold shrink-0 transition-colors"
+                      >
+                        Kaydet
+                      </button>
+                    </div>
+
+                    <div className="flex items-center gap-2 pt-1 border-t border-indigo-100">
+                      <label className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white hover:bg-slate-50 text-slate-700 border border-slate-300 rounded-xl text-xs font-semibold cursor-pointer transition-colors">
+                        <Upload className="w-3.5 h-3.5 text-indigo-600" />
+                        {isUploadingCover ? 'Yükleniyor...' : 'Bilgisayardan Yükle'}
+                        <input
+                          type="file"
+                          accept="image/*"
+                          className="hidden"
+                          onChange={(e) => {
+                            const file = e.target.files?.[0];
+                            if (file) handleUploadCover(latestGenerated.post.id, file);
+                          }}
+                        />
+                      </label>
+                      <span className="text-[11px] text-slate-500">
+                        PNG, JPG veya WebP formatında görsel yükleyebilirsiniz.
+                      </span>
+                    </div>
+                  </div>
+                )}
+
                 <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-md bg-slate-900 aspect-[1200/630] relative group">
                   <img
                     src={latestGenerated.coverImage}
@@ -854,6 +1004,208 @@ export default function AiWriterPage() {
           )}
         </div>
       </div>
+
+      {/* Full Width Persistent Drafts Section */}
+      <div className="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 sm:p-8 space-y-6">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-5">
+          <div className="space-y-1">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 text-amber-700 text-xs font-bold border border-amber-200">
+              <FolderOpen className="w-3.5 h-3.5" />
+              Bekleyen Taslaklar Deposu
+            </div>
+            <h2 className="text-xl font-black text-slate-900 flex items-center gap-2">
+              Yapay Zeka ve Sistem Taslakları ({draftPosts.length})
+            </h2>
+            <p className="text-xs text-slate-500">
+              Burada üretilen veya henüz yayınlanmamış tüm taslak yazıları görebilir, kapak görselini değiştirebilir veya tek tıkla canlıya alabilirsiniz.
+            </p>
+          </div>
+
+          <div className="flex items-center gap-2 shrink-0">
+            <button
+              type="button"
+              onClick={loadDrafts}
+              disabled={isLoadingDrafts}
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold transition-colors disabled:opacity-50"
+            >
+              <RefreshCw className={`w-3.5 h-3.5 ${isLoadingDrafts ? 'animate-spin' : ''}`} />
+              Yenile
+            </button>
+            <Link
+              href="/admin/posts"
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-xl text-xs font-semibold transition-colors"
+            >
+              Tüm Yazıları Gör &rarr;
+            </Link>
+          </div>
+        </div>
+
+        {isLoadingDrafts ? (
+          <div className="py-12 text-center text-xs text-slate-400 flex items-center justify-center gap-2">
+            <RefreshCw className="w-4 h-4 animate-spin text-indigo-600" />
+            Taslaklar yükleniyor...
+          </div>
+        ) : draftPosts.length === 0 ? (
+          <div className="py-12 text-center space-y-2">
+            <div className="text-3xl">📭</div>
+            <div className="text-sm font-bold text-slate-700">Şu anda bekleyen taslak yazı bulunmuyor.</div>
+            <div className="text-xs text-slate-400">Yukarıdaki stüdyoyu kullanarak yeni konular üretmeye başlayabilirsiniz.</div>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {draftPosts.map((post) => (
+              <div
+                key={post.id}
+                className="bg-slate-50/80 rounded-2xl border border-slate-200 p-4 space-y-3 flex flex-col justify-between hover:shadow-md transition-shadow"
+              >
+                <div className="space-y-2.5">
+                  {/* Thumbnail & Change Cover Trigger */}
+                  <div className="relative aspect-[16/9] rounded-xl overflow-hidden bg-slate-800 group">
+                    <img
+                      src={post.featured_image || '/og.jpg'}
+                      alt={post.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setEditingModalPost(post);
+                        setModalCoverUrl(post.featured_image || '');
+                      }}
+                      className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1.5 text-white text-xs font-bold"
+                    >
+                      <Edit3 className="w-4 h-4" />
+                      Kapağı Değiştir
+                    </button>
+                    <span className="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/70 text-white text-[10px] font-semibold">
+                      {post.category}
+                    </span>
+                  </div>
+
+                  <div>
+                    <h3 className="text-xs sm:text-sm font-bold text-slate-900 line-clamp-2 leading-snug">
+                      {post.title}
+                    </h3>
+                    <p className="text-[11px] text-slate-500 line-clamp-2 mt-1 leading-relaxed">
+                      {post.excerpt || 'Özet bulunmuyor.'}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="pt-3 border-t border-slate-200/80 flex items-center justify-between gap-2">
+                  <div className="flex items-center gap-1.5">
+                    <button
+                      type="button"
+                      onClick={() => handleQuickPublish(post.id)}
+                      className="px-2.5 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-bold transition-colors shadow-sm"
+                    >
+                      Yayınla 🚀
+                    </button>
+                    <Link
+                      href={`/admin/posts/${post.id}`}
+                      className="px-2.5 py-1.5 bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 rounded-lg text-xs font-semibold transition-colors"
+                    >
+                      Düzenle
+                    </Link>
+                  </div>
+
+                  <div className="flex items-center gap-1">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setEditingModalPost(post);
+                        setModalCoverUrl(post.featured_image || '');
+                      }}
+                      title="Kapak Görselini Değiştir"
+                      className="p-1.5 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors"
+                    >
+                      <ImageIcon className="w-4 h-4" />
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => handleDeleteDraft(post.id)}
+                      title="Taslağı Sil"
+                      className="p-1.5 text-slate-400 hover:text-rose-600 hover:bg-rose-50 rounded-lg transition-colors"
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Cover Edit Modal for Drafts */}
+      {editingModalPost && (
+        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 animate-fadeIn">
+          <div className="bg-white rounded-3xl max-w-lg w-full p-6 shadow-2xl space-y-5">
+            <div className="flex items-center justify-between border-b pb-3">
+              <div className="space-y-0.5">
+                <h3 className="text-base font-bold text-slate-900">Kapak Görselini Değiştir</h3>
+                <p className="text-xs text-slate-500 line-clamp-1">{editingModalPost.title}</p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setEditingModalPost(null)}
+                className="text-slate-400 hover:text-slate-600 text-lg font-bold p-1"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="space-y-3">
+              <label className="block text-xs font-bold text-slate-700">
+                Görsel URL'si Girin veya Bilgisayardan Yükleyin
+              </label>
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  value={modalCoverUrl}
+                  onChange={(e) => setModalCoverUrl(e.target.value)}
+                  placeholder="https://... veya /uploads/resim.webp"
+                  className="flex-1 px-3 py-2 bg-slate-50 border border-slate-300 rounded-xl text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                />
+                <button
+                  type="button"
+                  onClick={() => handleUpdateCover(editingModalPost.id, modalCoverUrl)}
+                  className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold transition-colors"
+                >
+                  Uygula
+                </button>
+              </div>
+
+              <div className="pt-2 border-t flex items-center gap-3">
+                <label className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-bold cursor-pointer transition-colors">
+                  <Upload className="w-4 h-4 text-indigo-600" />
+                  {isModalUploading ? 'Yükleniyor...' : 'Dosya Seç & Yükle'}
+                  <input
+                    type="file"
+                    accept="image/*"
+                    className="hidden"
+                    onChange={(e) => {
+                      const file = e.target.files?.[0];
+                      if (file) handleUploadCover(editingModalPost.id, file, true);
+                    }}
+                  />
+                </label>
+                <span className="text-xs text-slate-400">WebP, PNG, JPG</span>
+              </div>
+            </div>
+
+            {modalCoverUrl && (
+              <div className="aspect-[16/9] rounded-xl overflow-hidden border border-slate-200 bg-slate-100">
+                <img
+                  src={modalCoverUrl}
+                  alt="Önizleme"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

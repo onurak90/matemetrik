@@ -206,6 +206,7 @@ export function getPosts(options: {
   category?: string | string[];
   search?: string;
   publishedOnly?: boolean;
+  draftsOnly?: boolean;
   excludePageSolutions?: boolean;
 } = {}): { posts: Post[]; total: number; totalPages: number } {
   const db = getDb();
@@ -216,7 +217,9 @@ export function getPosts(options: {
   const conditions: string[] = [];
   const params: any[] = [];
 
-  if (options.publishedOnly !== false) {
+  if (options.draftsOnly) {
+    conditions.push('is_published = 0');
+  } else if (options.publishedOnly !== false) {
     conditions.push('is_published = 1');
   }
 
@@ -530,6 +533,34 @@ export function getBookPageSequence(slug: string, categorySlug?: string): BookSe
   };
 }
 
+export function ensureUniqueSlug(baseSlug: string, currentId?: number): string {
+  const db = getDb();
+  let candidate = (baseSlug || 'yazi')
+    .toLowerCase()
+    .replace(/[^a-z0-9-]/g, '-')
+    .replace(/--+/g, '-')
+    .replace(/^-|-$/g, '');
+
+  if (!candidate) candidate = 'yazi';
+
+  const checkStmt = currentId
+    ? db.prepare('SELECT id FROM posts WHERE slug = ? AND id != ?')
+    : db.prepare('SELECT id FROM posts WHERE slug = ?');
+
+  let testSlug = candidate;
+  let counter = 1;
+
+  while (true) {
+    const existing = currentId ? checkStmt.get(testSlug, currentId) : checkStmt.get(testSlug);
+    if (!existing) {
+      return testSlug;
+    }
+    counter++;
+    const root = candidate.replace(/-\d+$/, '');
+    testSlug = `${root}-${counter}`;
+  }
+}
+
 export function createPost(post: {
   title: string;
   slug: string;
@@ -546,6 +577,7 @@ export function createPost(post: {
   const db = getDb();
   const now = new Date().toISOString();
   const tagsStr = JSON.stringify(post.tags || []);
+  const finalSlug = ensureUniqueSlug(post.slug);
 
   const stmt = db.prepare(`
     INSERT INTO posts (
@@ -557,7 +589,7 @@ export function createPost(post: {
 
   const info = stmt.run(
     post.title,
-    post.slug,
+    finalSlug,
     post.old_slug || null,
     post.excerpt || '',
     post.content,
@@ -593,12 +625,15 @@ export function updatePost(
   const existing = getPostById(id);
   if (!existing) return null;
 
-  // If slug is changing, automatically add a 301 redirect from the old slug!
-  if (post.slug && post.slug !== existing.slug) {
-    db.prepare(`
-      INSERT OR IGNORE INTO redirects (source_path, target_path, status_code)
-      VALUES (?, ?, 301)
-    `).run(`/post/${existing.slug}`, `/post/${post.slug}`);
+  let finalSlug = post.slug;
+  if (post.slug !== undefined) {
+    finalSlug = ensureUniqueSlug(post.slug, id);
+    if (finalSlug !== existing.slug) {
+      db.prepare(`
+        INSERT OR IGNORE INTO redirects (source_path, target_path, status_code)
+        VALUES (?, ?, 301)
+      `).run(`/post/${existing.slug}`, `/post/${finalSlug}`);
+    }
   }
 
   const now = new Date().toISOString();
@@ -606,7 +641,7 @@ export function updatePost(
   const values: any[] = [now];
 
   if (post.title !== undefined) { fields.push('title = ?'); values.push(post.title); }
-  if (post.slug !== undefined) { fields.push('slug = ?'); values.push(post.slug); }
+  if (finalSlug !== undefined) { fields.push('slug = ?'); values.push(finalSlug); }
   if (post.excerpt !== undefined) { fields.push('excerpt = ?'); values.push(post.excerpt); }
   if (post.content !== undefined) { fields.push('content = ?'); values.push(post.content); }
   if (post.featured_image !== undefined) { fields.push('featured_image = ?'); values.push(post.featured_image); }
