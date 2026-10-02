@@ -288,7 +288,7 @@ export default function CommentSection({
           <div className="flex items-center justify-between gap-3 pb-3 border-b border-slate-200/60">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-full overflow-hidden border border-slate-300 bg-white shrink-0">
-                <img src={user.avatar} alt={user.name} className="w-full h-full object-cover" />
+                <img src={user.avatar} alt={user.name ? `${user.name} Profil Resmi` : 'Kullanıcı Profil Resmi'} className="w-full h-full object-cover" />
               </div>
               <div>
                 <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
@@ -414,7 +414,7 @@ export default function CommentSection({
                   <div className="flex items-center gap-3">
                     <div className="w-9 h-9 rounded-full overflow-hidden border border-slate-200 bg-white shrink-0 shadow-xs">
                       {c.author_avatar ? (
-                        <img src={c.author_avatar} alt={c.author_name} className="w-full h-full object-cover" />
+                        <img src={c.author_avatar} alt={c.author_name ? `${c.author_name} Yorum Profil Resmi` : 'Yorumcu Profil Resmi'} className="w-full h-full object-cover" />
                       ) : (
                         <div
                           className={`w-full h-full flex items-center justify-center font-bold text-xs ${
@@ -542,7 +542,7 @@ export default function CommentSection({
                         <div className="flex items-center gap-2.5">
                           <div className="w-7 h-7 rounded-full overflow-hidden border border-slate-200 bg-white shrink-0">
                             {rep.author_avatar ? (
-                              <img src={rep.author_avatar} alt={rep.author_name} className="w-full h-full object-cover" />
+                              <img src={rep.author_avatar} alt={rep.author_name ? `${rep.author_name} Yanıt Profil Resmi` : 'Yorumcu Profil Resmi'} className="w-full h-full object-cover" />
                             ) : (
                               <div
                                 className={`w-full h-full flex items-center justify-center font-bold text-[11px] ${

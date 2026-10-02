@@ -365,7 +365,7 @@ export default function EditPostPage({ params }: { params: { id: string } }) {
                 <div className="relative rounded-xl overflow-hidden border border-slate-200 aspect-video bg-slate-100">
                   <img
                     src={featuredImage}
-                    alt={title}
+                    alt={title ? `${title} - Öne Çıkan Görsel` : 'Öne Çıkan Görsel'}
                     className="w-full h-full object-cover"
                   />
                 </div>

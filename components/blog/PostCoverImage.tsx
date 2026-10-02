@@ -152,10 +152,12 @@ export default function PostCoverImage({
     );
   }
 
+  const seoAlt = (alt || title || 'Matemetrik Eğitim ve Matematik Portalı').trim();
+
   return (
     <img
       src={src}
-      alt={alt || title}
+      alt={seoAlt}
       className={className}
       loading="lazy"
       onError={() => setHasError(true)}

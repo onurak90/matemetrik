@@ -490,7 +490,7 @@ export default function LiveSearchBox({
                           {post.featured_image ? (
                             <img
                               src={post.featured_image}
-                              alt={post.title}
+                              alt={post.title ? `${post.title} Görseli` : 'Matemetrik Yazı Görseli'}
                               className="w-full h-full object-cover"
                               loading="lazy"
                             />

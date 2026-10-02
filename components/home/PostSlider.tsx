@@ -51,7 +51,7 @@ export default function PostSlider({ posts }: PostSliderProps) {
             <img
               key={current.id}
               src={current.featured_image}
-              alt={current.title}
+              alt={current.title ? `${current.title} - Matemetrik` : 'Matemetrik Öne Çıkan Yazı'}
               onError={() => setSliderImgError((prev) => ({ ...prev, [current.id]: true }))}
               className="absolute inset-0 w-full h-full object-cover opacity-35 group-hover:scale-105 transition-transform duration-700 ease-out"
             />

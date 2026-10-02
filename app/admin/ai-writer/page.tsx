@@ -104,7 +104,7 @@ export default function AiWriterPage() {
 
       let updatedContent = activePost?.content || '';
       const safeTitle = (activePost?.title || 'Yazı Görseli').replace(/"/g, '&quot;');
-      const figureHtml = `<figure class="my-6 text-center"><img src="${cleanUrl}" alt="${safeTitle}" class="w-full max-h-[480px] object-cover rounded-2xl shadow-lg mx-auto" /><figcaption class="text-xs text-slate-500 mt-2">${safeTitle} - Matemetrik</figcaption></figure>`;
+      const figureHtml = `<figure class="my-6 text-center"><img src="${cleanUrl}" alt="${safeTitle} - Matemetrik" class="w-full max-h-[480px] object-cover rounded-2xl shadow-lg mx-auto" /><figcaption class="text-xs text-slate-500 mt-2">${safeTitle} - Matemetrik</figcaption></figure>`;
 
       if (updatedContent) {
         const imgRegex = /<figure[^>]*>[\s\S]*?<img[^>]+src=["'][^"']+["'][^>]*>[\s\S]*?<\/figure>|<img[^>]+src=["'][^"']+["'][^>]*>/i;
@@ -944,7 +944,7 @@ export default function AiWriterPage() {
                 <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-md bg-slate-900 aspect-[1200/630] relative group">
                   <img
                     src={latestGenerated.coverImage}
-                    alt={latestGenerated.post.title}
+                    alt={latestGenerated.post.title ? `${latestGenerated.post.title} - Matemetrik Kapak Görseli` : 'Matemetrik Kapak Görseli'}
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute top-3 right-3 bg-black/70 backdrop-blur-md px-3 py-1 rounded-lg text-white text-[11px] font-mono">
@@ -1185,7 +1185,7 @@ export default function AiWriterPage() {
                   <div className="relative aspect-[16/9] rounded-xl overflow-hidden bg-slate-800 group">
                     <img
                       src={post.featured_image || '/og.jpg'}
-                      alt={post.title}
+                      alt={post.title ? `${post.title} - Matemetrik` : 'Matemetrik Taslak Görseli'}
                       className="w-full h-full object-cover"
                     />
                     <button
@@ -1321,7 +1321,7 @@ export default function AiWriterPage() {
               <div className="aspect-[16/9] rounded-xl overflow-hidden border border-slate-200 bg-slate-100">
                 <img
                   src={modalCoverUrl}
-                  alt="Önizleme"
+                  alt={editingModalPost?.title ? `${editingModalPost.title} - Kapak Görseli Önizleme` : 'Matemetrik Kapak Görseli Önizleme'}
                   className="w-full h-full object-cover"
                 />
               </div>

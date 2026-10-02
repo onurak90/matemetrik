@@ -551,7 +551,7 @@ export default function ExamMakerTool() {
                             <div className="flex items-center justify-center">
                               <img
                                 src={q.image}
-                                alt={`Soru ${questionNumber}`}
+                                alt={`Matematik Sınav Sorusu ${questionNumber}`}
                                 style={{ maxHeight: imgMaxHeight }}
                                 className="max-w-full object-contain"
                               />

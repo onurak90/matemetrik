@@ -183,7 +183,7 @@ export default function MebCozumleriHub({ initialBooks }: MebCozumleriHubProps) 
                     {book.featured_image ? (
                       <Image
                         src={book.featured_image}
-                        alt={book.title}
+                        alt={book.title ? `${book.title} MEB Ders Kitabı Çözümleri` : 'MEB Ders Kitabı Çözümleri'}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-500"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
