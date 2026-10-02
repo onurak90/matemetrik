@@ -1,22 +1,3 @@
-# Git internals
-.git
-.git/**
-**/.git/**
-.gitignore
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Large asset folders not needed in deployment
-kitaplar/**
-yeniklub/**
-scratch/**
-scripts/**
-*.py
-*.pyc
-__pycache__/**
-
-# Backups
-*.bak
-*.backup*
+# Folders not tracked in git
+kitaplar
+scratch
