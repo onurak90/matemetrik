@@ -13,6 +13,12 @@ const nextConfig = {
       '*': [
         './public/uploads/**',
         'public/uploads/**',
+        '**/.git/**',
+        '**/.DS_Store',
+        '**/scripts/**',
+        '**/scratch/**',
+        '**/kitaplar/**',
+        '**/yeniklub/**',
       ],
     },
   },
