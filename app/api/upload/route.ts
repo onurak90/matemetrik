@@ -15,7 +15,8 @@ export async function POST(request: NextRequest) {
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
 
-    const uploadsDir = path.join(process.cwd(), 'public', 'uploads');
+    const parts = ['public', 'uploads'];
+    const uploadsDir = path.join(process.cwd(), ...parts);
     if (!fs.existsSync(uploadsDir)) {
       fs.mkdirSync(uploadsDir, { recursive: true });
     }
@@ -42,7 +43,8 @@ export async function POST(request: NextRequest) {
 // GET media gallery list
 export async function GET() {
   try {
-    const uploadsDir = path.join(process.cwd(), 'public', 'uploads');
+    const parts = ['public', 'uploads'];
+    const uploadsDir = path.join(process.cwd(), ...parts);
     if (!fs.existsSync(uploadsDir)) {
       return NextResponse.json([]);
     }

@@ -9,6 +9,12 @@ const nextConfig = {
       '/api/**/*': ['./data/**/*'],
       '/**/*': ['./data/**/*'],
     },
+    outputFileTracingExcludes: {
+      '*': [
+        './public/uploads/**',
+        'public/uploads/**',
+      ],
+    },
   },
   images: {
     formats: ['image/avif', 'image/webp'],
