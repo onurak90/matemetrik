@@ -39,6 +39,7 @@ scratch/
 *.pyc
 __pycache__/
 *.pdf
+!public/uploads/etkinlikler/**
 *.xlsx
 ~$*
 *.db-shm

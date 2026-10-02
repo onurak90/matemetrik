@@ -72,6 +72,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link prefetch={false} href="/ilkokul-etkinlikleri" className="hover:text-white transition-colors flex items-center gap-1.5 text-amber-400 font-bold">
+                  <Sparkles className="w-3 h-3" /> ✨ İlkokul Etkinlikleri &amp; PDF İndir (1-4)
+                </Link>
+              </li>
+              <li>
                 <Link prefetch={false} href="/hesaplama-araclari" className="hover:text-white transition-colors flex items-center gap-1.5 text-purple-400 font-bold">
                   <Sparkles className="w-3 h-3" /> 🧮 Matematik Hesaplama Araçları (18+)
                 </Link>

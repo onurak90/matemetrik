@@ -36,6 +36,7 @@ export default function Navbar() {
 
   const grades = [
     { label: 'İlkokul', items: [
+      { name: '✨ İlkokul Etkinlikleri (PDF)', href: '/ilkokul-etkinlikleri' },
       { name: '1. Sınıf', href: '/kategori/1-sinif' },
       { name: '2. Sınıf', href: '/kategori/2-sinif' },
       { name: '3. Sınıf', href: '/kategori/3-sinif' },
@@ -246,6 +247,23 @@ export default function Navbar() {
                 </div>
               </div>
             </div>
+
+            {/* İlkokul Etkinlikleri */}
+            <Link
+              prefetch={false}
+              href="/ilkokul-etkinlikleri"
+              className={`flex items-center gap-1.5 px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
+                pathname?.startsWith('/ilkokul-etkinlikleri')
+                  ? 'text-indigo-600 bg-indigo-50'
+                  : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
+              }`}
+            >
+              <span className="text-amber-500 font-bold">✨</span>
+              <span>İlkokul Etkinlikleri</span>
+              <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-amber-100 text-amber-800 font-extrabold hidden 2xl:inline">
+                PDF
+              </span>
+            </Link>
 
             {/* Öğretmen Araçları Dropdown */}
             <div className="relative group">
@@ -539,6 +557,19 @@ export default function Navbar() {
           >
             Ana Sayfa
           </Link>
+
+          <div className="py-2 border-b border-slate-100 space-y-2">
+            <Link
+              href="/ilkokul-etkinlikleri"
+              onClick={() => setIsOpen(false)}
+              className="flex items-center justify-between py-1.5 px-3 rounded-xl bg-amber-50 text-sm font-bold text-amber-900 border border-amber-200"
+            >
+              <span className="flex items-center gap-1.5">
+                <span>✨</span> İlkokul Etkinlikleri (1-4. Sınıf)
+              </span>
+              <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-200 text-amber-950 font-black">PDF İndir</span>
+            </Link>
+          </div>
 
           <div className="py-2 border-b border-slate-100 space-y-2">
             <Link
