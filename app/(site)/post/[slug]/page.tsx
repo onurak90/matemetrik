@@ -25,7 +25,7 @@ interface PostPageProps {
 export const revalidate = 86400; // 24 hours edge cache for static solution posts
 
 export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
-  const { post } = getPostBySlug(params.slug);
+  const { post } = await getPostBySlug(params.slug);
   if (!post) {
     const redirect = getRedirect(`/post/${params.slug}`);
     if (redirect) {
@@ -87,7 +87,7 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
 }
 
 export default async function BlogPostPage({ params }: PostPageProps) {
-  const { post, isOldSlug } = getPostBySlug(params.slug);
+  const { post, isOldSlug } = await getPostBySlug(params.slug);
 
   if (!post) {
     const redirect = getRedirect(`/post/${params.slug}`);

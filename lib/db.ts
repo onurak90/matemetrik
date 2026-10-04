@@ -2,6 +2,7 @@ import Database from 'better-sqlite3';
 import path from 'path';
 import fs from 'fs';
 import { Post, Category, Redirect, DashboardStats } from './types';
+import { fetchDynamicPostFromBlob, upsertPostIntoDb, syncBlobPostsIntoDb } from './blobSync';
 
 const DB_DIR = path.join(process.cwd(), 'data');
 const ORIGINAL_DB_PATH = path.join(DB_DIR, 'matemetrik.db');
@@ -301,7 +302,7 @@ export function getMebBookMasterPosts(): Post[] {
   return rows.map(formatPostRow);
 }
 
-export function getPostBySlug(slugOrOldSlug: string): { post: Post | null; isOldSlug: boolean } {
+export function getPostBySlugSync(slugOrOldSlug: string): { post: Post | null; isOldSlug: boolean } {
   const db = getDb();
   
   // 1. Try exact match on clean slug
@@ -362,6 +363,34 @@ export function getPostBySlug(slugOrOldSlug: string): { post: Post | null; isOld
     if (suffixRow) {
       return { post: formatPostRow(suffixRow), isOldSlug: true };
     }
+  }
+
+  return { post: null, isOldSlug: false };
+}
+
+export async function getPostBySlug(slugOrOldSlug: string): Promise<{ post: Post | null; isOldSlug: boolean }> {
+  // 1. Check local SQLite fast (0ms)
+  const localResult = getPostBySlugSync(slugOrOldSlug);
+  if (localResult.post) {
+    return localResult;
+  }
+
+  // 2. If not found in local SQLite, check Vercel Blob cloud store for newly published / dynamic articles!
+  try {
+    const cleanSlug = slugOrOldSlug
+      .replace(/^\/post\//, '')
+      .replace(/\.(html?|php)$/i, '')
+      .replace(/\/$/, '')
+      .replace(/-amp$/i, '');
+
+    const blobPost = await fetchDynamicPostFromBlob(cleanSlug);
+    if (blobPost) {
+      const db = getDb();
+      upsertPostIntoDb(blobPost, db);
+      return { post: blobPost, isOldSlug: false };
+    }
+  } catch (err) {
+    console.error('[db] Error in blob fallback for getPostBySlug:', err);
   }
 
   return { post: null, isOldSlug: false };

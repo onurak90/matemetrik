@@ -1,6 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getPosts, createPost } from '@/lib/db';
+import { revalidatePath } from 'next/cache';
+import { getDb, getPosts, createPost } from '@/lib/db';
+import { syncBlobPostsIntoDb, saveDynamicPostToBlob } from '@/lib/blobSync';
 import { slugify } from '@/lib/utils';
+
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   try {
@@ -11,6 +15,9 @@ export async function GET(request: NextRequest) {
     const search = searchParams.get('search') || undefined;
     const draftsOnly = searchParams.get('drafts') === 'true' || searchParams.get('filter') === 'drafts';
     const publishedOnly = draftsOnly ? false : (searchParams.get('published') === 'true' ? true : (searchParams.get('all') === 'true' ? false : true));
+
+    // Synchronize latest dynamic posts from Vercel Blob into local SQLite
+    await syncBlobPostsIntoDb(getDb());
 
     const data = getPosts({ page, limit, category, search, publishedOnly, draftsOnly });
     return NextResponse.json(data);
@@ -40,6 +47,17 @@ export async function POST(request: NextRequest) {
       author: body.author || 'Matemetrik',
       is_published: body.is_published !== undefined ? body.is_published : 1,
     });
+
+    // Save to Vercel Blob persistent store
+    await saveDynamicPostToBlob(newPost);
+
+    // Bust Next.js edge caches so the post is live immediately
+    try {
+      revalidatePath(`/post/${newPost.slug}`);
+      revalidatePath('/');
+      revalidatePath('/post');
+      revalidatePath('/admin/posts');
+    } catch {}
 
     return NextResponse.json(newPost, { status: 201 });
   } catch (error: any) {

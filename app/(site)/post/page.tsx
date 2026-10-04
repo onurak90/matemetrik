@@ -5,7 +5,8 @@ import {
   BookOpen, ChevronRight, Search, Sparkles, Filter,
   GraduationCap, FileText, Layers, Compass, Award
 } from 'lucide-react';
-import { getPosts, getCategories } from '@/lib/db';
+import { getDb, getPosts, getCategories } from '@/lib/db';
+import { syncBlobPostsIntoDb } from '@/lib/blobSync';
 import PostCard from '@/components/blog/PostCard';
 
 interface PostIndexPageProps {
@@ -49,6 +50,7 @@ export async function generateMetadata({ searchParams }: PostIndexPageProps): Pr
 }
 
 export default async function PostIndexPage({ searchParams }: PostIndexPageProps) {
+  await syncBlobPostsIntoDb(getDb());
   const currentPage = Math.max(1, parseInt(searchParams.page || '1', 10));
   const activeCat = searchParams.cat || 'tumu';
   const searchQuery = searchParams.q?.trim() || '';

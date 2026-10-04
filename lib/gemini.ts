@@ -1,5 +1,6 @@
 import { getSettings, createPost, getCategories } from './db';
 import { generateCoverImage } from './coverGenerator';
+import { saveDynamicPostToBlob } from './blobSync';
 
 interface TrendSuggestion {
   title: string;
@@ -441,6 +442,13 @@ Sadece ve sadece aşağıdaki geçerli JSON nesnesini döndür:
     author: 'Matemetrik Eğitim & Matematik Zümresi',
     is_published: 0, // Saved as DRAFT so user can review and publish!
   });
+
+  // Persist to Vercel Blob cloud store immediately
+  try {
+    await saveDynamicPostToBlob(savedPost);
+  } catch (blobErr) {
+    console.error('Failed to save generated post to blob:', blobErr);
+  }
 
   return {
     post: savedPost,
