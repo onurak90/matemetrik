@@ -1,3 +1,10 @@
+# Build & dependencies
+.next
+node_modules
+.git
+.vercel
+
 # Folders not tracked in git
 kitaplar
 scratch
+*.log

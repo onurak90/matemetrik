@@ -7,12 +7,14 @@ export const maxDuration = 60; // Allow up to 60 seconds on Vercel
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json().catch(() => ({}));
-    const count = Math.min(3, Math.max(1, parseInt(body.count || '1', 10)));
+    const count = Math.min(10, Math.max(1, parseInt(body.count || '1', 10)));
     const forcePublish = body.forcePublish !== undefined ? Boolean(body.forcePublish) : undefined;
+    const selectedItems = Array.isArray(body.selectedItems) ? body.selectedItems : undefined;
 
     const results = await runNewsCrawlCycle({
       maxArticles: count,
       forcePublish,
+      selectedItems,
     });
 
     return NextResponse.json({

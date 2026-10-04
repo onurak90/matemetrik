@@ -13,7 +13,7 @@ interface PostIndexPageProps {
   searchParams: { page?: string; cat?: string; q?: string };
 }
 
-export const revalidate = 3600; // 1 hour edge cache
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ searchParams }: PostIndexPageProps): Promise<Metadata> {
   const cat = searchParams.cat;

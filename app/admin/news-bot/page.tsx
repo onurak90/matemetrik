@@ -5,7 +5,8 @@ import Link from 'next/link';
 import {
   Newspaper, Play, CheckCircle2, AlertCircle, Clock,
   ExternalLink, Trash2, RefreshCw, Sparkles, Shield,
-  ArrowUpRight, Eye, Radio, Settings, Filter
+  ArrowUpRight, Eye, Radio, Settings, Filter, CheckSquare,
+  Square, Search, Layers, Send, ChevronRight, Edit3, ListPlus
 } from 'lucide-react';
 import { formatDate } from '@/lib/utils';
 
@@ -24,6 +25,26 @@ interface CrawledNewsItem {
   post_views?: number;
 }
 
+interface SuggestionItem {
+  title: string;
+  link: string;
+  source: string;
+  pubDate: string;
+  description: string;
+  imageUrl: string;
+  isDuplicate: boolean;
+}
+
+interface GeneratedArticle {
+  id: number;
+  title: string;
+  slug: string;
+  source: string;
+  source_url: string;
+  image: string;
+  status: string;
+}
+
 export default function AdminNewsBotPage() {
   const [history, setHistory] = useState<CrawledNewsItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -34,6 +55,20 @@ export default function AdminNewsBotPage() {
   const [deletingId, setDeletingId] = useState<number | null>(null);
   const [togglingId, setTogglingId] = useState<number | null>(null);
   const [filter, setFilter] = useState<'all' | 'published' | 'draft'>('all');
+
+  // Tabs: 'auto' | 'suggestions'
+  const [activeTab, setActiveTab] = useState<'auto' | 'suggestions'>('auto');
+
+  // Suggestions state
+  const [suggestions, setSuggestions] = useState<SuggestionItem[]>([]);
+  const [isFetchingSuggestions, setIsFetchingSuggestions] = useState(false);
+  const [suggestionsFilter, setSuggestionsFilter] = useState<'all' | 'only_new'>('only_new');
+  const [suggestionSearch, setSuggestionSearch] = useState('');
+  const [selectedUrls, setSelectedUrls] = useState<Set<string>>(new Set());
+  const [generatingSingleUrl, setGeneratingSingleUrl] = useState<string | null>(null);
+
+  // Recently created articles in current session
+  const [lastGeneratedArticles, setLastGeneratedArticles] = useState<GeneratedArticle[]>([]);
 
   const loadData = async () => {
     try {
@@ -74,6 +109,25 @@ export default function AdminNewsBotPage() {
     }
   };
 
+  // Fetch live suggestions from RSS feeds
+  const handleFetchSuggestions = async () => {
+    setIsFetchingSuggestions(true);
+    try {
+      const res = await fetch('/api/news-bot/suggestions?limit=40');
+      const data = await res.json();
+      if (data.suggestions) {
+        setSuggestions(data.suggestions);
+        setSelectedUrls(new Set());
+      }
+    } catch (err) {
+      console.error(err);
+      alert('Öneriler getirilirken bir hata oluştu.');
+    } finally {
+      setIsFetchingSuggestions(false);
+    }
+  };
+
+  // Run automatic batch crawler
   const handleRunCrawler = async () => {
     setIsCrawling(true);
     setCrawlProgress([
@@ -122,7 +176,8 @@ export default function AdminNewsBotPage() {
       }
 
       const results = data.data;
-      if (results.created > 0) {
+      if (results.created > 0 && results.processedArticles?.length > 0) {
+        setLastGeneratedArticles(results.processedArticles);
         setCrawlProgress((prev) => [
           ...prev,
           `✓ Başarılı! ${results.created} adet yeni öğretmen/okul haberi yazıldı, kapak görseli eklendi ve ${publishMode === 'published' ? 'CANLIYA YAYINLANDI' : 'TASLAK OLARAK KAYDEDİLDİ'}!`,
@@ -145,6 +200,108 @@ export default function AdminNewsBotPage() {
     }
   };
 
+  // Generate selected suggestion articles
+  const handleGenerateSelected = async () => {
+    const selectedItems = suggestions.filter((s) => selectedUrls.has(s.link));
+    if (selectedItems.length === 0) {
+      alert('Lütfen üretmek istediğiniz en az 1 haberi seçin.');
+      return;
+    }
+
+    setIsCrawling(true);
+    setCrawlProgress([
+      `🚀 Seçtiğiniz ${selectedItems.length} adet haber işleniyor ve Gemini AI ile SEO makalesine dönüştürülüyor...`,
+    ]);
+
+    try {
+      const res = await fetch('/api/news-bot/crawl', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          selectedItems,
+          forcePublish: publishMode === 'published',
+        }),
+      });
+
+      const data = await res.json();
+      if (!res.ok || data.error) {
+        throw new Error(data.error || 'İşlem sırasında hata oluştu');
+      }
+
+      const results = data.data;
+      if (results.created > 0 && results.processedArticles?.length > 0) {
+        setLastGeneratedArticles(results.processedArticles);
+        setCrawlProgress((prev) => [
+          ...prev,
+          `✓ Başarılı! ${results.created} adet seçili haber başarıyla üretildi!`,
+        ]);
+        // Update suggestions status
+        setSuggestions((prev) =>
+          prev.map((s) =>
+            selectedUrls.has(s.link) ? { ...s, isDuplicate: true } : s
+          )
+        );
+        setSelectedUrls(new Set());
+      }
+
+      await loadData();
+    } catch (err: any) {
+      setCrawlProgress((prev) => [
+        ...prev,
+        `❌ Hata oluştu: ${err.message || 'Bilinmeyen hata'}`,
+      ]);
+    } finally {
+      setIsCrawling(false);
+    }
+  };
+
+  // Generate a single suggestion item
+  const handleGenerateSingle = async (item: SuggestionItem) => {
+    setGeneratingSingleUrl(item.link);
+    setIsCrawling(true);
+    setCrawlProgress([
+      `✍️ "${item.title}" haberi Gemini AI ile 800+ kelimelik SEO makalesine dönüştürülüyor...`,
+    ]);
+
+    try {
+      const res = await fetch('/api/news-bot/crawl', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          selectedItems: [item],
+          forcePublish: publishMode === 'published',
+        }),
+      });
+
+      const data = await res.json();
+      if (!res.ok || data.error) {
+        throw new Error(data.error || 'İşlem sırasında hata oluştu');
+      }
+
+      const results = data.data;
+      if (results.created > 0 && results.processedArticles?.length > 0) {
+        setLastGeneratedArticles(results.processedArticles);
+        setCrawlProgress((prev) => [
+          ...prev,
+          `✓ Başarılı! Haber üretildi ve ${publishMode === 'published' ? 'CANLIYA YAYINLANDI' : 'TASLAK OLARAK KAYDEDİLDİ'}!`,
+        ]);
+        setSuggestions((prev) =>
+          prev.map((s) => (s.link === item.link ? { ...s, isDuplicate: true } : s))
+        );
+      }
+
+      await loadData();
+    } catch (err: any) {
+      setCrawlProgress((prev) => [
+        ...prev,
+        `❌ Hata: ${err.message || 'Bilinmeyen hata'}`,
+      ]);
+    } finally {
+      setIsCrawling(false);
+      setGeneratingSingleUrl(null);
+    }
+  };
+
   const handleDeleteItem = async (id: number, postTitle?: string) => {
     if (!confirm(`"${postTitle || 'Bu haberi'}" sitemizden tamamen kaldırmak ve silmek istediğinizden emin misiniz?`)) {
       return;
@@ -157,6 +314,7 @@ export default function AdminNewsBotPage() {
       });
       if (res.ok) {
         setHistory((prev) => prev.filter((item) => item.id !== id));
+        setLastGeneratedArticles((prev) => prev.filter((a) => a.id !== id));
       } else {
         alert('Silinirken hata oluştu');
       }
@@ -207,6 +365,32 @@ export default function AdminNewsBotPage() {
   ).length;
   const draftCount = history.length - publishedCount;
 
+  // Filtered suggestions
+  const filteredSuggestions = suggestions.filter((s) => {
+    if (suggestionsFilter === 'only_new' && s.isDuplicate) return false;
+    if (suggestionSearch.trim()) {
+      const q = suggestionSearch.toLowerCase();
+      return s.title.toLowerCase().includes(q) || s.description.toLowerCase().includes(q);
+    }
+    return true;
+  });
+
+  const toggleSelectUrl = (url: string) => {
+    const next = new Set(selectedUrls);
+    if (next.has(url)) next.delete(url);
+    else next.add(url);
+    setSelectedUrls(next);
+  };
+
+  const toggleSelectAll = () => {
+    const selectable = filteredSuggestions.filter((s) => !s.isDuplicate);
+    if (selectedUrls.size === selectable.length && selectable.length > 0) {
+      setSelectedUrls(new Set());
+    } else {
+      setSelectedUrls(new Set(selectable.map((s) => s.link)));
+    }
+  };
+
   return (
     <div className="space-y-8">
       {/* Header Banner */}
@@ -216,14 +400,14 @@ export default function AdminNewsBotPage() {
           <div className="space-y-2">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-semibold border border-indigo-400/30">
               <Radio className="w-3.5 h-3.5 text-emerald-400 animate-pulse" />
-              Canlı Haber &amp; Otomasyon Motoru
+              Otomatik Kontrol: Her Gün Saat 11:00 ve 18:00
             </div>
             <h1 className="text-2xl sm:text-3xl font-black tracking-tight">
               Otopilot Öğretmen &amp; Okul Haber Robotu 🤖
             </h1>
             <p className="text-slate-300 text-xs sm:text-sm max-w-2xl leading-relaxed">
-              İnternetteki 5 büyük eğitim portalını anında tarar, öğretmen ve okul gündemini tespit eder.
-              Sitemizde benzeri yoksa yapay zeka ile 800+ kelimelik özgün SEO makalesine dönüştürüp kapak görseliyle yayınlar.
+              İnternetteki büyük eğitim portallarını (MEB Personel, Kamudan Haber, Kamu Personeli, Ajans Kamu, Google News) tarar,
+              öğretmen ve okul haberlerini tespit eder. Sitemizde yoksa Gemini ile 800+ kelimelik SEO makalesine dönüştürüp yayınlar.
             </p>
           </div>
 
@@ -250,23 +434,94 @@ export default function AdminNewsBotPage() {
                 📝 Taslak Olarak Tut
               </button>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <div className="flex items-center gap-2">
-              <select
-                value={countToGenerate}
-                onChange={(e) => setCountToGenerate(parseInt(e.target.value, 10))}
-                className="bg-slate-800 border border-slate-700 text-white text-xs font-bold px-3 py-2.5 rounded-2xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                disabled={isCrawling}
-              >
-                <option value={1}>1 Yeni Haber</option>
-                <option value={2}>2 Yeni Haber</option>
-                <option value={3}>3 Yeni Haber</option>
-              </select>
+      {/* Mode Tabs */}
+      <div className="flex border-b border-slate-200 gap-4">
+        <button
+          onClick={() => setActiveTab('auto')}
+          className={`pb-3 font-bold text-xs sm:text-sm flex items-center gap-2 border-b-2 transition-all ${
+            activeTab === 'auto'
+              ? 'border-indigo-600 text-indigo-600'
+              : 'border-transparent text-slate-500 hover:text-slate-800'
+          }`}
+        >
+          <Play className="w-4 h-4" />
+          Hızlı Otomatik Üretim
+        </button>
+        <button
+          onClick={() => {
+            setActiveTab('suggestions');
+            if (suggestions.length === 0) handleFetchSuggestions();
+          }}
+          className={`pb-3 font-bold text-xs sm:text-sm flex items-center gap-2 border-b-2 transition-all ${
+            activeTab === 'suggestions'
+              ? 'border-indigo-600 text-indigo-600'
+              : 'border-transparent text-slate-500 hover:text-slate-800'
+          }`}
+        >
+          <Sparkles className="w-4 h-4 text-amber-500" />
+          Canlı Haber Önerileri (Seçerek Üret)
+          {suggestions.length > 0 && (
+            <span className="px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700 text-[10px] font-black">
+              {suggestions.length}
+            </span>
+          )}
+        </button>
+      </div>
+
+      {/* Tab 1: Auto Batch Generator */}
+      {activeTab === 'auto' && (
+        <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm space-y-4">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div className="space-y-1">
+              <h3 className="font-extrabold text-slate-900 text-sm sm:text-base flex items-center gap-2">
+                <Play className="w-4 h-4 text-indigo-600 fill-indigo-600" />
+                Otomatik Tarama &amp; Toplu Üretim
+              </h3>
+              <p className="text-xs text-slate-500">
+                Kaç adet yeni öğretmen/okul haberi üretmek istediğinizi girin veya butonlardan seçip başlatın.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-3">
+              {/* Custom Number Input & Preset Chips */}
+              <div className="flex items-center gap-2 bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-2xl">
+                <span className="text-xs font-bold text-slate-600">Sayı:</span>
+                <input
+                  type="number"
+                  min={1}
+                  max={20}
+                  value={countToGenerate}
+                  onChange={(e) => setCountToGenerate(Math.max(1, Math.min(20, parseInt(e.target.value) || 1)))}
+                  className="w-14 bg-white border border-slate-300 text-slate-900 font-extrabold text-xs px-2 py-1 rounded-xl text-center focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  disabled={isCrawling}
+                />
+                <div className="flex items-center gap-1">
+                  {[1, 2, 3, 5, 10].map((num) => (
+                    <button
+                      key={num}
+                      type="button"
+                      onClick={() => setCountToGenerate(num)}
+                      className={`px-2 py-0.5 rounded-lg text-[11px] font-bold transition-all ${
+                        countToGenerate === num
+                          ? 'bg-indigo-600 text-white shadow-sm'
+                          : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-100'
+                      }`}
+                      disabled={isCrawling}
+                    >
+                      {num}
+                    </button>
+                  ))}
+                </div>
+              </div>
 
               <button
                 onClick={handleRunCrawler}
                 disabled={isCrawling}
-                className="flex items-center justify-center gap-2 bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white font-extrabold text-xs sm:text-sm px-5 py-2.5 rounded-2xl shadow-lg shadow-indigo-500/30 transition-all disabled:opacity-50"
+                className="flex items-center justify-center gap-2 bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 text-white font-extrabold text-xs sm:text-sm px-6 py-2.5 rounded-2xl shadow-lg shadow-indigo-600/20 transition-all disabled:opacity-50"
               >
                 {isCrawling ? (
                   <>
@@ -276,16 +531,233 @@ export default function AdminNewsBotPage() {
                 ) : (
                   <>
                     <Play className="w-4 h-4 fill-white" />
-                    Şimdi Tara &amp; Üret
+                    Şimdi Tara &amp; {countToGenerate} Haber Üret
                   </>
                 )}
               </button>
             </div>
           </div>
         </div>
-      </div>
+      )}
 
-      {/* Crawl Progress Terminal (Shows when running or just finished) */}
+      {/* Tab 2: Live Suggestions */}
+      {activeTab === 'suggestions' && (
+        <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm space-y-6">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+            <div className="space-y-1">
+              <h3 className="font-extrabold text-slate-900 text-sm sm:text-base flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-amber-500" />
+                İnternetteki Canlı Öğretmen &amp; Okul Haberleri
+              </h3>
+              <p className="text-xs text-slate-500">
+                Aşağıdaki önerilerden istediklerinizi seçip tek tıkla üretebilir veya tek tek inceleyebilirsiniz.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2">
+              <button
+                onClick={handleFetchSuggestions}
+                disabled={isFetchingSuggestions || isCrawling}
+                className="flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs px-4 py-2 rounded-2xl transition-all"
+              >
+                <RefreshCw className={`w-3.5 h-3.5 ${isFetchingSuggestions ? 'animate-spin text-indigo-600' : ''}`} />
+                {isFetchingSuggestions ? 'Taranıyor...' : 'Yeniden Tara'}
+              </button>
+
+              {selectedUrls.size > 0 && (
+                <button
+                  onClick={handleGenerateSelected}
+                  disabled={isCrawling}
+                  className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-xs px-4 py-2 rounded-2xl shadow-md transition-all"
+                >
+                  <Send className="w-3.5 h-3.5" />
+                  Seçilenleri Üret ({selectedUrls.size})
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Filters & Search for Suggestions */}
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div className="relative w-full sm:w-80">
+              <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+              <input
+                type="text"
+                placeholder="Öneriler içinde ara..."
+                value={suggestionSearch}
+                onChange={(e) => setSuggestionSearch(e.target.value)}
+                className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-xs pl-9 pr-3 py-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              />
+            </div>
+
+            <div className="flex items-center gap-2 w-full sm:w-auto justify-between sm:justify-end">
+              <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-xl text-xs font-bold">
+                <button
+                  onClick={() => setSuggestionsFilter('only_new')}
+                  className={`px-3 py-1 rounded-lg transition-all ${
+                    suggestionsFilter === 'only_new' ? 'bg-white text-indigo-700 shadow-sm' : 'text-slate-600'
+                  }`}
+                >
+                  Sadece Yeniler ({suggestions.filter((s) => !s.isDuplicate).length})
+                </button>
+                <button
+                  onClick={() => setSuggestionsFilter('all')}
+                  className={`px-3 py-1 rounded-lg transition-all ${
+                    suggestionsFilter === 'all' ? 'bg-white text-indigo-700 shadow-sm' : 'text-slate-600'
+                  }`}
+                >
+                  Tümü ({suggestions.length})
+                </button>
+              </div>
+
+              <button
+                onClick={toggleSelectAll}
+                className="text-xs font-bold text-indigo-600 hover:text-indigo-800 px-2 py-1"
+              >
+                {selectedUrls.size > 0 && selectedUrls.size === filteredSuggestions.filter((s) => !s.isDuplicate).length
+                  ? 'Seçimi Kaldır'
+                  : 'Tümünü Seç'}
+              </button>
+            </div>
+          </div>
+
+          {/* Suggestions List */}
+          {isFetchingSuggestions ? (
+            <div className="p-16 text-center text-slate-400 space-y-3">
+              <RefreshCw className="w-8 h-8 animate-spin mx-auto text-indigo-500" />
+              <p className="text-xs font-bold">Eğitim portalları taranıyor ve öneriler analiz ediliyor...</p>
+            </div>
+          ) : filteredSuggestions.length === 0 ? (
+            <div className="p-12 text-center text-slate-500 space-y-2">
+              <AlertCircle className="w-8 h-8 mx-auto text-amber-500" />
+              <p className="text-xs font-bold">Uygun haber önerisi bulunamadı.</p>
+              <button
+                onClick={handleFetchSuggestions}
+                className="text-indigo-600 font-bold text-xs underline"
+              >
+                Haberleri Yeniden Tara
+              </button>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {filteredSuggestions.map((item, idx) => {
+                const isSelected = selectedUrls.has(item.link);
+                const isGeneratingThis = generatingSingleUrl === item.link;
+
+                return (
+                  <div
+                    key={idx}
+                    className={`rounded-2xl border p-4 transition-all flex flex-col justify-between space-y-3 ${
+                      item.isDuplicate
+                        ? 'bg-slate-50/70 border-slate-200 opacity-70'
+                        : isSelected
+                        ? 'bg-indigo-50/50 border-indigo-300 shadow-sm ring-1 ring-indigo-300'
+                        : 'bg-white border-slate-200 hover:border-indigo-200 hover:shadow-md'
+                    }`}
+                  >
+                    <div className="flex gap-3">
+                      {/* Checkbox (if not duplicate) */}
+                      {!item.isDuplicate && (
+                        <button
+                          type="button"
+                          onClick={() => toggleSelectUrl(item.link)}
+                          className="mt-1 text-slate-400 hover:text-indigo-600 shrink-0"
+                        >
+                          {isSelected ? (
+                            <CheckSquare className="w-5 h-5 text-indigo-600 fill-indigo-50" />
+                          ) : (
+                            <Square className="w-5 h-5" />
+                          )}
+                        </button>
+                      )}
+
+                      {/* Thumbnail */}
+                      <div className="w-16 h-14 rounded-xl overflow-hidden bg-slate-100 border border-slate-200 shrink-0">
+                        {item.imageUrl ? (
+                          <img src={item.imageUrl} alt="" className="w-full h-full object-cover" />
+                        ) : (
+                          <div className="w-full h-full flex items-center justify-center text-slate-400">
+                            <Newspaper className="w-4 h-4" />
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Info */}
+                      <div className="space-y-1 min-w-0 flex-1">
+                        <div className="flex items-center gap-2">
+                          <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">
+                            {item.source}
+                          </span>
+                          {item.isDuplicate ? (
+                            <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-200 flex items-center gap-1">
+                              <CheckCircle2 className="w-3 h-3" />
+                              Sitede Yayında
+                            </span>
+                          ) : (
+                            <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-200">
+                              Yeni Fırsat
+                            </span>
+                          )}
+                        </div>
+
+                        <h4 className="font-bold text-xs sm:text-sm text-slate-900 line-clamp-2 leading-snug">
+                          {item.title}
+                        </h4>
+
+                        {item.description && (
+                          <p className="text-[11px] text-slate-500 line-clamp-2">
+                            {item.description}
+                          </p>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Bottom Actions */}
+                    <div className="flex items-center justify-between pt-2 border-t border-slate-100 text-xs">
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-slate-400 hover:text-indigo-600 flex items-center gap-1 text-[11px]"
+                      >
+                        Kaynağı Gör <ExternalLink className="w-3 h-3" />
+                      </a>
+
+                      {!item.isDuplicate ? (
+                        <button
+                          type="button"
+                          onClick={() => handleGenerateSingle(item)}
+                          disabled={isCrawling}
+                          className="bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-xs px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all shadow-sm disabled:opacity-50"
+                        >
+                          {isGeneratingThis ? (
+                            <>
+                              <RefreshCw className="w-3 h-3 animate-spin" />
+                              Yazılıyor...
+                            </>
+                          ) : (
+                            <>
+                              <Sparkles className="w-3 h-3" />
+                              Hemen Üret
+                            </>
+                          )}
+                        </button>
+                      ) : (
+                        <span className="text-[11px] text-emerald-600 font-bold flex items-center gap-1">
+                          <CheckCircle2 className="w-3.5 h-3.5" />
+                          Zaten Eklendi
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Terminal Progress Log */}
       {crawlProgress.length > 0 && (
         <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 text-xs font-mono space-y-2 shadow-lg">
           <div className="flex items-center justify-between pb-2 border-b border-slate-800 text-slate-400 font-bold uppercase tracking-wider text-[11px]">
@@ -318,59 +790,119 @@ export default function AdminNewsBotPage() {
         </div>
       )}
 
-      {/* Stats Cards */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-1">
-          <div className="flex items-center justify-between text-slate-500 text-xs font-bold">
-            <span>Taranan Portallar</span>
-            <Newspaper className="w-4 h-4 text-indigo-500" />
+      {/* SUCCESS BANNER: Newly Generated Articles */}
+      {lastGeneratedArticles.length > 0 && (
+        <div className="bg-gradient-to-r from-emerald-500/10 via-teal-500/10 to-emerald-500/10 border-2 border-emerald-500/30 rounded-3xl p-6 space-y-4 shadow-sm">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2.5 text-emerald-800">
+              <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center font-bold text-emerald-600">
+                ✓
+              </div>
+              <div>
+                <h3 className="font-black text-sm sm:text-base">
+                  Haber Başarıyla Üretildi ve Yayına Alındı!
+                </h3>
+                <p className="text-xs text-emerald-700">
+                  Aşağıdaki butonlara tıklayarak doğrudan sitede canlı inceleyebilir veya düzenleyebilirsiniz:
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={() => setLastGeneratedArticles([])}
+              className="text-xs font-bold text-emerald-700 hover:text-emerald-900"
+            >
+              Kapat ✕
+            </button>
           </div>
-          <div className="text-2xl font-black text-slate-900">5 Aktif Portal</div>
-          <p className="text-[11px] text-slate-400">MEB, KamudanHaber, AjansKamu, vb.</p>
-        </div>
 
-        <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-1">
-          <div className="flex items-center justify-between text-slate-500 text-xs font-bold">
-            <span>Toplam Çekilen</span>
-            <Radio className="w-4 h-4 text-indigo-500" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+            {lastGeneratedArticles.map((art) => (
+              <div
+                key={art.id}
+                className="bg-white rounded-2xl p-4 border border-emerald-200 shadow-sm flex items-center justify-between gap-3"
+              >
+                <div className="flex items-center gap-3 min-w-0">
+                  <div className="w-12 h-12 rounded-xl overflow-hidden bg-slate-100 shrink-0">
+                    <img src={art.image} alt="" className="w-full h-full object-cover" />
+                  </div>
+                  <div className="min-w-0 space-y-0.5">
+                    <span className="px-2 py-0.5 rounded-full text-[9px] font-bold bg-emerald-100 text-emerald-800">
+                      {art.status}
+                    </span>
+                    <h4 className="font-extrabold text-xs text-slate-900 truncate">
+                      {art.title}
+                    </h4>
+                    <p className="text-[10px] font-mono text-indigo-600 truncate">
+                      /post/{art.slug}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2 shrink-0">
+                  <Link
+                    href={`/post/${art.slug}`}
+                    target="_blank"
+                    className="flex items-center gap-1 bg-indigo-600 text-white text-xs font-bold px-3 py-1.5 rounded-xl hover:bg-indigo-700 transition-colors shadow-sm"
+                  >
+                    Sitede Gör <ArrowUpRight className="w-3.5 h-3.5" />
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Stats Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
+        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-1">
+          <div className="text-slate-400 text-xs font-medium flex items-center gap-1.5">
+            <Newspaper className="w-4 h-4 text-indigo-500" />
+            Toplam Taranan Haber
           </div>
           <div className="text-2xl font-black text-slate-900">{history.length}</div>
-          <p className="text-[11px] text-slate-400">Deduplication kayıtlı</p>
         </div>
 
-        <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-1">
-          <div className="flex items-center justify-between text-slate-500 text-xs font-bold">
-            <span>Yayındaki Haberler</span>
+        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-1">
+          <div className="text-slate-400 text-xs font-medium flex items-center gap-1.5">
             <CheckCircle2 className="w-4 h-4 text-emerald-500" />
+            Canlıda Yayında
           </div>
           <div className="text-2xl font-black text-emerald-600">{publishedCount}</div>
-          <p className="text-[11px] text-emerald-600/70 font-medium">Google &amp; Keşfet'e açık</p>
         </div>
 
-        <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-1">
-          <div className="flex items-center justify-between text-slate-500 text-xs font-bold">
-            <span>Bekleyen Taslaklar</span>
+        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-1">
+          <div className="text-slate-400 text-xs font-medium flex items-center gap-1.5">
             <Clock className="w-4 h-4 text-amber-500" />
+            Taslak Olarak Bekleyen
           </div>
           <div className="text-2xl font-black text-amber-600">{draftCount}</div>
-          <p className="text-[11px] text-slate-400">Onay bekleyen haberler</p>
+        </div>
+
+        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-1">
+          <div className="text-slate-400 text-xs font-medium flex items-center gap-1.5">
+            <Shield className="w-4 h-4 text-indigo-500" />
+            Otomatik Yayın Modu
+          </div>
+          <div className="text-sm font-extrabold text-slate-800">
+            {publishMode === 'published' ? 'Otomatik Yayında' : 'Taslak Modu'}
+          </div>
         </div>
       </div>
 
-      {/* Main Table Section */}
-      <div className="bg-white rounded-3xl border border-slate-200/80 shadow-sm overflow-hidden">
-        {/* Table Filter Tabs */}
-        <div className="p-5 border-b border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-slate-50/50">
+      {/* News Management Table */}
+      <div className="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
+        {/* Table Filter Header */}
+        <div className="p-6 border-b border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
-              <Filter className="w-3.5 h-3.5 text-indigo-600" />
-              Filtrele:
-            </span>
-            <div className="inline-flex p-1 bg-slate-200/70 rounded-xl text-xs font-bold">
+            <h2 className="text-base font-extrabold text-slate-900">
+              Taranan &amp; Üretilen Tüm Haberler
+            </h2>
+            <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-xl text-xs font-bold">
               <button
                 onClick={() => setFilter('all')}
                 className={`px-3 py-1 rounded-lg transition-all ${
-                  filter === 'all' ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'
+                  filter === 'all' ? 'bg-white text-indigo-700 shadow-sm' : 'text-slate-600 hover:text-slate-900'
                 }`}
               >
                 Tümü ({history.length})
@@ -518,34 +1050,49 @@ export default function AdminNewsBotPage() {
                           }`}
                           title="Tıkla ve durumu değiştir"
                         >
-                          <span className={`w-1.5 h-1.5 rounded-full ${isPub ? 'bg-emerald-500' : 'bg-amber-500'}`} />
-                          {togglingId === item.id ? '...' : (isPub ? 'Yayında' : 'Taslak')}
+                          {togglingId === item.id ? (
+                            <RefreshCw className="w-3 h-3 animate-spin" />
+                          ) : isPub ? (
+                            <>
+                              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                              Yayında
+                            </>
+                          ) : (
+                            <>
+                              <span className="w-1.5 h-1.5 rounded-full bg-amber-500" />
+                              Taslak
+                            </>
+                          )}
                         </button>
                       </td>
 
                       {/* Actions */}
-                      <td className="py-3.5 px-4 align-top text-right">
-                        <div className="flex items-center justify-end gap-1.5">
-                          {slug && (
-                            <Link
-                              href={`/post/${slug}`}
-                              target="_blank"
-                              className="p-1.5 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors"
-                              title="Sitede Görüntüle"
-                            >
-                              <Eye className="w-4 h-4" />
-                            </Link>
-                          )}
-
-                          <button
-                            onClick={() => handleDeleteItem(item.id, title)}
-                            disabled={deletingId === item.id}
-                            className="p-1.5 text-slate-400 hover:text-rose-600 hover:bg-rose-50 rounded-lg transition-colors"
-                            title="Siteden ve Listeden Kaldır / Sil"
+                      <td className="py-3.5 px-4 align-top text-right space-x-2">
+                        {slug && (
+                          <Link
+                            href={`/post/${slug}`}
+                            target="_blank"
+                            className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl bg-slate-100 hover:bg-indigo-50 text-slate-700 hover:text-indigo-600 transition-colors font-bold text-[11px]"
+                            title="Sitede Görüntüle"
                           >
-                            <Trash2 className="w-4 h-4" />
-                          </button>
-                        </div>
+                            <Eye className="w-3.5 h-3.5" />
+                            Gör
+                          </Link>
+                        )}
+
+                        <button
+                          onClick={() => handleDeleteItem(item.id, title)}
+                          disabled={deletingId === item.id}
+                          className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl bg-rose-50 hover:bg-rose-100 text-rose-600 hover:text-rose-700 transition-colors font-bold text-[11px] disabled:opacity-50"
+                          title="Haberi ve Sitedeki Yazıyı Tamamen Sil"
+                        >
+                          {deletingId === item.id ? (
+                            <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                          ) : (
+                            <Trash2 className="w-3.5 h-3.5" />
+                          )}
+                          Sil
+                        </button>
                       </td>
                     </tr>
                   );

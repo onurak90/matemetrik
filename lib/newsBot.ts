@@ -15,7 +15,20 @@ export const NEWS_SOURCES: NewsSource[] = [
   { name: 'Kamudan Haber', url: 'https://www.kamudanhaber.net/rss' },
   { name: 'Kamu Personeli', url: 'https://www.kamupersoneli.net/rss' },
   { name: 'Ajans Kamu', url: 'https://www.ajanskamu.net/rss' },
-  { name: 'Google Haberler (Öğretmen & MEB)', url: 'https://news.google.com/rss/search?q=%C3%B6%C4%9Fretmen+OR+MEB+OR+okul&hl=tr&gl=TR&ceid=TR:tr' },
+  { name: 'Google Haberler (Öğretmen)', url: 'https://news.google.com/rss/search?q=%C3%B6%C4%9Fretmen&hl=tr&gl=TR&ceid=TR:tr' },
+  { name: 'Google Haberler (Milli Eğitim Bakanlığı)', url: 'https://news.google.com/rss/search?q=milli+e%C4%9Fitim+bakanl%C4%B1%C4%9F%C4%B1&hl=tr&gl=TR&ceid=TR:tr' },
+  { name: 'Google Haberler (MEB Okul & Tatil)', url: 'https://news.google.com/rss/search?q=meb+okul+tatil&hl=tr&gl=TR&ceid=TR:tr' },
+  { name: 'Google Haberler (Öğretmen Atama & Haklar)', url: 'https://news.google.com/rss/search?q=%C3%B6%C4%9Fretmen+atama+ek+ders&hl=tr&gl=TR&ceid=TR:tr' },
+];
+
+export const FALLBACK_EDUCATION_IMAGES = [
+  'https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop', // classroom teacher
+  'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1200&auto=format&fit=crop', // school books
+  'https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1200&auto=format&fit=crop', // classroom desks
+  'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=1200&auto=format&fit=crop', // students studying
+  'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop', // teacher seminar
+  'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1200&auto=format&fit=crop', // study exam
+  'https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=1200&auto=format&fit=crop', // school teacher
 ];
 
 export const TEACHER_KEYWORDS = [
@@ -246,7 +259,8 @@ export async function resolveArticleImage(link: string, fallbackUrl = ''): Promi
   } catch {}
 
   // Fallback to high-quality educational cover if source site provided no image
-  return 'https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop';
+  const hash = Math.abs(link.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0));
+  return FALLBACK_EDUCATION_IMAGES[hash % FALLBACK_EDUCATION_IMAGES.length];
 }
 
 /**
@@ -307,7 +321,11 @@ Sadece ve sadece geçerli bir JSON objesi döndür. Kod bloğu (\`\`\`json) kull
  * Run a full crawl cycle:
  * Scans sources, filters news, rewrites the best unvisited article, and publishes it.
  */
-export async function runNewsCrawlCycle(options: { maxArticles?: number; forcePublish?: boolean } = {}) {
+export async function runNewsCrawlCycle(options: {
+  maxArticles?: number;
+  forcePublish?: boolean;
+  selectedItems?: FeedItem[];
+} = {}) {
   const maxToProcess = options.maxArticles || 1;
   const settings = getSettings();
   const publishMode = options.forcePublish !== undefined
@@ -324,12 +342,24 @@ export async function runNewsCrawlCycle(options: { maxArticles?: number; forcePu
 
   console.log('[NewsBot] Starting automated teacher & school news crawl cycle...');
 
-  // 1. Gather all feeds
-  const allItems: FeedItem[] = [];
-  for (const source of NEWS_SOURCES) {
-    const items = await fetchFeedItems(source);
-    results.scanned += items.length;
-    allItems.push(...items);
+  let candidateItems: FeedItem[] = [];
+
+  if (options.selectedItems && options.selectedItems.length > 0) {
+    candidateItems = options.selectedItems;
+    results.scanned = candidateItems.length;
+    results.matched = candidateItems.length;
+  } else {
+    // 1. Gather all feeds
+    const allItems: FeedItem[] = [];
+    for (const source of NEWS_SOURCES) {
+      const items = await fetchFeedItems(source);
+      results.scanned += items.length;
+      allItems.push(...items);
+    }
+
+    // 2. Filter relevant items (containing teacher, school, MEB keywords)
+    candidateItems = allItems.filter(isRelevantNews);
+    results.matched = candidateItems.length;
   }
 
   // Pre-fetch persistent blob history for robust deduplication across serverless lambdas
@@ -339,10 +369,6 @@ export async function runNewsCrawlCycle(options: { maxArticles?: number; forcePu
   } catch {}
   const existingBlobUrls = new Set<string>(existingBlobNews.map((n: any) => n.source_url).filter(Boolean));
   const existingBlobSlugs = new Set<string>(existingBlobNews.map((n: any) => n.post_slug).filter(Boolean));
-
-  // 2. Filter relevant items (containing teacher, school, MEB keywords)
-  const candidateItems = allItems.filter(isRelevantNews);
-  results.matched = candidateItems.length;
 
   console.log(`[NewsBot] Scanned ${results.scanned} items, found ${results.matched} candidates matching teacher/school topics.`);
 
@@ -453,4 +479,40 @@ export async function runNewsCrawlCycle(options: { maxArticles?: number; forcePu
   }
 
   return results;
+}
+
+/**
+ * Retrieve suggested news items with deduplication status for user preview and selective generation
+ */
+export async function getNewsSuggestions(limit = 40): Promise<Array<FeedItem & { isDuplicate: boolean }>> {
+  const allItems: FeedItem[] = [];
+  for (const source of NEWS_SOURCES) {
+    try {
+      const items = await fetchFeedItems(source);
+      allItems.push(...items);
+    } catch {}
+  }
+
+  let existingBlobNews: any[] = [];
+  try {
+    existingBlobNews = await fetchCrawledNewsFromBlob();
+  } catch {}
+  const existingBlobUrls = new Set<string>(existingBlobNews.map((n: any) => n.source_url).filter(Boolean));
+  const existingBlobSlugs = new Set<string>(existingBlobNews.map((n: any) => n.post_slug).filter(Boolean));
+
+  const relevant = allItems.filter(isRelevantNews);
+
+  const seenUrls = new Set<string>();
+  const uniqueItems: FeedItem[] = [];
+  for (const item of relevant) {
+    if (!seenUrls.has(item.link)) {
+      seenUrls.add(item.link);
+      uniqueItems.push(item);
+    }
+  }
+
+  return uniqueItems.slice(0, limit).map((item) => ({
+    ...item,
+    isDuplicate: isDuplicate(item, existingBlobUrls, existingBlobSlugs),
+  }));
 }

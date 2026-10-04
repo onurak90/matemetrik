@@ -12,7 +12,7 @@ import PostSlider from '@/components/home/PostSlider';
 import FaqSection from '@/components/home/FaqSection';
 import DynamicMathHero from '@/components/home/DynamicMathHero';
 
-export const revalidate = 3600; // 1 hour edge cache
+export const dynamic = 'force-dynamic';
 
 export default async function HomePage({
   searchParams,
