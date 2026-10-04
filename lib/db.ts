@@ -151,6 +151,24 @@ function initTables(db: Database.Database) {
     CREATE INDEX IF NOT EXISTS idx_page_hits_source ON page_hits(source);
     CREATE INDEX IF NOT EXISTS idx_page_hits_post_id ON page_hits(post_id);
     CREATE INDEX IF NOT EXISTS idx_page_hits_entity_type ON page_hits(entity_type);
+
+    CREATE TABLE IF NOT EXISTS crawled_news (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      source_url TEXT UNIQUE NOT NULL,
+      source_title TEXT NOT NULL,
+      source_site TEXT,
+      source_image TEXT,
+      post_id INTEGER,
+      post_slug TEXT,
+      status TEXT DEFAULT 'published',
+      created_at TEXT
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_crawled_news_url ON crawled_news(source_url);
+    CREATE INDEX IF NOT EXISTS idx_crawled_news_post_id ON crawled_news(post_id);
+
+    INSERT OR IGNORE INTO categories (name, slug, description, icon, color)
+    VALUES ('Eğitim Haberleri', 'egitim-haberleri', 'MEB, öğretmenler, okullar ve eğitim dünyasından en güncel gelişmeler ve son dakika haberleri.', 'Newspaper', '#4f46e5');
   `);
 
   try {
@@ -1219,6 +1237,14 @@ export function updateSetting(key: string, value: string): void {
   db.prepare('INSERT OR REPLACE INTO settings (key, value) VALUES (?, ?)').run(key, value);
 }
 
+export function updateSettings(settings: Record<string, string>): void {
+  const db = getDb();
+  const stmt = db.prepare('INSERT OR REPLACE INTO settings (key, value) VALUES (?, ?)');
+  for (const [k, v] of Object.entries(settings)) {
+    stmt.run(k, String(v));
+  }
+}
+
 export interface LiveSearchResult {
   posts: Array<{
     id: number;
@@ -1758,6 +1784,82 @@ export function deleteComment(id: number): boolean {
   const db = getDb();
   const res = db.prepare('DELETE FROM comments WHERE id = ?').run(id);
   return res.changes > 0;
+}
+
+export interface CrawledNewsRecord {
+  id: number;
+  source_url: string;
+  source_title: string;
+  source_site: string;
+  source_image: string;
+  post_id: number | null;
+  post_slug: string | null;
+  status: string;
+  created_at: string;
+  current_title?: string;
+  post_published?: number;
+  post_views?: number;
+}
+
+export function saveCrawledNews(entry: {
+  source_url: string;
+  source_title: string;
+  source_site?: string;
+  source_image?: string;
+  post_id?: number | null;
+  post_slug?: string | null;
+  status?: string;
+}): void {
+  const db = getDb();
+  const now = new Date().toISOString();
+  db.prepare(`
+    INSERT INTO crawled_news (source_url, source_title, source_site, source_image, post_id, post_slug, status, created_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    ON CONFLICT(source_url) DO UPDATE SET
+      post_id = excluded.post_id,
+      post_slug = excluded.post_slug,
+      status = excluded.status
+  `).run(
+    entry.source_url,
+    entry.source_title,
+    entry.source_site || '',
+    entry.source_image || '',
+    entry.post_id || null,
+    entry.post_slug || null,
+    entry.status || 'published',
+    now
+  );
+}
+
+export function isSourceUrlCrawled(sourceUrl: string): boolean {
+  const db = getDb();
+  const row = db.prepare('SELECT id FROM crawled_news WHERE source_url = ?').get(sourceUrl);
+  return !!row;
+}
+
+export function getCrawledNews(limit = 50): CrawledNewsRecord[] {
+  const db = getDb();
+  const rows = db.prepare(`
+    SELECT cn.*, p.title as current_title, p.is_published as post_published, p.views as post_views
+    FROM crawled_news cn
+    LEFT JOIN posts p ON cn.post_id = p.id
+    ORDER BY cn.id DESC
+    LIMIT ?
+  `).all(limit) as any[];
+  return rows;
+}
+
+export function deleteCrawledNewsItem(id: number, deleteAssociatedPost = false): boolean {
+  const db = getDb();
+  const record = db.prepare('SELECT * FROM crawled_news WHERE id = ?').get(id) as any;
+  if (!record) return false;
+
+  db.prepare('DELETE FROM crawled_news WHERE id = ?').run(id);
+
+  if (deleteAssociatedPost && record.post_id) {
+    deletePost(record.post_id);
+  }
+  return true;
 }
 
 

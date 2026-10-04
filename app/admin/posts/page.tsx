@@ -385,7 +385,7 @@ export default function AdminPostsPage() {
                         />
                       </td>
                       <td className="py-3.5 px-4 max-w-md">
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-2 flex-wrap">
                         {isDraft ? (
                           <span className="px-2 py-0.5 rounded-lg text-[10px] font-black bg-amber-100 text-amber-900 border border-amber-300 shadow-xs shrink-0 flex items-center gap-1">
                             <span>📝</span> TASLAK
@@ -393,6 +393,11 @@ export default function AdminPostsPage() {
                         ) : (
                           <span className="px-2 py-0.5 rounded-lg text-[10px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-200 shrink-0 flex items-center gap-1">
                             <span>🌐</span> YAYINDA
+                          </span>
+                        )}
+                        {(Array.isArray(post.tags) && post.tags.some((t: string) => t.toLowerCase().includes('haber') || t.toLowerCase().includes('bot'))) && (
+                          <span className="px-2 py-0.5 rounded-lg text-[10px] font-bold bg-indigo-50 text-indigo-800 border border-indigo-200 shrink-0 flex items-center gap-1">
+                            <span>🤖</span> OTO HABER
                           </span>
                         )}
                         <div className="font-semibold text-slate-900 line-clamp-1">
