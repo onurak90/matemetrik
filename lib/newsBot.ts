@@ -1,6 +1,6 @@
 import { getDb, createPost, getSettings, isSourceUrlCrawled, saveCrawledNews } from './db';
 import { Post } from './types';
-import { saveDynamicPostToBlob } from './blobSync';
+import { saveDynamicPostToBlob, saveCrawledNewsToBlob, fetchCrawledNewsFromBlob } from './blobSync';
 import { callGeminiApi } from './gemini';
 import { slugify } from './utils';
 import { revalidatePath } from 'next/cache';
@@ -148,16 +148,29 @@ export function isRelevantNews(item: FeedItem): boolean {
 /**
  * Check if a news article is duplicate based on URL or title similarity
  */
-export function isDuplicate(item: FeedItem): boolean {
+export function isDuplicate(
+  item: FeedItem,
+  existingBlobUrls?: Set<string>,
+  existingBlobSlugs?: Set<string>
+): boolean {
+  // 0. Check Blob memory set (for multi-container persistence)
+  if (existingBlobUrls && existingBlobUrls.has(item.link)) {
+    return true;
+  }
+
   // 1. Check crawled_news table by source URL
   if (isSourceUrlCrawled(item.link)) {
+    return true;
+  }
+
+  const candidateSlug = slugify(item.title);
+  if (existingBlobSlugs && existingBlobSlugs.has(candidateSlug)) {
     return true;
   }
 
   const db = getDb();
 
   // 2. Check posts table by slugify title
-  const candidateSlug = slugify(item.title);
   const exactPost = db.prepare('SELECT id FROM posts WHERE slug = ? LIMIT 1').get(candidateSlug);
   if (exactPost) return true;
 
@@ -319,6 +332,14 @@ export async function runNewsCrawlCycle(options: { maxArticles?: number; forcePu
     allItems.push(...items);
   }
 
+  // Pre-fetch persistent blob history for robust deduplication across serverless lambdas
+  let existingBlobNews: any[] = [];
+  try {
+    existingBlobNews = await fetchCrawledNewsFromBlob();
+  } catch {}
+  const existingBlobUrls = new Set<string>(existingBlobNews.map((n: any) => n.source_url).filter(Boolean));
+  const existingBlobSlugs = new Set<string>(existingBlobNews.map((n: any) => n.post_slug).filter(Boolean));
+
   // 2. Filter relevant items (containing teacher, school, MEB keywords)
   const candidateItems = allItems.filter(isRelevantNews);
   results.matched = candidateItems.length;
@@ -331,7 +352,7 @@ export async function runNewsCrawlCycle(options: { maxArticles?: number; forcePu
       break;
     }
 
-    if (isDuplicate(item)) {
+    if (isDuplicate(item, existingBlobUrls, existingBlobSlugs)) {
       results.skipped++;
       continue;
     }
@@ -382,6 +403,28 @@ export async function runNewsCrawlCycle(options: { maxArticles?: number; forcePu
         post_slug: newPost.slug,
         status: publishMode === 1 ? 'published' : 'draft',
       });
+
+      // Also persist to Vercel Blob so history is available globally across lambdas and in Admin UI
+      try {
+        await saveCrawledNewsToBlob({
+          id: newPost.id,
+          source_url: item.link,
+          source_title: item.title,
+          source_site: item.source,
+          source_image: resolvedImage,
+          post_id: newPost.id,
+          post_slug: newPost.slug,
+          status: publishMode === 1 ? 'published' : 'draft',
+          created_at: new Date().toISOString().replace('T', ' ').substring(0, 19),
+          current_title: newPost.title,
+          post_published: publishMode,
+          post_views: 0,
+        });
+        existingBlobUrls.add(item.link);
+        if (newPost.slug) existingBlobSlugs.add(newPost.slug);
+      } catch (blobHistErr) {
+        console.error('[NewsBot] Failed to save crawled news entry to Vercel Blob:', blobHistErr);
+      }
 
       // Invalidate edge caches
       try {

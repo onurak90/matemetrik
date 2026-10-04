@@ -234,3 +234,71 @@ export async function syncBlobPostsIntoDb(db: Database.Database, force = false):
     return 0;
   }
 }
+
+const CRAWLED_NEWS_PATH = 'posts-store/crawled-news.json';
+
+export interface CrawledNewsBlobItem {
+  id: number;
+  source_url: string;
+  source_title: string;
+  source_site: string;
+  source_image: string;
+  post_id: number | null;
+  post_slug: string | null;
+  status: string;
+  created_at: string;
+  current_title?: string;
+  post_published?: number;
+  post_views?: number;
+}
+
+export async function fetchCrawledNewsFromBlob(): Promise<CrawledNewsBlobItem[]> {
+  const url = `${BLOB_BASE_URL}/${CRAWLED_NEWS_PATH}`;
+  try {
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) return [];
+    const data = await res.json();
+    return Array.isArray(data) ? data : [];
+  } catch {
+    return [];
+  }
+}
+
+export async function saveCrawledNewsToBlob(entry: CrawledNewsBlobItem): Promise<boolean> {
+  try {
+    let all = await fetchCrawledNewsFromBlob();
+    const existingIndex = all.findIndex((i) => i.source_url === entry.source_url);
+    if (existingIndex >= 0) {
+      all[existingIndex] = { ...all[existingIndex], ...entry };
+    } else {
+      all.unshift(entry);
+    }
+    if (all.length > 200) all = all.slice(0, 200);
+
+    await put(CRAWLED_NEWS_PATH, JSON.stringify(all, null, 2), {
+      access: 'public',
+      addRandomSuffix: false,
+      contentType: 'application/json',
+    });
+    return true;
+  } catch (err) {
+    console.error('[BlobSync] Error saving crawled news to blob:', err);
+    return false;
+  }
+}
+
+export async function deleteCrawledNewsFromBlob(id: number): Promise<boolean> {
+  try {
+    let all = await fetchCrawledNewsFromBlob();
+    all = all.filter((i) => i.id !== id);
+    await put(CRAWLED_NEWS_PATH, JSON.stringify(all, null, 2), {
+      access: 'public',
+      addRandomSuffix: false,
+      contentType: 'application/json',
+    });
+    return true;
+  } catch (err) {
+    console.error('[BlobSync] Error deleting crawled news from blob:', err);
+    return false;
+  }
+}
