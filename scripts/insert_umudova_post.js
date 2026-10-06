@@ -4,7 +4,7 @@ const title = 'Gülnarə M. Umudova İngilis Dili | PDF İndir & Gramer Konu Anl
 const slug = 'gulnare-m-umudova-ingilis-dili-pdf-indir';
 const excerpt = 'Gülnarə M. Umudova İngilis Dili ders kitabı ve gramer test bankası PDF indir. İngilizce zamanlar, isimler, modal fiiller, sıfatlar ve sınavlara hazırlık testleri tek eserde.';
 const featuredImage = '/uploads/gulnare-umudova-ingilis-dili-cover.jpg';
-const pdfUrl = '/uploads/kitaplar/gulnare-umudova-ingilis-dili.pdf';
+const pdfUrl = '/uploads/gulnare-umudova-ingilis-dili.pdf';
 const now = new Date().toISOString();
 
 const content = `
@@ -157,23 +157,21 @@ const tags = JSON.stringify([
   'Magistratura İngilis Dili',
 ]);
 
-const insert = db.prepare(`
-  INSERT INTO posts (title, slug, excerpt, content, featured_image, category, category_slug, tags, author, views, is_published, created_at, updated_at)
-  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 124, 1, ?, ?)
-`);
+const existing = db.prepare('SELECT id FROM posts WHERE slug = ?').get(slug);
 
-insert.run(
-  title,
-  slug,
-  excerpt,
-  content,
-  featuredImage,
-  'Blog',
-  'blog',
-  tags,
-  'Matemetrik Eğitim',
-  now,
-  now
-);
-
-console.log('Post inserted successfully with slug: ' + slug);
+if (existing) {
+  const update = db.prepare(`
+    UPDATE posts 
+    SET title = ?, excerpt = ?, content = ?, featured_image = ?, category = 'Blog', category_slug = 'blog', tags = ?, updated_at = ?
+    WHERE slug = ?
+  `);
+  update.run(title, excerpt, content, featuredImage, tags, now, slug);
+  console.log('Post updated successfully with slug: ' + slug);
+} else {
+  const insert = db.prepare(`
+    INSERT INTO posts (title, slug, excerpt, content, featured_image, category, category_slug, tags, author, views, is_published, created_at, updated_at)
+    VALUES (?, ?, ?, ?, ?, 'Blog', 'blog', ?, 'Matemetrik Eğitim', 124, 1, ?, ?)
+  `);
+  insert.run(title, slug, excerpt, content, featuredImage, tags, now, now);
+  console.log('Post inserted successfully with slug: ' + slug);
+}

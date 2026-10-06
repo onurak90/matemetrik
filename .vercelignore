@@ -4,7 +4,8 @@ node_modules
 .git
 .vercel
 
-# Folders not tracked in git
-kitaplar
-scratch
+# Root folders not needed in deployment
+/kitaplar/
+scratch/
 *.log
+!public/uploads/**
