@@ -1,11 +1,23 @@
 import { NextResponse } from 'next/server';
-import { GREEK_BOOKS, GREEK_LEVELS } from '@/lib/greekEducationData';
+import fs from 'fs';
+import path from 'path';
+import { GREEK_BOOKS } from '@/lib/greekEducationData';
 import { getGreekNews } from '@/lib/greekNews';
 
 export const revalidate = 3600; // 1 hour
 
-export async function GET() {
+function generateXml(): string {
+  const filePath = path.join(process.cwd(), 'public/sitemap-gr.xml');
+  if (fs.existsSync(filePath)) {
+    try {
+      return fs.readFileSync(filePath, 'utf8');
+    } catch {
+      // fallback to dynamic generation below
+    }
+  }
+
   const baseUrl = 'https://www.matemetrik.com';
+  const today = new Date().toISOString().split('T')[0];
 
   const urls: Array<{ loc: string; changefreq: string; priority: string }> = [
     { loc: `${baseUrl}/gr`, changefreq: 'daily', priority: '1.0' },
@@ -16,7 +28,6 @@ export async function GET() {
     { loc: `${baseUrl}/gr/eidiseis`, changefreq: 'daily', priority: '0.9' },
   ];
 
-  // Books and page solutions
   for (const book of GREEK_BOOKS) {
     urls.push({
       loc: `${baseUrl}/gr/vivlia/${book.gradeSlug}/${book.subjectSlug}`,
@@ -32,37 +43,39 @@ export async function GET() {
     }
   }
 
-  // Live Greek News articles
-  try {
-    const news = await getGreekNews(50);
-    for (const item of news) {
-      urls.push({
-        loc: `${baseUrl}/gr/eidiseis/${item.slug}`,
-        changefreq: 'daily',
-        priority: '0.8',
-      });
-    }
-  } catch {
-    // ignore
-  }
-
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+  return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
   .map(
     (u) => `  <url>
     <loc>${u.loc}</loc>
+    <lastmod>${today}</lastmod>
     <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority}</priority>
   </url>`
   )
   .join('\n')}
 </urlset>`;
+}
 
+export async function GET() {
+  const xml = generateXml();
   return new NextResponse(xml, {
     status: 200,
     headers: {
-      'Content-Type': 'application/xml; charset=utf-8',
+      'Content-Type': 'application/xml',
+      'Cache-Control': 'public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400',
+    },
+  });
+}
+
+export async function HEAD() {
+  const xml = generateXml();
+  return new NextResponse(null, {
+    status: 200,
+    headers: {
+      'Content-Type': 'application/xml',
+      'Content-Length': Buffer.byteLength(xml, 'utf8').toString(),
       'Cache-Control': 'public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400',
     },
   });
