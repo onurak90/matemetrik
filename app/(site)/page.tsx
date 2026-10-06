@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {
   Search, BookOpen, Sparkles, GraduationCap,
   FileText, Award, ArrowRight, CheckCircle2,
-  TrendingUp, Compass, ArrowUpRight, Calendar, Users, Calculator
+  TrendingUp, Compass, ArrowUpRight, Calendar, Users, Calculator, Zap
 } from 'lucide-react';
 import { getDb, getPosts, getCategories, getTopPosts, getMebBookMasterPosts } from '@/lib/db';
 import { syncBlobPostsIntoDb } from '@/lib/blobSync';
@@ -63,10 +63,10 @@ export default async function HomePage({
 
   return (
     <div className="space-y-16 pb-20">
-      {/* Dynamic 3D Math Hero Section */}
+      {/* 1. Dynamic 3D Math Hero Section (Animated Greeting) */}
       <DynamicMathHero searchQuery={searchQuery} />
 
-      {/* Compact Grade Level Navigation (1. Sınıf - 12. Sınıf, ALES & YDS) */}
+      {/* 2. Compact Grade Level Navigation (1. Sınıf - 12. Sınıf, ALES & YDS) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 sm:-mt-20 relative z-10">
         <div className="bg-white rounded-2xl p-4 sm:p-5 shadow-xl shadow-slate-900/5 border border-slate-200/80">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3 pb-2.5 border-b border-slate-100">
@@ -107,265 +107,43 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* 2026-2027 MEB Ders Kitabı Cevapları Showcase Section */}
-      {mebBooks.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-6 sm:p-8 text-white shadow-xl border border-indigo-900/50">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-6 border-b border-white/10">
-              <div>
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-wider bg-indigo-500/30 text-indigo-200 border border-indigo-400/30">
-                    2026 - 2027 GÜNCEL
-                  </span>
-                  <span className="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
-                    MEB DERS KİTAPLARI
-                  </span>
-                </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight">
-                  MEB Ders Kitabı Cevapları (Tüm Sınıf ve Dersler)
-                </h2>
-                <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl">
-                  Milli Eğitim Bakanlığı ders kitaplarında yer alan tüm ünite, alıştırma, sıra sizde ve ölçme değerlendirme sorularının sayfa sayfa adım adım doğrulanmış çözümleri.
-                </p>
-              </div>
-              <Link
-                href="/kategori/meb-ders-kitabi-cevaplari"
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white text-indigo-950 text-xs font-bold hover:bg-indigo-50 transition-colors shrink-0 shadow-sm"
-              >
-                Tüm Kitapları İncele &rarr;
-              </Link>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-              {[
-                { slug: '6-sinif', name: '6. Sınıf', count: 'Matematik' },
-                { slug: '7-sinif', name: '7. Sınıf', count: 'Matematik' },
-                { slug: '9-sinif', name: '9. Sınıf', count: '7 Ders' },
-                { slug: '10-sinif', name: '10. Sınıf', count: '6 Ders' },
-                { slug: '11-sinif', name: '11. Sınıf', count: '6 Ders' },
-              ].map((g) => {
-                const groupBooks = mebBooks.filter((b) => b.category_slug === g.slug);
-                if (groupBooks.length === 0) return null;
-
-                return (
-                  <div key={g.slug} className="bg-white/5 rounded-2xl p-4 sm:p-5 border border-white/10 space-y-3 flex flex-col justify-between">
-                    <div>
-                      <div className="flex items-center justify-between pb-2.5 mb-2.5 border-b border-white/10">
-                        <div className="flex items-center gap-2">
-                          <span className="w-2.5 h-2.5 rounded-full bg-indigo-400"></span>
-                          <h3 className="text-sm sm:text-base font-bold text-white tracking-wide">
-                            {g.name} Kitapları
-                          </h3>
-                        </div>
-                        <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-400/20">
-                          {g.count}
-                        </span>
-                      </div>
-
-                      <div className="space-y-2">
-                        {groupBooks.map((book) => {
-                          let shortName = book.title
-                            .replace(/^2026-2027\s*MEB\s*/i, '')
-                            .replace(/\s*Ders Kitabı Cevapları\s*/i, '')
-                            .replace(/\s*Çalışma Kitabı Cevapları\s*/i, '')
-                            .trim();
-                          
-                          if (book.title.includes('9. Sınıf 1. Kitap') || (book.category_slug === '9-sinif' && shortName.startsWith('Matematik') && !book.title.includes('2. Kitap'))) {
-                            shortName = '9. Sınıf Matematik (1. Kitap)';
-                          } else if (book.title.includes('9. Sınıf 2. Kitap')) {
-                            shortName = '9. Sınıf Matematik (2. Kitap)';
-                          } else if (book.title.includes('Temel Matematik')) {
-                            shortName = '11. Sınıf Temel Matematik';
-                          } else {
-                            const m = shortName.match(/^(.*?)\s*\((.*?)\)$/);
-                            if (m) {
-                              shortName = `${m[2]} ${m[1]}`;
-                            }
-                          }
-
-                          return (
-                            <Link
-                              key={book.id}
-                              href={`/post/${book.slug}`}
-                              className="flex items-center justify-between px-3.5 py-2 rounded-xl bg-white/5 hover:bg-indigo-600 border border-white/10 hover:border-indigo-400 text-xs sm:text-sm font-medium text-slate-200 hover:text-white transition-all group shadow-sm"
-                            >
-                              <span className="truncate">{shortName}</span>
-                              <ArrowRight className="w-3.5 h-3.5 text-indigo-400 group-hover:text-white group-hover:translate-x-0.5 transition-transform shrink-0 ml-2" />
-                            </Link>
-                          );
-                        })}
-                      </div>
-                    </div>
-
-                    <div className="pt-2">
-                      <Link
-                        href={`/kategori/${g.slug}`}
-                        className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-300 hover:text-white transition-colors"
-                      >
-                        Tüm {g.name} Çözümleri &rarr;
-                      </Link>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Interactive Tools Showcase Banner */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Featured: LGS & YKS Puan Hesaplama Robotu */}
-          <div className="md:col-span-2 relative overflow-hidden bg-gradient-to-r from-slate-900 via-indigo-950 to-rose-950 rounded-3xl p-8 sm:p-10 text-white flex flex-col md:flex-row items-start md:items-center justify-between gap-6 shadow-xl border border-rose-500/20 group">
-            <div className="space-y-3 max-w-2xl">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/20 text-rose-300 text-xs font-bold border border-rose-400/30">
-                <Calculator className="w-3.5 h-3.5" /> 2026-2027 MEB &amp; ÖSYM Güncel Katsayıları
-              </div>
-              <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
-                LGS &amp; YKS Puan Hesaplama Robotu
-              </h3>
-              <p className="text-slate-300 text-sm leading-relaxed">
-                8. Sınıf LGS ile YKS (TYT, AYT Sayısal, Eşit Ağırlık, Sözel, YDT) netlerinizi girin; 3 yanlış 1 doğru, 4 yanlış 1 doğru, OBP ve Kırık OBP formülleriyle yerleştirme puanınızı ve tahmini yüzdelik diliminizi anında hesaplayın.
-              </p>
-              <div className="pt-1 flex flex-wrap gap-2 text-xs text-rose-200">
-                <span className="bg-white/10 px-2.5 py-1 rounded-lg">🎯 Hedef Lise Analizi</span>
-                <span className="bg-white/10 px-2.5 py-1 rounded-lg">🎓 OBP &amp; Kırık OBP Katkısı</span>
-                <span className="bg-white/10 px-2.5 py-1 rounded-lg">📊 Sıralama &amp; Yüzdelik Dilim</span>
-              </div>
-            </div>
-            <div className="shrink-0 w-full md:w-auto">
-              <Link
-                href="/puan-hesaplama-robotu"
-                className="w-full md:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gradient-to-r from-rose-500 to-indigo-600 hover:from-rose-600 hover:to-indigo-700 text-white font-bold text-sm rounded-2xl transition-all shadow-lg shadow-rose-600/20 group-hover:scale-105"
-              >
-                <Calculator className="w-4 h-4" />
-                Puanını Hemen Hesapla &rarr;
-              </Link>
-            </div>
-          </div>
-
-          {/* Karne Görüşü Tool */}
-          <div className="relative overflow-hidden bg-gradient-to-br from-indigo-900 to-slate-900 rounded-3xl p-8 text-white flex flex-col justify-between shadow-lg shadow-indigo-950/20 group">
-            <div className="space-y-4">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-semibold border border-indigo-400/30">
-                <Sparkles className="w-3.5 h-3.5" /> e-Okul Uyumlu Öğretmen Asistanı
-              </div>
-              <h3 className="text-2xl font-bold tracking-tight">
-                Karne Görüşü Robotu
-              </h3>
-              <p className="text-slate-300 text-sm leading-relaxed">
-                Dönem sonlarında e-Okul karne yükünü sıfıra indirin. Öğrencinin gelişim düzeyine ve karakterine uygun pedagojik, imla korumalı sonsuz varyasyonlu karne görüşü oluşturun.
-              </p>
-            </div>
-            <div className="pt-6">
-              <Link
-                href="/karne-gorusu-ureticisi"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-indigo-950 font-bold text-xs rounded-xl hover:bg-indigo-50 transition-colors shadow-md"
-              >
-                Karne Görüşü Üret &rarr;
-              </Link>
-            </div>
-          </div>
-
-          {/* Sınav Hazırlama Robotu Tool */}
-          <div className="relative overflow-hidden bg-gradient-to-br from-purple-900 to-slate-900 rounded-3xl p-8 text-white flex flex-col justify-between shadow-lg shadow-purple-950/20 group">
-            <div className="space-y-4">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-500/20 text-purple-300 text-xs font-semibold border border-purple-400/30">
-                <FileText className="w-3.5 h-3.5" /> Resmi MEB Formatında
-              </div>
-              <h3 className="text-2xl font-bold tracking-tight">
-                Sınav Hazırlama Robotu
-              </h3>
-              <p className="text-slate-300 text-sm leading-relaxed">
-                Soru fotoğraflarınızı veya metinlerinizi peş peşe yükleyin, çift sütunlu MEB ortak sınav standartlarına %100 uyumlu hazır PDF yazılı kağıdınızı tek tıkla indirin.
-              </p>
-            </div>
-            <div className="pt-6">
-              <Link
-                href="/sinav-hazirlama-robotu"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-purple-950 font-bold text-xs rounded-xl hover:bg-purple-50 transition-colors shadow-md"
-              >
-                Sınav Kağıdı Oluştur &rarr;
-              </Link>
-            </div>
-          </div>
-
-          {/* Yıllık Plan Hazırlama Tool */}
-          <div className="relative overflow-hidden bg-gradient-to-br from-emerald-900 to-slate-900 rounded-3xl p-8 text-white flex flex-col justify-between shadow-lg shadow-emerald-950/20 group">
-            <div className="space-y-4">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-semibold border border-emerald-400/30">
-                <Calendar className="w-3.5 h-3.5" /> Maarif Modeli &amp; LGS Uyumlu
-              </div>
-              <h3 className="text-2xl font-bold tracking-tight">
-                Yıllık Plan Hazırlama Robotu
-              </h3>
-              <p className="text-slate-300 text-sm leading-relaxed">
-                1&apos;den 8&apos;e tüm sınıf ve branşlarda MEB çerçeve yıllık planları. Okul ve öğretmen bilgilerinizi girin, haftalık kazanım ve farklılaştırma tablolarınızı Excel ve yatay A4 PDF formatında anında indirin.
-              </p>
-            </div>
-            <div className="pt-6">
-              <Link
-                href="/yillik-plan-hazirlama"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-emerald-950 font-bold text-xs rounded-xl hover:bg-emerald-50 transition-colors shadow-md"
-              >
-                Yıllık Plan Hazırla &rarr;
-              </Link>
-            </div>
-          </div>
-
-          {/* Kulüp Evrakları & Toplantı Tutanakları Tool */}
-          <div className="relative overflow-hidden bg-gradient-to-br from-blue-900 to-slate-900 rounded-3xl p-8 text-white flex flex-col justify-between shadow-lg shadow-blue-950/20 group">
-            <div className="space-y-4">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-semibold border border-blue-400/30">
-                <Users className="w-3.5 h-3.5" /> MEB Sosyal Etkinlikler Yönetmeliği
-              </div>
-              <h3 className="text-2xl font-bold tracking-tight">
-                Kulüp Toplantı Tutanakları Robotu
-              </h3>
-              <p className="text-slate-300 text-sm leading-relaxed">
-                38 resmi kulüp için İç Tüzük, 1. Dönem Genel Kurul Tutanağı, Yıllık Çalışma Planı, Görevli Öğrenci Listesi, Faaliyet Raporu ve Ek-5 Veli İzin Belgesi. Tek tıkla Word (.docx) ve PDF olarak alın.
-              </p>
-            </div>
-            <div className="pt-6">
-              <Link
-                href="/kulup-toplanti-tutanaklari"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-blue-950 font-bold text-xs rounded-xl hover:bg-blue-50 transition-colors shadow-md"
-              >
-                Kulüp Evraklarını Al &rarr;
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Latest Posts Slider */}
+      {/* 3. LATEST POSTS SLIDER (Son Yazılar - Üstte) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
-        <div className="flex items-center justify-between">
-          <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
-            <Sparkles className="w-5 h-5 text-indigo-600" />
-            Son Yazılar
-          </h2>
-          <span className="text-xs text-slate-500 hidden sm:inline">
-            En son eklenen güncel ders çözümleri ve makaleler
-          </span>
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-1">
+          <div className="flex items-center gap-2.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-rose-500 animate-pulse"></span>
+            <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
+              Son Yazılar
+            </h2>
+            <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-rose-50 text-rose-600 border border-rose-200">
+              GÜNCEL &amp; SICAK
+            </span>
+          </div>
+          <Link
+            href="/post"
+            className="text-xs font-bold text-indigo-600 hover:text-indigo-800 flex items-center gap-1 group self-start sm:self-auto"
+          >
+            Tüm Yazıları İncele ({total})
+            <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+          </Link>
         </div>
         <PostSlider posts={sliderPosts} />
       </section>
 
-      {/* Blog Posts Grid Section */}
+      {/* 4. BLOG POSTS GRID SECTION (Son Yazıların Hemen Altında) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         {/* Section Header with Category Tabs */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-slate-200 pb-4">
           <div>
-            <div className="text-xs font-bold text-indigo-600 uppercase tracking-wider mb-1">
-              En Güncel İçerikler
+            <div className="text-xs font-bold text-indigo-600 uppercase tracking-wider mb-1 flex items-center gap-1.5">
+              <Sparkles className="w-3.5 h-3.5" />
+              Eğitim Gündemi &amp; Blog
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
-              {searchQuery ? `"${searchQuery}" için Arama Sonuçları` : 'Blog Yazıları & Ders Çözümleri'}
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+              {searchQuery ? `"${searchQuery}" için Arama Sonuçları` : 'Blog Yazıları & Rehberler'}
             </h2>
             <p className="text-xs text-slate-500 mt-1">
-              Toplam <strong className="text-slate-800">{total}</strong> içerik mevcut
+              Öğretmen haberleri, MEB ortak sınavları, rehberlik ve ders çözümleri (Toplam <strong className="text-slate-800">{total}</strong> içerik)
             </p>
           </div>
 
@@ -373,15 +151,16 @@ export default async function HomePage({
           <div className="flex flex-wrap items-center gap-1.5">
             <Link
               href="/"
-              className={`px-3 py-1.5 text-xs font-semibold rounded-xl transition-colors ${
+              className={`px-3 py-1.5 text-xs font-bold rounded-xl transition-all ${
                 !categoryFilter && !searchQuery
-                  ? 'bg-indigo-600 text-white shadow-sm'
-                  : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-50'
+                  ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
+                  : 'bg-white text-slate-700 border border-slate-200/90 hover:bg-slate-50'
               }`}
             >
               Tümü
             </Link>
             {[
+              { name: 'Öğretmen & MEB', slug: 'ogretmen' },
               { name: '10. Sınıf', slug: '10-sinif' },
               { name: '9. Sınıf', slug: '9-sinif' },
               { name: 'Kitap Özetleri', slug: 'kitap-ozet' },
@@ -392,10 +171,10 @@ export default async function HomePage({
               <Link
                 key={cat.slug}
                 href={`/?cat=${cat.slug}`}
-                className={`px-3 py-1.5 text-xs font-semibold rounded-xl transition-colors ${
+                className={`px-3 py-1.5 text-xs font-bold rounded-xl transition-all ${
                   categoryFilter === cat.slug
-                    ? 'bg-indigo-600 text-white shadow-sm'
-                    : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-50'
+                    ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
+                    : 'bg-white text-slate-700 border border-slate-200/90 hover:bg-slate-50'
                 }`}
               >
                 {cat.name}
@@ -406,13 +185,13 @@ export default async function HomePage({
 
         {/* Posts Grid */}
         {posts.length === 0 ? (
-          <div className="text-center py-16 bg-white rounded-3xl border border-slate-200 p-8">
+          <div className="text-center py-16 bg-white rounded-3xl border border-slate-200 p-8 space-y-3">
             <p className="text-base text-slate-600 font-medium">
               Aramanıza uygun içerik bulunamadı.
             </p>
             <Link
               href="/"
-              className="inline-block mt-4 px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-semibold"
+              className="inline-block px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-semibold"
             >
               Tüm Yazıları Görüntüle
             </Link>
@@ -453,7 +232,239 @@ export default async function HomePage({
         )}
       </section>
 
-      {/* Sıkça Sorulan Sorular (FAQ Section with Schema.org) */}
+      {/* 5. MEB DERS KİTABI CEVAPLARI (Minimal & Şık Görünüm) */}
+      {mebBooks.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-slate-50/80 rounded-3xl p-6 sm:p-8 border border-slate-200/80">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 pb-4 border-b border-slate-200/70">
+              <div className="space-y-1">
+                <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full text-[11px] font-black uppercase tracking-wider bg-indigo-100 text-indigo-700">
+                  <BookOpen className="w-3.5 h-3.5" /> 2026 - 2027 GÜNCEL MEB MÜFREDATI
+                </div>
+                <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                  MEB Ders Kitabı Cevapları
+                </h3>
+                <p className="text-xs text-slate-500 max-w-xl">
+                  Tüm sınıf ve derslerde ünite, alıştırma ve ölçme değerlendirme sorularının doğrulanmış sayfa sayfa çözümleri.
+                </p>
+              </div>
+              <Link
+                href="/kategori/meb-ders-kitabi-cevaplari"
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white border border-slate-200/90 text-indigo-600 hover:text-indigo-800 text-xs font-extrabold hover:border-indigo-300 transition-all shadow-sm self-start sm:self-auto"
+              >
+                Tüm Kitapları İncele &rarr;
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5">
+              {[
+                { slug: '6-sinif', name: '6. Sınıf', badge: 'Ortaokul', desc: 'Matematik Ders Kitabı', icon: '6' },
+                { slug: '7-sinif', name: '7. Sınıf', badge: 'Ortaokul', desc: 'Matematik & Fen Çözümleri', icon: '7' },
+                { slug: '9-sinif', name: '9. Sınıf', badge: 'Lise', desc: 'Matematik 1 & 2. Kitap + Fen', icon: '9' },
+                { slug: '10-sinif', name: '10. Sınıf', badge: 'Lise', desc: 'Matematik & Temel Dersler', icon: '10' },
+                { slug: '11-sinif', name: '11. Sınıf', badge: 'Lise & YKS', desc: 'İleri & Temel Matematik', icon: '11' },
+              ].map((g) => {
+                const groupBooks = mebBooks.filter((b) => b.category_slug === g.slug);
+                return (
+                  <Link
+                    key={g.slug}
+                    href={`/kategori/${g.slug}`}
+                    className="group bg-white rounded-2xl p-4 border border-slate-200/80 hover:border-indigo-400 hover:shadow-md transition-all flex flex-col justify-between space-y-3"
+                  >
+                    <div>
+                      <div className="flex items-center justify-between gap-1 mb-2">
+                        <span className="w-7 h-7 rounded-lg bg-indigo-50 text-indigo-600 font-black text-xs flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                          {g.icon}
+                        </span>
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-600">
+                          {g.badge}
+                        </span>
+                      </div>
+                      <h4 className="font-extrabold text-sm text-slate-900 group-hover:text-indigo-600 transition-colors">
+                        {g.name} Kitapları
+                      </h4>
+                      <p className="text-[11px] text-slate-500 mt-1 line-clamp-1">
+                        {g.desc}
+                      </p>
+                    </div>
+
+                    <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] font-bold text-indigo-600 group-hover:text-indigo-800">
+                      <span>{groupBooks.length > 0 ? `${groupBooks.length} Kitap` : 'Çözümler'}</span>
+                      <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* 6. HESAPLAMA VE ÖĞRETMEN ROBOTLARI (Minimal & Şık 5'li Kart Izgarası) */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-1">
+          <div className="space-y-0.5">
+            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-indigo-600 uppercase tracking-wider">
+              <Zap className="w-3.5 h-3.5 text-amber-500" />
+              Akıllı Eğitim Asistanları
+            </div>
+            <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+              Öğretmen ve Öğrenci Robotları
+            </h3>
+          </div>
+          <Link
+            href="/hesaplama-araclari"
+            className="text-xs font-bold text-indigo-600 hover:text-indigo-800 flex items-center gap-1 group self-start sm:self-auto"
+          >
+            Tüm Hesaplama Araçları (15+)
+            <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5">
+          {/* 1. LGS & YKS Puan Hesaplama */}
+          <Link
+            href="/puan-hesaplama-robotu"
+            className="group bg-white rounded-2xl p-4.5 border border-slate-200/80 hover:border-rose-400 hover:shadow-lg transition-all flex flex-col justify-between space-y-3"
+          >
+            <div className="space-y-2.5">
+              <div className="flex items-center justify-between">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-rose-500 to-pink-500 text-white flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+                  <Calculator className="w-5 h-5" />
+                </div>
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-50 text-rose-700 border border-rose-200">
+                  LGS &amp; YKS
+                </span>
+              </div>
+              <div>
+                <h4 className="font-extrabold text-sm text-slate-900 group-hover:text-rose-600 transition-colors">
+                  Puan Hesaplama
+                </h4>
+                <p className="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-relaxed">
+                  Netlerinizden 2026-2027 katsayıları, OBP ve tahmini yüzdelik dilim hesaplayın.
+                </p>
+              </div>
+            </div>
+            <span className="text-[11px] font-bold text-rose-600 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+              Puan Hesapla &rarr;
+            </span>
+          </Link>
+
+          {/* 2. Karne Görüşü */}
+          <Link
+            href="/karne-gorusu-ureticisi"
+            className="group bg-white rounded-2xl p-4.5 border border-slate-200/80 hover:border-indigo-400 hover:shadow-lg transition-all flex flex-col justify-between space-y-3"
+          >
+            <div className="space-y-2.5">
+              <div className="flex items-center justify-between">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-blue-500 text-white flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+                  <Sparkles className="w-5 h-5" />
+                </div>
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
+                  e-Okul
+                </span>
+              </div>
+              <div>
+                <h4 className="font-extrabold text-sm text-slate-900 group-hover:text-indigo-600 transition-colors">
+                  Karne Görüşü Robotu
+                </h4>
+                <p className="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-relaxed">
+                  Öğrenci düzeyine özel pedagojik ve imla korumalı karne görüşleri oluşturun.
+                </p>
+              </div>
+            </div>
+            <span className="text-[11px] font-bold text-indigo-600 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+              Görüş Üret &rarr;
+            </span>
+          </Link>
+
+          {/* 3. Sınav Hazırlama */}
+          <Link
+            href="/sinav-hazirlama-robotu"
+            className="group bg-white rounded-2xl p-4.5 border border-slate-200/80 hover:border-purple-400 hover:shadow-lg transition-all flex flex-col justify-between space-y-3"
+          >
+            <div className="space-y-2.5">
+              <div className="flex items-center justify-between">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-600 to-indigo-500 text-white flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+                  <FileText className="w-5 h-5" />
+                </div>
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-50 text-purple-700 border border-purple-200">
+                  MEB Formatı
+                </span>
+              </div>
+              <div>
+                <h4 className="font-extrabold text-sm text-slate-900 group-hover:text-purple-600 transition-colors">
+                  Sınav Hazırlama
+                </h4>
+                <p className="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-relaxed">
+                  Soruları ekleyin, MEB ortak sınav standartlarında çift sütunlu PDF kağıt indirin.
+                </p>
+              </div>
+            </div>
+            <span className="text-[11px] font-bold text-purple-600 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+              Sınav Hazırla &rarr;
+            </span>
+          </Link>
+
+          {/* 4. Yıllık Plan Hazırlama */}
+          <Link
+            href="/yillik-plan-hazirlama"
+            className="group bg-white rounded-2xl p-4.5 border border-slate-200/80 hover:border-emerald-400 hover:shadow-lg transition-all flex flex-col justify-between space-y-3"
+          >
+            <div className="space-y-2.5">
+              <div className="flex items-center justify-between">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-500 text-white flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+                  <Calendar className="w-5 h-5" />
+                </div>
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+                  Maarif Modeli
+                </span>
+              </div>
+              <div>
+                <h4 className="font-extrabold text-sm text-slate-900 group-hover:text-emerald-600 transition-colors">
+                  Yıllık Plan Robotu
+                </h4>
+                <p className="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-relaxed">
+                  Tüm branşlarda haftalık kazanım ve çerçeve yıllık planlarını Excel ve PDF alın.
+                </p>
+              </div>
+            </div>
+            <span className="text-[11px] font-bold text-emerald-600 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+              Plan Hazırla &rarr;
+            </span>
+          </Link>
+
+          {/* 5. Kulüp Toplantı Tutanakları */}
+          <Link
+            href="/kulup-toplanti-tutanaklari"
+            className="group bg-white rounded-2xl p-4.5 border border-slate-200/80 hover:border-blue-400 hover:shadow-lg transition-all flex flex-col justify-between space-y-3"
+          >
+            <div className="space-y-2.5">
+              <div className="flex items-center justify-between">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-500 text-white flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+                  <Users className="w-5 h-5" />
+                </div>
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 border border-blue-200">
+                  38 Kulüp
+                </span>
+              </div>
+              <div>
+                <h4 className="font-extrabold text-sm text-slate-900 group-hover:text-blue-600 transition-colors">
+                  Kulüp Evrakları
+                </h4>
+                <p className="text-[11px] text-slate-500 mt-1 line-clamp-2 leading-relaxed">
+                  Sosyal etkinlik kulüp tüzük, genel kurul tutanağı ve çalışma planlarını indirin.
+                </p>
+              </div>
+            </div>
+            <span className="text-[11px] font-bold text-blue-600 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+              Evrakları Al &rarr;
+            </span>
+          </Link>
+        </div>
+      </section>
+
+      {/* 7. Sıkça Sorulan Sorular (FAQ Section with Schema.org) */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
         <FaqSection />
       </div>
