@@ -156,36 +156,61 @@ export default function AdminNewsBotPage() {
         ]);
       }, 6000);
 
-      const res = await fetch('/api/news-bot/crawl', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          count: countToGenerate,
-          forcePublish: publishMode === 'published',
-        }),
-      });
+      let totalCreated = 0;
+      const allProcessed: any[] = [];
+
+      for (let i = 0; i < countToGenerate; i++) {
+        if (countToGenerate > 1) {
+          setCrawlProgress((prev) => [
+            ...prev,
+            `⏳ [${i + 1}/${countToGenerate}] Haber taranıyor ve Gemini AI ile yazılıyor...`,
+          ]);
+        }
+
+        const res = await fetch('/api/news-bot/crawl', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            count: 1,
+            forcePublish: publishMode === 'published',
+          }),
+        });
+
+        const data = await res.json();
+        if (res.ok && data.data) {
+          const results = data.data;
+          if (results.created > 0 && results.processedArticles?.length > 0) {
+            totalCreated += results.created;
+            allProcessed.push(...results.processedArticles);
+            setLastGeneratedArticles((prev) => [...results.processedArticles, ...prev]);
+            setCrawlProgress((prev) => [
+              ...prev,
+              `✓ [${i + 1}/${countToGenerate}] "${results.processedArticles[0].title.substring(0, 40)}..." oluşturuldu!`,
+            ]);
+          } else {
+            setCrawlProgress((prev) => [
+              ...prev,
+              `ℹ️ [${i + 1}/${countToGenerate}] Taranan haberler zaten sitemizde mevcut (Kopya koruması).`,
+            ]);
+            // If already duplicate, no need to keep looping for 10
+            break;
+          }
+        } else {
+          setCrawlProgress((prev) => [
+            ...prev,
+            `⚠️ [${i + 1}/${countToGenerate}] Hata: ${data.error || 'Üretilemedi'}`,
+          ]);
+        }
+      }
 
       clearTimeout(stepTimer1);
       clearTimeout(stepTimer2);
       clearTimeout(stepTimer3);
 
-      const data = await res.json();
-
-      if (!res.ok || data.error) {
-        throw new Error(data.error || 'Tarama sırasında hata oluştu');
-      }
-
-      const results = data.data;
-      if (results.created > 0 && results.processedArticles?.length > 0) {
-        setLastGeneratedArticles(results.processedArticles);
+      if (totalCreated > 0) {
         setCrawlProgress((prev) => [
           ...prev,
-          `✓ Başarılı! ${results.created} adet yeni öğretmen/okul haberi yazıldı, kapak görseli eklendi ve ${publishMode === 'published' ? 'CANLIYA YAYINLANDI' : 'TASLAK OLARAK KAYDEDİLDİ'}!`,
-        ]);
-      } else {
-        setCrawlProgress((prev) => [
-          ...prev,
-          'ℹ️ Taranan tüm son dakika haberleri sitemizde zaten mevcut olduğu için yeni kopya üretilmedi (Deduplication koruması devrede).',
+          `🎉 Başarılı! Toplam ${totalCreated} adet haber yazıldı, görseli eklendi ve ${publishMode === 'published' ? 'CANLIYA YAYINLANDI' : 'TASLAK OLARAK KAYDEDİLDİ'}!`,
         ]);
       }
 
@@ -200,7 +225,7 @@ export default function AdminNewsBotPage() {
     }
   };
 
-  // Generate selected suggestion articles
+  // Generate selected suggestion articles sequentially to prevent timeouts
   const handleGenerateSelected = async () => {
     const selectedItems = suggestions.filter((s) => selectedUrls.has(s.link));
     if (selectedItems.length === 0) {
@@ -210,45 +235,81 @@ export default function AdminNewsBotPage() {
 
     setIsCrawling(true);
     setCrawlProgress([
-      `🚀 Seçtiğiniz ${selectedItems.length} adet haber işleniyor ve Gemini AI ile SEO makalesine dönüştürülüyor...`,
+      `🚀 Seçilen ${selectedItems.length} haber işleniyor... (Sunucu zaman aşımını önlemek için tek tek üretiliyor)`,
     ]);
 
+    let createdTotal = 0;
+    const successfulUrls = new Set<string>();
+
     try {
-      const res = await fetch('/api/news-bot/crawl', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          selectedItems,
-          forcePublish: publishMode === 'published',
-        }),
-      });
-
-      const data = await res.json();
-      if (!res.ok || data.error) {
-        throw new Error(data.error || 'İşlem sırasında hata oluştu');
-      }
-
-      const results = data.data;
-      if (results.created > 0 && results.processedArticles?.length > 0) {
-        setLastGeneratedArticles(results.processedArticles);
+      for (let i = 0; i < selectedItems.length; i++) {
+        const item = selectedItems[i];
         setCrawlProgress((prev) => [
           ...prev,
-          `✓ Başarılı! ${results.created} adet seçili haber başarıyla üretildi!`,
+          `⏳ [${i + 1}/${selectedItems.length}] "${item.title.substring(0, 48)}..." hazırlanıyor (Kapak görseli alınıyor & Gemini AI makale yazıyor)...`,
         ]);
-        // Update suggestions status
+
+        try {
+          const res = await fetch('/api/news-bot/crawl', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              selectedItems: [item],
+              forcePublish: publishMode === 'published',
+            }),
+          });
+
+          const data = await res.json();
+          if (res.ok && data.data && data.data.created > 0) {
+            createdTotal += data.data.created;
+            const newArticles = data.data.processedArticles || [];
+            setLastGeneratedArticles((prev) => [...newArticles, ...prev]);
+            successfulUrls.add(item.link);
+            setCrawlProgress((prev) => [
+              ...prev,
+              `✓ [${i + 1}/${selectedItems.length}] Başarıyla üretildi ve ${publishMode === 'published' ? 'CANLIYA YAYINLANDI' : 'TASLAK OLARAK KAYDEDİLDİ'}!`,
+            ]);
+          } else if (res.ok && data.data && data.data.skipped > 0) {
+            successfulUrls.add(item.link);
+            setCrawlProgress((prev) => [
+              ...prev,
+              `ℹ️ [${i + 1}/${selectedItems.length}] Bu haber daha önce sitemize eklenmişti (Atlandı).`,
+            ]);
+          } else {
+            setCrawlProgress((prev) => [
+              ...prev,
+              `⚠️ [${i + 1}/${selectedItems.length}] "${item.title.substring(0, 35)}..." atlandı: ${data.error || 'İçerik üretilemedi'}`,
+            ]);
+          }
+        } catch (itemErr: any) {
+          setCrawlProgress((prev) => [
+            ...prev,
+            `❌ [${i + 1}/${selectedItems.length}] Bağlantı hatası: ${itemErr.message || 'Hata'}`,
+          ]);
+        }
+      }
+
+      if (createdTotal > 0) {
+        setCrawlProgress((prev) => [
+          ...prev,
+          `🎉 Toplam ${createdTotal} adet haber başarıyla oluşturuldu ve siteye eklendi!`,
+        ]);
         setSuggestions((prev) =>
-          prev.map((s) =>
-            selectedUrls.has(s.link) ? { ...s, isDuplicate: true } : s
-          )
+          prev.map((s) => (successfulUrls.has(s.link) ? { ...s, isDuplicate: true } : s))
         );
         setSelectedUrls(new Set());
+      } else {
+        setCrawlProgress((prev) => [
+          ...prev,
+          `İşlem tamamlandı. Yeni üretilen haber: 0 (Seçilen haberler önceden yayınlanmış olabilir).`,
+        ]);
       }
 
       await loadData();
     } catch (err: any) {
       setCrawlProgress((prev) => [
         ...prev,
-        `❌ Hata oluştu: ${err.message || 'Bilinmeyen hata'}`,
+        `❌ Genel hata: ${err.message || 'Bilinmeyen hata'}`,
       ]);
     } finally {
       setIsCrawling(false);

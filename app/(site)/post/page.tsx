@@ -29,6 +29,9 @@ export async function generateMetadata({ searchParams }: PostIndexPageProps): Pr
   } else if (cat === 'ogretmen') {
     title = 'Öğretmenler İçin Kaynaklar, Yıllık Planlar ve Yazılı Rehberi | Matemetrik';
     description = 'Zümre öğretmenleri için açık uçlu sınav hazırlama rehberi, analitik puanlama anahtarı (rubrik) ve eğitim materyalleri.';
+  } else if (cat === 'blog') {
+    title = 'Blog Yazıları ve Eğitim Haberleri | Matemetrik';
+    description = 'Öğretmenler, MEB kararları, okul gündemi ve eğitim dünyasından en güncel blog yazıları ve gelişmeler.';
   } else if (cat === 'kitap-ozet') {
     title = 'Dünya ve Türk Klasikleri Kitap Özetleri | Matemetrik';
     description = 'Edebiyat dersleri ve genel kültür için kapsamlı kitap özetleri, karakter tahlilleri ve ana fikir analizleri.';
@@ -57,7 +60,9 @@ export default async function PostIndexPage({ searchParams }: PostIndexPageProps
 
   // Resolve category filter mapping
   let categoryFilter: string | string[] | undefined = undefined;
-  if (activeCat === 'matematik-blog') {
+  if (activeCat === 'blog') {
+    categoryFilter = ['blog', 'egitim-haberleri'];
+  } else if (activeCat === 'matematik-blog') {
     categoryFilter = 'matematik-blog';
   } else if (activeCat === 'sinavlar') {
     categoryFilter = ['egitim-rehberligi', 'yks', 'ales', 'yds'];
@@ -81,6 +86,7 @@ export default async function PostIndexPage({ searchParams }: PostIndexPageProps
 
   const filterTabs = [
     { key: 'tumu', label: 'Tüm Yazılar', icon: '📚' },
+    { key: 'blog', label: 'Blog & Haberler', icon: '📰' },
     { key: 'matematik-blog', label: 'Matematik Blog', icon: '📐' },
     { key: 'sinavlar', label: 'MEB & Sınavlar', icon: '📢' },
     { key: 'ogretmen', label: 'Öğretmen & Rehberlik', icon: '🎓' },

@@ -26,6 +26,16 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
     };
   }
 
+  if (params.slug === 'blog') {
+    return {
+      title: 'Blog Yazıları, Eğitim Haberleri ve Güncel Gelişmeler | Matemetrik',
+      description: 'Öğretmenler, MEB kararları, okul gündemi ve eğitim dünyasından en güncel blog makaleleri ve son dakika haberleri.',
+      alternates: {
+        canonical: 'https://www.matemetrik.com/kategori/blog',
+      },
+    };
+  }
+
   const cat = getCategoryBySlug(params.slug);
   const name = cat ? cat.name : params.slug.replace('-', ' ').toUpperCase();
   const dersTitle = searchParams?.ders ? ` - ${searchParams.ders.toUpperCase()} Ders Çözümleri` : '';

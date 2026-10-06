@@ -160,6 +160,7 @@ export default async function HomePage({
               Tümü
             </Link>
             {[
+              { name: 'Blog', slug: 'blog' },
               { name: 'Öğretmen & MEB', slug: 'ogretmen' },
               { name: '10. Sınıf', slug: '10-sinif' },
               { name: '9. Sınıf', slug: '9-sinif' },

@@ -187,10 +187,11 @@ export function isDuplicate(
   const exactPost = db.prepare('SELECT id FROM posts WHERE slug = ? LIMIT 1').get(candidateSlug);
   if (exactPost) return true;
 
-  // 3. Word overlap check against posts created in the last 14 days
+  // 3. Word overlap check against recent news/blog posts created in the last 14 days
   const recentPosts = db.prepare(`
     SELECT title FROM posts 
-    WHERE created_at >= datetime('now', '-14 days')
+    WHERE (category_slug IN ('blog', 'ogretmen', 'egitim-haberleri') OR id IN (SELECT post_id FROM crawled_news WHERE post_id IS NOT NULL))
+      AND created_at >= datetime('now', '-14 days')
     LIMIT 100
   `).all() as Array<{ title: string }>;
 
@@ -307,9 +308,9 @@ Sadece ve sadece geçerli bir JSON objesi döndür. Kod bloğu (\`\`\`json) kull
   "slug": "temiz-turkce-karaktersiz-seo-url-slugi",
   "excerpt": "Google arama motoru sonuçları için 150-160 karakterlik çarpıcı meta açıklaması.",
   "content": "Yukarıdaki kurallara göre hazırlanmış zengin HTML makalesi.",
-  "tags": ["öğretmen haberleri", "meb", "okul", "eğitim", "gündem"],
-  "category": "Öğretmen",
-  "category_slug": "ogretmen"
+  "tags": ["öğretmen haberleri", "meb", "okul", "eğitim", "gündem", "blog"],
+  "category": "Blog",
+  "category_slug": "blog"
 }
 `;
 
@@ -405,9 +406,9 @@ export async function runNewsCrawlCycle(options: {
         excerpt: rewritten.excerpt || '',
         content: rewritten.content,
         featured_image: resolvedImage,
-        category: rewritten.category || 'Öğretmen',
-        category_slug: rewritten.category_slug || 'ogretmen',
-        tags: Array.isArray(rewritten.tags) ? rewritten.tags : ['öğretmen haberleri', 'meb', 'okul'],
+        category: 'Blog',
+        category_slug: 'blog',
+        tags: Array.isArray(rewritten.tags) ? rewritten.tags : ['blog', 'öğretmen haberleri', 'meb', 'okul'],
         author: 'Matemetrik Eğitim & Matematik Zümresi',
         is_published: publishMode,
       });
@@ -457,6 +458,7 @@ export async function runNewsCrawlCycle(options: {
         revalidatePath(`/post/${newPost.slug}`);
         revalidatePath('/');
         revalidatePath('/post');
+        revalidatePath('/kategori/blog');
         revalidatePath('/kategori/ogretmen');
         revalidatePath('/admin/posts');
       } catch {}
