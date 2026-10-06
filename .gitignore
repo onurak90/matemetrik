@@ -40,6 +40,7 @@ scratch/
 __pycache__/
 *.pdf
 !public/uploads/etkinlikler/**
+!public/uploads/kitaplar/**
 *.xlsx
 ~$*
 *.db-shm
