@@ -15,6 +15,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
+      url: `${baseUrl}/yillik-gunluk-planlar`,
+      changeFrequency: 'daily',
+      priority: 0.95,
+    },
+    {
       url: `${baseUrl}/yillik-plan-hazirlama`,
       changeFrequency: 'weekly',
       priority: 0.9,

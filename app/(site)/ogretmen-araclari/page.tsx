@@ -63,17 +63,37 @@ interface TeacherToolItem {
 
 const teacherTools: TeacherToolItem[] = [
   {
+    id: 'yillik-gunluk-planlar',
+    title: 'MEB Yıllık & Günlük Plan ve Defter Doldurma Robotu',
+    badge: 'Hafta Hafta & Defter Dolum',
+    badgeColor: 'bg-emerald-100 text-emerald-800 border-emerald-200',
+    category: 'planlama',
+    description:
+      '1-8. sınıf tüm kademeler ve dersler için hafta hafta resmi MEB günlük ders planları oluşturun, sınıf defterine yazılacak günlük kazanım metinlerini kopyalayın, İYEP ve rehberlik planlarını Word (.docx) ve PDF olarak indirin.',
+    href: '/yillik-gunluk-planlar',
+    icon: Calendar,
+    color: 'text-emerald-600',
+    gradient: 'from-emerald-500/10 via-teal-500/5 to-transparent hover:border-emerald-400',
+    features: [
+      '1-8. sınıf tüm dersler için 36 hafta günlük ders planı',
+      'Pazartesi-Cuma sınıf defteri doldurma kazanım metinleri',
+      'Word (.docx), Excel (.xlsx) ve A4 resmi PDF indirme',
+      'İYEP modül kurs planları ve sınıf rehberlik yıllık planı',
+    ],
+    ctaText: 'Günlük & Yıllık Plan Oluştur',
+  },
+  {
     id: 'yillik-plan',
     title: 'Yıllık Plan Hazırlama Robotu',
     badge: '2026-2027 Maarif Modeli',
-    badgeColor: 'bg-emerald-100 text-emerald-800 border-emerald-200',
+    badgeColor: 'bg-teal-100 text-teal-800 border-teal-200',
     category: 'planlama',
     description:
       'Türkiye Yüzyılı Maarif Modeli ile birebir uyumlu, 1-12. sınıf tüm branşlarda haftalık kazanım, değerler eğitimi ve yöntemleri içeren Excel ve PDF formatında tek tıkla indirilebilir yıllık çalışma planları.',
     href: '/yillik-plan-hazirlama',
-    icon: Calendar,
-    color: 'text-emerald-600',
-    gradient: 'from-emerald-500/10 via-teal-500/5 to-transparent hover:border-emerald-400',
+    icon: Layers,
+    color: 'text-teal-600',
+    gradient: 'from-teal-500/10 via-emerald-500/5 to-transparent hover:border-teal-400',
     features: [
       'Resmi MEB iş günü takvimine göre otomatik tatil eşleştirmesi',
       'Maarif Modeli erdem-değer-eylem çerçevesi',

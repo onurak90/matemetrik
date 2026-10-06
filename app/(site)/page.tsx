@@ -37,7 +37,7 @@ export default async function HomePage({
   // Fetch latest posts for slider (Son Yazılar) excluding individual page solutions
   const { posts: sliderPosts } = getPosts({ 
     page: 1, 
-    limit: 6, 
+    limit: 10, 
     publishedOnly: true, 
     excludePageSolutions: true 
   });
@@ -100,6 +100,63 @@ export default async function HomePage({
                 </span>
                 <span className="font-bold text-xs text-slate-800 group-hover:text-white transition-colors truncate">
                   {grade.title}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 2b. MEB DERS KİTABI CEVAPLARI (Sınıf Seviyeleri ile Aynı Minimal Kart Yapısında, Hemen Altında) */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10 sm:-mt-12 relative z-10">
+        <div className="bg-white rounded-2xl p-4 sm:p-5 shadow-xl shadow-slate-900/5 border border-slate-200/80">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3 pb-2.5 border-b border-slate-100">
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-emerald-600"></span>
+              <h2 className="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
+                MEB Ders Kitabı Cevapları
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-extrabold border border-emerald-200">
+                  2026-2027 GÜNCEL
+                </span>
+              </h2>
+              <span className="text-[11px] text-slate-500 hidden md:inline">
+                &bull; Tüm sınıfların sayfa sayfa doğrulanmış çözümleri
+              </span>
+            </div>
+            <Link
+              href="/kategori/meb-ders-kitabi-cevaplari"
+              className="text-xs font-semibold text-emerald-600 hover:text-emerald-800 flex items-center gap-1"
+            >
+              Tüm Kitap Çözümleri &rarr;
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 gap-1.5 sm:gap-2">
+            {[
+              { title: '1. Sınıf', slug: '1-sinif', badge: '1', color: 'from-emerald-500 to-teal-600' },
+              { title: '2. Sınıf', slug: '2-sinif', badge: '2', color: 'from-emerald-500 to-teal-600' },
+              { title: '3. Sınıf', slug: '3-sinif', badge: '3', color: 'from-emerald-500 to-teal-600' },
+              { title: '4. Sınıf', slug: '4-sinif', badge: '4', color: 'from-emerald-500 to-teal-600' },
+              { title: '5. Sınıf', slug: '5-sinif', badge: '5', color: 'from-teal-600 to-cyan-600' },
+              { title: '6. Sınıf', slug: '6-sinif', badge: '6', color: 'from-teal-600 to-cyan-600' },
+              { title: '7. Sınıf', slug: '7-sinif', badge: '7', color: 'from-teal-600 to-cyan-600' },
+              { title: '8. Sınıf', slug: '8-sinif', badge: '8', color: 'from-cyan-600 to-blue-600' },
+              { title: '9. Sınıf', slug: '9-sinif', badge: '9', color: 'from-blue-600 to-indigo-600' },
+              { title: '10. Sınıf', slug: '10-sinif', badge: '10', color: 'from-indigo-600 to-purple-600' },
+              { title: '11. Sınıf', slug: '11-sinif', badge: '11', color: 'from-purple-600 to-pink-600' },
+              { title: '12. Sınıf', slug: '12-sinif', badge: '12', color: 'from-pink-600 to-rose-600' },
+            ].map((book) => (
+              <Link
+                key={book.slug}
+                href={`/kategori/${book.slug}`}
+                className="group flex items-center justify-center gap-1.5 py-2 px-1 rounded-xl bg-slate-50 hover:bg-emerald-600 border border-slate-200/80 hover:border-emerald-600 transition-all text-center"
+                title={`${book.title} MEB Ders Kitabı Cevapları`}
+              >
+                <span className={`w-5 h-5 rounded-md bg-gradient-to-tr ${book.color} text-white font-black text-[9px] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform`}>
+                  {book.badge}
+                </span>
+                <span className="font-bold text-xs text-slate-800 group-hover:text-white transition-colors truncate">
+                  {book.title}
                 </span>
               </Link>
             ))}
@@ -233,75 +290,7 @@ export default async function HomePage({
         )}
       </section>
 
-      {/* 5. MEB DERS KİTABI CEVAPLARI (Minimal & Şık Görünüm) */}
-      {mebBooks.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-slate-50/80 rounded-3xl p-6 sm:p-8 border border-slate-200/80">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 pb-4 border-b border-slate-200/70">
-              <div className="space-y-1">
-                <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full text-[11px] font-black uppercase tracking-wider bg-indigo-100 text-indigo-700">
-                  <BookOpen className="w-3.5 h-3.5" /> 2026 - 2027 GÜNCEL MEB MÜFREDATI
-                </div>
-                <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-                  MEB Ders Kitabı Cevapları
-                </h3>
-                <p className="text-xs text-slate-500 max-w-xl">
-                  Tüm sınıf ve derslerde ünite, alıştırma ve ölçme değerlendirme sorularının doğrulanmış sayfa sayfa çözümleri.
-                </p>
-              </div>
-              <Link
-                href="/kategori/meb-ders-kitabi-cevaplari"
-                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white border border-slate-200/90 text-indigo-600 hover:text-indigo-800 text-xs font-extrabold hover:border-indigo-300 transition-all shadow-sm self-start sm:self-auto"
-              >
-                Tüm Kitapları İncele &rarr;
-              </Link>
-            </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5">
-              {[
-                { slug: '6-sinif', name: '6. Sınıf', badge: 'Ortaokul', desc: 'Matematik Ders Kitabı', icon: '6' },
-                { slug: '7-sinif', name: '7. Sınıf', badge: 'Ortaokul', desc: 'Matematik & Fen Çözümleri', icon: '7' },
-                { slug: '9-sinif', name: '9. Sınıf', badge: 'Lise', desc: 'Matematik 1 & 2. Kitap + Fen', icon: '9' },
-                { slug: '10-sinif', name: '10. Sınıf', badge: 'Lise', desc: 'Matematik & Temel Dersler', icon: '10' },
-                { slug: '11-sinif', name: '11. Sınıf', badge: 'Lise & YKS', desc: 'İleri & Temel Matematik', icon: '11' },
-              ].map((g) => {
-                const groupBooks = mebBooks.filter((b) => b.category_slug === g.slug);
-                return (
-                  <Link
-                    key={g.slug}
-                    href={`/kategori/${g.slug}`}
-                    className="group bg-white rounded-2xl p-4 border border-slate-200/80 hover:border-indigo-400 hover:shadow-md transition-all flex flex-col justify-between space-y-3"
-                  >
-                    <div>
-                      <div className="flex items-center justify-between gap-1 mb-2">
-                        <span className="w-7 h-7 rounded-lg bg-indigo-50 text-indigo-600 font-black text-xs flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-colors">
-                          {g.icon}
-                        </span>
-                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-600">
-                          {g.badge}
-                        </span>
-                      </div>
-                      <h4 className="font-extrabold text-sm text-slate-900 group-hover:text-indigo-600 transition-colors">
-                        {g.name} Kitapları
-                      </h4>
-                      <p className="text-[11px] text-slate-500 mt-1 line-clamp-1">
-                        {g.desc}
-                      </p>
-                    </div>
-
-                    <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] font-bold text-indigo-600 group-hover:text-indigo-800">
-                      <span>{groupBooks.length > 0 ? `${groupBooks.length} Kitap` : 'Çözümler'}</span>
-                      <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* 6. HESAPLAMA VE ÖĞRETMEN ROBOTLARI (Minimal & Şık 5'li Kart Izgarası) */}
+      {/* 5. HESAPLAMA VE ÖĞRETMEN ROBOTLARI (Minimal & Şık 5'li Kart Izgarası) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-1">
           <div className="space-y-0.5">

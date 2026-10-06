@@ -7,7 +7,7 @@ import {
   LayoutDashboard, FileText, PlusCircle, FolderTree,
   Image, ArrowLeftRight, Settings, ExternalLink,
   Menu, X, ShieldCheck, BarChart3, Megaphone, Sparkles,
-  Share2, LogOut, HardDrive, MessageSquare, Newspaper
+  Share2, LogOut, HardDrive, MessageSquare, Newspaper, Globe
 } from 'lucide-react';
 
 export default function AdminLayout({
@@ -39,6 +39,7 @@ export default function AdminLayout({
   const navigation = [
     { name: 'Dashboard', href: '/admin', icon: LayoutDashboard, exact: true },
     { name: 'Oto Haber Robotu 🤖', href: '/admin/news-bot', icon: Newspaper },
+    { name: '🇬🇷 Yunanistan (GR)', href: '/admin/greek', icon: Globe },
     { name: 'AI Blog Stüdyosu ⚡', href: '/admin/ai-writer', icon: Sparkles },
     { name: 'Sosyal Medya Stüdyosu 📱', href: '/admin/social', icon: Share2 },
     { name: 'Tüm Yazılar', href: '/admin/posts', icon: FileText, exact: true },

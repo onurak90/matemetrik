@@ -17,6 +17,7 @@ import PrevNextNav from '@/components/blog/PrevNextNav';
 import InteractiveQuizHandler from '@/components/blog/InteractiveQuizHandler';
 import PostCoverImage from '@/components/blog/PostCoverImage';
 import BookPageNav from '@/components/blog/BookPageNav';
+import NextArticleDrawer from '@/components/blog/NextArticleDrawer';
 
 interface PostPageProps {
   params: { slug: string };
@@ -257,6 +258,8 @@ export default async function BlogPostPage({ params }: PostPageProps) {
       <ReadingProgressBar />
       {/* Interactive Quiz Option Highlights */}
       <InteractiveQuizHandler />
+      {/* Smart Next Article Slide-in Drawer */}
+      <NextArticleDrawer nextPost={prevNext.next || relatedPosts[0] || null} />
 
       {/* Schema.org scripts */}
       <script

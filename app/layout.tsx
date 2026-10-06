@@ -32,23 +32,25 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: new URL('https://www.matemetrik.com'),
     title: {
-      default: `${settings.site_name || 'Matemetrik'} | Matematik, MEB Ders Kitabı Cevapları ve Öğretmen Araçları`,
+      default: `${settings.site_name || 'Matemetrik'} | MEB Ders Kitabı Cevapları, Günlük & Yıllık Planlar ve Öğretmen Araçları`,
       template: `%s | ${settings.site_name || 'Matemetrik'}`,
     },
     description:
       settings.site_description ||
-      '1. sınıftan 12. sınıfa kadar tüm kademeler için MEB matematik ders kitabı çözümleri, ilkokul etkinlikleri, karne görüşü robotu ve sınav hazırlık platformu.',
+      '1. sınıftan 12. sınıfa kadar tüm kademeler için MEB ders kitabı cevapları, sayfa çözümleri, 2026-2027 yıllık ve günlük planlar, sınıf defteri doldurma ve öğretmen araçları.',
     keywords: [
-      'matematik',
       'meb ders kitabı cevapları',
-      '10. sınıf matematik',
-      '9. sınıf matematik',
+      'ders kitabı cevapları',
+      'matematik ders kitabı cevapları',
+      'sayfa çözümleri meb',
+      'yıllık ve günlük planlar',
+      'sınıf defteri doldurma planı',
+      'maarif modeli yıllık plan',
       'karne görüşü üreticisi',
       'sınav hazırlama robotu',
-      'yıllık plan hazırlama',
-      'kulüp evrakları',
       'yks matematik',
       'lgs matematik',
+      'ilkokul etkinlikleri pdf',
     ],
     authors: [{ name: settings.site_author || 'Matemetrik Eğitim & Matematik Zümresi', url: 'https://www.matemetrik.com' }],
     creator: settings.site_name || 'Matemetrik',
@@ -62,15 +64,15 @@ export async function generateMetadata(): Promise<Metadata> {
       locale: 'tr_TR',
       url: 'https://www.matemetrik.com',
       siteName: settings.site_name || 'Matemetrik',
-      title: `${settings.site_name || 'Matemetrik'} | Matematik ve Eğitim Portalı`,
+      title: `${settings.site_name || 'Matemetrik'} | MEB Ders Kitabı Cevapları, Yıllık & Günlük Planlar`,
       description:
         settings.site_description ||
-        'MEB ders kitabı çözümleri, ilkokul etkinlikleri, öğretmen karne görüşü robotu ve sınav hazırlık platformu.',
+        '1-12. sınıf tüm MEB ders kitabı cevapları, sayfa çözümleri, 2026-2027 yıllık ve günlük ders planları, sınıf defteri doldurma ve öğretmen araçları.',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${settings.site_name || 'Matemetrik'} | Matematik ve Eğitim Portalı`,
-      description: 'MEB ders kitabı çözümleri ve matematik eğitim platformu.',
+      title: `${settings.site_name || 'Matemetrik'} | MEB Ders Kitabı Cevapları ve Öğretmen Araçları`,
+      description: 'MEB ders kitabı cevapları, sayfa çözümleri ve matematik eğitim platformu.',
     },
     robots: {
       index: true,

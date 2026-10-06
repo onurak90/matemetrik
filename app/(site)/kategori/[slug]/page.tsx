@@ -10,7 +10,7 @@ import GradeSubjectSolutions from '@/components/category/GradeSubjectSolutions';
 
 interface CategoryPageProps {
   params: { slug: string };
-  searchParams: { page?: string; ders?: string };
+  searchParams: { page?: string; ders?: string; tur?: string };
 }
 
 export const revalidate = 3600; // 1 hour edge cache
@@ -59,25 +59,37 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   const cat = getCategoryBySlug(params.slug);
   const currentPage = parseInt(searchParams.page || '1', 10);
   const dersFilter = searchParams.ders;
+  const turFilter = searchParams.tur as 'etkinlik' | 'cozum' | undefined;
   const isGradeCategory = /^([1-9]|1[0-2])-sinif$/.test(params.slug);
+  const isPrimaryGrade = ['1-sinif', '2-sinif', '3-sinif', '4-sinif'].includes(params.slug);
 
   const { posts, total, totalPages } = getPosts({
     page: currentPage,
     limit: 12,
     category: params.slug,
     search: dersFilter,
+    contentType: turFilter,
     publishedOnly: true,
   });
 
-  const totalAllPosts = isGradeCategory && dersFilter
-    ? getPosts({ category: params.slug, publishedOnly: true, limit: 1 }).total
+  const totalAllPosts = isGradeCategory
+    ? getPosts({ category: params.slug, search: dersFilter, publishedOnly: true, limit: 1 }).total
     : total;
+
+  const totalWorksheets = isPrimaryGrade
+    ? getPosts({ category: params.slug, search: dersFilter, contentType: 'etkinlik', publishedOnly: true, limit: 1 }).total
+    : 0;
+
+  const totalSolutions = isPrimaryGrade
+    ? getPosts({ category: params.slug, search: dersFilter, contentType: 'cozum', publishedOnly: true, limit: 1 }).total
+    : 0;
 
   const allCategories = getCategories();
   const categoryName = cat ? cat.name : params.slug;
   const isMebCategory = params.slug === 'meb-ders-kitabi-cevaplari';
   const mebBooks = isMebCategory ? getMebBookMasterPosts() : [];
   const dersQuery = dersFilter ? `&ders=${encodeURIComponent(dersFilter)}` : '';
+  const turQuery = turFilter ? `&tur=${encodeURIComponent(turFilter)}` : '';
 
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -177,6 +189,101 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
                 <span>YDS Testlerini Başlat</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
+            </div>
+          </div>
+        )}
+
+        {/* İlkokul Sınıfları İçin Ayrılmış Etkinlikler ve Ders Kitabı Çözümleri Bölümü */}
+        {isPrimaryGrade && (
+          <div className="bg-gradient-to-br from-amber-50 via-orange-50/40 to-white rounded-3xl p-6 sm:p-8 border-2 border-amber-300/80 shadow-md space-y-5">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-amber-200">
+              <div className="space-y-1">
+                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500 text-white text-xs font-black shadow-sm">
+                  <span>📄 {categoryName} Etkinlik &amp; Çalışma Kağıtları</span>
+                </div>
+                <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                  {categoryName} Ücretsiz PDF Çalışma Kağıtları Arşivi
+                </h2>
+                <p className="text-xs sm:text-sm text-slate-600">
+                  MEB Maarif Modeli kazanımlarına uygun, yazdırılabilir A4 formatında <strong className="text-amber-800">{totalWorksheets} adet</strong> özgün etkinlik ve çalışma kağıdı.
+                </p>
+              </div>
+
+              {/* İçerik Türü Sekmeleri */}
+              <div className="flex items-center gap-1.5 bg-white p-1 rounded-2xl border border-amber-300 shadow-sm self-start md:self-center shrink-0">
+                <Link
+                  href={`/kategori/${params.slug}${dersFilter ? `?ders=${encodeURIComponent(dersFilter)}` : ''}`}
+                  className={`px-3.5 py-2 text-xs font-bold rounded-xl transition-all ${
+                    !turFilter
+                      ? 'bg-amber-500 text-white shadow-sm'
+                      : 'text-slate-600 hover:text-slate-900'
+                  }`}
+                >
+                  Tümü ({totalAllPosts})
+                </Link>
+                <Link
+                  href={`/kategori/${params.slug}?tur=etkinlik${dersFilter ? `&ders=${encodeURIComponent(dersFilter)}` : ''}`}
+                  className={`px-3.5 py-2 text-xs font-bold rounded-xl transition-all flex items-center gap-1.5 ${
+                    turFilter === 'etkinlik'
+                      ? 'bg-amber-500 text-white shadow-sm'
+                      : 'text-slate-600 hover:text-slate-900'
+                  }`}
+                >
+                  <span>📄 Etkinlikler</span>
+                  <span className="text-[10px] bg-black/10 px-1.5 py-0.2 rounded-full font-black">
+                    {totalWorksheets}
+                  </span>
+                </Link>
+                <Link
+                  href={`/kategori/${params.slug}?tur=cozum${dersFilter ? `&ders=${encodeURIComponent(dersFilter)}` : ''}`}
+                  className={`px-3.5 py-2 text-xs font-bold rounded-xl transition-all flex items-center gap-1.5 ${
+                    turFilter === 'cozum'
+                      ? 'bg-amber-500 text-white shadow-sm'
+                      : 'text-slate-600 hover:text-slate-900'
+                  }`}
+                >
+                  <span>📖 Kitap Çözümleri</span>
+                  <span className="text-[10px] bg-black/10 px-1.5 py-0.2 rounded-full font-black">
+                    {totalSolutions}
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            {/* Hızlı Ders Filtreleme Hapları */}
+            <div className="flex items-center gap-2 flex-wrap text-xs pt-1">
+              <span className="font-bold text-slate-800 mr-1">Ders Seçin:</span>
+              <Link
+                href={`/kategori/${params.slug}${turFilter ? `?tur=${turFilter}` : ''}`}
+                className={`px-3 py-1.5 rounded-xl font-bold transition-all ${
+                  !dersFilter
+                    ? 'bg-slate-900 text-white shadow-sm'
+                    : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-50'
+                }`}
+              >
+                Tüm Dersler
+              </Link>
+              {[
+                { name: 'Türkçe / Okuma Yazma', query: 'turkce' },
+                { name: 'Matematik', query: 'matematik' },
+                { name: 'Hayat Bilgisi', query: 'hayat' },
+                ...(params.slug === '4-sinif' ? [
+                  { name: 'Fen Bilimleri', query: 'fen' },
+                  { name: 'Sosyal Bilgiler', query: 'sosyal' },
+                ] : []),
+              ].map((sub) => (
+                <Link
+                  key={sub.query}
+                  href={`/kategori/${params.slug}?ders=${sub.query}${turFilter ? `&tur=${turFilter}` : ''}`}
+                  className={`px-3 py-1.5 rounded-xl font-bold transition-all ${
+                    dersFilter === sub.query
+                      ? 'bg-indigo-600 text-white shadow-sm'
+                      : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-50'
+                  }`}
+                >
+                  {sub.name}
+                </Link>
+              ))}
             </div>
           </div>
         )}
@@ -450,7 +557,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           <div className="flex items-center justify-center gap-2 pt-8">
             {currentPage > 1 && (
               <Link
-                href={`/kategori/${params.slug}?page=${currentPage - 1}${dersQuery}`}
+                href={`/kategori/${params.slug}?page=${currentPage - 1}${dersQuery}${turQuery}`}
                 className="px-4 py-2 bg-white border border-slate-200 rounded-xl text-xs font-bold text-slate-700 hover:bg-slate-50 shadow-sm"
               >
                 &larr; Önceki
@@ -463,7 +570,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
 
             {currentPage < totalPages && (
               <Link
-                href={`/kategori/${params.slug}?page=${currentPage + 1}${dersQuery}`}
+                href={`/kategori/${params.slug}?page=${currentPage + 1}${dersQuery}${turQuery}`}
                 className="px-4 py-2 bg-white border border-slate-200 rounded-xl text-xs font-bold text-slate-700 hover:bg-slate-50 shadow-sm"
               >
                 Sonraki &rarr;

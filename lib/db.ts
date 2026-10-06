@@ -217,6 +217,7 @@ export function getPosts(options: {
   publishedOnly?: boolean;
   draftsOnly?: boolean;
   excludePageSolutions?: boolean;
+  contentType?: 'etkinlik' | 'cozum' | 'all';
 } = {}): { posts: Post[]; total: number; totalPages: number; counts?: { total: number; drafts: number; published: number } } {
   const db = getDb();
   const page = Math.max(1, options.page || 1);
@@ -234,6 +235,12 @@ export function getPosts(options: {
 
   if (options.excludePageSolutions) {
     conditions.push("slug NOT LIKE '%-sayfa-%' AND slug NOT LIKE '%sayfa-%'");
+  }
+
+  if (options.contentType === 'etkinlik') {
+    conditions.push("(slug LIKE '%calisma-kagidi%' OR slug LIKE '%etkinlik%' OR tags LIKE '%çalışma kağıdı%')");
+  } else if (options.contentType === 'cozum') {
+    conditions.push("(slug LIKE '%ders-kitabi%' OR slug LIKE '%sayfa%')");
   }
 
   if (options.category) {

@@ -117,18 +117,19 @@ html.dark tr:hover {
   }
 }
 
-/* Print Styles for PDF Test Downloads - MEB Format Clean Test Output */
+/* Print Styles for PDF Downloads & MEB Official Formats */
 @media print {
   @page {
-    margin: 1.2cm 1cm;
-    size: A4 portrait;
+    margin: 10mm 10mm 10mm 10mm;
+    size: auto;
   }
 
-  /* 1. Hide everything on the website */
+  /* 1. Hide web chrome, navigations, sidebars, and non-printable elements */
   header,
   footer,
   nav,
   aside,
+  .no-print,
   .print\:hidden,
   .post-header,
   header.space-y-4,
@@ -152,7 +153,7 @@ html.dark tr:hover {
     display: none !important;
   }
 
-  /* 2. Reset containers to full width white canvas */
+  /* 2. Reset containers to full width clean white canvas */
   html, body, main, article {
     background: #ffffff !important;
     color: #000000 !important;
@@ -162,9 +163,27 @@ html.dark tr:hover {
     padding: 0 !important;
     width: 100% !important;
     max-width: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
-  /* 3. Ensure test section and its print elements are cleanly rendered */
+  /* 3. Document Print Isolation for Annual & Daily Plans */
+  .printable-area,
+  .print-area {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    page-break-inside: auto !important;
+  }
+
+  /* 4. Ensure test section and its print elements are cleanly rendered */
   #20-soruluk-test {
     display: block !important;
     padding: 0 !important;

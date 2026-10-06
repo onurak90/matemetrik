@@ -36,11 +36,10 @@ export default function Navbar() {
 
   const grades = [
     { label: 'İlkokul', items: [
-      { name: 'İlkokul Etkinlikleri (PDF)', href: '/ilkokul-etkinlikleri' },
-      { name: '1. Sınıf', href: '/kategori/1-sinif' },
-      { name: '2. Sınıf', href: '/kategori/2-sinif' },
-      { name: '3. Sınıf', href: '/kategori/3-sinif' },
-      { name: '4. Sınıf', href: '/kategori/4-sinif' },
+      { name: '1. Sınıf (Çözüm & PDF Etkinlik)', href: '/kategori/1-sinif' },
+      { name: '2. Sınıf (Çözüm & PDF Etkinlik)', href: '/kategori/2-sinif' },
+      { name: '3. Sınıf (Çözüm & PDF Etkinlik)', href: '/kategori/3-sinif' },
+      { name: '4. Sınıf (Çözüm & PDF Etkinlik)', href: '/kategori/4-sinif' },
     ]},
     { label: 'Ortaokul', items: [
       { name: '5. Sınıf', href: '/kategori/5-sinif' },
@@ -64,6 +63,10 @@ export default function Navbar() {
       { name: 'YKS & Sınav', href: '/kategori/yks' },
     ]},
   ];
+
+  if (pathname?.startsWith('/gr')) {
+    return null;
+  }
 
   return (
     <header
@@ -245,22 +248,6 @@ export default function Navbar() {
               </div>
             </div>
 
-            {/* İlkokul Etkinlikleri */}
-            <Link
-              prefetch={false}
-              href="/ilkokul-etkinlikleri"
-              className={`flex items-center gap-1.5 px-1.5 xl:px-2.5 py-1.5 rounded-xl text-xs xl:text-[13px] 2xl:text-sm font-semibold whitespace-nowrap transition-colors ${
-                pathname?.startsWith('/ilkokul-etkinlikleri')
-                  ? 'text-indigo-600 bg-indigo-50'
-                  : 'text-slate-700 hover:text-indigo-600 hover:bg-slate-50'
-              }`}
-            >
-              <span>İlkokul Etkinlikleri</span>
-              <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-amber-100 text-amber-800 font-extrabold hidden 2xl:inline">
-                PDF
-              </span>
-            </Link>
-
             {/* Öğretmen Araçları Dropdown */}
             <div className="relative group">
               <Link
@@ -283,6 +270,27 @@ export default function Navbar() {
                     Tüm Araçlar &rarr;
                   </Link>
                 </div>
+
+                <Link
+                  prefetch={false}
+                  href="/yillik-gunluk-planlar"
+                  className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-indigo-50 transition-colors group/item"
+                >
+                  <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0">
+                    <Calendar className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-slate-800 group-hover/item:text-indigo-600 flex items-center gap-1.5">
+                      Yıllık &amp; Günlük Planlar
+                      <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-extrabold border border-emerald-200">
+                        Defter Dolum
+                      </span>
+                    </div>
+                    <div className="text-[11px] text-slate-500 line-clamp-1">
+                      Haftalık ders planı &amp; sınıf defteri doldurma
+                    </div>
+                  </div>
+                </Link>
 
                 <Link
                   prefetch={false}
@@ -495,6 +503,26 @@ export default function Navbar() {
               <Search className="w-5 h-5" />
             </button>
 
+            {/* Dil / Bölge Seçici (TR / GR) */}
+            <div className="flex items-center bg-slate-100 dark:bg-slate-800 p-0.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-bold shadow-xs">
+              <Link
+                href="/"
+                title="Türkiye (Türkçe)"
+                className="px-2 py-1 rounded-lg flex items-center gap-1 transition-all bg-white dark:bg-slate-900 text-slate-900 dark:text-white shadow-xs font-extrabold"
+              >
+                <span className="text-sm">🇹🇷</span>
+                <span className="hidden sm:inline text-[11px]">TR</span>
+              </Link>
+              <Link
+                href="/gr"
+                title="Ελλάδα (Ελληνικά) - Σχολικά Βιβλία & Λύσεις"
+                className="px-2 py-1 rounded-lg flex items-center gap-1 transition-all text-slate-500 hover:text-slate-900 dark:hover:text-white font-extrabold"
+              >
+                <span className="text-sm">🇬🇷</span>
+                <span className="hidden sm:inline text-[11px]">GR</span>
+              </Link>
+            </div>
+
             {/* Theme Toggle (Açık / Karanlık Tema) */}
             <ThemeToggle />
 
@@ -541,19 +569,6 @@ export default function Navbar() {
           >
             Ana Sayfa
           </Link>
-
-          <div className="py-2 border-b border-slate-100 space-y-2">
-            <Link
-              href="/ilkokul-etkinlikleri"
-              onClick={() => setIsOpen(false)}
-              className="flex items-center justify-between py-1.5 px-3 rounded-xl bg-amber-50 text-sm font-bold text-amber-900 border border-amber-200"
-            >
-              <span className="flex items-center gap-1.5">
-                İlkokul Etkinlikleri (1-4. Sınıf)
-              </span>
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-200 text-amber-950 font-black">PDF İndir</span>
-            </Link>
-          </div>
 
           <div className="py-2 border-b border-slate-100 space-y-2">
             <Link
@@ -605,9 +620,13 @@ export default function Navbar() {
               <span>Öğretmen Araçları</span>
               <span className="text-[10px] text-slate-500 font-medium lowercase">tümünü gör &rarr;</span>
             </Link>
-            <Link prefetch={false} href="/yillik-plan-hazirlama" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
+            <Link prefetch={false} href="/yillik-gunluk-planlar" onClick={() => setIsOpen(false)} className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
+              <span>Yıllık &amp; Günlük Planlar</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-bold border border-emerald-200">Defter Dolum</span>
+            </Link>
+            <Link prefetch={false} href="/yillik-plan-hazirlama" onClick={() => setIsOpen(false)} className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
               <span>Yıllık Plan Hazırlama</span>
-              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-bold border border-emerald-200">2026-2027</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-teal-50 text-teal-700 font-bold border border-teal-200">2026-2027</span>
             </Link>
             <Link prefetch={false} href="/kulup-toplanti-tutanaklari" className="block py-1 text-sm font-medium text-slate-700 hover:text-indigo-600 flex items-center justify-between">
               <span>Kulüp Toplantı Tutanakları</span>
@@ -687,6 +706,28 @@ export default function Navbar() {
           >
             Hakkımızda
           </Link>
+
+          <div className="pt-3 pb-2 border-b border-slate-100 flex items-center justify-between">
+            <span className="text-xs font-semibold text-slate-500">Ülke / Dil:</span>
+            <div className="flex items-center bg-slate-100 dark:bg-slate-800 p-0.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-bold">
+              <Link
+                href="/"
+                onClick={() => setIsOpen(false)}
+                className="px-2.5 py-1 rounded-lg flex items-center gap-1 bg-white dark:bg-slate-900 text-slate-900 dark:text-white shadow-xs font-extrabold"
+              >
+                <span>🇹🇷</span>
+                <span>TR</span>
+              </Link>
+              <Link
+                href="/gr"
+                onClick={() => setIsOpen(false)}
+                className="px-2.5 py-1 rounded-lg flex items-center gap-1 text-slate-600 dark:text-slate-300 font-extrabold"
+              >
+                <span>🇬🇷</span>
+                <span>GR</span>
+              </Link>
+            </div>
+          </div>
 
           <div className="pt-3 flex items-center justify-between">
             <span className="text-xs font-semibold text-slate-500">Görünüm Teması:</span>
