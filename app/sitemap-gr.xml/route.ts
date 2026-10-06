@@ -4,7 +4,7 @@ import path from 'path';
 import { GREEK_BOOKS } from '@/lib/greekEducationData';
 import { getGreekNews } from '@/lib/greekNews';
 
-export const revalidate = 3600; // 1 hour
+export const dynamic = 'force-dynamic';
 
 function generateXml(): string {
   const filePath = path.join(process.cwd(), 'public/sitemap-gr.xml');
@@ -64,7 +64,7 @@ export async function GET() {
     status: 200,
     headers: {
       'Content-Type': 'application/xml',
-      'Cache-Control': 'public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400',
+      'Cache-Control': 'public, max-age=0, must-revalidate',
     },
   });
 }
@@ -76,7 +76,7 @@ export async function HEAD() {
     headers: {
       'Content-Type': 'application/xml',
       'Content-Length': Buffer.byteLength(xml, 'utf8').toString(),
-      'Cache-Control': 'public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400',
+      'Cache-Control': 'public, max-age=0, must-revalidate',
     },
   });
 }

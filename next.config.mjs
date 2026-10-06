@@ -44,6 +44,10 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/sitemap_gr.xml', destination: '/sitemap-gr.xml', permanent: true },
+      { source: '/sitemap-gr', destination: '/sitemap-gr.xml', permanent: true },
+      { source: '/sitemap_gr', destination: '/sitemap-gr.xml', permanent: true },
+      { source: '/sitemap.gr.xml', destination: '/sitemap-gr.xml', permanent: true },
       { source: '/konu-anlatimlari', destination: '/ilkokul-etkinlikleri', permanent: true },
       { source: '/konu-anlatimlari/:slug*', destination: '/ilkokul-etkinlikleri', permanent: true },
       { source: '/blog', destination: '/post', permanent: true },

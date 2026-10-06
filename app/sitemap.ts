@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getDb, getCategories } from '@/lib/db';
 import { getYdsTopics } from '@/lib/yds';
+import { GREEK_BOOKS } from '@/lib/greekEducationData';
 
 export const revalidate = 3600; // revalidate hourly
 
@@ -253,5 +254,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...staticRoutes, ...ydsTopicRoutes, ...categoryRoutes, ...postRoutes];
+  // 4. Greek Educational Portal Routes (Integrated for guaranteed Search Console coverage)
+  const greekRoutes: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/gr`, changeFrequency: 'daily', priority: 1.0 },
+    { url: `${baseUrl}/gr/dimotiko`, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${baseUrl}/gr/gymnasio`, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${baseUrl}/gr/lykeio`, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${baseUrl}/gr/pdf-vivlia`, changeFrequency: 'weekly', priority: 0.95 },
+    { url: `${baseUrl}/gr/eidiseis`, changeFrequency: 'daily', priority: 0.9 },
+  ];
+
+  for (const book of GREEK_BOOKS) {
+    greekRoutes.push({
+      url: `${baseUrl}/gr/vivlia/${book.gradeSlug}/${book.subjectSlug}`,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    });
+    for (const page of book.pages) {
+      greekRoutes.push({
+        url: `${baseUrl}/gr/vivlia/${book.gradeSlug}/${book.subjectSlug}/${page.slug}`,
+        changeFrequency: 'weekly',
+        priority: 0.85,
+      });
+    }
+  }
+
+  try {
+    const grNews = db.prepare('SELECT slug FROM greek_news ORDER BY id DESC LIMIT 50').all() as Array<{ slug: string }>;
+    for (const item of grNews) {
+      greekRoutes.push({
+        url: `${baseUrl}/gr/eidiseis/${item.slug}`,
+        changeFrequency: 'daily',
+        priority: 0.8,
+      });
+    }
+  } catch {}
+
+  return [...staticRoutes, ...ydsTopicRoutes, ...categoryRoutes, ...postRoutes, ...greekRoutes];
 }
