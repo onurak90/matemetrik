@@ -18,6 +18,7 @@ import InteractiveQuizHandler from '@/components/blog/InteractiveQuizHandler';
 import PostCoverImage from '@/components/blog/PostCoverImage';
 import BookPageNav from '@/components/blog/BookPageNav';
 import NextArticleDrawer from '@/components/blog/NextArticleDrawer';
+import AdsterraNativeBanner from '@/components/ads/AdsterraNativeBanner';
 
 interface PostPageProps {
   params: { slug: string };
@@ -405,14 +406,9 @@ export default async function BlogPostPage({ params }: PostPageProps) {
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
 
-          {/* In-Article Ad Slot */}
-          {adsEnabled && settings.ad_in_article_code && (
-            <div className="my-8 py-4 border-y border-slate-100 text-center">
-              <div
-                id="ad-in-article-container"
-                dangerouslySetInnerHTML={{ __html: settings.ad_in_article_code }}
-              />
-            </div>
+          {/* In-Article Ad Slot / Adsterra Native Banner */}
+          {adsEnabled && (
+            <AdsterraNativeBanner />
           )}
 
           {/* Tags */}

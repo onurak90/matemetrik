@@ -3,10 +3,11 @@ import { notFound, permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { FolderTree, ChevronRight, BookOpen, ArrowRight } from 'lucide-react';
-import { getDb, getCategoryBySlug, getPosts, getCategories, getMebBookMasterPosts } from '@/lib/db';
+import { getDb, getCategoryBySlug, getPosts, getCategories, getMebBookMasterPosts, getSettings } from '@/lib/db';
 import { syncBlobPostsIntoDb } from '@/lib/blobSync';
 import PostCard from '@/components/blog/PostCard';
 import GradeSubjectSolutions from '@/components/category/GradeSubjectSolutions';
+import AdsterraNativeBanner from '@/components/ads/AdsterraNativeBanner';
 
 interface CategoryPageProps {
   params: { slug: string };
@@ -55,6 +56,9 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   }
 
   await syncBlobPostsIntoDb(getDb());
+
+  const settings = getSettings();
+  const adsEnabled = settings.ads_enabled === '1';
 
   const cat = getCategoryBySlug(params.slug);
   const currentPage = parseInt(searchParams.page || '1', 10);
@@ -527,6 +531,10 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
                 <PostCard key={post.id} post={post} />
               ))}
             </div>
+
+            {adsEnabled && (
+              <AdsterraNativeBanner />
+            )}
           </div>
         )}
 
