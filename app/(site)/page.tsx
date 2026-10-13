@@ -11,6 +11,7 @@ import PostCard from '@/components/blog/PostCard';
 import PostSlider from '@/components/home/PostSlider';
 import FaqSection from '@/components/home/FaqSection';
 import DynamicMathHero from '@/components/home/DynamicMathHero';
+import BookSummariesSection from '@/components/home/BookSummariesSection';
 
 export const dynamic = 'force-dynamic';
 
@@ -43,6 +44,12 @@ export default async function HomePage({
   });
 
   const mebBooks = getMebBookMasterPosts();
+  // Fetch latest book summaries for homepage grid
+  const { posts: bookSummaries } = getPosts({
+    category: 'kitap-ozet',
+    limit: 12,
+    publishedOnly: true,
+  });
 
   const gradeCards = [
     { title: '1. Sınıf', slug: '1-sinif', level: 'İlkokul', color: 'from-amber-500 to-orange-500', badge: '1' },
@@ -186,6 +193,9 @@ export default async function HomePage({
         </div>
         <PostSlider posts={sliderPosts} />
       </section>
+
+      {/* 3b. RECENT BOOK SUMMARIES (Son Kitap Özetleri - Küçük Kapak Resimleri) */}
+      <BookSummariesSection books={bookSummaries} />
 
       {/* 4. BLOG POSTS GRID SECTION (Son Yazıların Hemen Altında) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
