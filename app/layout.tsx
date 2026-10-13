@@ -210,14 +210,6 @@ export default function RootLayout({
           />
         )}
 
-        {/* Adsterra Popunder (Right before closing </head>) */}
-        {adsEnabled && (
-          <script
-            data-cfasync="false"
-            src="https://abscloud.org/1/a3a291c6eb32a271df1a854fab01f53b"
-          />
-        )}
-
         {adsEnabled && settings.ad_header_code && !settings.ad_header_code.includes('abscloud.org') && renderAdSenseHead(settings.ad_header_code)}
       </head>
       <body className="antialiased bg-slate-50 dark:bg-[#0b0f19] text-slate-900 dark:text-slate-100 min-h-screen selection:bg-indigo-500 selection:text-white transition-colors duration-200">
@@ -234,13 +226,6 @@ export default function RootLayout({
           <div
             id="ad-footer-container"
             dangerouslySetInnerHTML={{ __html: settings.ad_footer_code }}
-          />
-        )}
-        {/* Adsterra Social Bar (Right above closing </body>) */}
-        {adsEnabled && (
-          <script
-            data-cfasync="false"
-            src="https://bauval.org/14/d0098bf2275ef641128098eafb76198f"
           />
         )}
       </body>

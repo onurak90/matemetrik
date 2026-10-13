@@ -14,45 +14,12 @@ interface AdsterraSmartLinkCtaProps {
 
 export default function AdsterraSmartLinkCta({
   smartLink = 'https://araplhn.org/4/102a74e644a5d32555e92e2872366185',
-  title = 'Konu Özeti, Formül Kağıdı & PDF Test Materyalleri',
-  subtitle = '2024-2025 MEB müfredatına tam uyumlu kazanım testlerini, ders özetlerini ve A4 yazdırılabilir çalışma yapraklarını tek tıkla cihazınıza indirebilirsiniz.',
-  badge = 'Ücretsiz Eğitim Materyali (PDF)',
-  buttonText = 'Hemen İndir (PDF & Çalışma Notu)',
+  title = 'Seçkin Eğitim Portalları ve Dijital Kaynaklar',
+  subtitle = 'Platformumuzu destekleyen sponsorlu eğitim kaynakları, ek dijital çalışma yaprakları ve önerilen öğrenme materyalleri.',
+  badge = 'Sponsorlu Bağlantı & Destek',
+  buttonText = 'Önerilen Eğitim Kaynağına Git',
   className = '',
 }: AdsterraSmartLinkCtaProps) {
-
-  // Auto-monetize any existing PDF download buttons inside the article
-  useEffect(() => {
-    if (!smartLink) return;
-
-    const handleDownloadClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement | null;
-      if (!target) return;
-
-      const link = target.closest('a') as HTMLAnchorElement | null;
-      if (!link) return;
-
-      // Check if it is a download link or points to a pdf
-      const href = link.getAttribute('href') || '';
-      const hasDownloadAttr = link.hasAttribute('download');
-      const isPdfLink = href.toLowerCase().endsWith('.pdf') || href.toLowerCase().includes('/uploads/');
-
-      // If it's a real download link and not the ad smartlink itself
-      if ((hasDownloadAttr || isPdfLink) && !href.includes('araplhn.org')) {
-        // Open the smartlink in background/new tab while letting the real file download!
-        try {
-          window.open(smartLink, '_blank', 'noopener,noreferrer');
-        } catch {
-          // ignore popup blocker
-        }
-      }
-    };
-
-    document.addEventListener('click', handleDownloadClick, { capture: true });
-    return () => {
-      document.removeEventListener('click', handleDownloadClick, { capture: true });
-    };
-  }, [smartLink]);
 
   if (!smartLink) return null;
 
@@ -91,15 +58,15 @@ export default function AdsterraSmartLinkCta({
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs text-slate-300 pt-1">
           <div className="flex items-center gap-1.5 bg-white/5 px-3 py-1.5 rounded-xl border border-white/10">
             <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-            <span>A4 Yazdırılabilir PDF</span>
+            <span>Dijital Öğrenme Kaynakları</span>
           </div>
           <div className="flex items-center gap-1.5 bg-white/5 px-3 py-1.5 rounded-xl border border-white/10">
             <CheckCircle2 className="w-3.5 h-3.5 text-indigo-400 shrink-0" />
-            <span>Kazanım Odaklı Sorular</span>
+            <span>Kullanıcı Destekli İçerikler</span>
           </div>
           <div className="flex items-center gap-1.5 bg-white/5 px-3 py-1.5 rounded-xl border border-white/10">
             <CheckCircle2 className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-            <span>Ücretsiz &amp; Hızlı İndir</span>
+            <span>Harici Sponsorlu Sayfa</span>
           </div>
         </div>
 
@@ -111,11 +78,11 @@ export default function AdsterraSmartLinkCta({
             rel="noopener noreferrer nofollow"
             className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-gradient-to-r from-indigo-500 via-indigo-600 to-violet-600 hover:from-indigo-400 hover:to-violet-500 text-white font-bold text-sm shadow-lg shadow-indigo-600/30 transition-all transform hover:scale-[1.02] active:scale-[0.99]"
           >
-            <Download className="w-4 h-4 animate-bounce" />
+            <Sparkles className="w-4 h-4 text-amber-300" />
             <span>{buttonText}</span>
           </a>
           <span className="text-[11px] text-slate-400 text-center sm:text-left">
-            Dosya yeni sekmede güvenle açılacaktır.
+            Harici sponsorlu kaynak yeni sekmede açılır.
           </span>
         </div>
       </div>
