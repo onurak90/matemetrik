@@ -1224,6 +1224,7 @@ export function getSettings(): Record<string, string> {
     ad_in_article_code: '',
     ad_sidebar_code: '',
     ad_footer_code: '',
+    ad_smart_link: 'https://araplhn.org/4/102a74e644a5d32555e92e2872366185',
     ads_txt: '# Google AdSense ads.txt - Matemetrik\n# Reklam kimliğinizi (pub-xxxxxxxxxxxxxxxx) aşağıdaki formata göre ekleyebilirsiniz:\n# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0\n',
     cta_top_enabled: '1',
     cta_top_text: '🎉 2025-2026 MEB Müfredatına Uygun Yazılı Soruları & Karne Görüşü Robotu Yayında!',

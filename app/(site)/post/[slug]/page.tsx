@@ -19,6 +19,7 @@ import PostCoverImage from '@/components/blog/PostCoverImage';
 import BookPageNav from '@/components/blog/BookPageNav';
 import NextArticleDrawer from '@/components/blog/NextArticleDrawer';
 import AdsterraNativeBanner from '@/components/ads/AdsterraNativeBanner';
+import AdsterraSmartLinkCta from '@/components/ads/AdsterraSmartLinkCta';
 
 interface PostPageProps {
   params: { slug: string };
@@ -406,9 +407,12 @@ export default async function BlogPostPage({ params }: PostPageProps) {
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
 
-          {/* In-Article Ad Slot / Adsterra Native Banner */}
+          {/* In-Article Ad Slot / Adsterra Smartlink CTA & Native Banner */}
           {adsEnabled && (
-            <AdsterraNativeBanner />
+            <>
+              <AdsterraSmartLinkCta smartLink={settings.ad_smart_link} />
+              <AdsterraNativeBanner />
+            </>
           )}
 
           {/* Tags */}

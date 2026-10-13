@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import {
   Save, CheckCircle, Code, ShieldCheck,
-  AlertCircle, Layout, ToggleLeft, ToggleRight
+  AlertCircle, Layout, ToggleLeft, ToggleRight, Sparkles, Link2
 } from 'lucide-react';
 
 export default function AdminAdsPage() {
@@ -12,6 +12,7 @@ export default function AdminAdsPage() {
   const [adInArticleCode, setAdInArticleCode] = useState('');
   const [adSidebarCode, setAdSidebarCode] = useState('');
   const [adFooterCode, setAdFooterCode] = useState('');
+  const [adSmartLink, setAdSmartLink] = useState('');
   const [adsTxt, setAdsTxt] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [isSaving, setIsSaving] = useState(false);
@@ -26,6 +27,7 @@ export default function AdminAdsPage() {
         setAdInArticleCode(data.ad_in_article_code || '');
         setAdSidebarCode(data.ad_sidebar_code || '');
         setAdFooterCode(data.ad_footer_code || '');
+        setAdSmartLink(data.ad_smart_link || '');
         setAdsTxt(data.ads_txt || '');
       })
       .catch(console.error)
@@ -45,6 +47,7 @@ export default function AdminAdsPage() {
           ad_in_article_code: adInArticleCode,
           ad_sidebar_code: adSidebarCode,
           ad_footer_code: adFooterCode,
+          ad_smart_link: adSmartLink,
           ads_txt: adsTxt,
         }),
       });
@@ -171,6 +174,27 @@ export default function AdminAdsPage() {
             value={adFooterCode}
             onChange={(e) => setAdFooterCode(e.target.value)}
             placeholder="<script>/* Footer Scripts */</script>"
+            className="w-full p-3 font-mono text-xs text-slate-900 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          />
+        </div>
+
+        {/* Smartlink / Direct Link (Adsterra) */}
+        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+          <div className="flex items-center justify-between">
+            <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
+              <Sparkles className="w-4 h-4 text-amber-500" />
+              Adsterra Smartlink / Direct Link URL (Yüksek Kazanç Bağlantısı)
+            </label>
+            <span className="text-[11px] text-slate-400">PDF indirme butonlarında ve yazı içi CTA kutularında açılır</span>
+          </div>
+          <p className="text-xs text-slate-500">
+            Adsterra panelinizden aldığınız doğrudan bağlantı URL'si. Ziyaretçiler PDF indirme butonlarına veya çalışma notu bağlantılarına tıkladığında bu link yeni sekmede açılır.
+          </p>
+          <input
+            type="url"
+            value={adSmartLink}
+            onChange={(e) => setAdSmartLink(e.target.value)}
+            placeholder="https://araplhn.org/4/102a74e644a5d32555e92e2872366185"
             className="w-full p-3 font-mono text-xs text-slate-900 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
         </div>
