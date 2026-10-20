@@ -105,6 +105,36 @@ const nextConfig = {
   async headers() {
     return [
       {
+        // Edge CDN Cache for Post pages
+        source: '/post/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400',
+          },
+        ],
+      },
+      {
+        // Edge CDN Cache for Category pages
+        source: '/kategori/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400',
+          },
+        ],
+      },
+      {
+        // Edge CDN Cache for Home page
+        source: '/',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400',
+          },
+        ],
+      },
+      {
         // Next.js build assets are immutable and content-hashed
         source: '/_next/static/:path*',
         headers: [

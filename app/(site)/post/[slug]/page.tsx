@@ -105,9 +105,6 @@ export default async function BlogPostPage({ params }: PostPageProps) {
     permanentRedirect(`/post/${post.slug}`);
   }
 
-  // Increment view counter
-  incrementViews(post.id);
-
   const settings = getSettings();
   const adsEnabled = settings.ads_enabled === '1';
 
