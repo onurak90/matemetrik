@@ -4,7 +4,6 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { FolderTree, ChevronRight, BookOpen, ArrowRight } from 'lucide-react';
 import { getDb, getCategoryBySlug, getPosts, getCategories, getMebBookMasterPosts, getSettings } from '@/lib/db';
-import { syncBlobPostsIntoDb } from '@/lib/blobSync';
 import PostCard from '@/components/blog/PostCard';
 import GradeSubjectSolutions from '@/components/category/GradeSubjectSolutions';
 import AdsterraNativeBanner from '@/components/ads/AdsterraNativeBanner';
@@ -54,8 +53,6 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   if (params.slug === 'matematik-blog') {
     permanentRedirect('/post');
   }
-
-  await syncBlobPostsIntoDb(getDb());
 
   const settings = getSettings();
   const adsEnabled = settings.ads_enabled === '1';

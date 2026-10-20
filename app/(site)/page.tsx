@@ -6,21 +6,19 @@ import {
   TrendingUp, Compass, ArrowUpRight, Calendar, Users, Calculator, Zap
 } from 'lucide-react';
 import { getDb, getPosts, getCategories, getTopPosts, getMebBookMasterPosts } from '@/lib/db';
-import { syncBlobPostsIntoDb } from '@/lib/blobSync';
 import PostCard from '@/components/blog/PostCard';
 import PostSlider from '@/components/home/PostSlider';
 import FaqSection from '@/components/home/FaqSection';
 import DynamicMathHero from '@/components/home/DynamicMathHero';
 import BookSummariesSection from '@/components/home/BookSummariesSection';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 3600; // 1 hour edge cache ISR
 
 export default async function HomePage({
   searchParams,
 }: {
   searchParams: { page?: string; q?: string; cat?: string };
 }) {
-  await syncBlobPostsIntoDb(getDb());
   const currentPage = parseInt(searchParams.page || '1', 10);
   const searchQuery = searchParams.q || undefined;
   const categoryFilter = searchParams.cat || undefined;
