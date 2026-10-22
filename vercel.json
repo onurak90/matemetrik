@@ -2,7 +2,8 @@
   "crons": [
     {
       "path": "/api/news-bot/crawl",
-      "schedule": "0 */2 * * *"
+      "schedule": "0 6 * * *"
     }
   ]
 }
+
