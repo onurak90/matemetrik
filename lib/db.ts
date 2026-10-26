@@ -21,7 +21,17 @@ function getResolvedDbPath(): string {
   }
   // When running inside Vercel serverless environment, filesystem outside /tmp is read-only
   if (process.env.VERCEL) {
-    const deploymentKey = process.env.VERCEL_DEPLOYMENT_ID || process.env.VERCEL_GIT_COMMIT_SHA || 'v5_persistent';
+    let deploymentKey = process.env.VERCEL_DEPLOYMENT_ID || process.env.VERCEL_GIT_COMMIT_SHA;
+    if (!deploymentKey && fs.existsSync(ORIGINAL_DB_PATH)) {
+      try {
+        const stats = fs.statSync(ORIGINAL_DB_PATH);
+        deploymentKey = `v6_${stats.size}_${Math.floor(stats.mtimeMs)}`;
+      } catch {
+        deploymentKey = `v6_${Date.now()}`;
+      }
+    } else if (!deploymentKey) {
+      deploymentKey = `v6_${Date.now()}`;
+    }
     const tmpDbPath = `/tmp/matemetrik_${deploymentKey}.db`;
     if (!fs.existsSync(tmpDbPath) && fs.existsSync(ORIGINAL_DB_PATH)) {
       try {
