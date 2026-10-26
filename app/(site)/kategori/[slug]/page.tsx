@@ -163,6 +163,50 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           </div>
         </div>
 
+        {/* Ortak Yazılı Sınav Soruları ve MEB Senaryoları Özel Bölümü (5-12. Sınıf & İlgili Kategoriler) */}
+        {isGradeCategory && (
+          <div className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-6 sm:p-8 text-white shadow-xl border border-indigo-500/30 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 group">
+            <div className="space-y-3 max-w-2xl">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-bold border border-amber-400/30">
+                  <span>📝 2024-2025 / 2026-2027 MEB Ortak Sınav Formatı</span>
+                </span>
+                <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 text-[11px] font-bold border border-emerald-400/25">
+                  <span>✓ Açık Uçlu Soru &amp; Çözüm Anahtarı</span>
+                </span>
+              </div>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight">
+                {categoryName} 1. Dönem Yazılı Soruları &amp; MEB Senaryoları (PDF)
+              </h2>
+              <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
+                MEB Maarif Modeli ve il/ilçe zümre kurullarının yayımladığı konu soru dağılım senaryolarına uygun açık uçlu sınav örnekleri, çözümlü çalışma kağıtları ve yazdırılabilir PDF dokümanları.
+              </p>
+              <div className="flex flex-wrap gap-2 text-xs text-indigo-200 pt-1">
+                <span className="bg-white/10 px-2.5 py-1 rounded-lg">✓ Tüm Dersler &amp; Senaryolar</span>
+                <span className="bg-white/10 px-2.5 py-1 rounded-lg">✓ Puanlama Kriterleri</span>
+                <span className="bg-white/10 px-2.5 py-1 rounded-lg">✓ Ücretsiz PDF İndir</span>
+              </div>
+            </div>
+            <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row items-stretch sm:items-center gap-3 shrink-0 w-full md:w-auto">
+              {['5-sinif', '6-sinif', '7-sinif', '8-sinif', '9-sinif', '10-sinif', '11-sinif', '12-sinif'].includes(params.slug) && (
+                <Link
+                  href={`/post/${params.slug}-1-donem-1-yazili-sorulari-ve-cevaplari-meb-senaryolari`}
+                  className="inline-flex items-center justify-center gap-2 px-5 py-3.5 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-black text-xs sm:text-sm rounded-2xl transition-all shadow-lg shadow-orange-950/40 hover:scale-105"
+                >
+                  <span>📄 {categoryName} Yazılı Sorularını Aç</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              )}
+              <Link
+                href="/sinav-hazirlama-robotu"
+                className="inline-flex items-center justify-center gap-2 px-5 py-3.5 bg-white/10 hover:bg-white/20 text-white font-bold text-xs sm:text-sm rounded-2xl border border-white/20 transition-all hover:scale-105"
+              >
+                <span>⚡ Açık Uçlu Sınav Robotu</span>
+              </Link>
+            </div>
+          </div>
+        )}
+
         {/* YDS Özel İnteraktif Çalışma Bölümü Bannerı */}
         {params.slug === 'yds' && (
           <div className="relative overflow-hidden bg-gradient-to-r from-slate-900 via-indigo-950 to-emerald-950 rounded-3xl p-8 sm:p-10 text-white shadow-xl border border-emerald-500/30 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 group">
