@@ -188,12 +188,21 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
               </div>
             </div>
             <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row items-stretch sm:items-center gap-3 shrink-0 w-full md:w-auto">
+              {params.slug === '6-sinif' && (
+                <Link
+                  href="/post/6-sinif-matematik-dersi-1-donem-1-ortak-yaziliya-yonelik-soru-ornekleri"
+                  className="inline-flex items-center justify-center gap-2 px-5 py-3.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-black text-xs sm:text-sm rounded-2xl transition-all shadow-lg shadow-indigo-950/40 hover:scale-105"
+                >
+                  <span>🎯 MEB 1. Dönem 1. Ortak Yazılı Soruları</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              )}
               {['5-sinif', '6-sinif', '7-sinif', '8-sinif', '9-sinif', '10-sinif', '11-sinif', '12-sinif'].includes(params.slug) && (
                 <Link
                   href={`/post/${params.slug}-1-donem-1-yazili-sorulari-ve-cevaplari-meb-senaryolari`}
                   className="inline-flex items-center justify-center gap-2 px-5 py-3.5 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-black text-xs sm:text-sm rounded-2xl transition-all shadow-lg shadow-orange-950/40 hover:scale-105"
                 >
-                  <span>📄 {categoryName} Yazılı Sorularını Aç</span>
+                  <span>📄 {categoryName} Tüm Yazılıları</span>
                   <ArrowRight className="w-4 h-4" />
                 </Link>
               )}
