@@ -194,7 +194,7 @@ export default function AdminAdsPage() {
             type="url"
             value={adSmartLink}
             onChange={(e) => setAdSmartLink(e.target.value)}
-            placeholder="https://araplhn.org/4/102a74e644a5d32555e92e2872366185"
+            placeholder="https://..."
             className="w-full p-3 font-mono text-xs text-slate-900 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
         </div>

@@ -6,7 +6,7 @@ import { FolderTree, ChevronRight, BookOpen, ArrowRight } from 'lucide-react';
 import { getDb, getCategoryBySlug, getPosts, getCategories, getMebBookMasterPosts, getSettings } from '@/lib/db';
 import PostCard from '@/components/blog/PostCard';
 import GradeSubjectSolutions from '@/components/category/GradeSubjectSolutions';
-import AdsterraNativeBanner from '@/components/ads/AdsterraNativeBanner';
+import GoogleAdSense from '@/components/ads/GoogleAdSense';
 
 interface CategoryPageProps {
   params: { slug: string };
@@ -574,7 +574,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
             </div>
 
             {adsEnabled && (
-              <AdsterraNativeBanner />
+              <GoogleAdSense />
             )}
           </div>
         )}

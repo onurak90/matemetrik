@@ -10,7 +10,7 @@ export async function GET() {
       ad_in_article_code: settings.ad_in_article_code || '',
       ad_sidebar_code: settings.ad_sidebar_code || '',
       ad_footer_code: settings.ad_footer_code || '',
-      ad_smart_link: settings.ad_smart_link || 'https://araplhn.org/4/102a74e644a5d32555e92e2872366185',
+      ad_smart_link: settings.ad_smart_link || '',
       ads_txt: settings.ads_txt || '',
     });
   } catch (error: any) {

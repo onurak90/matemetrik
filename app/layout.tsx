@@ -199,6 +199,13 @@ export default function RootLayout({
           </>
         )}
 
+        {/* Google AdSense Official Verification & Auto-Ads Script */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0247925049589800"
+          crossOrigin="anonymous"
+        />
+
         {/* Custom Head Tags */}
         {settings.custom_head_tags && (
           <script
@@ -207,23 +214,9 @@ export default function RootLayout({
             dangerouslySetInnerHTML={{ __html: settings.custom_head_tags }}
           />
         )}
-
-        {adsEnabled && settings.ad_header_code && !settings.ad_header_code.includes('abscloud.org') && renderAdSenseHead(settings.ad_header_code)}
       </head>
       <body className="antialiased bg-slate-50 dark:bg-[#0b0f19] text-slate-900 dark:text-slate-100 min-h-screen selection:bg-indigo-500 selection:text-white transition-colors duration-200">
-        {adsEnabled && settings.ad_header_code && !settings.ad_header_code.includes('abscloud.org') && (
-          <div
-            id="ad-header-container"
-            dangerouslySetInnerHTML={{ __html: settings.ad_header_code }}
-          />
-        )}
         {children}
-        {adsEnabled && settings.ad_footer_code && !settings.ad_footer_code.includes('bauval.org') && (
-          <div
-            id="ad-footer-container"
-            dangerouslySetInnerHTML={{ __html: settings.ad_footer_code }}
-          />
-        )}
       </body>
     </html>
   );

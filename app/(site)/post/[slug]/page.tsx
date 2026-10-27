@@ -18,8 +18,7 @@ import InteractiveQuizHandler from '@/components/blog/InteractiveQuizHandler';
 import PostCoverImage from '@/components/blog/PostCoverImage';
 import BookPageNav from '@/components/blog/BookPageNav';
 import NextArticleDrawer from '@/components/blog/NextArticleDrawer';
-import AdsterraNativeBanner from '@/components/ads/AdsterraNativeBanner';
-import AdsterraSmartLinkCta from '@/components/ads/AdsterraSmartLinkCta';
+import GoogleAdSense from '@/components/ads/GoogleAdSense';
 
 interface PostPageProps {
   params: { slug: string };
@@ -404,12 +403,9 @@ export default async function BlogPostPage({ params }: PostPageProps) {
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
 
-          {/* In-Article Ad Slot / Adsterra Smartlink CTA & Native Banner */}
+          {/* Google AdSense In-Article Responsive Ad Slot */}
           {adsEnabled && (
-            <>
-              <AdsterraSmartLinkCta smartLink={settings.ad_smart_link} />
-              <AdsterraNativeBanner />
-            </>
+            <GoogleAdSense />
           )}
 
           {/* Tags */}

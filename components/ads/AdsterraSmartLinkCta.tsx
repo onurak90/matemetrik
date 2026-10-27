@@ -13,7 +13,7 @@ interface AdsterraSmartLinkCtaProps {
 }
 
 export default function AdsterraSmartLinkCta({
-  smartLink = 'https://araplhn.org/4/102a74e644a5d32555e92e2872366185',
+  smartLink = '',
   title = 'Seçkin Eğitim Portalları ve Dijital Kaynaklar',
   subtitle = 'Platformumuzu destekleyen sponsorlu eğitim kaynakları, ek dijital çalışma yaprakları ve önerilen öğrenme materyalleri.',
   badge = 'Sponsorlu Bağlantı & Destek',
