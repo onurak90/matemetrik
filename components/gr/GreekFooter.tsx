@@ -6,7 +6,7 @@ export default function GreekFooter() {
   return (
     <footer className="bg-slate-950 text-slate-400 text-sm border-t border-slate-800 font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
           {/* Col 1: Brand & Description */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/gr" className="flex items-center gap-2.5">
@@ -104,7 +104,47 @@ export default function GreekFooter() {
             </ul>
           </div>
 
-          {/* Col 4: Επίσημοι Σύνδεσμοι Εκπαίδευσης */}
+          {/* Col 4: Εξετάσεις & Εργαλεία */}
+          <div>
+            <h3 className="text-white font-bold text-xs uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+              Εξετάσεις &amp; Εργαλεία
+            </h3>
+            <ul className="space-y-2 text-xs">
+              <li>
+                <Link href="/gr/trapeza-thematon" className="hover:text-blue-400 transition-colors flex items-center gap-1.5 font-medium">
+                  <span>Τράπεζα Θεμάτων (ΙΕΠ)</span>
+                  <span className="text-[9px] bg-blue-900/60 text-blue-300 px-1 rounded font-bold">Λύσεις</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/gr/panelladikes" className="hover:text-purple-400 transition-colors font-medium">
+                  Πανελλαδικές Εξετάσεις &amp; ΟΕΦΕ
+                </Link>
+              </li>
+              <li>
+                <Link href="/gr/ypologistis-morion" className="hover:text-indigo-400 transition-colors font-medium">
+                  Υπολογιστής Μορίων 2026
+                </Link>
+              </li>
+              <li>
+                <Link href="/gr/diagonismata" className="hover:text-amber-400 transition-colors font-medium">
+                  Διαγωνίσματα Α\' &amp; Β\' Τετραμήνου
+                </Link>
+              </li>
+              <li>
+                <Link href="/gr/pdf-vivlia" className="hover:text-white transition-colors">
+                  Επίσημα Βιβλία PDF (ebooks)
+                </Link>
+              </li>
+              <li>
+                <Link href="/gr/eidiseis" className="hover:text-emerald-400 transition-colors">
+                  Εκπαιδευτικές Ειδήσεις
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Col 5: Επίσημοι Σύνδεσμοι Εκπαίδευσης */}
           <div>
             <h3 className="text-white font-bold text-xs uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
               Επίσημοι Φορείς
@@ -174,7 +214,19 @@ export default function GreekFooter() {
           <p>
             &copy; {new Date().getFullYear()} Matemetrik.gr &bull; Όλα τα δικαιώματα διατηρούνται. Τα σχολικά βιβλία ανήκουν στο Υπουργείο Παιδείας, Θρησκευμάτων &amp; Αθλητισμού / ΙΤΥΕ «ΔΙΟΦΑΝΤΟΣ».
           </p>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap items-center gap-4">
+            <Link href="/gr/trapeza-thematon" className="hover:text-slate-300 transition-colors">
+              Τράπεζα Θεμάτων
+            </Link>
+            <Link href="/gr/panelladikes" className="hover:text-slate-300 transition-colors">
+              Πανελλαδικές
+            </Link>
+            <Link href="/gr/ypologistis-morion" className="hover:text-slate-300 transition-colors">
+              Μόρια 2026
+            </Link>
+            <Link href="/gr/diagonismata" className="hover:text-slate-300 transition-colors">
+              Διαγωνίσματα
+            </Link>
             <Link href="/gr/pdf-vivlia" className="hover:text-slate-300 transition-colors">
               Βιβλία PDF
             </Link>

@@ -5,7 +5,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import {
   BookOpen, ChevronDown, Menu, X, Search, Sparkles,
-  GraduationCap, FileText, Newspaper, ExternalLink, Moon, Sun
+  GraduationCap, FileText, Newspaper, ExternalLink, Moon, Sun,
+  Calculator, Award, CheckCircle2
 } from 'lucide-react';
 import ThemeToggle from '@/components/theme/ThemeToggle';
 
@@ -195,27 +196,73 @@ export default function GreekNavbar() {
             </Link>
 
             <Link
+              href="/gr/trapeza-thematon"
+              className={`px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-colors flex items-center gap-1.5 ${
+                pathname === '/gr/trapeza-thematon'
+                  ? 'text-blue-600 bg-blue-50 dark:bg-blue-950/50'
+                  : 'text-slate-700 dark:text-slate-200 hover:text-blue-600 hover:bg-slate-50 dark:hover:bg-slate-800'
+              }`}
+            >
+              <span>Τράπεζα Θεμάτων</span>
+              <span className="text-[10px] bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300 font-extrabold px-1.5 py-0.2 rounded">ΙΕΠ</span>
+            </Link>
+
+            <Link
+              href="/gr/panelladikes"
+              className={`px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-colors ${
+                pathname === '/gr/panelladikes'
+                  ? 'text-blue-600 bg-blue-50 dark:bg-blue-950/50'
+                  : 'text-slate-700 dark:text-slate-200 hover:text-blue-600 hover:bg-slate-50 dark:hover:bg-slate-800'
+              }`}
+            >
+              Πανελλαδικές
+            </Link>
+
+            <Link
+              href="/gr/ypologistis-morion"
+              className={`px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-colors flex items-center gap-1 ${
+                pathname === '/gr/ypologistis-morion'
+                  ? 'text-blue-600 bg-blue-50 dark:bg-blue-950/50'
+                  : 'text-slate-700 dark:text-slate-200 hover:text-blue-600 hover:bg-slate-50 dark:hover:bg-slate-800'
+              }`}
+            >
+              <Calculator className="w-3.5 h-3.5 text-indigo-500" />
+              <span>Μόρια</span>
+            </Link>
+
+            <Link
+              href="/gr/diagonismata"
+              className={`px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-colors ${
+                pathname === '/gr/diagonismata'
+                  ? 'text-blue-600 bg-blue-50 dark:bg-blue-950/50'
+                  : 'text-slate-700 dark:text-slate-200 hover:text-blue-600 hover:bg-slate-50 dark:hover:bg-slate-800'
+              }`}
+            >
+              Διαγωνίσματα
+            </Link>
+
+            <Link
               href="/gr/pdf-vivlia"
-              className={`px-3 py-2 rounded-xl text-xs xl:text-sm font-bold transition-colors flex items-center gap-1.5 ${
+              className={`px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-colors flex items-center gap-1.5 ${
                 pathname === '/gr/pdf-vivlia'
                   ? 'text-blue-600 bg-blue-50 dark:bg-blue-950/50'
                   : 'text-slate-700 dark:text-slate-200 hover:text-blue-600 hover:bg-slate-50 dark:hover:bg-slate-800'
               }`}
             >
               <FileText className="w-3.5 h-3.5 text-blue-500" />
-              <span>Βιβλία PDF (ebooks)</span>
+              <span>Βιβλία PDF</span>
             </Link>
 
             <Link
               href="/gr/eidiseis"
-              className={`px-3 py-2 rounded-xl text-xs xl:text-sm font-bold transition-colors flex items-center gap-1.5 ${
+              className={`px-2.5 py-2 rounded-xl text-xs xl:text-sm font-bold transition-colors flex items-center gap-1.5 ${
                 pathname?.startsWith('/gr/eidiseis')
                   ? 'text-blue-600 bg-blue-50 dark:bg-blue-950/50'
                   : 'text-slate-700 dark:text-slate-200 hover:text-blue-600 hover:bg-slate-50 dark:hover:bg-slate-800'
               }`}
             >
               <Newspaper className="w-3.5 h-3.5 text-emerald-500" />
-              <span>Ειδήσεις Παιδείας</span>
+              <span>Ειδήσεις</span>
             </Link>
           </nav>
 
@@ -257,7 +304,7 @@ export default function GreekNavbar() {
 
       {/* Mobile Drawer (100% Greek) */}
       {isOpen && (
-        <div className="lg:hidden bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-5 py-4 space-y-3 animate-fadeIn text-sm">
+        <div className="lg:hidden bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-5 py-4 space-y-2 animate-fadeIn text-sm max-h-[85vh] overflow-y-auto">
           <Link
             href="/gr"
             onClick={() => setIsOpen(false)}
@@ -285,6 +332,38 @@ export default function GreekNavbar() {
             className="block py-2 font-semibold text-slate-800 dark:text-slate-200 border-b border-slate-100 dark:border-slate-800"
           >
             Λύκειο (Α\' - Γ\' Τάξη &amp; Πανελλαδικές)
+          </Link>
+          <Link
+            href="/gr/trapeza-thematon"
+            onClick={() => setIsOpen(false)}
+            className="block py-2 font-semibold text-blue-700 dark:text-blue-400 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between"
+          >
+            <span>Τράπεζα Θεμάτων ΙΕΠ (Λύσεις)</span>
+            <span className="text-[10px] font-black bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full">ΙΕΠ</span>
+          </Link>
+          <Link
+            href="/gr/panelladikes"
+            onClick={() => setIsOpen(false)}
+            className="block py-2 font-semibold text-purple-700 dark:text-purple-400 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between"
+          >
+            <span>Πανελλαδικές Εξετάσεις &amp; ΟΕΦΕ</span>
+            <Award className="w-4 h-4 text-purple-500" />
+          </Link>
+          <Link
+            href="/gr/ypologistis-morion"
+            onClick={() => setIsOpen(false)}
+            className="block py-2 font-semibold text-indigo-700 dark:text-indigo-400 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between"
+          >
+            <span>Υπολογιστής Μορίων 2026</span>
+            <Calculator className="w-4 h-4 text-indigo-500" />
+          </Link>
+          <Link
+            href="/gr/diagonismata"
+            onClick={() => setIsOpen(false)}
+            className="block py-2 font-semibold text-amber-700 dark:text-amber-400 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between"
+          >
+            <span>Διαγωνίσματα Α\' &amp; Β\' Τετραμήνου</span>
+            <CheckCircle2 className="w-4 h-4 text-amber-500" />
           </Link>
           <Link
             href="/gr/pdf-vivlia"
